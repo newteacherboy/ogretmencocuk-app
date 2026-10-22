@@ -1,0 +1,111 @@
+.dm-pro-panel{padding:18px 18px calc(100px + env(safe-area-inset-bottom));overflow-y:auto;background:#f5fbfb;flex:1;color:#173c49;font-family:Nunito,system-ui,sans-serif}.dm-pro-panel h2{font-size:22px;margin:0 0 4px}.dm-pro-panel>p{color:#647a83;font-size:14px;margin:0 0 20px}.dm-pro-mode{width:100%;display:flex;align-items:center;gap:16px;text-align:left;padding:20px 16px;margin:0 0 14px;border:1px solid var(--edge);border-radius:22px;background:var(--bg);color:var(--ink);font-family:inherit;cursor:pointer;box-shadow:0 4px 0 var(--edge)}.dm-pro-mode i{font-size:36px;font-style:normal}.dm-pro-mode b{display:block;font-size:18px}.dm-pro-mode small{display:block;font-size:13px;margin-top:4px;line-height:1.4}.dm-pro-mode:focus-visible,.dm-social button:focus-visible,.dm-sheet button:focus-visible{outline:3px solid #0d9fa8;outline-offset:3px}#pkSekmeler button[data-p="kp"],#pkSekmeler button[data-p="sh"],#pkSekmeler button[data-p="kk"]{display:none!important}.dm-pro-mode:last-child{margin-bottom:12px}
+.dm-social{background:#fff;border:1px solid #d7eceb;border-radius:20px;padding:16px;margin-bottom:14px;color:#173c49;font-family:Nunito,system-ui,sans-serif}.dm-social h4{margin:0 0 12px;font-size:16px}.dm-social-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px}.dm-social button,.dm-sheet button{font-family:inherit;font-weight:800;cursor:pointer;border:1px solid #c9e4e4;border-radius:14px;padding:12px;background:#edf8f7;color:#166473;min-height:44px}.dm-social button:disabled,.dm-sheet button:disabled{opacity:.5;cursor:default}.dm-social-actions .dm-block{background:#fff4f4;border-color:#f0d9d9;color:#92515b}.dm-social select,.dm-sheet select{width:100%;border:1px solid #d3e4e6;border-radius:12px;padding:12px;font:700 14px Nunito,system-ui;background:#f8fcfc;color:#173c49;margin-bottom:8px}.dm-social small{display:block;color:#687d86;font-size:12px;line-height:1.5;margin-top:8px}.dm-social .dm-send-duel{width:100%;background:#0a8f99;color:white}.dm-social .dm-blocked-note{font-size:13px;color:#8a5560;margin:10px 0}
+.dm-perde{position:fixed;inset:0;z-index:100000180;background:#14333e70;backdrop-filter:blur(5px);display:flex;align-items:center;justify-content:center;padding:16px;font-family:Nunito,system-ui,sans-serif}.dm-sheet{position:relative;width:min(100%,520px);max-height:calc(100dvh - 32px);overflow:auto;padding:22px;border-radius:26px;background:#fff;color:#173c49;box-shadow:0 18px 55px #13384435}.dm-sheet h2{margin:8px 40px 6px 0;font-size:22px}.dm-sheet p{font-size:14px;color:#617b84;line-height:1.5}.dm-sheet .dm-x{position:absolute;top:12px;right:12px;width:40px;padding:0;border:0;background:#f0f6f7;font-size:20px}.dm-sheet .dm-mascot{height:80px;width:74px;object-fit:contain;float:left;margin-right:12px}.dm-sheet header{min-height:82px;margin-bottom:16px}.dm-message-grid,.dm-gift-grid{display:grid;gap:8px}.dm-message-grid button{text-align:left;background:#f5fbfb}.dm-gift-grid{grid-template-columns:1fr 1fr}.dm-gift-grid button{background:#fffaf0;border-color:#efe0b6;text-align:center}.dm-gift-grid small{display:block;color:#977132;margin-top:5px}.dm-gift-confirm{border-radius:16px;background:#fff8e6;padding:14px;margin:12px 0}.dm-primary{background:#0a8f99!important;color:white!important;width:100%;margin-top:8px}.dm-duel-item{border:1px solid #ddebec;border-radius:16px;padding:12px;margin:10px 0}.dm-duel-item b,.dm-duel-item small{display:block}.dm-duel-item small{font-size:12px;color:#64808a;margin:4px 0 8px}.dm-error{color:#a04152!important;background:#fff0f2;padding:10px;border-radius:12px;font-size:13px}.dm-live-meta{display:flex;justify-content:space-between;gap:8px;align-items:center;font-weight:900;color:#087e89;font-size:14px}.dm-word{text-align:center;font-size:clamp(22px,6vw,32px);font-weight:900;padding:20px 8px;margin:14px 0;background:#e5f8f4;border-radius:18px;overflow-wrap:anywhere}.dm-flight{display:grid;grid-template-columns:1fr 1fr;gap:22px 12px;padding:14px 0 20px;min-height:230px;align-content:center}.dm-flight button{background:#edf6ff;border-color:#c5dff5;color:#285370;min-height:58px;box-shadow:0 4px 0 #b7d4e7;animation:dmFloat 3s ease-in-out infinite alternate;animation-delay:calc(var(--i)*-.45s);overflow-wrap:anywhere}.dm-flight.rota{gap:12px}.dm-flight.rota button{animation:none;min-height:76px;background:#f6f0ff;border-color:#dfd4f0;color:#644d85;font-size:13px}.dm-feedback{min-height:24px;color:#167c68;font-size:14px;font-weight:800;text-align:center}.dm-results{display:grid;grid-template-columns:1fr 1fr;gap:10px}.dm-result{border:1px solid #d8ece7;background:#f3fbf8;border-radius:18px;padding:16px;text-align:center}.dm-result strong{display:block;font-size:30px;color:#118e84}.dm-result small{display:block;color:#638179;margin-top:6px;font-size:12px}.dm-result.rival{background:#f8f5fd;border-color:#e7ddf3}.dm-match-wait{text-align:center;padding:14px 0}.dm-match-wait img{height:125px}.dm-notification{position:fixed;z-index:100000190;top:calc(16px + env(safe-area-inset-top));left:16px;right:16px;max-width:460px;margin:auto;border:1px solid #bfdfda;background:white;border-radius:20px;padding:14px 48px 14px 16px;box-shadow:0 12px 35px #214c4e35;color:#173c49;font:800 14px Nunito,system-ui}.dm-notification small{display:block;font-weight:600;margin-top:5px}.dm-notification button{background:#e7f8f3;border:0;border-radius:10px;padding:10px;font:800 13px Nunito;cursor:pointer;margin-top:8px;color:#147268}.dm-notification .dm-notif-close{position:absolute;right:12px;top:5px;background:transparent;font-size:20px}.dm-live-card{background:linear-gradient(150deg,#daf8f3,#e0efff)!important;color:#176a73!important}.dm-live-card .az-gcard-title{color:#176a73!important}.dm-help-new{padding:12px;border:1px solid #cfe5df;border-radius:14px;background:#f3fbf8;margin:10px 0;color:#254751}.dm-help-new h3{margin:4px 0 8px;font-size:17px}.dm-help-new p{font-size:13px;line-height:1.6;margin:8px 0}@keyframes dmFloat{from{transform:translateY(-5px) rotate(-1.5deg)}to{transform:translateY(5px) rotate(1.5deg)}}@media(prefers-reduced-motion:reduce){.dm-flight button{animation:none!important}.dm-perde{backdrop-filter:none}}@media(max-width:370px){.dm-sheet{padding:18px 14px}.dm-social-actions{grid-template-columns:1fr}.dm-flight{gap:18px 8px}.dm-gift-grid{grid-template-columns:1fr 1fr}.dm-sheet h2{font-size:20px}}
+
+.dm-empty-notice{animation:dmNoticeFade .2s ease both}.dm-empty-notice .dm-sheet{animation:dmNoticeIn .3s cubic-bezier(.2,.8,.2,1) both;text-align:center}
+.dm-empty-notice .dm-mascot{width:125px;height:145px;object-fit:contain;animation:dmNoticePapi 2.8s ease-in-out infinite}
+.dm-empty-notice .dm-sheet header{padding-top:8px}.dm-empty-notice .dm-sheet-body>p{color:#6c8589;line-height:1.6}
+.dm-empty-notice .dm-sheet-body>.dm-primary{width:100%;margin-top:12px}.dm-empty-notice .dm-sheet{background:#f8fffc;border:1px solid #dceee5}
+@keyframes dmNoticeIn{from{opacity:0;transform:translateY(15px) scale(.97)}to{opacity:1;transform:none}}
+@keyframes dmNoticeFade{from{opacity:0}to{opacity:1}}
+@keyframes dmNoticePapi{0%,100%{transform:rotate(-2deg) translateY(0)}50%{transform:rotate(2deg) translateY(-5px)}}
+@media(prefers-reduced-motion:reduce){.dm-empty-notice,.dm-empty-notice .dm-sheet,.dm-empty-notice .dm-mascot{animation:none!important}}
+
+
+/* Keep the genuine word-mode entry visible after leaving the MeduPro menu. */
+#tab-konusmapratigi.dc-fullscreen-overlay.active{overflow-y:auto!important;align-items:stretch!important;justify-content:flex-start!important}
+#tab-konusmapratigi.active .kp-shell{width:100%!important;min-height:100%!important;height:auto!important;overflow:visible!important;flex:0 0 auto!important}
+#tab-konusmapratigi.active #kp-panel-kelime.active{display:block!important;visibility:visible!important;opacity:1!important;min-height:110px}
+#tab-konusmapratigi.active #kpKelimeGirisEkrani{visibility:visible!important;opacity:1!important;min-height:120px}
+#tab-konusmapratigi.active #kpParkurAlani{min-height:100px}
+
+
+/* Papi Word Mode visual redesign; scoped to entry screen; existing game logic intact. */
+#tab-konusmapratigi.active .dm-word-home{width:100%;max-width:650px;margin:0 auto 26px;background:#fffdf7;border:5px solid #fff;border-radius:27px;box-shadow:0 10px 24px #392c6217;overflow:hidden;box-sizing:border-box;color:#164c44}
+#tab-konusmapratigi .dm-word-intro{background:linear-gradient(148deg,#dff6db 0%,#e9f9eb 47%,#f3fdf7 100%);padding:20px 14px 12px;position:relative}
+#tab-konusmapratigi .dm-word-intro:after{content:"";position:absolute;right:-20px;top:-25px;width:130px;height:95px;opacity:.2;background:radial-gradient(ellipse at 40% 70%,#4ba36b 0 28%,transparent 30%),radial-gradient(ellipse at 70% 40%,#4ba36b 0 30%,transparent 32%);pointer-events:none}
+#tab-konusmapratigi .dm-word-intro-top{position:relative;z-index:1}
+#tab-konusmapratigi .dm-word-intro-top>span{display:block;color:#20594d;letter-spacing:.16em;font-size:clamp(10px,2.5vw,13px);font-weight:900}
+#tab-konusmapratigi .dm-word-intro-top h2{margin:4px 0 10px!important;font:900 clamp(29px,8vw,42px)/1.12 Fredoka,Nunito,system-ui!important;color:#104a3e!important;letter-spacing:-.03em}
+#tab-konusmapratigi .dm-word-hero{display:grid;grid-template-columns:minmax(100px,41%) minmax(0,59%);align-items:center;gap:5px;min-height:152px}
+#tab-konusmapratigi .dm-word-hero img{display:block;width:100%;height:clamp(130px,37vw,200px);object-fit:contain;filter:drop-shadow(0 5px 9px #20533e2a)}
+#tab-konusmapratigi .dm-word-hero p{background:#fff;border-radius:24px;padding:clamp(10px,3vw,18px);margin:0;color:#17483e;font:800 clamp(12px,3.5vw,18px)/1.5 Nunito,system-ui;box-shadow:0 5px 15px #275d4812;max-width:100%}
+#tab-konusmapratigi .dm-word-rules{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;margin-top:9px;padding:9px 4px;background:#ffffffa3;border-radius:16px}
+#tab-konusmapratigi .dm-word-rules span{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;font:800 11px/1.3 Nunito,system-ui;color:#1a5348;padding:3px 2px;border-right:1px solid #cfe4d3;overflow-wrap:anywhere}
+#tab-konusmapratigi .dm-word-rules span:last-child{border-right:0}
+#tab-konusmapratigi .dm-word-rules b{font-size:11px}
+#tab-konusmapratigi .dm-word-rules small{font-size:10px}
+#tab-konusmapratigi .dm-word-home-body{padding:12px 13px 20px}
+#tab-konusmapratigi .dm-word-home-body .kp-label{font:900 clamp(17px,4.5vw,22px)/1.3 Fredoka,Nunito!important;letter-spacing:0;text-transform:none;color:#174d43!important;margin:4px 0 9px!important}
+#tab-konusmapratigi .dm-word-name-wrap{display:flex;align-items:center;gap:7px;background:#fffae1;border:2px dashed #f4a51c;border-radius:18px;padding:7px 10px;color:#e99c18}
+#tab-konusmapratigi .dm-word-name-wrap>span{flex:none;font-size:19px}
+#tab-konusmapratigi .dm-word-name-wrap .kp-input{flex:1;min-width:0;width:100%!important;margin:0!important;padding:6px 2px!important;border:0!important;background:transparent!important;box-shadow:none!important;font:900 clamp(15px,4vw,19px) Nunito,system-ui!important;color:#513487!important;text-align:center}
+#tab-konusmapratigi .dm-word-name-wrap .kp-input:focus-visible{outline:2px solid #8a55dd;outline-offset:3px;border-radius:6px}
+#tab-konusmapratigi .dm-word-route-title{margin:17px 0 8px;font:900 clamp(18px,5vw,24px)/1.3 Fredoka,Nunito,system-ui;color:#164c44}
+#tab-konusmapratigi .dm-word-home #kpParkurKapsayici{background:linear-gradient(180deg,#f1fbff,#f6efff)!important;border:1px solid #eadcfb!important;border-radius:20px!important;padding:15px 9px!important}
+#tab-konusmapratigi .dm-word-home .kp-step-row{background:#ffffffcf;border:1px solid #eee3fb;border-radius:18px;padding:11px 9px;margin:0 0 10px!important;min-height:76px}
+#tab-konusmapratigi .dm-word-home .kp-step-row .kp-step-num{color:#8e57c6!important}
+#tab-konusmapratigi .dm-word-home .kp-step-row .kp-step-name{color:#184a42!important}
+@media(max-width:370px){#tab-konusmapratigi .dm-word-intro{padding:15px 9px 11px}#tab-konusmapratigi .dm-word-home-body{padding:10px 9px 16px}#tab-konusmapratigi .dm-word-hero{grid-template-columns:38% 62%;min-height:120px}#tab-konusmapratigi .dm-word-hero img{height:120px}#tab-konusmapratigi .dm-word-rules small{font-size:9px}}
+
+
+/* Word Mode design finish: visual-only scenic level card and mobile spacing. */
+#tab-konusmapratigi.active .dm-word-home #kpParkurAlani{width:100%;min-width:0}
+#tab-konusmapratigi.active .dm-word-home .kp-step-row{background:linear-gradient(90deg,#e5f9f7d9,#fffaf9d9),url('parkur-map-landscape-v1.svg') center/cover no-repeat!important;border:2px solid #fff!important;box-shadow:0 4px 13px #4666811c!important;min-height:94px!important}
+#tab-konusmapratigi.active .dm-word-home .kp-step-row .kp-node-outer{filter:drop-shadow(0 2px 5px #513e7927)}
+#tab-konusmapratigi.active .dm-word-home .kp-step-row .kp-step-name{font-weight:900!important;text-shadow:0 1px 0 #fff9}
+#tab-konusmapratigi.active .dm-word-home .kp-step-row .kp-step-sub{color:#486c73!important}
+#tab-konusmapratigi.active .dm-word-home .dm-word-name-wrap .kp-input:disabled{opacity:1!important;-webkit-text-fill-color:#513487!important}
+@media(max-width:430px){
+#tab-konusmapratigi.active .kp-shell{padding-left:9px!important;padding-right:9px!important}
+#tab-konusmapratigi.active .dm-word-home{border-width:3px;border-radius:24px}
+#tab-konusmapratigi .dm-word-hero img{height:clamp(110px,32vw,170px)}
+#tab-konusmapratigi .dm-word-intro-top h2{font-size:clamp(27px,8vw,36px)!important}
+#tab-konusmapratigi .dm-word-rules span{font-size:10px}
+#tab-konusmapratigi.active .dm-word-home .kp-step-row{padding:10px 8px!important;min-height:85px!important}
+}
+
+/* Papi Word Mode: no duplicated parkour tabs or modal chrome. */
+body:has(#tab-konusmapratigi.active) #pkSekmeler{display:none!important}
+#tab-konusmapratigi.active .kp-tabbar{display:none!important}
+#tab-konusmapratigi.active:has(#kpKelimeGirisEkrani[style*="display: block"]) .kp-topbar,
+#tab-konusmapratigi.active:has(#kpKelimeGirisEkrani[style*="display: block"]) #kpEnerjiSatiri{display:none!important}
+#tab-konusmapratigi .dm-word-intro{position:relative}
+#tab-konusmapratigi .dm-word-intro-top{padding-right:0}
+#tab-konusmapratigi .dm-kp-hud{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;position:absolute;right:12px;top:47px;width:clamp(145px,38%,205px);z-index:5}
+#tab-konusmapratigi .dm-kp-hud>*{display:flex;align-items:center;justify-content:center;min-width:0;min-height:35px;padding:5px;border:1px solid #d6e7dc;border-radius:999px;background:#fff;font:900 12px Nunito,system-ui;color:#1f5549;box-shadow:0 3px 9px #21452a16;white-space:nowrap}
+#tab-konusmapratigi .dm-kp-hud button{cursor:pointer;background:#e9f1ff;border-color:#cfddf7}
+#tab-konusmapratigi .dm-kp-hud .dm-kp-combo{background:#fff0e9;color:#a85526}
+#tab-konusmapratigi .dm-kp-hud .dm-kp-energy{background:#f1ffec;color:#25703e}
+#tab-konusmapratigi .dm-kp-hud .dm-kp-gold{background:#fff7db;color:#85600a}
+#tab-konusmapratigi .dm-word-hero{margin-top:28px}
+@media(max-width:430px){#tab-konusmapratigi .dm-kp-hud{top:44px;right:8px;width:51%;gap:4px}#tab-konusmapratigi .dm-kp-hud>*{font-size:10px;min-height:31px}#tab-konusmapratigi .dm-word-hero{margin-top:32px}}
+
+/* Memory Chest two-zone layout; preserve existing card shape and scoring. */
+#hafizaKartGrid.hz-half-open-grid{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px!important}
+#hafizaKartGrid.hz-half-open-grid .hz-grid-divider{grid-column:1/-1;text-align:center;background:#fff8ed;color:#805b2c;border-radius:12px;padding:8px;font:900 13px Nunito,system-ui}
+#hafizaKartGrid.hz-half-open-grid .hz-open-fixed{background:#e4fbf0!important;border:2px solid #76bfa7!important;color:#125d4b!important;box-shadow:0 3px 0 #9cd5bb!important;overflow-wrap:anywhere;font-size:clamp(10px,2.5vw,15px)!important}
+#hafizaKartGrid.hz-half-open-grid .hz-open-fixed.hz-selected{outline:4px solid #f7b34e!important;outline-offset:-4px;transform:scale(.97)}
+#hafizaKartGrid.hz-half-open-grid .hz-hidden-match{overflow-wrap:anywhere;font-size:clamp(10px,2.5vw,15px)!important}
+#hafizaKartGrid.hz-half-open-grid .hz-kart.eslesti{opacity:.48;cursor:default}
+
+/* MeduPro Papi learning cards v1: consistent with pastel games catalogue. */
+#bzParkur .dm-pro-panel{box-sizing:border-box!important;display:block;position:relative;z-index:3;flex:1 1 auto;min-width:0;width:100%;min-height:0;overflow-y:auto;overflow-x:hidden;padding:18px 12px calc(115px + env(safe-area-inset-bottom))!important;background:linear-gradient(180deg,#fff9e5,#f4fff1 65%,#f4edff)!important;color:#123c4a!important;opacity:1!important;visibility:visible!important}
+#bzParkur .dm-pro-panel[hidden]{display:none!important}
+#bzParkur .dm-pro-scene{position:relative;min-height:168px;border:3px solid #ffffffb8;border-radius:26px;background:linear-gradient(120deg,#d0f5ef,#ecddff 65%,#ffeabd);padding:27px 17px 20px 130px;box-shadow:0 6px 0 #c6decf,0 8px 19px #2b68711a;display:flex;flex-direction:column;justify-content:center;margin:0 0 19px;overflow:hidden}
+#bzParkur .dm-pro-scene img{position:absolute;left:7px;bottom:0;width:126px;height:150px;object-fit:contain;filter:drop-shadow(0 6px 5px #183b4a24)}
+#bzParkur .dm-pro-scene h2{font:900 clamp(24px,6vw,34px)/1.12 Fredoka,Nunito,system-ui!important;color:#124d4c!important;margin:0 0 6px!important;text-shadow:none!important}
+#bzParkur .dm-pro-scene p{font:800 14px/1.5 Nunito,system-ui!important;color:#32676b!important;margin:0!important}
+#bzParkur .dm-pro-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;align-items:stretch}
+#bzParkur .dm-pro-cards .dm-pro-mode{--bg:#efe3ff;--edge:#ccb4f7;--ink:#33265e;position:relative;display:flex!important;flex-direction:column!important;align-items:center!important;text-align:center!important;min-height:206px;min-width:0;width:100%;padding:13px 7px 45px!important;margin:0!important;background:linear-gradient(155deg,#fff9,var(--bg) 35%,var(--bg))!important;color:var(--ink)!important;border:2px solid #fff!important;border-radius:25px!important;box-shadow:0 4px 0 var(--edge),0 7px 15px #194b4b1c!important;opacity:1!important;visibility:visible!important;filter:none!important;transform:none!important;overflow:hidden}
+#bzParkur .dm-pro-cards .dm-pro-mode[data-mode=sh]{--bg:#ffecab;--edge:#f3c35f;--ink:#5e441a}
+#bzParkur .dm-pro-cards .dm-pro-mode[data-mode=kk]{--bg:#c6ffe0;--edge:#94dbb3;--ink:#175944}
+#bzParkur .dm-pro-cards .dm-pro-mode>i{display:flex!important;align-items:center;justify-content:center;width:100%;height:88px;margin:0 0 8px;font-size:56px!important;font-style:normal!important;filter:drop-shadow(0 5px 4px #214d5420)}
+#bzParkur .dm-pro-cards .dm-pro-mode>i img{height:90px;width:100%;object-fit:contain;filter:none}
+#bzParkur .dm-pro-cards .dm-pro-mode>span{display:block!important;min-width:0;width:100%;padding:0!important}
+#bzParkur .dm-pro-cards .dm-pro-mode b{font:900 clamp(12px,3vw,17px)/1.2 Fredoka,Nunito,system-ui!important;color:var(--ink)!important;overflow-wrap:anywhere}
+#bzParkur .dm-pro-cards .dm-pro-mode small{font:700 clamp(10px,2.45vw,12px)/1.35 Nunito,system-ui!important;color:var(--ink)!important;margin:7px 0 0!important;opacity:.95!important;overflow-wrap:anywhere}
+#bzParkur .dm-pro-cards .dm-pro-mode em{position:absolute;bottom:10px;left:50%;transform:translateX(-50%);display:grid;place-items:center;width:31px;height:31px;border-radius:50%;background:#fff;color:var(--ink);font:900 30px/1 system-ui;box-shadow:0 2px 8px #0001;font-style:normal}
+#bzParkur .dm-pro-cards .dm-pro-mode:focus-visible{outline:3px solid #7443ce!important;outline-offset:3px}
+@media(min-width:600px){#bzParkur .dm-pro-panel{padding:24px 24px 110px!important}#bzParkur .dm-pro-cards{gap:15px}#bzParkur .dm-pro-cards .dm-pro-mode{min-height:235px;padding-top:20px!important}}
+@media(max-width:360px){#bzParkur .dm-pro-cards{gap:5px}#bzParkur .dm-pro-cards .dm-pro-mode{border-radius:18px!important;min-height:192px;padding:12px 4px 42px!important}#bzParkur .dm-pro-cards .dm-pro-mode>i{height:67px;font-size:43px!important}#bzParkur .dm-pro-cards .dm-pro-mode>i img{height:74px}#bzParkur .dm-pro-scene{padding-left:96px;min-height:136px}#bzParkur .dm-pro-scene img{width:95px;height:115px}}

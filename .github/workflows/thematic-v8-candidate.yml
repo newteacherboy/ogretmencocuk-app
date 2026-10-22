@@ -1,0 +1,29 @@
+name: Thematic v8 candidate 240 lessons
+on:
+  pull_request:
+    paths:
+      - 'thematic-v8-candidate.js'
+      - 'learning-core.js'
+      - 'thematic-curriculum.json'
+      - 'tests/thematic-v8-candidate.test.cjs'
+      - 'tests/thematic-v8-sql-preflight.test.cjs'
+      - 'tests/thematic-v8-browser-flow.test.cjs'
+      - 'thematic-learning.js'
+      - 'supabase/diji-medu-gecmisi/staged-thematic-v8-compatibility.sql'
+      - '.github/workflows/thematic-v8-candidate.yml'
+  push:
+    paths:
+      - 'thematic-v8-candidate.js'
+      - 'learning-core.js'
+      - 'thematic-curriculum.json'
+      - 'tests/thematic-v8-candidate.test.cjs'
+      - '.github/workflows/thematic-v8-candidate.yml'
+jobs:
+  candidate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: node --test tests/thematic-v8-candidate.test.cjs tests/thematic-v8-sql-preflight.test.cjs tests/thematic-v8-browser-flow.test.cjs

@@ -1,0 +1,15 @@
+# Papi guided introduction
+
+Eight stages: purpose choice, selected route, notebook lessons, games, friends, My World, store, finish. The current Papi PNG poses animate across a full viewport scene at welcome, every transition, and completion. Reduced motion disables flight, orbit and sparkle animations.
+
+The school choice selects the existing game map; independent learning selects the existing space learning map. Both remain accessible. Existing real screen openers and navigation are retained. Initial-account eligibility uses the existing server-backed tour decision; existing accounts can replay from Help. Completion saves `papi:v3`, legacy general-tour completion markers, and `dmLearningPurpose` in existing account-owned `yo` data.
+
+Preview permits programmatic opening of gated top-level tabs and presents feature cards without level dimming. The modal intercepts outside clicks and traps focus: purchases, game starts and social actions cannot be invoked through the guided preview. Real XP, energy, ownership, curriculum and server permissions are not changed. Completion or account switch removes preview and repaints actual level locks. No new database schema or media assets.
+
+Validation: `tests/papi-onboarding-ui.cjs` covers 320/390/768px, both route controls, all six sections, preview click isolation, backward navigation, completion, saved purpose, replay, reduced motion and account changes. `tests/portal-integrity.test.cjs` parses all inline scripts.
+
+Automatic introductions appear at most twice, once per login. An account-owned `dmPapiIntro` stores the presentation count and the optional ‘Bir daha gösterme’ choice on the final screen. Automatic presentations increment the count on opening; explicit Help replays do not consume that budget. All accounts registered at or before 2026-10-09 20:06:40 Europe/Istanbul receive one automatic introduction on their next login. An authenticated, opt-in `ekVeriGetir` request returns the existing registration date, without changing ordinary read responses. The account-owned `rolloutSeen` marker suppresses further automatic rollout presentations. Existing v3 completions count as one presentation. Escape cannot dismiss the guide, and there is no close or skip control.
+
+The tour pauses and queues teacher announcements, social notifications, welcome/weekly/reward cards and timed prompts. Existing cards are hidden immediately and their dismissal timers pause. After the first exercise and its result screen close, notices resume one at a time. Queues belong to the signed-in actor and are cleared on account changes.
+
+‘Haydi başla’ directly opens the first available unfinished Adventure Map task for the school choice (or a replay when all are completed), or chapter 0 of the Learning Path for independent learners. Both use their existing real game/service flows, progress, energy and replay reward rules. The first exercise disables normal exit and tab navigation until completion. Loading failure offers retry/return; energy or connection failure releases the exit lock. No XP, energy or ownership is fabricated.

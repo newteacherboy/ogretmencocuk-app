@@ -1,0 +1,1 @@
+/* Daily discovery and weekly target reminder popups retired. Goals remain on the route. */

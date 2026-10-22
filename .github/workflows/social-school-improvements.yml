@@ -1,0 +1,40 @@
+name: Social feed and school route checks
+on:
+  push:
+    paths:
+      - 'oyna-v2.js'
+      - 'school-journey.*'
+      - 'friends-ui.*'
+      - 'league-momentum.*'
+      - 'supabase/diji-medu-gecmisi/20261017162000_feed_school_and_purchases.sql'
+      - 'tests/social-school-improvements.test.cjs'
+      - 'tests/first-tap-persistence.test.cjs'
+      - '.github/workflows/social-school-improvements.yml'
+  pull_request:
+    paths:
+      - 'oyna-v2.js'
+      - 'school-journey.*'
+      - 'friends-ui.*'
+      - 'league-momentum.*'
+      - 'supabase/diji-medu-gecmisi/20261017162000_feed_school_and_purchases.sql'
+      - 'tests/social-school-improvements.test.cjs'
+      - 'tests/first-tap-persistence.test.cjs'
+      - '.github/workflows/social-school-improvements.yml'
+  workflow_dispatch:
+jobs:
+  regressions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check scripts
+        run: |
+          node --check oyna-v2.js
+          node --check school-journey.js
+          node --check friends-ui.js
+          node --check league-momentum.js
+      - name: Test route and social regressions
+        run: |
+          node --test tests/social-school-improvements.test.cjs tests/dual-route.test.cjs tests/achievement-feed-cache.test.cjs tests/first-tap-persistence.test.cjs

@@ -1,0 +1,41 @@
+name: Supabase fonksiyonlarını yayınla
+# Elle çalıştırılır. Diji Medu Türkçe'nin tüm edge function'larını yeni Supabase projesine yükler.
+# Gerekli GitHub secret: SUPABASE_ACCESS_TOKEN (yeni Supabase hesabı > Account > Access Tokens).
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: 'Yayınlamak için YAYINLA yazın'
+        required: true
+permissions:
+  contents: read
+concurrency:
+  group: supabase-fonksiyon-yayini
+  cancel-in-progress: false
+jobs:
+  deploy:
+    if: ${{ github.event.inputs.confirm == 'YAYINLA' }}
+    runs-on: ubuntu-latest
+    env:
+      SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+      PROJECT_REF: yeni-proje-ref
+    steps:
+      - uses: actions/checkout@v4
+      - name: Proje bağlı mı?
+        run: |
+          case "$PROJECT_REF" in yeni-*) echo "::error::Önce tools/supabase-baglan.py ile yeni proje bağlanmalı"; exit 1;; esac
+          test -n "$SUPABASE_ACCESS_TOKEN" || { echo "::error::SUPABASE_ACCESS_TOKEN secret eksik"; exit 1; }
+      - uses: supabase/setup-cli@v1
+        with:
+          version: latest
+      - name: Fonksiyonları yükle
+        run: |
+          for fn in diji-api account-delete medupro-api kelime-rallisi teacher-oral thematic-learning papi-progress-worker papi-progress-unsubscribe papi-progress-optin; do
+            echo "== $fn"
+            supabase functions deploy "$fn" --project-ref "$PROJECT_REF" --no-verify-jwt --use-api
+          done
+      - name: Kontrol
+        run: |
+          code=$(curl -s -o /dev/null -w '%{http_code}' -X OPTIONS "https://$PROJECT_REF.supabase.co/functions/v1/diji-api")
+          echo "diji-api OPTIONS: $code"
+          case "$code" in 2*|4*) ;; *) exit 1;; esac

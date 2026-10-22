@@ -1,0 +1,42 @@
+name: Student character and wardrobe verification
+on:
+  push:
+    paths:
+      - 'adventure-avatars.js'
+      - 'avatar-assets/adventure-*.webp'
+      - 'avatar-assets/head-*.webp'
+      - 'index.html'
+      - 'storefront.js'
+      - 'storefront.css'
+      - 'character-builder.js'
+      - 'character-builder.css'
+      - 'tests/character-builder-ui.cjs'
+      - 'tests/adventure-avatars-ui.cjs'
+      - 'tests/avatar-layer-rig-ui.cjs'
+      - '.github/workflows/adventure-avatar-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  avatar-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --check character-builder.js
+      - run: npm install --no-save --package-lock=false playwright@1.58.2
+      - run: npx playwright install --with-deps chromium
+      - run: node tests/character-builder-ui.cjs
+      - run: node tests/legendary-shop-ui.cjs
+      - name: Save student character and outfit screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: student-character-qa
+          path: |
+            /tmp/student-character-builder.png
+            /tmp/student-character-outfit.png
+          if-no-files-found: ignore

@@ -1,0 +1,1 @@
+const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs');test('daily goal gate fix uses a new static script URL',()=>{const html=fs.readFileSync('index.html','utf8');assert.match(html,/progression-ui\.js\?v=(?:20261018-(?:open-tabs-2|chest-1|readable-study-1)|20261020-(?:start-path|start-test)-1)/);});

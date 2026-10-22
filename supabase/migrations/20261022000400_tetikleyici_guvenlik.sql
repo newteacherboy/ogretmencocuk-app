@@ -1,0 +1,163 @@
+-- Diji Medu Türkçe veritabanı kurulumu: görünüm, tetikleyiciler, satır güvenliği
+-- Diji Medu Türkçe şemasından (22 Ekim 2026) yapı olarak kopyalandı; öğrenci verisi içermez.
+
+create or replace view public.dm_safe_feed_events with (security_invoker=true) as  SELECT id,
+    student_id,
+    event_type,
+    target_student_id,
+    payload,
+    created_at,
+    safety_hidden
+   FROM feed_events f
+  WHERE ((NOT safety_hidden) AND dm_social_allowed(student_id, 'profile'::text) AND ((target_student_id IS NULL) OR dm_social_allowed(target_student_id, 'profile'::text)));;
+
+CREATE TRIGGER dm_gift_delivery AFTER INSERT ON public.dm_accessory_gifts FOR EACH ROW EXECUTE FUNCTION dm_deliver_accessory();
+CREATE TRIGGER dm_safety_gifts BEFORE INSERT ON public.dm_accessory_gifts FOR EACH ROW EXECUTE FUNCTION dm_safety_peer_guard();
+CREATE TRIGGER dm_feed_time_chests AFTER UPDATE ON public.dm_active_time FOR EACH ROW WHEN ((old.claimed IS DISTINCT FROM new.claimed)) EXECUTE FUNCTION dm_feed_achievement();
+CREATE TRIGGER dm_entitlement_guard BEFORE INSERT OR UPDATE ON public.dm_entitlements FOR EACH ROW EXECUTE FUNCTION dm_entitlement_guard();
+CREATE TRIGGER dm_feed_game_rewards AFTER INSERT ON public.dm_game_reward_runs FOR EACH ROW WHEN ((new.game_key !~~ 'konu:%'::text)) EXECUTE FUNCTION dm_feed_reward_result();
+CREATE TRIGGER dm_safety_matches BEFORE INSERT OR UPDATE ON public.dm_matches FOR EACH ROW EXECUTE FUNCTION dm_safety_peer_guard();
+CREATE TRIGGER dm_payment_state_sync AFTER UPDATE OF state ON public.dm_payment_transactions FOR EACH ROW EXECUTE FUNCTION dm_payment_state_sync();
+CREATE TRIGGER dm_feed_rewards AFTER INSERT OR UPDATE ON public.dm_progress_rewards FOR EACH ROW EXECUTE FUNCTION dm_feed_achievement();
+CREATE TRIGGER dm_feed_weekly_results AFTER INSERT ON public.dm_weekly_results FOR EACH ROW EXECUTE FUNCTION dm_feed_reward_result();
+CREATE TRIGGER dm_duel_guard BEFORE INSERT OR UPDATE ON public.duels FOR EACH ROW EXECUTE FUNCTION dm_pair_guard();
+CREATE TRIGGER dm_safety_duels BEFORE INSERT OR UPDATE ON public.duels FOR EACH ROW EXECUTE FUNCTION dm_safety_peer_guard();
+CREATE TRIGGER dm_00_parkur_xp_guard BEFORE INSERT OR UPDATE ON public.extra_data FOR EACH ROW EXECUTE FUNCTION dm_guard_parkur_xp_rebase();
+CREATE TRIGGER dm_01_feed_rank BEFORE INSERT OR UPDATE ON public.extra_data FOR EACH ROW WHEN ((COALESCE(current_setting('diji.topic_game'::text, true), ''::text) <> '1'::text)) EXECUTE FUNCTION dm_feed_rank_change();
+CREATE TRIGGER dm_feed_achievements AFTER INSERT OR UPDATE ON public.extra_data FOR EACH ROW WHEN (((new.key_name = 'yo'::text) AND (COALESCE(current_setting('diji.topic_game'::text, true), ''::text) <> '1'::text))) EXECUTE FUNCTION dm_feed_achievement();
+CREATE TRIGGER dm_gift_retention BEFORE INSERT OR UPDATE ON public.extra_data FOR EACH ROW EXECUTE FUNCTION dm_keep_gifts();
+CREATE TRIGGER dm_weekly_xp_capture BEFORE INSERT OR UPDATE ON public.extra_data FOR EACH ROW EXECUTE FUNCTION dm_capture_weekly_xp();
+CREATE TRIGGER dm_zz_feed_rank AFTER INSERT OR UPDATE ON public.extra_data FOR EACH ROW WHEN ((COALESCE(current_setting('diji.topic_game'::text, true), ''::text) <> '1'::text)) EXECUTE FUNCTION dm_feed_rank_change();
+CREATE TRIGGER dm_safety_feed BEFORE INSERT ON public.feed_events FOR EACH ROW EXECUTE FUNCTION dm_safety_feed_guard();
+CREATE TRIGGER dm_social_guard BEFORE INSERT ON public.feed_events FOR EACH ROW EXECUTE FUNCTION dm_pair_guard();
+CREATE TRIGGER dm_01_feed_rank BEFORE INSERT ON public.game_scores FOR EACH ROW EXECUTE FUNCTION dm_feed_rank_change();
+CREATE TRIGGER dm_zz_feed_rank AFTER INSERT ON public.game_scores FOR EACH ROW EXECUTE FUNCTION dm_feed_rank_change();
+CREATE TRIGGER dm_01_feed_rank BEFORE INSERT OR UPDATE ON public.lesson_progress FOR EACH ROW EXECUTE FUNCTION dm_feed_rank_change();
+CREATE TRIGGER dm_feed_lessons AFTER INSERT OR UPDATE ON public.lesson_progress FOR EACH ROW EXECUTE FUNCTION dm_feed_achievement();
+CREATE TRIGGER dm_zz_feed_rank AFTER INSERT OR UPDATE ON public.lesson_progress FOR EACH ROW EXECUTE FUNCTION dm_feed_rank_change();
+CREATE TRIGGER dm_01_feed_rank BEFORE INSERT ON public.level_completions FOR EACH ROW EXECUTE FUNCTION dm_feed_rank_change();
+CREATE TRIGGER dm_feed_stops AFTER INSERT ON public.level_completions FOR EACH ROW EXECUTE FUNCTION dm_feed_achievement();
+CREATE TRIGGER dm_zz_feed_rank AFTER INSERT ON public.level_completions FOR EACH ROW EXECUTE FUNCTION dm_feed_rank_change();
+CREATE TRIGGER dm_frozen_mail_guard BEFORE INSERT OR UPDATE ON public.mail_queue FOR EACH ROW EXECUTE FUNCTION dm_frozen_mail_guard();
+CREATE TRIGGER dm_notification_guard BEFORE INSERT ON public.notifications FOR EACH ROW EXECUTE FUNCTION dm_pair_guard();
+CREATE TRIGGER dm_safety_notifications BEFORE INSERT ON public.notifications FOR EACH ROW EXECUTE FUNCTION dm_safety_peer_guard();
+CREATE TRIGGER dm_feed_story AFTER INSERT OR UPDATE ON public.papi_story_progress FOR EACH ROW EXECUTE FUNCTION dm_feed_achievement();
+CREATE TRIGGER dm_route_mission_first_complete AFTER INSERT OR UPDATE OF completed ON public.papi_story_progress FOR EACH ROW EXECUTE FUNCTION dm_record_route_mission();
+CREATE TRIGGER dm_frozen_session_guard BEFORE INSERT OR UPDATE ON public.portal_sessions FOR EACH ROW EXECUTE FUNCTION dm_frozen_session_guard();
+CREATE TRIGGER dm_account_purchase_cleanup BEFORE DELETE ON public.students FOR EACH ROW EXECUTE FUNCTION dm_account_purchase_cleanup();
+CREATE TRIGGER dm_account_purchase_cleanup BEFORE DELETE ON public.teachers FOR EACH ROW EXECUTE FUNCTION dm_account_purchase_cleanup();
+CREATE TRIGGER dm_frozen_last_admin_guard BEFORE DELETE ON public.teachers FOR EACH ROW EXECUTE FUNCTION dm_frozen_last_admin_guard();
+
+alter table public.activities enable row level security;
+alter table public.activity_categories enable row level security;
+alter table public.announcement_reads enable row level security;
+alter table public.announcements enable row level security;
+alter table public.annual_plans enable row level security;
+alter table public.assignment_status enable row level security;
+alter table public.assignments enable row level security;
+alter table public.audit_logs enable row level security;
+alter table public.badges enable row level security;
+alter table public.chat_messages enable row level security;
+alter table public.class_point_actions enable row level security;
+alter table public.diji_deletion_auth_queue enable row level security;
+alter table public.diji_deletion_rate enable row level security;
+alter table public.diji_deletion_receipts enable row level security;
+alter table public.diji_deletion_tickets enable row level security;
+alter table public.diji_deletion_worker_settings enable row level security;
+alter table public.dm_accessory_catalog enable row level security;
+alter table public.dm_accessory_gifts enable row level security;
+alter table public.dm_account_action_tickets enable row level security;
+alter table public.dm_active_time enable row level security;
+alter table public.dm_break_chapters enable row level security;
+alter table public.dm_break_checkpoints enable row level security;
+alter table public.dm_break_progress enable row level security;
+alter table public.dm_break_runs enable row level security;
+alter table public.dm_communication_rules enable row level security;
+alter table public.dm_email_category_policy enable row level security;
+alter table public.dm_email_verifications enable row level security;
+alter table public.dm_energy_shop_purchases enable row level security;
+alter table public.dm_entitlements enable row level security;
+alter table public.dm_feed_awards enable row level security;
+alter table public.dm_game_reward_runs enable row level security;
+alter table public.dm_guardian_challenges enable row level security;
+alter table public.dm_guardian_sessions enable row level security;
+alter table public.dm_guest_previews enable row level security;
+alter table public.dm_league_weeks enable row level security;
+alter table public.dm_lesson_fair_best enable row level security;
+alter table public.dm_lesson_fair_runs enable row level security;
+alter table public.dm_mail_budget enable row level security;
+alter table public.dm_mail_league_snapshots enable row level security;
+alter table public.dm_matches enable row level security;
+alter table public.dm_oral_questions enable row level security;
+alter table public.dm_papi_chat_budget enable row level security;
+alter table public.dm_papi_chat_turns enable row level security;
+alter table public.dm_papi_mail_confirmations enable row level security;
+alter table public.dm_papi_progress_outbox enable row level security;
+alter table public.dm_papi_unsubscribe_tokens enable row level security;
+alter table public.dm_parkur_question_ledger enable row level security;
+alter table public.dm_parkur_recovery_runs enable row level security;
+alter table public.dm_password_resets enable row level security;
+alter table public.dm_payment_events enable row level security;
+alter table public.dm_payment_transactions enable row level security;
+alter table public.dm_progress_baseline enable row level security;
+alter table public.dm_progress_items enable row level security;
+alter table public.dm_progress_mail_preferences enable row level security;
+alter table public.dm_progress_rewards enable row level security;
+alter table public.dm_rally_runs enable row level security;
+alter table public.dm_release_flags enable row level security;
+alter table public.dm_route_graduations enable row level security;
+alter table public.dm_route_mission_completions enable row level security;
+alter table public.dm_safety_reports enable row level security;
+alter table public.dm_safety_review_log enable row level security;
+alter table public.dm_security_buckets enable row level security;
+alter table public.dm_security_settings enable row level security;
+alter table public.dm_social_controls enable row level security;
+alter table public.dm_teacher_student_notices enable row level security;
+alter table public.dm_thematic_enrollment enable row level security;
+alter table public.dm_thematic_first_answers enable row level security;
+alter table public.dm_thematic_recovery enable row level security;
+alter table public.dm_topic_game_runs enable row level security;
+alter table public.dm_verified_runs enable row level security;
+alter table public.dm_weekly_results enable row level security;
+alter table public.dm_weekly_xp enable row level security;
+alter table public.duels enable row level security;
+alter table public.energy_transactions enable row level security;
+alter table public.extra_data enable row level security;
+alter table public.feature_flags enable row level security;
+alter table public.feed_events enable row level security;
+alter table public.feed_reactions enable row level security;
+alter table public.follow_edges enable row level security;
+alter table public.game_scores enable row level security;
+alter table public.legacy_import_rows enable row level security;
+alter table public.legacy_unmapped_rows enable row level security;
+alter table public.lesson_progress enable row level security;
+alter table public.lesson_topics enable row level security;
+alter table public.level_completions enable row level security;
+alter table public.mail_queue enable row level security;
+alter table public.notifications enable row level security;
+alter table public.papi_card_results enable row level security;
+alter table public.papi_meteor_sessions enable row level security;
+alter table public.papi_story_progress enable row level security;
+alter table public.papi_wheel_sessions enable row level security;
+alter table public.points_transactions enable row level security;
+alter table public.portal_sessions enable row level security;
+alter table public.reading_results enable row level security;
+alter table public.sentence_bank enable row level security;
+alter table public.speech_synonyms enable row level security;
+alter table public.student_activities enable row level security;
+alter table public.student_blocks enable row level security;
+alter table public.student_google_accounts enable row level security;
+alter table public.student_plan_progress enable row level security;
+alter table public.student_videos enable row level security;
+alter table public.student_xp_weekly enable row level security;
+alter table public.students enable row level security;
+alter table public.teacher_reports enable row level security;
+alter table public.teachers enable row level security;
+alter table public.videos enable row level security;
+alter table public.word_bank enable row level security;
+alter table public.word_cards enable row level security;
+
+create policy papi_story_private on public.papi_story_progress as PERMISSIVE for ALL to anon, authenticated using (false) with check (false);
+
+comment on table public.dm_route_graduations is 'Server-verified class/CEFR completion snapshots; no client grants or reward minting.';
+comment on table public.dm_topic_game_runs is 'Ephemeral answer verification only. Deleted on finish or expiry; never a result history.';

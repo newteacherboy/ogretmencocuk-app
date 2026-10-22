@@ -1,0 +1,31 @@
+{
+  "name": "Diji-Medu resmî papağan maskotu",
+  "identity": {
+    "colors": [
+      "turkuaz",
+      "yeşil",
+      "sarı"
+    ],
+    "beakAndFeet": "turuncu",
+    "eyes": "büyük kahverengi",
+    "style": "yumuşak 3D illüstrasyon"
+  },
+  "states": {
+    "welcome": "papi-welcome-v2.png",
+    "help": "papi-help-v2.png",
+    "farewell": "papi-farewell-v2.webp",
+    "reward": "papi-reward-v2.png"
+  },
+  "usage": {
+    "registration": "welcome",
+    "brand": "welcome",
+    "passwordHelp": "help",
+    "accountDeletion": "farewell",
+    "bonus": "reward",
+    "welcomePanel": "welcome",
+    "announcements": "welcome",
+    "positivePoints": "reward",
+    "reminders": "help"
+  },
+  "motion": "gentle CSS animation; respect prefers-reduced-motion"
+}

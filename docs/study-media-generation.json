@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-11",
+  "tool": "OpenAI built-in ImageGen",
+  "brief": "Original turquoise-yellow Papi with purple feather accents, matching the approved study UI; transparent background; no words or third-party franchise references.",
+  "export": "Original generated PNG exported with Sharp to 384px PNG, palette quality 95; no new raster background.",
+  "assets": [
+    {
+      "file": "study-assets/papi-read.png",
+      "pose": "Sitting and reading an open purple book",
+      "generation": "exec-57e7aa6d-abbf-4da9-bb50-f3dad9d75468"
+    },
+    {
+      "file": "study-assets/papi-explain.png",
+      "pose": "Smiling with one wing raised to explain",
+      "generation": "exec-fa193d31-71e9-4c3b-a685-7c61bebbd205"
+    },
+    {
+      "file": "study-assets/papi-celebrate.png",
+      "pose": "Cheering with both wings raised and golden sparkles",
+      "generation": "exec-c658acd5-0c90-4c74-aecc-6fa71b56cc6f"
+    }
+  ],
+  "levelHub": {
+    "brief": "Four original pastel floating islands: mint cottage, lavender observatory, peach desert home, blue snowy cabin. Transparent 2x2 atlas, matching approved level-selection mockup.",
+    "generation": "exec-e5fbac39-5b67-4dcd-9ad3-5d1a0bf31c81",
+    "export": "Each 627x627 quadrant exported to a separate transparent 384x384 palette PNG with Sharp, quality 95.",
+    "assets": [
+      "study-assets/island-a1.png",
+      "study-assets/island-a2.png",
+      "study-assets/island-b1.png",
+      "study-assets/island-b2.png"
+    ],
+    "svg": "Existing original icons.svg extended with a code-native lock symbol."
+  }
+}

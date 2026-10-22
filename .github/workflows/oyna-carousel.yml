@@ -1,0 +1,15 @@
+name: Dual route navigation
+on:
+  push:
+    paths: ['oyna-v2.*', 'oyna-assets/**', 'tests/oyna-carousel*', '.github/workflows/oyna-carousel.yml']
+  pull_request:
+    paths: ['oyna-v2.*', 'oyna-assets/**', 'tests/oyna-carousel*', '.github/workflows/oyna-carousel.yml']
+jobs:
+  carousel:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test tests/dual-route.test.cjs tests/portal-bootstrap.test.cjs tests/notice-coordinator.test.cjs

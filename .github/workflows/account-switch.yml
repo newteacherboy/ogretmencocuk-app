@@ -1,0 +1,39 @@
+name: Account switching QA
+on:
+  pull_request:
+    paths:
+      - 'index.html'
+      - 'account-switch.js'
+      - 'saved-sessions.js'
+      - 'session-handoff.js'
+      - 'tests/session-handoff.test.cjs'
+      - 'tests/saved-sessions.test.cjs'
+      - 'account-switch.css'
+      - 'tests/account-switch.test.cjs'
+      - 'tests/account-switch-dialog.test.cjs'
+      - '.github/workflows/account-switch.yml'
+  push:
+    paths:
+      - 'index.html'
+      - 'account-switch.js'
+      - 'saved-sessions.js'
+      - 'session-handoff.js'
+      - 'tests/session-handoff.test.cjs'
+      - 'tests/saved-sessions.test.cjs'
+      - 'account-switch.css'
+      - 'tests/account-switch.test.cjs'
+      - 'tests/account-switch-dialog.test.cjs'
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --check account-switch.js
+      - run: node --check saved-sessions.js
+      - run: node --check session-handoff.js
+      - run: node --test tests/session-handoff.test.cjs tests/saved-sessions.test.cjs tests/account-switch.test.cjs tests/account-switch-dialog.test.cjs tests/daily-goals-cache-version.test.cjs tests/daily-goals-first-load.test.cjs

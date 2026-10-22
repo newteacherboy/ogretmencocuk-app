@@ -1,0 +1,45 @@
+name: Selected play panels
+on:
+  push:
+    paths: ['first-discovery.*', 'tests/first-discovery-state.test.cjs', 'tests/selected-game-entry.cjs', 'email-verification.js', 'hesap-dogrula.html', 'tests/onboarding-email-ui.cjs', 'index.html', 'papi-wallet.*', 'tests/papi-wallet-ui.cjs', 'storefront.*', 'boutique-art.js', 'progression-*', 'member-polish.*', 'tests/shop-notifications-ui.cjs', 'tests/progression-api.test.cjs', 'supabase/functions/diji-api/progression-*', 'notice-sharing.*', 'tests/notice-sharing-ui.cjs', 'route-questions.*', 'tests/approved-route-panels.cjs', 'selected-play.*', 'play-assets/**', 'story-path.js', 'story-v2-ui.js', 'tests/selected-play-ui.cjs', 'tests/member-activity-ui.cjs', 'tests/route-design-ui.cjs', 'oyna-v2.*', 'route-assets/**', 'member-experience.*', 'teacher-workspace.js', 'papi-flow.js', 'experience-ui.*', '.github/workflows/selected-play.yml']
+  pull_request:
+    paths: ['first-discovery.*', 'tests/first-discovery-state.test.cjs', 'tests/selected-game-entry.cjs', 'email-verification.js', 'hesap-dogrula.html', 'tests/onboarding-email-ui.cjs', 'index.html', 'papi-wallet.*', 'tests/papi-wallet-ui.cjs', 'storefront.*', 'boutique-art.js', 'progression-*', 'member-polish.*', 'tests/shop-notifications-ui.cjs', 'tests/progression-api.test.cjs', 'supabase/functions/diji-api/progression-*', 'notice-sharing.*', 'tests/notice-sharing-ui.cjs', 'route-questions.*', 'tests/approved-route-panels.cjs', 'selected-play.*', 'play-assets/**', 'story-path.js', 'story-v2-ui.js', 'tests/selected-play-ui.cjs', 'tests/member-activity-ui.cjs', 'tests/route-design-ui.cjs', 'oyna-v2.*', 'route-assets/**', 'member-experience.*', 'teacher-workspace.js', 'papi-flow.js', 'experience-ui.*', '.github/workflows/selected-play.yml']
+permissions:
+  contents: read
+jobs:
+  panels:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-save --package-lock=false playwright@1.58.2
+      - run: npx playwright install --with-deps chromium
+      - run: node tests/papi-wallet-ui.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: compact-wallet-design
+          path: /tmp/compact-wallet/*.png
+      - run: node tests/onboarding-email-ui.cjs
+      - run: node tests/approved-route-panels.cjs
+      - run: node tests/route-energy-refill-ui.cjs
+      - run: node --test tests/weekly-goal-once.test.cjs
+      - run: node tests/legendary-shop-ui.cjs
+      - run: node tests/selected-play-ui.cjs
+      - run: node --test tests/first-discovery-state.test.cjs
+      - run: node tests/selected-game-entry.cjs
+      - run: node tests/member-activity-ui.cjs
+      - run: node tests/route-design-ui.cjs
+      - run: node tests/notice-sharing-ui.cjs
+      - run: node tests/shop-notifications-ui.cjs
+      - run: node --test tests/progression-api.test.cjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: approved-route-designs
+          path: |
+            /tmp/route-designs/*.png
+            /tmp/sharing-designs/*.png
+      - run: node --test tests/portal-integrity.test.cjs
+      - run: python scripts/check-media-rights.py

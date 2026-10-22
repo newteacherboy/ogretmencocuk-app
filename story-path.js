@@ -1,0 +1,192 @@
+/* Papi's story route: independent account-owned learning progression. */
+(()=>{'use strict';
+if(window.dmThematicLearning){window.dmStoryPath=window.dmThematicLearning;return;}
+
+const curriculum=()=>{const list=window.DMStoryCurriculum||[];if(list.length<=40)return list;const ids=[...Array.from({length:10},(_,i)=>i),...Array.from({length:10},(_,i)=>40+i),...Array.from({length:10},(_,i)=>10+i),...Array.from({length:10},(_,i)=>50+i),...Array.from({length:10},(_,i)=>20+i),...Array.from({length:10},(_,i)=>60+i),...Array.from({length:10},(_,i)=>30+i),...Array.from({length:10},(_,i)=>70+i)];const byId=new Map(list.map(c=>[c.id,c]));return ids.map(id=>byId.get(id)).filter(Boolean)},esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const storage={get(k){try{return localStorage.getItem(k)}catch{return null}},set(k,v){try{localStorage.setItem(k,v)}catch{}}};
+const account=()=>{let token='';try{token=sessionStorage.getItem('ing_ogr_token')||localStorage.getItem('ing_token')||''}catch{}let hash=0;for(const c of token)hash=(hash*31+c.charCodeAt(0))>>>0;return (typeof aktifOgrenciAdi!=='undefined'?String(aktifOgrenciAdi):'teacher')+':'+hash};
+const gender=()=>typeof yo!=='undefined'&&yo?.karakter?.cins==='k'?'girl':typeof yo!=='undefined'&&yo?.karakter?.cins==='e'?'boy':'neutral';
+let introIndex=0,modal=null,ownerAtOpen=null,session=null,chapter=null,displayCursor=0,busy=false,accepted=false,replay=false,built=[],selectedCards=new Set(),translation=false,origin=null,requestEpoch=0,combo=0,voiceOn=storage.get('dm_story_voice')!=='off';
+let summary=[],summaryAccount='',summaryLoaded=false,summaryPromise=null;
+let v2ExerciseAssets=null;
+async function loadV2ExerciseAssets(){
+ if(v2ExerciseAssets)return v2ExerciseAssets;
+ v2ExerciseAssets=Promise.all(['story-exercises.js','story-v2-ui.js'].map(src=>new Promise((resolve,reject)=>{
+  const el=document.createElement('script');el.src=src+'?v=english-voice-20261014-1';el.onload=resolve;el.onerror=()=>reject(Error('Yeni soru ekranı yüklenemedi.'));document.head.append(el);
+ }))).catch(e=>{v2ExerciseAssets=null;throw e});
+ return v2ExerciseAssets;
+}
+
+let v2DeckPromise=null,v2Enabled=false;
+async function loadV2Deck(){
+ if(v2DeckPromise)return v2DeckPromise;
+ v2DeckPromise=(async()=>{
+  const response=await fetch('story-v2-curriculum.json',{cache:'no-cache'});
+  if(!response.ok)throw Error('Yeni öğrenme içeriği indirilemedi.');
+  const deck=await response.json();
+  if(!Array.isArray(deck)||deck.length!==40||deck.some((c,i)=>c.id!==i+40||!Array.isArray(c.steps)))throw Error('Yeni öğrenme içeriği geçersiz.');
+  const legacy=(window.DMStoryCurriculum||[]).filter(c=>c.id<40);
+  if(legacy.length!==40)throw Error('Ana öğrenme yolunun 40 durağı doğrulanamadı.');
+  window.DMStoryCurriculum=legacy.concat(deck);
+  return deck;
+ })().catch(e=>{v2DeckPromise=null;throw e});
+ return v2DeckPromise;
+}
+
+const hosts=new WeakMap();
+async function api(op,data={}){const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),15000);try{const r=await fetch(apiURL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({islem:op,...data}),signal:controller.signal}),d=await r.json();if(!r.ok||!d.ok)throw Object.assign(Error(d.mesaj||'İşlem tamamlanamadı.'),{energyEmpty:d.energyEmpty,energy:d.enerjiKalan});return d;}catch(e){if(e.name==='AbortError')throw Error('Bağlantı gecikti. İlerlemen korunuyor; tekrar dene.');throw e}finally{clearTimeout(timeout)}}
+function loadSummary(force=false){const a=account();if(summaryAccount!==a){summary=[];summaryLoaded=false;summaryPromise=null;summaryAccount=a}if(!force&&summaryLoaded)return Promise.resolve(summary);if(summaryPromise)return summaryPromise;summaryPromise=api('storyStatus').then(async d=>{if(account()===a){summary=d.progress;v2Enabled=d.v2Enabled===true;if(v2Enabled)await loadV2Deck();summaryLoaded=true}return summary}).finally(()=>{summaryPromise=null});return summaryPromise}
+function nextChapter(){return curriculum().findIndex(c=>!summary.some(s=>s.chapter===c.id&&s.completed))}
+function updateSummary(r){summary=summary.filter(x=>x.chapter!==r.chapter);summary.push({chapter:r.chapter,cursor:r.cursor,completed:r.completed,version:r.version});summaryLoaded=true;summaryAccount=account();document.querySelectorAll('.dm-story-map').forEach(x=>renderMap(x))}
+function mapMarkup(){return '<div class="dm-story-map ds-space-map"><header class="ds-space-heading"><span class="ds-space-symbol" aria-hidden="true"><svg viewBox="0 0 48 48"><defs><linearGradient id="dsPlanetBlue" x2="1" y2="1"><stop stop-color="#69f0ff"/><stop offset="1" stop-color="#3074e7"/></linearGradient></defs><circle cx="24" cy="24" r="15" fill="url(#dsPlanetBlue)"/><ellipse cx="24" cy="25" rx="24" ry="6" transform="rotate(-28 24 25)" fill="none" stroke="#ffcb67" stroke-width="4"/></svg></span><div><h2>Öğrenme Yolu</h2><p>Papi Uzay Akademisi</p></div></header><div class="ds-space-progress"><div class="ds-total-progress" role="progressbar" aria-label="Öğrenme yolu ilerlemesi" aria-valuemin="0"><i></i></div><div class="ds-map-status" role="status"></div></div><div class="ds-map-track" tabindex="0" aria-label="Öğrenme gezegenleri, diğer duraklar için kaydır"></div><button type="button" class="ds-map-continue" hidden>Devam et ›</button></div>'}
+function planetArt(c,i){const t=c.title.toLocaleLowerCase('tr-TR');return /şenliği|meclisi|konseyi|büyük hikâyesi/.test(t)?5:/renk/.test(t)?1:/aile|ev|kulübe/.test(t)?3:/tanış|isim|söz|mesaj|mektup/.test(t)?0:/kütüphane|harf|metin|başvuru/.test(t)?8:/sayı/.test(t)?2:[0,1,8,3,4,7][i%6]}
+function renderMap(map){
+ const track=map.querySelector('.ds-map-track'),next=nextChapter(),all=curriculum(),active=next<0?0:next,complete=all.filter(c=>summary.some(s=>s.chapter===c.id&&s.completed)).length;
+ const continueButton=map.querySelector('.ds-map-continue'),scrollTop=track.scrollTop;
+ let y=48;const points=all.map((c,i)=>{if(i%10===0)y+=34;const current=i===active,point={c,i,x:current?50:i%2===0?29:71,y,current};y+=current?304:156;return point});
+ const height=y+50;
+ let d='';points.forEach((p,i)=>{if(!i){d='M '+p.x*10+' '+(p.y+68);return}const prev=points[i-1];d+=' C '+prev.x*10+' '+(prev.y+148)+', '+p.x*10+' '+(p.y-22)+', '+p.x*10+' '+(p.y+68)});
+ track.innerHTML='<div class="ds-map-route" style="height:'+height+'px"><svg class="ds-orbit" viewBox="0 0 1000 '+height+'" preserveAspectRatio="none" aria-hidden="true"><path d="'+d+'"/></svg>'+points.map(p=>{const {c,i,x,y,current}=p,r=summary.find(s=>s.chapter===c.id),done=!!r?.completed,available=done||i===next,art=current?2:planetArt(c,i);return (i%10===0?'<div class="ds-world" style="top:'+(y-35)+'px">'+esc(c.cefr)+' · '+['Başlangıç Galaksisi','Kuzey Galaksisi','Kristal Galaksi','Usta Galaksisi'][Math.min(3,Math.floor(i/(all.length===80?20:10)))]+'</div>':'')+'<button type="button" class="ds-node '+(done?'done':available?'current':'locked')+(current?' ds-active-planet':'')+'" style="left:'+x+'%;top:'+y+'px" data-chapter="'+c.id+'" '+(!available?'disabled':'')+' aria-label="'+esc(c.title)+(done?', tamamlandı':available?', sıradaki':', kilitli')+'"'+(i===next?' aria-current="step"':'')+'><span class="ds-planet-art" style="background-position:'+art%3*50+'% '+Math.floor(art/3)*50+'%" aria-hidden="true"></span><span class="ds-planet-number" aria-hidden="true">'+(i+1)+'</span>'+ (current?'<span class="ds-map-papi" aria-hidden="true"></span><span class="ds-you-are-here">Buradasın</span>':'')+'<span class="ds-medallion" aria-hidden="true">'+(done?'✓':available?'':'<svg viewBox="0 0 24 24"><path d="M7 10V7a5 5 0 0 1 10 0v3" fill="none" stroke="currentColor" stroke-width="3"/><rect x="4" y="9" width="16" height="13" rx="3" fill="currentColor"/><path d="M12 14v4" stroke="#183b63" stroke-width="2" stroke-linecap="round"/></svg>')+'</span><span class="ds-cefr">'+esc(c.cefr)+'</span><b>'+esc(c.title)+'</b></button>'}).join('')+'</div>';
+ const status=map.querySelector('.ds-map-status');status.textContent=complete+' / '+all.length+' görev tamamlandı';
+ const progress=map.querySelector('.ds-total-progress');progress.setAttribute('aria-valuemax',all.length);progress.setAttribute('aria-valuenow',complete);progress.querySelector('i').style.width=(all.length?complete/all.length*100:0)+'%';
+ const point=points[active];continueButton.hidden=false;continueButton.classList.toggle('ds-revisit',next<0);continueButton.style.top=(point?point.y+156:48)+'px';continueButton.innerHTML='<strong>'+esc(all[active]?.title||'Uzay Akademisi')+'</strong><small>'+esc(all[active]?.cefr||'')+' · '+(next<0?'Yolculuğu yeniden keşfet':'Papi ile öğren')+'</small><span>'+ (next<0?'Tekrar keşfet ›':'Devam et ›')+'</span>';continueButton.onclick=()=>entry(all[active]?.id||0);track.querySelector('.ds-map-route').append(continueButton);
+ track.querySelectorAll('[data-chapter]').forEach(b=>b.onclick=()=>entry(Number(b.dataset.chapter)));
+ track.scrollTop=map.dataset.scrolled?scrollTop:Math.max(0,(point?.y||0)-Math.min(180,track.clientHeight*.24));map.dataset.scrolled='yes';
+}
+
+function mount(host){if(!host||hosts.has(host)||!host.querySelector('.dm-parchment-map'))return;const game=host.querySelector('.dm-parchment-map'),m=document.createElement('div');m.className='dm-story-mode';m.setAttribute('role','group');m.setAttribute('aria-label','Parkur türü');m.innerHTML='<button type="button" data-path="game">🎮 Oyun Parkuru</button><button type="button" data-path="learn">📖 Öğrenme Yolu</button>';host.classList.add('ds-host');host.prepend(m);host.insertAdjacentHTML('beforeend',mapMarkup());const map=host.querySelector('.dm-story-map');
+function installRouteSwitch(surface){
+ if(!surface||surface.querySelector('.dm-map-switch-route'))return;
+ const b=document.createElement('button');b.type='button';b.className='dm-map-switch-route';
+ b.setAttribute('aria-label','Parkur değiştir');b.title='Parkur değiştir';
+ b.innerHTML='<span aria-hidden="true">⇄</span><span>Parkur değiştir</span>';
+ b.onclick=e=>{e.preventDefault();e.stopPropagation();window.dmMemberExperience?.chooseRoute(true)};
+ surface.prepend(b);
+}
+if(!document.getElementById('dm-map-switch-style')){
+ const style=document.createElement('style');style.id='dm-map-switch-style';
+ style.textContent='.dm-parchment-map,.dm-story-map{position:relative!important}.dm-map-switch-route{position:absolute!important;top:clamp(8px,2vw,16px)!important;left:clamp(8px,2vw,16px)!important;z-index:30!important;display:inline-flex!important;align-items:center!important;gap:5px!important;border:1.5px solid #ffffff!important;border-radius:20px!important;background:linear-gradient(145deg,#ffffffed,#dcf8f6f0)!important;box-shadow:0 3px 10px #145c6950!important;color:#07536b!important;font-family:inherit!important;font-size:11px!important;line-height:1.1!important;font-weight:850!important;padding:7px 9px!important;cursor:pointer!important;max-width:130px!important;min-height:32px!important;touch-action:manipulation}.dm-map-switch-route>span:first-child{font-size:18px;font-weight:900}.dm-map-switch-route:hover{background:#fff!important;transform:translateY(-1px)}.dm-map-switch-route:focus-visible{outline:3px solid #ffbf38;outline-offset:3px}@media(max-width:360px){.dm-map-switch-route{padding:6px!important;max-width:38px!important;width:38px!important;justify-content:center!important}.dm-map-switch-route>span:last-child{display:none!important}}';
+ document.head.append(style);
+}
+// Host-level button stays visible above both map layers and their painted backgrounds.
+if(!host.querySelector(':scope > .dm-map-switch-host')){
+ const switchButton=document.createElement('button');
+ switchButton.type='button';switchButton.className='dm-map-switch-route dm-map-switch-host';
+ switchButton.setAttribute('aria-label','Parkur değiştir');switchButton.title='Parkur değiştir';
+ switchButton.innerHTML='<span aria-hidden="true">⇄</span><span>Parkur değiştir</span>';
+ switchButton.onclick=e=>{e.preventDefault();e.stopPropagation();window.dmMemberExperience?.chooseRoute(true)};
+ m.insertAdjacentElement('afterend',switchButton);
+}
+if(!document.getElementById('dm-switch-host-style')){
+ const css=document.createElement('style');css.id='dm-switch-host-style';
+ css.textContent='.ds-host>.dm-map-switch-host{position:sticky!important;top:8px!important;left:10px!important;display:inline-flex!important;width:max-content!important;max-width:130px!important;z-index:2147483000!important;margin:5px 0 -44px 8px!important;visibility:visible!important;opacity:1!important;pointer-events:auto!important}.dm-parchment-map>.dm-map-switch-route,.dm-story-map>.dm-map-switch-route{display:none!important}';
+ document.head.append(css);
+}
+installRouteSwitch(game);installRouteSwitch(map);
+hosts.set(host,{game,map,m});async function select(mode){if(mode==='learn'&&modal)close();storage.set('dm_story_path_'+account(),mode);m.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.path===mode)));game.hidden=mode==='learn';map.hidden=mode!=='learn';host.classList.toggle('ds-learning',mode==='learn');host.closest('.bz-ic')?.classList.toggle('ds-space-shell',mode==='learn');if(mode==='game'){return}map.querySelector('.ds-map-status').textContent='Papi öğrenme yolunu hazırlıyor…';map.querySelector('.ds-map-continue').hidden=true;try{await loadSummary();if(map.isConnected)renderMap(map)}catch(e){map.querySelector('.ds-map-status').textContent=e.message;map.querySelector('.ds-map-continue').hidden=false;map.querySelector('.ds-map-continue').style.top='130px';map.querySelector('.ds-map-continue').textContent='Yeniden yükle';map.querySelector('.ds-map-continue').onclick=()=>select('learn')}}m.querySelectorAll('button').forEach(b=>b.onclick=()=>select(b.dataset.path));select(storage.get('dm_story_path_'+account())||'game')}
+function speak(text){if(!voiceOn)return;try{if(!window.speechSynthesis)return;window.speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang='en-US';u.rate=.82;const voices=speechSynthesis.getVoices(),v=voices.find(x=>x.lang==='en-US')||voices.find(x=>x.lang.startsWith('en'));if(v)u.voice=v;u.onerror=()=>{if(modal)note('Ses açılamadı. Yazılı örnek ve Türkçesiyle devam edebilirsin.')};speechSynthesis.speak(u)}catch{}}
+function note(text,correct=false){const el=modal?.querySelector('.ds-feedback');if(el){el.textContent=text;el.classList.toggle('correct',correct)}}
+function close(force=false){if(force!==true&&window.dmPapiFirstPractice?.locked('independent'))return;if(force!==true)window.dmPapiFirstPractice?.complete('independent');requestEpoch++;window.DMRouteQuestions?.cancelSpeech();try{window.speechSynthesis?.cancel()}catch{}const closed=modal;modal?.remove();modal=null;window.dmViewHistory?.leave(closed);document.body.classList.remove('dm-story-open');document.dispatchEvent(new CustomEvent('dm:story-close'));busy=false;accepted=false;origin?.focus();origin=null}
+function shell(){const g=gender();modal.innerHTML='<div class="ds-lesson-shell"><header class="ds-lesson-header"><button type="button" class="ds-back" aria-label="Uzay Akademisi’ne dön">‹</button><div><small>'+chapter.cefr+' · '+esc(chapter.world)+'</small><h2>'+esc(chapter.title)+'</h2><div class="ds-progress" role="progressbar" aria-label="Durak ilerlemesi" aria-valuemin="0" aria-valuemax="'+chapter.steps.length+'" aria-valuenow="'+displayCursor+'"><i style="width:'+displayCursor/chapter.steps.length*100+'%"></i></div></div><button type="button" class="ds-voice" aria-pressed="'+voiceOn+'" aria-label="Sesli okumayı aç veya kapat">'+(voiceOn?'🔊':'🔇')+'</button></header><div class="ds-scene '+g+'" role="img" aria-label="Papi ve '+(g==='girl'?'kız öğrenci':g==='boy'?'erkek öğrenci':'bahçe')+'"><div class="ds-speech"></div>'+(g==='neutral'?'<img class="ds-neutral-papi" src="parkur-map-papi-v1.svg" alt="Papi">':'')+'</div><section class="ds-panel"><div class="ds-step-label"></div><div class="ds-task"></div><div class="ds-feedback" role="status" aria-live="polite"></div><div class="ds-actions"></div><small class="ds-save-note">'+(replay?'Tekrar turu · 2 soruda 1 enerji · tekrar ödül verilmez':'2 soruda 1 enerji · bölüm sonunda parkur ödülü')+'</small></section></div>';window.dmSelectedStoryHud?.(modal,combo,()=>close());modal.querySelector('.ds-back').disabled=!!window.dmPapiFirstPractice?.locked('independent');modal.querySelector('.ds-back').onclick=()=>close();modal.querySelector('.ds-voice').onclick=()=>{voiceOn=!voiceOn;storage.set('dm_story_voice',voiceOn?'on':'off');modal.querySelector('.ds-voice').textContent=voiceOn?'🔊':'🔇';modal.querySelector('.ds-voice').setAttribute('aria-pressed',String(voiceOn));if(voiceOn)speak(chapter.steps[displayCursor]?.en||'');else window.speechSynthesis?.cancel()}}
+async function open(id,options={}){const returnView=window.dmViewHistory?.parent(modal);if(!options.intro&&!options.started&&window.dmSelectedPlayEntry)return entry(id);if(busy||!curriculum().some(c=>c.id===id)||(id>=40&&!v2Enabled))return false;if(modal&&window.dmPapiFirstPractice?.locked('independent')&&!options.intro)return false;close(!!options.intro);origin=document.activeElement;ownerAtOpen=account();chapter=curriculum().find(c=>c.id===id);modal=document.createElement('div');modal.id='dmStoryLesson';modal.dataset.chapter=String(id);modal.setAttribute('role','dialog');modal.setAttribute('aria-modal','true');modal.setAttribute('aria-label',chapter.title);document.body.append(modal);window.dmViewHistory?.track(modal,{parent:returnView,close:()=>close(true)});document.body.classList.add('dm-story-open');modal.innerHTML='<div class="ds-loading"><p>Papi hikâyeni hazırlıyor…</p><button type="button">Bahçeye dön</button></div>';modal.querySelector('button').onclick=close;const epoch=requestEpoch;busy=true;try{const r=await api('storyOpen',{chapter:id,deckVersion:4});if(epoch!==requestEpoch||!modal)return;if(account()!==ownerAtOpen){close();return}keepOlderDeck=false;session=r;replay=!!r.replay;displayCursor=r.cursor;introIndex=displayCursor>0?4:0;if(r.deckVersion>=2)await loadV2ExerciseAssets();busy=false;combo=0;render();modal.querySelector('.rq-close,.ds-back')?.focus({preventScroll:true});speak(chapter.steps[displayCursor]?.en||'');return true;}catch(e){if(epoch===requestEpoch&&modal){busy=false;modal.querySelector('p').textContent=e.message}return false;}}
+function entry(id){const c=curriculum().find(x=>x.id===id);if(!c)return false;const done=summary.some(x=>x.chapter===id&&x.completed);if(!window.dmSelectedPlayEntry)return open(id);return window.dmSelectedPlayEntry({title:c.title,subtitle:c.cefr+' · '+c.world,xp:done?0:60,replay:done,start:()=>open(id,{started:true})});}
+const button=(t,a,cls='')=>'<button type="button" class="'+cls+'" data-action="'+a+'">'+t+'</button>';
+let keepOlderDeck=false;
+function render(){if(!modal)return;if(session?.deckVersion>=2&&session.deckVersion<4&&!keepOlderDeck){renderLegacyUpgrade();return}if(session?.deckVersion>=2){renderNewExercises();return}if(session?.deckVersion===1){renderLegacyUpgrade();return}accepted=false;built=[];selectedCards.clear();translation=false;if(displayCursor>=chapter.steps.length){finish();return}shell();const task=chapter.steps[displayCursor],area=modal.querySelector('.ds-task'),actions=modal.querySelector('.ds-actions'),speech=modal.querySelector('.ds-speech');speech.textContent=task.kind==='listen'?'🎧 Papi’yi dinle':task.en||'Birlikte öğrenelim!';speech.lang=task.kind==='listen'?'tr':'en';modal.querySelector('.ds-step-label').textContent=(displayCursor+1)+'/'+chapter.steps.length+' · '+task.label;
+const audio='<div class="ds-audio">'+button('🎧 Dinle','listen')+button('Türkçesi','translate')+'</div><p class="ds-translation" hidden>'+esc(task.tr||'')+'</p>';
+if(task.kind==='scene')area.innerHTML='<p class="ds-story-text">'+esc(task.text)+'</p>'+audio;
+if(task.kind==='teach'){area.innerHTML='<p>'+esc(task.text)+'</p><div class="ds-cards">'+task.cards.map((x,i)=>'<button type="button" data-card="'+i+'"><b lang="en">'+esc(x.en)+'</b><span hidden>'+esc(x.tr)+'</span><small>Dinle ve keşfet</small></button>').join('')+'</div>';}
+if(['choice','listen'].includes(task.kind))area.innerHTML='<p>'+esc(task.instruction)+'</p>'+(task.kind==='listen'?audio:'<h3>'+esc(task.prompt)+'</h3>'+audio)+'<div class="ds-options">'+task.options.map((x,i)=>'<button type="button" data-answer="'+i+'">'+esc(x)+'</button>').join('')+'</div>';
+if(task.kind==='order')area.innerHTML='<p>“'+esc(task.tr)+'” demek için taşları sırala.</p><div class="ds-sentence" aria-live="polite">Cümlen burada oluşacak…</div><div class="ds-tokens">'+task.tokens.map((x,i)=>({x,i})).sort(()=>Math.random()-.5).map(({x,i})=>'<button type="button" data-token="'+i+'">'+esc(x)+'</button>').join('')+'</div>';
+actions.innerHTML=task.kind==='order'?button('Yeniden sırala','clear')+button('Kontrol et','submit','ds-primary'):['choice','listen'].includes(task.kind)?'':button('Devam et ›','submit','ds-primary');
+modal.querySelectorAll('[data-action]').forEach(b=>b.onclick=()=>action(b.dataset.action));modal.querySelectorAll('[data-answer]').forEach(b=>b.onclick=()=>advance(Number(b.dataset.answer),b));modal.querySelectorAll('[data-card]').forEach(b=>b.onclick=()=>{const i=Number(b.dataset.card);selectedCards.add(i);b.querySelector('span').hidden=false;b.classList.add('discovered');speak(task.cards[i].en)});modal.querySelectorAll('[data-token]').forEach(b=>b.onclick=()=>{if(busy||accepted||b.disabled)return;b.disabled=true;built.push(Number(b.dataset.token));modal.querySelector('.ds-sentence').textContent=built.map(i=>task.tokens[i]).join(' ')});
+}
+function renderLegacyUpgrade(){
+ shell();
+ const area=modal.querySelector('.ds-task'),actions=modal.querySelector('.ds-actions');
+ modal.querySelector('.ds-scene')?.setAttribute('hidden','');
+ area.innerHTML='<div style="text-align:center;padding:22px 10px"><h3>🦜 Yeni Öğrenme Yolu hazır!</h3><p>Bu bölümün eski soru sürümü kayıtlı. Yeni kısa ve çeşitli soru akışına geçersen yalnızca bu bölümün soruları baştan başlar. Altınların, XP ve diğer bölümler korunur.</p></div>';
+ actions.innerHTML='<button type="button" class="ds-primary" data-upgrade="yes">✨ Yeni sorulara geç</button><button type="button" data-upgrade="no">Eski bölümden devam et</button>';
+ actions.querySelector('[data-upgrade=yes]').onclick=async()=>{
+  if(busy)return;busy=true;try{
+   await loadV2ExerciseAssets();
+   const r=await api('storyUpgrade',{chapter:chapter.id,version:session.version,deckVersion:4});
+   if(!modal)return;session=r;displayCursor=r.cursor;busy=false;render();
+  }catch(e){busy=false;note(e.message||'Yeni sorular açılamadı.');}
+ };
+ actions.querySelector('[data-upgrade=no]').onclick=()=>{keepOlderDeck=true;if(session.deckVersion===1)session={...session,deckVersion:0};render()};
+}
+function renderListeningIntro(){
+ const cards=window.DMStoryExercises.cardsOf(chapter).slice(0,4);
+ if(!cards.length){introIndex=4;return false;}
+ const index=introIndex;
+ if(index>=4)return false;
+ const card=cards[index%cards.length];
+ shell();accepted=false;
+ const area=modal.querySelector('.ds-task'),actions=modal.querySelector('.ds-actions'),status=modal.querySelector('.ds-step-label');
+ status.textContent=(index+1)+'/4 · Dinle ve öğren';
+ const progress=modal.querySelector('.ds-progress');
+ progress.setAttribute('aria-valuemax','14');progress.setAttribute('aria-valuenow',String(index));progress.querySelector('i').style.width=(index/14*100)+'%';
+ area.innerHTML='<div class="rq-intro-label">Önce kelimeleri öğrenelim</div><div class="rq-intro-word" lang="en">'+esc(card.en)+'</div><div class="rq-intro-meaning">'+esc(card.tr)+'</div><button type="button" class="rq-intro-audio" aria-label="İngilizcesini tekrar dinle">🔊 <span>Tekrar dinle</span></button><p class="rq-intro-note">Birazdan çözeceğin sorularda bu ifadeyle karşılaşacaksın.</p>';
+ area.querySelector('.rq-intro-audio').onclick=()=>window.DMStoryExercises.speak(card.en);
+ actions.innerHTML='<button type="button" class="ds-primary rq-intro-next">'+(index===3?'10 soruya başla →':'Sonraki kelime →')+'</button>';
+ actions.querySelector('button').onclick=()=>{if(!modal||busy)return;introIndex++;renderNewExercises()};
+ window.DMStoryExercises.speak(card.en);
+ return true;
+}
+function renderNewExercises(){
+ if(session?.deckVersion===4&&displayCursor===0&&introIndex<4&&renderListeningIntro())return;
+ const steps=session?.deckVersion===4?window.DMStoryExercises.buildV4(chapter):session?.deckVersion===3?window.DMStoryExercises.buildV3(chapter):window.DMStoryExercises.build(chapter);
+ if(displayCursor>=steps.length){finish();return}
+ shell();accepted=false;
+ const task=steps[displayCursor],area=modal.querySelector('.ds-task'),actions=modal.querySelector('.ds-actions');
+ if(task.mode==='dialogue')task.promptLanguage=chapter.curatedDialogue?.prompt===task.prompt?'en':'tr';
+ modal.querySelector('.ds-step-label').textContent=(displayCursor+1)+'/'+steps.length+' · '+task.label;
+ const progress=modal.querySelector('.ds-progress');
+ progress.setAttribute('aria-valuemax',String(steps.length));progress.setAttribute('aria-valuenow',String(displayCursor));progress.querySelector('i').style.width=displayCursor/steps.length*100+'%';
+ async function submit(answer){
+  if(busy||accepted)return null;
+  const epoch=requestEpoch;busy=true;modal.setAttribute('aria-busy','true');note('Kontrol ediliyor…');
+  try{
+   const r=await api('storyAdvance',{chapter:chapter.id,cursor:session.cursor,version:session.version,answer});
+   if(epoch!==requestEpoch||!modal)return null;
+   if(account()!==ownerAtOpen){close();return null}
+   session=r;busy=false;modal.removeAttribute('aria-busy');updateSummary(r);syncEconomy(r);if(r.comboGain>0)window.DMRouteQuestions?.celebrate(modal,r.comboGain);
+   if(r.stale){displayCursor=r.cursor;render();return r}
+   if(!r.accepted&&!r.correct){window.dmAnswerFeedback?.(false);
+    window.dmWrongWords?.add({en:task.en,tr:task.tr,source:'ogrenme-yolu'});
+    combo=0;window.dmSelectedStoryHud?.(modal,combo,()=>close());
+    note(task.kind==='final'?'Bir ipucu: '+(r.hint||task.en?.slice(0,1)+'…'):'Tekrar deneyelim: '+(r.hint||task.en||''));
+    if(task.kind==='order')note('Sıralama doğru değil. Yeniden deneyebilirsin.')
+    return r;
+   }
+   accepted=true;combo=r.revealed?0:Number.isInteger(r.combo)?r.combo:combo+1;window.dmSelectedStoryHud?.(modal,combo,()=>close());
+   if(r.revealed){note('İki deneme bitti. Doğrusu: '+task.en+' — '+task.tr+'. Bu kart tekrar çalışılacak.');window.DMStoryExercises.speak(task.en)}
+   else{window.dmAnswerFeedback?.(true);note('✓ Doğru bildin! '+(task.tr||''),true);window.DMStoryExercises.speak(task.en);const badge=document.createElement('div');badge.className='papi-v3-celebration';badge.setAttribute('role','status');badge.innerHTML='<span aria-hidden="true">✨🦜⭐</span><strong>Doğru bildin!</strong><small>'+esc(task.en||'')+'</small>';modal.querySelector('.ds-panel')?.append(badge);setTimeout(()=>badge.remove(),1800)}
+   actions.innerHTML=button('Tamam, devam et ›','next','ds-primary');
+   actions.querySelector('button').onclick=()=>{if(busy)return;displayCursor=r.cursor;render()};
+   return r;
+  }catch(e){if(epoch===requestEpoch&&modal){busy=false;modal.removeAttribute('aria-busy');if(e.energyEmpty||/enerji.*bitti/i.test(e.message)){window.genelEnerjiKalan=e.energy??0;note('Enerjin bitti. Enerji alınca bu sorudan devam edebilirsin.');window.DijiMeduPapiFeedback?.energy();return {blocked:true};}note(e.message)}throw e}
+ }
+ window.DMStoryV2UI.render({area,actions,task,cards:chapter.cards,onSubmit:submit,onNote:message=>note(message)});
+}
+function action(a){const task=chapter.steps[displayCursor];if(a==='listen')speak(task.en||'');if(a==='translate'){translation=!translation;modal.querySelector('.ds-translation').hidden=!translation;modal.querySelector('.ds-speech').textContent=task.en||''}if(a==='clear'&&!busy&&!accepted){built=[];modal.querySelectorAll('[data-token]').forEach(b=>b.disabled=false);modal.querySelector('.ds-sentence').textContent='Cümlen burada oluşacak…'}if(a==='submit'){if(task.kind==='teach'&&selectedCards.size<task.cards.length){note('Önce tüm kartlara dokunup ifadeleri keşfet.');return}const value=task.kind==='order'?built.map(i=>task.tokens[i]).join(' '):true;advance(value)}}
+async function advance(answer,clicked){if(busy||accepted||!modal)return;busy=true;const epoch=requestEpoch,task=chapter.steps[displayCursor],old=displayCursor;modal.setAttribute('aria-busy','true');note('Kaydediliyor…');try{const r=await api('storyAdvance',{chapter:chapter.id,cursor:session.cursor,version:session.version,answer});if(epoch!==requestEpoch||!modal)return;if(account()!==ownerAtOpen){close();return}session=r;busy=false;modal.removeAttribute('aria-busy');updateSummary(r);syncEconomy(r);if(r.comboGain>0)window.DMRouteQuestions?.celebrate(modal,r.comboGain);if(r.stale){displayCursor=r.cursor;if(r.finished)finish();else render();note('Başka bir ekrandaki ilerlemen yüklendi.');return}combo=r.correct?combo+1:0;window.dmSelectedStoryHud?.(modal,combo,()=>close());if(!r.correct){window.dmAnswerFeedback?.(false);window.dmWrongWords?.add({en:task.en,tr:task.tr,source:'ogrenme-yolu'});const explanation=task.kind==='order'?'Doğru cümle: '+(task.en||r.hint||'')+' — '+(task.tr||''):('Birlikte tekrar deneyelim: '+(r.hint||chapter.rule));note(explanation);if(task.kind==='order'&&task.en)speak(task.en);clicked?.classList.add('ds-wrong');return}accepted=true;modal.querySelectorAll('[data-answer],[data-token]').forEach(b=>b.disabled=true);clicked?.classList.add('ds-correct');if(['scene','teach'].includes(task.kind)){displayCursor=r.cursor;render();return}note('✓ Güzel! '+(task.tr||''),true);if(task.en)speak(task.en);window.DijiMeduPapiFeedback?.correct({detail:task.tr||'Doğru cevap!',anchor:clicked,duration:1050});modal.querySelector('.ds-actions').innerHTML=button('Devam et ›','next','ds-primary');modal.querySelector('[data-action=next]').onclick=()=>{if(busy||displayCursor!==old||!accepted)return;displayCursor=r.cursor;render();speak(chapter.steps[displayCursor]?.en||'')}}catch(e){if(epoch===requestEpoch&&modal){busy=false;window.dmPapiFirstPractice?.recover('independent');modal.removeAttribute('aria-busy');if(/enerji|energy/i.test(String(e.message)))window.DijiMeduPapiFeedback?.energy();else note(e.message)}}}
+function syncEconomy(r){if(r.enerjiKalan!=null)window.genelEnerjiKalan=r.enerjiKalan;if(r.enerjiKalan!=null&&typeof headerEnerjiGoster==='function')headerEnerjiGoster(r.enerjiKalan,r.enerjiMax);const v=r.yo||r.reward?.yo;if(v&&typeof yo!=='undefined'){if(Number(v.dmRewardVersion||0)>=Number(yo.dmRewardVersion||0))for(const k of ['altin','guncelleme','dmRewardVersion','xpGun','log'])if(v[k]!==undefined)yo[k]=v[k];yo.totalXp=Math.max(Number(yo.totalXp||0),Number(v.totalXp||0));try{window.DijiProgressRules?.migrate(yo);localStorage.setItem('ing_yo_'+aktifOgrenciAdi,JSON.stringify(yo));window.yoArayuzTazele?.();window.dmProgressPanel?.paint?.();window.dmProgression?.refresh(true)}catch{}}}
+function finish(){window.dmPapiFirstPractice?.complete('independent');shell();modal.querySelector('.ds-speech').textContent='Well done!';modal.querySelector('.ds-step-label').textContent='Durak tamamlandı';modal.querySelector('.ds-task').innerHTML='<div class="ds-complete dm-route-result"><img src="papi-reward-v2.png" alt="Kutlayan Papi"><span>🏆</span><h3>'+esc(chapter.title)+' tamamlandı!</h3><p>'+ (replay?'Bildiklerini yeniden pekiştirdin.': 'Bir öğrenme yaprağı kazandın. Bahçede yeni durak açıldı.')+'</p>'+(!replay&&session.reward?.xp?'<p class="ds-rewards">⭐ +'+Number(session.reward.xp)+' XP'+(session.reward.gold?' · 🪙 +'+Number(session.reward.gold)+' altın':'')+'</p>':'')+'<p>'+esc(chapter.cards.map(x=>x.en).slice(0,3).join(' · '))+'</p></div>';modal.querySelector('.ds-actions').innerHTML=button('Akademiye dön','garden','ds-primary')+(curriculum().some((c,i,a)=>c.id===chapter.id&&i<a.length-1)?button('Sonraki durak ›','nextchapter'):'');modal.querySelector('[data-action=garden]').onclick=close;const next=modal.querySelector('[data-action=nextchapter]');if(next)next.onclick=()=>{const all=curriculum(),i=all.findIndex(c=>c.id===chapter.id);if(i>=0&&all[i+1])entry(all[i+1].id)};modal.querySelector('.ds-save-note').textContent='Öğrenme yolu · '+chapter.cefr+' içerikleri';}
+document.addEventListener('keydown',e=>{if(!modal)return;if(e.key==='Escape'){close();return}if(e.key==='Tab'){const all=[...modal.querySelectorAll('button:not(:disabled),textarea')].filter(x=>x.offsetParent!==null),first=all[0],last=all.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last?.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first?.focus()}}});
+function openAll(){
+ const existing=document.getElementById('oyLearningAll');if(existing){existing.querySelector('button')?.focus();return}
+ const parent=window.dmViewHistory?.capture(),origin=document.activeElement,overlay=document.createElement('div');overlay.id='oyLearningAll';overlay.className='oy-sheet';overlay.innerHTML='<section class="oy-sheet-card" role="dialog" aria-modal="true" aria-label="Öğrenme Yolunun tüm seviyeleri"><header><b>📖 Öğrenme Yolu</b><button type="button" aria-label="Kapat">✕</button></header><p class="oy-learning-summary" role="status">İlerlemen yükleniyor…</p><div class="oy-list"></div></section>';document.body.append(overlay);
+ const close=()=>{overlay.remove();window.dmViewHistory?.leave(overlay);document.removeEventListener('keydown',keys);origin?.focus()};
+ const keys=e=>{if(e.key==='Escape'){e.preventDefault();close()}if(e.key==='Tab'){const b=[...overlay.querySelectorAll('button:not(:disabled)')],first=b[0],last=b.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last?.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first?.focus()}}};document.addEventListener('keydown',keys);window.dmViewHistory?.track(overlay,{parent,close});overlay.querySelector('header button').onclick=close;overlay.addEventListener('click',e=>{if(e.target===overlay)close()});overlay.querySelector('header button').focus();
+ async function paint(){try{await loadSummary();if(!overlay.isConnected)return;const all=curriculum(),next=Math.max(0,nextChapter()),complete=all.filter(c=>summary.some(s=>s.chapter===c.id&&s.completed)).length;overlay.querySelector('.oy-learning-summary').textContent=complete+' / '+all.length+' bölüm tamamlandı · '+(next+1)+'. bölümdesin';overlay.querySelector('.oy-list').innerHTML=all.map((c,i)=>{const done=summary.some(s=>s.chapter===c.id&&s.completed),current=i===next;return '<button type="button" class="oy-row '+(current?'is-cur':done?'is-done':'is-lock')+'" data-learning-id="'+c.id+'" '+(!done&&!current?'disabled':'')+(current?' aria-current="step"':'')+'><span class="no">'+(i+1)+'</span><span>'+esc(c.title)+'<small>'+esc(c.cefr)+'</small></span><span class="rs">'+(current?'▶ Buradasın':done?'✓ Bitti':'🔒')+'</span></button>'}).join('');overlay.querySelectorAll('[data-learning-id]').forEach(b=>b.onclick=()=>{const id=Number(b.dataset.learningId);if(!window.dmViewHistory)close();entry(id)});overlay.querySelector('[aria-current="step"]')?.scrollIntoView({block:'center'});}catch(e){if(!overlay.isConnected)return;overlay.querySelector('.oy-learning-summary').textContent=e.message;overlay.querySelector('.oy-list').innerHTML='<button type="button" class="oy-row">Yeniden dene</button>';overlay.querySelector('.oy-list button').onclick=paint;}}
+ paint();
+}
+window.dmStoryPath={mount,open,close,gender,
+ overview:async()=>{await loadSummary();const all=curriculum(),i=Math.max(0,nextChapter());return {completedCount:all.filter(c=>summary.some(s=>s.chapter===c.id&&s.completed===true)).length,total:all.length,title:all[i]?.title||'Öğrenme Yolu',cefr:all[i]?.cefr||'A1',chapters:all.map((c,n)=>{const done=summary.some(s=>s.chapter===c.id&&s.completed);return {id:c.id,title:c.title,cefr:c.cefr,current:n===i,done,available:done||n===i}})}},
+ openAll:openAll,
+ continueRoute:async()=>{await loadSummary();const all=curriculum(),i=Math.max(0,nextChapter());if(all[i])return entry(all[i].id)}
+};
+const initial=document.getElementById('dmParkurScroll');if(initial)mount(initial);
+})();
