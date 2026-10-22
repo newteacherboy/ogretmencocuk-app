@@ -1,0 +1,1045 @@
+{
+  "belgeTuru": "tema",
+  "semaSurumu": "1.0",
+  "sinif": 6,
+  "program": "TYMM",
+  "tema": 2,
+  "temaAdi": "Bağımsızlık Yolu",
+  "durum": "incelemeye_hazir",
+  "kaynak": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/118",
+  "kaynak_dogrulanmadi": false,
+  "ogrenmeCiktilari": [
+    "T.D.6.11",
+    "T.D.6.2",
+    "T.D.6.25",
+    "T.D.6.3",
+    "T.D.6.6",
+    "T.D.6.7",
+    "T.D.6.8",
+    "T.D.6.9",
+    "T.K.6.1",
+    "T.K.6.12",
+    "T.K.6.15",
+    "T.K.6.25",
+    "T.K.6.26",
+    "T.K.6.4",
+    "T.K.6.5",
+    "T.K.6.7",
+    "T.K.6.8",
+    "T.O.6.10",
+    "T.O.6.11",
+    "T.O.6.12",
+    "T.O.6.23",
+    "T.O.6.27",
+    "T.O.6.3",
+    "T.O.6.5",
+    "T.O.6.8",
+    "T.O.6.9",
+    "T.Y.6.1",
+    "T.Y.6.11",
+    "T.Y.6.21",
+    "T.Y.6.22",
+    "T.Y.6.3",
+    "T.Y.6.4",
+    "T.Y.6.5"
+  ],
+  "sozVarligi": {
+    "aciklama": "Tanım ve örnekler özgündür. T.O.6.21 ilk temada tanıtılan söz varlığını geliştirme çıktısıdır; sonraki temalarda tekrar edilir.",
+    "kelimeler": [
+      {
+        "kelime": "bağımsızlık",
+        "anlam": "Bir topluluğun kendi kararlarını kendisinin verebilmesi",
+        "ornek": "Serginin konusu bağımsızlık mücadelesiydi.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "egemenlik",
+        "anlam": "Yönetme ve karar verme yetkisi",
+        "ornek": "Sınıf meclisinde egemenlik kavramını tartıştık.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "cumhuriyet",
+        "anlam": "Yönetim yetkisinin milletin seçtiği temsilciler aracılığıyla kullanıldığı yönetim biçimi",
+        "ornek": "Cumhuriyet üzerine bir okuma yaptık.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "dayanışma",
+        "anlam": "Bir amaç veya güçlük karşısında birbirine destek olma",
+        "ornek": "Mahalledeki dayanışma herkesi cesaretlendirdi.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "fedakârlık",
+        "anlam": "Bir amaç için kendi isteğinden veya rahatından vazgeçme",
+        "ornek": "Gönüllüler zamanlarından fedakârlık etti.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "kararlılık",
+        "anlam": "Bir kararın arkasında durup çalışmayı sürdürme",
+        "ornek": "Ekibin kararlılığı hazırlıklara yansıdı.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "sorumluluk",
+        "anlam": "Üstlenilen işi yerine getirme yükümlülüğü",
+        "ornek": "Belgeleri koruma sorumluluğu bana verildi.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "emanet",
+        "anlam": "Korunması veya sonradan geri verilmesi için bırakılan şey",
+        "ornek": "Defter bize bir emanet olarak bırakıldı.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "cephe",
+        "anlam": "Bir savaşta karşıt güçlerin karşılaştığı bölge",
+        "ornek": "Anlatının bir bölümü cephe gerisinde geçiyor.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "seferberlik",
+        "anlam": "Bir ihtiyacı karşılamak için bütün imkânlarla birlikte harekete geçme",
+        "ornek": "Kitap onarımı için seferberlik başlattık.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "özveri",
+        "anlam": "Bir başkasının yararı için kendi çıkarından vazgeçme",
+        "ornek": "Çalışmada gösterilen özveriyi anlattık.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "yurt",
+        "anlam": "Bir topluluğun yaşadığı ve bağlılık duyduğu ülke",
+        "ornek": "Şiirde yurt sevgisi işleniyor.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "anıt",
+        "anlam": "Bir kişiyi veya olayı hatırlatmak için yapılan eser",
+        "ornek": "Anıtın bilgi levhasını okuduk.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "tanıklık",
+        "anlam": "Bir olayda görülen veya yaşananları aktarma",
+        "ornek": "Tanıklık ile duyumu ayırmaya çalıştık.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "belge",
+        "anlam": "Bir durumu veya olayı kayda geçiren yazı ya da nesne",
+        "ornek": "Belgenin üzerindeki tarih silinmişti.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "arşiv",
+        "anlam": "Belgelerin düzenlenerek saklandığı yer veya bütün",
+        "ornek": "Okul arşivini görevliyle gezdik.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "kronoloji",
+        "anlam": "Olayların zaman sırasına göre düzeni",
+        "ornek": "Sergi için bir kronoloji çizdik.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "kanıt",
+        "anlam": "Bir yargıyı destekleyen bilgi veya bulgu",
+        "ornek": "Bu yorum için yeterli kanıt bulunmadı.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "meclis",
+        "anlam": "Ortak işleri görüşüp karara bağlamak üzere toplanan temsilciler kurulu",
+        "ornek": "Meclis kelimesini sözlükten araştırdık.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "ortak",
+        "anlam": "Birden çok kişinin paylaştığı",
+        "ornek": "Ortak kararımız sergiyi sade tutmaktı.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "birlik",
+        "anlam": "Aynı amaç çevresinde birleşme durumu",
+        "ornek": "Birlik içinde hazırlıkları tamamladık.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "ulaştırmak",
+        "anlam": "Bir şeyi gitmesi gereken yere götürmek veya göndermek",
+        "ornek": "Kutuları depoya ulaştırdık.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "korumak",
+        "anlam": "Zarar görmesini veya kaybolmasını önlemek",
+        "ornek": "Eski fotoğrafları ışıktan korumak gerekiyordu.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "hatırat",
+        "anlam": "Bir kişinin yaşadıklarını sonradan anlattığı eser",
+        "ornek": "Hatıratın ne zaman yazıldığını araştırdım.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "bellek",
+        "anlam": "Yaşananları ve öğrenilenleri saklama yetisi",
+        "ornek": "Müze toplumsal belleğe katkı sağlıyor.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "restorasyon",
+        "anlam": "Bir eseri özgün özelliklerini gözeterek onarma işi",
+        "ornek": "Binadaki restorasyon uzmanlarca yürütüldü.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "özgürlük",
+        "anlam": "Başkalarının haklarını gözeterek seçim yapabilme durumu",
+        "ornek": "Özgürlük ile sorumluluğu birlikte konuştuk.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "uzlaşma",
+        "anlam": "Farklı görüşlerin ortak bir çözümde buluşması",
+        "ornek": "Sergi düzeninde uzlaşma sağlandı.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "katılım",
+        "anlam": "Bir çalışmada veya kararda yer alma",
+        "ornek": "Gönüllü katılım için duyuru hazırladık.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "güven",
+        "anlam": "Birine veya bir şeye duyulan inanma duygusu",
+        "ornek": "Açık bilgi paylaşımı güven oluşturdu.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      }
+    ],
+    "esAnlamlilar": [
+      [
+        "özveri",
+        "fedakârlık"
+      ]
+    ],
+    "zitAnlamlilar": [
+      [
+        "özgür",
+        "tutsak"
+      ]
+    ],
+    "esSesliler": [],
+    "deyimler": [],
+    "atasozleri": []
+  },
+  "okumaParcalari": [
+    {
+      "id": "6-2-okuma-1",
+      "baslik": "Sandığın Yanındaki Not",
+      "tur": "oykuleyici",
+      "metin": "Okulun bodrumundaki küçük sandık açıldığında öğrenciler bir hazine bulduklarını sandılar. İçinden altın veya değerli taş çıkmadı. Birkaç eski fotoğraf, kenarı yıpranmış bir defter ve tarihinin son rakamı silinmiş bir mektup vardı. Sınıf, bağımsızlık konulu sergileri için bu eşyaları inceleyecekti. Görevli öğretmen, nesneleri koruyucu örtünün üzerine koydu. Önce bakmalarını, dokunmaları gerekirse kendisine haber vermelerini istedi.\nEfe, mektubun bir savaş kahramanına ait olduğunu hemen ilan etti. Ona göre eski yazı ve sararmış kâğıt bunu kanıtlıyordu. Duru ise aynı sonuca ulaşmadı. Bir nesnenin eski olması, sahibinin kimliğini göstermezdi. Öğretmen bu itirazı önemsedi. İki öğrenciden de düşüncelerini destekleyen bilgileri ve henüz bilmediklerini ayrı ayrı yazmalarını istedi. Efe'nin listesinde sandığın bulunduğu yer vardı; mektubun yazarı ise yoktu.\nDefterde bazı malzemelerin adları ve yanlarında sayılar bulunuyordu. Bir sayfada kumaş, başka bir sayfada yiyecek listelenmişti. Öğrenciler önce bunu sıradan bir alışveriş defteri sandı. Sonra sayfalar arasındaki notu gördüler: Malzemeler ortak bir depoya teslim edilmişti. Yine de deponun ne zaman ve hangi amaçla kullanıldığını bilmiyorlardı. Defterin bütün sayfalarını tarih sırasına koymadan yorum yapmamaya karar verdiler.\nErtesi gün okul arşivinin sorumlusu onlara eski kayıtları gösterdi. Sandığın yıllar önce düzenlenen bir anma etkinliği için bağışlandığı anlaşıldı. Ancak bağış kaydında eşyaların ilk sahipleri belirtilmemişti. Öğrenciler, ulaşamadıkları bilgiyi kesin bir hikâyeyle doldurmadı. Sergi etiketine nesnelerin nereden geldiğini bildiklerini, daha eski geçmişlerini ise araştırdıklarını yazdılar. Efe başlangıçtaki iddiasını kaldırmayı kabul etti.\nSerginin açılışında en çok soru, gösterişli başlığın altında duran küçük not için soruldu. Notta “Birlikte çalışmanın izleri var; kimin hangi görevi yaptığı henüz kesin değil.” yazıyordu. Duru ziyaretçilere bağımsızlık mücadelesini anlamanın yalnız ünlü isimleri sıralamakla sınırlı olmadığını anlattı. İnsanların ortak bir amaç için üstlendikleri işleri de araştırmak gerekiyordu. Efe ise boş bırakılan bir bilginin, yanlış bir kesinlikten daha dürüst olabileceğini ekledi. Sandık artık onlara altın sakladığı için değerli görünmüyordu. Korunmayı, soru sormayı ve kanıta dayanarak konuşmayı öğreten bir çalışma başlatmıştı. Sınıf sergi kapandıktan sonra da araştırma notlarını sakladı. Yeni bir belge bulunursa etiketleri yeniden yazabileceklerdi. Bu yüzden son sayfaya büyük harflerle “Araştırma sürüyor.” notunu düştüler.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; kitap veya internet metninden alınmamıştır.",
+      "sorular": [
+        {
+          "id": "6-2-okuma-1-1",
+          "tip": "secim",
+          "soru": "“Sandığın Yanındaki Not” metnine göre: Efe ile Duru'nun ilk yorumları nasıl farklıdır?",
+          "secenekler": [
+            "Duru mektubu okumadan yok etmek ister",
+            "Efe kesin konuşur, Duru kanıtın yeterli olmadığını düşünür",
+            "İkisi de mektubun yazarını bilir"
+          ],
+          "dogru": "Efe kesin konuşur, Duru kanıtın yeterli olmadığını düşünür",
+          "aciklama": "Efe eski görünüşü yeterli bulurken Duru sahibin bilinmediğini hatırlatır.",
+          "cikti": "T.O.6.10"
+        },
+        {
+          "id": "6-2-okuma-1-2",
+          "tip": "secim",
+          "soru": "“Sandığın Yanındaki Not” metnine göre: Öğretmenin bilgileri iki listeye ayırtması hangi amaca hizmet eder?",
+          "secenekler": [
+            "Bilinenle varsayılanı ayırmaya",
+            "Öğrencileri hız yarışına sokmaya",
+            "Belgelerin fiyatını belirlemeye"
+          ],
+          "dogru": "Bilinenle varsayılanı ayırmaya",
+          "aciklama": "Destekleyen bilgiler ve bilinmeyenler ayrı yazılarak kesinlik sınırları görünür olur.",
+          "cikti": "T.O.6.8"
+        },
+        {
+          "id": "6-2-okuma-1-3",
+          "tip": "secim",
+          "soru": "“Sandığın Yanındaki Not” metnine göre: Defterdeki malzeme listeleri hangi gruba girer?",
+          "secenekler": [
+            "Kesinleşmiş sözlü tanıklıklar",
+            "Sergi için üretilmiş oyuncaklar",
+            "İncelenecek yazılı kayıtlar"
+          ],
+          "dogru": "İncelenecek yazılı kayıtlar",
+          "aciklama": "Defter sayfaları yazılı kayıt niteliğindedir; sözlü tanıklık değildir.",
+          "cikti": "T.O.6.12"
+        },
+        {
+          "id": "6-2-okuma-1-4",
+          "tip": "secim",
+          "soru": "“Sandığın Yanındaki Not” metnine göre: Ortak depoya teslim notundan hangi sonuç çıkarılabilir?",
+          "secenekler": [
+            "Mektubun kesinlikle aynı gün yazıldığı",
+            "Malzemelerin bir yere birlikte toplandığı",
+            "Depodaki bütün kişilerin adlarının bilindiği"
+          ],
+          "dogru": "Malzemelerin bir yere birlikte toplandığı",
+          "aciklama": "Teslim notu toplama işini gösterir, kişileri veya mektubun tarihini kanıtlamaz.",
+          "cikti": "T.O.6.8"
+        },
+        {
+          "id": "6-2-okuma-1-5",
+          "tip": "secim",
+          "soru": "“Sandığın Yanındaki Not” metnine göre: Efe'nin iddiasını kaldırması neyi gösterir?",
+          "secenekler": [
+            "Yeni bilgi karşısında görüşünü düzeltebildiğini",
+            "Araştırmaya hiç katılmadığını",
+            "Bütün belgelerin sahte olduğunu"
+          ],
+          "dogru": "Yeni bilgi karşısında görüşünü düzeltebildiğini",
+          "aciklama": "Efe, kanıt eksikliği ortaya çıktığında ilk yargısını değiştirir.",
+          "cikti": "T.O.6.9"
+        },
+        {
+          "id": "6-2-okuma-1-6",
+          "tip": "secim",
+          "soru": "“Sandığın Yanındaki Not” metnine göre: Eski kelimesinin metindeki kullanımı hangisidir?",
+          "secenekler": [
+            "Çalışmayan elektronik araç",
+            "Önemsiz ve değersiz",
+            "Uzun zaman önceye ait"
+          ],
+          "dogru": "Uzun zaman önceye ait",
+          "aciklama": "Fotoğraf ve belgeler için kullanılan eski, zaman bakımından önceye ait olmayı belirtir.",
+          "cikti": "T.O.6.5"
+        },
+        {
+          "id": "6-2-okuma-1-7",
+          "tip": "secim",
+          "soru": "“Sandığın Yanındaki Not” metnine göre: Metnin en uygun özeti hangisidir?",
+          "secenekler": [
+            "Öğrenciler bütün soruların cevabını ilk gün bulur",
+            "Öğrenciler belgeleri inceleyip kesin olmayan bilgileri açıkça belirten bir sergi hazırlar",
+            "Öğrenciler sandıktan çıkan altınları paylaşır"
+          ],
+          "dogru": "Öğrenciler belgeleri inceleyip kesin olmayan bilgileri açıkça belirten bir sergi hazırlar",
+          "aciklama": "Olayların bütünü araştırma sürecini ve dürüst sergi etiketini anlatır.",
+          "cikti": "T.O.6.23"
+        },
+        {
+          "id": "6-2-okuma-1-8",
+          "tip": "secim",
+          "soru": "“Sandığın Yanındaki Not” metnine göre: Son notun araştırma sürüyor olması neyi düşündürür?",
+          "secenekler": [
+            "Yeni kanıtların açıklamaları değiştirebileceğini",
+            "Serginin hiç açılmadığını",
+            "Belgelerin artık korunmayacağını"
+          ],
+          "dogru": "Yeni kanıtların açıklamaları değiştirebileceğini",
+          "aciklama": "Öğrenciler yeni belge bulunursa etiketleri güncellemek üzere notları saklar.",
+          "cikti": "T.O.6.9"
+        }
+      ]
+    },
+    {
+      "id": "6-2-okuma-2",
+      "baslik": "Bir Serginin İki Taslağı",
+      "tur": "bilgilendirici",
+      "metin": "Bağımsızlık konulu bir okul sergisi hazırlayan iki grup, aynı belge kopyalarını kullanarak farklı taslaklar oluşturdu. İlk grup serginin girişine büyük bir zaman çizelgesi yerleştirdi. Her olayın yanına kısa bir açıklama koydu. İkinci grup ise sergiyi insanların üstlendiği işlere göre düzenledi. Haber ulaştırma, yiyecek hazırlama ve malzeme taşıma gibi başlıkların altında belgelerden seçilmiş örnekler sundu. İki taslak da aynı konuyu işliyor, fakat ziyaretçinin izleyeceği yolu farklı kuruyordu.\nZaman çizelgesinin güçlü yanı, olayların önce ve sonra ilişkisini görünür kılmasıydı. Ziyaretçi bir kararın hangi gelişmeden önce alındığını kolayca izleyebilirdi. Ancak çizelgede çok sayıda tarih bulunduğunda açıklamalar küçülüyor, bazı öğrenciler okurken zorlanıyordu. Grubun çözümü, daha az olay seçmek ve ayrıntıları isteyenlerin okuyabileceği ayrı kartlara taşımak oldu. Böylece tarih sırası korunurken ilk bakışta görülen bilgi azaldı.\nİşlere göre düzenlenen taslak, ortak emeğin farklı yönlerini göstermede başarılıydı. Bir ziyaretçi aynı dönemde birden çok görevin birlikte yürütüldüğünü fark edebiliyordu. Buna karşılık belgelerin zaman ilişkisi her bölümde açık değildi. Aynı başlık altında yer alan iki kaydın farklı yıllara ait olduğu gözden kaçabiliyordu. Bu grup da kartların üstüne tarih bilgisini eklemeye karar verdi. Tarihi bilinmeyen örnekler, biliniyormuş gibi bir sıraya yerleştirilmedi.\nGruplar taslakları karşılaştırırken yalnız hangisinin daha güzel göründüğünü sormadı. Bilginin doğruluğu, okunabilirlik, kaynakların belirtilmesi ve farklı ziyaretçilerin sergiyi takip edebilmesi için bir ölçüt listesi hazırladı. Ardından her ölçüt için somut bir örnek aradı. “Bu daha iyi.” demek yerine “Bu başlık belgeyle açıklamayı ilişkilendirmeyi kolaylaştırıyor.” gibi gerekçeli cümleler kurmaya çalıştılar.\nSon taslak, iki yaklaşımın bazı özelliklerini birleştirdi. Girişte kısa bir zaman çizelgesi, içeride ise ortak görevleri anlatan bölümler yer aldı. Bu sonuç, her konuda bütün önerileri birleştirmek gerektiği anlamına gelmiyordu. Burada karar, serginin amacı ve eldeki belgelerin özellikleri düşünülerek verilmişti. Çalışma öğrencilerin karşılaştırmanın bir kazanan seçme yarışından daha kapsamlı olabileceğini görmesini sağladı. Benzerlikler kadar ayrılıkları da göstermek, uygun bir düzen kurmalarına yardım etmişti. Açılıştan sonra gelen sorular bir deftere yazıldı. Böylece taslağın gerçekten anlaşılır olup olmadığı yalnız hazırlayanların görüşüne bırakılmadı; ziyaretçilerin deneyimleri de sonraki düzenlemeye katkı verdi.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; kitap veya internet metninden alınmamıştır.",
+      "sorular": [
+        {
+          "id": "6-2-okuma-2-1",
+          "tip": "secim",
+          "soru": "“Bir Serginin İki Taslağı” metnine göre: İki taslağın ortak yanı hangisidir?",
+          "secenekler": [
+            "Aynı konu ve belge kopyalarını kullanmaları",
+            "İkisinde de tarih bilgisinin bulunmaması",
+            "İkisinin de yalnız fotoğraf göstermesi"
+          ],
+          "dogru": "Aynı konu ve belge kopyalarını kullanmaları",
+          "aciklama": "Giriş paragrafı iki grubun aynı belgelerle aynı konuyu işlediğini belirtir.",
+          "cikti": "T.O.6.10"
+        },
+        {
+          "id": "6-2-okuma-2-2",
+          "tip": "secim",
+          "soru": "“Bir Serginin İki Taslağı” metnine göre: İlk taslak ile ikincisi hangi yönden ayrılır?",
+          "secenekler": [
+            "Biri bağımsızlığı, diğeri sporu anlatır",
+            "Biri belge kullanır, diğeri hiçbir kaynak kullanmaz",
+            "Biri zamanı, diğeri üstlenilen işleri temel alır"
+          ],
+          "dogru": "Biri zamanı, diğeri üstlenilen işleri temel alır",
+          "aciklama": "Taslakların düzenleme ilkeleri zaman sırası ve görev gruplarıdır.",
+          "cikti": "T.O.6.10"
+        },
+        {
+          "id": "6-2-okuma-2-3",
+          "tip": "secim",
+          "soru": "“Bir Serginin İki Taslağı” metnine göre: Küçük yazı sorununa verilen çözüm nedir?",
+          "secenekler": [
+            "Ziyaretçileri sergiden çıkarmak",
+            "Ayrıntıları ayrı kartlara taşımak",
+            "Bütün tarihleri tahmin etmek"
+          ],
+          "dogru": "Ayrıntıları ayrı kartlara taşımak",
+          "aciklama": "İlk grup daha az olay seçip ayrıntıları ayrı kartlarda sunar.",
+          "cikti": "T.O.6.8"
+        },
+        {
+          "id": "6-2-okuma-2-4",
+          "tip": "secim",
+          "soru": "“Bir Serginin İki Taslağı” metnine göre: Tarihi bilinmeyen örneklerin sıraya zorla konmaması neyi gözetir?",
+          "secenekler": [
+            "Bilginin belirsizliğini dürüstçe göstermeyi",
+            "Her kartı aynı renge boyamayı",
+            "Sergide hiç açıklama olmamasını"
+          ],
+          "dogru": "Bilginin belirsizliğini dürüstçe göstermeyi",
+          "aciklama": "Bilinmeyen tarihi uydurmamak, doğruluk ilkesine hizmet eder.",
+          "cikti": "T.O.6.9"
+        },
+        {
+          "id": "6-2-okuma-2-5",
+          "tip": "secim",
+          "soru": "“Bir Serginin İki Taslağı” metnine göre: Okunabilirlik ve kaynak belirtme hangi başlıkta sınıflandırılabilir?",
+          "secenekler": [
+            "Belge sahiplerinin adları",
+            "Taşıma araçları",
+            "Değerlendirme ölçütleri"
+          ],
+          "dogru": "Değerlendirme ölçütleri",
+          "aciklama": "Gruplar bu özellikleri taslakları değerlendirecek ölçütler olarak belirler.",
+          "cikti": "T.O.6.12"
+        },
+        {
+          "id": "6-2-okuma-2-6",
+          "tip": "secim",
+          "soru": "“Bir Serginin İki Taslağı” metnine göre: Taslak kelimesi burada ne anlama gelir?",
+          "secenekler": [
+            "Serginin satış geliri",
+            "Henüz geliştirilebilen ilk düzenleme",
+            "Kesinleşmiş tarihî belge"
+          ],
+          "dogru": "Henüz geliştirilebilen ilk düzenleme",
+          "aciklama": "Metin taslakların sorunlar görülerek değiştirildiğini anlatır.",
+          "cikti": "T.O.6.5"
+        },
+        {
+          "id": "6-2-okuma-2-7",
+          "tip": "secim",
+          "soru": "“Bir Serginin İki Taslağı” metnine göre: Metnin en uygun kısa özeti hangisidir?",
+          "secenekler": [
+            "İki sergi düzeni ölçütlerle karşılaştırılır ve amaca uygun yeni düzen oluşturulur",
+            "Bir grup hiçbir belgeye bakmadan yarışmayı kazanır",
+            "Ziyaretçiler tarihleri ezberlemekle görevlendirilir"
+          ],
+          "dogru": "İki sergi düzeni ölçütlerle karşılaştırılır ve amaca uygun yeni düzen oluşturulur",
+          "aciklama": "Özet, iki yaklaşımın incelenmesini ve gerekçeli son taslağı kapsar.",
+          "cikti": "T.O.6.23"
+        },
+        {
+          "id": "6-2-okuma-2-8",
+          "tip": "secim",
+          "soru": "“Bir Serginin İki Taslağı” metnine göre: Ziyaretçi sorularının saklanmasının işlevi nedir?",
+          "secenekler": [
+            "Belgelerin kaynağını gizlemek",
+            "Taslakların değişmesini önlemek",
+            "Düzeni sonraki çalışmalar için geliştirmek"
+          ],
+          "dogru": "Düzeni sonraki çalışmalar için geliştirmek",
+          "aciklama": "Sorular, serginin anlaşılmasına dair yeni bilgi sağlar.",
+          "cikti": "T.O.6.8"
+        }
+      ]
+    }
+  ],
+  "konular": [
+    {
+      "kod": "6-2-kok",
+      "ad": "Kelimenin kökünü bulma",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.Y.6.3",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Kök, bir kelimenin anlamlı en küçük temel bölümüdür. Kökü bulurken yalnız harfleri kısaltmak yetmez; kelime ile kalan bölüm arasında anlam ilişkisi de aranır. Balık kelimesindeki bal harfleri ayrı bir kelime oluştursa da iki kelime arasında bu tür bir kök ilişkisi yoktur. Kelimeler ek alırken ses değişiklikleri yaşayabilir. Buradaki örneklerde önce açık ve düzenli yapıları incele; sonucu cümlenin anlamıyla kontrol et.</p><ul><li>Kitaplık kelimesinin kökü kitaptır.</li><li>Gözlük kelimesinin kökü gözdür.</li><li>Balık kelimesinin kökü balık olarak alınır.</li></ul>",
+      "ornekler": [
+        "Kitaplık kelimesinin kökü kitaptır.",
+        "Gözlük kelimesinin kökü gözdür.",
+        "Balık kelimesinin kökü balık olarak alınır."
+      ],
+      "testler": [
+        {
+          "id": "6-2-kok-1",
+          "tip": "secim",
+          "soru": "Kitaplığın kapısını kapattım. cümlesinde kitaplık kelimesinin kökü nedir?",
+          "secenekler": [
+            "Kitaplık",
+            "Kitaplığın",
+            "Kitap"
+          ],
+          "dogru": "Kitap",
+          "aciklama": "Kitap temel anlamı taşır; -lık yeni bir ad oluşturan ektir.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-2-kok-2",
+          "tip": "secim",
+          "soru": "Gözlüğünü masaya bıraktı. cümlesindeki gözlük kelimesinin kökü nedir?",
+          "secenekler": [
+            "Gözlüğü",
+            "Göz",
+            "Gözlük"
+          ],
+          "dogru": "Göz",
+          "aciklama": "Gözlük, göz adından türemiştir; kök gözdür.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-2-kok-3",
+          "tip": "secim",
+          "soru": "Başlık okunaklıydı. cümlesinde başlık kelimesinin kökü nedir?",
+          "secenekler": [
+            "Baş",
+            "Başlık",
+            "Başlı"
+          ],
+          "dogru": "Baş",
+          "aciklama": "Başlık kelimesi baş kökü ile anlam ilişkisini korur.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-2-kok-4",
+          "tip": "secim",
+          "soru": "Tuzlu yiyecekleri ayırdık. cümlesinde tuzlu kelimesinin kökü nedir?",
+          "secenekler": [
+            "Tuzlu",
+            "Tu",
+            "Tuz"
+          ],
+          "dogru": "Tuz",
+          "aciklama": "Tuz anlamlı köktür; -lu nitelik bildiren kelime türetir.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-2-kok-5",
+          "tip": "secim",
+          "soru": "Yolcu pencereden baktı. cümlesinde yolcu kelimesinin kökü nedir?",
+          "secenekler": [
+            "Yolc",
+            "Yol",
+            "Yolcu"
+          ],
+          "dogru": "Yol",
+          "aciklama": "Yolcu, yol köküne gelen -cu ekiyle oluşur.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-2-kok-6",
+          "tip": "secim",
+          "soru": "Gözlemci not aldı. cümlesinde gözlemci kelimesinin en küçük kökü nedir?",
+          "secenekler": [
+            "Göz",
+            "Gözlem",
+            "Gözlemci"
+          ],
+          "dogru": "Göz",
+          "aciklama": "Gözlemci kelimesinde göz temel kök, diğer bölümler türetme sürecinin parçalarıdır.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-2-kok-7",
+          "tip": "secim",
+          "soru": "Çiçekçi dükkânını açtı. cümlesinde çiçekçi kelimesinin kökü nedir?",
+          "secenekler": [
+            "Çiçekçi",
+            "Çiç",
+            "Çiçek"
+          ],
+          "dogru": "Çiçek",
+          "aciklama": "Çiçek anlamlı temel bölümdür; çiç bu anlamı taşıyan kök değildir.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-2-kok-8",
+          "tip": "secim",
+          "soru": "Bilgi kartı hazırlandı. cümlesinde bilgi kelimesinin kökü nedir?",
+          "secenekler": [
+            "Bi",
+            "Bil-",
+            "Bilgi"
+          ],
+          "dogru": "Bil-",
+          "aciklama": "Bilgi kelimesi bilmek fiiliyle anlam ilişkisi taşır; kök bil- biçimindedir.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-2-kok-9",
+          "tip": "secim",
+          "soru": "Sevgi sözcüğünü açıkladık. cümlesinde sevgi kelimesinin kökü nedir?",
+          "secenekler": [
+            "Sev-",
+            "Sevgi",
+            "Se"
+          ],
+          "dogru": "Sev-",
+          "aciklama": "Sevgi, sevmek fiilinden türetilir; sev- köktür.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-2-kok-10",
+          "tip": "secim",
+          "soru": "Balık sözcüğünü köküne ayırırken hangi açıklama doğrudur?",
+          "secenekler": [
+            "Kök mutlaka baldır çünkü ilk üç harfi aynıdır",
+            "Kök yalnız ba sesidir",
+            "Kök balıktır; bal ile anlam ilişkisi kurulmaz"
+          ],
+          "dogru": "Kök balıktır; bal ile anlam ilişkisi kurulmaz",
+          "aciklama": "Harf benzerliği yeterli değildir; balık ile bal arasında türetme ilişkisi yoktur.",
+          "cikti": "T.Y.6.3"
+        }
+      ]
+    },
+    {
+      "kod": "6-2-ek",
+      "ad": "Yapım ve çekim ekinin işlevi",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.Y.6.3",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Ekler kelimede farklı işler yapar. Yapım eki yeni bir kelime oluşturur; çekim eki kelimeyi cümlede sayı, durum, kişi gibi ilişkilerle kullanmayı sağlar. Kitapçı yeni bir kavramken kitaplar aynı adın çoğul biçimidir. Bazı kelimeler her iki tür eki birlikte alır. Eklerin uzun listesini ezberlemek yerine önce önceki ve sonraki anlamı karşılaştır. Yeni bir kelime mi oluştu, yoksa kelime cümlede başka bir ilişkiye mi girdi?</p><ul><li>Kitap → kitapçı: yeni kelime.</li><li>Kitap → kitaplar: çoğul biçim.</li><li>Kitapçılar: yapım ve çekim eki birlikte.</li></ul>",
+      "ornekler": [
+        "Kitap → kitapçı: yeni kelime.",
+        "Kitap → kitaplar: çoğul biçim.",
+        "Kitapçılar: yapım ve çekim eki birlikte."
+      ],
+      "testler": [
+        {
+          "id": "6-2-ek-1",
+          "tip": "secim",
+          "soru": "Kitaplar kelimesindeki -lar ekinin görevi nedir?",
+          "secenekler": [
+            "Yeni bir meslek adı türetmek",
+            "Olumsuz fiil yapmak",
+            "Çoğulluk bildirmek"
+          ],
+          "dogru": "Çoğulluk bildirmek",
+          "aciklama": "Kitaplar aynı adın çoğul biçimidir; -lar çekim ekidir.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-2-ek-2",
+          "tip": "secim",
+          "soru": "Kitapçı kelimesindeki -çı ekinin görevi nedir?",
+          "secenekler": [
+            "Soru bildirmek",
+            "Yeni bir kelime türetmek",
+            "Yer bildirmek"
+          ],
+          "dogru": "Yeni bir kelime türetmek",
+          "aciklama": "Kitapçı yeni bir kavramdır; -çı yapım ekidir.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-2-ek-3",
+          "tip": "secim",
+          "soru": "Evde kelimesindeki -de nasıl bir işlev görür?",
+          "secenekler": [
+            "Bulunma ilişkisi kurar",
+            "Yeni bir eşya adı yapar",
+            "Karşılaştırma yapar"
+          ],
+          "dogru": "Bulunma ilişkisi kurar",
+          "aciklama": "Evde biçiminde -de kelimeyi yer ilişkisiyle kullanır; çekim ekidir.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-2-ek-4",
+          "tip": "secim",
+          "soru": "Gözlük kelimesindeki -lük için hangisi doğrudur?",
+          "secenekler": [
+            "Yalnız çoğulluk bildirir",
+            "Yalnız bulunma bildirir",
+            "Yeni bir varlık adı oluşturur"
+          ],
+          "dogru": "Yeni bir varlık adı oluşturur",
+          "aciklama": "Gözden gözlük sözü türemiştir; -lük yapım ekidir.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-2-ek-5",
+          "tip": "secim",
+          "soru": "Tuzsuz kelimesindeki -suz ne yapar?",
+          "secenekler": [
+            "Kişi uyumu sağlar",
+            "Yokluk niteliği taşıyan yeni bir kelime oluşturur",
+            "Tuz adını çoğul yapar"
+          ],
+          "dogru": "Yokluk niteliği taşıyan yeni bir kelime oluşturur",
+          "aciklama": "Tuzsuz yeni bir niteleme sözüdür; -suz yapım ekidir.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-2-ek-6",
+          "tip": "secim",
+          "soru": "Yollar kelimesinde hangi açıklama doğrudur?",
+          "secenekler": [
+            "Yol adı çoğul kullanılmıştır",
+            "Yeni bir meslek adı oluşmuştur",
+            "Fiile zaman eki gelmiştir"
+          ],
+          "dogru": "Yol adı çoğul kullanılmıştır",
+          "aciklama": "Yollar biçiminde -lar çoğulluk bildiren çekim ekidir.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-2-ek-7",
+          "tip": "secim",
+          "soru": "Evlerimiz kelimesindeki ekler nasıl değerlendirilir?",
+          "secenekler": [
+            "Her ikisi de yeni meslek adı yapar",
+            "Kelime hiç ek almamıştır",
+            "Çoğul ve iyelik ilişkisi kuran çekim ekleridir"
+          ],
+          "dogru": "Çoğul ve iyelik ilişkisi kuran çekim ekleridir",
+          "aciklama": "Evlerimizde -ler çoğul, -imiz iyelik bildirir; yeni kavram türetilmez.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-2-ek-8",
+          "tip": "secim",
+          "soru": "Çiçekçi kelimesi için hangi açıklama uygundur?",
+          "secenekler": [
+            "Soru anlamı oluşmuştur",
+            "Çiçek adından yeni bir kelime türemiştir",
+            "Çiçek yalnız çoğul olmuştur"
+          ],
+          "dogru": "Çiçek adından yeni bir kelime türemiştir",
+          "aciklama": "Çiçekçi sözü çiçekten farklı bir kavram adlandırır.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-2-ek-9",
+          "tip": "secim",
+          "soru": "Yolcular kelimesinde eklerin sırası nasıldır?",
+          "secenekler": [
+            "Önce yapım, sonra çoğul çekim eki",
+            "Önce soru, sonra zaman eki",
+            "Yalnız iki bulunma eki"
+          ],
+          "dogru": "Önce yapım, sonra çoğul çekim eki",
+          "aciklama": "Yol-cu-lar yapısında -cu türetir, -lar çoğulluk bildirir.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-2-ek-10",
+          "tip": "secim",
+          "soru": "Kalemim kelimesindeki -im ekinin işlevi nedir?",
+          "secenekler": [
+            "Yeni bir araç adı yapmak",
+            "Kelimeyi olumsuz yapmak",
+            "İyelik ilişkisi kurmak"
+          ],
+          "dogru": "İyelik ilişkisi kurmak",
+          "aciklama": "Kalemim benim kalemim anlamıyla iyelik bildirir; ek çekim ekidir.",
+          "cikti": "T.Y.6.3"
+        }
+      ]
+    },
+    {
+      "kod": "6-2-karsilastirma",
+      "ad": "Karşılaştırma bildiren dil yapıları",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.K.6.12",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Karşılaştırma, iki veya daha fazla varlığın ortak ve ayrılan yönlerini belirli bir ölçüte göre anlatır. Daha, en, kadar, ise gibi yapılar bu ilişkiyi kurabilir. Karşılaştırılan şeylerin aynı özelliğini dikkate almak gerekir. Bir metnin uzunluğu ile diğerinin rengi aynı ölçüt değildir. Daha iyi gibi genel yargıları mümkünse okunaklılık veya kaynak açıklığı gibi somut bir ölçütle tamamla; gerekçenin ne olduğunu dinleyici görebilsin.</p><ul><li>Bu etiket ötekinden daha okunaklı.</li><li>İki taslak aynı ölçüde kısa.</li><li>İlk metin tarihleri, ikincisi ise görevleri öne çıkarıyor.</li></ul>",
+      "ornekler": [
+        "Bu etiket ötekinden daha okunaklı.",
+        "İki taslak aynı ölçüde kısa.",
+        "İlk metin tarihleri, ikincisi ise görevleri öne çıkarıyor."
+      ],
+      "testler": [
+        {
+          "id": "6-2-karsilastirma-1",
+          "tip": "secim",
+          "soru": "Hangi cümle uzunluk bakımından karşılaştırma yapar?",
+          "secenekler": [
+            "İlk metin dün yazıldı.",
+            "İlk metin masada duruyor.",
+            "İlk metin ikinciden daha kısa."
+          ],
+          "dogru": "İlk metin ikinciden daha kısa.",
+          "aciklama": "Daha kısa sözü iki metni aynı uzunluk ölçütüyle karşılaştırır.",
+          "cikti": "T.K.6.12"
+        },
+        {
+          "id": "6-2-karsilastirma-2",
+          "tip": "secim",
+          "soru": "Hangi cümle eşitlik bildirir?",
+          "secenekler": [
+            "Öteki afiş en okunaklı olanı.",
+            "İki afiş de aynı ölçüde okunaklı.",
+            "Bu afiş daha okunaklı."
+          ],
+          "dogru": "İki afiş de aynı ölçüde okunaklı.",
+          "aciklama": "Aynı ölçüde ifadesi iki afişin niteliğini eşit düzeyde gösterir.",
+          "cikti": "T.K.6.12"
+        },
+        {
+          "id": "6-2-karsilastirma-3",
+          "tip": "secim",
+          "soru": "İlk kayıt kısa, ikinci kayıt ise ayrıntılı. cümlesinde ise ne yapar?",
+          "secenekler": [
+            "İki kaydın farklı niteliğini belirginleştirir",
+            "Bir tarih verir",
+            "Bir kişiye seslenir"
+          ],
+          "dogru": "İki kaydın farklı niteliğini belirginleştirir",
+          "aciklama": "İse iki bölümün karşılaştırılarak ayrılmasına yardım eder.",
+          "cikti": "T.K.6.12"
+        },
+        {
+          "id": "6-2-karsilastirma-4",
+          "tip": "secim",
+          "soru": "Hangi değerlendirme somut bir ölçüt içerir?",
+          "secenekler": [
+            "Bu yazı her bakımdan mükemmel.",
+            "Bu yazı çok güzel işte.",
+            "Bu yazı daha büyük harfleriyle uzaktan daha kolay okunuyor."
+          ],
+          "dogru": "Bu yazı daha büyük harfleriyle uzaktan daha kolay okunuyor.",
+          "aciklama": "Harf boyu ve uzaktan okunma, değerlendirilebilir bir ölçüt sunar.",
+          "cikti": "T.K.6.12"
+        },
+        {
+          "id": "6-2-karsilastirma-5",
+          "tip": "secim",
+          "soru": "Aynı raftaki üç dosyanın en incesi budur. cümlesinde en ne bildirir?",
+          "secenekler": [
+            "Bir sebep ilişkisini",
+            "Belirtilen grup içinde üstünlük derecesi",
+            "Her dosyanın eşitliğini"
+          ],
+          "dogru": "Belirtilen grup içinde üstünlük derecesi",
+          "aciklama": "En incesi üç dosya içinde bir özelliğin en yüksek derecesini belirtir.",
+          "cikti": "T.K.6.12"
+        },
+        {
+          "id": "6-2-karsilastirma-6",
+          "tip": "secim",
+          "soru": "Hangi cümle karşılaştırma içermez?",
+          "secenekler": [
+            "Sergi cuma günü açıldı.",
+            "Bu sergi öncekinden daha kapsamlı.",
+            "Bu sergi öteki kadar uzun sürdü."
+          ],
+          "dogru": "Sergi cuma günü açıldı.",
+          "aciklama": "Cuma günü açıldı sözü bir zaman bilgisi verir; iki unsur karşılaştırılmaz.",
+          "cikti": "T.K.6.12"
+        },
+        {
+          "id": "6-2-karsilastirma-7",
+          "tip": "secim",
+          "soru": "Bu belge öteki kadar eski değil. cümlesindeki ilişki nedir?",
+          "secenekler": [
+            "İkisinin aynı tarihte yazıldığını kanıtlama",
+            "İkisinin de kaybolduğunu bildirme",
+            "Yaş bakımından eşit olmadıklarını bildirme"
+          ],
+          "dogru": "Yaş bakımından eşit olmadıklarını bildirme",
+          "aciklama": "Kadar ve değil yapısı aynı eskilik düzeyini reddeder.",
+          "cikti": "T.K.6.12"
+        },
+        {
+          "id": "6-2-karsilastirma-8",
+          "tip": "secim",
+          "soru": "Aynı özellik üzerinden kurulan karşılaştırma hangisidir?",
+          "secenekler": [
+            "Bu kutu ötekinden daha kapı.",
+            "Bu kutu ötekinden daha ağır.",
+            "Bu kutu ötekinden daha salı."
+          ],
+          "dogru": "Bu kutu ötekinden daha ağır.",
+          "aciklama": "Ağırlık iki kutu için ortak ve karşılaştırılabilir bir özelliktir.",
+          "cikti": "T.K.6.12"
+        },
+        {
+          "id": "6-2-karsilastirma-9",
+          "tip": "secim",
+          "soru": "Önceki açıklama uzundu; bu ise daha kısa. cümlesinin işlevi nedir?",
+          "secenekler": [
+            "İki açıklamayı uzunluk yönünden ayırmak",
+            "İki olay arasında neden kurmak",
+            "Bir koşul ileri sürmek"
+          ],
+          "dogru": "İki açıklamayı uzunluk yönünden ayırmak",
+          "aciklama": "Uzun ve kısa sözleri ortak bir ölçüte göre karşıtlık kurar.",
+          "cikti": "T.K.6.12"
+        },
+        {
+          "id": "6-2-karsilastirma-10",
+          "tip": "secim",
+          "soru": "Daha adil bir görev dağılımı yaptık. sözünü hangi ek bilgi somutlaştırır?",
+          "secenekler": [
+            "Panonun rengini değiştirdik.",
+            "Kapıyı açık bıraktık.",
+            "Görev süreleri arasındaki farkı azalttık."
+          ],
+          "dogru": "Görev süreleri arasındaki farkı azalttık.",
+          "aciklama": "Süre farkının azaltılması adalet yargısının dayanağını açıklar.",
+          "cikti": "T.K.6.12"
+        }
+      ]
+    }
+  ],
+  "dinleme": [
+    {
+      "id": "6-2-dinleme",
+      "baslik": "İki Sergi Ekibi",
+      "metin": "Birinci ekip okul sergisindeki olayları tarih sırasına koydu. İkinci ekip aynı belgeleri üstlenilen görevlere göre ayırdı. İlk ekip zaman ilişkisini göstermede, ikinci ekip ortak emeği görünür kılmada güçlüydü. Ancak iki düzenin de eksikleri vardı. İlkinde yazılar küçülmüş, ikincisinde tarihler gözden kaçmıştı. Ekipler birbirini yenmek yerine amaçlarına hangi düzenin daha uygun olduğunu konuştular. Sonuçta girişe kısa bir zaman çizelgesi, iç bölüme görev başlıkları koydular. Tarihi bilinmeyen belgeleri tahminle sıralamadılar. Bu kararı açıklayan küçük bir not da eklediler.",
+      "tts": {
+        "dil": "tr-TR",
+        "sesYoksa": "metin"
+      },
+      "sorular": [
+        {
+          "id": "6-2-dinleme-1",
+          "tip": "secim",
+          "soru": "“İki Sergi Ekibi” dinleme metnine göre: İki ekibin ortak yönü nedir?",
+          "secenekler": [
+            "Hiç kaynak kullanmamaları",
+            "Aynı belgeleri kullanmaları",
+            "Aynı eksiksiz düzeni seçmeleri"
+          ],
+          "dogru": "Aynı belgeleri kullanmaları",
+          "aciklama": "Metinde belgelerin aynı, düzenleme yollarının farklı olduğu anlatılır.",
+          "cikti": "T.D.6.9"
+        },
+        {
+          "id": "6-2-dinleme-2",
+          "tip": "secim",
+          "soru": "“İki Sergi Ekibi” dinleme metnine göre: Zaman çizelgesinin güçlü yanı nedir?",
+          "secenekler": [
+            "Önce ve sonra ilişkisini göstermesi",
+            "Her kişinin özel bilgisini açıklaması",
+            "Tarihleri görünmez yapması"
+          ],
+          "dogru": "Önce ve sonra ilişkisini göstermesi",
+          "aciklama": "Zaman sırası olaylar arasındaki kronolojik ilişkiyi belirginleştirir.",
+          "cikti": "T.D.6.9"
+        },
+        {
+          "id": "6-2-dinleme-3",
+          "tip": "secim",
+          "soru": "“İki Sergi Ekibi” dinleme metnine göre: Görev başlıkları neyi görünür kılar?",
+          "secenekler": [
+            "Belgelerin satış fiyatını",
+            "Ziyaretçilerin yaşını",
+            "Ortak emeğin farklı yönlerini"
+          ],
+          "dogru": "Ortak emeğin farklı yönlerini",
+          "aciklama": "Görev temelli düzen insanların üstlendikleri katkıları öne çıkarır.",
+          "cikti": "T.D.6.7"
+        },
+        {
+          "id": "6-2-dinleme-4",
+          "tip": "secim",
+          "soru": "“İki Sergi Ekibi” dinleme metnine göre: Bilinmeyen tarihleri uydurmamaları nasıl yorumlanır?",
+          "secenekler": [
+            "Bütün belgeleri yanlış saydıkları",
+            "Belirsizliği dürüstçe gösterdikleri",
+            "Araştırmayı gereksiz buldukları"
+          ],
+          "dogru": "Belirsizliği dürüstçe gösterdikleri",
+          "aciklama": "Bilmediklerini kesin bilgiye dönüştürmeden notla açıklamışlardır.",
+          "cikti": "T.D.6.8"
+        }
+      ]
+    }
+  ],
+  "yazmaGorevleri": [
+    {
+      "id": "6-2-yazma",
+      "baslik": "Sergi Etiketinin Taslağı",
+      "yonerge": "Gerçek bir tarihî kişiye aitmiş gibi sunmadan, bağımsızlık temalı kurgusal bir okul sergisi için 120–200 kelimelik açıklama yaz. İki düzenleme seçeneğini karşılaştır, seçiminin gerekçesini belirt. Bilinmeyen bilgileri kesinleştirme. Kullandığın kök ve ek örneklerinden ikisini ayrıca göster; son metnin içinde kelimeleri normal yaz.",
+      "minKelime": 120,
+      "maxKelime": 200,
+      "ciktilar": [
+        "T.Y.6.1",
+        "T.Y.6.3",
+        "T.Y.6.11",
+        "T.Y.6.21"
+      ],
+      "ogretmenDegerlendirmeli": true,
+      "rubrik": [
+        {
+          "olcut": "Amaca ve konuya uygunluk",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Düşünce düzeni ve gerekçelendirme",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Bağlama uygun dil yapıları ve söz varlığı",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Yazım, noktalama ve gözden geçirme",
+          "enDusuk": 0,
+          "enYuksek": 4
+        }
+      ]
+    }
+  ],
+  "lgsSorulari": []
+}

@@ -6,8 +6,8 @@ Asıl içerik kaynağı bu klasördeki JSON dosyalarıdır. Sıra **sınıf → 
 
 - `sema.json`: JSON Schema 2020-12. `belgeTuru` ile `mufredat` ve `tema` ayrılır; bilinmeyen alanlar reddedilir.
 - `kaynaklar.json`: resmi tema kaynakları, kontrol tarihi ve doğrulanmış kodlar; yıllık planın adresi ve kontrol edilen sayfa/satırlar. İndirilen kaynakların SHA-256 değerleri izlenebilirlik içindir. CI internete bağlanıp kaynak metinlerinin doğruluğunu yeniden onaylamaz.
-- `5-sinif`–`7-sinif`: `program: "TYMM"`. Bu ilk içerik teslimi yalnızca 5. sınıfı tamamlar.
-- `8-sinif`: `program: "2019"`; her temada en az 20 LGS sorusu gerekir. Şema 2019 biçimindeki `T.8.3.1` gibi kodları da destekler. TYMM'ye geçiş ayrıca sürümlenecektir. Bu PR'da 6–8. sınıf içeriği hazırmış gibi gösterilmez.
+- `5-sinif`–`7-sinif`: `program: "TYMM"`. 5. ve 6. sınıfın altışar teması hazırdır; 7. sınıf sonraki içerik teslimidir.
+- `8-sinif`: `program: "2019"`; her temada en az 20 LGS sorusu gerekir. Şema 2019 biçimindeki `T.8.3.1` gibi kodları da destekler. TYMM'ye geçiş ayrıca sürümlenecektir. 7. ve 8. sınıf bankaları henüz hazır değildir.
 
 ## Tema alanları
 
@@ -61,10 +61,16 @@ node tools/icerik-dogrula.mjs
 node --test tests/turkce-content.test.mjs
 ```
 
-Araç şema uyumu yanında doğru cevabı, soru/kimlik/kelime tekrarlarını, karakter bozulmalarını, kod biçimi ve sınıfını, kaynak kaydını, tema-müfredat eşleşmesini, konu kapsamını, metin uzunluğunu, güvenli anlatım HTML'ini ve öğretmen değerlendirmesi şartını kontrol eder. Hata varsa çıkış kodu 1 olur. `--json` rapor, `--root <depo>` başka bir kontrol kökü sağlar. Araç öğrenci veritabanına bağlanmaz.
+Araç şema uyumu yanında doğru cevabı, soru/kimlik/kelime tekrarlarını, karakter bozulmalarını, kod biçimi ve sınıfını, kaynak kaydını, tema-müfredat eşleşmesini, resmî tema çıktı listesinin eksiksizliğini, kaynak adresi eşleşmesini, 5. ve 6. sınıfta altı tema şartını, konu kapsamını, metin uzunluğunu, güvenli anlatım HTML'ini ve öğretmen değerlendirmesi şartını kontrol eder. Hata varsa çıkış kodu 1 olur. `--json` rapor, `--root <depo>` başka bir kontrol kökü sağlar. Araç öğrenci veritabanına bağlanmaz.
 
 GitHub Actions `turkce-icerik.yml`, kilit dosyasıyla Node 22 üzerinde bu denetimleri çalıştırır. Dilsel doğruluk, tek anlamlılık, kaynak-çıktı eşlemesinin pedagojik niteliği ve öğretmen incelemesi ayrıca değerlendirilir; otomatik kontrol bunların yerine geçmez.
 
 ## Tek parkur kararı
 
 İçerik sözleşmesinde CEFR veya ikinci parkur seçimi yoktur. Başlangıç, seçilen 5–8. sınıfın ilk temasına göre olacaktır. Kayıt veya profil seviye testi üretilmez. Ders içindeki konu testleri ve anlama soruları öğrenme etkinliğidir. Uygulamadaki eski başlangıç testi/çift parkur girişlerinin kapatılması Aşama 2 kapsamındadır.
+
+## 6. sınıfın dil yapıları
+
+6. sınıfın tema uygulama açıklamalarında dil yapıları bulunur; her biri için ayrı bir resmî DYS kodu verilmiş gibi gösterilmez. `6-2-kok` gibi kimlikler yereldir. Etkinlikler temadaki doğrulanmış genel öğrenme çıktılarıyla eşlenir. Bu pedagojik eşleme, ayrı bir resmî dil bilgisi kazanım kodu iddiası taşımaz; ayrıntılar 6. sınıf müfredatının `kaynakNotlari` alanında ve sınıf teslim raporundadır.
+
+`kaynaklar.json` içindeki `yillikPlan` 5. sınıfın ilk kaynak incelemesini, `ekSinifPlanlari` eklenen sınıfların kontrol edilen çalışma sayfalarını saklar. Temalara ait kodlar, adresler ve kaynak dosyalarının SHA-256 değerleri `kaynaklar` listesindedir.

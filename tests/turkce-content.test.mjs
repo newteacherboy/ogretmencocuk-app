@@ -8,7 +8,7 @@ const registry=await read('../content/turkce/kaynaklar.json');
 const schema=await makeValidator();
 const options=()=>({schema,sourceCodes:new Set(registry.kaynaklar.flatMap(x=>x.kodlar)),themeCodes:new Set(registry.kaynaklar[0].kodlar)});
 const mutate=fn=>{const d=structuredClone(original);fn(d);return validateDocument(d,options());};
-test('5. sınıfın altı tam teması ve bütün içerik türleri doğrulanır',async()=>{const r=await validateBank();assert.deepEqual(r.errors,[]);assert.deepEqual(r.warnings,[]);assert.equal(r.themes,6);assert.equal(r.words,180);assert.equal(r.readings,12);assert.equal(r.lessons,30);assert.equal(r.questions,420);assert.equal(r.listening,6);assert.equal(r.writing,6);});
+test('5 ve 6. sınıf bankaları birlikte, yinelenen kimlik veya soru olmadan doğrulanır',async()=>{const r=await validateBank();assert.deepEqual(r.errors,[]);assert.deepEqual(r.warnings,[]);assert.equal(r.classes,2);assert.equal(r.themes,12);assert.equal(r.words,360);assert.equal(r.readings,24);assert.equal(r.lessons,50);assert.equal(r.questions,743);assert.equal(r.listening,12);assert.equal(r.writing,12);});
 test('doğru cevap şıklarda yoksa reddedilir',()=>assert(mutate(d=>d.konular[0].testler[0].dogru='bulunmayan cevap').errors.some(x=>x.includes('tam bir kez'))));
 test('indeks tabanlı eski cevap sözleşmesi yanlışlıkla kabul edilmez',()=>assert(mutate(d=>d.konular[0].testler[0].dogru=0).errors.some(x=>x.includes('şema'))));
 test('Türkçe büyük/küçük harfle gizlenmiş yinelenen şık reddedilir',()=>assert(mutate(d=>{const q=d.konular[3].testler[0];q.secenekler[1]=q.secenekler[0].toLocaleUpperCase('tr-TR');}).errors.some(x=>x.includes('yinelenen seçenek'))));
@@ -23,3 +23,27 @@ test('çok kısa okuma metni reddedilir',()=>assert(mutate(d=>d.okumaParcalari[0
 test('anlatım HTML içinde olay işleyici kabul edilmez',()=>assert(mutate(d=>d.konular[0].anlatimHTML='<p onclick="alert(1)">Metin</p>').errors.some(x=>x.includes('güvenli anlatım'))));
 test('yazma görevi otomatik öğrenci onayına dönüştürülemez',()=>assert(mutate(d=>d.yazmaGorevleri[0].ogretmenDegerlendirmeli=false).errors.some(x=>x.includes('şema'))));
 test('Türkçe I ve İ aynı olmayan doğru eşlemelerle normalleştirilir',()=>{assert.equal(normalize('İLETİŞİM'),'iletişim');assert.equal(normalize('IŞIK'),'ışık');assert.notEqual(normalize('I'),normalize('İ'));});
+
+const sixthManifest=await read('../content/turkce/6-sinif/mufredat.json');
+const sixth=await read('../content/turkce/6-sinif/tema-1-dilimizin-zenginligi.json');
+const sixthOptions=()=>({schema,sourceCodes:new Set(registry.kaynaklar.flatMap(x=>x.kodlar)),themeCodes:new Set(registry.kaynaklar.find(x=>x.sinif===6&&x.tema===1).kodlar)});
+test('6. sınıfın MEB sırası, saatleri ve tek parkur kararı korunur',()=>{
+ assert.deepEqual(sixthManifest.temalar.map(t=>t.ad),['Dilimizin Zenginliği','Bağımsızlık Yolu','Farklı Dünyalar','İletişim ve Sosyal İlişkiler','Bilim ve Teknoloji','Lider Ruhlar']);
+ assert.deepEqual(sixthManifest.temalar.map(t=>t.saat),[35,35,34,34,34,34]);
+ assert.match(sixthManifest.parkurKurali,/seviye testi yok/);
+ assert.match(sixthManifest.parkurKurali,/Tek Türkçe parkuru/);
+});
+test('6. sınıf okumasında alt ve üst kelime sınırı gerçekten uygulanır',()=>{
+ for(const n of [299,501]){const d=structuredClone(sixth);d.okumaParcalari[0].metin=Array(n).fill('kelime').join(' ');assert(validateDocument(d,sixthOptions()).errors.some(x=>x.includes('beklenen 300–500')));}
+ for(const n of [300,500]){const d=structuredClone(sixth);d.okumaParcalari[0].metin=Array(n).fill('kelime').join(' ');assert.deepEqual(validateDocument(d,sixthOptions()).errors,[]);}
+});
+test('resmî tema listesinden bir çıktı sessizce silinemez',()=>{
+ const d=structuredClone(sixth);d.ogrenmeCiktilari.pop();assert(validateDocument(d,sixthOptions()).errors.some(x=>x.includes('resmî temanın çıktı listesi')));
+});
+test('önceki temanın sorusu tekrar olarak işaretlenmelidir',async()=>{
+ const d=await read('../content/turkce/6-sinif/tema-2-bagimsizlik-yolu.json');
+ const opt={schema,sourceCodes:new Set(registry.kaynaklar.flatMap(x=>x.kodlar)),themeCodes:new Set(registry.kaynaklar.find(x=>x.sinif===6&&x.tema===2).kodlar)};
+ d.okumaParcalari[0].sorular[0].cikti='T.O.6.6';delete d.okumaParcalari[0].sorular[0].onKosul;
+ assert(validateDocument(d,opt).errors.some(x=>x.includes('onKosul=true')));
+ d.okumaParcalari[0].sorular[0].onKosul=true;assert.deepEqual(validateDocument(d,opt).errors,[]);
+});
