@@ -1,0 +1,907 @@
+{
+  "belgeTuru": "tema",
+  "semaSurumu": "1.0",
+  "sinif": 5,
+  "program": "TYMM",
+  "tema": 6,
+  "temaAdi": "Sağlıklı Yaşıyorum",
+  "durum": "incelemeye_hazir",
+  "kaynak": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/87",
+  "kaynak_dogrulanmadi": false,
+  "ogrenmeCiktilari": [
+    "T.D.5.1",
+    "T.D.5.12",
+    "T.D.5.17",
+    "T.D.5.20",
+    "T.D.5.4",
+    "T.D.5.7",
+    "T.K.5.14",
+    "T.K.5.15",
+    "T.K.5.17",
+    "T.K.5.21",
+    "T.O.5.14",
+    "T.O.5.20",
+    "T.O.5.22",
+    "T.O.5.3",
+    "T.O.5.5",
+    "T.O.5.9",
+    "T.Y.5.1",
+    "T.Y.5.11",
+    "T.Y.5.13",
+    "T.Y.5.15",
+    "T.Y.5.16",
+    "T.Y.5.17",
+    "T.Y.5.2",
+    "T.Y.5.3"
+  ],
+  "sozVarligi": {
+    "aciklama": "Tanım ve örnekler özgündür. Kelimeler aynı tema içinde bir kez yer alır.",
+    "kelimeler": [
+      {
+        "kelime": "alışkanlık",
+        "anlam": "Tekrarlarla düzenli hâle gelen davranış",
+        "ornek": "Kitap okuma alışkanlığımı sürdürdüm.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "denge",
+        "anlam": "Farklı ihtiyaçların uygun bir düzen içinde karşılanması",
+        "ornek": "Çalışma ve dinlenme arasında denge kurdum.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "dinlenme",
+        "anlam": "Yorgunluğu azaltmak için etkinliğe ara verme",
+        "ornek": "Dinlenme sırasında sessizce oturdum.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "hareket",
+        "anlam": "Bedenin veya bir parçanın yer değiştirmesi",
+        "ornek": "Oyunumuz farklı hareketler içeriyordu.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "esneklik",
+        "anlam": "Bir durumun koşullarına göre değişebilme özelliği",
+        "ornek": "Yağmur yağınca planımıza esneklik kazandırdık.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "hijyen",
+        "anlam": "Sağlığı korumaya yönelik temizlik uygulamaları",
+        "ornek": "El yıkama hijyen için önemlidir.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "temizlik",
+        "anlam": "Kirden ve zararlı birikintilerden arınmış olma durumu",
+        "ornek": "Sınıfın temizliği için görevleri paylaştık.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "öğün",
+        "anlam": "Günün belirli bölümünde yenilen yemek",
+        "ornek": "Öğünlerle ilgili bir bilgilendirme metni okuduk.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "besin",
+        "anlam": "Vücudun ihtiyaçlarını karşılamaya katkı sağlayan yiyecek",
+        "ornek": "Metin farklı besinleri karşılaştırıyordu.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "çeşitlilik",
+        "anlam": "Bir ortamda farklı türlerin bulunması",
+        "ornek": "Tablodaki sebzeler çeşitlilik gösteriyordu.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "güvenilir",
+        "anlam": "Bilgisine veya davranışına dayanılabilen",
+        "ornek": "Güvenilir bir kaynağın kimden geldiğini araştırdık.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "uzman",
+        "anlam": "Bir alanda eğitim ve deneyim sahibi kişi",
+        "ornek": "Sağlık sorularımızı bir uzmana yönelttik.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "bilgilendirme",
+        "anlam": "Bir konuda anlaşılır bilgi sunma",
+        "ornek": "Panodaki bilgilendirme yazısını okudum.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "etiket",
+        "anlam": "Bir ürün veya nesne hakkında kısa bilgi taşıyan işaret",
+        "ornek": "Etiketteki tarihi dikkatle inceledik.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "ölçüt",
+        "anlam": "Bir değerlendirmede kullanılan temel veya kural",
+        "ornek": "Kaynağı seçerken ölçüt belirledik.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "gözlem",
+        "anlam": "Bir durumu dikkatle inceleyerek bilgi edinme",
+        "ornek": "Bahçedeki gözlemlerimizi kaydettik.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "kayıt",
+        "anlam": "Bir bilgiyi sonradan kullanılmak üzere saklama",
+        "ornek": "Gözlem kaydı defterde duruyordu.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "veri",
+        "anlam": "Bir incelemede kullanılan gözlem veya ölçüm bilgisi",
+        "ornek": "Toplanan veri küçük bir tabloya işlendi.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "çizelge",
+        "anlam": "Bilgileri satır ve sütunlarla gösteren düzen",
+        "ornek": "Etkinlik çizelgesine görevimi yazdım.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "karşılaştırma",
+        "anlam": "Benzerlik ve farklılıkları birlikte inceleme",
+        "ornek": "İki metin arasında karşılaştırma yaptık.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "dinç",
+        "anlam": "Kendini canlı ve güçlü hisseden",
+        "ornek": "Dinlenince kendimi daha dinç hissettim.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "yorgunluk",
+        "anlam": "Çaba sonrasında hissedilen güç azalması",
+        "ornek": "Yorgunluğumu fark edince ara verdim.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "güvenlik",
+        "anlam": "Zarar görmeyi önlemeye yönelik koşullar ve önlemler",
+        "ornek": "Oyunda güvenlik için alanı kontrol ettik.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "önlem",
+        "anlam": "Olası bir sorunu azaltmak için önceden yapılan iş",
+        "ornek": "Kaygan zemine karşı önlem aldık.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "erişilebilirlik",
+        "anlam": "Bir alanı veya bilgiyi farklı kişilerin kullanabilmesi",
+        "ornek": "Etkinlikte erişilebilirliği gözeten seçenekler sunduk.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "katılım",
+        "anlam": "Bir işe veya etkinliğe dâhil olma",
+        "ornek": "Farklı görevler katılımı kolaylaştırdı.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "uyku",
+        "anlam": "Bedenin doğal olarak dinlendiği düzenli durum",
+        "ornek": "Uyku hakkında güvenilir bir metin seçtik.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "plan",
+        "anlam": "Bir işin nasıl yürütüleceğini gösteren düzen",
+        "ornek": "Günlük planıma dinlenme arası ekledim.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "fark etmek",
+        "anlam": "Bir durumun varlığını veya değişimini anlamak",
+        "ornek": "Sınıfın havasının değiştiğini fark ettim.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "süreklilik",
+        "anlam": "Bir davranışın aralıklarla da olsa devam etmesi",
+        "ornek": "Çalışmada süreklilik küçük adımlarla sağlanır.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      }
+    ],
+    "esAnlamlilar": [
+      [
+        "önlem",
+        "tedbir"
+      ]
+    ],
+    "zitAnlamlilar": [
+      [
+        "dinç",
+        "yorgun"
+      ]
+    ],
+    "esSesliler": [],
+    "deyimler": [],
+    "atasozleri": []
+  },
+  "okumaParcalari": [
+    {
+      "id": "5-6-okuma-1",
+      "baslik": "Bahçedeki Yeni Düzen",
+      "tur": "oykuleyici",
+      "metin": "Okulun bahçesinde teneffüsler çoğu gün aynı biçimde geçiyordu. Bir grup hızlı bir oyun oynuyor, diğer öğrenciler kenarda bekliyordu. Selin, sınıf toplantısında herkesin aynı oyuna katılmak istemediğini söyledi. Bazı arkadaşları daha sakin bir etkinlik arıyor, bazıları ise oyunun kurallarını öğrenemeden dışarıda kalıyordu. Öğretmenleri tek bir çözüm önermek yerine, bahçenin nasıl kullanıldığını gözlemlemelerini istedi. Öğrenciler iki gün boyunca yalnızca etkinlik türlerini ve kullanılan alanları not etti; kişilerin adlarını kaydetmedi.\n\nNotlar incelendiğinde bir köşenin sürekli boş kaldığı görüldü. Sınıf bu alanı farklı etkinlikler için kullanmayı önerdi. Öneriler arasında ip oyunları, kısa yürüyüşler, oturarak oynanan kelime oyunları ve sessiz bir okuma köşesi vardı. Öğrenciler herkesin her gün aynı etkinliği yapmasını istemedi. Seçim yapabilmek ve gerektiğinde dinlenebilmek de yeni düzenin parçası olacaktı. Bunun için küçük bir çizelge hazırlandı; çizelge bir yarışma puanı tutmuyor, alanın hangi zamanlarda kullanılacağını gösteriyordu.\n\nİlk uygulama günü hava yağışlıydı. Bahçedeki kaygan zemin görülünce hareketli oyunlar ertelendi. Öğrenciler hazırladıkları planın boşa gittiğini düşündü. Selin, planın değiştirilemez bir liste olmadığını hatırlattı. Öğretmenleriyle birlikte güvenli bir kapalı alan seçtiler. Bazı öğrenciler masa başında kelime oyunu oynarken diğerleri kısa bir öyküyü sesli okudu. Böylece etkinlikten vazgeçmek yerine koşullara uygun bir değişiklik yaptılar. Herkesin aynı işi yapması gerekmemişti.\n\nHafta sonunda öğrenciler yeni düzeni değerlendirdi. En çok beğenilen etkinliği seçmekten önce, kimlerin katılmakta zorlandığını ve hangi bilgilerin eksik kaldığını konuştular. Kuralların daha büyük yazılması gerektiği anlaşıldı. Dinlenme köşesinin yeri de daha sessiz bir bölüme alındı. Bu değişiklikler bir başarı sıralaması oluşturmak için yapılmadı. Amaç, ortak alanın daha güvenli ve erişilebilir kullanılmasıydı. Selin çizelgenin altına yeni bir soru ekledi: Bu plan herkes için anlaşılır mı? Öğrenciler ertesi hafta da bu sorudan başlayarak gözlemlerini sürdürmeye karar verdi.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; ders kitabından alınmamıştır.",
+      "sorular": [
+        {
+          "id": "5-6-okuma-1-1",
+          "tip": "secim",
+          "soru": "“Bahçedeki Yeni Düzen” metnine göre: Öğrencilerin ilk gözlemi hangi önemli bilgiyi toplamak içindi?",
+          "secenekler": [
+            "Yalnızca oyunu kazananların adlarını",
+            "Bahçedeki etkinliklerin ve alan kullanımının durumunu",
+            "Her öğrencinin evde geçirdiği süreyi"
+          ],
+          "dogru": "Bahçedeki etkinliklerin ve alan kullanımının durumunu",
+          "aciklama": "Gözlem, ortak alanın kullanımı hakkında düzen kurmaya yarayan bilgi toplar.",
+          "cikti": "T.O.5.14"
+        },
+        {
+          "id": "5-6-okuma-1-2",
+          "tip": "secim",
+          "soru": "“Bahçedeki Yeni Düzen” metnine göre: Çizelgenin işlevini doğru belirten seçenek hangisidir?",
+          "secenekler": [
+            "Alanların ne zaman kullanılacağını göstermek",
+            "En başarılı öğrenciyi sıralamak",
+            "Kişisel telefonları kaydetmek"
+          ],
+          "dogru": "Alanların ne zaman kullanılacağını göstermek",
+          "aciklama": "Metin, çizelgenin puan tutmadığını özellikle belirtir.",
+          "cikti": "T.O.5.14"
+        },
+        {
+          "id": "5-6-okuma-1-3",
+          "tip": "secim",
+          "soru": "“Bahçedeki Yeni Düzen” metnine göre: Planın değiştirilmesine yol açan önemli durum neydi?",
+          "secenekler": [
+            "Bütün kitapların kaybolması",
+            "Çizelgenin yarışmaya dönüşmesi",
+            "Yağmurun zemini kayganlaştırması"
+          ],
+          "dogru": "Yağmurun zemini kayganlaştırması",
+          "aciklama": "Kaygan zemin, güvenli etkinlik düzeni açısından belirleyici bilgidir.",
+          "cikti": "T.O.5.14"
+        },
+        {
+          "id": "5-6-okuma-1-4",
+          "tip": "secim",
+          "soru": "“Bahçedeki Yeni Düzen” metnine göre: Yeni düzende seçim ve dinlenmeye yer verilmesi neyi gösterir?",
+          "secenekler": [
+            "Hiçbir etkinliğe hazırlanılmadığını",
+            "Farklı ihtiyaçların gözetildiğini",
+            "Herkesin aynı etkinliğe zorlandığını"
+          ],
+          "dogru": "Farklı ihtiyaçların gözetildiğini",
+          "aciklama": "Birden çok seçenek sunulması farklı öğrencilerin katılımını destekler.",
+          "cikti": "T.O.5.14"
+        },
+        {
+          "id": "5-6-okuma-1-5",
+          "tip": "secim",
+          "soru": "“Bahçedeki Yeni Düzen” metnine göre: Hafta sonu değerlendirmede hangi bilgiye öncelik verildi?",
+          "secenekler": [
+            "Katılmakta zorlananlar ve eksik kalan açıklamalar",
+            "Yalnızca en hızlı koşanın süresi",
+            "Sadece kullanılan kalemlerin markası"
+          ],
+          "dogru": "Katılmakta zorlananlar ve eksik kalan açıklamalar",
+          "aciklama": "Değerlendirmenin amacı planın kullanımını geliştirmektir.",
+          "cikti": "T.O.5.14"
+        },
+        {
+          "id": "5-6-okuma-1-6",
+          "tip": "secim",
+          "soru": "“Bahçedeki Yeni Düzen” metnine göre: Kuralların büyük yazılması neden önemli bulunmuştur?",
+          "secenekler": [
+            "Uzun yazı her zaman daha doğru olduğu için",
+            "Çizelgeye daha çok puan eklediği için",
+            "Etkinliği anlamayı ve katılmayı kolaylaştırdığı için"
+          ],
+          "dogru": "Etkinliği anlamayı ve katılmayı kolaylaştırdığı için",
+          "aciklama": "Okunabilir kurallar ortak alanın erişilebilirliğine katkı sağlar.",
+          "cikti": "T.O.5.14"
+        },
+        {
+          "id": "5-6-okuma-1-7",
+          "tip": "secim",
+          "soru": "“Bahçedeki Yeni Düzen” metnine göre: “Erişilebilir” kelimesinin metindeki anlamı nedir?",
+          "secenekler": [
+            "Kimsenin değiştiremeyeceği",
+            "Farklı kişilerin kullanmasına uygun",
+            "Yalnızca hızlı oyunculara ayrılmış"
+          ],
+          "dogru": "Farklı kişilerin kullanmasına uygun",
+          "aciklama": "Yeni düzen farklı ihtiyaçlara uygun kullanım yolları arar.",
+          "cikti": "T.O.5.5"
+        },
+        {
+          "id": "5-6-okuma-1-8",
+          "tip": "secim",
+          "soru": "“Bahçedeki Yeni Düzen” metnine göre: Metindeki planlama anlayışını en iyi açıklayan bilgi hangisidir?",
+          "secenekler": [
+            "Gözlem yapılarak düzen kurulmuş ve geri bildirimle değiştirilmiştir",
+            "İlk planın bütün koşullarda aynı kalması istenmiştir",
+            "Öğrencilerin düşüncesi değerlendirme dışında bırakılmıştır"
+          ],
+          "dogru": "Gözlem yapılarak düzen kurulmuş ve geri bildirimle değiştirilmiştir",
+          "aciklama": "Olayların sırası, planın gözlem ve değerlendirmeyle geliştiğini gösterir.",
+          "cikti": "T.O.5.14"
+        }
+      ]
+    },
+    {
+      "id": "5-6-okuma-2",
+      "baslik": "Bir Bilginin Etiketini Okumak",
+      "tur": "bilgilendirici",
+      "metin": "Günlük hayatımızda sağlıklı yaşamla ilgili pek çok yazıyla karşılaşırız. Bir afiş hareket etmeyi hatırlatır, bir ürün etiketi içerik bilgisi verir, kısa bir paylaşım ise dikkat çekici bir öneri sunar. Bu metinlerin hepsi aynı amaçla veya aynı özenle hazırlanmış olmayabilir. Bu yüzden okurken yalnızca büyük başlığa bakmak yeterli değildir. Bilginin kim tarafından hazırlandığını, ne zaman yayımlandığını ve hangi durumu anlattığını da değerlendirmek gerekir. Bir önerinin herkese aynı biçimde uygun olduğu sonucu aceleyle çıkarılmamalıdır.\n\nBir sınıf, bilgi metinlerini karşılaştırmak için iki kurmaca örnek kullandı. Birinci örnekte yalnızca herkese kesin çözüm sözü vardı. Kaynak, tarih veya açıklama bulunmuyordu. İkinci örnekte ise bilginin konusu, hazırlayan kurum ve başvurulabilecek kaynak belirtilmişti. Öğrenciler ikinci metni yalnızca daha uzun olduğu için seçmedi. Onu kontrol edebilecekleri bilgileri taşıdığı için daha dikkatli incelemeye değer buldular. Kaynak gösterilmesinin de her cümleyi otomatik olarak doğru yapmadığını konuştular.\n\nÖğretmenleri metinlerin önemli bilgilerini bulmak için üç renk kullanmalarını önerdi. Konuyu bir renkle, dayanakları başka bir renkle, belirsiz kalan noktaları üçüncü renkle işaretlediler. Böylece metindeki her cümlenin aynı işi yapmadığını gördüler. Bazı cümleler örnek veriyor, bazıları temel düşünceyi açıklıyor, bazılarıysa okuru bir davranışa çağırıyordu. Özet hazırlarken en dikkat çekici sözü değil, metnin amacını ve önemli dayanaklarını korumaya çalıştılar.\n\nÇalışmanın sonunda sınıf bir okuma kontrol kartı hazırladı. Kartta kaynak, tarih, amaç ve doğrulanabilirlik başlıkları vardı. Sağlıkla ilgili kişisel bir karar gerektiğinde güvenilir bir yetişkine ve uygun uzmana danışılması gerektiği de hatırlatıldı. Bu kart bir tedavi listesi değildi; bilgi metinlerini daha bilinçli okumaya yardımcı oluyordu. Öğrenciler sonraki hafta aynı yöntemi farklı bir çevre afişinde denedi. Sorular değişse de temel yaklaşım aynı kaldı: Önce metni anla, sonra iddianın neye dayandığını araştır ve bilmediğin noktayı açıkça belirt.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; ders kitabından alınmamıştır.",
+      "sorular": [
+        {
+          "id": "5-6-okuma-2-1",
+          "tip": "secim",
+          "soru": "“Bir Bilginin Etiketini Okumak” metnine göre: Bilgi metnini değerlendirirken hangi ayrıntılar önemlidir?",
+          "secenekler": [
+            "Hazırlayan, yayımlanma zamanı ve ele aldığı durum",
+            "Yalnızca en büyük yazının rengi",
+            "Sadece paylaşımın kaç kelime olduğu"
+          ],
+          "dogru": "Hazırlayan, yayımlanma zamanı ve ele aldığı durum",
+          "aciklama": "Bu ayrıntılar kaynağı ve bağlamı kontrol etmeye yardım eder.",
+          "cikti": "T.O.5.14"
+        },
+        {
+          "id": "5-6-okuma-2-2",
+          "tip": "secim",
+          "soru": "“Bir Bilginin Etiketini Okumak” metnine göre: İlk kurmaca metnin önemli eksiği nedir?",
+          "secenekler": [
+            "Çok sayıda karşılaştırma sunması",
+            "Kurum adını açıkça belirtmesi",
+            "Kaynak, tarih ve açıklama içermemesi"
+          ],
+          "dogru": "Kaynak, tarih ve açıklama içermemesi",
+          "aciklama": "Kesin çözüm iddiasının dayanağı verilmemiştir.",
+          "cikti": "T.O.5.14"
+        },
+        {
+          "id": "5-6-okuma-2-3",
+          "tip": "secim",
+          "soru": "“Bir Bilginin Etiketini Okumak” metnine göre: İkinci metnin daha dikkatli incelenmeye değer bulunma nedeni nedir?",
+          "secenekler": [
+            "Hiçbir iddia taşımaması",
+            "Kontrol edilebilir bilgiler sunması",
+            "Uzun olan her metnin kesin doğru olması"
+          ],
+          "dogru": "Kontrol edilebilir bilgiler sunması",
+          "aciklama": "Öğrenciler uzunluğu değil doğrulamaya yarayan bilgileri esas alır.",
+          "cikti": "T.O.5.14"
+        },
+        {
+          "id": "5-6-okuma-2-4",
+          "tip": "secim",
+          "soru": "“Bir Bilginin Etiketini Okumak” metnine göre: Üçüncü renk neyi işaretlemek için kullanıldı?",
+          "secenekler": [
+            "Belirsiz kalan noktaları",
+            "Yalnızca bütün noktalama işaretlerini",
+            "Okurun kişisel adresini"
+          ],
+          "dogru": "Belirsiz kalan noktaları",
+          "aciklama": "Renklendirme konuyu, dayanağı ve belirsizliği ayırır.",
+          "cikti": "T.O.5.14"
+        },
+        {
+          "id": "5-6-okuma-2-5",
+          "tip": "secim",
+          "soru": "“Bir Bilginin Etiketini Okumak” metnine göre: Özet hazırlanırken hangi bilgi korunmalıdır?",
+          "secenekler": [
+            "Sadece en dikkat çekici söz",
+            "Bütün cümlelerin harf sayısı",
+            "Metnin amacı ve önemli dayanakları"
+          ],
+          "dogru": "Metnin amacı ve önemli dayanakları",
+          "aciklama": "Özet, gösterişli bir ifadeden çok temel bilgiyi taşımalıdır.",
+          "cikti": "T.O.5.14"
+        },
+        {
+          "id": "5-6-okuma-2-6",
+          "tip": "secim",
+          "soru": "“Bir Bilginin Etiketini Okumak” metnine göre: Kontrol kartının amacı nedir?",
+          "secenekler": [
+            "Sağlık uzmanının yerine karar vermek",
+            "Bilgi metinlerini bilinçli okumaya yardımcı olmak",
+            "Her kişiye aynı tedaviyi önermek"
+          ],
+          "dogru": "Bilgi metinlerini bilinçli okumaya yardımcı olmak",
+          "aciklama": "Metin kartın tedavi listesi olmadığını açıkça belirtir.",
+          "cikti": "T.O.5.14"
+        },
+        {
+          "id": "5-6-okuma-2-7",
+          "tip": "secim",
+          "soru": "“Bir Bilginin Etiketini Okumak” metnine göre: “Dayanak” kelimesi metinde ne anlama gelir?",
+          "secenekler": [
+            "Bir iddiayı destekleyen bilgi",
+            "Afişin asıldığı duvarın boyası",
+            "Metnin yalnızca son kelimesi"
+          ],
+          "dogru": "Bir iddiayı destekleyen bilgi",
+          "aciklama": "İddianın neye dayandığını sormak destekleyici bilgiyi aramaktır.",
+          "cikti": "T.O.5.5"
+        },
+        {
+          "id": "5-6-okuma-2-8",
+          "tip": "secim",
+          "soru": "“Bir Bilginin Etiketini Okumak” metnine göre: Farklı bir çevre afişinde de kullanılan temel yöntem hangisidir?",
+          "secenekler": [
+            "Başlığı görür görmez bütün iddiaları kabul etmek",
+            "Kaynağı bulunan her metni sorgulamadan paylaşmak",
+            "Metni anlamak, iddiayı araştırmak ve belirsizliği belirtmek"
+          ],
+          "dogru": "Metni anlamak, iddiayı araştırmak ve belirsizliği belirtmek",
+          "aciklama": "Son bölüm yöntemin başka bilgi metinlerine de uygulanabildiğini açıklar.",
+          "cikti": "T.O.5.14"
+        }
+      ]
+    }
+  ],
+  "konular": [
+    {
+      "kod": "5-6-ornek",
+      "ad": "Örnek bildiren bağlantı ifadeleri (örneğin, mesela…)",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.Y.5.15",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Örnekler genel bir düşünceyi somutlaştırır. Örneğin, mesela ve söz gelimi ifadeleri bu geçişi gösterebilir. Verilen örnek gerçekten açıklanan düşünceyle ilgili olmalıdır. Tek bir örnekten herkes için kesin bir sonuç çıkaramayız. Bilgilendirici metin okurken temel düşünce ile onu açıklayan örneği ayırırız. Yazarken de önce düşüncemizi belirtip ardından uygun bir örnek seçebiliriz.</p><ul><li>Farklı metinler vardır</li><li>örneğin bir afiş bilgi verebilir.</li><li>Mesela çizelge kullanabiliriz.</li><li>Söz gelimi bir kelime oyunu seçebiliriz.</li></ul>",
+      "ornekler": [
+        "Farklı metinler vardır",
+        "örneğin bir afiş bilgi verebilir.",
+        "Mesela çizelge kullanabiliriz.",
+        "Söz gelimi bir kelime oyunu seçebiliriz."
+      ],
+      "testler": [
+        {
+          "id": "5-6-ornek-1",
+          "tip": "secim",
+          "soru": "“Farklı etkinlikler seçebiliriz; söz gelimi kelime oyunu oynayabiliriz.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "örneklendirme",
+            "karşıtlık",
+            "amaç"
+          ],
+          "dogru": "örneklendirme",
+          "aciklama": "Cümledeki ifade örneklendirme anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "T.Y.5.15"
+        },
+        {
+          "id": "5-6-ornek-2",
+          "tip": "secim",
+          "soru": "“Bazı metinler bilgi verir; örneğin bir ürün etiketi böyledir.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "karşıtlık",
+            "amaç",
+            "örneklendirme"
+          ],
+          "dogru": "örneklendirme",
+          "aciklama": "Cümledeki ifade örneklendirme anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "T.Y.5.15"
+        },
+        {
+          "id": "5-6-ornek-3",
+          "tip": "secim",
+          "soru": "“Güvenilirlik için bilgiler kontrol edilir; mesela kaynağın adı araştırılır.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "amaç",
+            "örneklendirme",
+            "karşıtlık"
+          ],
+          "dogru": "örneklendirme",
+          "aciklama": "Cümledeki ifade örneklendirme anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "T.Y.5.15"
+        },
+        {
+          "id": "5-6-ornek-4",
+          "tip": "secim",
+          "soru": "“Bahçede farklı alanlar olabilir; örnek olarak sessiz bir köşe hazırlanabilir.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "örneklendirme",
+            "karşıtlık",
+            "amaç"
+          ],
+          "dogru": "örneklendirme",
+          "aciklama": "Cümledeki ifade örneklendirme anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "T.Y.5.15"
+        },
+        {
+          "id": "5-6-ornek-5",
+          "tip": "secim",
+          "soru": "“Gereken bilgileri yazalım; örneğin gün ve saati belirtelim.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "karşıtlık",
+            "amaç",
+            "örneklendirme"
+          ],
+          "dogru": "örneklendirme",
+          "aciklama": "Cümledeki ifade örneklendirme anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "T.Y.5.15"
+        },
+        {
+          "id": "5-6-ornek-6",
+          "tip": "secim",
+          "soru": "“Kaynakları karşılaştıralım; söz gelimi iki kurumun yazısını inceleyelim.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "amaç",
+            "örneklendirme",
+            "karşıtlık"
+          ],
+          "dogru": "örneklendirme",
+          "aciklama": "Cümledeki ifade örneklendirme anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "T.Y.5.15"
+        },
+        {
+          "id": "5-6-ornek-7",
+          "tip": "secim",
+          "soru": "“Katılımı kolaylaştıralım; mesela kuralları büyük yazalım.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "örneklendirme",
+            "karşıtlık",
+            "amaç"
+          ],
+          "dogru": "örneklendirme",
+          "aciklama": "Cümledeki ifade örneklendirme anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "T.Y.5.15"
+        },
+        {
+          "id": "5-6-ornek-8",
+          "tip": "secim",
+          "soru": "“Yeni kelimeleri kullanalım; örneğin kısa bir duyuru yazalım.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "karşıtlık",
+            "amaç",
+            "örneklendirme"
+          ],
+          "dogru": "örneklendirme",
+          "aciklama": "Cümledeki ifade örneklendirme anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "T.Y.5.15"
+        },
+        {
+          "id": "5-6-ornek-9",
+          "tip": "secim",
+          "soru": "“Bilgiyi düzenleyebiliriz; örnek verecek olursak bir çizelge yapabiliriz.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "amaç",
+            "örneklendirme",
+            "karşıtlık"
+          ],
+          "dogru": "örneklendirme",
+          "aciklama": "Cümledeki ifade örneklendirme anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "T.Y.5.15"
+        },
+        {
+          "id": "5-6-ornek-10",
+          "tip": "secim",
+          "soru": "“Farklı ihtiyaçları gözetelim; söz gelimi oturarak oynanan bir seçenek sunalım.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "örneklendirme",
+            "karşıtlık",
+            "amaç"
+          ],
+          "dogru": "örneklendirme",
+          "aciklama": "Cümledeki ifade örneklendirme anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "T.Y.5.15"
+        }
+      ]
+    },
+    {
+      "kod": "5-6-tekrar",
+      "ad": "Yazım ve noktalama genel tekrar",
+      "kategori": "yazim-noktalama",
+      "cikti": "T.Y.5.16",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Bu derste önceki temalarda öğrenilen yazım ve noktalama bilgilerini bir arada kullanırız. Cümlenin amacını, özel adların yazımını, sayıların gösterimini ve işaretlerin görevini kontrol ederiz. Tek bir kelimeyi düzeltmek bazen bütün metni düzeltmez. Önce anlamı okur, sonra kuralları sırayla gözden geçiririz. Son olarak yazımızı yeniden okuyup yapılan düzeltmenin anlamı koruduğundan emin oluruz.</p><ul><li>Planı kontrol ettin mi?</li><li>Selin’in çizelgesi</li><li>yirmi beş dakika</li></ul>",
+      "ornekler": [
+        "Planı kontrol ettin mi?",
+        "Selin’in çizelgesi",
+        "yirmi beş dakika"
+      ],
+      "testler": [
+        {
+          "id": "5-6-tekrar-1",
+          "tip": "secim",
+          "soru": "Sınıf duyurusunda hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "Bugün kitap okuduk,",
+            "Bugün kitap okuduk;",
+            "Bugün kitap okuduk."
+          ],
+          "dogru": "Bugün kitap okuduk.",
+          "aciklama": "Tamamlanmış haber cümlesinin sonuna nokta konabilir.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-6-tekrar-2",
+          "tip": "secim",
+          "soru": "Doğrudan sorunun yazımı hangisidir?",
+          "secenekler": [
+            "Planı kontrol ettin mi,",
+            "Planı kontrol ettin mi?",
+            "Planı kontrol ettin mi."
+          ],
+          "dogru": "Planı kontrol ettin mi?",
+          "aciklama": "Soru ekiyle kurulan doğrudan sorunun sonuna soru işareti konur.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-6-tekrar-3",
+          "tip": "secim",
+          "soru": "Kişi adına gelen ekin doğru yazımı hangisidir?",
+          "secenekler": [
+            "Selin'in çizelgesi",
+            "Selinin çizelgesi",
+            "Selin in çizelgesi"
+          ],
+          "dogru": "Selin'in çizelgesi",
+          "aciklama": "Özel ada gelen iyelik eki kesmeyle ayrılır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-6-tekrar-4",
+          "tip": "secim",
+          "soru": "Birden çok kelimeden oluşan sayının doğru yazımı hangisidir?",
+          "secenekler": [
+            "yirmibeş dakika",
+            "yirmi-beş dakika",
+            "yirmi beş dakika"
+          ],
+          "dogru": "yirmi beş dakika",
+          "aciklama": "Sayıyı oluşturan kelimeler ayrı yazılır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-6-tekrar-5",
+          "tip": "secim",
+          "soru": "Gerekli virgülün kullanıldığı seçenek hangisidir?",
+          "secenekler": [
+            "Defter; kitap ve kalem masada.",
+            "Defter, kitap ve kalem masada.",
+            "Defter kitap ve kalem masada."
+          ],
+          "dogru": "Defter, kitap ve kalem masada.",
+          "aciklama": "Eş görevli sıralanan ilk iki ad virgülle ayrılır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-6-tekrar-6",
+          "tip": "secim",
+          "soru": "Uyarının sonunda hangi işaret uygun kullanılmıştır?",
+          "secenekler": [
+            "Dikkat, zemin kaygan!",
+            "Dikkat, zemin kaygan,",
+            "Dikkat, zemin kaygan;"
+          ],
+          "dogru": "Dikkat, zemin kaygan!",
+          "aciklama": "Uyarı bildiren söz ünlem işaretiyle bitirilebilir.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-6-tekrar-7",
+          "tip": "secim",
+          "soru": "Normal cümle yazımında yer adı hangisinde doğrudur?",
+          "secenekler": [
+            "ankara'ya gideceğiz.",
+            "An kara'ya gideceğiz.",
+            "Ankara'ya gideceğiz."
+          ],
+          "dogru": "Ankara'ya gideceğiz.",
+          "aciklama": "Yer adı büyük başlar; yönelme eki kesmeyle ayrılır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-6-tekrar-8",
+          "tip": "secim",
+          "soru": "Kısaltmanın normal doğru yazımı hangisidir?",
+          "secenekler": [
+            "meb duyurusu",
+            "MEB duyurusu",
+            "Meb duyurusu"
+          ],
+          "dogru": "MEB duyurusu",
+          "aciklama": "Büyük harfli kurum kısaltması MEB biçimindedir.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-6-tekrar-9",
+          "tip": "secim",
+          "soru": "Heceleri doğru ayrılan kelime hangisidir?",
+          "secenekler": [
+            "din-len-me",
+            "di-nle-nme",
+            "dinl-en-me"
+          ],
+          "dogru": "din-len-me",
+          "aciklama": "Dinlenme kelimesi üç hecedir; sınırlar din-len-me biçimindedir.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-6-tekrar-10",
+          "tip": "secim",
+          "soru": "Konuşma satırı hangi işaretle doğru başlatılmıştır?",
+          "secenekler": [
+            "- Önce planı okuyalım.",
+            "/ Önce planı okuyalım.",
+            "— Önce planı okuyalım."
+          ],
+          "dogru": "— Önce planı okuyalım.",
+          "aciklama": "Konuşmanın satır başı uzun çizgiyle gösterilebilir.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        }
+      ]
+    }
+  ],
+  "dinleme": [
+    {
+      "id": "5-6-dinleme",
+      "baslik": "Kontrol Kartı",
+      "metin": "Öğrenciler bir afişte çok büyük harflerle yazılmış kesin bir iddia gördü. Afişte kaynağın adı ve yayımlanma tarihi bulunmuyordu. Sınıfta bu iki bilginin eksikliğini not ettiler. Ardından güvenilir bilgiye ulaşma yollarını öğretmenleriyle tartıştılar. Hazırladıkları kontrol kartına kaynak, tarih, amaç ve doğrulanabilirlik başlıklarını yazdılar. Kart bir sağlık önerisi listesi değil, metni değerlendirme aracıydı. Bilmedikleri bir konuyu kesin doğruymuş gibi paylaşmamaya karar verdiler.",
+      "tts": {
+        "dil": "tr-TR",
+        "sesYoksa": "metin"
+      },
+      "sorular": [
+        {
+          "id": "5-6-dinleme-1",
+          "tip": "secim",
+          "soru": "“Kontrol Kartı” dinleme metnine göre: Afişte hangi iki önemli bilgi eksikti?",
+          "secenekler": [
+            "Kâğıt ve yazı",
+            "Kaynak ve tarih",
+            "Sözcük ve harf"
+          ],
+          "dogru": "Kaynak ve tarih",
+          "aciklama": "Kaynak ve tarih, iddiayı kontrol etmek için gereken temel bilgilerdir.",
+          "cikti": "T.D.5.5",
+          "onKosul": true
+        },
+        {
+          "id": "5-6-dinleme-2",
+          "tip": "secim",
+          "soru": "“Kontrol Kartı” dinleme metnine göre: Kontrol kartına yazılan başlıklardan biri hangisidir?",
+          "secenekler": [
+            "Doğrulanabilirlik",
+            "Yarışma sıralaması",
+            "Oyuncu numarası"
+          ],
+          "dogru": "Doğrulanabilirlik",
+          "aciklama": "Bilginin kontrol edilebilirliği, değerlendirme kartında yer alır.",
+          "cikti": "T.D.5.5",
+          "onKosul": true
+        },
+        {
+          "id": "5-6-dinleme-3",
+          "tip": "secim",
+          "soru": "“Kontrol Kartı” dinleme metnine göre: Kartın işlevi nedir?",
+          "secenekler": [
+            "Kişiye özel tedavi belirlemek",
+            "Her iddiayı doğru kabul etmek",
+            "Bilgi metnini değerlendirmek"
+          ],
+          "dogru": "Bilgi metnini değerlendirmek",
+          "aciklama": "Metin kartın sağlık önerisi listesi olmadığını açıkça ayırır.",
+          "cikti": "T.D.5.5",
+          "onKosul": true
+        },
+        {
+          "id": "5-6-dinleme-4",
+          "tip": "secim",
+          "soru": "“Kontrol Kartı” dinleme metnine göre: Öğrenciler belirsiz bilgi için hangi tutumu seçti?",
+          "secenekler": [
+            "Kaynak uydurarak yayımlamak",
+            "Kesin doğruymuş gibi paylaşmamak",
+            "Daha büyük harfle yeniden yazmak"
+          ],
+          "dogru": "Kesin doğruymuş gibi paylaşmamak",
+          "aciklama": "Son karar, doğrulanmayan bilginin kesinlik iddiasıyla aktarılmamasıdır.",
+          "cikti": "T.D.5.5",
+          "onKosul": true
+        }
+      ]
+    }
+  ],
+  "yazmaGorevleri": [
+    {
+      "id": "5-6-yazma",
+      "baslik": "Ortak Alan İçin Gerekçeli Öneri",
+      "yonerge": "Okulda ortak kullanılan bir alanın daha güvenli ve katılıma uygun olması için bir öneri yaz. Önce kurmaca bir gözlem belirt, ardından önerini gerekçelendir ve bir örnek ver. Farklı ihtiyaçları gözet. Bir karşı görüş olabileceğini düşünerek ona saygılı cevap yaz. Sağlıkla ilgili kişisel tanı veya tedavi önerisi verme; yazın ortak alanın düzenlenmesine odaklansın.",
+      "minKelime": 100,
+      "maxKelime": 180,
+      "ciktilar": [
+        "T.Y.5.1",
+        "T.Y.5.3",
+        "T.Y.5.11",
+        "T.Y.5.15",
+        "T.Y.5.16"
+      ],
+      "ogretmenDegerlendirmeli": true,
+      "rubrik": [
+        {
+          "olcut": "Amaca ve konuya uygunluk",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Anlam bütünlüğü ve düzen",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Örnek ve söz varlığı kullanımı",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Yazım, noktalama ve gözden geçirme",
+          "enDusuk": 0,
+          "enYuksek": 4
+        }
+      ]
+    }
+  ],
+  "lgsSorulari": []
+}

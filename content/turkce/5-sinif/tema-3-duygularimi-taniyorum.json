@@ -1,0 +1,1518 @@
+{
+  "belgeTuru": "tema",
+  "semaSurumu": "1.0",
+  "sinif": 5,
+  "program": "TYMM",
+  "tema": 3,
+  "temaAdi": "Duygularımı Tanıyorum",
+  "durum": "incelemeye_hazir",
+  "kaynak": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/67",
+  "kaynak_dogrulanmadi": false,
+  "ogrenmeCiktilari": [
+    "DYS.DO.5.2",
+    "DYS.DO.5.7",
+    "DYS.KY.5.1",
+    "DYS.KY.5.7",
+    "T.D.5.17",
+    "T.D.5.18",
+    "T.D.5.2",
+    "T.D.5.20",
+    "T.D.5.4",
+    "T.D.5.5",
+    "T.D.5.6",
+    "T.K.5.16",
+    "T.K.5.19",
+    "T.K.5.2",
+    "T.K.5.21",
+    "T.K.5.4",
+    "T.K.5.6",
+    "T.O.5.1",
+    "T.O.5.11",
+    "T.O.5.13",
+    "T.O.5.16",
+    "T.O.5.18",
+    "T.O.5.20",
+    "T.O.5.3",
+    "T.O.5.5",
+    "T.O.5.6",
+    "T.Y.5.13",
+    "T.Y.5.15",
+    "T.Y.5.16",
+    "T.Y.5.2",
+    "T.Y.5.3",
+    "T.Y.5.4",
+    "T.Y.5.5",
+    "T.Y.5.8"
+  ],
+  "sozVarligi": {
+    "aciklama": "Tanım ve örnekler özgündür. Kelimeler aynı tema içinde bir kez yer alır.",
+    "kelimeler": [
+      {
+        "kelime": "duygu",
+        "anlam": "Bir olayın kişide oluşturduğu sevinç veya üzüntü gibi iç yaşantı",
+        "ornek": "Duygumu anlatacak doğru kelimeyi aradım.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "sevinç",
+        "anlam": "Güzel bir durum karşısında duyulan mutluluk",
+        "ornek": "Arkadaşımı görünce sevinç duydum.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "kaygı",
+        "anlam": "Olumsuz bir şey olabileceği düşüncesinin verdiği huzursuzluk",
+        "ornek": "Sunum öncesindeki kaygımı öğretmenimle paylaştım.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "özlem",
+        "anlam": "Uzakta olan birini veya bir şeyi görme isteği",
+        "ornek": "Eski mahalleme özlem duydum.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "şaşkınlık",
+        "anlam": "Beklenmedik bir durum karşısında ne yapacağını bilememe",
+        "ornek": "Kutudan çıkan mektup bende şaşkınlık yarattı.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "pişmanlık",
+        "anlam": "Yapılan bir davranışın uygun olmadığını sonradan düşünme",
+        "ornek": "Sözünü kestiğim için pişmanlık hissettim.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "umut",
+        "anlam": "İyi bir sonucun gerçekleşebileceğine inanma",
+        "ornek": "Yeni denemem için umudumu korudum.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "sabır",
+        "anlam": "Bir güçlük veya bekleyiş sırasında kendini tutabilme",
+        "ornek": "Sıramı sabırla bekledim.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "cesaret",
+        "anlam": "Çekinmeye rağmen gerekli bir adımı atabilme",
+        "ornek": "Yardım istemek için cesaretimi topladım.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "empati",
+        "anlam": "Başkasının durumunu onun açısından anlamaya çalışma",
+        "ornek": "Empati kurunca arkadaşımın neden sustuğunu düşündüm.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "rahatlama",
+        "anlam": "Bir sıkıntının azalmasıyla duyulan ferahlık",
+        "ornek": "Ödevimi bitirince rahatlama hissettim.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "çekingenlik",
+        "anlam": "Bir ortama katılırken kendini geride tutma eğilimi",
+        "ornek": "Yeni sınıftaki çekingenliğim zamanla azaldı.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "güven",
+        "anlam": "Bir kişiye veya duruma dayanabileceğine inanma",
+        "ornek": "Arkadaşımın sözünü tutması güven verdi.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "kırgınlık",
+        "anlam": "Bir davranıştan incinme durumu",
+        "ornek": "Kırgınlığımı sakin bir dille anlattım.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "neşe",
+        "anlam": "Canlı ve sevinçli olma durumu",
+        "ornek": "Oyun bahçeye neşe getirdi.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "endişe",
+        "anlam": "Bir durumun kötü sonuçlanabileceğini düşünerek tedirgin olma",
+        "ornek": "Kaybolan defter için endişe ettim.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "merak",
+        "anlam": "Bir şeyi öğrenme veya anlama isteği",
+        "ornek": "Kutunun içini merak ettim.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "öfke",
+        "anlam": "Bir durum karşısında duyulan güçlü kızgınlık",
+        "ornek": "Öfkemi yatıştırmak için konuşmaya ara verdim.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "sakinlik",
+        "anlam": "Telaş veya kızgınlığın az olduğu durum",
+        "ornek": "Sorunu sakinlikle konuşabildik.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "teselli",
+        "anlam": "Üzüntüyü hafifletmeye yönelik destek",
+        "ornek": "Arkadaşımın sözleri bana teselli oldu.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "paylaşmak",
+        "anlam": "Bir düşünceyi veya nesneyi başkasıyla bölüşmek",
+        "ornek": "Düşüncemi grupla paylaşmak istedim.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "anlamak",
+        "anlam": "Bir sözün veya durumun anlamını kavramak",
+        "ornek": "Arkadaşımın duygusunu anlamak için dinledim.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "dinlemek",
+        "anlam": "Söylenenlere dikkatini vererek kulak vermek",
+        "ornek": "Anlatılanları dinlemek konuşmamı kolaylaştırdı.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "farkındalık",
+        "anlam": "Kendi durumunu veya çevrede olanları ayırt etme",
+        "ornek": "Duygu günlüğü farkındalık kazanmama yardım etti.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "dayanmak",
+        "anlam": "Bir güçlük karşısında varlığını veya çabasını sürdürmek",
+        "ornek": "Uzun bekleyişe arkadaş desteğiyle dayandım.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "kabullenmek",
+        "anlam": "Bir gerçeği olduğu gibi tanıyıp kabul etmek",
+        "ornek": "Hata yaptığımı kabullenmek kolay değildi.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "çözüm",
+        "anlam": "Bir güçlüğü gidermeye yarayan yol",
+        "ornek": "Birlikte yeni bir çözüm düşündük.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "tepki",
+        "anlam": "Bir olay karşısında gösterilen davranış",
+        "ornek": "Tepkimi düşünerek vermeye çalıştım.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "ifade",
+        "anlam": "Düşünceyi veya duyguyu anlatma biçimi",
+        "ornek": "Yüzündeki ifade sevinçliydi.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "öz güven",
+        "anlam": "Kişinin kendi gücüne ve yapabileceklerine inanması",
+        "ornek": "Hazırlanmak öz güvenimi artırdı.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      }
+    ],
+    "esAnlamlilar": [],
+    "zitAnlamlilar": [
+      [
+        "sevinç",
+        "üzüntü"
+      ]
+    ],
+    "esSesliler": [],
+    "deyimler": [
+      {
+        "ifade": "içi içine sığmamak",
+        "anlam": "Çok sevinip heyecanlanmak.",
+        "ornek": "Gösteriyi düşünürken içi içine sığmıyordu."
+      }
+    ],
+    "atasozleri": []
+  },
+  "okumaParcalari": [
+    {
+      "id": "5-3-okuma-1",
+      "baslik": "Mavi Zarf",
+      "tur": "oykuleyici",
+      "metin": "Eylül, okulun ilk gösterisinde kısa bir konuşma yapacaktı. Metnini günlerce çalışmıştı; yine de sahneye çıkma düşüncesi aklına gelince kelimeler birbirine karışıyordu. Arkadaşı Can onun heyecanlı olduğunu fark etti. Eylül'e korkmaması gerektiğini söylemek üzereydi, fakat önce neden sessizleştiğini sormayı seçti. Eylül, söyleyeceklerini unutursa herkesin güleceğini düşündüğünü anlattı. Can hemen cevap vermedi. Onun sözünü bitirmesini bekledi ve benzer bir durumda kendisinin de zorlandığını söyledi.\n\nÖğretmenleri sınıfa küçük zarflar getirmişti. İsteyen öğrenciler, kendilerini zorlayan bir durum hakkında adsız bir not yazabilecekti. Kimsenin notunu paylaşması zorunlu değildi. Eylül mavi bir zarf seçti; içine konuşma öncesinde yaşadığı kaygıyı yazdı. Zarfın üstüne de kendisine yardımcı olabilecek iki şeyi ekledi: Ön sırada tanıdık bir yüz görmek ve konuşurken kısa bir duraklama yapabilmek. Bunlar bütün kaygısını yok edecek sihirli çözümler değildi, ama neye ihtiyaç duyduğunu anlatmasını kolaylaştırıyordu.\n\nErtesi gün küçük bir prova yapıldı. Can, Eylül'ün istediği gibi ön sıraya oturdu. Eylül ikinci cümlede durduğunda sınıf sessizce bekledi. Elindeki küçük not kartına baktı ve yeniden başladı. Konuşma bitince arkadaşları yalnızca sesinin yüksekliğinden söz etmedi. Örneğini anlaşılır bulduklarını, girişteki sorunun ilgilerini çektiğini de söylediler. Eylül böylece tek bir duraklamanın bütün çalışmasını değersizleştirmediğini gördü.\n\nGösteri günü geldiğinde kaygısı tamamen kaybolmamıştı. Yine de kendisini hazır hissetmek için yapabileceği şeyleri biliyordu. Konuşmaya başlamadan önce arkadaşına baktı, ilk cümlesini söyledi ve acele etmedi. Sonra mavi zarfı defterinin arasında sakladı. Zarf artık yalnızca korktuğu bir anı hatırlatmıyordu. Bir duyguyu adlandırmanın, ihtiyaçlarını söylemenin ve destek istemenin de cesaret gerektirdiğini anımsatıyordu. Eve döndüğünde günlüğüne tek bir cümle yazdı: Bugün biraz heyecanım vardı ve ben yine de kendi sözlerimle konuşabildim.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; ders kitabından alınmamıştır.",
+      "sorular": [
+        {
+          "id": "5-3-okuma-1-1",
+          "tip": "secim",
+          "soru": "“Mavi Zarf” metnine göre: Eylül hangi görev için hazırlanıyordu?",
+          "secenekler": [
+            "Bir sergiye kilim dokumak için",
+            "Gösteride kısa bir konuşma yapmak için",
+            "Okul takımında kaleci olmak için"
+          ],
+          "dogru": "Gösteride kısa bir konuşma yapmak için",
+          "aciklama": "Metnin ilk cümlesi Eylül'ün görevini açıklar.",
+          "cikti": "T.O.5.6"
+        },
+        {
+          "id": "5-3-okuma-1-2",
+          "tip": "secim",
+          "soru": "“Mavi Zarf” metnine göre: Can, Eylül sessizleşince önce ne yaptı?",
+          "secenekler": [
+            "Neden sessizleştiğini sordu",
+            "Onun yerine hemen konuştu",
+            "Notlarını izin almadan okudu"
+          ],
+          "dogru": "Neden sessizleştiğini sordu",
+          "aciklama": "Can öğüt vermeden önce arkadaşını anlamayı seçer.",
+          "cikti": "T.O.5.6"
+        },
+        {
+          "id": "5-3-okuma-1-3",
+          "tip": "secim",
+          "soru": "“Mavi Zarf” metnine göre: Zarflarla ilgili hangi kural vardı?",
+          "secenekler": [
+            "Herkes adını yazmak zorundaydı",
+            "Zarflar sınıf dışında sergilenecekti",
+            "Not paylaşmak zorunlu değildi"
+          ],
+          "dogru": "Not paylaşmak zorunlu değildi",
+          "aciklama": "Öğretmenin etkinliği paylaşımı öğrencinin isteğine bırakır.",
+          "cikti": "T.O.5.6"
+        },
+        {
+          "id": "5-3-okuma-1-4",
+          "tip": "secim",
+          "soru": "“Mavi Zarf” metnine göre: Eylül ön sırada ne görmek istiyordu?",
+          "secenekler": [
+            "Konuşmayı bölen bir görevli",
+            "Tanıdık bir yüz",
+            "Süreyi tutan büyük bir saat"
+          ],
+          "dogru": "Tanıdık bir yüz",
+          "aciklama": "Eylül ihtiyaçlarını yazarken tanıdık bir yüz görmek istediğini belirtir.",
+          "cikti": "T.O.5.6"
+        },
+        {
+          "id": "5-3-okuma-1-5",
+          "tip": "secim",
+          "soru": "“Mavi Zarf” metnine göre: Provada Eylül durduğunda sınıf ne yaptı?",
+          "secenekler": [
+            "Sessizce bekledi",
+            "Hep birlikte metni bağırdı",
+            "Provayı hemen iptal etti"
+          ],
+          "dogru": "Sessizce bekledi",
+          "aciklama": "Arkadaşları, yeniden başlaması için Eylül'e zaman tanır.",
+          "cikti": "T.O.5.6"
+        },
+        {
+          "id": "5-3-okuma-1-6",
+          "tip": "secim",
+          "soru": "“Mavi Zarf” metnine göre: Metindeki “kaygı” hangi anlama yakındır?",
+          "secenekler": [
+            "Bir başarıdan sonra duyulan sevinç",
+            "Bir nesnenin rengini seçme isteği",
+            "Olumsuz bir şey olabileceğine ilişkin huzursuzluk"
+          ],
+          "dogru": "Olumsuz bir şey olabileceğine ilişkin huzursuzluk",
+          "aciklama": "Eylül, unutursa gülüneceğini düşünerek huzursuz olmaktadır.",
+          "cikti": "T.O.5.5"
+        },
+        {
+          "id": "5-3-okuma-1-7",
+          "tip": "secim",
+          "soru": "“Mavi Zarf” metnine göre: Olayların düğümlendiği temel güçlük nedir?",
+          "secenekler": [
+            "Can'ın gösteri metnini yırtması",
+            "Eylül'ün konuşmasını unutma korkusu",
+            "Mavi zarfların okulda bulunmaması"
+          ],
+          "dogru": "Eylül'ün konuşmasını unutma korkusu",
+          "aciklama": "Hikâyedeki hazırlık, destek ve prova bu güçlük çevresinde gelişir.",
+          "cikti": "T.O.5.13"
+        },
+        {
+          "id": "5-3-okuma-1-8",
+          "tip": "secim",
+          "soru": "“Mavi Zarf” metnine göre: Hikâyenin sonunda Eylül hangi deneyimi kazanmıştır?",
+          "secenekler": [
+            "Duygusu sürse de destekle konuşabildiğini görmüştür",
+            "Başarılı olmak için hiç heyecanlanmamak gerektiğini öğrenmiştir",
+            "Bir duraklamanın bütün emeği yok ettiğine inanmıştır"
+          ],
+          "dogru": "Duygusu sürse de destekle konuşabildiğini görmüştür",
+          "aciklama": "Son günlük cümlesi, heyecan ile eylemin birlikte var olabildiğini gösterir.",
+          "cikti": "T.O.5.13"
+        }
+      ]
+    },
+    {
+      "id": "5-3-okuma-2",
+      "baslik": "Duyguların Kelimeleri",
+      "tur": "bilgilendirici",
+      "metin": "Bir arkadaşımız bize nasıl olduğumuzu sorduğunda bazen yalnızca iyi veya kötü deriz. Bu iki kelime işe yarayabilir; ancak yaşadığımız duyguyu her zaman ayrıntılı anlatmaz. Bir konuda meraklıyken başka bir konuda kaygılı olabiliriz. Aynı gün hem sevinebilir hem de birini özleyebiliriz. Duygulara isim vermek, onları hemen değiştirmek demek değildir. Önce yaşadığımız durumu daha açık fark etmemize yardım eder. Böylece anlatmak istediğimiz şey ile kullandığımız söz arasında daha güçlü bir bağ kurabiliriz.\n\nBir sınıf bu düşünceden yola çıkarak duygu kelimeleri panosu hazırladı. Öğrenciler seçtikleri kelimelerin yanına kısa ve kurmaca bir durum yazdı. Merak kelimesinin yanına, kapağı kapalı bir kutunun içinde ne olduğunu düşünmek örneği eklendi. Özlem içinse uzakta yaşayan bir arkadaşını yeniden görmeyi istemek anlatıldı. Bu örnekler belirli bir kişinin özel yaşantısını açıklamıyordu. Kimse sınıf önünde kendi duygusunu anlatmak zorunda bırakılmadı.\n\nPanoyu hazırlarken kelimelerin anlamlarının bazen birbirine yaklaşabildiği görüldü. Kaygı ile endişe bazı cümlelerde benzer duyguları karşılayabiliyordu. Fakat bütün kelimeler her durumda birbirinin yerine kullanılamıyordu. Öğrenciler sözlük anlamını okumanın yanında örnek cümleyi de değerlendirdi. Bir cümledeki kelimeyi değiştirdiklerinde anlamın aynı kalıp kalmadığını tartıştılar. Böylece sözcük öğrenmenin yalnızca bir tanımı ezberlemekten ibaret olmadığını gördüler.\n\nSonra pano, konuşma alıştırması için kullanıldı. İki öğrenci kurmaca bir anlaşmazlığı canlandırdı. Dinleyenler, kişileri etiketlemek yerine davranışları ve söylenen sözleri anlattı. Sen her zaman böylesin demek yerine, bu söz beni üzdü gibi daha belirli bir ifade seçildi. Bu cümleler bütün sorunları tek başına çözmüyordu. Yine de karşı tarafın ne yaşandığını anlamasını kolaylaştırıyordu. Öğretmen, zorlayıcı bir durumla karşılaşan öğrencinin güvendiği bir yetişkinden destek isteyebileceğini hatırlattı. Pano hafta sonunda kaldırılmadı; yeni kelimeler ve daha açık örnekler için boş alan bırakıldı.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; ders kitabından alınmamıştır.",
+      "sorular": [
+        {
+          "id": "5-3-okuma-2-1",
+          "tip": "secim",
+          "soru": "“Duyguların Kelimeleri” metnine göre: “İyi” ve “kötü” sözcükleri neden bazen yetersiz kalır?",
+          "secenekler": [
+            "Duygunun ayrıntısını her zaman anlatmadıkları için",
+            "Türkçe kelime olmadıkları için",
+            "Yalnızca yazıda kullanılabildikleri için"
+          ],
+          "dogru": "Duygunun ayrıntısını her zaman anlatmadıkları için",
+          "aciklama": "İlk bölüm, aynı anda farklı duygular yaşanabileceğini örnekler.",
+          "cikti": "T.O.5.6"
+        },
+        {
+          "id": "5-3-okuma-2-2",
+          "tip": "secim",
+          "soru": "“Duyguların Kelimeleri” metnine göre: Panoda örnekler nasıl seçildi?",
+          "secenekler": [
+            "Herkesin özel günlüğü sergilendi",
+            "Yalnızca öğrencilerin soyadları yazıldı",
+            "Kısa ve kurmaca durumlar yazıldı"
+          ],
+          "dogru": "Kısa ve kurmaca durumlar yazıldı",
+          "aciklama": "Örnekler kişisel açıklama gerektirmeden anlamı göstermektedir.",
+          "cikti": "T.O.5.6"
+        },
+        {
+          "id": "5-3-okuma-2-3",
+          "tip": "secim",
+          "soru": "“Duyguların Kelimeleri” metnine göre: Merak için verilen örnek hangisidir?",
+          "secenekler": [
+            "Bir davranıştan sonra pişman olmak",
+            "Kapalı kutunun içini düşünmek",
+            "Uzak arkadaşını görmeyi istemek"
+          ],
+          "dogru": "Kapalı kutunun içini düşünmek",
+          "aciklama": "Kutunun içini öğrenme isteği, merak kelimesine örnektir.",
+          "cikti": "T.O.5.6"
+        },
+        {
+          "id": "5-3-okuma-2-4",
+          "tip": "secim",
+          "soru": "“Duyguların Kelimeleri” metnine göre: Hangi iki kelimenin anlam yakınlığı tartışılmıştır?",
+          "secenekler": [
+            "Kaygı ve endişe",
+            "Neşe ve masa",
+            "Özlem ve pencere"
+          ],
+          "dogru": "Kaygı ve endişe",
+          "aciklama": "Üçüncü paragraf kaygı ile endişeyi karşılaştırır.",
+          "cikti": "T.O.5.6"
+        },
+        {
+          "id": "5-3-okuma-2-5",
+          "tip": "secim",
+          "soru": "“Duyguların Kelimeleri” metnine göre: Bir sözcüğü anlamak için tanıma ek olarak ne incelendi?",
+          "secenekler": [
+            "Yalnızca yazı rengi",
+            "Kelimenin sayfadaki yeri",
+            "Örnek cümledeki kullanımı"
+          ],
+          "dogru": "Örnek cümledeki kullanımı",
+          "aciklama": "Kelimelerin yer değiştirmesi bağlamın anlam üzerindeki etkisini gösterir.",
+          "cikti": "T.O.5.6"
+        },
+        {
+          "id": "5-3-okuma-2-6",
+          "tip": "secim",
+          "soru": "“Duyguların Kelimeleri” metnine göre: “Etiketlemek” kelimesi bu metinde hangi anlamdadır?",
+          "secenekler": [
+            "Kutunun fiyatını yazmak",
+            "Bir kişiyi tek bir yargıyla tanımlamak",
+            "Panoya kâğıt yapıştırmak"
+          ],
+          "dogru": "Bir kişiyi tek bir yargıyla tanımlamak",
+          "aciklama": "Kişiyi bütünüyle yargılamak yerine belirli davranıştan söz edilmesi önerilir.",
+          "cikti": "T.O.5.5"
+        },
+        {
+          "id": "5-3-okuma-2-7",
+          "tip": "secim",
+          "soru": "“Duyguların Kelimeleri” metnine göre: Metin, duygu kelimelerini açıklarken hangi yolu kullanır?",
+          "secenekler": [
+            "Kurmaca durumlarla örneklendirme",
+            "Yalnızca sayısal veriler sunma",
+            "Bilinmeyen bir kişinin sözünü aktarma"
+          ],
+          "dogru": "Kurmaca durumlarla örneklendirme",
+          "aciklama": "Merak ve özlem için verilen durumlar kavramları somutlaştırır.",
+          "cikti": "T.O.5.18"
+        },
+        {
+          "id": "5-3-okuma-2-8",
+          "tip": "secim",
+          "soru": "“Duyguların Kelimeleri” metnine göre: Son paragrafın metne katkısı nedir?",
+          "secenekler": [
+            "Panonun yapım malzemelerini sıralaması",
+            "Önceki açıklamaların yanlış olduğunu söylemesi",
+            "Öğrenilen kelimelerin iletişimde kullanımını göstermesi"
+          ],
+          "dogru": "Öğrenilen kelimelerin iletişimde kullanımını göstermesi",
+          "aciklama": "Metin, kelime öğrenmeden bu kelimeleri konuşmada kullanmaya ilerler.",
+          "cikti": "T.O.5.16"
+        }
+      ]
+    }
+  ],
+  "konular": [
+    {
+      "kod": "5-3-buyuk-harf",
+      "ad": "Büyük harflerin yazımı (2. bölüm)",
+      "kategori": "yazim-noktalama",
+      "cikti": "T.Y.5.16",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Dil, din, gezegen ve yer adları özel ad olarak kullanıldığında büyük harfle başlar. Ağrı Dağı gibi özel adın parçası olan ikinci kelime de büyük yazılır. Dünya, güneş ve ay kelimelerinin her kullanımı aynı değildir: gezegen veya gök cismi adı olarak kullanılmaları ile günlük benzetmeler ayrılmalıdır. Cümleyi okurken kelimenin bu bağlamda gerçekten bir özel adı karşılayıp karşılamadığına bakarız.</p><ul><li>Türkçe</li><li>Mars</li><li>Ağrı Dağı</li></ul>",
+      "ornekler": [
+        "Türkçe",
+        "Mars",
+        "Ağrı Dağı"
+      ],
+      "testler": [
+        {
+          "id": "5-3-buyuk-harf-1",
+          "tip": "secim",
+          "soru": "Özel adların normal cümle yazımına göre aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "Türk çe öğreniyoruz.",
+            "Türkçe öğreniyoruz.",
+            "türkçe öğreniyoruz."
+          ],
+          "dogru": "Türkçe öğreniyoruz.",
+          "aciklama": "Bu örnekte dil, din, gök cismi veya yer adı özel addır; büyük harfle başlar, adın parçaları rastgele bölünmez.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-3-buyuk-harf-2",
+          "tip": "secim",
+          "soru": "Özel adların normal cümle yazımına göre aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "Almanca konuşuyor.",
+            "almanca konuşuyor.",
+            "Alman ca konuşuyor."
+          ],
+          "dogru": "Almanca konuşuyor.",
+          "aciklama": "Bu örnekte dil, din, gök cismi veya yer adı özel addır; büyük harfle başlar, adın parçaları rastgele bölünmez.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-3-buyuk-harf-3",
+          "tip": "secim",
+          "soru": "Özel adların normal cümle yazımına göre aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "islamiyet hakkında okuduk.",
+            "İslam iyet hakkında okuduk.",
+            "İslamiyet hakkında okuduk."
+          ],
+          "dogru": "İslamiyet hakkında okuduk.",
+          "aciklama": "Bu örnekte dil, din, gök cismi veya yer adı özel addır; büyük harfle başlar, adın parçaları rastgele bölünmez.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-3-buyuk-harf-4",
+          "tip": "secim",
+          "soru": "Özel adların normal cümle yazımına göre aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "Hristi yanlık hakkında araştırdı.",
+            "Hristiyanlık hakkında araştırdı.",
+            "hristiyanlık hakkında araştırdı."
+          ],
+          "dogru": "Hristiyanlık hakkında araştırdı.",
+          "aciklama": "Bu örnekte dil, din, gök cismi veya yer adı özel addır; büyük harfle başlar, adın parçaları rastgele bölünmez.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-3-buyuk-harf-5",
+          "tip": "secim",
+          "soru": "Özel adların normal cümle yazımına göre aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "Dünya Güneş'in çevresinde döner.",
+            "Dünya güneş'in çevresinde döner.",
+            "dünya Güneş'in çevresinde döner."
+          ],
+          "dogru": "Dünya Güneş'in çevresinde döner.",
+          "aciklama": "Bu örnekte dil, din, gök cismi veya yer adı özel addır; büyük harfle başlar, adın parçaları rastgele bölünmez.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-3-buyuk-harf-6",
+          "tip": "secim",
+          "soru": "Özel adların normal cümle yazımına göre aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "mars bir gezegendir.",
+            "Mar s bir gezegendir.",
+            "Mars bir gezegendir."
+          ],
+          "dogru": "Mars bir gezegendir.",
+          "aciklama": "Bu örnekte dil, din, gök cismi veya yer adı özel addır; büyük harfle başlar, adın parçaları rastgele bölünmez.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-3-buyuk-harf-7",
+          "tip": "secim",
+          "soru": "Özel adların normal cümle yazımına göre aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "An kara yolculuğunu anlattı.",
+            "Ankara yolculuğunu anlattı.",
+            "ankara yolculuğunu anlattı."
+          ],
+          "dogru": "Ankara yolculuğunu anlattı.",
+          "aciklama": "Bu örnekte dil, din, gök cismi veya yer adı özel addır; büyük harfle başlar, adın parçaları rastgele bölünmez.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-3-buyuk-harf-8",
+          "tip": "secim",
+          "soru": "Özel adların normal cümle yazımına göre aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "Ereğli hakkında yazdı.",
+            "ereğli hakkında yazdı.",
+            "E reğli hakkında yazdı."
+          ],
+          "dogru": "Ereğli hakkında yazdı.",
+          "aciklama": "Bu örnekte dil, din, gök cismi veya yer adı özel addır; büyük harfle başlar, adın parçaları rastgele bölünmez.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-3-buyuk-harf-9",
+          "tip": "secim",
+          "soru": "Özel adların normal cümle yazımına göre aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "kızılırmak fotoğrafını gördük.",
+            "Kızıl ırmak fotoğrafını gördük.",
+            "Kızılırmak fotoğrafını gördük."
+          ],
+          "dogru": "Kızılırmak fotoğrafını gördük.",
+          "aciklama": "Bu örnekte dil, din, gök cismi veya yer adı özel addır; büyük harfle başlar, adın parçaları rastgele bölünmez.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-3-buyuk-harf-10",
+          "tip": "secim",
+          "soru": "Özel adların normal cümle yazımına göre aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "ağrı Dağı uzakta görünüyordu.",
+            "Ağrı Dağı uzakta görünüyordu.",
+            "Ağrı dağı uzakta görünüyordu."
+          ],
+          "dogru": "Ağrı Dağı uzakta görünüyordu.",
+          "aciklama": "Bu örnekte dil, din, gök cismi veya yer adı özel addır; büyük harfle başlar, adın parçaları rastgele bölünmez.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        }
+      ]
+    },
+    {
+      "kod": "5-3-unlem",
+      "ad": "Ünlem işaretinin kullanımı",
+      "kategori": "yazim-noktalama",
+      "cikti": "T.Y.5.16",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Ünlem işareti güçlü duygu anlatan sözlerde, seslenmelerde ve uyarılarda kullanılabilir. İşaret tek başına hangi duygunun bulunduğunu göstermez; anlamı cümlenin içeriği belirler. Sevinç, şaşırma veya üzüntü taşıyan farklı cümlelerin sonunda aynı işaret bulunabilir. Her cümleyi ünlemle bitirmek anlatımı daha etkili yapmaz. Yazarken duygu ile iletişim amacını birlikte düşünürüz.</p><ul><li>Yaşasın, başardık!</li><li>Dikkat, zemin kaygan!</li><li>Hey, buraya bak!</li></ul>",
+      "ornekler": [
+        "Yaşasın, başardık!",
+        "Dikkat, zemin kaygan!",
+        "Hey, buraya bak!"
+      ],
+      "testler": [
+        {
+          "id": "5-3-unlem-1",
+          "tip": "secim",
+          "soru": "“Yaşasın, gösterimiz çok güzel geçti!” sözünde ünlem işareti hangi işlevi öne çıkarır?",
+          "secenekler": [
+            "şüphe",
+            "sevinç",
+            "üzüntü"
+          ],
+          "dogru": "sevinç",
+          "aciklama": "Cümlenin anlamı sevinç bildirir; ünlemin işlevini yalnızca işarete değil söze bakarak belirleriz.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-3-unlem-2",
+          "tip": "secim",
+          "soru": "“Eyvah, defterimi evde unuttum!” sözünde ünlem işareti hangi işlevi öne çıkarır?",
+          "secenekler": [
+            "telaş",
+            "memnuniyet",
+            "küçümseme"
+          ],
+          "dogru": "telaş",
+          "aciklama": "Cümlenin anlamı telaş bildirir; ünlemin işlevini yalnızca işarete değil söze bakarak belirleriz.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-3-unlem-3",
+          "tip": "secim",
+          "soru": "“Dikkat, zemin kaygan!” sözünde ünlem işareti hangi işlevi öne çıkarır?",
+          "secenekler": [
+            "özlem",
+            "pişmanlık",
+            "uyarı"
+          ],
+          "dogru": "uyarı",
+          "aciklama": "Cümlenin anlamı uyarı bildirir; ünlemin işlevini yalnızca işarete değil söze bakarak belirleriz.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-3-unlem-4",
+          "tip": "secim",
+          "soru": "“Vay, ne büyük bir kütüphane!” sözünde ünlem işareti hangi işlevi öne çıkarır?",
+          "secenekler": [
+            "üzüntü",
+            "şaşırma",
+            "emir"
+          ],
+          "dogru": "şaşırma",
+          "aciklama": "Cümlenin anlamı şaşırma bildirir; ünlemin işlevini yalnızca işarete değil söze bakarak belirleriz.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-3-unlem-5",
+          "tip": "secim",
+          "soru": "“Hey, buraya bak!” sözünde ünlem işareti hangi işlevi öne çıkarır?",
+          "secenekler": [
+            "seslenme",
+            "özetleme",
+            "tahmin"
+          ],
+          "dogru": "seslenme",
+          "aciklama": "Cümlenin anlamı seslenme bildirir; ünlemin işlevini yalnızca işarete değil söze bakarak belirleriz.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-3-unlem-6",
+          "tip": "secim",
+          "soru": "“Ah, eski arkadaşımı çok özledim!” sözünde ünlem işareti hangi işlevi öne çıkarır?",
+          "secenekler": [
+            "küçümseme",
+            "sevinç",
+            "özlem"
+          ],
+          "dogru": "özlem",
+          "aciklama": "Cümlenin anlamı özlem bildirir; ünlemin işlevini yalnızca işarete değil söze bakarak belirleriz.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-3-unlem-7",
+          "tip": "secim",
+          "soru": "“Ne güzel, hepimiz katılabiliyoruz!” sözünde ünlem işareti hangi işlevi öne çıkarır?",
+          "secenekler": [
+            "pişmanlık",
+            "memnuniyet",
+            "şüphe"
+          ],
+          "dogru": "memnuniyet",
+          "aciklama": "Cümlenin anlamı memnuniyet bildirir; ünlemin işlevini yalnızca işarete değil söze bakarak belirleriz.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-3-unlem-8",
+          "tip": "secim",
+          "soru": "“Aman, sıcak kaba dokunma!” sözünde ünlem işareti hangi işlevi öne çıkarır?",
+          "secenekler": [
+            "uyarı",
+            "gurur",
+            "özetleme"
+          ],
+          "dogru": "uyarı",
+          "aciklama": "Cümlenin anlamı uyarı bildirir; ünlemin işlevini yalnızca işarete değil söze bakarak belirleriz.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-3-unlem-9",
+          "tip": "secim",
+          "soru": "“Yaşasın, aradığımız kitabı bulduk!” sözünde ünlem işareti hangi işlevi öne çıkarır?",
+          "secenekler": [
+            "korku",
+            "küçümseme",
+            "sevinç"
+          ],
+          "dogru": "sevinç",
+          "aciklama": "Cümlenin anlamı sevinç bildirir; ünlemin işlevini yalnızca işarete değil söze bakarak belirleriz.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-3-unlem-10",
+          "tip": "secim",
+          "soru": "“Vah, bu haber beni çok üzdü!” sözünde ünlem işareti hangi işlevi öne çıkarır?",
+          "secenekler": [
+            "merak",
+            "üzüntü",
+            "sevinç"
+          ],
+          "dogru": "üzüntü",
+          "aciklama": "Cümlenin anlamı üzüntü bildirir; ünlemin işlevini yalnızca işarete değil söze bakarak belirleriz.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        }
+      ]
+    },
+    {
+      "kod": "5-3-uzun-cizgi",
+      "ad": "Konuşma çizgisi (uzun çizgi)",
+      "kategori": "yazim-noktalama",
+      "cikti": "T.Y.5.16",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Yazıda kişilerin karşılıklı konuşmasını göstermek için konuşma satırının başına uzun çizgi konabilir. Bu işaret kısa çizgiden farklıdır. Konuşan kişi değiştiğinde yeni satır kullanmak metni izlemeyi kolaylaştırır. Cümlenin sonundaki nokta veya soru işareti ayrıca anlamına göre seçilir. Aynı konuşmada farklı gösterim yollarını gelişigüzel karıştırmak yerine tutarlı bir düzen kurarız.</p><ul><li>— Nasılsın?</li><li>— Biraz heyecanlıyım.</li><li>— Seni dinliyorum.</li></ul>",
+      "ornekler": [
+        "— Nasılsın?",
+        "— Biraz heyecanlıyım.",
+        "— Seni dinliyorum."
+      ],
+      "testler": [
+        {
+          "id": "5-3-uzun-cizgi-1",
+          "tip": "secim",
+          "soru": "Konuşma satırı “Bugün biraz heyecanlıyım.” sözüyle başlayacak. Uzun çizginin doğru gösterimi hangisidir?",
+          "secenekler": [
+            "- Bugün biraz heyecanlıyım.",
+            "/ Bugün biraz heyecanlıyım.",
+            "— Bugün biraz heyecanlıyım."
+          ],
+          "dogru": "— Bugün biraz heyecanlıyım.",
+          "aciklama": "Satır başındaki konuşmayı uzun çizgi (—) gösterir; kısa çizgi ve eğik çizgi bu işaretten farklıdır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-3-uzun-cizgi-2",
+          "tip": "secim",
+          "soru": "Konuşma satırı “Seni dinlemeye hazırım.” sözüyle başlayacak. Uzun çizginin doğru gösterimi hangisidir?",
+          "secenekler": [
+            "/ Seni dinlemeye hazırım.",
+            "— Seni dinlemeye hazırım.",
+            "- Seni dinlemeye hazırım."
+          ],
+          "dogru": "— Seni dinlemeye hazırım.",
+          "aciklama": "Satır başındaki konuşmayı uzun çizgi (—) gösterir; kısa çizgi ve eğik çizgi bu işaretten farklıdır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-3-uzun-cizgi-3",
+          "tip": "secim",
+          "soru": "Konuşma satırı “Önce bir prova yapalım mı?” sözüyle başlayacak. Uzun çizginin doğru gösterimi hangisidir?",
+          "secenekler": [
+            "— Önce bir prova yapalım mı?",
+            "- Önce bir prova yapalım mı?",
+            "/ Önce bir prova yapalım mı?"
+          ],
+          "dogru": "— Önce bir prova yapalım mı?",
+          "aciklama": "Satır başındaki konuşmayı uzun çizgi (—) gösterir; kısa çizgi ve eğik çizgi bu işaretten farklıdır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-3-uzun-cizgi-4",
+          "tip": "secim",
+          "soru": "Konuşma satırı “Bana yardımcı olabilir misin?” sözüyle başlayacak. Uzun çizginin doğru gösterimi hangisidir?",
+          "secenekler": [
+            "- Bana yardımcı olabilir misin?",
+            "/ Bana yardımcı olabilir misin?",
+            "— Bana yardımcı olabilir misin?"
+          ],
+          "dogru": "— Bana yardımcı olabilir misin?",
+          "aciklama": "Satır başındaki konuşmayı uzun çizgi (—) gösterir; kısa çizgi ve eğik çizgi bu işaretten farklıdır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-3-uzun-cizgi-5",
+          "tip": "secim",
+          "soru": "Konuşma satırı “İstersen biraz bekleyebiliriz.” sözüyle başlayacak. Uzun çizginin doğru gösterimi hangisidir?",
+          "secenekler": [
+            "/ İstersen biraz bekleyebiliriz.",
+            "— İstersen biraz bekleyebiliriz.",
+            "- İstersen biraz bekleyebiliriz."
+          ],
+          "dogru": "— İstersen biraz bekleyebiliriz.",
+          "aciklama": "Satır başındaki konuşmayı uzun çizgi (—) gösterir; kısa çizgi ve eğik çizgi bu işaretten farklıdır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-3-uzun-cizgi-6",
+          "tip": "secim",
+          "soru": "Konuşma satırı “Duygumu anlatmak istiyorum.” sözüyle başlayacak. Uzun çizginin doğru gösterimi hangisidir?",
+          "secenekler": [
+            "— Duygumu anlatmak istiyorum.",
+            "- Duygumu anlatmak istiyorum.",
+            "/ Duygumu anlatmak istiyorum."
+          ],
+          "dogru": "— Duygumu anlatmak istiyorum.",
+          "aciklama": "Satır başındaki konuşmayı uzun çizgi (—) gösterir; kısa çizgi ve eğik çizgi bu işaretten farklıdır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-3-uzun-cizgi-7",
+          "tip": "secim",
+          "soru": "Konuşma satırı “Şimdi daha rahat hissediyorum.” sözüyle başlayacak. Uzun çizginin doğru gösterimi hangisidir?",
+          "secenekler": [
+            "- Şimdi daha rahat hissediyorum.",
+            "/ Şimdi daha rahat hissediyorum.",
+            "— Şimdi daha rahat hissediyorum."
+          ],
+          "dogru": "— Şimdi daha rahat hissediyorum.",
+          "aciklama": "Satır başındaki konuşmayı uzun çizgi (—) gösterir; kısa çizgi ve eğik çizgi bu işaretten farklıdır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-3-uzun-cizgi-8",
+          "tip": "secim",
+          "soru": "Konuşma satırı “Sözünü tamamlamanı bekledim.” sözüyle başlayacak. Uzun çizginin doğru gösterimi hangisidir?",
+          "secenekler": [
+            "/ Sözünü tamamlamanı bekledim.",
+            "— Sözünü tamamlamanı bekledim.",
+            "- Sözünü tamamlamanı bekledim."
+          ],
+          "dogru": "— Sözünü tamamlamanı bekledim.",
+          "aciklama": "Satır başındaki konuşmayı uzun çizgi (—) gösterir; kısa çizgi ve eğik çizgi bu işaretten farklıdır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-3-uzun-cizgi-9",
+          "tip": "secim",
+          "soru": "Konuşma satırı “Yarın yeniden deneyeceğim.” sözüyle başlayacak. Uzun çizginin doğru gösterimi hangisidir?",
+          "secenekler": [
+            "— Yarın yeniden deneyeceğim.",
+            "- Yarın yeniden deneyeceğim.",
+            "/ Yarın yeniden deneyeceğim."
+          ],
+          "dogru": "— Yarın yeniden deneyeceğim.",
+          "aciklama": "Satır başındaki konuşmayı uzun çizgi (—) gösterir; kısa çizgi ve eğik çizgi bu işaretten farklıdır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-3-uzun-cizgi-10",
+          "tip": "secim",
+          "soru": "Konuşma satırı “Teşekkür ederim, beni anladın.” sözüyle başlayacak. Uzun çizginin doğru gösterimi hangisidir?",
+          "secenekler": [
+            "- Teşekkür ederim, beni anladın.",
+            "/ Teşekkür ederim, beni anladın.",
+            "— Teşekkür ederim, beni anladın."
+          ],
+          "dogru": "— Teşekkür ederim, beni anladın.",
+          "aciklama": "Satır başındaki konuşmayı uzun çizgi (—) gösterir; kısa çizgi ve eğik çizgi bu işaretten farklıdır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        }
+      ]
+    },
+    {
+      "kod": "5-3-isimler",
+      "ad": "İsimlerin özellikleri",
+      "kategori": "dil-bilgisi",
+      "cikti": "DYS.DO.5.2",
+      "ekCiktilar": [
+        "DYS.KY.5.1"
+      ],
+      "anlatimHTML": "<p>İsimleri farklı ölçütlerle inceleyebiliriz. Bir varlığa özel olarak verilen ad ile aynı türdeki varlıkları karşılayan ad ayrıdır. Duyularla algılanan varlık adları somut, duygu ve düşünce gibi kavramların adları soyuttur. Sayı bakımından tekil, çoğul ve topluluk adları incelenebilir. Bir isim aynı anda birden çok özelliğe sahip olabilir; soruda hangi ölçütün istendiğine dikkat ederiz.</p><ul><li>Ayşe → özel ad</li><li>sevinç → soyut ad</li><li>çocuklar → çoğul ad</li></ul>",
+      "ornekler": [
+        "Ayşe → özel ad",
+        "sevinç → soyut ad",
+        "çocuklar → çoğul ad"
+      ],
+      "testler": [
+        {
+          "id": "5-3-isimler-1",
+          "tip": "secim",
+          "soru": "“sevinç” sözü duyularla algılanma bakımından hangi özelliği taşır?",
+          "secenekler": [
+            "somut isim",
+            "topluluk ismi",
+            "soyut isim"
+          ],
+          "dogru": "soyut isim",
+          "aciklama": "Burada yalnızca duyularla algılanma ölçütü sorulmaktadır; “sevinç” bu ölçüte göre soyut isim olarak değerlendirilir.",
+          "cikti": "DYS.DO.5.2"
+        },
+        {
+          "id": "5-3-isimler-2",
+          "tip": "secim",
+          "soru": "“masa” sözü duyularla algılanma bakımından hangi özelliği taşır?",
+          "secenekler": [
+            "özel isim",
+            "somut isim",
+            "soyut isim"
+          ],
+          "dogru": "somut isim",
+          "aciklama": "Burada yalnızca duyularla algılanma ölçütü sorulmaktadır; “masa” bu ölçüte göre somut isim olarak değerlendirilir.",
+          "cikti": "DYS.DO.5.2"
+        },
+        {
+          "id": "5-3-isimler-3",
+          "tip": "secim",
+          "soru": "“Ayşe” sözü varlığa veriliş bakımından hangi özelliği taşır?",
+          "secenekler": [
+            "özel isim",
+            "tür ismi",
+            "fiil"
+          ],
+          "dogru": "özel isim",
+          "aciklama": "Burada yalnızca varlığa veriliş ölçütü sorulmaktadır; “Ayşe” bu ölçüte göre özel isim olarak değerlendirilir.",
+          "cikti": "DYS.DO.5.2"
+        },
+        {
+          "id": "5-3-isimler-4",
+          "tip": "secim",
+          "soru": "“kitap” sözü varlığa veriliş bakımından hangi özelliği taşır?",
+          "secenekler": [
+            "özel isim",
+            "bağlaç",
+            "tür ismi"
+          ],
+          "dogru": "tür ismi",
+          "aciklama": "Burada yalnızca varlığa veriliş ölçütü sorulmaktadır; “kitap” bu ölçüte göre tür ismi olarak değerlendirilir.",
+          "cikti": "DYS.DO.5.2"
+        },
+        {
+          "id": "5-3-isimler-5",
+          "tip": "secim",
+          "soru": "“çocuklar” sözü sayı bakımından hangi özelliği taşır?",
+          "secenekler": [
+            "topluluk ismi",
+            "çoğul isim",
+            "tekil isim"
+          ],
+          "dogru": "çoğul isim",
+          "aciklama": "Burada yalnızca sayı ölçütü sorulmaktadır; “çocuklar” bu ölçüte göre çoğul isim olarak değerlendirilir.",
+          "cikti": "DYS.DO.5.2"
+        },
+        {
+          "id": "5-3-isimler-6",
+          "tip": "secim",
+          "soru": "“ağaç” sözü sayı bakımından hangi özelliği taşır?",
+          "secenekler": [
+            "tekil isim",
+            "çoğul isim",
+            "topluluk ismi"
+          ],
+          "dogru": "tekil isim",
+          "aciklama": "Burada yalnızca sayı ölçütü sorulmaktadır; “ağaç” bu ölçüte göre tekil isim olarak değerlendirilir.",
+          "cikti": "DYS.DO.5.2"
+        },
+        {
+          "id": "5-3-isimler-7",
+          "tip": "secim",
+          "soru": "“ordu” sözü sayı bakımından hangi özelliği taşır?",
+          "secenekler": [
+            "çoğul isim",
+            "tekil kişiyi gösteren isim",
+            "topluluk ismi"
+          ],
+          "dogru": "topluluk ismi",
+          "aciklama": "Burada yalnızca sayı ölçütü sorulmaktadır; “ordu” bu ölçüte göre topluluk ismi olarak değerlendirilir.",
+          "cikti": "DYS.DO.5.2"
+        },
+        {
+          "id": "5-3-isimler-8",
+          "tip": "secim",
+          "soru": "“umut” sözü duyularla algılanma bakımından hangi özelliği taşır?",
+          "secenekler": [
+            "özel isim",
+            "soyut isim",
+            "somut isim"
+          ],
+          "dogru": "soyut isim",
+          "aciklama": "Burada yalnızca duyularla algılanma ölçütü sorulmaktadır; “umut” bu ölçüte göre soyut isim olarak değerlendirilir.",
+          "cikti": "DYS.DO.5.2"
+        },
+        {
+          "id": "5-3-isimler-9",
+          "tip": "secim",
+          "soru": "“Ankara” sözü varlığa veriliş bakımından hangi özelliği taşır?",
+          "secenekler": [
+            "özel isim",
+            "tür ismi",
+            "fiil"
+          ],
+          "dogru": "özel isim",
+          "aciklama": "Burada yalnızca varlığa veriliş ölçütü sorulmaktadır; “Ankara” bu ölçüte göre özel isim olarak değerlendirilir.",
+          "cikti": "DYS.DO.5.2"
+        },
+        {
+          "id": "5-3-isimler-10",
+          "tip": "secim",
+          "soru": "“sınıflar” sözü sayı bakımından hangi özelliği taşır?",
+          "secenekler": [
+            "tekil isim",
+            "yalnızca tek grubu gösteren isim",
+            "çoğul isim"
+          ],
+          "dogru": "çoğul isim",
+          "aciklama": "Burada yalnızca sayı ölçütü sorulmaktadır; “sınıflar” bu ölçüte göre çoğul isim olarak değerlendirilir.",
+          "cikti": "DYS.DO.5.2"
+        }
+      ]
+    },
+    {
+      "kod": "5-3-amac",
+      "ad": "Amaç bildiren ifadeler",
+      "kategori": "dil-bilgisi",
+      "cikti": "DYS.DO.5.7",
+      "ekCiktilar": [
+        "DYS.KY.5.7"
+      ],
+      "anlatimHTML": "<p>Amaç, yapılması istenen veya ulaşılmak istenen sonucu anlatır. İçin, amacıyla ve üzere gibi sözler cümlede amaç ilişkisi kurabilir. Ancak için her zaman amaç bildirmez: Yağmur yağdığı için ıslandım cümlesinde gerçekleşmiş bir neden vardır. Sorarken Ne amaçla? ve Neden? sorularının cevaplarını karşılaştırırız. Anlatılan hedefin bir davranışı yönlendirip yönlendirmediğine dikkat ederiz.</p><ul><li>Dinlemek için oturdum.</li><li>Hazırlanmak amacıyla çalıştım.</li><li>Konuşmak üzere yaklaştım.</li></ul>",
+      "ornekler": [
+        "Dinlemek için oturdum.",
+        "Hazırlanmak amacıyla çalıştım.",
+        "Konuşmak üzere yaklaştım."
+      ],
+      "testler": [
+        {
+          "id": "5-3-amac-1",
+          "tip": "secim",
+          "soru": "“Arkadaşımı dinlemek için yanına oturdum.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "amaç",
+            "gerçekleşmiş neden",
+            "karşılaştırma"
+          ],
+          "dogru": "amaç",
+          "aciklama": "Cümledeki ifade amaç anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "DYS.DO.5.7"
+        },
+        {
+          "id": "5-3-amac-2",
+          "tip": "secim",
+          "soru": "“Sunuma hazırlanmak amacıyla not tuttum.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "gerçekleşmiş neden",
+            "karşılaştırma",
+            "amaç"
+          ],
+          "dogru": "amaç",
+          "aciklama": "Cümledeki ifade amaç anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "DYS.DO.5.7"
+        },
+        {
+          "id": "5-3-amac-3",
+          "tip": "secim",
+          "soru": "“Duygumu anlatabilmek için mektup yazdım.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "karşılaştırma",
+            "amaç",
+            "gerçekleşmiş neden"
+          ],
+          "dogru": "amaç",
+          "aciklama": "Cümledeki ifade amaç anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "DYS.DO.5.7"
+        },
+        {
+          "id": "5-3-amac-4",
+          "tip": "secim",
+          "soru": "“Sorunu çözmek üzere öğretmene danıştım.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "amaç",
+            "gerçekleşmiş neden",
+            "karşılaştırma"
+          ],
+          "dogru": "amaç",
+          "aciklama": "Cümledeki ifade amaç anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "DYS.DO.5.7"
+        },
+        {
+          "id": "5-3-amac-5",
+          "tip": "secim",
+          "soru": "“Arkadaşını görmek için bahçeye çıktı.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "gerçekleşmiş neden",
+            "karşılaştırma",
+            "amaç"
+          ],
+          "dogru": "amaç",
+          "aciklama": "Cümledeki ifade amaç anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "DYS.DO.5.7"
+        },
+        {
+          "id": "5-3-amac-6",
+          "tip": "secim",
+          "soru": "“Daha açık konuşmak amacıyla cümlesini değiştirdi.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "karşılaştırma",
+            "amaç",
+            "gerçekleşmiş neden"
+          ],
+          "dogru": "amaç",
+          "aciklama": "Cümledeki ifade amaç anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "DYS.DO.5.7"
+        },
+        {
+          "id": "5-3-amac-7",
+          "tip": "secim",
+          "soru": "“Provayı izlemek için salona geldik.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "amaç",
+            "gerçekleşmiş neden",
+            "karşılaştırma"
+          ],
+          "dogru": "amaç",
+          "aciklama": "Cümledeki ifade amaç anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "DYS.DO.5.7"
+        },
+        {
+          "id": "5-3-amac-8",
+          "tip": "secim",
+          "soru": "“Özür dilemek üzere arkadaşına yaklaştı.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "gerçekleşmiş neden",
+            "karşılaştırma",
+            "amaç"
+          ],
+          "dogru": "amaç",
+          "aciklama": "Cümledeki ifade amaç anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "DYS.DO.5.7"
+        },
+        {
+          "id": "5-3-amac-9",
+          "tip": "secim",
+          "soru": "“Yeni kelimeyi öğrenmek için sözlüğe baktım.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "karşılaştırma",
+            "amaç",
+            "gerçekleşmiş neden"
+          ],
+          "dogru": "amaç",
+          "aciklama": "Cümledeki ifade amaç anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "DYS.DO.5.7"
+        },
+        {
+          "id": "5-3-amac-10",
+          "tip": "secim",
+          "soru": "“Anlaşılmak için örnek verdim.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "amaç",
+            "gerçekleşmiş neden",
+            "karşılaştırma"
+          ],
+          "dogru": "amaç",
+          "aciklama": "Cümledeki ifade amaç anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "DYS.DO.5.7"
+        }
+      ]
+    },
+    {
+      "kod": "5-3-duygu",
+      "ad": "Duygu bildiren ifadeler (dilek, pişmanlık, şaşırma…)",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.Y.5.15",
+      "ekCiktilar": [
+        "T.K.5.19"
+      ],
+      "anlatimHTML": "<p>Bazı bağlantı sözleri konuşanın tutumunu anlamamıza yardım eder. İyi ki ve neyse ki memnuniyet, maalesef ve yazık ki üzüntü bildirebilir. Keşke geçmişteki bir davranışla kullanıldığında pişmanlık, gerçekleşmesi istenen bir durumla kullanıldığında istek anlatabilir. Bu nedenle kelimeyi tek başına etiketlemek yerine bütün cümleyi okuruz. Ses tonu da sözlü iletişimde anlama katkıda bulunur.</p><ul><li>İyi ki geldin.</li><li>Keşke dün daha dikkatli olsaydım.</li><li>Acaba sorumu duydu mu?</li></ul>",
+      "ornekler": [
+        "İyi ki geldin.",
+        "Keşke dün daha dikkatli olsaydım.",
+        "Acaba sorumu duydu mu?"
+      ],
+      "testler": [
+        {
+          "id": "5-3-duygu-1",
+          "tip": "secim",
+          "soru": "“Keşke dün arkadaşımın sözünü kesmeseydim.” cümlesinde belirgin duygu veya tutum hangisidir?",
+          "secenekler": [
+            "pişmanlık",
+            "sevinç",
+            "şaşırma"
+          ],
+          "dogru": "pişmanlık",
+          "aciklama": "Cümlenin bağlamında pişmanlık öne çıkar; aynı kelime farklı bağlamda başka bir duygu taşıyabilir.",
+          "cikti": "T.Y.5.15"
+        },
+        {
+          "id": "5-3-duygu-2",
+          "tip": "secim",
+          "soru": "“İyi ki düşünceni benimle paylaştın.” cümlesinde belirgin duygu veya tutum hangisidir?",
+          "secenekler": [
+            "üzüntü",
+            "şüphe",
+            "memnuniyet"
+          ],
+          "dogru": "memnuniyet",
+          "aciklama": "Cümlenin bağlamında memnuniyet öne çıkar; aynı kelime farklı bağlamda başka bir duygu taşıyabilir.",
+          "cikti": "T.Y.5.15"
+        },
+        {
+          "id": "5-3-duygu-3",
+          "tip": "secim",
+          "soru": "“Acaba notumu yanlış mı anladı?” cümlesinde belirgin duygu veya tutum hangisidir?",
+          "secenekler": [
+            "sevinç",
+            "şüphe ve merak",
+            "kesin bilgi"
+          ],
+          "dogru": "şüphe ve merak",
+          "aciklama": "Cümlenin bağlamında şüphe ve merak öne çıkar; aynı kelime farklı bağlamda başka bir duygu taşıyabilir.",
+          "cikti": "T.Y.5.15"
+        },
+        {
+          "id": "5-3-duygu-4",
+          "tip": "secim",
+          "soru": "“Yazık ki bu buluşmaya katılamadım.” cümlesinde belirgin duygu veya tutum hangisidir?",
+          "secenekler": [
+            "üzüntü",
+            "sevinç",
+            "küçümseme"
+          ],
+          "dogru": "üzüntü",
+          "aciklama": "Cümlenin bağlamında üzüntü öne çıkar; aynı kelime farklı bağlamda başka bir duygu taşıyabilir.",
+          "cikti": "T.Y.5.15"
+        },
+        {
+          "id": "5-3-duygu-5",
+          "tip": "secim",
+          "soru": "“Nasıl olmuş da bu kadar güzel bir pano hazırlamışlar!” cümlesinde belirgin duygu veya tutum hangisidir?",
+          "secenekler": [
+            "pişmanlık",
+            "şüphe",
+            "şaşırma"
+          ],
+          "dogru": "şaşırma",
+          "aciklama": "Cümlenin bağlamında şaşırma öne çıkar; aynı kelime farklı bağlamda başka bir duygu taşıyabilir.",
+          "cikti": "T.Y.5.15"
+        },
+        {
+          "id": "5-3-duygu-6",
+          "tip": "secim",
+          "soru": "“Keşke yarınki gösteriyi izleyebilsem.” cümlesinde belirgin duygu veya tutum hangisidir?",
+          "secenekler": [
+            "küçümseme",
+            "istek",
+            "kesin bilgi"
+          ],
+          "dogru": "istek",
+          "aciklama": "Cümlenin bağlamında istek öne çıkar; aynı kelime farklı bağlamda başka bir duygu taşıyabilir.",
+          "cikti": "T.Y.5.15"
+        },
+        {
+          "id": "5-3-duygu-7",
+          "tip": "secim",
+          "soru": "“Neyse ki yanlış anlamayı düzelttik.” cümlesinde belirgin duygu veya tutum hangisidir?",
+          "secenekler": [
+            "memnuniyet",
+            "üzüntü",
+            "küçümseme"
+          ],
+          "dogru": "memnuniyet",
+          "aciklama": "Cümlenin bağlamında memnuniyet öne çıkar; aynı kelime farklı bağlamda başka bir duygu taşıyabilir.",
+          "cikti": "T.Y.5.15"
+        },
+        {
+          "id": "5-3-duygu-8",
+          "tip": "secim",
+          "soru": "“Maalesef beklediğimiz haber gelmedi.” cümlesinde belirgin duygu veya tutum hangisidir?",
+          "secenekler": [
+            "sevinç",
+            "şaşırma",
+            "üzüntü"
+          ],
+          "dogru": "üzüntü",
+          "aciklama": "Cümlenin bağlamında üzüntü öne çıkar; aynı kelime farklı bağlamda başka bir duygu taşıyabilir.",
+          "cikti": "T.Y.5.15"
+        },
+        {
+          "id": "5-3-duygu-9",
+          "tip": "secim",
+          "soru": "“Güya bütün işleri tek başına yapmış!” cümlesinde belirgin duygu veya tutum hangisidir?",
+          "secenekler": [
+            "özlem",
+            "küçümseme",
+            "memnuniyet"
+          ],
+          "dogru": "küçümseme",
+          "aciklama": "Cümlenin bağlamında küçümseme öne çıkar; aynı kelime farklı bağlamda başka bir duygu taşıyabilir.",
+          "cikti": "T.Y.5.15"
+        },
+        {
+          "id": "5-3-duygu-10",
+          "tip": "secim",
+          "soru": "“Keşke defterini izinsiz almasaydım.” cümlesinde belirgin duygu veya tutum hangisidir?",
+          "secenekler": [
+            "pişmanlık",
+            "sevinç",
+            "şaşırma"
+          ],
+          "dogru": "pişmanlık",
+          "aciklama": "Cümlenin bağlamında pişmanlık öne çıkar; aynı kelime farklı bağlamda başka bir duygu taşıyabilir.",
+          "cikti": "T.Y.5.15"
+        }
+      ]
+    }
+  ],
+  "dinleme": [
+    {
+      "id": "5-3-dinleme",
+      "baslik": "Bir Duygu Kartı",
+      "metin": "Mina konuşmaya katılmak istiyor, fakat yanlış anlaşılmaktan çekiniyordu. Sınıf etkinliğinde bir duygu kartı seçti. Kartında kaygı yazıyordu. Arkadaşı ona neden kaygılandığını sordu ve cevap verirken sözünü kesmedi. Mina ihtiyacını açıkça söyledi: Önce küçük bir grupta konuşmak istiyordu. Öğretmeni bu seçeneği sundu. Mina konuşmasını tamamladıktan sonra kendisini daha rahat hissettiğini anlattı. Kartındaki kelimeyi silmedi; aynı durumda farklı duyguları zaman içinde yaşayabildiğini fark etti.",
+      "tts": {
+        "dil": "tr-TR",
+        "sesYoksa": "metin"
+      },
+      "sorular": [
+        {
+          "id": "5-3-dinleme-1",
+          "tip": "secim",
+          "soru": "“Bir Duygu Kartı” dinleme metnine göre: Mina’nın seçtiği kartta hangi kelime vardı?",
+          "secenekler": [
+            "Gurur",
+            "Kaygı",
+            "Öfke"
+          ],
+          "dogru": "Kaygı",
+          "aciklama": "Kartın üzerinde kaygı yazdığı açıkça belirtilir.",
+          "cikti": "T.D.5.5"
+        },
+        {
+          "id": "5-3-dinleme-2",
+          "tip": "secim",
+          "soru": "“Bir Duygu Kartı” dinleme metnine göre: Mina nasıl bir destek istedi?",
+          "secenekler": [
+            "Önce küçük bir grupta konuşmak",
+            "Hiç kimsenin konuşmaması",
+            "Arkadaşının onun yerine cevap vermesi"
+          ],
+          "dogru": "Önce küçük bir grupta konuşmak",
+          "aciklama": "İhtiyaç olarak küçük grupta başlama seçeneğini söyler.",
+          "cikti": "T.D.5.5"
+        },
+        {
+          "id": "5-3-dinleme-3",
+          "tip": "secim",
+          "soru": "“Bir Duygu Kartı” dinleme metnine göre: Arkadaşının tutumundan hangi çıkarım yapılabilir?",
+          "secenekler": [
+            "Onun sözünü önemsiz bulmuştur",
+            "Kartı zorla değiştirmiştir",
+            "Mina’yı anlamaya zaman ayırmıştır"
+          ],
+          "dogru": "Mina’yı anlamaya zaman ayırmıştır",
+          "aciklama": "Sözünü kesmeden dinlemesi anlamaya çalıştığını gösterir.",
+          "cikti": "T.D.5.6"
+        },
+        {
+          "id": "5-3-dinleme-4",
+          "tip": "secim",
+          "soru": "“Bir Duygu Kartı” dinleme metnine göre: Karttaki kelime neden silinmedi?",
+          "secenekler": [
+            "Kart üzerinde yazı yazmak yasak olduğu için",
+            "Farklı duyguların zamanla yaşanabildiğini hatırlamak için",
+            "Kaygının hiçbir zaman değişmeyeceğine karar verildiği için"
+          ],
+          "dogru": "Farklı duyguların zamanla yaşanabildiğini hatırlamak için",
+          "aciklama": "Son bölüm tek bir duygunun kişiyi bütünüyle tanımlamadığını gösterir.",
+          "cikti": "T.D.5.6"
+        }
+      ]
+    }
+  ],
+  "yazmaGorevleri": [
+    {
+      "id": "5-3-yazma",
+      "baslik": "Bir Duygunun Hikâyesi",
+      "yonerge": "Kurmaca bir kişinin yeni bir ortamda yaşadığı bir duyguyu anlat. Olayın başında, ortasında ve sonunda ne olduğunu göster. Kişinin duygusunu yalnızca adlandırma; bir davranışı veya sözüyle de belli et. Hikâyende en az iki kısa konuşmaya yer ver. Kendi özel yaşantını açıklaman gerekmez. Sonunda bir cümleni daha açık söylemek için yeniden yaz.",
+      "minKelime": 100,
+      "maxKelime": 180,
+      "ciktilar": [
+        "T.Y.5.3",
+        "T.Y.5.5",
+        "T.Y.5.13",
+        "T.Y.5.16"
+      ],
+      "ogretmenDegerlendirmeli": true,
+      "rubrik": [
+        {
+          "olcut": "Amaca ve konuya uygunluk",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Anlam bütünlüğü ve düzen",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Örnek ve söz varlığı kullanımı",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Yazım, noktalama ve gözden geçirme",
+          "enDusuk": 0,
+          "enYuksek": 4
+        }
+      ]
+    }
+  ],
+  "lgsSorulari": []
+}

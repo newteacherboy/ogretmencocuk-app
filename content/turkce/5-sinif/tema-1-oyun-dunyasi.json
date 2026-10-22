@@ -1,165 +1,1378 @@
 {
+  "belgeTuru": "tema",
+  "semaSurumu": "1.0",
   "sinif": 5,
+  "program": "TYMM",
   "tema": 1,
   "temaAdi": "Oyun Dünyası",
-  "durum": "taslak — öğretmen kontrolü bekliyor",
+  "durum": "incelemeye_hazir",
+  "kaynak": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/54",
+  "kaynak_dogrulanmadi": false,
+  "ogrenmeCiktilari": [
+    "DYS.DO.5.1",
+    "DYS.DO.5.8",
+    "DYS.KY.5.8",
+    "T.D.5.13",
+    "T.D.5.17",
+    "T.D.5.3",
+    "T.D.5.4",
+    "T.D.5.5",
+    "T.K.5.1",
+    "T.K.5.17",
+    "T.K.5.20",
+    "T.K.5.7",
+    "T.K.5.8",
+    "T.O.5.15",
+    "T.O.5.2",
+    "T.O.5.20",
+    "T.O.5.3",
+    "T.O.5.4",
+    "T.O.5.5",
+    "T.O.5.6",
+    "T.O.5.7",
+    "T.Y.5.1",
+    "T.Y.5.13",
+    "T.Y.5.16",
+    "T.Y.5.2",
+    "T.Y.5.3",
+    "T.Y.5.6"
+  ],
   "sozVarligi": {
-    "aciklama": "Parkur söz varlığı durağı ve kelime oyunları için. 'kelime' sorulur, 'anlam' cevaptır. Eş/zıt anlamlılar Ders Çalış testlerinde de kullanılır.",
+    "aciklama": "Tanım ve örnekler özgündür. Kelimeler aynı tema içinde bir kez yer alır.",
     "kelimeler": [
-      {"kelime": "ebe", "anlam": "oyunda diğerlerini yakalamaya çalışan kişi", "ornek": "Sayışma bitince ebe Elif oldu."},
-      {"kelime": "sobe", "anlam": "saklambaçta saklananı bulup duvara dokunarak söylenen söz", "ornek": "Kerem koşup duvara dokundu ve sobe dedi."},
-      {"kelime": "sayışmak", "anlam": "oyunda kimin ebe olacağını tekerlemeyle belirlemek", "ornek": "Oyuna başlamadan önce sayıştık."},
-      {"kelime": "tekerleme", "anlam": "ritimli, kolay akılda kalan, eğlenceli söz dizisi", "ornek": "En sevdiğim tekerlemeyi hızlıca söyledim."},
-      {"kelime": "kural", "anlam": "bir oyunda herkesin uyması gereken ilke", "ornek": "Kurala uymayan oyuncu bir tur bekler."},
-      {"kelime": "hakem", "anlam": "oyunun kurallara göre oynanmasını sağlayan kişi", "ornek": "Hakem düdüğünü çalınca maç başladı."},
-      {"kelime": "takım", "anlam": "aynı amaç için birlikte oynayan kişilerin oluşturduğu grup", "ornek": "Takımımız pas vererek ilerledi."},
-      {"kelime": "rakip", "anlam": "yarışmada veya oyunda karşı tarafta olan kişi", "ornek": "Maçtan sonra rakibimizi tebrik ettik."},
-      {"kelime": "centilmenlik", "anlam": "kazanınca da kaybedince de saygılı ve kibar davranma", "ornek": "Centilmenlik kupası en saygılı takıma verildi."},
-      {"kelime": "beraberlik", "anlam": "iki tarafın da kazanamadığı, eşit biten sonuç", "ornek": "Maç beraberlikle sona erdi."},
-      {"kelime": "galibiyet", "anlam": "yarışmayı veya oyunu kazanma", "ornek": "Galibiyetten sonra hep birlikte sevindik."},
-      {"kelime": "mağlubiyet", "anlam": "yarışmayı veya oyunu kaybetme, yenilgi", "ornek": "Mağlubiyet bize daha çok çalışmayı öğretti."},
-      {"kelime": "seksek", "anlam": "yere çizilen karelerde tek ayakla sekerek oynanan oyun", "ornek": "Teneffüste tebeşirle seksek çizdik."},
-      {"kelime": "körebe", "anlam": "gözleri bağlı ebenin diğerlerini yakalamaya çalıştığı oyun", "ornek": "Körebe oynarken çok güldük."},
-      {"kelime": "uçurtma", "anlam": "rüzgârla havada uçurulan, ipe bağlı hafif oyuncak", "ornek": "Rüzgâr çıkınca uçurtmamız yükseldi."},
-      {"kelime": "misket", "anlam": "küçük cam bilye, bilye oyunu", "ornek": "Kardeşim en parlak misketi bana verdi."},
-      {"kelime": "zar", "anlam": "yüzlerinde birden altıya kadar nokta bulunan küp", "ornek": "Zarı atınca altı geldi."},
-      {"kelime": "hamle", "anlam": "oyunda sırası gelen oyuncunun yaptığı hareket", "ornek": "Satrançta dikkatli bir hamle yaptım."},
-      {"kelime": "strateji", "anlam": "bir amaca ulaşmak için önceden yapılan plan", "ornek": "Takım kaptanı yeni bir strateji önerdi."},
-      {"kelime": "tasarlamak", "anlam": "bir şeyi yapmadan önce zihinde ya da kâğıtta planlamak", "ornek": "Kendi kutu oyunumuzu tasarladık."},
-      {"kelime": "geleneksel", "anlam": "kuşaktan kuşağa aktarılarak süregelen", "ornek": "Dedem bize geleneksel çocuk oyunlarını öğretti."},
-      {"kelime": "iş birliği", "anlam": "bir işi birlikte, yardımlaşarak yapma", "ornek": "Bulmacayı iş birliği yaparak çözdük."},
-      {"kelime": "sabırsızlanmak", "anlam": "bir şeyin olmasını beklerken huzursuzlanmak", "ornek": "Sıramı beklerken sabırsızlandım."},
-      {"kelime": "heyecan", "anlam": "sevinç, merak veya korkuyla gelen coşkulu duygu", "ornek": "Final turunda heyecanımız arttı."}
+      {
+        "kelime": "ebe",
+        "anlam": "oyunda diğerlerini yakalamaya çalışan kişi",
+        "ornek": "Sayışma bitince ebe Elif oldu.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "sobe",
+        "anlam": "saklambaçta saklananı bulup duvara dokunarak söylenen söz",
+        "ornek": "Kerem koşup duvara dokundu ve sobe dedi.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "sayışmak",
+        "anlam": "oyunda kimin ebe olacağını tekerlemeyle belirlemek",
+        "ornek": "Oyuna başlamadan önce sayıştık.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "tekerleme",
+        "anlam": "ritimli, kolay akılda kalan, eğlenceli söz dizisi",
+        "ornek": "En sevdiğim tekerlemeyi hızlıca söyledim.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "kural",
+        "anlam": "bir oyunda herkesin uyması gereken ilke",
+        "ornek": "Kurala uymayan oyuncu bir tur bekler.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "hakem",
+        "anlam": "oyunun kurallara göre oynanmasını sağlayan kişi",
+        "ornek": "Hakem düdüğünü çalınca maç başladı.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "takım",
+        "anlam": "aynı amaç için birlikte oynayan kişilerin oluşturduğu grup",
+        "ornek": "Takımımız pas vererek ilerledi.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "rakip",
+        "anlam": "yarışmada veya oyunda karşı tarafta olan kişi",
+        "ornek": "Maçtan sonra rakibimizi tebrik ettik.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "centilmenlik",
+        "anlam": "kazanınca da kaybedince de saygılı ve kibar davranma",
+        "ornek": "Centilmenlik kupası en saygılı takıma verildi.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "beraberlik",
+        "anlam": "iki tarafın da kazanamadığı, eşit biten sonuç",
+        "ornek": "Maç beraberlikle sona erdi.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "galibiyet",
+        "anlam": "yarışmayı veya oyunu kazanma",
+        "ornek": "Galibiyetten sonra hep birlikte sevindik.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "mağlubiyet",
+        "anlam": "yarışmayı veya oyunu kaybetme, yenilgi",
+        "ornek": "Mağlubiyet bize daha çok çalışmayı öğretti.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "seksek",
+        "anlam": "yere çizilen karelerde tek ayakla sekerek oynanan oyun",
+        "ornek": "Teneffüste tebeşirle seksek çizdik.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "körebe",
+        "anlam": "gözleri bağlı ebenin diğerlerini yakalamaya çalıştığı oyun",
+        "ornek": "Körebe oynarken çok güldük.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "uçurtma",
+        "anlam": "rüzgârla havada uçurulan, ipe bağlı hafif oyuncak",
+        "ornek": "Rüzgâr çıkınca uçurtmamız yükseldi.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "misket",
+        "anlam": "küçük cam bilye, bilye oyunu",
+        "ornek": "Kardeşim en parlak misketi bana verdi.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "zar",
+        "anlam": "yüzlerinde birden altıya kadar nokta bulunan küp",
+        "ornek": "Zarı atınca altı geldi.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "hamle",
+        "anlam": "oyunda sırası gelen oyuncunun yaptığı hareket",
+        "ornek": "Satrançta dikkatli bir hamle yaptım.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "strateji",
+        "anlam": "bir amaca ulaşmak için önceden yapılan plan",
+        "ornek": "Takım kaptanı yeni bir strateji önerdi.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "tasarlamak",
+        "anlam": "bir şeyi yapmadan önce zihinde ya da kâğıtta planlamak",
+        "ornek": "Kendi kutu oyunumuzu tasarladık.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "geleneksel",
+        "anlam": "kuşaktan kuşağa aktarılarak süregelen",
+        "ornek": "Dedem bize geleneksel çocuk oyunlarını öğretti.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "iş birliği",
+        "anlam": "bir işi birlikte, yardımlaşarak yapma",
+        "ornek": "Bulmacayı iş birliği yaparak çözdük.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "sabırsızlanmak",
+        "anlam": "bir şeyin olmasını beklerken huzursuzlanmak",
+        "ornek": "Sıramı beklerken sabırsızlandım.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "heyecan",
+        "anlam": "sevinç, merak veya korkuyla gelen coşkulu duygu",
+        "ornek": "Final turunda heyecanımız arttı.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "ipucu",
+        "anlam": "Bir şeyi bulmaya veya anlamaya yardımcı belirti",
+        "ornek": "Haritadaki ipucu bizi banka götürdü.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "oyuncu",
+        "anlam": "Bir oyuna katılan kişi",
+        "ornek": "Her oyuncu sırasını bekledi.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "kronometre",
+        "anlam": "Geçen süreyi ölçmeye yarayan araç",
+        "ornek": "Bu oyunda kronometre kullanmadık.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "adil",
+        "anlam": "Hakları ve koşulları gözeterek davranan",
+        "ornek": "Adil bir kural bütün oyuncuları gözetir.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "tasarım",
+        "anlam": "Bir şeyin nasıl olacağını gösteren plan veya düzen",
+        "ornek": "Oyunun tasarımını birlikte değiştirdik.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "dayanışma",
+        "anlam": "Bir güçlükte birbirine destek olma",
+        "ornek": "Takımlar arasında dayanışma vardı.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      }
     ],
-    "esAnlamlilar": [["galibiyet", "zafer"], ["mağlubiyet", "yenilgi"], ["rakip", "hasım"], ["kural", "ilke"]],
-    "zitAnlamlilar": [["galibiyet", "mağlubiyet"], ["kazanmak", "kaybetmek"], ["hızlı", "yavaş"], ["önce", "sonra"], ["yakalamak", "kaçmak"]],
+    "esAnlamlilar": [
+      [
+        "mağlubiyet",
+        "yenilgi"
+      ],
+      [
+        "misket",
+        "bilye"
+      ]
+    ],
+    "zitAnlamlilar": [
+      [
+        "hızlı",
+        "yavaş"
+      ],
+      [
+        "kazanmak",
+        "kaybetmek"
+      ]
+    ],
     "esSesliler": [
-      {"kelime": "yüz", "anlamlar": ["insanın başının ön tarafı", "100 sayısı", "suda yüzmek eyleminin emir kipi"]},
-      {"kelime": "kar", "anlamlar": ["gökten yağan beyaz taneler", "karmak (karıştırmak) eyleminin emir kipi: Hamuru iyice kar."]},
-      {"kelime": "at", "anlamlar": ["binek hayvanı", "atmak eyleminin emir kipi"]}
-    ]
+      {
+        "kelime": "yüz",
+        "anlamlar": [
+          "100 sayısı",
+          "başın ön bölümü",
+          "yüzmek eyleminin emir biçimi"
+        ]
+      }
+    ],
+    "deyimler": [],
+    "atasozleri": []
   },
-  "okumaParcasi": {
-    "baslik": "Bahçedeki Yeni Oyun",
-    "metin": "Cumartesi sabahı mahalledeki çocuklar apartmanın bahçesinde toplandı. Her hafta saklambaç oynuyorlardı ama bu kez Defne elinde bir tebeşir ve kâğıt rulosuyla geldi. \"Bugün yeni bir oyun deneyelim mi?\" diye sordu. Kâğıtta kendi çizdiği bir harita vardı. Haritada bahçedeki büyük çınar, kırmızı bank ve çeşme işaretlenmişti.\n\nDefne kuralları anlattı: Her takım, haritadaki üç noktada saklı ipuçlarını bulacak, ipuçlarındaki kelimeleri birleştirerek gizli cümleyi çözecekti. Acele eden takım bir tur bekleyecekti. Ali önce oyunu sıkıcı bulacağını düşündü. \"Galiba yine kaybedeceğim,\" diye mırıldandı. Fakat ilk ipucunu bankın altında bulunca gözleri parladı.\n\nOyunun sonunda iki takım da gizli cümleyi aynı anda buldu: \"Birlikte oynamak, kazanmaktan güzeldir.\" Çocuklar gülüşerek el sıkıştı. Defne'nin dedesi pencereden onları izliyordu. Akşam yemeğinde torununa, kendi çocukluğunda da ipucu avı oynadıklarını, ama haritalarını tebeşirle duvarlara çizdiklerini anlattı.",
-    "kaynak": "Diji Medu Türkçe için özgün yazılmıştır.",
-    "sorular": [
-      {"tip": "secim", "soru": "Metnin başlığına ve ilk paragrafına bakarak metnin konusu için en uygun tahmin hangisidir?", "secenekler": ["Çocukların yeni bir oyun denemesi", "Bir okul gezisinin hazırlığı", "Bahçedeki çınar ağacının tarihi"], "dogru": 0, "aciklama": "Başlıkta 'yeni oyun', paragrafta ise çocukların toplanması ve Defne'nin önerisi var. Bu ipuçları konuyu tahmin etmemizi sağlar.", "cikti": "T.O.5.4"},
-      {"tip": "secim", "soru": "Defne bahçeye neler getirmişti?", "secenekler": ["Top ve ip", "Tebeşir ve kâğıt rulosu", "Zar ve misket"], "dogru": 1, "aciklama": "Metinde Defne'nin elinde bir tebeşir ve kâğıt rulosuyla geldiği yazıyor. Bu, metnin yüzey anlamıyla ilgili bir sorudur.", "cikti": "T.O.5.6"},
-      {"tip": "secim", "soru": "Haritada hangisi işaretlenmemişti?", "secenekler": ["Kırmızı bank", "Çeşme", "Kapıdaki zil"], "dogru": 2, "aciklama": "Haritada çınar, kırmızı bank ve çeşme vardı. Kapıdaki zil metinde geçmiyor.", "cikti": "T.O.5.6"},
-      {"tip": "secim", "soru": "Metne göre acele eden takıma ne oluyordu?", "secenekler": ["Bir tur bekliyordu", "Oyundan çıkıyordu", "İpucu kaybediyordu"], "dogru": 0, "aciklama": "Kurallara göre acele eden takım bir tur bekleyecekti.", "cikti": "T.O.5.6"},
-      {"tip": "secim", "soru": "\"Ali önce oyunu sıkıcı bulacağını düşündü.\" cümlesine göre Ali'nin başlangıçtaki duygusu hangisine yakındır?", "secenekler": ["İsteksizlik", "Coşku", "Öfke"], "dogru": 0, "aciklama": "Oyunu sıkıcı bulacağını düşünen biri o an pek istekli değildir.", "cikti": "T.O.5.5"},
-      {"tip": "secim", "soru": "Metindeki \"gözleri parladı\" ifadesiyle anlatılmak istenen nedir?", "secenekler": ["Çok heyecanlandı ve sevindi", "Gözüne güneş geldi", "Ağlamak üzereydi"], "dogru": 0, "aciklama": "Gözlerin parlaması, burada mecaz anlamda sevinç ve heyecanı anlatır. Anlamı cümleden tahmin ederiz.", "cikti": "T.O.5.5"},
-      {"tip": "secim", "soru": "Bu metnin anahtar kelimeleri hangi seçenekte birlikte verilmiştir?", "secenekler": ["oyun, harita, ipucu, takım", "akşam, yemek, pencere, dede", "cumartesi, çeşme, bank, çınar"], "dogru": 0, "aciklama": "Anahtar kelimeler metnin ana konusunu taşır. Metin, haritalı bir ipucu oyununu ve takımları anlatıyor.", "cikti": "T.O.5.15"},
-      {"tip": "secim", "soru": "Gizli cümleye göre metnin vermek istediği ileti hangisidir?", "secenekler": ["Birlikte eğlenmek, kazanmaktan daha değerlidir.", "Her oyunda mutlaka bir kazanan olmalıdır.", "Oyunlar yalnızca bahçede oynanmalıdır."], "dogru": 0, "aciklama": "Çocukların bulduğu cümle ve oyunun dostça bitmesi bu iletiyi destekliyor.", "cikti": "T.O.5.6"}
-    ]
-  },
+  "okumaParcalari": [
+    {
+      "id": "5-1-okuma-1",
+      "baslik": "Bahçedeki Yeni Oyun",
+      "tur": "oykuleyici",
+      "metin": "Cumartesi sabahı Defne, apartmanın bahçesine bir tebeşir ve kâğıt rulosuyla geldi. Arkadaşları her hafta saklambaç oynuyordu. Bu kez farklı bir oyun önermek istiyordu. Kâğıda bahçenin küçük bir haritasını çizmiş; büyük çınarı, kırmızı bankı ve çeşmeyi işaretlemişti. Haritanın köşesinde, kimsenin çiçeklere basmaması gerektiğini hatırlatan küçük bir yaprak resmi vardı. Ali haritaya bakıp bu kadar kuralın oyunu sıkıcı yapacağını düşündü.\n\nDefne çocukları iki takıma ayırdı. Her takım üç noktada saklanan ipuçlarını bulacak, sonra bu ipuçlarını birleştirecekti. İpuçlarının yerini söylemek yasaktı; fakat bir arkadaş zorlanırsa nasıl düşünebileceği konusunda yardım edilebilirdi. Süre tutulmayacaktı. Kazananı belirlemek yerine herkesin sonuca ulaşması amaçlanıyordu. Ali, bunun yarışma sayılıp sayılmayacağını sordu. Defne gülümseyerek oyunun adını birlikte değiştirebileceklerini söyledi.\n\nİlk ipucu bankın altında bulundu. Üzerinde tek bir kelime değil, iki çocuğun aynı kutuyu taşıdığı bir çizim vardı. Çocuklar önce kutunun rengini tartıştı. Sonra çizimdeki asıl işin birlikte taşımak olduğunu fark ettiler. İkinci ipucu çeşmenin yanındaydı. Üçüncü ipucuna giderken Ali'nin ayakkabısının bağı çözüldü. Diğer takım onu geçmek yerine durup bekledi. Ali bu davranışa şaşırdı; biraz önce sıkıcı bulduğu kurallar şimdi ona anlamlı geliyordu.\n\nÇınarın altında herkes bulduklarını anlattı. Gizli cümle, birlikte oynamanın kazanmaktan daha değerli olduğunu söylüyordu. Çocuklar oyunun sonuna yeni bir kural ekledi: Bir sonraki buluşmada haritayı başka biri hazırlayacaktı. Böylece herkes hem oyuncu hem tasarımcı olabilecekti. Defne haritayı katlarken Ali yanına geldi ve gelecek hafta için bir ipucu düşündüğünü söyledi. Apartmanın penceresinden onları izleyen dedesi de çocukluğunda oynadığı benzer bir oyunu anlatmayı önerdi. Çocuklar önce onu dinlemeye, ardından kendi kurallarını yeniden gözden geçirmeye karar verdi. Bahçeden ayrılırken yerdeki kâğıtları topladılar; oyundan geriye yalnızca tebeşir izleri kaldı.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; ders kitabından alınmamıştır.",
+      "sorular": [
+        {
+          "id": "5-1-okuma-1-1",
+          "tip": "secim",
+          "soru": "“Bahçedeki Yeni Oyun” metnine göre: Defne bahçeye hangi araçlarla geldi?",
+          "secenekler": [
+            "Tebeşir ve kâğıt rulosuyla",
+            "Kronometre ve düdükle",
+            "Top ve raketle"
+          ],
+          "dogru": "Tebeşir ve kâğıt rulosuyla",
+          "aciklama": "İlk paragraf, Defne'nin harita için getirdiği iki aracı belirtir.",
+          "cikti": "T.O.5.6"
+        },
+        {
+          "id": "5-1-okuma-1-2",
+          "tip": "secim",
+          "soru": "“Bahçedeki Yeni Oyun” metnine göre: Haritada hangisi işaretlenmişti?",
+          "secenekler": [
+            "Apartmanın çatısı",
+            "Otopark kapısı",
+            "Çeşme"
+          ],
+          "dogru": "Çeşme",
+          "aciklama": "Haritada çınar, bank ve çeşme vardır; diğer yerler belirtilmez.",
+          "cikti": "T.O.5.6"
+        },
+        {
+          "id": "5-1-okuma-1-3",
+          "tip": "secim",
+          "soru": "“Bahçedeki Yeni Oyun” metnine göre: Oyunda süre neden tutulmuyordu?",
+          "secenekler": [
+            "Oyun yarıda bırakıldığı için",
+            "Herkesin sonuca ulaşması amaçlandığı için",
+            "Saat bozulduğu için"
+          ],
+          "dogru": "Herkesin sonuca ulaşması amaçlandığı için",
+          "aciklama": "Kurallarda amaç, hızla kazanan bulmak yerine birlikte sonuca ulaşmaktır.",
+          "cikti": "T.O.5.6"
+        },
+        {
+          "id": "5-1-okuma-1-4",
+          "tip": "secim",
+          "soru": "“Bahçedeki Yeni Oyun” metnine göre: Bankın altındaki ipucu neydi?",
+          "secenekler": [
+            "Bir kutuyu birlikte taşıyan iki çocuğun çizimi",
+            "Kutunun içindeki kırmızı bir top",
+            "Üç kelimelik bir yarışma kuralı"
+          ],
+          "dogru": "Bir kutuyu birlikte taşıyan iki çocuğun çizimi",
+          "aciklama": "Çocuklar çizimin renginden çok birlikte yapılan işe dikkat eder.",
+          "cikti": "T.O.5.6"
+        },
+        {
+          "id": "5-1-okuma-1-5",
+          "tip": "secim",
+          "soru": "“Bahçedeki Yeni Oyun” metnine göre: Ali neden durmak zorunda kaldı?",
+          "secenekler": [
+            "Haritasını kaybettiği için",
+            "Çeşmeden su taşımak için",
+            "Ayakkabısının bağı çözüldüğü için"
+          ],
+          "dogru": "Ayakkabısının bağı çözüldüğü için",
+          "aciklama": "Metin, diğer takımın Ali'nin bağını bağlamasını beklediğini anlatır.",
+          "cikti": "T.O.5.6"
+        },
+        {
+          "id": "5-1-okuma-1-6",
+          "tip": "secim",
+          "soru": "“Bahçedeki Yeni Oyun” metnine göre: Metindeki “tasarımcı” hangi anlamda kullanılmıştır?",
+          "secenekler": [
+            "Kurala uymayan oyuncu",
+            "Oyunu ve haritayı hazırlayan kişi",
+            "Yalnızca oyunu izleyen kişi"
+          ],
+          "dogru": "Oyunu ve haritayı hazırlayan kişi",
+          "aciklama": "Haritayı hazırlama görevinin sırayla paylaşılması kelimenin anlamını gösterir.",
+          "cikti": "T.O.5.5"
+        },
+        {
+          "id": "5-1-okuma-1-7",
+          "tip": "secim",
+          "soru": "“Bahçedeki Yeni Oyun” metnine göre: Metni en iyi temsil eden anahtar kelimeler hangileridir?",
+          "secenekler": [
+            "Oyun, harita, ipucu, iş birliği",
+            "Pencere, renk, ayakkabı, çatı",
+            "Düdük, süre, hakem, kupa"
+          ],
+          "dogru": "Oyun, harita, ipucu, iş birliği",
+          "aciklama": "İlk grup olayların merkezindeki oyun ve ortak çabayı karşılar.",
+          "cikti": "T.O.5.15"
+        },
+        {
+          "id": "5-1-okuma-1-8",
+          "tip": "secim",
+          "soru": "“Bahçedeki Yeni Oyun” metnine göre: Çocuklar oyun bittikten sonra ne yaptı?",
+          "secenekler": [
+            "Haritayı çeşmeye bıraktı",
+            "Tebeşirleri çiçeklere gömdü",
+            "Yerdeki kâğıtları topladı"
+          ],
+          "dogru": "Yerdeki kâğıtları topladı",
+          "aciklama": "Son paragraf oyunun ardından bahçeyi temiz bıraktıklarını söyler.",
+          "cikti": "T.O.5.6"
+        }
+      ]
+    },
+    {
+      "id": "5-1-okuma-2",
+      "baslik": "Bir Oyunun Kural Defteri",
+      "tur": "bilgilendirici",
+      "metin": "Bir oyunu öğrenirken çoğu zaman önce nasıl kazanacağımızı sorarız. Oysa oyuna başlayabilmek için nerede oynayacağımızı, hangi araçları kullanacağımızı ve sırayı nasıl belirleyeceğimizi de bilmemiz gerekir. Bir kural defteri bu bilgileri bir araya getirir. Defterin amacı çok sayıda yasak yazmak değil, oyuncuların aynı oyundan söz ettiğinden emin olmaktır. İki kişi aynı kelimeyi farklı anlıyorsa henüz ortak bir kural oluşmamış olabilir.\n\nBeşinci sınıftaki bir grup, kendi kelime oyunları için böyle bir defter hazırladı. Oyuncular sırayla bir kelime söyleyecek, sonraki kişi önceki kelimenin son harfiyle başlayan yeni bir kelime bulacaktı. İlk denemede herkes aynı anda konuştuğu için hangi kelimenin söylendiği anlaşılmadı. Çocuklar bu sorunu defterin ilk sayfasına yazdı. Ardından söz sırasını belirleyen küçük bir taş kullanmaya karar verdi. Taş kimdeyse yalnızca o konuşacaktı.\n\nİkinci denemede bir öğrenci kelime bulmakta zorlandı. Diğerleri hemen onu oyundan çıkarmak istedi. Fakat grubun bir üyesi, oyunlarının yeni kelimeler öğrenmeye de yardım etmesini istediğini hatırlattı. Bunun üzerine her oyuncuya bir kez arkadaşından ipucu isteme hakkı verildi. İpucu doğrudan cevabı söylemeyecek, kelimenin anlamını düşündürecekti. Böylece hem sıra korunuyor hem de zorlanan öğrenci oyunda kalabiliyordu.\n\nDefter yalnızca yazıyla doldurulmadı. Her kuralın yanına küçük bir resim çizildi; konuşma sırası için taş, yardımlaşma için iki el kullanıldı. Resimler, açıklamayı okumadan tek başına yeterli sayılmadı. Çocuklar resimle yazının aynı anlamı taşıyıp taşımadığını kontrol etti. Son sayfaya da oyunun denenme tarihi ve değiştirilen kurallar eklendi. Bir hafta sonra oyuna katılan yeni arkadaşları bu sayfadan yararlandı. Kural defteri böylece bitmiş bir liste olmaktan çıktı; oyuncuların deneyerek geliştirdiği ortak bir çalışma hâline geldi. Her denemeden sonra bir sorun ve bir iyi örnek yazmak, oyunu herkes için anlaşılır kıldı.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; ders kitabından alınmamıştır.",
+      "sorular": [
+        {
+          "id": "5-1-okuma-2-1",
+          "tip": "secim",
+          "soru": "“Bir Oyunun Kural Defteri” metnine göre: Kural defterinin temel amacı nedir?",
+          "secenekler": [
+            "Oyunda yalnızca kazananları kaydetmek",
+            "Yeni oyuncuların katılmasını önlemek",
+            "Oyuncuların oyunu aynı biçimde anlamasını sağlamak"
+          ],
+          "dogru": "Oyuncuların oyunu aynı biçimde anlamasını sağlamak",
+          "aciklama": "İlk paragraf, ortak anlayış oluşturmayı defterin amacı olarak açıklar.",
+          "cikti": "T.O.5.6"
+        },
+        {
+          "id": "5-1-okuma-2-2",
+          "tip": "secim",
+          "soru": "“Bir Oyunun Kural Defteri” metnine göre: Kelime oyununda yeni kelime hangi harfle başlamalıdır?",
+          "secenekler": [
+            "Her zaman aynı sesli harfle",
+            "Önceki kelimenin son harfiyle",
+            "Oyuncunun adının ilk harfiyle"
+          ],
+          "dogru": "Önceki kelimenin son harfiyle",
+          "aciklama": "Oyun kuralı ikinci paragrafta doğrudan verilir.",
+          "cikti": "T.O.5.6"
+        },
+        {
+          "id": "5-1-okuma-2-3",
+          "tip": "secim",
+          "soru": "“Bir Oyunun Kural Defteri” metnine göre: İlk denemede hangi sorun yaşandı?",
+          "secenekler": [
+            "Herkes aynı anda konuştu",
+            "Defter bahçede kayboldu",
+            "Taş iki parçaya bölündü"
+          ],
+          "dogru": "Herkes aynı anda konuştu",
+          "aciklama": "Çocuklar konuşmaların karışması üzerine söz taşı kullanır.",
+          "cikti": "T.O.5.6"
+        },
+        {
+          "id": "5-1-okuma-2-4",
+          "tip": "secim",
+          "soru": "“Bir Oyunun Kural Defteri” metnine göre: Küçük taş neyi belirliyordu?",
+          "secenekler": [
+            "Oyunun kaç gün süreceğini",
+            "Kelimenin kaç heceli olacağını",
+            "Kimin konuşma sırası olduğunu"
+          ],
+          "dogru": "Kimin konuşma sırası olduğunu",
+          "aciklama": "Taş bir puan aracı değil, söz sırasını gösteren araçtır.",
+          "cikti": "T.O.5.6"
+        },
+        {
+          "id": "5-1-okuma-2-5",
+          "tip": "secim",
+          "soru": "“Bir Oyunun Kural Defteri” metnine göre: Her oyuncuya hangi destek hakkı verildi?",
+          "secenekler": [
+            "Sırasını beklemeden konuşma",
+            "Bir kez anlam ipucu isteme",
+            "İstediği zaman iki cevap söyleme"
+          ],
+          "dogru": "Bir kez anlam ipucu isteme",
+          "aciklama": "Yeni düzenleme, cevabı vermeden öğrencinin düşünmesini destekler.",
+          "cikti": "T.O.5.6"
+        },
+        {
+          "id": "5-1-okuma-2-6",
+          "tip": "secim",
+          "soru": "“Bir Oyunun Kural Defteri” metnine göre: “Ortak çalışma” sözündeki “ortak” ne demektir?",
+          "secenekler": [
+            "Birden fazla kişinin birlikte yaptığı",
+            "Yalnızca bir kişiye gizlenen",
+            "Hiç değiştirilemeyen"
+          ],
+          "dogru": "Birden fazla kişinin birlikte yaptığı",
+          "aciklama": "Çocuklar kuralları birlikte yazıp değiştirdiği için çalışma ortaktır.",
+          "cikti": "T.O.5.5"
+        },
+        {
+          "id": "5-1-okuma-2-7",
+          "tip": "secim",
+          "soru": "“Bir Oyunun Kural Defteri” metnine göre: Defterin son sayfasına ne eklendi?",
+          "secenekler": [
+            "Yalnızca resimleri çizenlerin boyları",
+            "Oyuncuların ev adresleri",
+            "Deneme tarihi ve değiştirilen kurallar"
+          ],
+          "dogru": "Deneme tarihi ve değiştirilen kurallar",
+          "aciklama": "Son sayfa kişisel bilgiler yerine oyunun gelişimini kaydeder.",
+          "cikti": "T.O.5.6"
+        },
+        {
+          "id": "5-1-okuma-2-8",
+          "tip": "secim",
+          "soru": "“Bir Oyunun Kural Defteri” metnine göre: Metnin anahtar kelime grubu hangisidir?",
+          "secenekler": [
+            "Yolculuk, bilet, durak, valiz",
+            "Kural, söz sırası, ipucu, deneme",
+            "Bahçe, mevsim, çiçek, yağmur"
+          ],
+          "dogru": "Kural, söz sırası, ipucu, deneme",
+          "aciklama": "Seçilen kelimeler metindeki kural geliştirme sürecini birlikte karşılar.",
+          "cikti": "T.O.5.15"
+        }
+      ]
+    }
+  ],
   "konular": [
     {
       "kod": "5-1-hece",
-      "kategori": "Yazım ve Noktalama",
       "ad": "Hece yapısı ve satır sonunda kelimeyi bölme",
+      "kategori": "yazim-noktalama",
       "cikti": "T.Y.5.16",
-      "anlatimHTML": "<h3>Hece nedir?</h3><p>Ağzımızın bir açılışta çıkardığı ses ya da ses grubuna <b>hece</b> denir. Türkçede <b>her hecede bir ünlü</b> (a, e, ı, i, o, ö, u, ü) bulunur. Bu yüzden bir kelimede kaç ünlü varsa o kadar hece vardır.</p><table><tr><th>Kelime</th><th>Heceler</th><th>Hece sayısı</th></tr><tr><td>top</td><td>top</td><td>1</td></tr><tr><td>oyun</td><td>o-yun</td><td>2</td></tr><tr><td>arkadaş</td><td>ar-ka-daş</td><td>3</td></tr><tr><td>uçurtma</td><td>u-çurt-ma</td><td>3</td></tr></table><h3>Heceleme ipuçları</h3><ul><li>İki ünlü arasındaki <b>tek ünsüz</b> sonraki heceye geçer: <i>ki-tap, o-yun</i>.</li><li>İki ünlü arasındaki <b>iki ünsüz</b> ayrılır: <i>ar-ka-daş, sek-sek</i>.</li><li>İki ünlü arasında <b>üç ünsüz</b> varsa ilk ikisi önceki hecede kalır: <i>Türk-çe, u-çurt-ma</i>.</li></ul><h3>Satır sonunda kelimeyi bölme</h3><p>Satıra sığmayan bir kelime <b>hecelerinden</b> bölünür ve satır sonuna <b>kısa çizgi (-)</b> konur. Kelime, hece sınırının dışında bir yerden bölünmez.</p><p><i>Doğru:</i> sa- / yışmak &nbsp; <i>Yanlış:</i> say- / ışmak</p>",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Türkçede her hecede bir ünlü bulunur. Hece sayısını bulmak için ünlüleri sayabiliriz; fakat hece sınırını belirlemek için ünsüzlerin yerini de incelemeliyiz. İki ünlü arasındaki tek ünsüz sonraki heceye geçer. İki ünsüz genellikle ayrılır. Satır sonunda kelime bölünecekse hece sınırı gözetilir; satırın altında veya üstünde tek harf bırakılmaz. Özel adların kesme işaretli ekleri ayrıca değerlendirilir.</p><ul><li>oyun → o-yun</li><li>arkadaş → ar-ka-daş</li><li>uçurtma → u-çurt-ma</li></ul>",
       "ornekler": [
-        {"ornek": "ce-sa-ret", "aciklama": "3 ünlü (e, a, e) var, kelime 3 hecedir."},
-        {"ornek": "ma-sal-cı", "aciklama": "Ünlüler arasındaki tek ünsüz (s) sonraki heceye geçti."},
-        {"ornek": "ak-şam", "aciklama": "Ünlüler arasındaki iki ünsüz (k, ş) ayrıldı."},
-        {"ornek": "Bayramda hep birlikte salıncağa bin-\ndik.", "aciklama": "Satıra sığmayan kelime hecesinden bölündü, satır sonuna kısa çizgi kondu."}
+        "oyun → o-yun",
+        "arkadaş → ar-ka-daş",
+        "uçurtma → u-çurt-ma"
       ],
-      "test": [
-        {"tip": "secim", "soru": "\"kelebek\" kelimesi kaç hecelidir?", "secenekler": ["2", "3", "4"], "dogru": 1, "aciklama": "Kelimede üç ünlü var (e, e, e): ke-le-bek."},
-        {"tip": "secim", "soru": "Hangisi doğru hecelenmiştir?", "secenekler": ["oy-un", "o-yun", "oyu-n"], "dogru": 1, "aciklama": "İki ünlü arasındaki tek ünsüz (y) sonraki heceye geçer: o-yun."},
-        {"tip": "secim", "soru": "Hangisi doğru hecelenmiştir?", "secenekler": ["ark-a-daş", "a-rka-daş", "ar-ka-daş"], "dogru": 2, "aciklama": "Ünlüler arasındaki iki ünsüz ayrılır: ar-ka-daş."},
-        {"tip": "secim", "soru": "Hangi kelime tek hecelidir?", "secenekler": ["zar", "zarlar", "oyun"], "dogru": 0, "aciklama": "\"zar\" kelimesinde tek ünlü (a) vardır."},
-        {"tip": "secim", "soru": "Hangi kelime en çok heceye sahiptir?", "secenekler": ["uçurtma", "centilmenlik", "takım"], "dogru": 1, "aciklama": "cen-til-men-lik 4 hecedir; u-çurt-ma 3, ta-kım 2 hecedir."},
-        {"tip": "secim", "soru": "Satır sonunda \"tekerleme\" kelimesi hangi biçimde bölünebilir?", "secenekler": ["tek- / erleme", "teker- / leme", "tekerl- / eme"], "dogru": 1, "aciklama": "Kelime hece sınırından bölünür: te-ker-le-me. \"teker-\" doğru bir bölmedir."},
-        {"tip": "secim", "soru": "Satır sonunda bölünen kelimenin ilk parçasından sonra hangi işaret konur?", "secenekler": ["Nokta", "Kısa çizgi", "Virgül"], "dogru": 1, "aciklama": "Satır sonunda bölünen kelimeye kısa çizgi (-) konur."},
-        {"tip": "secim", "soru": "\"Türkçe\" kelimesi nasıl hecelenir?", "secenekler": ["Tür-kçe", "Türk-çe", "Tü-rkçe"], "dogru": 1, "aciklama": "Ünlüler arasında üç ünsüz (r, k, ç) var; ilk ikisi önceki hecede kalır: Türk-çe."}
+      "testler": [
+        {
+          "id": "5-1-hece-1",
+          "tip": "secim",
+          "soru": "“oyun” kelimesinin hecelere doğru ayrılışı hangisidir?",
+          "secenekler": [
+            "oy-un",
+            "oyu-n",
+            "o-yun"
+          ],
+          "dogru": "o-yun",
+          "aciklama": "“oyun” kelimesi o-yun biçiminde ayrılır; her hecede bir ünlü vardır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-1-hece-2",
+          "tip": "secim",
+          "soru": "“arkadaş” kelimesinin hecelere doğru ayrılışı hangisidir?",
+          "secenekler": [
+            "ar-kadaş",
+            "ar-ka-daş",
+            "a-rkadaş"
+          ],
+          "dogru": "ar-ka-daş",
+          "aciklama": "“arkadaş” kelimesi ar-ka-daş biçiminde ayrılır; her hecede bir ünlü vardır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-1-hece-3",
+          "tip": "secim",
+          "soru": "“uçurtma” kelimesinin hecelere doğru ayrılışı hangisidir?",
+          "secenekler": [
+            "u-çurt-ma",
+            "u-çurtma",
+            "uç-urtma"
+          ],
+          "dogru": "u-çurt-ma",
+          "aciklama": "“uçurtma” kelimesi u-çurt-ma biçiminde ayrılır; her hecede bir ünlü vardır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-1-hece-4",
+          "tip": "secim",
+          "soru": "“seksek” kelimesinin hecelere doğru ayrılışı hangisidir?",
+          "secenekler": [
+            "s-eksek",
+            "se-ksek",
+            "sek-sek"
+          ],
+          "dogru": "sek-sek",
+          "aciklama": "“seksek” kelimesi sek-sek biçiminde ayrılır; her hecede bir ünlü vardır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-1-hece-5",
+          "tip": "secim",
+          "soru": "“tekerleme” kelimesinin hecelere doğru ayrılışı hangisidir?",
+          "secenekler": [
+            "te-kerleme",
+            "te-ker-le-me",
+            "t-ekerleme"
+          ],
+          "dogru": "te-ker-le-me",
+          "aciklama": "“tekerleme” kelimesi te-ker-le-me biçiminde ayrılır; her hecede bir ünlü vardır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-1-hece-6",
+          "tip": "secim",
+          "soru": "“bahçe” kelimesinin hecelere doğru ayrılışı hangisidir?",
+          "secenekler": [
+            "bah-çe",
+            "b-ahçe",
+            "ba-hçe"
+          ],
+          "dogru": "bah-çe",
+          "aciklama": "“bahçe” kelimesi bah-çe biçiminde ayrılır; her hecede bir ünlü vardır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-1-hece-7",
+          "tip": "secim",
+          "soru": "“kalem” kelimesinin hecelere doğru ayrılışı hangisidir?",
+          "secenekler": [
+            "k-alem",
+            "kal-em",
+            "ka-lem"
+          ],
+          "dogru": "ka-lem",
+          "aciklama": "“kalem” kelimesi ka-lem biçiminde ayrılır; her hecede bir ünlü vardır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-1-hece-8",
+          "tip": "secim",
+          "soru": "“çocuk” kelimesinin hecelere doğru ayrılışı hangisidir?",
+          "secenekler": [
+            "çoc-uk",
+            "ço-cuk",
+            "ç-ocuk"
+          ],
+          "dogru": "ço-cuk",
+          "aciklama": "“çocuk” kelimesi ço-cuk biçiminde ayrılır; her hecede bir ünlü vardır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-1-hece-9",
+          "tip": "secim",
+          "soru": "“pencere” kelimesinin hecelere doğru ayrılışı hangisidir?",
+          "secenekler": [
+            "pen-ce-re",
+            "p-encere",
+            "pe-ncere"
+          ],
+          "dogru": "pen-ce-re",
+          "aciklama": "“pencere” kelimesi pen-ce-re biçiminde ayrılır; her hecede bir ünlü vardır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-1-hece-10",
+          "tip": "secim",
+          "soru": "“oyuncak” kelimesinin hecelere doğru ayrılışı hangisidir?",
+          "secenekler": [
+            "o-yuncak",
+            "oy-uncak",
+            "o-yun-cak"
+          ],
+          "dogru": "o-yun-cak",
+          "aciklama": "“oyuncak” kelimesi o-yun-cak biçiminde ayrılır; her hecede bir ünlü vardır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        }
       ]
     },
     {
       "kod": "5-1-nokta",
-      "kategori": "Yazım ve Noktalama",
       "ad": "Nokta nerede kullanılır?",
+      "kategori": "yazim-noktalama",
       "cikti": "T.Y.5.16",
-      "anlatimHTML": "<h3>Noktanın görevleri</h3><table><tr><th>Nerede?</th><th>Örnek</th></tr><tr><td>Tamamlanmış cümlenin sonunda</td><td>Teneffüste seksek oynadık.</td></tr><tr><td>Bazı kısaltmaların sonunda</td><td>Dr. (doktor), vb. (ve benzeri), Prof. (profesör)</td></tr><tr><td>Sayıdan sonra sıra bildirmek için</td><td>5. sınıf, 2. tur, 1. olduk</td></tr><tr><td>Tarihte gün, ay ve yılı ayırmak için</td><td>23.04.2027</td></tr><tr><td>Saatte saat ile dakikayı ayırmak için</td><td>Oyun 14.30'da başladı.</td></tr><tr><td>Dört ve daha çok basamaklı sayıları sondan üçlü gruplara ayırmak için</td><td>1.250 kişi, 3.000.000</td></tr><tr><td>İnternet adreslerinde</td><td>www.ornek.com.tr</td></tr><tr><td>Matematikte çarpma işareti olarak</td><td>4.5 = 20</td></tr></table><p><b>Dikkat:</b> \"5. sınıf\" ile \"5 sınıf\" farklıdır. Noktalı yazılınca <i>beşinci</i> diye okunur; noktasız yazılınca <i>beş tane sınıf</i> anlamına gelir.</p>",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Nokta tamamlanmış haber cümlesini bitirir. Bazı kısaltmalarda, rakamla gösterilen sıra sayılarında, tarih bölümleri ve saat ile dakika arasında da kullanılır. Genel ağ adreslerindeki nokta da bir ayırma işaretidir. Aynı işaret her yerde cümle sonu anlamına gelmez. Kullanıldığı yere bakarak görevini belirleriz. Ay adı yazıyla verildiğinde tarih içinde gereksiz nokta kullanmayız.</p><ul><li>Oyun bitti.</li><li>2. takım</li><li>saat 09.30</li></ul>",
       "ornekler": [
-        {"ornek": "Turnuvada 3. olduk.", "aciklama": "Sayıdan sonraki nokta sıra bildirir: üçüncü."},
-        {"ornek": "Maç 10.15'te başlayacak.", "aciklama": "Nokta, saat ile dakikayı ayırdı."},
-        {"ornek": "Stadyumda 25.000 kişi vardı.", "aciklama": "Beş basamaklı sayı sondan üçlü gruplara ayrıldı."},
-        {"ornek": "Okul gezisi 12.05.2027 tarihinde.", "aciklama": "Nokta tarihte gün, ay ve yılı ayırdı."}
+        "Oyun bitti.",
+        "2. takım",
+        "saat 09.30"
       ],
-      "test": [
-        {"tip": "secim", "soru": "Hangi cümlede nokta sıra bildirmek için kullanılmıştır?", "secenekler": ["Yarışmada 2. olduk.", "Saat 9.30'da buluştuk.", "Kitap 1.200 sayfaydı."], "dogru": 0, "aciklama": "\"2.\" ikinci demektir, nokta sıra bildirir."},
-        {"tip": "secim", "soru": "Hangisinde nokta, saat ile dakikayı ayırmıştır?", "secenekler": ["4.5 = 20", "Oyun 16.45'te bitti.", "Ahmet Bey Dr. oldu."], "dogru": 1, "aciklama": "16.45 ifadesinde nokta saat ile dakikayı ayırır."},
-        {"tip": "secim", "soru": "Hangi sayı doğru yazılmıştır?", "secenekler": ["12500", "12.500", "1.2500"], "dogru": 1, "aciklama": "Dört ve daha çok basamaklı sayılar sondan üçlü gruplara ayrılır: 12.500."},
-        {"tip": "secim", "soru": "\"vb.\" kısaltmasındaki nokta neden kullanılmıştır?", "secenekler": ["Kısaltma olduğu için", "Sıra bildirdiği için", "Cümle bittiği için"], "dogru": 0, "aciklama": "\"ve benzeri\" kısaltılınca sonuna nokta konur."},
-        {"tip": "secim", "soru": "Hangi cümlenin sonuna nokta konmalıdır?", "secenekler": ["Hangi oyunu oynayalım", "Bahçede birlikte top oynadık", "Ne güzel bir gün"], "dogru": 1, "aciklama": "Bilgi veren, tamamlanmış cümlenin sonuna nokta konur. İlki soru, sonuncusu ünlem cümlesidir."},
-        {"tip": "secim", "soru": "\"5. sınıf\" ifadesi nasıl okunur?", "secenekler": ["beş sınıf", "beşinci sınıf", "beşer sınıf"], "dogru": 1, "aciklama": "Sayıdan sonraki nokta sıra bildirir: beşinci."},
-        {"tip": "secim", "soru": "Hangisinde nokta tarihte kullanılmıştır?", "secenekler": ["19.05.2027", "www.okul.k12.tr", "3.000 metre"], "dogru": 0, "aciklama": "19.05.2027 bir tarihtir; nokta gün, ay ve yılı ayırır."},
-        {"tip": "secim", "soru": "\"3.4 = 12\" ifadesinde nokta hangi görevdedir?", "secenekler": ["Çarpma işareti", "Sıra sayısı", "Ondalık ayırıcı"], "dogru": 0, "aciklama": "Matematikte nokta çarpma işareti olarak da kullanılır."}
+      "testler": [
+        {
+          "id": "5-1-nokta-1",
+          "tip": "secim",
+          "soru": "Buluşma saatini doğru gösteren cümle hangisidir?",
+          "secenekler": [
+            "Saat 09-30'da bahçedeyiz.",
+            "Saat 09.30'da bahçedeyiz.",
+            "Saat 09/30'da bahçedeyiz."
+          ],
+          "dogru": "Saat 09.30'da bahçedeyiz.",
+          "aciklama": "Saat ile dakika arasına nokta konur.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-1-nokta-2",
+          "tip": "secim",
+          "soru": "Sıra sayısının rakamla doğru yazımı hangisidir?",
+          "secenekler": [
+            "3. sıradaki oyuncu başladı.",
+            "3 sıradaki oyuncu başladı.",
+            "3, sıradaki oyuncu başladı."
+          ],
+          "dogru": "3. sıradaki oyuncu başladı.",
+          "aciklama": "Rakamdan sonra sıra bildiren nokta, üçüncü anlamını verir.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-1-nokta-3",
+          "tip": "secim",
+          "soru": "Gün, ay ve yıl rakamla yazılırken doğru biçim hangisidir?",
+          "secenekler": [
+            "14,10,2026",
+            "14:10:2026",
+            "14.10.2026"
+          ],
+          "dogru": "14.10.2026",
+          "aciklama": "Nokta, rakamla gösterilen tarih bölümlerini ayırabilir.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-1-nokta-4",
+          "tip": "secim",
+          "soru": "Tarafsız bir haber cümlesi noktayla bitirilecekse hangi yazım doğrudur?",
+          "secenekler": [
+            "Oyunumuz birazdan başlayacak;",
+            "Oyunumuz birazdan başlayacak.",
+            "Oyunumuz birazdan başlayacak,"
+          ],
+          "dogru": "Oyunumuz birazdan başlayacak.",
+          "aciklama": "Tamamlanmış haber cümlesi noktayla bitirilebilir.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-1-nokta-5",
+          "tip": "secim",
+          "soru": "Doktor kelimesinin noktalı kısaltması hangisidir?",
+          "secenekler": [
+            "Dr.",
+            "D.r",
+            "Dr,"
+          ],
+          "dogru": "Dr.",
+          "aciklama": "Doktor kelimesinin kısaltması Dr. biçimindedir.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-1-nokta-6",
+          "tip": "secim",
+          "soru": "İkinci takım anlamını doğru veren biçim hangisidir?",
+          "secenekler": [
+            "2 takım",
+            "2, takım",
+            "2. takım"
+          ],
+          "dogru": "2. takım",
+          "aciklama": "2. biçimi sıra, 2 takım biçimi ise iki adet takım bildirir.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-1-nokta-7",
+          "tip": "secim",
+          "soru": "Saat gösteriminde noktanın doğru kullanıldığı örnek hangisidir?",
+          "secenekler": [
+            "Oyun 10-15'te bitecek.",
+            "Oyun 10.15'te bitecek.",
+            "Oyun 10/15'te bitecek."
+          ],
+          "dogru": "Oyun 10.15'te bitecek.",
+          "aciklama": "Saat ve dakikayı ayıran nokta 10.15 biçiminde kullanılır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-1-nokta-8",
+          "tip": "secim",
+          "soru": "Tamamlanmış duyurunun sonuna uygun işaret eklenmiş seçenek hangisidir?",
+          "secenekler": [
+            "Kartlar masanın üzerindedir.",
+            "Kartlar masanın üzerindedir,",
+            "Kartlar masanın üzerindedir:"
+          ],
+          "dogru": "Kartlar masanın üzerindedir.",
+          "aciklama": "Duyuru tamamlanmış bir bilgi cümlesidir; sonuna nokta konabilir.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-1-nokta-9",
+          "tip": "secim",
+          "soru": "Genel ağ adresindeki doğru ayırma işareti hangi seçenektedir?",
+          "secenekler": [
+            "meb,gov,tr",
+            "meb;gov;tr",
+            "meb.gov.tr"
+          ],
+          "dogru": "meb.gov.tr",
+          "aciklama": "Genel ağ adreslerinin bölümlerinde nokta kullanılır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-1-nokta-10",
+          "tip": "secim",
+          "soru": "Beşinci durak anlamını veren doğru yazım hangisidir?",
+          "secenekler": [
+            "5, durak",
+            "5. durak",
+            "5 durak"
+          ],
+          "dogru": "5. durak",
+          "aciklama": "Nokta, rakamdan sonra sıra sayısı anlamı oluşturur.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        }
       ]
     },
     {
       "kod": "5-1-kisa-cizgi",
-      "kategori": "Yazım ve Noktalama",
       "ad": "Kısa çizgi: satır sonu ve heceleri gösterme",
+      "kategori": "yazim-noktalama",
       "cikti": "T.Y.5.16",
-      "anlatimHTML": "<h3>Kısa çizgi (-)</h3><p>Kısa çizgi, bu temada iki görevle karşımıza çıkar:</p><ol><li><b>Satır sonunda</b> sığmayan kelimeyi bölerken kullanılır. Kelime hecesinden bölünür, ilk parçanın sonuna kısa çizgi konur.</li><li><b>Heceleri göstermek</b> için kullanılır: <i>ço-cuk, o-yun-cak</i>.</li></ol><p><b>Karıştırma:</b> Konuşmaları göstermek için kullanılan <b>uzun çizgi (—)</b> ileriki temada öğrenilecek. Kısa çizgi daha kısadır ve kelimelerin içinde ya da satır sonunda kullanılır.</p>",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Kısa çizgi heceleri gösterirken araya konur. Satıra sığmayan bir kelime hecelerine ayrılarak bölünecekse satırın sonunda kullanılır. Yeni satırda aynı çizgi tekrarlanmaz. Heceyi rastgele bir harften bölmek doğru değildir. Kısa çizgi ile konuşma satırlarının başında kullanılan uzun çizgi aynı işlevde değildir. Alıştırmalarda hece sınırları ile işaretin yerini birlikte kontrol ederiz.</p><ul><li>ka-lem</li><li>bah-çe</li><li>pen-ce-re</li></ul>",
       "ornekler": [
-        {"ornek": "sak-lam-baç", "aciklama": "Kısa çizgi heceleri gösterdi."},
-        {"ornek": "Teneffüs zili çalınca hepimiz bah-\nçeye koştuk.", "aciklama": "Satıra sığmayan kelime hecesinden bölündü."}
+        "ka-lem",
+        "bah-çe",
+        "pen-ce-re"
       ],
-      "test": [
-        {"tip": "secim", "soru": "Hangisinde kısa çizgi heceleri göstermek için kullanılmıştır?", "secenekler": ["kö-re-be", "Ali - Ayşe", "2-0 kazandık"], "dogru": 0, "aciklama": "kö-re-be yazımında kısa çizgi heceleri ayırır."},
-        {"tip": "secim", "soru": "\"misket\" kelimesinin heceleri kısa çizgiyle nasıl gösterilir?", "secenekler": ["mi-sket", "mis-ket", "misk-et"], "dogru": 1, "aciklama": "Ünlüler arasındaki iki ünsüz ayrılır: mis-ket."},
-        {"tip": "secim", "soru": "Satır sonunda kelime bölünürken kısa çizgi nereye konur?", "secenekler": ["Alt satırın başına", "Üst satırdaki parçanın sonuna", "Kelimenin ortasına iki kez"], "dogru": 1, "aciklama": "Kısa çizgi, satır sonunda kalan parçanın hemen sonuna konur."},
-        {"tip": "secim", "soru": "\"oyuncak\" kelimesi satır sonunda nasıl bölünür?", "secenekler": ["oyun- / cak", "oy- / uncak", "oyunc- / ak"], "dogru": 0, "aciklama": "Kelime hece sınırından bölünür: o-yun-cak. \"oyun-\" bir hece sınırıdır."},
-        {"tip": "secim", "soru": "Kısa çizgi hangi işarete göre daha kısadır?", "secenekler": ["Uzun çizgi (—)", "Nokta", "Virgül"], "dogru": 0, "aciklama": "Kısa çizgi (-) ile uzun çizgi (—) farklı işaretlerdir."}
+      "testler": [
+        {
+          "id": "5-1-kisa-cizgi-1",
+          "tip": "secim",
+          "soru": "Kısa çizgiyle heceleri gösterilen “oyuncak” kelimesinde doğru kullanım hangisidir?",
+          "secenekler": [
+            "oy-uncak",
+            "o-yun-cak",
+            "o-yuncak"
+          ],
+          "dogru": "o-yun-cak",
+          "aciklama": "Kısa çizgi hece sınırlarına konur: o-yun-cak.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-1-kisa-cizgi-2",
+          "tip": "secim",
+          "soru": "Kısa çizgiyle heceleri gösterilen “pencere” kelimesinde doğru kullanım hangisidir?",
+          "secenekler": [
+            "pen-ce-re",
+            "p-encere",
+            "pe-ncere"
+          ],
+          "dogru": "pen-ce-re",
+          "aciklama": "Kısa çizgi hece sınırlarına konur: pen-ce-re.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-1-kisa-cizgi-3",
+          "tip": "secim",
+          "soru": "Kısa çizgiyle heceleri gösterilen “çocuk” kelimesinde doğru kullanım hangisidir?",
+          "secenekler": [
+            "ç-ocuk",
+            "çoc-uk",
+            "ço-cuk"
+          ],
+          "dogru": "ço-cuk",
+          "aciklama": "Kısa çizgi hece sınırlarına konur: ço-cuk.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-1-kisa-cizgi-4",
+          "tip": "secim",
+          "soru": "Kısa çizgiyle heceleri gösterilen “kalem” kelimesinde doğru kullanım hangisidir?",
+          "secenekler": [
+            "kal-em",
+            "ka-lem",
+            "k-alem"
+          ],
+          "dogru": "ka-lem",
+          "aciklama": "Kısa çizgi hece sınırlarına konur: ka-lem.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-1-kisa-cizgi-5",
+          "tip": "secim",
+          "soru": "Kısa çizgiyle heceleri gösterilen “bahçe” kelimesinde doğru kullanım hangisidir?",
+          "secenekler": [
+            "bah-çe",
+            "b-ahçe",
+            "ba-hçe"
+          ],
+          "dogru": "bah-çe",
+          "aciklama": "Kısa çizgi hece sınırlarına konur: bah-çe.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-1-kisa-cizgi-6",
+          "tip": "secim",
+          "soru": "Kısa çizgiyle heceleri gösterilen “tekerleme” kelimesinde doğru kullanım hangisidir?",
+          "secenekler": [
+            "t-ekerleme",
+            "te-kerleme",
+            "te-ker-le-me"
+          ],
+          "dogru": "te-ker-le-me",
+          "aciklama": "Kısa çizgi hece sınırlarına konur: te-ker-le-me.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-1-kisa-cizgi-7",
+          "tip": "secim",
+          "soru": "Kısa çizgiyle heceleri gösterilen “seksek” kelimesinde doğru kullanım hangisidir?",
+          "secenekler": [
+            "se-ksek",
+            "sek-sek",
+            "s-eksek"
+          ],
+          "dogru": "sek-sek",
+          "aciklama": "Kısa çizgi hece sınırlarına konur: sek-sek.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-1-kisa-cizgi-8",
+          "tip": "secim",
+          "soru": "Kısa çizgiyle heceleri gösterilen “uçurtma” kelimesinde doğru kullanım hangisidir?",
+          "secenekler": [
+            "u-çurt-ma",
+            "u-çurtma",
+            "uç-urtma"
+          ],
+          "dogru": "u-çurt-ma",
+          "aciklama": "Kısa çizgi hece sınırlarına konur: u-çurt-ma.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-1-kisa-cizgi-9",
+          "tip": "secim",
+          "soru": "Kısa çizgiyle heceleri gösterilen “arkadaş” kelimesinde doğru kullanım hangisidir?",
+          "secenekler": [
+            "a-rkadaş",
+            "ar-kadaş",
+            "ar-ka-daş"
+          ],
+          "dogru": "ar-ka-daş",
+          "aciklama": "Kısa çizgi hece sınırlarına konur: ar-ka-daş.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-1-kisa-cizgi-10",
+          "tip": "secim",
+          "soru": "Kısa çizgiyle heceleri gösterilen “oyun” kelimesinde doğru kullanım hangisidir?",
+          "secenekler": [
+            "oyu-n",
+            "o-yun",
+            "oy-un"
+          ],
+          "dogru": "o-yun",
+          "aciklama": "Kısa çizgi hece sınırlarına konur: o-yun.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        }
       ]
     },
     {
       "kod": "5-1-isim-fiil",
-      "kategori": "Dil Bilgisi",
       "ad": "İsim mi, fiil mi?",
+      "kategori": "dil-bilgisi",
       "cikti": "DYS.DO.5.1",
-      "anlatimHTML": "<h3>İsim</h3><p>Varlıkları, kavramları karşılayan kelimelere <b>isim (ad)</b> denir: <i>top, takım, hakem, sevgi, oyun</i>.</p><h3>Fiil</h3><p>İş, oluş, hareket bildiren kelimelere <b>fiil (eylem)</b> denir: <i>koşmak, saklanmak, atmak, sevinmek</i>.</p><h3>Kolay test: -mek / -mak</h3><p>Kelimenin köküne <b>-mek / -mak</b> getirebiliyorsan genellikle fiildir. <i>koş → koşmak</i> ✔️ fiil. <i>top → topmak</i> ✖️ isim.</p><table><tr><th>İsim</th><th>Fiil</th></tr><tr><td>oyun</td><td>oynamak</td></tr><tr><td>yarış</td><td>yarışmak</td></tr><tr><td>sayı</td><td>saymak</td></tr><tr><td>atış</td><td>atmak</td></tr></table><p><b>Dikkat:</b> \"yarış\" hem isim (<i>Yarış başladı.</i>) hem fiil kökü (<i>Benimle yarış!</i>) olabilir. Kelimenin cümledeki görevine bakarız.</p>",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>İsimler varlıkları, kavramları ve duyguları karşılar. Fiiller iş, oluş veya hareket bildirir. Kelimeyi tek başına değil cümledeki göreviyle düşünürüz. Bir fiil farklı zaman ekleri alabilir; örneğin oynamak, oynadı ve oynuyor biçimleri aynı eylemle ilişkilidir. Bir kelimenin hareket çağrıştırması tek başına yeterli değildir: oyun adı bir isim, oynadı sözü ise bu cümlede bir fiildir.</p><ul><li>oyun → isim</li><li>oynadı → fiil</li><li>sevinç → isim</li></ul>",
       "ornekler": [
-        {"ornek": "Hakem düdüğü çaldı.", "aciklama": "hakem ve düdük isimdir; çaldı fiildir."},
-        {"ornek": "Çocuklar bahçede koşuyor.", "aciklama": "çocuk ve bahçe isimdir; koşuyor fiildir."},
-        {"ornek": "Sevinç sesleri her yeri doldurdu.", "aciklama": "sevinç ve ses isimdir; doldurdu fiildir."}
+        "oyun → isim",
+        "oynadı → fiil",
+        "sevinç → isim"
       ],
-      "test": [
-        {"tip": "secim", "soru": "Hangisi fiildir?", "secenekler": ["uçurtma", "saklanmak", "bahçe"], "dogru": 1, "aciklama": "saklanmak bir hareket bildirir, fiildir."},
-        {"tip": "secim", "soru": "Hangisi isimdir?", "secenekler": ["zıplamak", "sevinmek", "misket"], "dogru": 2, "aciklama": "misket bir varlığın adıdır."},
-        {"tip": "secim", "soru": "\"Ebe gözlerini kapatıp saydı.\" cümlesindeki fiiller hangileridir?", "secenekler": ["ebe, göz", "kapatıp, saydı", "gözlerini, ebe"], "dogru": 1, "aciklama": "kapatmak ve saymak iş bildirir."},
-        {"tip": "secim", "soru": "Hangi kelimeye -mek / -mak getirilerek fiil elde edilir?", "secenekler": ["koş", "takım", "kural"], "dogru": 0, "aciklama": "koş + mak = koşmak."},
-        {"tip": "secim", "soru": "\"Takımımız maçı kazandı.\" cümlesinde kaç isim vardır?", "secenekler": ["1", "2", "3"], "dogru": 1, "aciklama": "takım ve maç isimdir; kazandı fiildir."},
-        {"tip": "secim", "soru": "Hangisi bir kavramı karşılayan isimdir?", "secenekler": ["dostluk", "koşmak", "atmak"], "dogru": 0, "aciklama": "dostluk elle tutulmayan bir kavramdır ama yine de isimdir."},
-        {"tip": "secim", "soru": "Hangi cümlede \"yarış\" bir fiil olarak kullanılmıştır?", "secenekler": ["Yarış çok heyecanlıydı.", "Hadi benimle yarış!", "Yarışın sonunda sevindik."], "dogru": 1, "aciklama": "\"Benimle yarış!\" bir iş yapılmasını ister; burada fiildir."},
-        {"tip": "secim", "soru": "\"oyun\" isminin fiil hâli hangisidir?", "secenekler": ["oyuncak", "oynamak", "oyuncu"], "dogru": 1, "aciklama": "oynamak iş bildirir, fiildir."}
+      "testler": [
+        {
+          "id": "5-1-isim-fiil-1",
+          "tip": "secim",
+          "soru": "“Çocuk topu bahçeye bıraktı.” cümlesinde “topu” hangi türdedir?",
+          "secenekler": [
+            "isim",
+            "fiil",
+            "bağlaç"
+          ],
+          "dogru": "isim",
+          "aciklama": "“topu” bu cümlede bir varlık veya kavramı adlandırır.",
+          "cikti": "DYS.DO.5.1"
+        },
+        {
+          "id": "5-1-isim-fiil-2",
+          "tip": "secim",
+          "soru": "“Oyuncu sırayı bekledi.” cümlesinde “bekledi” hangi türdedir?",
+          "secenekler": [
+            "isim",
+            "bağlaç",
+            "fiil"
+          ],
+          "dogru": "fiil",
+          "aciklama": "“bekledi” bu cümlede gerçekleşen bir işi ya da hareketi bildirir.",
+          "cikti": "DYS.DO.5.1"
+        },
+        {
+          "id": "5-1-isim-fiil-3",
+          "tip": "secim",
+          "soru": "“Mavi kutu masadaydı.” cümlesinde “kutu” hangi türdedir?",
+          "secenekler": [
+            "bağlaç",
+            "isim",
+            "fiil"
+          ],
+          "dogru": "isim",
+          "aciklama": "“kutu” bu cümlede bir varlık veya kavramı adlandırır.",
+          "cikti": "DYS.DO.5.1"
+        },
+        {
+          "id": "5-1-isim-fiil-4",
+          "tip": "secim",
+          "soru": "“Defne yeni bir oyun tasarladı.” cümlesinde “tasarladı” hangi türdedir?",
+          "secenekler": [
+            "fiil",
+            "isim",
+            "bağlaç"
+          ],
+          "dogru": "fiil",
+          "aciklama": "“tasarladı” bu cümlede gerçekleşen bir işi ya da hareketi bildirir.",
+          "cikti": "DYS.DO.5.1"
+        },
+        {
+          "id": "5-1-isim-fiil-5",
+          "tip": "secim",
+          "soru": "“Takım bahçede toplandı.” cümlesinde “takım” hangi türdedir?",
+          "secenekler": [
+            "fiil",
+            "bağlaç",
+            "isim"
+          ],
+          "dogru": "isim",
+          "aciklama": "“takım” bu cümlede bir varlık veya kavramı adlandırır.",
+          "cikti": "DYS.DO.5.1"
+        },
+        {
+          "id": "5-1-isim-fiil-6",
+          "tip": "secim",
+          "soru": "“Ali haritayı katladı.” cümlesinde “katladı” hangi türdedir?",
+          "secenekler": [
+            "bağlaç",
+            "fiil",
+            "isim"
+          ],
+          "dogru": "fiil",
+          "aciklama": "“katladı” bu cümlede gerçekleşen bir işi ya da hareketi bildirir.",
+          "cikti": "DYS.DO.5.1"
+        },
+        {
+          "id": "5-1-isim-fiil-7",
+          "tip": "secim",
+          "soru": "“Sabır oyunda işe yarar.” cümlesinde “Sabır” hangi türdedir?",
+          "secenekler": [
+            "isim",
+            "fiil",
+            "bağlaç"
+          ],
+          "dogru": "isim",
+          "aciklama": "“Sabır” bu cümlede bir varlık veya kavramı adlandırır.",
+          "cikti": "DYS.DO.5.1"
+        },
+        {
+          "id": "5-1-isim-fiil-8",
+          "tip": "secim",
+          "soru": "“Çocuklar birlikte güldü.” cümlesinde “güldü” hangi türdedir?",
+          "secenekler": [
+            "isim",
+            "bağlaç",
+            "fiil"
+          ],
+          "dogru": "fiil",
+          "aciklama": "“güldü” bu cümlede gerçekleşen bir işi ya da hareketi bildirir.",
+          "cikti": "DYS.DO.5.1"
+        },
+        {
+          "id": "5-1-isim-fiil-9",
+          "tip": "secim",
+          "soru": "“Çeşmenin yanında tebeşir vardı.” cümlesinde “tebeşir” hangi türdedir?",
+          "secenekler": [
+            "bağlaç",
+            "isim",
+            "fiil"
+          ],
+          "dogru": "isim",
+          "aciklama": "“tebeşir” bu cümlede bir varlık veya kavramı adlandırır.",
+          "cikti": "DYS.DO.5.1"
+        },
+        {
+          "id": "5-1-isim-fiil-10",
+          "tip": "secim",
+          "soru": "“Ece arkadaşını dinliyor.” cümlesinde “dinliyor” hangi türdedir?",
+          "secenekler": [
+            "fiil",
+            "isim",
+            "bağlaç"
+          ],
+          "dogru": "fiil",
+          "aciklama": "“dinliyor” bu cümlede gerçekleşen bir işi ya da hareketi bildirir.",
+          "cikti": "DYS.DO.5.1"
+        }
       ]
     },
     {
       "kod": "5-1-tahmin",
-      "kategori": "Söz Varlığı",
       "ad": "Tahmin bildiren ifadeler",
-      "cikti": "T.Y.5.6",
-      "anlatimHTML": "<h3>Kesin değilsek ne deriz?</h3><p>Bir şeyden emin olmadığımızda <b>tahmin</b> ederiz. Tahminimizi gösteren kelimeler ve ekler kullanırız.</p><table><tr><th>Kelimeler</th><th>Ekler ve yapılar</th></tr><tr><td>belki, galiba, sanki, herhâlde, muhtemelen, acaba, bence, umarım, gördüğüm kadarıyla</td><td><b>-ebilir / -abilir</b>: <i>Yağmur yağabilir.</i><br><b>-mıştır</b>: <i>Şimdiye gelmiştir.</i><br><b>-mış olmalı</b>: <i>Topu Ali almış olmalı.</i></td></tr></table><p><b>Kesin:</b> Maç saat beşte başlıyor. <br><b>Tahmin:</b> Maç galiba saat beşte başlıyor.</p>",
-      "ornekler": [
-        {"ornek": "Bu takım muhtemelen finale kalacak.", "aciklama": "\"muhtemelen\" tahmin bildirir."},
-        {"ornek": "Hakem düdüğü unutmuş olmalı.", "aciklama": "\"-mış olmalı\" yapısı tahmin bildirir."},
-        {"ornek": "Yarın hava güzel olabilir.", "aciklama": "\"-abilir\" eki tahmin bildirir."}
+      "kategori": "dil-bilgisi",
+      "cikti": "DYS.DO.5.8",
+      "ekCiktilar": [
+        "DYS.KY.5.8"
       ],
-      "test": [
-        {"tip": "secim", "soru": "Hangi cümlede tahmin anlamı vardır?", "secenekler": ["Oyun saat üçte başladı.", "Oyun galiba saat üçte başladı.", "Oyun saat üçte başlasın."], "dogru": 1, "aciklama": "\"galiba\" kesin olmayan, tahmine dayalı bir anlatım katar."},
-        {"tip": "secim", "soru": "Hangi kelime tahmin bildirmez?", "secenekler": ["belki", "herhâlde", "kesinlikle"], "dogru": 2, "aciklama": "\"kesinlikle\" eminlik bildirir."},
-        {"tip": "secim", "soru": "\"Topu bahçeye Mert atmış olmalı.\" cümlesinde tahmini sağlayan yapı hangisidir?", "secenekler": ["-mış olmalı", "bahçeye", "topu"], "dogru": 0, "aciklama": "\"-mış olmalı\" konuşanın emin olmadığını gösterir."},
-        {"tip": "bosluk", "soru": "Bulutlar karardı, yağmur ___.", "secenekler": ["yağdı", "yağabilir", "yağsın"], "dogru": 1, "aciklama": "\"-abilir\" eki tahmin bildirir."},
-        {"tip": "secim", "soru": "Hangi cümle kesin bir bilgi verir?", "secenekler": ["Sanki kapı çaldı.", "Bugün çarşamba.", "Belki erken gelir."], "dogru": 1, "aciklama": "\"Bugün çarşamba.\" cümlesinde tahmin bildiren bir ifade yoktur."},
-        {"tip": "secim", "soru": "Metnin başlığına bakıp içeriğini tahmin eden bir öğrenci hangisini söyler?", "secenekler": ["Bu metin herhâlde bir maçı anlatıyor.", "Bu metni dün okudum.", "Bu metin üç paragraftır."], "dogru": 0, "aciklama": "\"herhâlde\" ile başlığa dayalı bir tahmin yapılıyor."}
+      "anlatimHTML": "<p>Tahmin, eldeki ipuçlarından hareketle henüz kesinleşmeyen bir durum hakkında düşünce söylemektir. Galiba, belki, muhtemelen ve olabilir gibi sözler tahmin bildirir. Tahmin ile doğrulanmış bilgi aynı şey değildir. Bir görsel, başlık veya gözlem tahmine dayanak olabilir. Yeni bilgi geldiğinde tahmin değişebilir. Cümledeki sözü tanırken hem kelimeye hem anlatılan duruma bakarız.</p><ul><li>Galiba yağmur yağacak.</li><li>Kutu boş olabilir.</li><li>Belki arkadaşımız gelir.</li></ul>",
+      "ornekler": [
+        "Galiba yağmur yağacak.",
+        "Kutu boş olabilir.",
+        "Belki arkadaşımız gelir."
+      ],
+      "testler": [
+        {
+          "id": "5-1-tahmin-1",
+          "tip": "secim",
+          "soru": "“Galiba yarın yeni bir oyun oynayacağız.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "tahmin",
+            "kesin emir",
+            "gerçekleşmiş olayı kesin bildirme"
+          ],
+          "dogru": "tahmin",
+          "aciklama": "Cümledeki ifade tahmin anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "DYS.DO.5.8"
+        },
+        {
+          "id": "5-1-tahmin-2",
+          "tip": "secim",
+          "soru": "“Bu izler bir oyuncuya ait olabilir.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "kesin emir",
+            "gerçekleşmiş olayı kesin bildirme",
+            "tahmin"
+          ],
+          "dogru": "tahmin",
+          "aciklama": "Cümledeki ifade tahmin anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "DYS.DO.5.8"
+        },
+        {
+          "id": "5-1-tahmin-3",
+          "tip": "secim",
+          "soru": "“Herhâlde kartlar kutunun içindedir.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "gerçekleşmiş olayı kesin bildirme",
+            "tahmin",
+            "kesin emir"
+          ],
+          "dogru": "tahmin",
+          "aciklama": "Cümledeki ifade tahmin anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "DYS.DO.5.8"
+        },
+        {
+          "id": "5-1-tahmin-4",
+          "tip": "secim",
+          "soru": "“Muhtemelen arkadaşımız birazdan gelir.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "tahmin",
+            "kesin emir",
+            "gerçekleşmiş olayı kesin bildirme"
+          ],
+          "dogru": "tahmin",
+          "aciklama": "Cümledeki ifade tahmin anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "DYS.DO.5.8"
+        },
+        {
+          "id": "5-1-tahmin-5",
+          "tip": "secim",
+          "soru": "“Belki bu ipucu bizi çeşmeye götürür.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "kesin emir",
+            "gerçekleşmiş olayı kesin bildirme",
+            "tahmin"
+          ],
+          "dogru": "tahmin",
+          "aciklama": "Cümledeki ifade tahmin anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "DYS.DO.5.8"
+        },
+        {
+          "id": "5-1-tahmin-6",
+          "tip": "secim",
+          "soru": "“Bulutlara bakılırsa yağmur yağabilir.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "gerçekleşmiş olayı kesin bildirme",
+            "tahmin",
+            "kesin emir"
+          ],
+          "dogru": "tahmin",
+          "aciklama": "Cümledeki ifade tahmin anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "DYS.DO.5.8"
+        },
+        {
+          "id": "5-1-tahmin-7",
+          "tip": "secim",
+          "soru": "“Tahminimce son durakta bir bilmece var.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "tahmin",
+            "kesin emir",
+            "gerçekleşmiş olayı kesin bildirme"
+          ],
+          "dogru": "tahmin",
+          "aciklama": "Cümledeki ifade tahmin anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "DYS.DO.5.8"
+        },
+        {
+          "id": "5-1-tahmin-8",
+          "tip": "secim",
+          "soru": "“Kutu hafif olduğuna göre içinde kâğıt olabilir.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "kesin emir",
+            "gerçekleşmiş olayı kesin bildirme",
+            "tahmin"
+          ],
+          "dogru": "tahmin",
+          "aciklama": "Cümledeki ifade tahmin anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "DYS.DO.5.8"
+        },
+        {
+          "id": "5-1-tahmin-9",
+          "tip": "secim",
+          "soru": "“Sanırım bu oyun bahçede oynanacak.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "gerçekleşmiş olayı kesin bildirme",
+            "tahmin",
+            "kesin emir"
+          ],
+          "dogru": "tahmin",
+          "aciklama": "Cümledeki ifade tahmin anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "DYS.DO.5.8"
+        },
+        {
+          "id": "5-1-tahmin-10",
+          "tip": "secim",
+          "soru": "“Gördüğüm kadarıyla takımımız hazır olmalı.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "tahmin",
+            "kesin emir",
+            "gerçekleşmiş olayı kesin bildirme"
+          ],
+          "dogru": "tahmin",
+          "aciklama": "Cümledeki ifade tahmin anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "DYS.DO.5.8"
+        }
       ]
     }
-  ]
+  ],
+  "dinleme": [
+    {
+      "id": "5-1-dinleme",
+      "baslik": "Söz Taşı",
+      "metin": "Bir grup öğrenci yeni bir oyun denedi. İlk turda herkes aynı anda konuşunca kelimeler karıştı. Deniz masaya küçük bir taş koydu. Taş kimdeyse yalnızca o konuşacaktı. Bir oyuncu kelime bulamazsa başka biri anlam ipucu verebilecekti. Kimse doğrudan cevabı söylemeyecekti. Oyun sonunda öğrenciler iki kuralı yeniden değerlendirdi. Sıranın belirginleşmesi oyunu kolaylaştırmıştı. İpucu hakkı ise zorlanan arkadaşlarının oyunda kalmasına yardım etmişti.",
+      "tts": {
+        "dil": "tr-TR",
+        "sesYoksa": "metin"
+      },
+      "sorular": [
+        {
+          "id": "5-1-dinleme-1",
+          "tip": "secim",
+          "soru": "“Söz Taşı” dinleme metnine göre: Oyundaki ilk güçlük neydi?",
+          "secenekler": [
+            "Herkesin aynı anda konuşması",
+            "Taşın kaybolması",
+            "Kelime kartlarının ıslanması"
+          ],
+          "dogru": "Herkesin aynı anda konuşması",
+          "aciklama": "Karışıklık, konuşmaların aynı anda yapılmasından kaynaklanır.",
+          "cikti": "T.D.5.5"
+        },
+        {
+          "id": "5-1-dinleme-2",
+          "tip": "secim",
+          "soru": "“Söz Taşı” dinleme metnine göre: Küçük taş hangi işi görüyordu?",
+          "secenekler": [
+            "Puanları artırıyordu",
+            "Oyun süresini ölçüyordu",
+            "Söz sırasını belirliyordu"
+          ],
+          "dogru": "Söz sırasını belirliyordu",
+          "aciklama": "Taşın bulunduğu kişi konuşma sırasını alıyordu.",
+          "cikti": "T.D.5.5"
+        },
+        {
+          "id": "5-1-dinleme-3",
+          "tip": "secim",
+          "soru": "“Söz Taşı” dinleme metnine göre: İpucu veren kişi ne yapmayacaktı?",
+          "secenekler": [
+            "Arkadaşını dinlemeyecekti",
+            "Cevabı doğrudan söylemeyecekti",
+            "Anlamı düşündürmeyecekti"
+          ],
+          "dogru": "Cevabı doğrudan söylemeyecekti",
+          "aciklama": "İpucunun amacı cevabı vermek değil düşünmeyi desteklemektir.",
+          "cikti": "T.D.5.5"
+        },
+        {
+          "id": "5-1-dinleme-4",
+          "tip": "secim",
+          "soru": "“Söz Taşı” dinleme metnine göre: Yeni kurallar nasıl sonuç verdi?",
+          "secenekler": [
+            "Sıra ve katılımı kolaylaştırdı",
+            "Herkesi oyundan çıkardı",
+            "Bütün kelimeleri aynı yaptı"
+          ],
+          "dogru": "Sıra ve katılımı kolaylaştırdı",
+          "aciklama": "Metnin sonu, iki kuralın oyuna katkısını açıklar.",
+          "cikti": "T.D.5.5"
+        }
+      ]
+    }
+  ],
+  "yazmaGorevleri": [
+    {
+      "id": "5-1-yazma",
+      "baslik": "Kendi Oyununun Kuralları",
+      "yonerge": "Bahçede veya sınıfta herkesin katılabileceği bir kelime oyunu tasarla. Oyunun amacını, kullanılacak araçları, söz sırasını ve yardım kuralını açıkla. Güvenli alan seçimini ve farklı katılım yollarını düşün. Yazını bir arkadaşına okuyup anlaşılmayan bir kuralı sor; cevaba göre bir cümleni düzelt. Gerçek kişilerin özel bilgilerini yazma.",
+      "minKelime": 100,
+      "maxKelime": 180,
+      "ciktilar": [
+        "T.Y.5.1",
+        "T.Y.5.3",
+        "T.Y.5.13",
+        "T.Y.5.16"
+      ],
+      "ogretmenDegerlendirmeli": true,
+      "rubrik": [
+        {
+          "olcut": "Amaca ve konuya uygunluk",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Anlam bütünlüğü ve düzen",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Örnek ve söz varlığı kullanımı",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Yazım, noktalama ve gözden geçirme",
+          "enDusuk": 0,
+          "enYuksek": 4
+        }
+      ]
+    }
+  ],
+  "lgsSorulari": []
 }
