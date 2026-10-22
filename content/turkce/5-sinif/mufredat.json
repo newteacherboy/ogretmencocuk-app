@@ -1,0 +1,106 @@
+{
+  "sinif": 5,
+  "program": "Türkiye Yüzyılı Maarif Modeli — Ortaokul Türkçe Dersi Öğretim Programı",
+  "kaynak": "https://tymm.meb.gov.tr/ogretim-programlari/ortaokul-turkce-dersi/6",
+  "kontrolTarihi": "2026-10-22",
+  "not": "Tema adları, ders saatleri, öğrenme çıktısı kodları ve dil bilgisi konuları MEB tema sayfalarından alındı; açıklamalar kendi cümlelerimizle yazıldı. Ders kitabı metni kullanılmaz, tüm okuma parçaları özgün yazılır.",
+  "parkurKurali": "Her tema bir parkur ünitesidir (class_no=5, unit_no=tema no). Her ünitede 1 söz varlığı durağı + her dil bilgisi/yazım konusu için 1 durak + 1 okuma-anlama durağı + 1 tema sonu tekrar durağı bulunur.",
+  "temalar": [
+    {
+      "no": 1,
+      "ad": "Oyun Dünyası",
+      "saat": 34,
+      "kaynak": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/54",
+      "ciktilar": ["T.D.5.3", "T.D.5.4", "T.D.5.5", "T.D.5.13", "T.D.5.17", "T.O.5.2", "T.O.5.3", "T.O.5.4", "T.O.5.5", "T.O.5.6", "T.O.5.7", "T.O.5.15", "T.O.5.20", "T.K.5.1", "T.K.5.7", "T.K.5.8", "T.K.5.17", "T.K.5.20", "T.Y.5.1", "T.Y.5.2", "T.Y.5.3", "T.Y.5.6", "T.Y.5.13", "T.Y.5.16"],
+      "uygulamadaOdak": ["Metnin konusunu başlık ve görselden tahmin etme", "Bilinmeyen kelimenin anlamını cümleden çıkarma", "Metnin yüzey anlamı (kim, ne, nerede, ne zaman)", "Anahtar kelimeleri bulma", "Eş, yakın, zıt anlamlı ve eş sesli kelimeler", "Görselden anlam çıkarma"],
+      "dilBilgisiKonulari": [
+        {"kod": "5-1-hece", "ad": "Hece yapısı ve satır sonunda kelimeyi bölme"},
+        {"kod": "5-1-nokta", "ad": "Nokta nerede kullanılır?"},
+        {"kod": "5-1-kisa-cizgi", "ad": "Kısa çizgi: satır sonu ve heceleri gösterme"},
+        {"kod": "5-1-isim-fiil", "ad": "İsim mi, fiil mi?"},
+        {"kod": "5-1-tahmin", "ad": "Tahmin bildiren ifadeler"}
+      ],
+      "durum": "içerik yazıldı (tema-1-oyun-dunyasi.json)"
+    },
+    {
+      "no": 2,
+      "ad": "Atatürk'ü Tanımak",
+      "saat": 35,
+      "kaynak": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/61",
+      "ciktilar": ["T.D.5.1", "T.D.5.2", "T.D.5.4", "T.D.5.5", "T.D.5.11", "T.D.5.14", "T.D.5.17", "T.O.5.1", "T.O.5.2", "T.O.5.3", "T.O.5.5", "T.O.5.6", "T.O.5.17", "T.O.5.19", "T.O.5.20", "T.O.5.22", "T.K.5.1", "T.K.5.2", "T.K.5.3", "T.K.5.9", "T.K.5.17", "T.K.5.19", "T.Y.5.2", "T.Y.5.3", "T.Y.5.13", "T.Y.5.15", "T.Y.5.16", "T.Y.5.17"],
+      "uygulamadaOdak": ["Hikâye unsurları (kişi, yer, zaman, olay)", "Metnin bölümleri (giriş, gelişme, sonuç)", "Şiirin biçim özellikleri (dize, kıta, uyak)", "Söz sanatlarını tanıma", "Akıcı okuma"],
+      "dilBilgisiKonulari": [
+        {"kod": "5-2-buyuk-harf", "ad": "Büyük harflerin yazımı (1. bölüm)"},
+        {"kod": "5-2-virgul", "ad": "Virgülün kullanımı"},
+        {"kod": "5-2-soru-isareti", "ad": "Soru işaretinin kullanımı"},
+        {"kod": "5-2-ismi-niteleyen", "ad": "İsmi niteleyen ve belirten sözcükler"},
+        {"kod": "5-2-sifat-fiil", "ad": "İsmi niteleyen fiilimsi yapıları"},
+        {"kod": "5-2-ekleme", "ad": "Ekleme bildiren bağlantı ifadeleri (ayrıca, hatta, üstelik…)"}
+      ],
+      "durum": "iskelet"
+    },
+    {
+      "no": 3,
+      "ad": "Duygularımı Tanıyorum",
+      "saat": 35,
+      "kaynak": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/67",
+      "ciktilar": ["T.D.5.2", "T.D.5.4", "T.D.5.5", "T.D.5.6", "T.D.5.17", "T.D.5.18", "T.D.5.20", "T.O.5.1", "T.O.5.3", "T.O.5.5", "T.O.5.6", "T.O.5.11", "T.O.5.13", "T.O.5.16", "T.O.5.18", "T.O.5.20", "T.K.5.2", "T.K.5.4", "T.K.5.6", "T.K.5.16", "T.K.5.19", "T.K.5.21", "T.Y.5.2", "T.Y.5.3", "T.Y.5.4", "T.Y.5.5", "T.Y.5.8", "T.Y.5.13", "T.Y.5.15", "T.Y.5.16"],
+      "uygulamadaOdak": ["Derin anlam (basit çıkarım)", "Sınıflandırma", "Düşünceyi geliştirme yolları", "Çoklu ortam öğeleri", "Yaratıcı yazma ve konuşma"],
+      "dilBilgisiKonulari": [
+        {"kod": "5-3-buyuk-harf", "ad": "Büyük harflerin yazımı (2. bölüm)"},
+        {"kod": "5-3-unlem", "ad": "Ünlem işaretinin kullanımı"},
+        {"kod": "5-3-uzun-cizgi", "ad": "Konuşma çizgisi (uzun çizgi)"},
+        {"kod": "5-3-isimler", "ad": "İsimlerin özellikleri"},
+        {"kod": "5-3-amac", "ad": "Amaç bildiren ifadeler"},
+        {"kod": "5-3-duygu", "ad": "Duygu bildiren ifadeler (dilek, pişmanlık, şaşırma…)"}
+      ],
+      "durum": "iskelet"
+    },
+    {
+      "no": 4,
+      "ad": "Geleneklerimiz",
+      "saat": 34,
+      "kaynak": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/74",
+      "ciktilar": ["T.D.5.1", "T.D.5.2", "T.D.5.4", "T.D.5.6", "T.D.5.7", "T.D.5.9", "T.D.5.10", "T.D.5.15", "T.D.5.17", "T.O.5.3", "T.O.5.5", "T.O.5.8", "T.O.5.9", "T.O.5.10", "T.O.5.20", "T.O.5.21", "T.O.5.22", "T.K.5.2", "T.K.5.5", "T.K.5.11", "T.K.5.12", "T.K.5.17", "T.Y.5.2", "T.Y.5.3", "T.Y.5.7", "T.Y.5.10", "T.Y.5.12", "T.Y.5.16", "T.Y.5.17"],
+      "uygulamadaOdak": ["Derin anlam (üst düzey çıkarım)", "Karşılaştırma", "Özetleme", "Yorumlama", "Atasözü ve deyimler"],
+      "dilBilgisiKonulari": [
+        {"kod": "5-4-sayilar", "ad": "Sayıların yazımı"},
+        {"kod": "5-4-uc-nokta", "ad": "Üç noktanın kullanımı"},
+        {"kod": "5-4-kesme", "ad": "Kesme işaretinin kullanımı"},
+        {"kod": "5-4-karsilastirma", "ad": "Karşılaştırma, benzerlik ve farklılık bildiren ifadeler"},
+        {"kod": "5-4-ozet", "ad": "Özet bildiren ifadeler (kısacası, özetle…)"},
+        {"kod": "5-4-zamir", "ad": "İsmin yerini tutan sözcükler"}
+      ],
+      "durum": "iskelet"
+    },
+    {
+      "no": 5,
+      "ad": "İletişim ve Sosyal İlişkiler",
+      "saat": 34,
+      "kaynak": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/78",
+      "ciktilar": ["T.D.5.2", "T.D.5.4", "T.D.5.7", "T.D.5.8", "T.D.5.16", "T.D.5.17", "T.D.5.19", "T.D.5.20", "T.O.5.1", "T.O.5.3", "T.O.5.5", "T.O.5.8", "T.O.5.9", "T.O.5.12", "T.O.5.20", "T.K.5.4", "T.K.5.10", "T.K.5.13", "T.K.5.18", "T.K.5.19", "T.K.5.21", "T.Y.5.2", "T.Y.5.3", "T.Y.5.9", "T.Y.5.13", "T.Y.5.14", "T.Y.5.16"],
+      "uygulamadaOdak": ["Açık ve örtük ifadeler", "Söz sanatları", "Metni yorumlama", "Özetleme", "Karşılaştırma"],
+      "dilBilgisiKonulari": [
+        {"kod": "5-5-zaman-baglac", "ad": "Zaman bildiren bağlantı ifadeleri (önce, sonra, bu sırada…)"},
+        {"kod": "5-5-buyuk-harf", "ad": "Büyük harflerin yazımı (3. bölüm)"},
+        {"kod": "5-5-tirnak", "ad": "Tırnak işaretinin kullanımı"},
+        {"kod": "5-5-anlam-butunlugu", "ad": "Anlamca çelişen sözcükler (anlam bütünlüğü)"},
+        {"kod": "5-5-yeniden-kurma", "ad": "Cümleyi kendi ifadeleriyle yeniden kurma"}
+      ],
+      "durum": "iskelet"
+    },
+    {
+      "no": 6,
+      "ad": "Sağlıklı Yaşıyorum",
+      "saat": 34,
+      "kaynak": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/87",
+      "ciktilar": ["T.D.5.1", "T.D.5.4", "T.D.5.7", "T.D.5.12", "T.D.5.17", "T.D.5.20", "T.O.5.3", "T.O.5.5", "T.O.5.14", "T.O.5.20", "T.O.5.22", "T.K.5.14", "T.K.5.15", "T.K.5.17", "T.K.5.21", "T.Y.5.1", "T.Y.5.2", "T.Y.5.3", "T.Y.5.11", "T.Y.5.13", "T.Y.5.15", "T.Y.5.16", "T.Y.5.17"],
+      "uygulamadaOdak": ["Bilgilendirici metinde önemli bilgiyi bulma", "Tartışma", "Hazırlıklı konuşma", "Önceki temaların yazım ve noktalama tekrarı"],
+      "dilBilgisiKonulari": [
+        {"kod": "5-6-ornek", "ad": "Örnek bildiren bağlantı ifadeleri (örneğin, mesela…)"},
+        {"kod": "5-6-tekrar", "ad": "Yazım ve noktalama genel tekrar"}
+      ],
+      "durum": "iskelet"
+    }
+  ]
+}
