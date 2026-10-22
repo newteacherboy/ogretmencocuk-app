@@ -1,0 +1,71 @@
+name: Tam kurulum (veritabanı + fonksiyonlar)
+# Tek secret yeter: SUPABASE_ACCESS_TOKEN (supabase.com/dashboard/account/tokens).
+# Veritabanı şifresi gerekmez; kurulum Supabase Management API ile yapılır.
+# .kurulum/baslat dosyası değişince ya da elle çalıştırılınca başlar.
+# Sonuç .kurulum/sonuc.txt dosyasına yazılıp repoya geri kaydedilir.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.kurulum/baslat']
+permissions:
+  contents: write
+concurrency:
+  group: tam-kurulum
+  cancel-in-progress: false
+jobs:
+  kur:
+    runs-on: ubuntu-latest
+    env:
+      SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+      PROJECT_REF: isgnsmkboehygxxysria
+    steps:
+      - uses: actions/checkout@v4
+      - name: Veritabanını kur
+        id: db
+        shell: bash
+        run: |
+          set -uo pipefail
+          mkdir -p .kurulum
+          out=.kurulum/sonuc.txt
+          echo "Kurulum: $(date -u +%FT%TZ)" > $out
+          if [ -z "${SUPABASE_ACCESS_TOKEN:-}" ]; then echo "HATA: SUPABASE_ACCESS_TOKEN secret eksik" | tee -a $out; exit 0; fi
+          api="https://api.supabase.com/v1/projects/$PROJECT_REF/database/query"
+          q() { jq -Rs '{query: .}' | curl -sS -w '\n%{http_code}' -X POST "$api" -H "Authorization: Bearer $SUPABASE_ACCESS_TOKEN" -H 'Content-Type: application/json' --data-binary @-; }
+          r=$(echo "select to_regclass('public.students') is not null as var" | q); code=$(echo "$r" | tail -1)
+          if [ "$code" != "200" ] && [ "$code" != "201" ]; then echo "HATA: Supabase'e bağlanılamadı (HTTP $code): $(echo "$r" | head -c 400)" | tee -a $out; exit 0; fi
+          if echo "$r" | grep -q '"var":true'; then echo "Veritabanı zaten kurulu, tekrar kurulmadı." | tee -a $out
+          else
+            for f in $(ls supabase/migrations/*.sql | sort); do
+              r=$(cat "$f" | q); code=$(echo "$r" | tail -1)
+              if [ "$code" = "200" ] || [ "$code" = "201" ]; then echo "TAMAM: $(basename $f)" | tee -a $out
+              else echo "HATA: $(basename $f) (HTTP $code): $(echo "$r" | head -c 600)" | tee -a $out; exit 0; fi
+            done
+          fi
+          r=$(echo "select (select count(*) from pg_tables where schemaname='public') tablolar, (select count(*) from pg_proc p join pg_namespace n on n.oid=p.pronamespace where n.nspname='public') fonksiyonlar, (select count(*) from cron.job) zamanlanmis_isler" | q)
+          echo "Sayım: $(echo "$r" | head -1)" | tee -a $out
+          echo "db_ok=1" >> $GITHUB_OUTPUT
+      - uses: supabase/setup-cli@v1
+        if: steps.db.outputs.db_ok == '1'
+        with:
+          version: latest
+      - name: Fonksiyonları yayınla
+        if: steps.db.outputs.db_ok == '1'
+        shell: bash
+        run: |
+          out=.kurulum/sonuc.txt
+          for fn in diji-api account-delete medupro-api kelime-rallisi teacher-oral thematic-learning papi-progress-worker papi-progress-unsubscribe papi-progress-optin; do
+            if supabase functions deploy "$fn" --project-ref "$PROJECT_REF" --no-verify-jwt --use-api >/tmp/deploy.log 2>&1; then echo "FONKSİYON TAMAM: $fn" | tee -a $out
+            else echo "FONKSİYON HATA: $fn: $(tail -c 400 /tmp/deploy.log)" | tee -a $out; fi
+          done
+          code=$(curl -s -o /dev/null -w '%{http_code}' -X OPTIONS "https://$PROJECT_REF.supabase.co/functions/v1/diji-api")
+          echo "diji-api yanıt kodu: $code" | tee -a $out
+      - name: Sonucu kaydet
+        if: always()
+        shell: bash
+        run: |
+          git config user.name "kurulum-bot"
+          git config user.email "kurulum-bot@users.noreply.github.com"
+          git add .kurulum/sonuc.txt
+          git commit -m "Kurulum sonucu [skip ci]" || exit 0
+          git push
