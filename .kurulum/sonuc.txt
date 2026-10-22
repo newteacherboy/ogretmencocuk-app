@@ -1,0 +1,19 @@
+Kurulum: 2026-10-22T12:52:24Z
+TAMAM: 20261022000100_tablolar.sql
+TAMAM: 20261022000200_kisitlar_indeksler.sql
+TAMAM: 20261022000300_fonksiyonlar.sql
+TAMAM: 20261022000400_tetikleyici_guvenlik.sql
+TAMAM: 20261022000500_yetkiler.sql
+TAMAM: 20261022000600_ayarlar.sql
+TAMAM: 20261022000700_zamanlanmis_isler.sql
+Sayım: [{"tablolar":108,"fonksiyonlar":128,"zamanlanmis_isler":13}]
+FONKSİYON TAMAM: diji-api
+FONKSİYON TAMAM: account-delete
+FONKSİYON TAMAM: medupro-api
+FONKSİYON TAMAM: kelime-rallisi
+FONKSİYON TAMAM: teacher-oral
+FONKSİYON TAMAM: thematic-learning
+FONKSİYON TAMAM: papi-progress-worker
+FONKSİYON TAMAM: papi-progress-unsubscribe
+FONKSİYON TAMAM: papi-progress-optin
+diji-api yanıt kodu: 200
