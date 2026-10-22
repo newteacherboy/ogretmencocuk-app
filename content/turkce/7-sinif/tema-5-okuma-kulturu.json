@@ -1,0 +1,1199 @@
+{
+  "belgeTuru": "tema",
+  "semaSurumu": "1.0",
+  "sinif": 7,
+  "program": "TYMM",
+  "tema": 5,
+  "temaAdi": "Okuma Kültürü",
+  "durum": "incelemeye_hazir",
+  "kaynak": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/309",
+  "kaynak_dogrulanmadi": false,
+  "ogrenmeCiktilari": [
+    "T.D.7.1",
+    "T.D.7.15",
+    "T.D.7.2",
+    "T.D.7.22",
+    "T.D.7.27",
+    "T.D.7.9",
+    "T.K.7.1",
+    "T.K.7.14",
+    "T.K.7.16",
+    "T.K.7.18",
+    "T.K.7.19",
+    "T.K.7.26",
+    "T.O.7.1",
+    "T.O.7.12",
+    "T.O.7.2",
+    "T.O.7.24",
+    "T.O.7.27",
+    "T.O.7.28",
+    "T.Y.7.11",
+    "T.Y.7.13",
+    "T.Y.7.14",
+    "T.Y.7.15",
+    "T.Y.7.16",
+    "T.Y.7.21",
+    "T.Y.7.22",
+    "T.Y.7.3"
+  ],
+  "sozVarligi": {
+    "aciklama": "Tema uyumlu özgün tanım ve örnekler. Önceki sınıflardaki kelimeler spiral tekrar olarak da seçilir; 30 kayıt bütün sınıflarda farklı 30 yeni kelime iddiası değildir.",
+    "kelimeler": [
+      {
+        "kelime": "söz varlığı",
+        "anlam": "Bir dilde kullanılan kelime ve kalıp sözlerin bütünü",
+        "ornek": "Söz varlığımız yeni okumalarla gelişir.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "ağız",
+        "anlam": "Bir dilin yörelere göre değişen söyleyiş biçimi",
+        "ornek": "Dedemin ağzında bazı sesler farklı duyulur.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "deyim",
+        "anlam": "Genellikle gerçek anlamından farklı bir anlam taşıyan kalıplaşmış söz",
+        "ornek": "Metindeki deyim anlatımı güçlendirdi.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "atasözü",
+        "anlam": "Deneyimlerden doğan genel bir öğüdü bildiren kalıplaşmış söz",
+        "ornek": "Bu atasözü sabırlı olmayı öğütlüyor.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "çağrışım",
+        "anlam": "Bir düşüncenin başka bir düşünceyi hatırlatması",
+        "ornek": "Yağmur kelimesinin bende bir sonbahar çağrışımı var.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "bağlam",
+        "anlam": "Bir sözün anlamını belirleyen çevresindeki anlatım",
+        "ornek": "Kelimenin anlamını bağlamdan çıkardım.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "nüans",
+        "anlam": "Birbirine yakın şeyler arasındaki ince ayrım",
+        "ornek": "İki ifadenin arasında küçük bir nüans var.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "akıcılık",
+        "anlam": "Söyleyişin veya anlatımın kesintisiz ilerlemesi",
+        "ornek": "Sesli okurken akıcılık üzerinde çalıştık.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "vurgu",
+        "anlam": "Söyleyişte bir sesi veya kelimeyi belirginleştirme",
+        "ornek": "Vurgu değişince sorunun anlamı değişti.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "tonlama",
+        "anlam": "Konuşurken sesin anlamla uyumlu biçimde yükselip alçalması",
+        "ornek": "Tonlama dinleyicinin ilgisini canlı tuttu.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "derleme",
+        "anlam": "Dağınık kaynaklardan bilgi veya ürün toplama işi",
+        "ornek": "Bilmecelerden oluşan bir derleme yaptık.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "kuşak",
+        "anlam": "Yakın yıllarda doğup benzer dönemleri yaşayan insanlar topluluğu",
+        "ornek": "Her kuşak dilimize yeni ifadeler katıyor.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "sözlü",
+        "anlam": "Konuşmayla aktarılan",
+        "ornek": "Sözlü anlatıları izin alarak kaydettik.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "yazılı",
+        "anlam": "Yazıyla oluşturulan veya aktarılan",
+        "ornek": "Yazılı kaynağın tarihini not ettim.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "özgün",
+        "anlam": "Kendine özgü nitelik taşıyan",
+        "ornek": "Bilmecem için özgün bir benzetme buldum.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "kavram",
+        "anlam": "Bir varlığı veya düşünceyi zihinde temsil eden genel tasarım",
+        "ornek": "Dayanışma kavramını örneklerle açıkladık.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "karşılık",
+        "anlam": "Bir sözün başka bir sözle anlatılan eş değeri",
+        "ornek": "Yabancı terimin Türkçe karşılığını araştırdım.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "tanım",
+        "anlam": "Bir kavramın temel özelliklerini açıklayan anlatım",
+        "ornek": "Tanımın altına bir örnek ekledim.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "kaynakça",
+        "anlam": "Bir çalışmada yararlanılan kaynakların listesi",
+        "ornek": "Dosyanın sonunda kaynakça bulunuyor.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "aktarılmak",
+        "anlam": "Birinden veya bir yerden başkasına iletilmek",
+        "ornek": "Ninni yıllardır aile içinde aktarılmış.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "kalıp söz",
+        "anlam": "Belirli durumlarda alışılmış biçimiyle kullanılan ifade",
+        "ornek": "Geçmiş olsun bir kalıp sözdür.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "mani",
+        "anlam": "Genellikle dört dizeden oluşan halk şiiri türü",
+        "ornek": "Şenlikte yeni yazdığımız maniyi okuduk.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "ninni",
+        "anlam": "Küçük çocukları uyutmak için ezgiyle söylenen söz",
+        "ornek": "Ninninin yumuşak ritmini dinledim.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "tekerleme",
+        "anlam": "Ses benzerlikleriyle kurulan ritimli söz dizisi",
+        "ornek": "Tekerlemeyi yavaş söyleyerek başladık.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "bilmece",
+        "anlam": "Bir varlığı özellikleriyle dolaylı anlatan sözlü soru",
+        "ornek": "Bilmecenin cevabını ipuçlarından buldum.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "söyleyiş",
+        "anlam": "Bir sözün söylenme biçimi",
+        "ornek": "Söyleyiş farklı olsa da anlam aynıydı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "etkileşim",
+        "anlam": "Birbirini karşılıklı olarak etkileme",
+        "ornek": "Diller arasında etkileşim olabilir.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "birikim",
+        "anlam": "Zaman içinde toplanan bilgi ve deneyim",
+        "ornek": "Okuma birikimim yazılarıma yansıdı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "özen",
+        "anlam": "Bir işi dikkatle ve titizlikle yapma",
+        "ornek": "Kelimeleri seçerken özen gösterdim.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "incelik",
+        "anlam": "Anlatımda veya davranışta gözetilen hassas ayrıntı",
+        "ornek": "Bir teşekkürün inceliğini fark ettik.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      }
+    ],
+    "esAnlamlilar": [],
+    "zitAnlamlilar": [],
+    "esSesliler": [],
+    "deyimler": [],
+    "atasozleri": []
+  },
+  "okumaParcalari": [
+    {
+      "id": "7-5-okuma-1",
+      "baslik": "Raf Numarasının Ardında",
+      "tur": "oykuleyici",
+      "metin": "Kütüphane kulübü, okulda az kullanılan kitapların bulunduğu bir rafı yeniden düzenleyecekti. İlk öneri, kapakları eski görünen bütün kitapları arka sıraya almaktı. Bora bunu pratik buldu. Yeni görünen kitapların öğrencileri daha çok çekeceğini düşünüyordu. Dila ise kapağın durumuyla içeriğin niteliğinin aynı şey olmadığını söyledi. Bazı kitapların dışı yıpranmış olsa da metinleri güncel veya edebî açıdan değerli olabilirdi. Önce kitapların ne olduğunu anlamaları gerekiyordu.\nGrup öğretmenlerinin gözetiminde küçük bir inceleme çizelgesi hazırladı. Kitabın türü, baskı bilgisi, fiziksel durumu ve seçilen kısa bir bölüme ilişkin notlar ayrı yazılacaktı. İnceleme, öğrencilerin bütün kitaplar hakkında uzman kararı vermesi anlamına gelmiyordu. Belirsiz noktalar görevli öğretmene sorulacaktı. Bora ilk kitabın kapağına bakıp kenara ayırdığı kararı sildi. Daha metni açmadan verdiği yargının yeterli olmadığını kabul etti.\nBir hafta sonra başka bir sorun fark ettiler. Bazı kitaplar bulunamıyordu çünkü raf etiketleri öğrencilerin kullandığı arama sözcükleriyle uyuşmuyordu. Öğrenciler yalnız kitap adlarını değil, merak ettikleri konuları da soruyordu. Dila konu kartları hazırlamayı önerdi. Fakat her kitaba çok sayıda etiket koymak kartları kalabalıklaştırabilirdi. Her kartta birkaç açık anahtar kelime seçtiler; bunların kitabın tamamını anlattığını iddia etmediler.\nYeni düzeni bir grup arkadaşlarıyla denediler. Denemede kitap bulma süresi kadar yanlış rafa yönelme durumlarını da not ettiler. Bir öğrenci resimli kartları kolay bulurken bir diğeri yazılı açıklamaya ihtiyaç duyduğunu söyledi. Grup tek bir gösterim biçimine güvenmekten vazgeçti. İşaretlerin yanına kısa sözcükler ekledi. Kartların rengi yardımcıydı ama anlam yalnız renkle verilmedi. Böylece farklı biçimde arayan kişilerin ihtiyaçlarını daha çok gözetebildiler.\nSon toplantıda Bora en önemli değişikliğin rafların daha güzel görünmesi olmadığını söyledi. Artık kitap seçerken hangi bilgiye baktıklarını açıklayabiliyorlardı. Dila da çizelgenin hâlâ eksikleri olduğunu belirtti. Yeni bir öğrenci beklemedikleri bir arama sözcüğü kullanırsa düzeni yeniden düşünmeleri gerekecekti. Öğretmenleri bu açık uçluluğu olumlu buldu. Kütüphanenin bütün geleceğini bir haftada çözmeleri beklenmiyordu. Küçük bir denemeden sonra daha anlaşılır bir düzen kurmuşlardı. Rafın en üstüne astıkları notta “Kitabı bulamadıysan sor; kartı da birlikte geliştirelim.” yazıyordu. Böylece bulunamayan bir kitap, yalnız okuyucunun hatası sayılmıyordu. Sorunun düzenle ilgili olabileceği de kabul ediliyordu. Bora eski kapaklı kitabı ödünç alırken ilk kararını hatırladı ve gülümsedi. Bir kapağı değerlendirmek kolaydı; bir okuma seçimini gerekçelendirmek ise daha dikkatli bakmayı gerektiriyordu.\nKulüp yeni yöntemi başka raflara hemen yaymadı. Önce küçük denemenin sonuçlarını öğretmenleriyle değerlendirmek istediler. Bir alanda işe yarayan düzenin başka içerikler için yeniden düşünülmesi gerekebileceğini artık biliyorlardı.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır.",
+      "sorular": [
+        {
+          "id": "7-5-okuma-1-1",
+          "tip": "secim",
+          "soru": "“Raf Numarasının Ardında” metnine göre: Bora'nın ilk kararındaki temel sorun nedir?",
+          "secenekler": [
+            "İçeriği yalnız kapağa göre değerlendirmesi",
+            "Kitabın adını okuması",
+            "Öğretmenden görüş istemesi"
+          ],
+          "dogru": "İçeriği yalnız kapağa göre değerlendirmesi",
+          "aciklama": "Kapak durumu tek başına içerik niteliğini göstermez.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-5-okuma-1-2",
+          "tip": "secim",
+          "soru": "“Raf Numarasının Ardında” metnine göre: Çizelgede tür ile fiziksel durumun ayrılması ne sağlar?",
+          "secenekler": [
+            "Her eski kitabın atılmasını",
+            "Bütün kitapların aynı tür sayılmasını",
+            "Farklı özelliklerin birbirine karıştırılmamasını"
+          ],
+          "dogru": "Farklı özelliklerin birbirine karıştırılmamasını",
+          "aciklama": "Ayrı alanlar değerlendirme ölçütlerini görünür kılar.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-5-okuma-1-3",
+          "tip": "secim",
+          "soru": "“Raf Numarasının Ardında” metnine göre: Kitap bulma sorununun nedeni olarak ne belirlenir?",
+          "secenekler": [
+            "Kütüphanenin hiçbir saatte açılmaması",
+            "Etiketlerle arama sözcüklerinin uyuşmaması",
+            "Kitapların tamamının kaybolması"
+          ],
+          "dogru": "Etiketlerle arama sözcüklerinin uyuşmaması",
+          "aciklama": "Metinde bazı aramalarla mevcut etiketler arasında ilişki kurulamadığı anlatılır.",
+          "cikti": "T.O.7.7",
+          "onKosul": true
+        },
+        {
+          "id": "7-5-okuma-1-4",
+          "tip": "secim",
+          "soru": "“Raf Numarasının Ardında” metnine göre: Anahtar kelimelerin sınırlı tutulmasının gerekçesi nedir?",
+          "secenekler": [
+            "Kartları gereksiz kalabalıktan korumak",
+            "Kitapların konularını saklamak",
+            "Yalnız bir öğrencinin okumasını sağlamak"
+          ],
+          "dogru": "Kartları gereksiz kalabalıktan korumak",
+          "aciklama": "Çok sayıda etiketin görünürlüğü zorlaştırabileceği düşünülür.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-5-okuma-1-5",
+          "tip": "secim",
+          "soru": "“Raf Numarasının Ardında” metnine göre: İşaretlere sözcük eklenmesi hangi ihtiyacı karşılar?",
+          "secenekler": [
+            "Bütün renkleri kaldırmak",
+            "Yeni kitapların yerini gizlemek",
+            "Farklı arama ve okuma biçimlerini desteklemek"
+          ],
+          "dogru": "Farklı arama ve okuma biçimlerini desteklemek",
+          "aciklama": "İşaret tek başına herkes için yeterli olmadığından yazılı açıklama eklenir.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-5-okuma-1-6",
+          "tip": "secim",
+          "soru": "“Raf Numarasının Ardında” metnine göre: Yeni düzeni değerlendirmek için hangisi uygundur?",
+          "secenekler": [
+            "Kart sayısını tek başarı ölçütü saymak",
+            "Gerçek aramalarda nerede zorlanıldığını gözlemek",
+            "Yalnız hazırlayanların beğenisini sormak"
+          ],
+          "dogru": "Gerçek aramalarda nerede zorlanıldığını gözlemek",
+          "aciklama": "Kullanıcıların deneme deneyimi sistemin işe yarayıp yaramadığını gösterir.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-5-okuma-1-7",
+          "tip": "secim",
+          "soru": "“Raf Numarasının Ardında” metnine göre: Kitabı bulamayan öğrenciye hangi yaklaşım önerilir?",
+          "secenekler": [
+            "Kartın düzenini de birlikte incelemek",
+            "Öğrenciyi dikkatsiz diye etiketlemek",
+            "Bütün soruları geri çevirmek"
+          ],
+          "dogru": "Kartın düzenini de birlikte incelemek",
+          "aciklama": "Son not sorunun yalnız kullanıcıdan kaynaklanmayabileceğini kabul eder.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-5-okuma-1-8",
+          "tip": "secim",
+          "soru": "“Raf Numarasının Ardında” metnine göre: Projeyi geliştirmek için hangisi metne uygundur?",
+          "secenekler": [
+            "İlk düzeni sonsuza dek değiştirmemek",
+            "Bütün kitapları yalnız kapak rengine ayırmak",
+            "Yeni arama sözcüklerine göre kartları gözden geçirmek"
+          ],
+          "dogru": "Yeni arama sözcüklerine göre kartları gözden geçirmek",
+          "aciklama": "Son bölüm yeni ihtiyaçların düzeni yeniden düşünmeyi gerektirebileceğini açıklar.",
+          "cikti": "T.O.7.27"
+        }
+      ]
+    },
+    {
+      "id": "7-5-okuma-2",
+      "baslik": "Okuma Listesi Kime Göre?",
+      "tur": "bilgilendirici",
+      "metin": "Bir okuma listesi hazırlarken yalnız sevilen kitapların adlarını sıralamak yeterli olmayabilir. Listeyi kullanacak kişilerin amaçları, ilgi alanları ve kitaba ulaşma imkânları farklıdır. Bir öğrenci kısa öyküler ararken diğeri bir konu hakkında güvenilir bilgi edinmek isteyebilir. Bu nedenle listenin kime ve hangi amaçla hazırlandığı belirtilirse öneriler daha anlamlı hâle gelir. Liste, herkes için değişmez tek bir yol olarak sunulmaz.\nİlk adım, seçme ölçütlerini açık etmektir. Metnin türü, konusu, uzunluğu veya ulaşılabilirliği bunlardan bazıları olabilir. Bir kitabın listeye alınma nedeni kısa bir notla açıklanabilir. “Herkes okumalı.” cümlesi yerine “Kısa bölümleri, günlük kısa okuma aralıklarına uygun olabilir.” demek önerinin dayanağını gösterir. Böylece okur kendi ihtiyacına göre karar verebilir. Önerinin sınırları da gizlenmemiş olur.\nListe hazırlanırken farklı kaynaklardan yararlanılabilir. Ancak internette sık tekrarlanan bir önerinin her kişi için uygun olduğu varsayılmaz. Öneriyi kimin, hangi amaçla yaptığı incelenebilir. Reklam metniyle bağımsız bir değerlendirme aynı beklentiyle okunmaz. Yalnız kapak görseline veya kısa tanıtıma dayanarak kitabın bütünü hakkında kesin hüküm verilmez. Mümkünse örnek bölüm ve güvenilir katalog bilgisi birlikte değerlendirilir.\nListenin düzeni de kullanımını etkiler. Başlıklar açık değilse çok iyi seçilmiş kitaplar bile gözden kaçabilir. Küçük bir tablo, tür ve erişim bilgilerini karşılaştırmayı kolaylaştırabilir. Bununla birlikte tablo bütün edebî niteliği birkaç kutuya sığdıramaz. Bir sütunun boş olması, kitabın o özelliğe kesinlikle sahip olmadığı anlamına gelmeyebilir; bilgi henüz kontrol edilmemiş olabilir. Bu belirsizliğin işaretlenmesi yanlış yorumu azaltır.\nSon aşamada liste birkaç kişiyle denenebilir. Kullanıcılar hangi başlıkta zorlandıklarını ve hangi ek bilginin işlerine yarayacağını söyleyebilir. Yalnız beğeni sayısını ölçmek, listenin gerçekten kitap seçmeye yardım edip etmediğini göstermeyebilir. Deneme sırasında ortaya çıkan ihtiyaçlar sonraki sürüme yansıtılır. Bir listeyi değiştirmek, önceki emeği boşa çıkarmak değildir. Yeni bilgiyle daha uygun bir araç hazırlamaktır. Okuma kültürü de yalnız belirli sayıda kitabı bitirmekle sınırlı değildir. Okuduğunu konuşmak, bir öneriyi gerekçelendirmek, farklı görüşleri dinlemek ve yeni meraklar geliştirmek bu kültürün parçalarıdır. Liste bu ilişkileri kolaylaştırıyorsa işlevini yerine getirir. Bütün okurları aynı metne ve aynı yoruma yöneltmesi gerekmez. Hatta bir kitabın neden seçilmediğini saygıyla açıklamak bile kişinin okuma amacını daha iyi tanımasına yardım edebilir. Önemli olan seçimlerin rastlantısal bir sıralama yerine düşünülmüş ve yeniden incelenebilir gerekçelere dayanmasıdır.\nListenin başına son kontrol tarihi eklemek de yararlı olabilir. Böylece erişim bilgisinin ne zaman incelendiği anlaşılır. Bir değişiklik olduğunda bütün listeyi silmek yerine ilgili kayıt yeniden kontrol edilebilir.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır.",
+      "sorular": [
+        {
+          "id": "7-5-okuma-2-1",
+          "tip": "secim",
+          "soru": "“Okuma Listesi Kime Göre?” metnine göre: Liste için önce hangi soru sorulmalıdır?",
+          "secenekler": [
+            "Hangi yazıcının daha pahalı olduğu",
+            "Bütün okurların aynı yaşta olup olmadığı",
+            "Kim için ve hangi amaçla hazırlandığı"
+          ],
+          "dogru": "Kim için ve hangi amaçla hazırlandığı",
+          "aciklama": "Amaç ve hedef okur, önerilerin nasıl seçileceğini belirler.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-5-okuma-2-2",
+          "tip": "secim",
+          "soru": "“Okuma Listesi Kime Göre?” metnine göre: Kısa bölüm örneği neyi gösterir?",
+          "secenekler": [
+            "Uzun kitapların değersizliğini",
+            "Önerinin kullanım ihtiyacıyla gerekçelendirilmesini",
+            "Her kısa kitabın zorunlu okunmasını"
+          ],
+          "dogru": "Önerinin kullanım ihtiyacıyla gerekçelendirilmesini",
+          "aciklama": "Not, kitabın belirli bir okuma düzenine neden uygun olabileceğini açıklar.",
+          "cikti": "T.O.7.16",
+          "onKosul": true
+        },
+        {
+          "id": "7-5-okuma-2-3",
+          "tip": "secim",
+          "soru": "“Okuma Listesi Kime Göre?” metnine göre: Reklam ve bağımsız değerlendirme neden ayrılır?",
+          "secenekler": [
+            "Amaçları ve bilgi sunma biçimleri farklı olabilir",
+            "Biri her zaman tamamen yanlıştır",
+            "İkisi de kaynak içermemelidir"
+          ],
+          "dogru": "Amaçları ve bilgi sunma biçimleri farklı olabilir",
+          "aciklama": "Metin kaynak türünün değerlendirmede dikkate alınmasını ister.",
+          "cikti": "T.O.7.7",
+          "onKosul": true
+        },
+        {
+          "id": "7-5-okuma-2-4",
+          "tip": "secim",
+          "soru": "“Okuma Listesi Kime Göre?” metnine göre: Boş hücre hangi anlama gelebilir?",
+          "secenekler": [
+            "Özelliğin kesinlikle bulunmamasına",
+            "Kitabın bütünüyle okunamaz olmasına",
+            "Bilginin henüz kontrol edilmemiş olmasına"
+          ],
+          "dogru": "Bilginin henüz kontrol edilmemiş olmasına",
+          "aciklama": "Tablodaki eksik bilgi yokluk kanıtı gibi yorumlanmamalıdır.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-5-okuma-2-5",
+          "tip": "secim",
+          "soru": "“Okuma Listesi Kime Göre?” metnine göre: Beğeni sayısını tek ölçüt almanın eksik yanı nedir?",
+          "secenekler": [
+            "Kitap adlarını silmesi",
+            "Listeyle seçim yapılıp yapılamadığını göstermemesi",
+            "Hiçbir okurun görüşü olmaması"
+          ],
+          "dogru": "Listeyle seçim yapılıp yapılamadığını göstermemesi",
+          "aciklama": "Kullanım amacına hizmet etme, yalnız beğeni sayısından farklı bir ölçüttür.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-5-okuma-2-6",
+          "tip": "secim",
+          "soru": "“Okuma Listesi Kime Göre?” metnine göre: Kullanıcı denemesinden sonra ne yapılabilir?",
+          "secenekler": [
+            "İhtiyaçlara göre listeyi geliştirmek",
+            "İlk sürümü değişmez kabul etmek",
+            "Bütün gerekçeleri kaldırmak"
+          ],
+          "dogru": "İhtiyaçlara göre listeyi geliştirmek",
+          "aciklama": "Yeni bilgi sonraki düzenlemeye aktarılabilir.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-5-okuma-2-7",
+          "tip": "secim",
+          "soru": "“Okuma Listesi Kime Göre?” metnine göre: Metne göre okuma kültürü hangi davranışı da kapsar?",
+          "secenekler": [
+            "Yalnız bitirilen kitapları saymak",
+            "Aynı kitabı herkes için zorunlu görmek",
+            "Önerileri gerekçelendirip farklı yorumları dinlemek"
+          ],
+          "dogru": "Önerileri gerekçelendirip farklı yorumları dinlemek",
+          "aciklama": "Son bölüm okumanın sosyal ve düşünsel yönlerini de açıklar.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-5-okuma-2-8",
+          "tip": "secim",
+          "soru": "“Okuma Listesi Kime Göre?” metnine göre: Bir liste sorununa uygun çözüm hangisidir?",
+          "secenekler": [
+            "Bütün erişim bilgilerini silmek",
+            "Anlaşılmayan başlıkları deneme geri bildirimleriyle düzenlemek",
+            "Yalnız satır sayısını artırmak"
+          ],
+          "dogru": "Anlaşılmayan başlıkları deneme geri bildirimleriyle düzenlemek",
+          "aciklama": "Çözüm, kullanımı zorlaştıran soruna doğrudan yönelir.",
+          "cikti": "T.O.7.27"
+        }
+      ]
+    }
+  ],
+  "konular": [
+    {
+      "kod": "7-5-zarflar",
+      "ad": "Zarfların anlama katkısı",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.Y.7.3",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Zarflar fiilin veya başka bir niteleyici sözün anlamını durum, zaman, miktar, yer-yön ve soru bakımından belirginleştirebilir. Yavaşça okudu cümlesinde nasıl, dün geldi cümlesinde ne zaman sorusuna cevap bulunur. Aynı kelime farklı cümlelerde başka görev üstlenebilir. Bu nedenle sözü bağlamından ayırmadan incele. Yer-yön sözleri ek aldığında görevleri değişebilir.</p><ul><li>Sessizce okudu.</li><li>Dün geldi.</li><li>Dışarı çıktı.</li></ul>",
+      "ornekler": [
+        "Sessizce okudu.",
+        "Dün geldi.",
+        "Dışarı çıktı."
+      ],
+      "testler": [
+        {
+          "id": "7-5-zarflar-1",
+          "tip": "secim",
+          "soru": "“Metni sessizce okudu. / sessizce” örneğinde belirtilen zarfın işlevi hangisidir?",
+          "secenekler": [
+            "Yer-yön",
+            "Durum",
+            "Zaman"
+          ],
+          "dogru": "Durum",
+          "aciklama": "Sessizce eylemin nasıl yapıldığını belirtir.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-5-zarflar-2",
+          "tip": "secim",
+          "soru": "“Dün kütüphaneye uğradı. / dün” örneğinde belirtilen zarfın işlevi hangisidir?",
+          "secenekler": [
+            "Zaman",
+            "Miktar",
+            "Durum"
+          ],
+          "dogru": "Zaman",
+          "aciklama": "Dün eylemin ne zaman yapıldığını bildirir.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-5-zarflar-3",
+          "tip": "secim",
+          "soru": "“Bu bölümü çok beğendi. / çok” örneğinde belirtilen zarfın işlevi hangisidir?",
+          "secenekler": [
+            "Yer-yön",
+            "Zaman",
+            "Miktar"
+          ],
+          "dogru": "Miktar",
+          "aciklama": "Çok beğenme eyleminin derecesini gösterir.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-5-zarflar-4",
+          "tip": "secim",
+          "soru": "“Kitapçıdan dışarı çıktı. / dışarı” örneğinde belirtilen zarfın işlevi hangisidir?",
+          "secenekler": [
+            "Soru",
+            "Yer-yön",
+            "Miktar"
+          ],
+          "dogru": "Yer-yön",
+          "aciklama": "Ek almayan dışarı sözü eylemin yönünü belirtir.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-5-zarflar-5",
+          "tip": "secim",
+          "soru": "“Notlarını nasıl hazırladın? / nasıl” örneğinde belirtilen zarfın işlevi hangisidir?",
+          "secenekler": [
+            "Soru",
+            "Miktar",
+            "Zaman"
+          ],
+          "dogru": "Soru",
+          "aciklama": "Nasıl, eylemin yapılma biçimini soru yoluyla ister.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-5-zarflar-6",
+          "tip": "secim",
+          "soru": "“Daha dikkatli okudu. / daha” örneğinde belirtilen zarfın işlevi hangisidir?",
+          "secenekler": [
+            "Zaman",
+            "Yer-yön",
+            "Miktar"
+          ],
+          "dogru": "Miktar",
+          "aciklama": "Daha dikkatli sözünün derecesini artırır.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-5-zarflar-7",
+          "tip": "secim",
+          "soru": "“Biraz bekledik. / biraz” örneğinde belirtilen zarfın işlevi hangisidir?",
+          "secenekler": [
+            "Soru",
+            "Miktar",
+            "Yer-yön"
+          ],
+          "dogru": "Miktar",
+          "aciklama": "Biraz bekleme eyleminin miktarını veya süresini sınırlar.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-5-zarflar-8",
+          "tip": "secim",
+          "soru": "“Sonra yeniden denedi. / sonra” örneğinde belirtilen zarfın işlevi hangisidir?",
+          "secenekler": [
+            "Zaman",
+            "Durum",
+            "Yer-yön"
+          ],
+          "dogru": "Zaman",
+          "aciklama": "Sonra eylemin zaman ilişkisini bildirir.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-5-zarflar-9",
+          "tip": "secim",
+          "soru": "“Yavaşça sayfayı çevirdi. / yavaşça” örneğinde belirtilen zarfın işlevi hangisidir?",
+          "secenekler": [
+            "Soru",
+            "Miktar",
+            "Durum"
+          ],
+          "dogru": "Durum",
+          "aciklama": "Yavaşça çevirme eyleminin nasıl yapıldığını açıklar.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-5-zarflar-10",
+          "tip": "secim",
+          "soru": "“Neden bu kitabı seçtin? / neden” örneğinde belirtilen zarfın işlevi hangisidir?",
+          "secenekler": [
+            "Miktar",
+            "Soru",
+            "Yer-yön"
+          ],
+          "dogru": "Soru",
+          "aciklama": "Neden eylemin gerekçesini soru yoluyla ister.",
+          "cikti": "T.Y.7.3"
+        }
+      ]
+    },
+    {
+      "kod": "7-5-istek",
+      "ad": "İstek ve rica bildiren yapılar",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.Y.7.11",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>İstek doğrudan bir fiille veya rica, dilek ve öneri kalıplarıyla anlatılabilir. Bir soru biçimi her zaman bilgi istemez; pencereyi açar mısın sözü bağlama göre rica olabilir. Keşke ile kurulan sözlerde dilek anlamı belirginleşir. Yazılı iletişimde sözcük seçimi kadar kime, hangi amaçla seslenildiği de önemlidir. İsteği açıkça belirtmek, karşı tarafın yerine niyet okumaktan daha anlaşılırdır.</p><ul><li>Bir örnek daha verir misin?</li><li>Keşke daha çok okuyabilsem.</li><li>Birlikte inceleyelim.</li></ul>",
+      "ornekler": [
+        "Bir örnek daha verir misin?",
+        "Keşke daha çok okuyabilsem.",
+        "Birlikte inceleyelim."
+      ],
+      "testler": [
+        {
+          "id": "7-5-istek-1",
+          "tip": "secim",
+          "soru": "“Şu kartı uzatır mısın?” sözünün iletişimdeki işlevi nedir?",
+          "secenekler": [
+            "Kesin ret",
+            "Rica",
+            "Geçmiş olay aktarımı"
+          ],
+          "dogru": "Rica",
+          "aciklama": "Soru biçimi burada bir davranışın yapılmasını nazikçe istemek için kullanılır.",
+          "cikti": "T.Y.7.11"
+        },
+        {
+          "id": "7-5-istek-2",
+          "tip": "secim",
+          "soru": "“Keşke bütün kaynaklara ulaşabilseydik.” sözünün iletişimdeki işlevi nedir?",
+          "secenekler": [
+            "Dilek",
+            "Kesin gerçekleşmiş sonuç",
+            "Bir karşılaştırma"
+          ],
+          "dogru": "Dilek",
+          "aciklama": "Keşke gerçekleşmesi istenen durumu belirtir.",
+          "cikti": "T.Y.7.11"
+        },
+        {
+          "id": "7-5-istek-3",
+          "tip": "secim",
+          "soru": "“Birlikte bir liste yapalım.” sözünün iletişimdeki işlevi nedir?",
+          "secenekler": [
+            "Yalnız geçmiş haber",
+            "Tam bir yasak",
+            "Ortak eylem önerisi"
+          ],
+          "dogru": "Ortak eylem önerisi",
+          "aciklama": "Yapalım konuşanı da kapsayan bir öneridir.",
+          "cikti": "T.Y.7.11"
+        },
+        {
+          "id": "7-5-istek-4",
+          "tip": "secim",
+          "soru": "“Yeni bir kitap seçmek istiyorum.” sözünün iletişimdeki işlevi nedir?",
+          "secenekler": [
+            "Kesin neden",
+            "Açık istek",
+            "Salt zaman bilgisi"
+          ],
+          "dogru": "Açık istek",
+          "aciklama": "İstemek fiili kişinin arzusunu doğrudan anlatır.",
+          "cikti": "T.Y.7.11"
+        },
+        {
+          "id": "7-5-istek-5",
+          "tip": "secim",
+          "soru": "“Ne olur biraz daha bekle.” sözünün iletişimdeki işlevi nedir?",
+          "secenekler": [
+            "Güçlü rica",
+            "Bir renk tanımı",
+            "Kesin ret"
+          ],
+          "dogru": "Güçlü rica",
+          "aciklama": "Ne olur ifadesi isteğin rica tonunu güçlendirir.",
+          "cikti": "T.Y.7.11"
+        },
+        {
+          "id": "7-5-istek-6",
+          "tip": "secim",
+          "soru": "“Bari ilk bölümü okuyayım.” sözünün iletişimdeki işlevi nedir?",
+          "secenekler": [
+            "Tam gerçekleşmiş sonuç",
+            "Zorunlu geçmiş olay",
+            "Sınırlı bir isteğe yönelme"
+          ],
+          "dogru": "Sınırlı bir isteğe yönelme",
+          "aciklama": "Bari daha dar bir seçeneğe yönelen isteği belirtir.",
+          "cikti": "T.Y.7.11"
+        },
+        {
+          "id": "7-5-istek-7",
+          "tip": "secim",
+          "soru": "“Bir de son sayfaya bakalım.” sözünün iletişimdeki işlevi nedir?",
+          "secenekler": [
+            "Belge tarihini açıklama",
+            "Ek bir ortak eylem önerisi",
+            "İlk işi reddetme"
+          ],
+          "dogru": "Ek bir ortak eylem önerisi",
+          "aciklama": "Bir de ve bakalım yapısı ek bir inceleme isteği kurar.",
+          "cikti": "T.Y.7.11"
+        },
+        {
+          "id": "7-5-istek-8",
+          "tip": "secim",
+          "soru": "“Okuldan bu konuda bilgi talep ettik.” sözünün iletişimdeki işlevi nedir?",
+          "secenekler": [
+            "Bilgi isteğini resmî biçimde bildirme",
+            "Bilginin kesin geldiğini söyleme",
+            "Bir kişiyi yasaklama"
+          ],
+          "dogru": "Bilgi isteğini resmî biçimde bildirme",
+          "aciklama": "Talep etmek, istemeyi daha resmî bir ifadeyle anlatır.",
+          "cikti": "T.Y.7.11"
+        },
+        {
+          "id": "7-5-istek-9",
+          "tip": "secim",
+          "soru": "“Gelsen de şu örneği birlikte incelesek.” sözünün iletişimdeki işlevi nedir?",
+          "secenekler": [
+            "Kesin geçmiş bildirimi",
+            "Önceki olayı yalanlama",
+            "Birlikte olma ve inceleme dileği"
+          ],
+          "dogru": "Birlikte olma ve inceleme dileği",
+          "aciklama": "Dilek biçimi istenen bir buluşma ve ortak çalışma anlatır.",
+          "cikti": "T.Y.7.11"
+        },
+        {
+          "id": "7-5-istek-10",
+          "tip": "secim",
+          "soru": "“Şu bölümü yeniden açıklamanı rica ederim.” sözünün iletişimdeki işlevi nedir?",
+          "secenekler": [
+            "Kesin bir emir kipi",
+            "Açıklama isteği",
+            "Tamamlanmış açıklama kaydı"
+          ],
+          "dogru": "Açıklama isteği",
+          "aciklama": "Rica ederim sözü isteği açık ve nazik bir dille iletir.",
+          "cikti": "T.Y.7.11"
+        }
+      ]
+    },
+    {
+      "kod": "7-5-sayilar",
+      "ad": "Sayıların yazımı",
+      "kategori": "yazim-noktalama",
+      "cikti": "T.Y.7.21",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Sayılar metnin türüne göre rakamla veya yazıyla gösterilebilir. Birden fazla kelimeden oluşan sayılar ayrı yazılır; sıra sayıları rakamdan sonra noktayla ya da uygun ekle gösterilebilir. Üleştirme sayıları rakamla değil yazıyla verilir. Yazıyı kontrol ederken sayının görevine bak; sıra, miktar ve paylaşım aynı biçimde gösterilmez.</p><ul><li>Yirmi üç kitap.</li><li>5. bölüm veya 5’inci bölüm.</li><li>Kitaplar ikişer dağıtıldı.</li></ul>",
+      "ornekler": [
+        "Yirmi üç kitap.",
+        "5. bölüm veya 5’inci bölüm.",
+        "Kitaplar ikişer dağıtıldı."
+      ],
+      "testler": [
+        {
+          "id": "7-5-sayilar-1",
+          "tip": "secim",
+          "soru": "Sayıların yazımı bakımından hangi seçenek doğru yazılmıştır? (Örnek 1)",
+          "secenekler": [
+            "yirmi-üç",
+            "yirmi üç",
+            "yirmiüç"
+          ],
+          "dogru": "yirmi üç",
+          "aciklama": "Birden fazla sözden oluşan sayı ayrı yazılır.",
+          "cikti": "T.Y.7.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "7-5-sayilar-2",
+          "tip": "secim",
+          "soru": "Sayıların yazımı bakımından hangi seçenek doğru yazılmıştır? (Örnek 2)",
+          "secenekler": [
+            "bin iki yüz",
+            "binikiyüz",
+            "bin-iki-yüz"
+          ],
+          "dogru": "bin iki yüz",
+          "aciklama": "Birleşik sayı sözleri ayrı yazılır.",
+          "cikti": "T.Y.7.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "7-5-sayilar-3",
+          "tip": "secim",
+          "soru": "Sayıların yazımı bakımından hangi seçenek doğru yazılmıştır? (Örnek 3)",
+          "secenekler": [
+            "5.’inci bölüm",
+            "5 inci bölüm",
+            "5. bölüm"
+          ],
+          "dogru": "5. bölüm",
+          "aciklama": "Sıra sayısında nokta kullanılırsa ayrıca sıra eki getirilmez.",
+          "cikti": "T.Y.7.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "7-5-sayilar-4",
+          "tip": "secim",
+          "soru": "Sayıların yazımı bakımından hangi seçenek doğru yazılmıştır? (Örnek 4)",
+          "secenekler": [
+            "6 ncı bölüm",
+            "6’ncı bölüm",
+            "6.’ncı bölüm"
+          ],
+          "dogru": "6’ncı bölüm",
+          "aciklama": "Sıra sayısı rakam ve kesmeyle ayrılmış ekle gösterilebilir.",
+          "cikti": "T.Y.7.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "7-5-sayilar-5",
+          "tip": "secim",
+          "soru": "Sayıların yazımı bakımından hangi seçenek doğru yazılmıştır? (Örnek 5)",
+          "secenekler": [
+            "ikişer kitap",
+            "2’şer kitap",
+            "2 şer kitap"
+          ],
+          "dogru": "ikişer kitap",
+          "aciklama": "Üleştirme sayısı yazıyla belirtilir.",
+          "cikti": "T.Y.7.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "7-5-sayilar-6",
+          "tip": "secim",
+          "soru": "Sayıların yazımı bakımından hangi seçenek doğru yazılmıştır? (Örnek 6)",
+          "secenekler": [
+            "onbeş öğrenci",
+            "on-beş öğrenci",
+            "on beş öğrenci"
+          ],
+          "dogru": "on beş öğrenci",
+          "aciklama": "On beş sayı adı iki ayrı kelimeyle yazılır.",
+          "cikti": "T.Y.7.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "7-5-sayilar-7",
+          "tip": "secim",
+          "soru": "Sayıların yazımı bakımından hangi seçenek doğru yazılmıştır? (Örnek 7)",
+          "secenekler": [
+            "yüz-kırk",
+            "yüz kırk",
+            "yüzkırk"
+          ],
+          "dogru": "yüz kırk",
+          "aciklama": "Sayıyı oluşturan sözler ayrı yazılır.",
+          "cikti": "T.Y.7.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "7-5-sayilar-8",
+          "tip": "secim",
+          "soru": "Sayıların yazımı bakımından hangi seçenek doğru yazılmıştır? (Örnek 8)",
+          "secenekler": [
+            "üçer kart",
+            "3’er kart",
+            "3 er kart"
+          ],
+          "dogru": "üçer kart",
+          "aciklama": "Paylaştırma bildiren üçer yazıyla yazılır.",
+          "cikti": "T.Y.7.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "7-5-sayilar-9",
+          "tip": "secim",
+          "soru": "Sayıların yazımı bakımından hangi seçenek doğru yazılmıştır? (Örnek 9)",
+          "secenekler": [
+            "12.’nci sıra",
+            "12 nci sıra",
+            "12. sıra"
+          ],
+          "dogru": "12. sıra",
+          "aciklama": "Nokta sıra anlamını gösterir; ikinci bir işaret gerekmez.",
+          "cikti": "T.Y.7.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "7-5-sayilar-10",
+          "tip": "secim",
+          "soru": "Sayıların yazımı bakımından hangi seçenek doğru yazılmıştır? (Örnek 10)",
+          "secenekler": [
+            "21 inci sayfa",
+            "21’inci sayfa",
+            "21.’inci sayfa"
+          ],
+          "dogru": "21’inci sayfa",
+          "aciklama": "Rakamla sıra eki kesmeyle ayrılır; ayrıca nokta kullanılmaz.",
+          "cikti": "T.Y.7.21",
+          "yazimDuyarli": true
+        }
+      ]
+    },
+    {
+      "kod": "7-5-tirnak-ayrac",
+      "ad": "Tırnak ve ayraçların işlevleri",
+      "kategori": "yazim-noktalama",
+      "cikti": "T.Y.7.21",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Tırnak doğrudan aktarılan sözleri, özel vurguyu veya cümle içindeki eser adlarını gösterebilir. Yay ayraç ek bilgi sunabilir; tiyatro metninde hareket ve durumu da açıklayabilir. Ayraç içinde yeniden ayraç gerektiğinde köşeli ayraçtan yararlanılır. Alıntıyı kendi cümlen gibi sunma; kaynağını belirt. Bu dersteki kısa örnekler özgündür.</p><ul><li>“Önce kontrol edelim.” dedi.</li><li>Duru (kısık sesle): Başlayalım.</li><li>“Küçük Raf” başlıklı yazı.</li></ul>",
+      "ornekler": [
+        "“Önce kontrol edelim.” dedi.",
+        "Duru (kısık sesle): Başlayalım.",
+        "“Küçük Raf” başlıklı yazı."
+      ],
+      "testler": [
+        {
+          "id": "7-5-tirnak-ayrac-1",
+          "tip": "secim",
+          "soru": "““Önce oku.” dedi.” örneğinde işaretin görevi nasıl açıklanır?",
+          "secenekler": [
+            "Bir sayı aralığı kurmak",
+            "Doğrudan aktarılan sözü göstermek",
+            "Bir kökü göstermek"
+          ],
+          "dogru": "Doğrudan aktarılan sözü göstermek",
+          "aciklama": "Tırnak konuşanın sözünü olduğu gibi ayırır.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-5-tirnak-ayrac-2",
+          "tip": "secim",
+          "soru": "““Küçük Raf” başlıklı yazıyı inceledik.” örneğinde işaretin görevi nasıl açıklanır?",
+          "secenekler": [
+            "Yazı adını belirtmek",
+            "Her özel ada ek getirmek",
+            "Bir tarih yazmak"
+          ],
+          "dogru": "Yazı adını belirtmek",
+          "aciklama": "Cümledeki yazı adı tırnak içinde verilmiştir.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-5-tirnak-ayrac-3",
+          "tip": "secim",
+          "soru": "“Bu işte “özen” kavramı önemli.” örneğinde işaretin görevi nasıl açıklanır?",
+          "secenekler": [
+            "Bir adresi ayırmak",
+            "Bir fiili çoğul yapmak",
+            "Özel olarak vurgulanan sözü göstermek"
+          ],
+          "dogru": "Özel olarak vurgulanan sözü göstermek",
+          "aciklama": "Tırnak burada özen sözünü belirginleştirmek için kullanılır.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-5-tirnak-ayrac-4",
+          "tip": "secim",
+          "soru": "“Dila (gülümseyerek): Sıra bende.” örneğinde işaretin görevi nasıl açıklanır?",
+          "secenekler": [
+            "Bir sayı grubunu ayırmak",
+            "Konuşanın hareketini açıklamak",
+            "Kaynakçayı sona erdirmek"
+          ],
+          "dogru": "Konuşanın hareketini açıklamak",
+          "aciklama": "Tiyatro biçiminde ayraç sahne hareketini veya durumu gösterir.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-5-tirnak-ayrac-5",
+          "tip": "secim",
+          "soru": "“Prova cuma günü (derslerden sonra) yapılacak.” örneğinde işaretin görevi nasıl açıklanır?",
+          "secenekler": [
+            "Cümle dışı ek bilgi vermek",
+            "Bir kelimeyi köküne ayırmak",
+            "Tam bir soru kurmak"
+          ],
+          "dogru": "Cümle dışı ek bilgi vermek",
+          "aciklama": "Ayraç zamanı ayrıntılandıran ek açıklamayı taşır.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-5-tirnak-ayrac-6",
+          "tip": "secim",
+          "soru": "“İç içe açıklamada [dış bilgi (iç bilgi)] düzeni” örneğinde işaretin görevi nasıl açıklanır?",
+          "secenekler": [
+            "Her cümleyi zorunlu köşeli ayraçla bitirmek",
+            "Bütün alıntıları kaynaksız yapmak",
+            "Ayraç içinde ayraç gerektiğinde sınırları ayırmak"
+          ],
+          "dogru": "Ayraç içinde ayraç gerektiğinde sınırları ayırmak",
+          "aciklama": "Köşeli ayraç ile yay ayraç iç içe bilgi katmanlarını ayırabilir.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-5-tirnak-ayrac-7",
+          "tip": "secim",
+          "soru": "““Yeni Bir Sayfa” adlı özgün öykü” örneğinde işaretin görevi nasıl açıklanır?",
+          "secenekler": [
+            "İki yargıyı birleştirmek",
+            "Eser adını göstermek",
+            "Bir kişinin adresini vermek"
+          ],
+          "dogru": "Eser adını göstermek",
+          "aciklama": "Öykünün adı tırnak içinde belirtilmiştir.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-5-tirnak-ayrac-8",
+          "tip": "secim",
+          "soru": "“Ege (şaşkınlıkla): Bu nasıl oldu?” örneğinde işaretin görevi nasıl açıklanır?",
+          "secenekler": [
+            "Konuşma durumunu belirtmek",
+            "Bir sayının okunuşunu değiştirmek",
+            "Soru ekini ayrı yazmak"
+          ],
+          "dogru": "Konuşma durumunu belirtmek",
+          "aciklama": "Ayraç içi bölüm, repliğin söylenme durumunu açıklar.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-5-tirnak-ayrac-9",
+          "tip": "secim",
+          "soru": "“Kulüp yarın (hava uygunsa) bahçede çalışacak.” örneğinde işaretin görevi nasıl açıklanır?",
+          "secenekler": [
+            "Alıntı sahibini gizlemek",
+            "Bir mesafe aralığı kurmak",
+            "Ek açıklama vermek"
+          ],
+          "dogru": "Ek açıklama vermek",
+          "aciklama": "Ayraç içi söz cümlenin temel yapısına ek bilgi sunar.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-5-tirnak-ayrac-10",
+          "tip": "secim",
+          "soru": "“Alıntı cümlesini tırnakla vermek” örneğinde işaretin görevi nasıl açıklanır?",
+          "secenekler": [
+            "Sözü otomatik doğru yapmak",
+            "Başkasının sözünün sınırını göstermek",
+            "Kaynak belirtme ihtiyacını kaldırmak"
+          ],
+          "dogru": "Başkasının sözünün sınırını göstermek",
+          "aciklama": "Tırnak aktarımın sınırını gösterir; doğruluk ve kaynak ayrıca değerlendirilir.",
+          "cikti": "T.Y.7.21"
+        }
+      ]
+    }
+  ],
+  "dinleme": [
+    {
+      "id": "7-5-dinleme",
+      "baslik": "İki Okuma Listesi",
+      "metin": "Birinci okuma listesinde yalnız kitap adları vardı. İkincisinde adlara kısa seçme gerekçeleri ve erişim bilgileri eklenmişti. İki liste aynı sayıda kitap içeriyordu. Denemeye katılanlar, ikinci listede kendi amaçlarına uygun kitabı daha kolay bulduklarını söyledi. Bu, listedeki her kitabın herkes için uygun olduğu anlamına gelmiyordu. Grup yalnız beğeni sayısını değil, seçim yaparken nerede zorlanıldığını da kaydetti. Sonraki düzenlemede belirsiz iki başlık daha açık hâle getirildi.",
+      "tts": {
+        "dil": "tr-TR",
+        "sesYoksa": "metin"
+      },
+      "sorular": [
+        {
+          "id": "7-5-dinleme-1",
+          "tip": "secim",
+          "soru": "“İki Okuma Listesi” dinleme metnine göre: Listelerin ortak yanı neydi?",
+          "secenekler": [
+            "Kitap sayısı",
+            "Bütün açıklamaları",
+            "Her başlığın aynı uzunluğu"
+          ],
+          "dogru": "Kitap sayısı",
+          "aciklama": "Metindeki olay ve açıklamalar “Kitap sayısı” seçeneğini destekler; diğer seçeneklerdeki ayrıntılar dinlenen içerikle uyuşmaz.",
+          "cikti": "T.D.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-5-dinleme-2",
+          "tip": "secim",
+          "soru": "“İki Okuma Listesi” dinleme metnine göre: İkinci listeye ne eklenmişti?",
+          "secenekler": [
+            "Kişisel şifreler",
+            "Yalnız kapak rengi",
+            "Gerekçe ve erişim bilgisi"
+          ],
+          "dogru": "Gerekçe ve erişim bilgisi",
+          "aciklama": "Metindeki olay ve açıklamalar “Gerekçe ve erişim bilgisi” seçeneğini destekler; diğer seçeneklerdeki ayrıntılar dinlenen içerikle uyuşmaz.",
+          "cikti": "T.D.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-5-dinleme-3",
+          "tip": "secim",
+          "soru": "“İki Okuma Listesi” dinleme metnine göre: Anahtar kelimeler hangileridir?",
+          "secenekler": [
+            "Yol, bilet, durak",
+            "Okuma, seçim, gerekçe",
+            "Koşu, süre, madalya"
+          ],
+          "dogru": "Okuma, seçim, gerekçe",
+          "aciklama": "Metindeki olay ve açıklamalar “Okuma, seçim, gerekçe” seçeneğini destekler; diğer seçeneklerdeki ayrıntılar dinlenen içerikle uyuşmaz.",
+          "cikti": "T.D.7.15"
+        },
+        {
+          "id": "7-5-dinleme-4",
+          "tip": "secim",
+          "soru": "“İki Okuma Listesi” dinleme metnine göre: En uygun özet hangisidir?",
+          "secenekler": [
+            "İki liste denendi ve kullanım deneyimine göre geliştirildi",
+            "Bütün okurlara tek kitap zorunlu kılındı",
+            "Liste kullanımı bütünüyle bırakıldı"
+          ],
+          "dogru": "İki liste denendi ve kullanım deneyimine göre geliştirildi",
+          "aciklama": "Metindeki olay ve açıklamalar “İki liste denendi ve kullanım deneyimine göre geliştirildi” seçeneğini destekler; diğer seçeneklerdeki ayrıntılar dinlenen içerikle uyuşmaz.",
+          "cikti": "T.D.7.22"
+        }
+      ]
+    }
+  ],
+  "yazmaGorevleri": [
+    {
+      "id": "7-5-yazma",
+      "baslik": "Okuma Listesine Öneri",
+      "yonerge": "Kurgusal bir okuma listesindeki seçim veya erişim sorununa 140–220 kelimelik gerekçeli çözüm yaz. İki ölçüt belirt. Bir rica ifadesi, iki farklı işlevli zarf ve yazıyla doğru yazılmış bir sayı kullan.",
+      "minKelime": 140,
+      "maxKelime": 220,
+      "ciktilar": [
+        "T.Y.7.3",
+        "T.Y.7.15",
+        "T.Y.7.16",
+        "T.Y.7.21"
+      ],
+      "ogretmenDegerlendirmeli": true,
+      "rubrik": [
+        {
+          "olcut": "Amaç ve içerik",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Gerekçe ve anlam bütünlüğü",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Dil yapıları ve söz varlığı",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Yazım, noktalama ve gözden geçirme",
+          "enDusuk": 0,
+          "enYuksek": 4
+        }
+      ]
+    }
+  ],
+  "lgsSorulari": []
+}

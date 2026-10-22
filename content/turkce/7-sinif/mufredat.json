@@ -1,0 +1,396 @@
+{
+  "belgeTuru": "mufredat",
+  "semaSurumu": "1.0",
+  "sinif": 7,
+  "program": "TYMM",
+  "kaynak": "https://tymm.meb.gov.tr/ogretim-programlari/ortaokul-turkce-dersi/8",
+  "kontrolTarihi": "2026-10-22",
+  "parkurKurali": "Tek Türkçe parkuru: seçilen sınıfın ilk teması → tema sırası → etkinlikler. Kayıt sırasında veya sonrasında seviye testi yok.",
+  "temalar": [
+    {
+      "no": 1,
+      "ad": "Hayat Boyu Gelişim",
+      "saat": 29,
+      "kaynak": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/287",
+      "ciktilar": [
+        "T.D.7.1",
+        "T.D.7.16",
+        "T.D.7.2",
+        "T.D.7.27",
+        "T.D.7.4",
+        "T.D.7.5",
+        "T.K.7.1",
+        "T.K.7.2",
+        "T.K.7.26",
+        "T.K.7.3",
+        "T.K.7.4",
+        "T.O.7.1",
+        "T.O.7.2",
+        "T.O.7.21",
+        "T.O.7.28",
+        "T.O.7.3",
+        "T.O.7.4",
+        "T.O.7.5",
+        "T.Y.7.1",
+        "T.Y.7.18",
+        "T.Y.7.2",
+        "T.Y.7.21",
+        "T.Y.7.22",
+        "T.Y.7.3"
+      ],
+      "uygulamadaOdak": [
+        "İkilemelerin yazımı",
+        "Noktalı virgülün işlevleri",
+        "Üç noktayla eksik anlatım"
+      ],
+      "dilBilgisiKonulari": [
+        {
+          "kod": "7-1-ikileme",
+          "ad": "İkilemelerin yazımı",
+          "ciktilar": [
+            "T.Y.7.21"
+          ],
+          "kaynak_dogrulanmadi": false
+        },
+        {
+          "kod": "7-1-noktali-virgul",
+          "ad": "Noktalı virgülün işlevleri",
+          "ciktilar": [
+            "T.Y.7.21"
+          ],
+          "kaynak_dogrulanmadi": false
+        },
+        {
+          "kod": "7-1-uc-nokta",
+          "ad": "Üç noktayla eksik anlatım",
+          "ciktilar": [
+            "T.Y.7.21"
+          ],
+          "kaynak_dogrulanmadi": false
+        }
+      ],
+      "durum": "incelemeye_hazir",
+      "dosya": "tema-1-hayat-boyu-gelisim.json",
+      "kaynak_dogrulanmadi": false
+    },
+    {
+      "no": 2,
+      "ad": "Bir Hilal Uğruna",
+      "saat": 28,
+      "kaynak": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/290",
+      "ciktilar": [
+        "T.D.7.14",
+        "T.D.7.17",
+        "T.D.7.18",
+        "T.D.7.2",
+        "T.D.7.20",
+        "T.D.7.24",
+        "T.D.7.27",
+        "T.D.7.3",
+        "T.K.7.1",
+        "T.K.7.13",
+        "T.K.7.22",
+        "T.K.7.26",
+        "T.K.7.5",
+        "T.K.7.7",
+        "T.K.7.8",
+        "T.K.7.9",
+        "T.O.7.14",
+        "T.O.7.15",
+        "T.O.7.2",
+        "T.O.7.20",
+        "T.O.7.28",
+        "T.O.7.6",
+        "T.O.7.7",
+        "T.O.7.8",
+        "T.Y.7.10",
+        "T.Y.7.21",
+        "T.Y.7.22",
+        "T.Y.7.3",
+        "T.Y.7.4",
+        "T.Y.7.5"
+      ],
+      "uygulamadaOdak": [
+        "İsim çekim eklerinin işlevi",
+        "Fiilde kip ve kişi"
+      ],
+      "dilBilgisiKonulari": [
+        {
+          "kod": "7-2-isim-cekim",
+          "ad": "İsim çekim eklerinin işlevi",
+          "ciktilar": [
+            "T.Y.7.3"
+          ],
+          "kaynak_dogrulanmadi": false
+        },
+        {
+          "kod": "7-2-fiil-cekim",
+          "ad": "Fiilde kip ve kişi",
+          "ciktilar": [
+            "T.Y.7.3"
+          ],
+          "kaynak_dogrulanmadi": false
+        }
+      ],
+      "durum": "incelemeye_hazir",
+      "dosya": "tema-2-bir-hilal-ugruna.json",
+      "kaynak_dogrulanmadi": false
+    },
+    {
+      "no": 3,
+      "ad": "İletişim ve Sosyal İlişkiler",
+      "saat": 28,
+      "kaynak": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/291",
+      "ciktilar": [
+        "T.D.7.1",
+        "T.D.7.19",
+        "T.D.7.23",
+        "T.D.7.25",
+        "T.D.7.27",
+        "T.D.7.7",
+        "T.D.7.8",
+        "T.K.7.1",
+        "T.K.7.15",
+        "T.K.7.17",
+        "T.K.7.21",
+        "T.K.7.25",
+        "T.K.7.26",
+        "T.O.7.1",
+        "T.O.7.16",
+        "T.O.7.17",
+        "T.O.7.18",
+        "T.O.7.19",
+        "T.O.7.23",
+        "T.O.7.28",
+        "T.Y.7.1",
+        "T.Y.7.17",
+        "T.Y.7.21",
+        "T.Y.7.22",
+        "T.Y.7.9"
+      ],
+      "uygulamadaOdak": [
+        "Zamanın biçim ve bağlamla anlatılması",
+        "Pekiştirmelerin yazımı",
+        "Bağlama göre ünlem ve çizgiler"
+      ],
+      "dilBilgisiKonulari": [
+        {
+          "kod": "7-3-zaman",
+          "ad": "Zamanın biçim ve bağlamla anlatılması",
+          "ciktilar": [
+            "T.Y.7.1"
+          ],
+          "kaynak_dogrulanmadi": false
+        },
+        {
+          "kod": "7-3-pekistirme",
+          "ad": "Pekiştirmelerin yazımı",
+          "ciktilar": [
+            "T.Y.7.21"
+          ],
+          "kaynak_dogrulanmadi": false
+        },
+        {
+          "kod": "7-3-isaretler",
+          "ad": "Bağlama göre ünlem ve çizgiler",
+          "ciktilar": [
+            "T.Y.7.21"
+          ],
+          "kaynak_dogrulanmadi": false
+        }
+      ],
+      "durum": "incelemeye_hazir",
+      "dosya": "tema-3-iletisim-ve-sosyal-iliskiler.json",
+      "kaynak_dogrulanmadi": false
+    },
+    {
+      "no": 4,
+      "ad": "Türk Sanatı",
+      "saat": 29,
+      "kaynak": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/293",
+      "ciktilar": [
+        "T.D.7.1",
+        "T.D.7.11",
+        "T.D.7.12",
+        "T.D.7.2",
+        "T.D.7.27",
+        "T.D.7.6",
+        "T.K.7.1",
+        "T.K.7.11",
+        "T.K.7.12",
+        "T.K.7.20",
+        "T.K.7.23",
+        "T.K.7.26",
+        "T.O.7.1",
+        "T.O.7.10",
+        "T.O.7.11",
+        "T.O.7.2",
+        "T.O.7.22",
+        "T.O.7.26",
+        "T.O.7.28",
+        "T.O.7.9",
+        "T.Y.7.12",
+        "T.Y.7.21",
+        "T.Y.7.22",
+        "T.Y.7.3",
+        "T.Y.7.6",
+        "T.Y.7.7",
+        "T.Y.7.8"
+      ],
+      "uygulamadaOdak": [
+        "Zıtlık ve beklenti ilişkisi"
+      ],
+      "dilBilgisiKonulari": [
+        {
+          "kod": "7-4-zitlik",
+          "ad": "Zıtlık ve beklenti ilişkisi",
+          "ciktilar": [
+            "T.Y.7.3"
+          ],
+          "kaynak_dogrulanmadi": false
+        }
+      ],
+      "durum": "incelemeye_hazir",
+      "dosya": "tema-4-turk-sanati.json",
+      "kaynak_dogrulanmadi": false
+    },
+    {
+      "no": 5,
+      "ad": "Okuma Kültürü",
+      "saat": 28,
+      "kaynak": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/309",
+      "ciktilar": [
+        "T.D.7.1",
+        "T.D.7.15",
+        "T.D.7.2",
+        "T.D.7.22",
+        "T.D.7.27",
+        "T.D.7.9",
+        "T.K.7.1",
+        "T.K.7.14",
+        "T.K.7.16",
+        "T.K.7.18",
+        "T.K.7.19",
+        "T.K.7.26",
+        "T.O.7.1",
+        "T.O.7.12",
+        "T.O.7.2",
+        "T.O.7.24",
+        "T.O.7.27",
+        "T.O.7.28",
+        "T.Y.7.11",
+        "T.Y.7.13",
+        "T.Y.7.14",
+        "T.Y.7.15",
+        "T.Y.7.16",
+        "T.Y.7.21",
+        "T.Y.7.22",
+        "T.Y.7.3"
+      ],
+      "uygulamadaOdak": [
+        "Zarfların anlama katkısı",
+        "İstek ve rica bildiren yapılar",
+        "Sayıların yazımı",
+        "Tırnak ve ayraçların işlevleri"
+      ],
+      "dilBilgisiKonulari": [
+        {
+          "kod": "7-5-zarflar",
+          "ad": "Zarfların anlama katkısı",
+          "ciktilar": [
+            "T.Y.7.3"
+          ],
+          "kaynak_dogrulanmadi": false
+        },
+        {
+          "kod": "7-5-istek",
+          "ad": "İstek ve rica bildiren yapılar",
+          "ciktilar": [
+            "T.Y.7.11"
+          ],
+          "kaynak_dogrulanmadi": false
+        },
+        {
+          "kod": "7-5-sayilar",
+          "ad": "Sayıların yazımı",
+          "ciktilar": [
+            "T.Y.7.21"
+          ],
+          "kaynak_dogrulanmadi": false
+        },
+        {
+          "kod": "7-5-tirnak-ayrac",
+          "ad": "Tırnak ve ayraçların işlevleri",
+          "ciktilar": [
+            "T.Y.7.21"
+          ],
+          "kaynak_dogrulanmadi": false
+        }
+      ],
+      "durum": "incelemeye_hazir",
+      "dosya": "tema-5-okuma-kulturu.json",
+      "kaynak_dogrulanmadi": false
+    },
+    {
+      "no": 6,
+      "ad": "Hak ve Sorumluluklar",
+      "saat": 28,
+      "kaynak": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/312",
+      "ciktilar": [
+        "T.D.7.1",
+        "T.D.7.10",
+        "T.D.7.13",
+        "T.D.7.21",
+        "T.D.7.27",
+        "T.K.7.1",
+        "T.K.7.10",
+        "T.K.7.24",
+        "T.K.7.26",
+        "T.K.7.6",
+        "T.O.7.1",
+        "T.O.7.13",
+        "T.O.7.25",
+        "T.O.7.28",
+        "T.Y.7.1",
+        "T.Y.7.19",
+        "T.Y.7.20",
+        "T.Y.7.21",
+        "T.Y.7.22"
+      ],
+      "uygulamadaOdak": [
+        "Bağlam içinde olumsuzluk",
+        "Sınırlama bildiren yapılar"
+      ],
+      "dilBilgisiKonulari": [
+        {
+          "kod": "7-6-olumsuzluk",
+          "ad": "Bağlam içinde olumsuzluk",
+          "ciktilar": [
+            "T.Y.7.19"
+          ],
+          "kaynak_dogrulanmadi": false
+        },
+        {
+          "kod": "7-6-sinirlama",
+          "ad": "Sınırlama bildiren yapılar",
+          "ciktilar": [
+            "T.Y.7.20"
+          ],
+          "kaynak_dogrulanmadi": false
+        }
+      ],
+      "durum": "incelemeye_hazir",
+      "dosya": "tema-6-hak-ve-sorumluluklar.json",
+      "kaynak_dogrulanmadi": false
+    }
+  ],
+  "egitimYili": "2026-2027",
+  "kaynakDogrulama": "MEB tema sayfaları ile yıllık plan karşılaştırıldı.",
+  "kaynak_dogrulanmadi": false,
+  "kaynakNotlari": [
+    "Yerel konu adları resmî çıktı başlıkları değildir. Çekim ekleri T.Y.7.3, zaman anlatımı T.Y.7.1, zıtlık T.Y.7.3, zarflar T.Y.7.3, istek T.Y.7.11, olumsuzluk T.Y.7.19, sınırlama T.Y.7.20 genel çıktılarıyla pedagojik olarak eşlenir. Ayrı DYS kodu üretilmedi.",
+    "Söz varlığı örnekleri önceki sınıflardan spiral tekrar içerebilir. T.O.7.21 ilk temanın söz varlığı çıktısıdır. Önceki temaların anlama çıktıları onKosul=true ile tekrarlanır.",
+    "350–600 okuma ve 140–220 yazma aralıkları ürün tercihidir; resmî MEB sınırı değildir. Tüm resmî çıktıların çoktan seçmeli sorularla ölçüldüğü iddia edilmez."
+  ],
+  "not": "Özgün içerik bankası henüz canlı uygulamaya bağlı değildir. Yazma görevleri öğretmen rubriği gerektirir."
+}

@@ -1,0 +1,1036 @@
+{
+  "belgeTuru": "tema",
+  "semaSurumu": "1.0",
+  "sinif": 7,
+  "program": "TYMM",
+  "tema": 1,
+  "temaAdi": "Hayat Boyu Gelişim",
+  "durum": "incelemeye_hazir",
+  "kaynak": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/287",
+  "kaynak_dogrulanmadi": false,
+  "ogrenmeCiktilari": [
+    "T.D.7.1",
+    "T.D.7.16",
+    "T.D.7.2",
+    "T.D.7.27",
+    "T.D.7.4",
+    "T.D.7.5",
+    "T.K.7.1",
+    "T.K.7.2",
+    "T.K.7.26",
+    "T.K.7.3",
+    "T.K.7.4",
+    "T.O.7.1",
+    "T.O.7.2",
+    "T.O.7.21",
+    "T.O.7.28",
+    "T.O.7.3",
+    "T.O.7.4",
+    "T.O.7.5",
+    "T.Y.7.1",
+    "T.Y.7.18",
+    "T.Y.7.2",
+    "T.Y.7.21",
+    "T.Y.7.22",
+    "T.Y.7.3"
+  ],
+  "sozVarligi": {
+    "aciklama": "Tema uyumlu özgün tanım ve örnekler. Önceki sınıflardaki kelimeler spiral tekrar olarak da seçilir; 30 kayıt bütün sınıflarda farklı 30 yeni kelime iddiası değildir.",
+    "kelimeler": [
+      {
+        "kelime": "liderlik",
+        "anlam": "Bir grubun ortak amacına ilerlemesini kolaylaştırma işi",
+        "ornek": "Liderlik görev paylaşmayı da gerektirir.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "azim",
+        "anlam": "Bir güçlük karşısında çabayı sürdürme isteği",
+        "ornek": "Azim ile yeni bir çalışma planı yaptı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "kararlılık",
+        "anlam": "Verilen kararı sürdürme tutumu",
+        "ornek": "Kararlılık gerektiğinde yöntem değiştirmeye engel değildir.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "girişim",
+        "anlam": "Bir işi gerçekleştirmek için atılan adım",
+        "ornek": "Küçük girişim bütün okula yayıldı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "bütçe",
+        "anlam": "Gelir ve giderlerin önceden planlanması",
+        "ornek": "Bütçe tablosunda beklenmeyen gider için yer ayırdık.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "maliyet",
+        "anlam": "Bir işin yapılması için gereken toplam harcama",
+        "ornek": "Maliyet ürünün fiyatından farklı olabilir.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "tasarruf",
+        "anlam": "Kaynakları gereksiz tüketmeden kullanma",
+        "ornek": "Tasarruf için sağlam malzemeleri yeniden kullandık.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "öncelik",
+        "anlam": "Diğerlerinden önce ele alınacak iş veya ihtiyaç",
+        "ornek": "Güvenliği ilk öncelik olarak belirledik.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "hedef",
+        "anlam": "Ulaşılması amaçlanan sonuç",
+        "ornek": "Hedefi ölçülebilir biçimde yazdık.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "planlama",
+        "anlam": "İşlerin sırasını ve kaynaklarını önceden düzenleme",
+        "ornek": "Planlama ekibin zamanını korudu.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "esneklik",
+        "anlam": "Değişen koşullara uyabilme niteliği",
+        "ornek": "Esneklik sayesinde yeni bir yol bulduk.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "sebat",
+        "anlam": "Başlanan işi güçlük karşısında bırakmama",
+        "ornek": "Sebat düzenli çalışmada kendini gösterdi.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "yetenek",
+        "anlam": "Bir işi öğrenmeye veya yapmaya yatkınlık",
+        "ornek": "Yetenek düzenli çalışmayla gelişebilir.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "deneyim",
+        "anlam": "Yaşayarak veya uygulayarak kazanılan bilgi",
+        "ornek": "İlk denemenin deneyimi sonraki çalışmayı kolaylaştırdı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "başarı",
+        "anlam": "Belirlenen amaca ulaşma durumu",
+        "ornek": "Başarıyı yalnız ödülle ölçmedik.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "ölçüt",
+        "anlam": "Bir değerlendirmede esas alınan özellik",
+        "ornek": "Ölçütleri çalışmadan önce açıkladık.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "değerlendirme",
+        "anlam": "Bir işi belirli ölçütlere göre inceleme",
+        "ornek": "Değerlendirme gerekçeler içeriyordu.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "yapıcı",
+        "anlam": "Gelişmeye ve çözüme yardım eden",
+        "ornek": "Yapıcı eleştiri somut bir öneri sunar.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "ilham",
+        "anlam": "Yeni bir düşünce veya üretim isteği uyandıran etki",
+        "ornek": "Gördüğü sergi ona ilham verdi.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "rehber",
+        "anlam": "Yol gösteren kişi veya kaynak",
+        "ornek": "Rehber tüm kararları bizim yerimize almadı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "görev",
+        "anlam": "Bir kişinin üstlendiği iş",
+        "ornek": "Görev için gereken süreyi hesapladım.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "yetki",
+        "anlam": "Bir işi yapmaya veya karar vermeye tanınan hak",
+        "ornek": "Yetki ile sorumluluğu birlikte konuştuk.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "hesap vermek",
+        "anlam": "Yapılan bir işin gerekçesini ve sonucunu açıklamak",
+        "ornek": "Ekip harcamalar için hesap vermek istedi.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "risk",
+        "anlam": "Bir kararın istenmeyen sonuç doğurma olasılığı",
+        "ornek": "Risk için yedek plan hazırladık.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "fırsat",
+        "anlam": "Bir amaca ulaşmayı kolaylaştırabilecek uygun durum",
+        "ornek": "Boş atölye bizim için bir fırsattı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "üretkenlik",
+        "anlam": "Kaynakları kullanarak ürün veya düşünce ortaya koyabilme",
+        "ornek": "Üretkenlik dinlenmeye de ihtiyaç duyar.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "bağımsız",
+        "anlam": "Kendi kararını verebilen",
+        "ornek": "Bağımsız çalışırken gerektiğinde yardım istedim.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "ortaklık",
+        "anlam": "Bir işi veya amacı paylaşma ilişkisi",
+        "ornek": "Ortaklık görevlerin adil dağılmasını gerektiriyordu.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "şeffaflık",
+        "anlam": "Karar ve işlemlerin açıkça anlaşılabilir olması",
+        "ornek": "Şeffaflık için bütçeyi panoya astık.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "sürdürülebilir",
+        "anlam": "Kaynakları tüketmeden uzun süre devam ettirilebilir",
+        "ornek": "Sürdürülebilir bir atölye planı yaptık.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      }
+    ],
+    "esAnlamlilar": [],
+    "zitAnlamlilar": [],
+    "esSesliler": [],
+    "deyimler": [],
+    "atasozleri": []
+  },
+  "okumaParcalari": [
+    {
+      "id": "7-1-okuma-1",
+      "baslik": "Hız Çizelgesindeki Boşluk",
+      "tur": "oykuleyici",
+      "metin": "Mina, okulun okuma kulübüne katıldığında ilk hedefini hemen belirledi: Bir ay içinde herkesten hızlı okuyacaktı. Defterine her gün için bir kutu çizdi. Kutuların yanına okuduğu sayfa sayısını yazdı. İlk günlerde rakamlar büyüdükçe kendisini başarılı hissediyordu. Fakat kulüpte bir metnin neden öyle bittiği sorulduğunda cevap veremedi. Sayfaları çevirmişti; kahramanın kararını hangi olayın değiştirdiğini hatırlamıyordu.\nÖğretmeni ondan hedefini bırakmasını istemedi. Bunun yerine çizelgenin neyi gösterdiğini sordu. Mina, ne kadar okuduğunu gösterdiğini söyledi. Peki, anlamayı da gösteriyor muydu? Mina bu soruya hemen cevap vermedi. O akşam defterine yeni bir sütun ekledi. Okuduğu bölümle ilgili kendi cümlesiyle kısa bir özet yazacaktı. Bir de anlamadığı noktayı kaydedecekti. Bütün sütunlar dolsun diye anlamadığı bir yeri gizlememeye karar verdi.\nYeni düzen ilk gün daha yavaş ilerledi. Mina aynı sayfayı ikinci kez okudu. Önceden görmediği bir ayrıntı, kahramanın davranışını anlaşılır kılıyordu. Özet yazmak için önemli olaylarla süsleyici ayrıntıları ayırması gerekti. Arkadaşı Selin, kendi yöntemini anlattı: Bölüm bitince kitabı kapatıyor, hatırladıklarını söylüyor, sonra eksiklerini kontrol ediyordu. Mina bu yöntemi de denedi. Herkesin aynı hızda ilerlemesini beklememeleri gerektiğini konuştular.\nHaftanın ortasında Mina iki gün çizelgesini dolduramadı. Eskiden olsa aradaki boşlukları sonradan tahmin ederek kapatabilirdi. Bu kez boş bıraktı ve nedenini yazdı. Ödevlerle kulüp çalışmasını aynı akşama yığmıştı. Hedefi küçültüp okuma zamanını yeniden düzenledi. Boş kutu, bir başarısızlık damgası yerine planın değişmesi gerektiğini gösteren bilgi olmuştu. Böyle düşünmek, ertesi gün yeniden başlamasını kolaylaştırdı.\nAy sonunda kulüpte herkes çalışma sürecinden bir şey gösterdi. Mina en yüksek sayfa sayısını sunmadı. İlk ve son özetini yan yana koydu. Son özetinde olayların ilişkisi daha açıktı; metinde bulunmayan yorumları da ayrı belirtmişti. Gelişimini arkadaşının rakamlarıyla değil, kendi önceki çalışmasıyla karşılaştırdı. Hâlâ hızlanmak istiyordu ama artık hız tek ölçütü değildi. Defterindeki son sütunun adını “Bir Sonraki Deneme” koydu. Çünkü işe yarayan bir yöntem bile her metinde aynı şekilde çalışmayabilirdi. Uzun bir bilgi yazısında not almak, kısa bir öyküdeyse olayları zihninde sıralamak daha yararlı olabilirdi. Kulüp dağıldığında Mina kitabını çantasına yavaşça yerleştirdi. O gün daha az sayfa okumuştu; fakat okudukları hakkında söyleyecek daha çok şeyi vardı. Bu farkı ilk kez açık biçimde görebiliyordu.\nMina ertesi hafta ilk sayfaya hedefinin yanına küçük bir açıklama ekledi. Hızın yanında anlamayı da izleyecekti. Yeni planı arkadaşlarına bir zorunluluk gibi sunmadı; isteyenler kendi ihtiyaçlarına uygun farklı bir yol deneyebilirdi.\nKulüpteki arkadaşları son sunumda yalnız sonuçları değil, yöntemleri de dinledi. Birinin sorusunun başka birinin yeni denemesine yardım edebileceğini gördüler. Böylece paylaşılan şey bir yarış derecesi değil, öğrenme deneyimiydi.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır.",
+      "sorular": [
+        {
+          "id": "7-1-okuma-1-1",
+          "tip": "secim",
+          "soru": "“Hız Çizelgesindeki Boşluk” metnine göre: Mina'nın ilk ölçütü nedir?",
+          "secenekler": [
+            "Kaynak çeşitliliği",
+            "Okunan sayfa sayısı",
+            "Özetin anlam bütünlüğü"
+          ],
+          "dogru": "Okunan sayfa sayısı",
+          "aciklama": "İlk çizelge yalnız her gün okunan sayfa miktarını kaydeder.",
+          "cikti": "T.O.7.5"
+        },
+        {
+          "id": "7-1-okuma-1-2",
+          "tip": "secim",
+          "soru": "“Hız Çizelgesindeki Boşluk” metnine göre: Yeni sütunlar hangi ihtiyacı karşılar?",
+          "secenekler": [
+            "Anlamayı ve belirsizlikleri görünür kılmayı",
+            "Kitap fiyatını karşılaştırmayı",
+            "Bütün öğrencileri aynı hızda tutmayı"
+          ],
+          "dogru": "Anlamayı ve belirsizlikleri görünür kılmayı",
+          "aciklama": "Özet ve anlaşılmayan nokta, sayfa sayısının göstermediği öğrenmeyi ortaya koyar.",
+          "cikti": "T.O.7.5"
+        },
+        {
+          "id": "7-1-okuma-1-3",
+          "tip": "secim",
+          "soru": "“Hız Çizelgesindeki Boşluk” metnine göre: Boş kutuyu doldurmaması neyi gösterir?",
+          "secenekler": [
+            "Artık hiç okumayacağını",
+            "Bütün yöntemleri reddettiğini",
+            "Veriyi doğru tutmaya önem verdiğini"
+          ],
+          "dogru": "Veriyi doğru tutmaya önem verdiğini",
+          "aciklama": "Mina tahmini rakam yazmak yerine boşluğun nedenini açıklamıştır.",
+          "cikti": "T.O.7.5"
+        },
+        {
+          "id": "7-1-okuma-1-4",
+          "tip": "secim",
+          "soru": "“Hız Çizelgesindeki Boşluk” metnine göre: Selin'in yöntemi nasıl işler?",
+          "secenekler": [
+            "Yalnız son sayfayı okumak",
+            "Hatırladıklarını söyleyip metinle kontrol etmek",
+            "Metni kapatmadan kopyalamak"
+          ],
+          "dogru": "Hatırladıklarını söyleyip metinle kontrol etmek",
+          "aciklama": "Selin önce hatırlamayı, sonra eksikleri karşılaştırarak kontrol etmeyi anlatır.",
+          "cikti": "T.O.7.5"
+        },
+        {
+          "id": "7-1-okuma-1-5",
+          "tip": "secim",
+          "soru": "“Hız Çizelgesindeki Boşluk” metnine göre: Mina gelişimini neyle karşılaştırır?",
+          "secenekler": [
+            "Kendi ilk özetiyle",
+            "Arkadaşının çanta ağırlığıyla",
+            "En pahalı kitabın fiyatıyla"
+          ],
+          "dogru": "Kendi ilk özetiyle",
+          "aciklama": "Son sunumunda ilk ve son özetini yan yana koyar.",
+          "cikti": "T.O.7.5"
+        },
+        {
+          "id": "7-1-okuma-1-6",
+          "tip": "secim",
+          "soru": "“Hız Çizelgesindeki Boşluk” metnine göre: Metinden hangi sonuç çıkarılabilir?",
+          "secenekler": [
+            "Hızlı okumak her durumda anlamayı garanti eder",
+            "Boş kalan her gün gizlenmelidir",
+            "Ölçüt seçimi çalışma biçimini etkileyebilir"
+          ],
+          "dogru": "Ölçüt seçimi çalışma biçimini etkileyebilir",
+          "aciklama": "Ölçütler değişince Mina'nın çalışma ve değerlendirme biçimi de değişir.",
+          "cikti": "T.O.7.5"
+        },
+        {
+          "id": "7-1-okuma-1-7",
+          "tip": "secim",
+          "soru": "“Hız Çizelgesindeki Boşluk” metnine göre: En uygun alternatif başlık hangisidir?",
+          "secenekler": [
+            "Bir Kitabın Baskı Tarihi",
+            "Sayılardan Anlamaya",
+            "Kaybolan Kulüp Anahtarı"
+          ],
+          "dogru": "Sayılardan Anlamaya",
+          "aciklama": "Başlık, miktar odaklı hedeften anlamaya yönelişi özetler.",
+          "cikti": "T.O.7.5"
+        },
+        {
+          "id": "7-1-okuma-1-8",
+          "tip": "secim",
+          "soru": "“Hız Çizelgesindeki Boşluk” metnine göre: Son sütunun adı neyi vurgular?",
+          "secenekler": [
+            "Öğrenmenin yeni denemelerle sürebileceğini",
+            "Bir yöntemin bütün metinler için değişmez olduğunu",
+            "Kulübün tamamen kapandığını"
+          ],
+          "dogru": "Öğrenmenin yeni denemelerle sürebileceğini",
+          "aciklama": "Bir Sonraki Deneme, yöntemlerin gözden geçirilebilir olduğunu gösterir.",
+          "cikti": "T.O.7.5"
+        }
+      ]
+    },
+    {
+      "id": "7-1-okuma-2",
+      "baslik": "Hedefi Küçük Adımlara Ayırmak",
+      "tur": "bilgilendirici",
+      "metin": "Yeni bir beceri öğrenirken büyük bir hedef belirlemek heyecan verici olabilir. Bir enstrüman çalmak, daha anlaşılır yazmak veya düzenli okumak gibi hedefler uzun süreli çaba ister. Fakat hedefin büyüklüğü, ilk gün ne yapılacağını tek başına söylemez. “Daha iyi yazacağım.” sözü bir yön gösterir; nasıl çalışılacağını açıkça belirtmez. Bu nedenle genel hedefi, gözlenebilir küçük adımlara ayırmak yararlıdır.\nBir öğrenci her hafta kısa bir yazı yazmaya karar verebilir. İlk hafta yalnız giriş bölümünde konuyu tanıtmayı çalışır. İkinci hafta düşünceler arasında bağ kurmaya odaklanır. Sonra önceki yazılarına dönerek değişimi inceler. Burada önemli olan her özelliği aynı anda kusursuz yapmaya çalışmak değildir. Bir defada sınırlı bir beceriye dikkat etmek, hangi değişikliğin işe yaradığını görmeyi kolaylaştırabilir. Yine de bütün öğrenmelerin aynı takvimle ilerlemesi beklenmez.\nÇalışma planında zamanın yanı sıra geri bildirim için de yer bulunmalıdır. Geri bildirim, yalnız “Güzel olmuş.” veya “Olmamış.” demek değildir. Bir okur, yazının hangi bölümünü kolay anladığını ve nerede bağlantı kuramadığını açıklayabilir. Böyle bir bilgi, öğrencinin sonraki denemesinde neyi değiştireceğini düşünmesine yardım eder. Eleştirinin kişiye değil, değiştirilebilir bir çalışma özelliğine yönelmesi önemlidir.\nPlanın izlenmesi için tutulan kayıtlar da amaçla uyumlu olmalıdır. Yalnız harcanan dakikayı yazmak, o sürede nelerin öğrenildiğini bütünüyle göstermez. Kısa bir örnek ürün, bir soru veya düzeltilen bir yanlış da kaydedilebilir. Bu kayıtlar başkalarıyla yarışmak için değil, önceki çalışmayla sonraki çalışmayı karşılaştırmak için kullanılabilir. Sonuçlar beklenenden farklıysa plan gözden geçirilir; değiştirmek her zaman vazgeçmek anlamına gelmez.\nDinlenme ve başka sorumluluklar da planın bir parçasıdır. Bütün boş zamanı tek işe ayıran bir program, kâğıt üzerinde güçlü görünse bile sürdürülemeyebilir. Planı yapan kişi, gerçek koşullarını düşünerek küçük bir başlangıç seçebilir. Beklenmedik bir gün için boşluk bırakmak, yeniden başlamayı kolaylaştırır. Böylece hedef, yalnız uzak bir sonuç olmaktan çıkar; bugünkü davranışla ilişki kurar. Gelişim bazen büyük bir sıçrama şeklinde değil, önce fark edilmeyen küçük düzeltmelerle görünür olur. Bir ay sonra dönüp bakıldığında, ilk örnekle son örnek arasındaki fark daha açık seçilebilir. Bu farkı görmek için kayıtların dürüst tutulması gerekir. Yapılmayan çalışmayı yapılmış gibi işaretlemek, planın hangi bölümünün değişmesi gerektiğini de gizler. Küçük adımların gücü yalnız kolay olmalarında değil, sonraki karara bilgi sağlamalarında yatar. Bu yüzden iyi bir hedef, hem ilerlemeyi hem de yeniden düşünmeyi mümkün kılar.\nÖğrenci bu kayıtları öğretmeniyle konuşurken bütün cevapları bulmuş olmak zorunda değildir. Doğru kurulmuş bir soru da sonraki çalışma için değerli bir başlangıç sayılabilir. Plan, o soruya yeniden dönme imkânı verir.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır.",
+      "sorular": [
+        {
+          "id": "7-1-okuma-2-1",
+          "tip": "secim",
+          "soru": "“Hedefi Küçük Adımlara Ayırmak” metnine göre: Genel hedefin eksik yanı ne olabilir?",
+          "secenekler": [
+            "İlk adımı açıkça göstermemesi",
+            "Her zaman çok kısa olması",
+            "Mutlaka yanlış olması"
+          ],
+          "dogru": "İlk adımı açıkça göstermemesi",
+          "aciklama": "Daha iyi yazmak gibi bir hedef yön verir fakat uygulama adımını belirlemez.",
+          "cikti": "T.O.7.5"
+        },
+        {
+          "id": "7-1-okuma-2-2",
+          "tip": "secim",
+          "soru": "“Hedefi Küçük Adımlara Ayırmak” metnine göre: Yazı örneği hangi düşünceyi somutlaştırır?",
+          "secenekler": [
+            "Bütün özellikleri ilk gün bitirmeyi",
+            "Geri bildirimi kaldırmayı",
+            "Beceriyi aşamalara ayırmayı"
+          ],
+          "dogru": "Beceriyi aşamalara ayırmayı",
+          "aciklama": "Haftalara ayrılan giriş ve bağlantı çalışmaları küçük adım yaklaşımına örnektir.",
+          "cikti": "T.O.7.5"
+        },
+        {
+          "id": "7-1-okuma-2-3",
+          "tip": "secim",
+          "soru": "“Hedefi Küçük Adımlara Ayırmak” metnine göre: Yararlı geri bildirimin özelliği nedir?",
+          "secenekler": [
+            "Her zaman tek kelime olması",
+            "Somut bir çalışma özelliğini açıklaması",
+            "Yalnız kişiliği etiketlemesi"
+          ],
+          "dogru": "Somut bir çalışma özelliğini açıklaması",
+          "aciklama": "Metin anlaşılır ve bağlantısı eksik bölümler gibi değiştirilebilir özellikleri önerir.",
+          "cikti": "T.O.7.5"
+        },
+        {
+          "id": "7-1-okuma-2-4",
+          "tip": "secim",
+          "soru": "“Hedefi Küçük Adımlara Ayırmak” metnine göre: Yalnız dakika kaydı neden yeterli değildir?",
+          "secenekler": [
+            "Ne öğrenildiğini tam göstermediği için",
+            "Zamanın hiç önemi olmadığı için",
+            "Bütün çalışmalar aynı sürdüğü için"
+          ],
+          "dogru": "Ne öğrenildiğini tam göstermediği için",
+          "aciklama": "Süre kaydı ürün veya düzeltme gibi öğrenme kanıtlarının yerini tutmaz.",
+          "cikti": "T.O.7.5"
+        },
+        {
+          "id": "7-1-okuma-2-5",
+          "tip": "secim",
+          "soru": "“Hedefi Küçük Adımlara Ayırmak” metnine göre: Planın değiştirilmesi nasıl değerlendirilir?",
+          "secenekler": [
+            "Her zaman kesin vazgeçiştir",
+            "Mutlaka başarının kanıtıdır",
+            "Yeni bilgiye göre uyarlama olabilir"
+          ],
+          "dogru": "Yeni bilgiye göre uyarlama olabilir",
+          "aciklama": "Metin planı değiştirmenin her zaman vazgeçmek olmadığını belirtir.",
+          "cikti": "T.O.7.5"
+        },
+        {
+          "id": "7-1-okuma-2-6",
+          "tip": "secim",
+          "soru": "“Hedefi Küçük Adımlara Ayırmak” metnine göre: Yazıda hangi düşünceyi geliştirme yolu vardır?",
+          "secenekler": [
+            "Araştırma yüzdeleriyle kanıtlama",
+            "Haftalık yazı çalışmasıyla örnekleme",
+            "Ünlü bir yazarın sözünü tanık gösterme"
+          ],
+          "dogru": "Haftalık yazı çalışmasıyla örnekleme",
+          "aciklama": "Öğrencinin yazı planı genel öneriyi somut bir duruma taşır.",
+          "cikti": "T.O.7.5"
+        },
+        {
+          "id": "7-1-okuma-2-7",
+          "tip": "secim",
+          "soru": "“Hedefi Küçük Adımlara Ayırmak” metnine göre: Dürüst kayıt tutmamak hangi sorunu doğurur?",
+          "secenekler": [
+            "Gerekli düzenlemeleri fark etmeyi zorlaştırır",
+            "Her hedefi kendiliğinden küçültür",
+            "Geri bildirimi kesinlikle hızlandırır"
+          ],
+          "dogru": "Gerekli düzenlemeleri fark etmeyi zorlaştırır",
+          "aciklama": "Yapılmayanı yapılmış göstermek planın eksik yönlerini gizler.",
+          "cikti": "T.O.7.5"
+        },
+        {
+          "id": "7-1-okuma-2-8",
+          "tip": "secim",
+          "soru": "“Hedefi Küçük Adımlara Ayırmak” metnine göre: Ana düşünce hangisidir?",
+          "secenekler": [
+            "Her öğrenci aynı günlük plana uymalıdır",
+            "Yalnız süre tutmak öğrenmeyi gösterir",
+            "Gelişim için hedefler gözlenebilir ve gözden geçirilebilir adımlara ayrılmalıdır"
+          ],
+          "dogru": "Gelişim için hedefler gözlenebilir ve gözden geçirilebilir adımlara ayrılmalıdır",
+          "aciklama": "Yazının bölümleri küçük adım, geri bildirim ve planı uyarlama çevresinde birleşir.",
+          "cikti": "T.O.7.5"
+        }
+      ]
+    }
+  ],
+  "konular": [
+    {
+      "kod": "7-1-ikileme",
+      "ad": "İkilemelerin yazımı",
+      "kategori": "yazim-noktalama",
+      "cikti": "T.Y.7.21",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>İkilemeler anlamı güçlendirmek veya ayrıntılandırmak için birlikte kullanılan sözlerdir. Genellikle ayrı yazılır; aralarına virgül veya kısa çizgi konmaz. Yansıma sözlerden ve ek almış kelimelerden oluşan ikilemelerde de bu kurala dikkat edilir. Önce sözlerin anlam ilişkisini belirle, sonra yazımı kontrol et. İkilemeyi bitişik bir pekiştirme sözüyle karıştırma.</p><ul><li>Yavaş yavaş ilerledi.</li><li>Peş peşe sorular geldi.</li><li>Yol irili ufaklı taşlarla doluydu.</li></ul>",
+      "ornekler": [
+        "Yavaş yavaş ilerledi.",
+        "Peş peşe sorular geldi.",
+        "Yol irili ufaklı taşlarla doluydu."
+      ],
+      "testler": [
+        {
+          "id": "7-1-ikileme-1",
+          "tip": "secim",
+          "soru": "İkilemelerin yazımı bakımından hangi seçenek doğru yazılmıştır? (Örnek 1)",
+          "secenekler": [
+            "yavaş-yavaş",
+            "yavaşyavaş",
+            "yavaş yavaş"
+          ],
+          "dogru": "yavaş yavaş",
+          "aciklama": "Tekrarla kurulan ikilemenin kelimeleri ayrı yazılır.",
+          "cikti": "T.Y.7.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "7-1-ikileme-2",
+          "tip": "secim",
+          "soru": "İkilemelerin yazımı bakımından hangi seçenek doğru yazılmıştır? (Örnek 2)",
+          "secenekler": [
+            "azçok",
+            "az çok",
+            "az-çok"
+          ],
+          "dogru": "az çok",
+          "aciklama": "Karşıt anlamlı sözlerle kurulan ikileme ayrı yazılır.",
+          "cikti": "T.Y.7.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "7-1-ikileme-3",
+          "tip": "secim",
+          "soru": "İkilemelerin yazımı bakımından hangi seçenek doğru yazılmıştır? (Örnek 3)",
+          "secenekler": [
+            "peş peşe",
+            "peşpeşe",
+            "peş-peşe"
+          ],
+          "dogru": "peş peşe",
+          "aciklama": "Ek almış sözlerin oluşturduğu bu ikileme ayrı yazılır.",
+          "cikti": "T.Y.7.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "7-1-ikileme-4",
+          "tip": "secim",
+          "soru": "İkilemelerin yazımı bakımından hangi seçenek doğru yazılmıştır? (Örnek 4)",
+          "secenekler": [
+            "tektek",
+            "tek-tek",
+            "tek tek"
+          ],
+          "dogru": "tek tek",
+          "aciklama": "Aynı kelimenin tekrarında araya çizgi konmaz.",
+          "cikti": "T.Y.7.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "7-1-ikileme-5",
+          "tip": "secim",
+          "soru": "İkilemelerin yazımı bakımından hangi seçenek doğru yazılmıştır? (Örnek 5)",
+          "secenekler": [
+            "ağır-ağır",
+            "ağır ağır",
+            "ağırağır"
+          ],
+          "dogru": "ağır ağır",
+          "aciklama": "Tekrarlanan kelimeler ayrı yazılır.",
+          "cikti": "T.Y.7.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "7-1-ikileme-6",
+          "tip": "secim",
+          "soru": "İkilemelerin yazımı bakımından hangi seçenek doğru yazılmıştır? (Örnek 6)",
+          "secenekler": [
+            "irili ufaklı",
+            "iriliufaklı",
+            "irili-ufaklı"
+          ],
+          "dogru": "irili ufaklı",
+          "aciklama": "Ekli sözlerden oluşan ikilemenin iki parçası ayrı yazılır.",
+          "cikti": "T.Y.7.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "7-1-ikileme-7",
+          "tip": "secim",
+          "soru": "İkilemelerin yazımı bakımından hangi seçenek doğru yazılmıştır? (Örnek 7)",
+          "secenekler": [
+            "eskipüskü",
+            "eski-püskü",
+            "eski püskü"
+          ],
+          "dogru": "eski püskü",
+          "aciklama": "Bu ikilemenin iki sözü bitiştirilmez.",
+          "cikti": "T.Y.7.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "7-1-ikileme-8",
+          "tip": "secim",
+          "soru": "İkilemelerin yazımı bakımından hangi seçenek doğru yazılmıştır? (Örnek 8)",
+          "secenekler": [
+            "yan-yana",
+            "yan yana",
+            "yanyana"
+          ],
+          "dogru": "yan yana",
+          "aciklama": "Yan yana ikilemesi ayrı yazılır.",
+          "cikti": "T.Y.7.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "7-1-ikileme-9",
+          "tip": "secim",
+          "soru": "İkilemelerin yazımı bakımından hangi seçenek doğru yazılmıştır? (Örnek 9)",
+          "secenekler": [
+            "adım adım",
+            "adımadım",
+            "adım-adım"
+          ],
+          "dogru": "adım adım",
+          "aciklama": "İkilemenin arasına kısa çizgi getirilmez.",
+          "cikti": "T.Y.7.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "7-1-ikileme-10",
+          "tip": "secim",
+          "soru": "İkilemelerin yazımı bakımından hangi seçenek doğru yazılmıştır? (Örnek 10)",
+          "secenekler": [
+            "pırılpırıl",
+            "pırıl-pırıl",
+            "pırıl pırıl"
+          ],
+          "dogru": "pırıl pırıl",
+          "aciklama": "Tekrarlanan yansıma nitelikli sözler ayrı yazılır.",
+          "cikti": "T.Y.7.21",
+          "yazimDuyarli": true
+        }
+      ]
+    },
+    {
+      "kod": "7-1-noktali-virgul",
+      "ad": "Noktalı virgülün işlevleri",
+      "kategori": "yazim-noktalama",
+      "cikti": "T.Y.7.21",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Noktalı virgül, içinde virgüller bulunan grupları veya sıralı cümleleri ayırabilir. Böylece küçük ayrımlar virgülle, daha büyük bölüm sınırları noktalı virgülle gösterilir. İkiden fazla eş değer ögenin virgülle sıralandığı bazı cümlelerde öznenin ardından da kullanılabilir. Her uzun cümleye otomatik noktalı virgül konmaz. İşaretin ayırdığı grupları ve yargıları bulmak doğru seçimi kolaylaştırır.</p><ul><li>Ece, Ada; Bora, Can geldi.</li><li>Ece kartları, notları topladı; Bora masayı sildi.</li><li>Elif; şiir, öykü, deneme okuyordu.</li></ul>",
+      "ornekler": [
+        "Ece, Ada; Bora, Can geldi.",
+        "Ece kartları, notları topladı; Bora masayı sildi.",
+        "Elif; şiir, öykü, deneme okuyordu."
+      ],
+      "testler": [
+        {
+          "id": "7-1-noktali-virgul-1",
+          "tip": "secim",
+          "soru": "“Ece kartları, defterleri aldı; Bora masayı topladı.” cümlesinde noktalı virgülün görevi nedir?",
+          "secenekler": [
+            "Ögelerinde virgül bulunan sıralı cümleleri ayırmak",
+            "Bir kelimeyi hecelemek",
+            "Özel ada ek bağlamak"
+          ],
+          "dogru": "Ögelerinde virgül bulunan sıralı cümleleri ayırmak",
+          "aciklama": "İki yargının içinde virgül bulunduğundan büyük sınır noktalı virgülle gösterilir.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-1-noktali-virgul-2",
+          "tip": "secim",
+          "soru": "“Kalemler kırmızı, mavi; kartlar beyaz, sarıydı.” cümlesinde noktalı virgülün görevi nedir?",
+          "secenekler": [
+            "Bir soru bitirmek",
+            "Yapım ekini göstermek",
+            "Virgülle ayrılan grupları ayırmak"
+          ],
+          "dogru": "Virgülle ayrılan grupları ayırmak",
+          "aciklama": "Renk gruplarının kendi içinde virgül, aralarında noktalı virgül bulunur.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-1-noktali-virgul-3",
+          "tip": "secim",
+          "soru": "“Dila; öykü, şiir, deneme seçti.” cümlesinde noktalı virgülün görevi nedir?",
+          "secenekler": [
+            "Yalnız tarih yazmak",
+            "Özneden sonra virgüllü eş değer öge grubunu ayırmak",
+            "Her özneyi zorunlu ayırmak"
+          ],
+          "dogru": "Özneden sonra virgüllü eş değer öge grubunu ayırmak",
+          "aciklama": "Bu kullanım birden çok eş değer ögenin bulunduğu yapıyla ilgilidir; her özneye genellenmez.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-1-noktali-virgul-4",
+          "tip": "secim",
+          "soru": "“Bir grupta Nil, Ege; diğerinde Can, Ada vardı.” cümlesinde noktalı virgülün görevi nedir?",
+          "secenekler": [
+            "Grupların sınırını belirginleştirmek",
+            "Alıntıyı başlatmak",
+            "Eksik cevabı göstermek"
+          ],
+          "dogru": "Grupların sınırını belirginleştirmek",
+          "aciklama": "Her grubun içinde virgülle sıralanan adlar vardır.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-1-noktali-virgul-5",
+          "tip": "secim",
+          "soru": "“Masada boya, ip; rafta kâğıt, karton bulunuyordu.” cümlesinde noktalı virgülün görevi nedir?",
+          "secenekler": [
+            "Adres numaralarını ayırmak",
+            "Soru anlamı eklemek",
+            "Virgüllü iki bölümü ayırmak"
+          ],
+          "dogru": "Virgüllü iki bölümü ayırmak",
+          "aciklama": "İki yer grubundaki malzemeler virgülle, gruplar birbirinden noktalı virgülle ayrılır.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-1-noktali-virgul-6",
+          "tip": "secim",
+          "soru": "“Önce kartları, resimleri seçtik; sonra başlığı yazdık.” cümlesinde noktalı virgülün görevi nedir?",
+          "secenekler": [
+            "Bütün kelimeleri vurgulamak",
+            "İçinde virgül bulunan sıralı yargıları ayırmak",
+            "Bir sözün ekini ayırmak"
+          ],
+          "dogru": "İçinde virgül bulunan sıralı yargıları ayırmak",
+          "aciklama": "Seçtik ve yazdık ayrı yargılardır; ilkinde virgüllü ögeler vardır.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-1-noktali-virgul-7",
+          "tip": "secim",
+          "soru": "“Seda; sakin, dikkatli, kararlıydı.” cümlesinde noktalı virgülün görevi nedir?",
+          "secenekler": [
+            "Özneyle virgüllü nitelik grubunu ayırmak",
+            "Üç nokta yerine her durumda kullanmak",
+            "Alıntıyı kesmek"
+          ],
+          "dogru": "Özneyle virgüllü nitelik grubunu ayırmak",
+          "aciklama": "Birden çok eş değer nitelik sıralandığı için özne sınırı belirginleşir.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-1-noktali-virgul-8",
+          "tip": "secim",
+          "soru": "“Deniz resimleri, etiketleri yerleştirdi; Işıl ışığı ayarladı.” cümlesinde noktalı virgülün görevi nedir?",
+          "secenekler": [
+            "İki dizeyi yan yana yazmak",
+            "Bir kelimeyi kısaltmak",
+            "Virgül içeren sıralı cümleleri ayırmak"
+          ],
+          "dogru": "Virgül içeren sıralı cümleleri ayırmak",
+          "aciklama": "Cümlelerin kendi içindeki ayrımla aralarındaki ayrım farklı işaretlerle gösterilir.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-1-noktali-virgul-9",
+          "tip": "secim",
+          "soru": "“Notlar kısa, açık; örnekler canlı, anlaşılırdı.” cümlesinde noktalı virgülün görevi nedir?",
+          "secenekler": [
+            "Yer adı belirtmek",
+            "Virgülle ayrılmış nitelik gruplarını ayırmak",
+            "Hitap sözü kurmak"
+          ],
+          "dogru": "Virgülle ayrılmış nitelik gruplarını ayırmak",
+          "aciklama": "İki grubun nitelikleri virgülle sıralanır, büyük bölüm sınırı noktalı virgüldür.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-1-noktali-virgul-10",
+          "tip": "secim",
+          "soru": "“Ada, Ece, Nil birinci masada; Can, Ege ikinci masadaydı.” cümlesinde noktalı virgülün görevi nedir?",
+          "secenekler": [
+            "Virgüllü takımları ayırmak",
+            "Bir sözün anlamını değiştirmek",
+            "Kesin bir alıntı başlatmak"
+          ],
+          "dogru": "Virgüllü takımları ayırmak",
+          "aciklama": "Adlar kendi gruplarında virgülle, iki takım noktalı virgülle ayrılmıştır.",
+          "cikti": "T.Y.7.21"
+        }
+      ]
+    },
+    {
+      "kod": "7-1-uc-nokta",
+      "ad": "Üç noktayla eksik anlatım",
+      "kategori": "yazim-noktalama",
+      "cikti": "T.Y.7.21",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Üç nokta tamamlanmamış anlatımı veya bilerek eksik bırakılan cevabı gösterebilir. Ünlem ve seslenmelerde duyguyu pekiştirmek için de kullanılır. Üç noktanın görevi her zaman aynı değildir. Tam bir bilgi cümlesini sırf süslemek için eksiltmek okuru belirsiz bırakabilir. İşareti kullanırken eksik bırakmanın anlatıma neden gerekli olduğunu düşün; resmî bir yönergenin zorunlu bilgisini böyle gizleme.</p><ul><li>— Sonra ne oldu? — Sonra...</li><li>Ah, eski günler...</li><li>Bir gün yeniden...</li></ul>",
+      "ornekler": [
+        "— Sonra ne oldu? — Sonra...",
+        "Ah, eski günler...",
+        "Bir gün yeniden..."
+      ],
+      "testler": [
+        {
+          "id": "7-1-uc-nokta-1",
+          "tip": "secim",
+          "soru": "“— Bunu kim yaptı? — Ben...” aktarımında üç nokta hangi işlevdedir?",
+          "secenekler": [
+            "Sayısal aralığı",
+            "Tam bir liste sonunu",
+            "Çekinerek eksik bırakılan cevabı"
+          ],
+          "dogru": "Çekinerek eksik bırakılan cevabı",
+          "aciklama": "Cevap bilerek tamamlanmadığı için üç nokta kullanılır.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-1-uc-nokta-2",
+          "tip": "secim",
+          "soru": "“Ah, o ilk deneme...” aktarımında üç nokta hangi işlevdedir?",
+          "secenekler": [
+            "Bir ek ayırmayı",
+            "Duygulu seslenişi pekiştirmeyi",
+            "Bir adresi bölmeyi"
+          ],
+          "dogru": "Duygulu seslenişi pekiştirmeyi",
+          "aciklama": "Üç nokta ünlemli anlatımdaki duyguyu sürdürür.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-1-uc-nokta-3",
+          "tip": "secim",
+          "soru": "“— Ne söylemek istersin? — Şey...” aktarımında üç nokta hangi işlevdedir?",
+          "secenekler": [
+            "Tamamlanmayan cevabı",
+            "Kesin kaynakçayı",
+            "Ölçü birimini"
+          ],
+          "dogru": "Tamamlanmayan cevabı",
+          "aciklama": "Konuşan cevap verirken duraksar ve sözünü tamamlamaz.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-1-uc-nokta-4",
+          "tip": "secim",
+          "soru": "“Ey uzak yollar...” aktarımında üç nokta hangi işlevdedir?",
+          "secenekler": [
+            "Kökle eki ayırmayı",
+            "Bir soruyu kesin bitirmeyi",
+            "Seslenişin duygusunu sürdürmeyi"
+          ],
+          "dogru": "Seslenişin duygusunu sürdürmeyi",
+          "aciklama": "Seslenmenin ardından üç nokta anlatımı pekiştirir.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-1-uc-nokta-5",
+          "tip": "secim",
+          "soru": "“— Hazır mısın? — Aslında...” aktarımında üç nokta hangi işlevdedir?",
+          "secenekler": [
+            "İki grubu ayırmayı",
+            "Cevabın eksik bırakılmasını",
+            "Tamamlanmış olayı kanıtlamayı"
+          ],
+          "dogru": "Cevabın eksik bırakılmasını",
+          "aciklama": "Aslında sözü bir devam beklentisi kurar; üç nokta bu eksikliği gösterir.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-1-uc-nokta-6",
+          "tip": "secim",
+          "soru": "“Vah, yitip giden saatler...” aktarımında üç nokta hangi işlevdedir?",
+          "secenekler": [
+            "Ünlemli anlatımda duyguyu pekiştirmeyi",
+            "Bir tam tarihi yazmayı",
+            "Sıralı cümleyi bütünüyle ayırmayı"
+          ],
+          "dogru": "Ünlemli anlatımda duyguyu pekiştirmeyi",
+          "aciklama": "Üç nokta seslenişin duygusal etkisini sürdürür.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-1-uc-nokta-7",
+          "tip": "secim",
+          "soru": "“— Neden gelmedin? — Çünkü...” aktarımında üç nokta hangi işlevdedir?",
+          "secenekler": [
+            "Yalnız satır numarasını",
+            "Bir kitap adını",
+            "Gerekçenin tamamlanmamasını"
+          ],
+          "dogru": "Gerekçenin tamamlanmamasını",
+          "aciklama": "Çünkü ile başlayan açıklama tamamlanmadan bırakılmıştır.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-1-uc-nokta-8",
+          "tip": "secim",
+          "soru": "“Ah, bir konuşabilseydik...” aktarımında üç nokta hangi işlevdedir?",
+          "secenekler": [
+            "Kesin konuşmacı adını",
+            "Duygulu anlatımı pekiştirmeyi",
+            "Soru ekini ayırmayı"
+          ],
+          "dogru": "Duygulu anlatımı pekiştirmeyi",
+          "aciklama": "Eksiltili dilek, üç noktayla sürdürülen duygu taşır.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-1-uc-nokta-9",
+          "tip": "secim",
+          "soru": "“— Kararın nedir? — Belki...” aktarımında üç nokta hangi işlevdedir?",
+          "secenekler": [
+            "Kararın açıkça tamamlanmamasını",
+            "Bir tablo toplamını",
+            "Büyük harf kuralını"
+          ],
+          "dogru": "Kararın açıkça tamamlanmamasını",
+          "aciklama": "Cevap kesin bir yargıya ulaşmadan bırakılmıştır.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-1-uc-nokta-10",
+          "tip": "secim",
+          "soru": "“Hey, buraya bak...” aktarımında üç nokta hangi işlevdedir?",
+          "secenekler": [
+            "Bir ilgi ekini göstermeyi",
+            "Dize sayısını hesaplamayı",
+            "Seslenişi sürdürmeyi"
+          ],
+          "dogru": "Seslenişi sürdürmeyi",
+          "aciklama": "Üç nokta bu seslenişte anlatımın etkisini sürdürür.",
+          "cikti": "T.Y.7.21"
+        }
+      ]
+    }
+  ],
+  "dinleme": [
+    {
+      "id": "7-1-dinleme",
+      "baslik": "Değişen Plan",
+      "metin": "Mira okuma planında yalnız sayfa sayısını kaydediyordu. Bir gün okuduğu bölümün olaylarını anlatamayınca planını değiştirdi. Sayfa sayısının yanına kısa özet ve bir soru ekledi. İki gün çalışamadığında boşlukları tahminle doldurmadı. Hangi sorumlulukların çakıştığını yazdı. Sonraki hafta daha kısa bir çalışma aralığı seçti. Öğretmeni, bu değişikliği vazgeçmek değil koşullara göre planı düzeltmek olarak değerlendirdi. Mira artık yeni yöntemin her metinde aynı sonucu vereceğini de varsaymıyordu.",
+      "tts": {
+        "dil": "tr-TR",
+        "sesYoksa": "metin"
+      },
+      "sorular": [
+        {
+          "id": "7-1-dinleme-1",
+          "tip": "secim",
+          "soru": "“Değişen Plan” dinleme metnine göre: İlk kayıtta ne bulunuyordu?",
+          "secenekler": [
+            "Kitapların fiyatı",
+            "Sayfa sayısı",
+            "Yalnız soru sayısı"
+          ],
+          "dogru": "Sayfa sayısı",
+          "aciklama": "Metindeki olay ve açıklamalar “Sayfa sayısı” seçeneğini destekler; diğer seçeneklerdeki ayrıntılar dinlenen içerikle uyuşmaz.",
+          "cikti": "T.D.7.5"
+        },
+        {
+          "id": "7-1-dinleme-2",
+          "tip": "secim",
+          "soru": "“Değişen Plan” dinleme metnine göre: Yeni plana ne eklendi?",
+          "secenekler": [
+            "Kısa özet ve soru",
+            "Sadece kapak rengi",
+            "Arkadaşların özel bilgileri"
+          ],
+          "dogru": "Kısa özet ve soru",
+          "aciklama": "Metindeki olay ve açıklamalar “Kısa özet ve soru” seçeneğini destekler; diğer seçeneklerdeki ayrıntılar dinlenen içerikle uyuşmaz.",
+          "cikti": "T.D.7.5"
+        },
+        {
+          "id": "7-1-dinleme-3",
+          "tip": "secim",
+          "soru": "“Değişen Plan” dinleme metnine göre: Boş günler nasıl kaydedildi?",
+          "secenekler": [
+            "Tahminle dolduruldu",
+            "Defterden koparıldı",
+            "Nedeni açıklanarak boş bırakıldı"
+          ],
+          "dogru": "Nedeni açıklanarak boş bırakıldı",
+          "aciklama": "Metindeki olay ve açıklamalar “Nedeni açıklanarak boş bırakıldı” seçeneğini destekler; diğer seçeneklerdeki ayrıntılar dinlenen içerikle uyuşmaz.",
+          "cikti": "T.D.7.5"
+        },
+        {
+          "id": "7-1-dinleme-4",
+          "tip": "secim",
+          "soru": "“Değişen Plan” dinleme metnine göre: Son bölüm hangi değişimi gösterir?",
+          "secenekler": [
+            "Her yöntemin aynı sayılmasını",
+            "Planın koşullara göre uyarlanmasını",
+            "Okumanın tamamen bırakılmasını"
+          ],
+          "dogru": "Planın koşullara göre uyarlanmasını",
+          "aciklama": "Metindeki olay ve açıklamalar “Planın koşullara göre uyarlanmasını” seçeneğini destekler; diğer seçeneklerdeki ayrıntılar dinlenen içerikle uyuşmaz.",
+          "cikti": "T.D.7.5"
+        }
+      ]
+    }
+  ],
+  "yazmaGorevleri": [
+    {
+      "id": "7-1-yazma",
+      "baslik": "Kendi Çalışma Planım",
+      "yonerge": "Kurgusal bir öğrencinin öğrenme hedefini 140–220 kelimede küçük adımlara ayır. Amaç, kayıt yöntemi ve gözden geçirme zamanı belirt. Bir aksama durumunda planın nasıl uyarlanacağını açıkla. İkileme ile uygun noktalama kullan.",
+      "minKelime": 140,
+      "maxKelime": 220,
+      "ciktilar": [
+        "T.Y.7.1",
+        "T.Y.7.3",
+        "T.Y.7.21",
+        "T.Y.7.22"
+      ],
+      "ogretmenDegerlendirmeli": true,
+      "rubrik": [
+        {
+          "olcut": "Amaç ve içerik",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Gerekçe ve anlam bütünlüğü",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Dil yapıları ve söz varlığı",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Yazım, noktalama ve gözden geçirme",
+          "enDusuk": 0,
+          "enYuksek": 4
+        }
+      ]
+    }
+  ],
+  "lgsSorulari": []
+}

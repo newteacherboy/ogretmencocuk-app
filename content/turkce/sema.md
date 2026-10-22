@@ -6,8 +6,8 @@ Asıl içerik kaynağı bu klasördeki JSON dosyalarıdır. Sıra **sınıf → 
 
 - `sema.json`: JSON Schema 2020-12. `belgeTuru` ile `mufredat` ve `tema` ayrılır; bilinmeyen alanlar reddedilir.
 - `kaynaklar.json`: resmi tema kaynakları, kontrol tarihi ve doğrulanmış kodlar; yıllık planın adresi ve kontrol edilen sayfa/satırlar. İndirilen kaynakların SHA-256 değerleri izlenebilirlik içindir. CI internete bağlanıp kaynak metinlerinin doğruluğunu yeniden onaylamaz.
-- `5-sinif`–`7-sinif`: `program: "TYMM"`. 5. ve 6. sınıfın altışar teması hazırdır; 7. sınıf sonraki içerik teslimidir.
-- `8-sinif`: `program: "2019"`; her temada en az 20 LGS sorusu gerekir. Şema 2019 biçimindeki `T.8.3.1` gibi kodları da destekler. TYMM'ye geçiş ayrıca sürümlenecektir. 7. ve 8. sınıf bankaları henüz hazır değildir.
+- `5-sinif`–`7-sinif`: `program: "TYMM"`. 5., 6. ve 7. sınıfın altışar teması hazırdır.
+- `8-sinif`: `program: "2019"`; her temada en az 20 LGS sorusu gerekir. Şema 2019 biçimindeki `T.8.3.1` gibi kodları da destekler. TYMM'ye geçiş ayrıca sürümlenecektir. 8. sınıf bankası sonraki teslimdir.
 
 ## Tema alanları
 
@@ -61,7 +61,7 @@ node tools/icerik-dogrula.mjs
 node --test tests/turkce-content.test.mjs
 ```
 
-Araç şema uyumu yanında doğru cevabı, soru/kimlik/kelime tekrarlarını, karakter bozulmalarını, kod biçimi ve sınıfını, kaynak kaydını, tema-müfredat eşleşmesini, resmî tema çıktı listesinin eksiksizliğini, kaynak adresi eşleşmesini, 5. ve 6. sınıfta altı tema şartını, konu kapsamını, metin uzunluğunu, güvenli anlatım HTML'ini ve öğretmen değerlendirmesi şartını kontrol eder. Hata varsa çıkış kodu 1 olur. `--json` rapor, `--root <depo>` başka bir kontrol kökü sağlar. Araç öğrenci veritabanına bağlanmaz.
+Araç şema uyumu yanında doğru cevabı, soru/kimlik/kelime tekrarlarını, karakter bozulmalarını, kod biçimi ve sınıfını, kaynak kaydını, tema-müfredat eşleşmesini, resmî tema çıktı listesinin eksiksizliğini, kaynak adresi eşleşmesini, 5–7. sınıfta altı tema şartını, konu kapsamını, metin uzunluğunu, güvenli anlatım HTML'ini ve öğretmen değerlendirmesi şartını kontrol eder. Hata varsa çıkış kodu 1 olur. `--json` rapor, `--root <depo>` başka bir kontrol kökü sağlar. Araç öğrenci veritabanına bağlanmaz.
 
 GitHub Actions `turkce-icerik.yml`, kilit dosyasıyla Node 22 üzerinde bu denetimleri çalıştırır. Dilsel doğruluk, tek anlamlılık, kaynak-çıktı eşlemesinin pedagojik niteliği ve öğretmen incelemesi ayrıca değerlendirilir; otomatik kontrol bunların yerine geçmez.
 
