@@ -19,5 +19,5 @@
  const observer=new MutationObserver(mount);
  for(const root of [document.getElementById('login-container'),document.getElementById('dmDiscovery')].filter(Boolean))observer.observe(root,{childList:true,subtree:true});
  mount();
- fetch('https://yeni-proje-ref.supabase.co/auth/v1/settings',{headers:{apikey:'YENI_PUBLISHABLE_KEY'}}).then(r=>r.json()).then(settings=>{enabled=!!settings.external?.apple;mount();}).catch(()=>{});
+ fetch('https://isgnsmkboehygxxysria.supabase.co/auth/v1/settings',{headers:{apikey:'sb_publishable_C79a3Zjz90omNzGLMFf1YQ_mEH1cwAa'}}).then(r=>r.json()).then(settings=>{enabled=!!settings.external?.apple;mount();}).catch(()=>{});
 })();

@@ -4,7 +4,7 @@ A1 ortak oyun ekranları düzeltildi; A2'nin aktif 43 konusu için 86 oyun eklen
 
 ## Yayın
 
-- Supabase projesi: `yeni-proje-ref`.
+- Supabase projesi: `isgnsmkboehygxxysria`.
 - Yalnızca `diji-api` yayınlandı; son sürüm **186 / ACTIVE**, `verify_jwt=false`, giriş dosyası `index.ts`.
 - Migration/SQL değişikliği uygulanmadı. Mevcut metin türündeki `topic_key` ve ödül RPC'si A2'yi destekliyor.
 - Main'e eşzamanlı eklenen yönetim modülü değişikliği korunarak son fonksiyon paketi main ile eşitlendi; bu modül PR #152'nin değişikliği değildir.

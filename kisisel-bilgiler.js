@@ -5,7 +5,7 @@
    <script src="kisisel-bilgiler.js?v=1"></script>
    ===================================================================== */
 (function () {
-  const API = "https://yeni-proje-ref.supabase.co/functions/v1/diji-api";
+  const API = "https://isgnsmkboehygxxysria.supabase.co/functions/v1/diji-api";
 
   const css = `
   .kb-perde{position:fixed;inset:0;z-index:100000;background:rgba(30,20,60,.55);display:flex;align-items:flex-end;justify-content:center;padding:0;font-family:inherit}

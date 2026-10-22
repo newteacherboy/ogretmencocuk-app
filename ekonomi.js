@@ -6,7 +6,7 @@
    ===================================================================== */
 (function () {
   'use strict';
-  const API = "https://yeni-proje-ref.supabase.co/functions/v1/diji-api";
+  const API = "https://isgnsmkboehygxxysria.supabase.co/functions/v1/diji-api";
   let bekleyen = 0, zamanlayici = null, gonderiliyor = false, sinirGunu = '', ilkDurum = '';
 
   const ogrenci = () => (typeof aktifOgrenciAdi !== 'undefined' && aktifOgrenciAdi) ? String(aktifOgrenciAdi) : '';

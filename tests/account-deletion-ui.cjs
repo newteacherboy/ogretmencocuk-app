@@ -7,7 +7,7 @@ const { chromium } = require(process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES + '/
   const browser = await chromium.launch({ executablePath: process.env.DIJI_CHROMIUM || '/tmp/diji-chromium/chromium', args: binary.args, headless: true });
   const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
   let preparations = 0, confirmations = 0, lastAdmin = false;
-  await page.route('https://yeni-proje-ref.supabase.co/**', async route => {
+  await page.route('https://isgnsmkboehygxxysria.supabase.co/**', async route => {
     const body = JSON.parse(route.request().postData() || '{}');
     let status = 200, data;
     if (body.operation === 'prepare') {

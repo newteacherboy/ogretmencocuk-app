@@ -1,6 +1,6 @@
 (function(){
   'use strict';
-  const API='https://yeni-proje-ref.supabase.co/functions/v1/diji-api';
+  const API='https://isgnsmkboehygxxysria.supabase.co/functions/v1/diji-api';
   const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   async function request(body){
     const t=sessionStorage.getItem('ing_ogr_token');

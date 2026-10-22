@@ -1,6 +1,6 @@
 /* Report and block remain available even when social participation is disabled. */
 (()=>{'use strict';
- const endpoint='https://yeni-proje-ref.supabase.co/functions/v1/diji-api';
+ const endpoint='https://isgnsmkboehygxxysria.supabase.co/functions/v1/diji-api';
  const $=id=>document.getElementById(id),who=()=>typeof aktifOgrenciAdi==='undefined'?'':String(aktifOgrenciAdi||'');
  const studentToken=()=>{try{return localStorage.getItem('ing_token')||'';}catch{return '';}};
  const teacherToken=()=>{try{return sessionStorage.getItem('ing_ogr_token')||'';}catch{return '';}};

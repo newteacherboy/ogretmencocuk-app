@@ -4,7 +4,7 @@ Kod ve veritabanı hazır olsa da gerçek AI yanıtları Cloudflare hesabı bağ
 
 1. Cloudflare Workers **Free** hesabında Workers AI → Use REST API bölümünü açın. Ücretli Workers planına veya AI Gateway kredilerine geçmeyin. Bu uygulama hesap planını API üzerinden değiştirmez veya yükseltmez.
 2. Workers AI token şablonuyla yalnız ilgili hesap için **Workers AI Read / Edit** yetkili bir token oluşturun. Account ID bilgisini alın. Token'ı sohbete, GitHub'a veya tarayıcı koduna yapıştırmayın.
-3. Supabase projesi `yeni-proje-ref` → Edge Functions → Secrets alanına ekleyin:
+3. Supabase projesi `isgnsmkboehygxxysria` → Edge Functions → Secrets alanına ekleyin:
 
 | Secret adı | Değer |
 |---|---|

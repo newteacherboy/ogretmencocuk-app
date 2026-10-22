@@ -1,5 +1,5 @@
 -- Diji Medu Türkçe veritabanı kurulumu: zamanlanmış işler (pg_cron)
--- Diji Medu Türkçe'daki 13 zamanlanmış işin aynısı. Proje adresi kurulumda yeni-proje-ref yerine yazılır.
+-- Diji Medu Türkçe'daki 13 zamanlanmış işin aynısı. Proje adresi kurulumda isgnsmkboehygxxysria yerine yazılır.
 
 select cron.schedule('diji_cron_kayit_temizligi', '0 1 * * *', $$delete from cron.job_run_details where end_time < now() - interval '7 days'$$);
 select cron.schedule('diji-account-deletion-cleanup', '*/10 * * * *', $$select public.diji_deletion_tick()$$);
@@ -19,7 +19,7 @@ select cron.schedule('dm-social-safety-retention', '37 * * * *', $$
 $$);
 select cron.schedule('dm-papi-progress-dispatch', '* * * * *', $$
  select net.http_post(
-  url := 'https://yeni-proje-ref.supabase.co/functions/v1/papi-progress-worker',
+  url := 'https://isgnsmkboehygxxysria.supabase.co/functions/v1/papi-progress-worker',
   headers := jsonb_build_object(
    'Content-Type','application/json',
    'x-papi-worker',(select secret from dm_private.dm_papi_worker_secret where key_name='mail_worker')

@@ -7,7 +7,7 @@
  async function verify(){
   if(busy)return;busy=true;button.disabled=true;status.textContent='E-posta adresin doğrulanıyor…';
   try{
-   const response=await fetch('https://yeni-proje-ref.supabase.co/functions/v1/diji-api',{method:'POST',headers:{'Content-Type':'application/json'},cache:'no-store',body:JSON.stringify({islem:'emailDogrula',token:ticket})});
+   const response=await fetch('https://isgnsmkboehygxxysria.supabase.co/functions/v1/diji-api',{method:'POST',headers:{'Content-Type':'application/json'},cache:'no-store',body:JSON.stringify({islem:'emailDogrula',token:ticket})});
    const result=await response.json();
    if(!response.ok||!result.ok||!result.token||!result.ogrenci){status.textContent=result.mesaj||'Doğrulama tamamlanamadı. Yeni bağlantı iste.';button.hidden=true;login.hidden=false;return;}
    localStorage.setItem('ing_token',result.token);

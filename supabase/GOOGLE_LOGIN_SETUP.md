@@ -9,7 +9,7 @@ Sorumlu öğretmene, kod yoksa yöneticiye kayıt bilgisi bildirim kuyruğuna ek
 SQL: google-login.sql eşleştirme tablosunu; google-signup.sql sunucuya özel SECURITY INVOKER register_google_student işlevini oluşturur. İkisi de anon/authenticated erişimine kapalıdır. JWT doğrulaması Edge Function içinde yapılır; fonksiyonun önceki verify_jwt=false ayarı korunur.
 
 Google OAuth origin: https://ogretmencocuk.com
-Google OAuth callback: https://yeni-proje-ref.supabase.co/auth/v1/callback
+Google OAuth callback: https://isgnsmkboehygxxysria.supabase.co/auth/v1/callback
 Supabase izinli uygulama dönüşü: https://ogretmencocuk.com/
 İngilizceye ait Auth storageKey: diji-ingilizce-google-auth
 

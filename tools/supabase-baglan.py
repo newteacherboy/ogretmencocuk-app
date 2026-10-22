@@ -25,7 +25,7 @@ if 'service_role' in key or key.startswith('sb_secret_'):
     sys.exit('Bu bir gizli anahtar. Tarayıcı koduna yalnızca publishable anahtar yazılır.')
 
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-TEXT = ('.html', '.js', '.mjs', '.cjs', '.ts', '.json', '.md', '.yml', '.yaml', '.sql', '.txt')
+TEXT = ('.html', '.js', '.mjs', '.cjs', '.ts', '.json', '.md', '.yml', '.yaml', '.sql', '.txt', '.conf')
 changed = 0
 for d, dirs, files in os.walk(root):
     dirs[:] = [x for x in dirs if x not in ('.git', 'node_modules', 'diji-medu-gecmisi')]

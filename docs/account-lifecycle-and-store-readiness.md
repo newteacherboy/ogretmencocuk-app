@@ -9,7 +9,7 @@ Implemented 2026-10-19:
 
 ## External setup still required
 
-Apple login is hidden until Supabase's public provider settings report Apple enabled. Configure the primary App ID, Services ID, Team ID, Key ID and signing key in the Apple/Supabase consoles. The Apple OAuth client secret must be renewed before its six-month expiration. Register the Supabase callback `https://yeni-proje-ref.supabase.co/auth/v1/callback`. Allow the portal return URL `https://ogretmencocuk.com/` and the registration return URL ending in `?kesifKayit=apple`. Keep signing keys out of this repository and chat messages. Complete real Apple login, private-email relay and Apple token-revocation-on-deletion tests before enabling Apple for release.
+Apple login is hidden until Supabase's public provider settings report Apple enabled. Configure the primary App ID, Services ID, Team ID, Key ID and signing key in the Apple/Supabase consoles. The Apple OAuth client secret must be renewed before its six-month expiration. Register the Supabase callback `https://isgnsmkboehygxxysria.supabase.co/auth/v1/callback`. Allow the portal return URL `https://ogretmencocuk.com/` and the registration return URL ending in `?kesifKayit=apple`. Keep signing keys out of this repository and chat messages. Complete real Apple login, private-email relay and Apple token-revocation-on-deletion tests before enabling Apple for release.
 
 No actual Google or Apple customer account was deleted during QA. Mocked OAuth UI/API tests verify the Google-only path. A real provider round trip remains part of final device acceptance testing.
 

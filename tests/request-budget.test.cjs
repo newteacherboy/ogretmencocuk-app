@@ -1,5 +1,5 @@
 const {test}=require('node:test'),assert=require('node:assert/strict'),vm=require('node:vm'),fs=require('node:fs'),{stripTypeScriptTypes}=require('node:module');
-const API='https://yeni-proje-ref.supabase.co/functions/v1/diji-api';
+const API='https://isgnsmkboehygxxysria.supabase.co/functions/v1/diji-api';
 function fixture(handler){
  let now=1000000;class Clock extends Date{static now(){return now;}}
  const store=new Map([['ing_token','first-token'],['ing_aktifOgrenci','First']]);

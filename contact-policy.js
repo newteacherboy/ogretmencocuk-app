@@ -1,6 +1,6 @@
 (function(){
   'use strict';
-  const API='https://yeni-proje-ref.supabase.co/functions/v1/diji-api';
+  const API='https://isgnsmkboehygxxysria.supabase.co/functions/v1/diji-api';
   let token='',checking=false,deadline=0,deadlineTimer=null,focusBefore=null;
   function studentToken(){try{return sessionStorage.getItem('ing_ogr_token')?'':localStorage.getItem('ing_token')||'';}catch{return '';}}
   function remove(id){document.getElementById(id)?.remove();}

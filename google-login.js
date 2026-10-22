@@ -267,7 +267,7 @@
           const auth = await supabaseClient.auth.getSession();
           const token = auth.data?.session?.access_token;
           if (token) {
-            await fetch('https://yeni-proje-ref.supabase.co/functions/v1/papi-progress-optin', {
+            await fetch('https://isgnsmkboehygxxysria.supabase.co/functions/v1/papi-progress-optin', {
               method:'POST',
               headers:{'Content-Type':'application/json',Authorization:'Bearer '+token},
               body:JSON.stringify({subscribe:true})

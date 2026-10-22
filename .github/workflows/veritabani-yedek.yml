@@ -28,7 +28,7 @@ jobs:
           cd "$RUNNER_TEMP/backup"
           trap 'rm -f full.dump' EXIT
           docker run --rm --network host -e PGPASSWORD -v "$PWD:/backup" postgres:18 \
-            pg_dump "host=aws-1-eu-central-1.pooler.supabase.com port=5432 dbname=postgres user=postgres.yeni-proje-ref sslmode=require connect_timeout=12" \
+            pg_dump "host=aws-1-eu-central-1.pooler.supabase.com port=5432 dbname=postgres user=postgres.isgnsmkboehygxxysria sslmode=require connect_timeout=12" \
             -Fc -f /backup/full.dump
           test -s full.dump
           docker run --rm -v "$PWD:/backup:ro" postgres:18 pg_restore --list /backup/full.dump >/dev/null

@@ -2,11 +2,11 @@ const fs=require('node:fs'),path=require('node:path'),assert=require('node:asser
 (async()=>{
 const browser=await chromium.launch({executablePath:'/tmp/diji-browser/chromium',args:['--no-sandbox','--no-zygote','--single-process'],env:{...process.env,LD_LIBRARY_PATH:'/tmp/diji-browser/lib'}}),page=await browser.newPage({viewport:{width:390,height:844}}),errors=[],calls=[];
 page.on('pageerror',e=>errors.push(e.message));page.on('dialog',d=>d.dismiss());
-const API='https://yeni-proje-ref.supabase.co/functions/v1/diji-api';
+const API='https://isgnsmkboehygxxysria.supabase.co/functions/v1/diji-api';
 const answer=op=>op==='seviyeDurumu'?{ok:true,level:1,feed:false,lessons:{}}:op==='yayinOzellikleri'?{ok:true,flags:{},admin:false}:op==='kelimelerGetir'?[{sinif:3,unite:1,ingilizce:'cat',turkce:'kedi'}]:op==='bildirimlerim'?{ok:true,liste:[]}:[];
 await page.route('**/*',async route=>{
  const u=new URL(route.request().url());
- if(u.hostname==='yeni-proje-ref.supabase.co'){
+ if(u.hostname==='isgnsmkboehygxxysria.supabase.co'){
  let b;try{b=route.request().postDataJSON();}catch{}const op=b?.islem||u.searchParams.get('islem')||'KOK';calls.push({op,b});
  const d=op==='okumaGrubu'?{ok:true,results:b.istekler.map(x=>({status:200,body:JSON.stringify(answer(x.islem))}))}:answer(op);
  return route.fulfill({json:d,headers:op==='kelimelerGetir'?{'X-Diji-Content-Version':'fixture'}:{}});

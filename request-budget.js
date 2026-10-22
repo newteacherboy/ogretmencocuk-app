@@ -1,7 +1,7 @@
 (function(){
   'use strict';
   if(window.dmRequestBudget||window.dmGuestMode)return;
-  const native=window.fetch.bind(window),endpoint='https://yeni-proje-ref.supabase.co/functions/v1/';
+  const native=window.fetch.bind(window),endpoint='https://isgnsmkboehygxxysria.supabase.co/functions/v1/';
   const content=new Set(['kelimelerGetir','dersKonuDetayGetir']);
   const reads=new Set(['bildirimlerim','ilerlemeOzet','enerjiDurumuGetir','duyurulariGetir',
     'sosyalOgrencilerGetir','ekVeriGetir','seviyeDurumu','seviyeLigListesi',

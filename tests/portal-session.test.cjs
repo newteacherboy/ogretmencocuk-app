@@ -1,7 +1,7 @@
 const {test}=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
 const html=fs.readFileSync('index.html','utf8');
 const source=html.slice(html.indexOf('  /* Attach a token'),html.indexOf('  /* Sekme arka'));
-const API='https://yeni-proje-ref.supabase.co/functions/v1/diji-api';
+const API='https://isgnsmkboehygxxysria.supabase.co/functions/v1/diji-api';
 function setup(student='student',teacher=''){
   function storage(v){const m=new Map(v);return {getItem:k=>m.get(k)||null,setItem:(k,v)=>m.set(k,String(v)),removeItem:k=>m.delete(k)};}
   const localStorage=storage([['ing_token',student]]),sessionStorage=storage(teacher?[['ing_ogr_token',teacher]]:[]),requests=[],alerts=[],events=[];

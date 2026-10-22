@@ -8,7 +8,7 @@
    Diğer kartlarda rozet gösterilmez. */
 (()=>{'use strict';
 if(window.dmProfileBadges)return;
-const API='https://yeni-proje-ref.supabase.co/functions/v1/diji-api';
+const API='https://isgnsmkboehygxxysria.supabase.co/functions/v1/diji-api';
 const who=()=>typeof aktifOgrenciAdi!=='undefined'?String(aktifOgrenciAdi||''):'';
 const member=()=>{const n=who();return !!n&&n.toLowerCase()!=='teacher'&&!window.dmGuestMode;};
 const store={get(k){try{return localStorage.getItem(k)||'';}catch{return '';}},set(k,v){try{localStorage.setItem(k,v);}catch{}}};

@@ -1,11 +1,11 @@
 (function () {
   'use strict';
-  const endpoint = 'https://yeni-proje-ref.supabase.co/functions/v1/account-delete';
+  const endpoint = 'https://isgnsmkboehygxxysria.supabase.co/functions/v1/account-delete';
   const $ = id => document.getElementById(id);
   let ticket = '', account = null, busy = false;
   const action=location.pathname.endsWith('hesap-dondur.html')?'freeze':location.pathname.endsWith('hesap-ac.html')?'restore':'delete';
   const confirmationText=action==='freeze'?'HESABIMI DONDUR':action==='restore'?'HESABIMI AÇ':'HESABIMI SİL';
-  const authClient=window.supabase?.createClient('https://yeni-proje-ref.supabase.co','YENI_PUBLISHABLE_KEY',{auth:{storageKey:'diji-account-action-auth',persistSession:true}});
+  const authClient=window.supabase?.createClient('https://isgnsmkboehygxxysria.supabase.co','sb_publishable_C79a3Zjz90omNzGLMFf1YQ_mEH1cwAa',{auth:{storageKey:'diji-account-action-auth',persistSession:true}});
   function showConfirmation(data){
     ticket=data.ticket;account=data;
     $('accountLabel').textContent=data.username+' · '+(data.role==='teacher'?'Öğretmen hesabı':'Öğrenci hesabı');
@@ -20,7 +20,7 @@
   }catch(e){sessionStorage.removeItem('dm_account_action_pending');result('Doğrulama başlatılamadı. '+e.message);setBusy(false);}}
   $('googleVerify').onclick=()=>oauth('google');$('appleVerify').onclick=()=>oauth('apple');
   (async()=>{
-    try{const settings=await fetch('https://yeni-proje-ref.supabase.co/auth/v1/settings',{headers:{apikey:'YENI_PUBLISHABLE_KEY'}}).then(r=>r.json());$('appleVerify').hidden=!settings.external?.apple;}catch{}
+    try{const settings=await fetch('https://isgnsmkboehygxxysria.supabase.co/auth/v1/settings',{headers:{apikey:'sb_publishable_C79a3Zjz90omNzGLMFf1YQ_mEH1cwAa'}}).then(r=>r.json());$('appleVerify').hidden=!settings.external?.apple;}catch{}
     if(!new URLSearchParams(location.search).has('oauth')||sessionStorage.getItem('dm_account_action_pending')!==action||!authClient)return;
     sessionStorage.removeItem('dm_account_action_pending');setBusy(true);
     try{const {data,error}=await authClient.auth.getSession();history.replaceState(null,'',location.pathname);if(error||!data.session)throw Error('Kimlik doğrulaması tamamlanamadı. Yeniden dene.');showConfirmation(await request({operation:'prepare_oauth',action,role:'student',username:''},data.session.access_token));}
@@ -74,7 +74,7 @@
     }
     if (currentDeleted) {
       ['ing_token','ing_oturumAcik','ing_aktifOgrenci','ing_toplamSaniye','ing_google_auth','ing_girisSerisiSayisi','ing_girisSerisiSonTarih'].forEach(key => localStorage.removeItem(key));
-      localStorage.removeItem('sb-yeni-proje-ref-auth-token');
+      localStorage.removeItem('sb-isgnsmkboehygxxysria-auth-token');
       localStorage.removeItem('diji-ingilizce-google-auth');
     }
     if (role === 'teacher') sessionStorage.removeItem('ing_ogr_token');

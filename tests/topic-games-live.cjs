@@ -1,6 +1,6 @@
 /* Explicit production smoke check: fixed public demo identity only. No data cleanup. */
 const fs=require('fs'),assert=require('assert/strict'),{chromium}=require(process.env.TOPIC_PLAYWRIGHT_PATH||'playwright');
-const API='https://yeni-proje-ref.supabase.co/functions/v1/diji-api',SITE='https://ogretmencocuk.com/';
+const API='https://isgnsmkboehygxxysria.supabase.co/functions/v1/diji-api',SITE='https://ogretmencocuk.com/';
 const source=fs.readFileSync('supabase/functions/diji-api/demo-account.ts','utf8'),user=source.match(/DEMO_USER='([^']+)'/)[1],password=source.match(/şifre:\s*(\d+)/)[1];
 const catalogs={A1:require('../konu-oyunlari-a1.js'),A2:require('../konu-oyunlari-a2.js')};let token;
 async function api(islem,data={}){const r=await fetch(API,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({islem,...data,...(token?{t:token}:{})})});const d=await r.json();assert(r.ok&&d?.ok!==false,d?.mesaj||'API failure');return d;}

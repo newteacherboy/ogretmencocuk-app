@@ -5,7 +5,7 @@
    Eski telefonla sıfırlama penceresinin yerine geçer.
    ===================================================================== */
 (function () {
-  const API = "https://yeni-proje-ref.supabase.co/functions/v1/diji-api";
+  const API = "https://isgnsmkboehygxxysria.supabase.co/functions/v1/diji-api";
   const MIN = 8;
   const MAX = 64;
   const css = `
