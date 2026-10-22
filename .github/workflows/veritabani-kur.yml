@@ -1,0 +1,41 @@
+name: Veritabanını kur
+# Elle çalıştırılır. supabase/migrations içindeki kurulum dosyalarını yeni Supabase projesine uygular.
+# Gerekli GitHub secret'ları:
+#   SUPABASE_ACCESS_TOKEN  — yeni Supabase hesabı > Account > Access Tokens
+#   SUPABASE_DB_PASSWORD   — proje açılırken belirlenen veritabanı şifresi
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: 'Kurmak için KUR yazın'
+        required: true
+permissions:
+  contents: read
+concurrency:
+  group: veritabani-kur
+  cancel-in-progress: false
+jobs:
+  migrate:
+    if: ${{ github.event.inputs.confirm == 'KUR' }}
+    runs-on: ubuntu-latest
+    env:
+      SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+      SUPABASE_DB_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD }}
+      PROJECT_REF: yeni-proje-ref
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ön kontrol
+        run: |
+          case "$PROJECT_REF" in yeni-*) echo "::error::Önce yeni proje bağlanmalı (tools/supabase-baglan.py)"; exit 1;; esac
+          test -n "$SUPABASE_ACCESS_TOKEN" || { echo "::error::SUPABASE_ACCESS_TOKEN secret eksik"; exit 1; }
+          test -n "$SUPABASE_DB_PASSWORD" || { echo "::error::SUPABASE_DB_PASSWORD secret eksik"; exit 1; }
+          if grep -rq 'yeni-proje-ref' supabase/migrations; then echo "::error::Migration dosyalarında yer tutucu kalmış"; exit 1; fi
+      - uses: supabase/setup-cli@v1
+        with:
+          version: latest
+      - name: Projeye bağlan
+        run: supabase link --project-ref "$PROJECT_REF" --password "$SUPABASE_DB_PASSWORD"
+      - name: Kurulum dosyalarını uygula
+        run: supabase db push --password "$SUPABASE_DB_PASSWORD" --include-all --yes
+      - name: Kontrol
+        run: supabase migration list --password "$SUPABASE_DB_PASSWORD"
