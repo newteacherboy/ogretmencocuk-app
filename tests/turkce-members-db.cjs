@@ -30,8 +30,23 @@ for(let run=0;run<2;run++){
  for(let i=0;i<5;i++){await db.query("update public.turkce_attempts set last_action_at=now()-interval '1 second'");const ans=(await db.query("select answer from turkce_private.turkce_question_keys where mode='game' and activity_id='kelime-dedektifi' and question_index=$1",[i])).rows[0].answer;const result=await call('answer',{attempt_id:game.attempt_id,index:i,answer:ans});if(i===4){assert.equal(result.reward.xp,run===0?70:0);assert.equal(result.reward.repeat,run!==0);}}
 }
 assert.equal((await call('state')).economy.xp,210);
+const gameRetry=await asOther('start',{mode:'game',activity_id:'kelime-dedektifi'});
+for(let n=1;n<=3;n++){
+ await db.query("update public.turkce_attempts set last_action_at=now()-interval '1 second'");
+ const retry=await asOther('answer',{attempt_id:gameRetry.attempt_id,index:0,answer:null});
+ assert.equal(retry.advanced,n===3);assert.equal(retry.correct,false);
+ if(n<3)assert.equal(retry.correct_answer,null);else assert.notEqual(retry.correct_answer,null);
+}
+console.log('PASS games keep retry behavior and hide solution until advancement');
 let bad=await call('start',{mode:'stop',activity_id:'2'});let result;
-for(let i=0;i<6;i++){for(let n=0;n<3;n++){await db.query("update public.turkce_attempts set last_action_at=now()-interval '1 second'");result=await call('answer',{attempt_id:bad.attempt_id,index:i,answer:null});}}
+for(let i=0;i<6;i++){
+ const key=(await db.query("select answer,answer_kind from turkce_private.turkce_question_keys where mode='stop' and activity_id='2' and question_index=$1",[i])).rows[0];
+ await db.query("update public.turkce_attempts set last_action_at=now()-interval '1 second'");
+ result=await call('answer',{attempt_id:bad.attempt_id,index:i,answer:key.answer_kind==='ungraded_text'?'Anlamlı bir cümle yazıyorum.':null});
+ assert.equal(result.advanced,true);assert.equal(result.index,i+1);assert.equal(result.correct_first,0);
+ if(key.answer_kind!=='ungraded_text'){assert.equal(result.correct,false);assert.deepEqual(result.correct_answer,key.answer);await assert.rejects(()=>call('answer',{attempt_id:bad.attempt_id,index:i,answer:key.answer}),/Soru sırası/);}
+}
+console.log('PASS first wrong stop answer reveals solution and advances; replay cannot change score');
 assert.equal(result.reward.passed,false);assert.deepEqual(result.completed,[1]);assert.equal(result.economy.xp,210);
 await db.query("update public.turkce_reward_ledger set earned_at=now()-interval '8 days' where mode='stop'");
 assert.equal((await call('leagues',{league:'local'})).rows[0].xp,70);assert.equal((await call('leagues',{league:'legends'})).rows[0].xp,210);
