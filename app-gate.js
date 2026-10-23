@@ -1,0 +1,1 @@
+(function(){'use strict';const member=window.turkceMember;member.ready.then(()=>{if(!member.data||!member.user){location.replace('./');return;}document.documentElement.removeAttribute('data-app-pending');document.getElementById('app-loading')?.remove();});window.addEventListener('member-state',e=>{if(!e.detail)location.replace('./');});})();

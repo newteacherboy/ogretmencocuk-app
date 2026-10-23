@@ -1,0 +1,1 @@
+(function(){'use strict';window.turkceMember.ready.then(member=>{if(member.data&&member.user){location.replace('parkur.html');return;}if(member.error)document.getElementById('entry-status').textContent=member.error;});})();
