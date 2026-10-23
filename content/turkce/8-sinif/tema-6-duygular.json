@@ -1,0 +1,1079 @@
+{
+  "belgeTuru": "tema",
+  "semaSurumu": "1.0",
+  "sinif": 8,
+  "program": "2019",
+  "tema": 6,
+  "temaAdi": "Duygular",
+  "durum": "incelemeye_hazir",
+  "kaynak": "https://mufredat.meb.gov.tr/Dosyalar/20195716392253-02-T%C3%BCrk%C3%A7e%20%C3%96%C4%9Fretim%20Program%C4%B1%202019.pdf",
+  "kaynak_dogrulanmadi": false,
+  "ogrenmeCiktilari": [
+    "T.8.1.1",
+    "T.8.1.10",
+    "T.8.1.11",
+    "T.8.1.12",
+    "T.8.1.13",
+    "T.8.1.14",
+    "T.8.1.2",
+    "T.8.1.3",
+    "T.8.1.4",
+    "T.8.1.5",
+    "T.8.1.6",
+    "T.8.1.7",
+    "T.8.1.8",
+    "T.8.1.9",
+    "T.8.2.1",
+    "T.8.2.2",
+    "T.8.2.3",
+    "T.8.2.4",
+    "T.8.2.5",
+    "T.8.2.6",
+    "T.8.2.7",
+    "T.8.3.1",
+    "T.8.3.10",
+    "T.8.3.11",
+    "T.8.3.12",
+    "T.8.3.13",
+    "T.8.3.14",
+    "T.8.3.15",
+    "T.8.3.16",
+    "T.8.3.17",
+    "T.8.3.18",
+    "T.8.3.19",
+    "T.8.3.2",
+    "T.8.3.20",
+    "T.8.3.21",
+    "T.8.3.22",
+    "T.8.3.23",
+    "T.8.3.24",
+    "T.8.3.25",
+    "T.8.3.26",
+    "T.8.3.27",
+    "T.8.3.28",
+    "T.8.3.29",
+    "T.8.3.3",
+    "T.8.3.30",
+    "T.8.3.31",
+    "T.8.3.32",
+    "T.8.3.33",
+    "T.8.3.34",
+    "T.8.3.35",
+    "T.8.3.4",
+    "T.8.3.5",
+    "T.8.3.6",
+    "T.8.3.7",
+    "T.8.3.8",
+    "T.8.3.9",
+    "T.8.4.1",
+    "T.8.4.10",
+    "T.8.4.11",
+    "T.8.4.12",
+    "T.8.4.13",
+    "T.8.4.14",
+    "T.8.4.15",
+    "T.8.4.16",
+    "T.8.4.17",
+    "T.8.4.18",
+    "T.8.4.19",
+    "T.8.4.2",
+    "T.8.4.20",
+    "T.8.4.3",
+    "T.8.4.4",
+    "T.8.4.5",
+    "T.8.4.6",
+    "T.8.4.7",
+    "T.8.4.8",
+    "T.8.4.9"
+  ],
+  "sozVarligi": {
+    "aciklama": "Özgün proje tanım ve örneklerinden tema uyumlu spiral tekrar seçimi. Sınıflar arasında aynı kelime yeniden yer alabilir; her sınıf için bütünüyle yeni kelime iddiası değildir.",
+    "kelimeler": [
+      {
+        "kelime": "duygu",
+        "anlam": "Bir olayın kişide oluşturduğu sevinç veya üzüntü gibi iç yaşantı",
+        "ornek": "Duygumu anlatacak doğru kelimeyi aradım.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "sevinç",
+        "anlam": "Güzel bir durum karşısında duyulan mutluluk",
+        "ornek": "Arkadaşımı görünce sevinç duydum.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "kaygı",
+        "anlam": "Olumsuz bir şey olabileceği düşüncesinin verdiği huzursuzluk",
+        "ornek": "Sunum öncesindeki kaygımı öğretmenimle paylaştım.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "özlem",
+        "anlam": "Uzakta olan birini veya bir şeyi görme isteği",
+        "ornek": "Eski mahalleme özlem duydum.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "şaşkınlık",
+        "anlam": "Beklenmedik bir durum karşısında ne yapacağını bilememe",
+        "ornek": "Kutudan çıkan mektup bende şaşkınlık yarattı.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "pişmanlık",
+        "anlam": "Yapılan bir davranışın uygun olmadığını sonradan düşünme",
+        "ornek": "Sözünü kestiğim için pişmanlık hissettim.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "umut",
+        "anlam": "İyi bir sonucun gerçekleşebileceğine inanma",
+        "ornek": "Yeni denemem için umudumu korudum.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "sabır",
+        "anlam": "Bir güçlük veya bekleyiş sırasında kendini tutabilme",
+        "ornek": "Sıramı sabırla bekledim.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "cesaret",
+        "anlam": "Çekinmeye rağmen gerekli bir adımı atabilme",
+        "ornek": "Yardım istemek için cesaretimi topladım.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "empati",
+        "anlam": "Başkasının durumunu onun açısından anlamaya çalışma",
+        "ornek": "Empati kurunca arkadaşımın neden sustuğunu düşündüm.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "rahatlama",
+        "anlam": "Bir sıkıntının azalmasıyla duyulan ferahlık",
+        "ornek": "Ödevimi bitirince rahatlama hissettim.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "çekingenlik",
+        "anlam": "Bir ortama katılırken kendini geride tutma eğilimi",
+        "ornek": "Yeni sınıftaki çekingenliğim zamanla azaldı.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "güven",
+        "anlam": "Bir kişiye veya duruma dayanabileceğine inanma",
+        "ornek": "Arkadaşımın sözünü tutması güven verdi.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "kırgınlık",
+        "anlam": "Bir davranıştan incinme durumu",
+        "ornek": "Kırgınlığımı sakin bir dille anlattım.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "neşe",
+        "anlam": "Canlı ve sevinçli olma durumu",
+        "ornek": "Oyun bahçeye neşe getirdi.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "endişe",
+        "anlam": "Bir durumun kötü sonuçlanabileceğini düşünerek tedirgin olma",
+        "ornek": "Kaybolan defter için endişe ettim.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "merak",
+        "anlam": "Bir şeyi öğrenme veya anlama isteği",
+        "ornek": "Kutunun içini merak ettim.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "öfke",
+        "anlam": "Bir durum karşısında duyulan güçlü kızgınlık",
+        "ornek": "Öfkemi yatıştırmak için konuşmaya ara verdim.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "sakinlik",
+        "anlam": "Telaş veya kızgınlığın az olduğu durum",
+        "ornek": "Sorunu sakinlikle konuşabildik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "teselli",
+        "anlam": "Üzüntüyü hafifletmeye yönelik destek",
+        "ornek": "Arkadaşımın sözleri bana teselli oldu.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "paylaşmak",
+        "anlam": "Bir düşünceyi veya nesneyi başkasıyla bölüşmek",
+        "ornek": "Düşüncemi grupla paylaşmak istedim.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "anlamak",
+        "anlam": "Bir sözün veya durumun anlamını kavramak",
+        "ornek": "Arkadaşımın duygusunu anlamak için dinledim.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "dinlemek",
+        "anlam": "Söylenenlere dikkatini vererek kulak vermek",
+        "ornek": "Anlatılanları dinlemek konuşmamı kolaylaştırdı.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "farkındalık",
+        "anlam": "Kendi durumunu veya çevrede olanları ayırt etme",
+        "ornek": "Duygu günlüğü farkındalık kazanmama yardım etti.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "dayanmak",
+        "anlam": "Bir güçlük karşısında varlığını veya çabasını sürdürmek",
+        "ornek": "Uzun bekleyişe arkadaş desteğiyle dayandım.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "kabullenmek",
+        "anlam": "Bir gerçeği olduğu gibi tanıyıp kabul etmek",
+        "ornek": "Hata yaptığımı kabullenmek kolay değildi.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "çözüm",
+        "anlam": "Bir güçlüğü gidermeye yarayan yol",
+        "ornek": "Birlikte yeni bir çözüm düşündük.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "tepki",
+        "anlam": "Bir olay karşısında gösterilen davranış",
+        "ornek": "Tepkimi düşünerek vermeye çalıştım.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "ifade",
+        "anlam": "Düşünceyi veya duyguyu anlatma biçimi",
+        "ornek": "Yüzündeki ifade sevinçliydi.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "öz güven",
+        "anlam": "Kişinin kendi gücüne ve yapabileceklerine inanması",
+        "ornek": "Hazırlanmak öz güvenimi artırdı.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      }
+    ],
+    "esAnlamlilar": [],
+    "zitAnlamlilar": [
+      [
+        "sevinç",
+        "üzüntü"
+      ]
+    ],
+    "esSesliler": [],
+    "deyimler": [
+      {
+        "ifade": "içi içine sığmamak",
+        "anlam": "Büyük sevinç veya heyecan duymak.",
+        "ornek": "Gösteri öncesinde içi içine sığmıyordu."
+      }
+    ],
+    "atasozleri": []
+  },
+  "okumaParcalari": [
+    {
+      "id": "8-6-okuma-1",
+      "baslik": "Alkıştan Önceki Sessizlik",
+      "tur": "oykuleyici",
+      "metin": "Okul gösterisinin provasında Mert'in küçük bir rolü vardı. Sahneye yalnız birkaç cümle söylemek için çıkıyor, sonra geri çekiliyordu. Arkadaşı Deniz ise uzun bir konuşma yapacaktı. İlk gün Mert buna içerledi. Kendisini daha az önemli hissettiğini kimseye söylemedi. Provalarda kısa cevaplar veriyor, diğerlerinin önerilerine katılmıyordu. Deniz onun rolünü sevmediğini anlıyor ama nedenini bilmiyordu. Sessizlik aralarında, söylenmemiş bir cümle gibi büyüyordu.\nBir prova sonrasında öğretmenleri görevlerin yalnız sahnedeki konuşma süresiyle değerlendirilmediğini anlattı. Yine de Mert'in duygusunu onun adına açıklamadı. Konuşmak isterse dinleyebileceğini söyledi. Mert önce ne hissettiğini tek bir kelimeye sığdıramadı. Biraz kırgınlık, biraz kıskançlık, biraz da hata yapma korkusu vardı. Kısa rolünün daha kolay olması gerektiğini düşünüyordu; zorlanırsa herkesin bunu küçümsemesinden kaygılanıyordu.\nDeniz'le konuştuğunda beklemediği bir şey öğrendi. Deniz de uzun konuşmasını unutma korkusu yaşıyordu. Mert onun kendinden bütünüyle emin olduğunu sanmıştı. Aynı provada iki farklı görev, ikisinde de kaygı yaratmıştı. Bu benzerlik bütün duygularını eşitlemedi ama birbirlerinin davranışını daha dikkatli yorumlamalarını sağladı. Deniz, Mert'in kısa cevaplarını artık yalnız ilgisizlik olarak görmüyordu. Mert de uzun rolü yalnız ayrıcalık saymamaya başladı.\nİkisi birlikte prova yapmak için uygun bir zaman belirledi. Mert önce kendi kısa bölümünü seslendirdi. Deniz cümlelerin nerede daha anlaşılır duyulduğunu söyledi. Ardından Deniz'in uzun konuşmasını küçük parçalara ayırdılar. Birbirlerine bütün korkularının hemen biteceğini vaat etmediler. Yalnız belirli bir çalışma adımı seçmişlerdi. Bir gün iyi giden prova, ertesi günkü her zorluğu önceden ortadan kaldırmıyordu. Yine de ne yapacaklarını bilmek başlangıcı kolaylaştırdı.\nGösteri günü Mert'in sesi ilk cümlede biraz titredi. Önceden olsa bunu bütün performansın bozulduğu işareti sayabilirdi. Bu kez nefes almak için kısa bir durak verdi ve sonraki cümleye geçti. Deniz kendi sırasını beklerken ona baktı. İkisi de kusursuz bir gösteri çıkardıklarını düşünmüyordu. Fakat sahneye yalnız başlarına gelmediklerini biliyorlardı. Prova sırasında paylaşılan emek, kısa bir bakışta hatırlanmıştı.\nAlkış bittiğinde Mert en çok hangi duyguyu hissettiğini düşünmeye çalıştı. Yalnız sevinç değildi; rahatlama, gurur ve biraz yorgunluk da vardı. Bütün bunların aynı anda bulunması ona artık çelişki gibi gelmiyordu. Deniz'e rolünün küçük olmasından çok görünmez kalmaktan korktuğunu söyledi. Bu cümleyi ilk gün kurabilseydi her şeyin kolayca çözüleceğini kesin olarak bilmiyordu. Yine de konuşmanın aralarındaki varsayımları azalttığını görmüştü. Ertesi hafta görev paylaşımında öneri sunarken yalnız en uzun konuşmayı istemedi. Hangi işte nasıl katkı verebileceğini düşünmek istedi. Sahnedeki sessizlik artık her zaman eksiklik anlamına gelmiyordu; bazen sıradaki cümleye hazırlanmak için gerekli bir aralıktı.\nProva dosyasındaki ilk ve son notları yan yana koyduklarında kelimelerin de değiştiğini gördüler. Mert ilk gün yalnız kızgın olduğunu yazmıştı. Sonraki notta kırgınlık, görünmez kalma korkusu ve katkı sunma isteği ayrı ayrı duruyordu. Bu kelimeler bir uzman değerlendirmesi değildi; kendi deneyimini daha açık anlatma denemesiydi. Deniz de konuşmayı unutma endişesinin hangi bölümde arttığını yazmıştı. İkisi bütün bu notları herkesle paylaşmak zorunda olmadıklarını konuştular. Ortak çalışma için gerekli önerileri ayırıp diğer sayfaları kendilerine bıraktılar. Açıklık, kişinin bütün iç dünyasını sınıfa açması demek değildi. Bu sınır konuşmalarını daha dikkatli sürdürmelerini sağladı.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; internet veya ders kitabından alınmamıştır.",
+      "sorular": [
+        {
+          "id": "8-6-okuma-1-1",
+          "tip": "secim",
+          "soru": "“Alkıştan Önceki Sessizlik” metnine göre: Mert başlangıçta rolünü nasıl yorumlar?",
+          "secenekler": [
+            "Sahneye hiç çıkmayacağını düşünür",
+            "Kısa oluşunu daha az önemli olmakla ilişkilendirir",
+            "Bütün görevleri aynı kabul eder"
+          ],
+          "dogru": "Kısa oluşunu daha az önemli olmakla ilişkilendirir",
+          "aciklama": "İlk paragraf konuşma süresiyle değer arasında kurduğu bağı gösterir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-6-okuma-1-2",
+          "tip": "secim",
+          "soru": "“Alkıştan Önceki Sessizlik” metnine göre: Öğretmenin yaklaşımı hangisidir?",
+          "secenekler": [
+            "Duyguyu onun adına belirlemeden dinlemeye alan açmak",
+            "Bütün kaygıları hemen yok saymak",
+            "Mert'in ne hissettiğini kesin ilan etmek"
+          ],
+          "dogru": "Duyguyu onun adına belirlemeden dinlemeye alan açmak",
+          "aciklama": "Öğretmen açıklama dayatmak yerine konuşma imkânı sunar.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-6-okuma-1-3",
+          "tip": "secim",
+          "soru": "“Alkıştan Önceki Sessizlik” metnine göre: Deniz hakkında hangi varsayım değişir?",
+          "secenekler": [
+            "Uzun bir konuşması bulunduğu",
+            "Aynı gösteriye katıldığı",
+            "Kendinden tamamen emin olduğu"
+          ],
+          "dogru": "Kendinden tamamen emin olduğu",
+          "aciklama": "Deniz de unutma korkusu yaşadığını anlatır.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-6-okuma-1-4",
+          "tip": "secim",
+          "soru": "“Alkıştan Önceki Sessizlik” metnine göre: Ortak prova ne sağlamıştır?",
+          "secenekler": [
+            "Bütün görevlerin değiştirilmesini",
+            "Somut bir çalışma adımı",
+            "Her korkunun sonsuza dek bitmesini"
+          ],
+          "dogru": "Somut bir çalışma adımı",
+          "aciklama": "Birlikte çalışma, sorunları küçük uygulanabilir adımlara taşır.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-6-okuma-1-5",
+          "tip": "secim",
+          "soru": "“Alkıştan Önceki Sessizlik” metnine göre: Mert titreyen sesini nasıl ele alır?",
+          "secenekler": [
+            "Durak verip devam eder",
+            "Gösterinin kesin bittiğini ilan eder",
+            "Rolünü başkasına zorla verir"
+          ],
+          "dogru": "Durak verip devam eder",
+          "aciklama": "Önceki bütüncül başarısızlık yorumundan farklı davranır.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-6-okuma-1-6",
+          "tip": "secim",
+          "soru": "“Alkıştan Önceki Sessizlik” metnine göre: Son duygular hangi niteliktedir?",
+          "secenekler": [
+            "Yalnız tek bir saf sevinç",
+            "Hiçbir şey hissetmeme",
+            "Birden çok duygunun birlikte bulunması"
+          ],
+          "dogru": "Birden çok duygunun birlikte bulunması",
+          "aciklama": "Sevinç, rahatlama, gurur ve yorgunluk birlikte anılır.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-6-okuma-1-7",
+          "tip": "secim",
+          "soru": "“Alkıştan Önceki Sessizlik” metnine göre: Sessizliğin son bölümdeki anlamı nasıl değişir?",
+          "secenekler": [
+            "Sadece rolün kaldırılmasıdır",
+            "Hazırlık için gerekli aralık da olabilir",
+            "Her durumda ilgisizliktir"
+          ],
+          "dogru": "Hazırlık için gerekli aralık da olabilir",
+          "aciklama": "Başta uzaklık yaratan sessizlik, sonda farklı işleve kavuşur.",
+          "cikti": "T.8.3.23"
+        },
+        {
+          "id": "8-6-okuma-1-8",
+          "tip": "secim",
+          "soru": "“Alkıştan Önceki Sessizlik” metnine göre: Ana düşünce hangisidir?",
+          "secenekler": [
+            "Duyguları ve varsayımları konuşmak ortak çalışmayı daha anlaşılır kılabilir",
+            "Kısa görev alan herkes mutlaka değersizdir",
+            "Bir prova her zorluğu tamamen bitirir"
+          ],
+          "dogru": "Duyguları ve varsayımları konuşmak ortak çalışmayı daha anlaşılır kılabilir",
+          "aciklama": "Olay iki öğrencinin niyet okumak yerine deneyimlerini paylaşmasını anlatır.",
+          "cikti": "T.8.3.17"
+        }
+      ]
+    },
+    {
+      "id": "8-6-okuma-2",
+      "baslik": "Bir Cümlenin Birden Çok Tonu",
+      "tur": "bilgilendirici",
+      "metin": "“Tamam, sonra konuşuruz.” cümlesini yalnız yazılı olarak gördüğümüzde söyleyen kişinin ne hissettiğini kesin olarak bilebilir miyiz? Aynı söz, sakin bir planlama, yorgunluk veya kırgınlık içinde söylenmiş olabilir. Bağlam ve ses tonu bilinmiyorsa seçenekler artar. Bu nedenle özellikle kısa yazılı iletilerde ilk yorumu tek olasılık saymamak yararlı olabilir. Kelimelerin anlamı kadar ne zaman, hangi konuşmanın ardından ve hangi amaçla kullanıldığı da önemlidir.\nDuyguları anlatan metinlerde açık ve örtük bilgiler birlikte bulunabilir. Bir öykü kahramanı “Üzüldüm.” diyebilir; başka bir metinde ise davranışlar ve ayrıntılar üzerinden bu duygu sezdirilebilir. Ancak her susma üzüntü, her gülümseme mutluluk anlamına gelmez. Okur bir çıkarım yaparken hangi ayrıntıların birlikte bu yorumu desteklediğini düşünmelidir. Tek bir işaretten kesin bir iç dünya kurmak metnin sunduğundan fazlasını iddia etmek olabilir.\nBir karakterin duygusu zaman içinde değişebilir veya aynı anda farklı duygular yaşayabilir. Yeni bir göreve seçilmek hem sevinç hem kaygı yaratabilir. Bu durum, anlatının mutlaka tutarsız olduğu anlamına gelmez. Önemli olan değişimin veya birlikteliğin olaylarla ilişkisinin kurulabilmesidir. Karakterin önceki deneyimi, beklentisi veya karşılaştığı yeni bilgi bu ilişkiyi açıklayabilir. Okur olay örgüsüyle duygu anlatımını birlikte inceler.\nMetin üzerine tartışırken yorumların dayanakları karşılaştırılabilir. Bir okur kahramanın çekingenliğini, diğeri kırgınlığını öne çıkarabilir. İkisi de aynı sahnedeki farklı ayrıntılara bakmış olabilir. Tartışmanın amacı her zaman bütün yorumları eşitlemek değildir. Bazı yorumlar metinle daha güçlü desteklenebilir, bazıları ise ek kanıt gerektirir. “Bence böyle.” başlangıç olabilir; fakat neden böyle düşünüldüğünü açıklamak konuşmayı geliştirir. Yorumun sınırı da görünür tutulur.\nGündelik iletişimde ise metin çözümlemesiyle gerçek kişinin yerine karar vermek arasında ayrım vardır. Bir arkadaşın kısa mesajını bir öykü karakteri gibi kesin çözdüğümüzü sanamayız. Uygun olduğunda açıklama istemek, niyet okumaktan daha doğrudan bir yol olabilir. Karşı tarafın konuşmak istemediği bir anda onu kişisel deneyimini anlatmaya zorlamak da gerekmez. Buradaki amaç duyguları bir yarış veya tanı listesi hâline getirmek değildir.\nÖğrenciler kurgusal iki diyaloğu karşılaştırarak bu ayrımları çalışabilir. Aynı sözün öncesindeki cümle değiştiğinde yorumun nasıl değiştiğini inceleyebilirler. Bir paragrafta açık duygu sözü, diğerinde davranış ayrıntısı kullanılabilir. Sonra hangi yorumun hangi bilgiye dayandığı gösterilir. Böyle bir çalışma hem okuma hem yazma becerisine katkı sunar: Yazar anlatmak istediği duyguyu hangi ayrıntıyla taşıdığını görür, okur da çıkarımının sınırını tanır. Sonuç, herkesin her cümleyi aynı duyguyla okuması değildir. Farklı yorumların nereden doğduğunu ve hangi kanıtla desteklenebileceğini anlamaktır. Bir cümlenin tonu değişebilir; dikkatli okumanın görevi, bu değişimi bağlamıyla birlikte düşünmektir. Açıklık, bütün anlam ihtimallerini yok etmekten çok, seçilen yorumu gerekçelendirebilmekte ortaya çıkar.\nDuygu anlatımında kullanılan sözcüklerin yakınlığı da incelenebilir. Kırgın, üzgün ve öfkeli kelimeleri bazı bağlamlarda birbirine yaklaşsa da her yerde aynı etkiyi vermez. Öğrenci bir cümlede bu kelimelerden birini değiştirip anlatımın nasıl dönüştüğünü tartışabilir. Amaç gerçek bir insanın duygusuna dışarıdan kesin ad koymak değil, yazıdaki sözcük seçiminin etkisini görmektir. Aynı ayrıntı farklı kelimeyle anlatıldığında okuyucunun beklentisi değişebilir. Bu değişimin metnin devamıyla uyumlu olup olmadığı da kontrol edilir. Böylece söz varlığı çalışması yalnız eş anlamlı sözcükleri yan yana yazmakla kalmaz; bağlam ve anlatım amacıyla ilişki kurar.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; internet veya ders kitabından alınmamıştır.",
+      "sorular": [
+        {
+          "id": "8-6-okuma-2-1",
+          "tip": "secim",
+          "soru": "“Bir Cümlenin Birden Çok Tonu” metnine göre: İlk örneğin amacı nedir?",
+          "secenekler": [
+            "Bağlam olmadan tonun kesinleşmediğini göstermek",
+            "Her mesajın kırgınlık bildirdiğini kanıtlamak",
+            "Yazılı iletişimin imkânsız olduğunu söylemek"
+          ],
+          "dogru": "Bağlam olmadan tonun kesinleşmediğini göstermek",
+          "aciklama": "Aynı söz için birden çok bağlam olasılığı verilir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-6-okuma-2-2",
+          "tip": "secim",
+          "soru": "“Bir Cümlenin Birden Çok Tonu” metnine göre: Tek bir gülümsemeden kesin mutluluk sonucu çıkarmak hangi sorunu taşır?",
+          "secenekler": [
+            "Doğrudan ölçüm yapma",
+            "Kaynak belirtme",
+            "Sınırlı işareti gereğinden fazla yorumlama"
+          ],
+          "dogru": "Sınırlı işareti gereğinden fazla yorumlama",
+          "aciklama": "Metin birden çok ayrıntıyı birlikte değerlendirmeyi önerir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-6-okuma-2-3",
+          "tip": "secim",
+          "soru": "“Bir Cümlenin Birden Çok Tonu” metnine göre: Birlikte sevinç ve kaygı bulunması nasıl ele alınır?",
+          "secenekler": [
+            "Metinden mutlaka çıkarılır",
+            "Olaylarla ilişkisi incelenir",
+            "Otomatik tutarsızlık sayılır"
+          ],
+          "dogru": "Olaylarla ilişkisi incelenir",
+          "aciklama": "Çeşitli duyguların bağlamla açıklanması mümkün olabilir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-6-okuma-2-4",
+          "tip": "secim",
+          "soru": "“Bir Cümlenin Birden Çok Tonu” metnine göre: Yorum tartışmasını geliştiren soru hangisidir?",
+          "secenekler": [
+            "Hangi ayrıntı bu düşünceyi destekliyor?",
+            "Kim daha yüksek sesle söylüyor?",
+            "Hangi yorum daha kısa?"
+          ],
+          "dogru": "Hangi ayrıntı bu düşünceyi destekliyor?",
+          "aciklama": "Metne dayanak göstermek görüşü sınanabilir kılar.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-6-okuma-2-5",
+          "tip": "secim",
+          "soru": "“Bir Cümlenin Birden Çok Tonu” metnine göre: Gerçek kişiyle öykü karakteri arasında hangi sınır gözetilir?",
+          "secenekler": [
+            "Her kısa mesaj kurgu sayılır",
+            "İnsanlara açıklama sorulamaz",
+            "Gerçek kişinin duygusunu kesin çözdüğümüz varsayılmaz"
+          ],
+          "dogru": "Gerçek kişinin duygusunu kesin çözdüğümüz varsayılmaz",
+          "aciklama": "Gündelik iletişimde kişinin yerine niyet kararı verilmemesi vurgulanır.",
+          "cikti": "T.8.3.13"
+        },
+        {
+          "id": "8-6-okuma-2-6",
+          "tip": "secim",
+          "soru": "“Bir Cümlenin Birden Çok Tonu” metnine göre: Kurgusal diyalog çalışması neyi inceletir?",
+          "secenekler": [
+            "Mesajın cihaz markasını",
+            "Önceki cümlenin yorum üzerindeki etkisini",
+            "Bütün okuyucuların yaşını"
+          ],
+          "dogru": "Önceki cümlenin yorum üzerindeki etkisini",
+          "aciklama": "Bağlam değiştiğinde aynı sözün farklı okunması karşılaştırılır.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-6-okuma-2-7",
+          "tip": "secim",
+          "soru": "“Bir Cümlenin Birden Çok Tonu” metnine göre: Yazının konusu hangisidir?",
+          "secenekler": [
+            "Duygu yorumunda bağlam ve dayanak",
+            "Duyguların tıbbi sınıflandırılması",
+            "Telefonların teknik gelişimi"
+          ],
+          "dogru": "Duygu yorumunda bağlam ve dayanak",
+          "aciklama": "Metin okuma ve gündelik iletişimde anlamı bağlamla ele alır.",
+          "cikti": "T.8.3.16"
+        },
+        {
+          "id": "8-6-okuma-2-8",
+          "tip": "secim",
+          "soru": "“Bir Cümlenin Birden Çok Tonu” metnine göre: Ana düşünce hangisidir?",
+          "secenekler": [
+            "Her davranışın değişmez tek duygusu vardır",
+            "Yorumlar hiçbir dayanak gerektirmez",
+            "Duygu çıkarımları bağlam ve kanıtlarıyla gerekçelendirilmelidir"
+          ],
+          "dogru": "Duygu çıkarımları bağlam ve kanıtlarıyla gerekçelendirilmelidir",
+          "aciklama": "Bölümler kesin niyet okumak yerine gerekçeli ve sınırlı yorum önerir.",
+          "cikti": "T.8.3.17"
+        }
+      ]
+    }
+  ],
+  "konular": [
+    {
+      "kod": "8-6-ogeler-tekrar",
+      "ad": "Duygu anlatımında cümle ögeleri",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.8.4.18",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Duygu anlatan bir cümlede de yüklem, özne ve yardımcı ögeler anlamın düzenini kurar. Kime, ne zaman, neyi ve nasıl sorularının cevabı farklı görevler taşır. Bir bütün oluşturan söz grubunu gereksiz yere bölme. İnceleme, gerçek kişinin duygusunu kesin tanılamak değil, yazılı cümledeki dil ilişkilerini anlamaktır.</p><ul><li>Deniz kaygısını anlattı.</li><li>Mert prova sonunda konuştu.</li><li>İkisi birbirini dikkatle dinledi.</li></ul>",
+      "ornekler": [
+        "Deniz kaygısını anlattı.",
+        "Mert prova sonunda konuştu.",
+        "İkisi birbirini dikkatle dinledi."
+      ],
+      "testler": [
+        {
+          "id": "8-6-ogeler-tekrar-1",
+          "tip": "secim",
+          "soru": "“Mert kaygısını anlattı. / kaygısını” örneğinde istenen öge hangisidir?",
+          "secenekler": [
+            "Belirtili nesne",
+            "Özne",
+            "Yüklem"
+          ],
+          "dogru": "Belirtili nesne",
+          "aciklama": "Neyi anlattı sorusuna kaygısını cevabı verilir.",
+          "cikti": "T.8.4.18"
+        },
+        {
+          "id": "8-6-ogeler-tekrar-2",
+          "tip": "secim",
+          "soru": "“Deniz prova sonunda konuştu. / prova sonunda” örneğinde istenen öge hangisidir?",
+          "secenekler": [
+            "Nesne",
+            "Yüklem",
+            "Zarf tamlayıcısı"
+          ],
+          "dogru": "Zarf tamlayıcısı",
+          "aciklama": "Ne zaman sorusu zaman bildiren grubun görevini ortaya çıkarır.",
+          "cikti": "T.8.4.18"
+        },
+        {
+          "id": "8-6-ogeler-tekrar-3",
+          "tip": "secim",
+          "soru": "“İkisi birbirini dinledi. / ikisi” örneğinde istenen öge hangisidir?",
+          "secenekler": [
+            "Yer tamlayıcısı",
+            "Özne",
+            "Nesne"
+          ],
+          "dogru": "Özne",
+          "aciklama": "Dinleyen kim sorusunun cevabı ikisidir.",
+          "cikti": "T.8.4.18"
+        },
+        {
+          "id": "8-6-ogeler-tekrar-4",
+          "tip": "secim",
+          "soru": "“Öğretmen Mert'e söz verdi. / Mert'e” örneğinde istenen öge hangisidir?",
+          "secenekler": [
+            "Yer tamlayıcısı",
+            "Belirtili nesne",
+            "Yüklem"
+          ],
+          "dogru": "Yer tamlayıcısı",
+          "aciklama": "Kime söz verdi sorusu yönelme ilişkili ögeyi verir.",
+          "cikti": "T.8.4.18"
+        },
+        {
+          "id": "8-6-ogeler-tekrar-5",
+          "tip": "secim",
+          "soru": "“Arkadaşını dikkatle dinledi. / dikkatle” örneğinde istenen öge hangisidir?",
+          "secenekler": [
+            "Özne",
+            "Nesne",
+            "Zarf tamlayıcısı"
+          ],
+          "dogru": "Zarf tamlayıcısı",
+          "aciklama": "Nasıl dinledi sorusu durumu bildirir.",
+          "cikti": "T.8.4.18"
+        },
+        {
+          "id": "8-6-ogeler-tekrar-6",
+          "tip": "secim",
+          "soru": "“Konuşma kısaydı. / kısaydı” örneğinde istenen öge hangisidir?",
+          "secenekler": [
+            "Nesne",
+            "Yüklem",
+            "Özne"
+          ],
+          "dogru": "Yüklem",
+          "aciklama": "Temel yargı ad soylu kısaydı sözünde taşınır.",
+          "cikti": "T.8.4.18"
+        },
+        {
+          "id": "8-6-ogeler-tekrar-7",
+          "tip": "secim",
+          "soru": "“Duygularını defterine yazdı. / defterine” örneğinde istenen öge hangisidir?",
+          "secenekler": [
+            "Yer tamlayıcısı",
+            "Özne",
+            "Belirtili nesne"
+          ],
+          "dogru": "Yer tamlayıcısı",
+          "aciklama": "Nereye yazdı sorusu yönelme tamlayıcısını buldurur.",
+          "cikti": "T.8.4.18"
+        },
+        {
+          "id": "8-6-ogeler-tekrar-8",
+          "tip": "secim",
+          "soru": "“Prova bizi heyecanlandırdı. / bizi” örneğinde istenen öge hangisidir?",
+          "secenekler": [
+            "Özne",
+            "Zarf tamlayıcısı",
+            "Belirtili nesne"
+          ],
+          "dogru": "Belirtili nesne",
+          "aciklama": "Heyecanlandıran prova, etkilenen bizdir; bizi nesnedir.",
+          "cikti": "T.8.4.18"
+        },
+        {
+          "id": "8-6-ogeler-tekrar-9",
+          "tip": "secim",
+          "soru": "“Sahnede kısa bir durak verdi. / sahnede” örneğinde istenen öge hangisidir?",
+          "secenekler": [
+            "Yüklem",
+            "Yer tamlayıcısı",
+            "Nesne"
+          ],
+          "dogru": "Yer tamlayıcısı",
+          "aciklama": "Nerede sorusu bulunma ilişkisini verir.",
+          "cikti": "T.8.4.18"
+        },
+        {
+          "id": "8-6-ogeler-tekrar-10",
+          "tip": "secim",
+          "soru": "“Sonra yeniden denedik. / gizli özne” örneğinde istenen öge hangisidir?",
+          "secenekler": [
+            "Biz",
+            "Onlar",
+            "Sen"
+          ],
+          "dogru": "Biz",
+          "aciklama": "Denedik kişi eki birinci çoğul kişiyi bildirir.",
+          "cikti": "T.8.4.18"
+        }
+      ]
+    }
+  ],
+  "dinleme": [
+    {
+      "id": "8-6-dinleme",
+      "baslik": "İki Farklı Beklenti",
+      "metin": "Kısa rol alan Efe kendisini önemsiz hissetti. Uzun rol alan Ada’nın ise çok rahat olduğunu sandı. Konuştuklarında Ada’nın da metni unutma korkusu yaşadığını öğrendi. İkisi aynı duyguları bire bir yaşamıyordu, fakat benzer bir kaygı ortak çalışma için başlangıç oldu. Provalarını küçük parçalara ayırdılar. Bütün korkuların hemen biteceğini söylemediler. Gösteriden sonra iyi giden bir ayrıntıyla geliştirmek istedikleri bir davranışı kaydettiler. Özel notlarını herkesle paylaşmak zorunda olmadıklarını da konuştular.",
+      "tts": {
+        "dil": "tr-TR",
+        "sesYoksa": "metin"
+      },
+      "sorular": [
+        {
+          "id": "8-6-dinleme-1",
+          "tip": "secim",
+          "soru": "“İki Farklı Beklenti” dinleme metnine göre: Efe’nin ilk varsayımı neydi?",
+          "secenekler": [
+            "Gösterinin yapılmayacağı",
+            "Ada’nın çok rahat olduğu",
+            "Ada’nın hiç rolü olmadığı"
+          ],
+          "dogru": "Ada’nın çok rahat olduğu",
+          "aciklama": "Dinlenen olayın sırası ve açıklamaları “Ada’nın çok rahat olduğu” cevabını destekler. Diğer seçeneklerdeki ayrıntılar metinde verilen bilgiyle uyuşmaz.",
+          "cikti": "T.8.1.4"
+        },
+        {
+          "id": "8-6-dinleme-2",
+          "tip": "secim",
+          "soru": "“İki Farklı Beklenti” dinleme metnine göre: Konuşmayla hangi bilgi öğrenildi?",
+          "secenekler": [
+            "Ada’nın unutma korkusu yaşadığı",
+            "Bütün rollerin kaldırıldığı",
+            "Provaların hiç yapılmadığı"
+          ],
+          "dogru": "Ada’nın unutma korkusu yaşadığı",
+          "aciklama": "Dinlenen olayın sırası ve açıklamaları “Ada’nın unutma korkusu yaşadığı” cevabını destekler. Diğer seçeneklerdeki ayrıntılar metinde verilen bilgiyle uyuşmaz.",
+          "cikti": "T.8.1.4"
+        },
+        {
+          "id": "8-6-dinleme-3",
+          "tip": "secim",
+          "soru": "“İki Farklı Beklenti” dinleme metnine göre: Çalışma nasıl düzenlendi?",
+          "secenekler": [
+            "Bütün görevler gizlendi",
+            "Yalnız alkış sayıldı",
+            "Küçük parçalara ayrıldı"
+          ],
+          "dogru": "Küçük parçalara ayrıldı",
+          "aciklama": "Dinlenen olayın sırası ve açıklamaları “Küçük parçalara ayrıldı” cevabını destekler. Diğer seçeneklerdeki ayrıntılar metinde verilen bilgiyle uyuşmaz.",
+          "cikti": "T.8.1.4"
+        },
+        {
+          "id": "8-6-dinleme-4",
+          "tip": "secim",
+          "soru": "“İki Farklı Beklenti” dinleme metnine göre: Son kayıt hangi iki yönü içerdi?",
+          "secenekler": [
+            "Sadece rol uzunluğu",
+            "Güçlü ve geliştirilebilir davranış",
+            "Yalnız kişisel etiketler"
+          ],
+          "dogru": "Güçlü ve geliştirilebilir davranış",
+          "aciklama": "Dinlenen olayın sırası ve açıklamaları “Güçlü ve geliştirilebilir davranış” cevabını destekler. Diğer seçeneklerdeki ayrıntılar metinde verilen bilgiyle uyuşmaz.",
+          "cikti": "T.8.1.4"
+        }
+      ]
+    }
+  ],
+  "yazmaGorevleri": [
+    {
+      "id": "8-6-yazma",
+      "baslik": "Aynı Söz İki Bağlam",
+      "yonerge": "Toplam 180–280 kelimede aynı kısa sözün farklı yorumlandığı iki kurgusal diyalog ve kısa değerlendirme yaz. Yorumların hangi ayrıntıya dayandığını göster. Gerçek kişinin duygusunu kesin tanımlama.",
+      "minKelime": 180,
+      "maxKelime": 280,
+      "ciktilar": [
+        "T.8.4.3",
+        "T.8.4.9",
+        "T.8.4.18"
+      ],
+      "ogretmenDegerlendirmeli": true,
+      "rubrik": [
+        {
+          "olcut": "Amaç ve kapsam",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Gerekçe ve anlam bütünlüğü",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Dil yapıları ve söz varlığı",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Yazım, noktalama ve düzenleme",
+          "enDusuk": 0,
+          "enYuksek": 4
+        }
+      ]
+    }
+  ],
+  "lgsSorulari": [
+    {
+      "id": "8-6-lgs-1",
+      "tip": "secim",
+      "soru": "Duygu ve Anlatım Buluşması için hazırlanan dört çalışma aşağıda verilmiştir.\ndiyalog metni A: 26 dakika; kaynak notu var; ses gereksinimi yok.\ndiyalog metni B: 29 dakika; kaynak notu var; ses gereksinimi yok.\ndiyalog metni C: 24 dakika; kaynak notu yok; ses gereksinimi yok.\ndiyalog metni D: 25 dakika; kaynak notu var; ses gereksinimi var.\nSeçilecek çalışmada kaynak notu bulunmalı, ses gerekmemeli ve süre 26 dakikayı aşmamalıdır. Üç koşulu birlikte sağlayan hangisidir?",
+      "secenekler": [
+        "diyalog metni A",
+        "diyalog metni B",
+        "diyalog metni C",
+        "diyalog metni D"
+      ],
+      "dogru": "diyalog metni A",
+      "aciklama": "diyalog metni A üç koşulu sağlar. B süreyi aşar, C kaynak notu içermez, D ses gerektirir.",
+      "cikti": "T.8.3.32"
+    },
+    {
+      "id": "8-6-lgs-2",
+      "tip": "secim",
+      "soru": "Duygu ve Anlatım Buluşması programında dört işlem farklı sıralarda yapılacaktır: bağlam okuma, yorum, dayanak kontrolü, paylaşım. Bağlam okuma, yorum işleminden önce yapılır. Dayanak kontrolü, yorum işleminin hemen ardından gelir. Paylaşım son işlemdir. Her işlem bir kez yapılacağına göre uygun sıra hangisidir?",
+      "secenekler": [
+        "yorum → bağlam okuma → dayanak kontrolü → paylaşım",
+        "bağlam okuma → dayanak kontrolü → yorum → paylaşım",
+        "bağlam okuma → yorum → paylaşım → dayanak kontrolü",
+        "bağlam okuma → yorum → dayanak kontrolü → paylaşım"
+      ],
+      "dogru": "bağlam okuma → yorum → dayanak kontrolü → paylaşım",
+      "aciklama": "paylaşım sonda olmalıdır. yorum ile dayanak kontrolü yan yana ve bu sırada bulunur; bağlam okuma da onlardan önce gelir.",
+      "cikti": "T.8.3.35"
+    },
+    {
+      "id": "8-6-lgs-3",
+      "tip": "secim",
+      "soru": "Duygu ve Anlatım Buluşması sonrasında gönüllü 16 katılımcının tamamı diyalog metni çalışmasının anlaşılır olduğunu söyledi. Katılmayanlar ve cevap vermeyenler hakkında veri toplanmadı. Bu bilgiye dayanan, kapsamı aşmayan sonuç hangisidir?",
+      "secenekler": [
+        "Yanıt vermeyenlerin tamamı çalışmayı anlaşılmaz bulmuştur.",
+        "Bu yöntem her koşulda en başarılı yöntemdir.",
+        "Yanıt veren 16 kişi çalışmayı anlaşılır bulmuştur.",
+        "Okuldaki herkes çalışmayı anlaşılır bulmuştur."
+      ],
+      "dogru": "Yanıt veren 16 kişi çalışmayı anlaşılır bulmuştur.",
+      "aciklama": "Veri yalnız yanıt veren gönüllü grubu kapsar; diğer kişiler veya bütün yöntemler hakkında kesin sonuç vermez.",
+      "cikti": "T.8.3.21"
+    },
+    {
+      "id": "8-6-lgs-4",
+      "tip": "secim",
+      "soru": "Duygu ve Anlatım Buluşması için iki görüş var. I: “Diyalog metni kısa olmalı; okuyucu temel bilgiyi hızla bulabilmeli.” II: “Diyalog metni gerektiğinde ayrıntı içermeli; okuyucunun önemli koşulları anlaması sağlanmalı.” Bu iki görüş hangi ilkede buluşur?",
+      "secenekler": [
+        "Okuyucunun ön bilgisi hiçbir zaman dikkate alınmamalıdır.",
+        "İçerik, okuyucunun ihtiyacını karşılayacak biçimde düzenlenmelidir.",
+        "Her metin olabilecek en kısa biçime indirilmelidir.",
+        "Ayrıntılar bütün koşullarda kaldırılmalıdır."
+      ],
+      "dogru": "İçerik, okuyucunun ihtiyacını karşılayacak biçimde düzenlenmelidir.",
+      "aciklama": "İlk görüş hıza, ikincisi koşullara dikkat çeker; ortak nokta okuyucunun bilgiyi uygun biçimde almasıdır.",
+      "cikti": "T.8.3.23"
+    },
+    {
+      "id": "8-6-lgs-5",
+      "tip": "secim",
+      "soru": "Aşağıdaki cümleler anlamlı bir paragraf oluşturacaktır.\nI. Duygu ve Anlatım Buluşması grubu ilk taslağını hazırladı.\nII. Son değerlendirmede bu iki düzeltmenin etkisini birlikte inceledi.\nIII. Bu taslağı okuyanlar iki belirsiz nokta belirledi.\nIV. Grup, belirlenen noktaları açıklayan iki düzeltme yaptı.\nGönderimler ve işlem sırası gözetildiğinde doğru diziliş hangisidir?",
+      "secenekler": [
+        "I – III – IV – II",
+        "III – I – IV – II",
+        "I – II – III – IV",
+        "IV – III – I – II"
+      ],
+      "dogru": "I – III – IV – II",
+      "aciklama": "Bu taslak, ilk taslağa; belirlenen noktalar, okuyucu tespitine; bu iki düzeltme, yapılan değişikliklere gönderir.",
+      "cikti": "T.8.3.35"
+    },
+    {
+      "id": "8-6-lgs-6",
+      "tip": "secim",
+      "soru": "Duygu ve Anlatım Buluşması için hazırlanan diyalog metni ilk denemede uzun bulundu. Grup bazı tekrarları çıkardı. ——— önemli bir koşulun da silindiğini görünce onu yeniden ekledi. Daha kısa bir metin elde etmek, her durumda daha doğru bir metin elde etmek değildi. Boşluğa, önceki adımın beklenen yararına karşı ortaya çıkan sınırlılığı belirtmek için hangisi getirilmelidir?",
+      "secenekler": [
+        "Bu nedenle",
+        "Örneğin",
+        "Başka bir deyişle",
+        "Ancak"
+      ],
+      "dogru": "Ancak",
+      "aciklama": "Kısaltma olumlu bir adım gibi görünürken koşul kaybı ters bir durum getirir; ancak bu karşıtlığı bağlar.",
+      "cikti": "T.8.3.10"
+    },
+    {
+      "id": "8-6-lgs-7",
+      "tip": "secim",
+      "soru": "Aynı kısa iletiyi okuyan öğrenciler farklı duygular çıkardı. Önce kimin haklı olduğuna karar vermek istediler. Sonra her yorumun hangi ayrıntıya dayandığını karşılaştırdılar. Tek bir kelimeyi kesin duygu işareti saymak yerine, önceki konuşmanın ve olayın anlamı nasıl değiştirdiğini incelediler.\nBu parçada asıl vurgulanan düşünce hangisidir?",
+      "secenekler": [
+        "Yeni bilgi ilk kararı hiçbir koşulda değiştirmemelidir.",
+        "Bütün durumlar tek bir ölçütle eksiksiz açıklanabilir.",
+        "Bir değerlendirme, amaca uygun somut dayanaklarla gözden geçirilmelidir.",
+        "İlk izlenim her zaman yeterli ve kesindir."
+      ],
+      "dogru": "Bir değerlendirme, amaca uygun somut dayanaklarla gözden geçirilmelidir.",
+      "aciklama": "Parçada ilk yargı, yeni inceleme ve somut dayanaklarla düzeltilir; kapsamı geniş kesinlikler savunulmaz.",
+      "cikti": "T.8.3.17"
+    },
+    {
+      "id": "8-6-lgs-8",
+      "tip": "secim",
+      "soru": "Duygu ve Anlatım Buluşması yönergesi şöyledir: Kaynak bilgisi eksik diyalog metni doğrudan geri bildirim aşamasına alınır; tamamlanmadan sunuma geçmez. Kaynak bilgisi tamam olanlar önce içerik kontrolünden geçer, uygun bulunursa sunulur. Kaynak bilgisi eksik bir çalışma için ilk uygun işlem hangisidir?",
+      "secenekler": [
+        "Kaynak eksik olsa da doğrudan uygun saymak",
+        "Eksik bilgi için geri bildirim vermek",
+        "İçerik kontrolünü atlayıp sunmak",
+        "Eksikliği görünmez biçimde silmek"
+      ],
+      "dogru": "Eksik bilgi için geri bildirim vermek",
+      "aciklama": "Yönergenin ilk koşulu eksik kaynak durumunu açıkça geri bildirime bağlar.",
+      "cikti": "T.8.3.35"
+    },
+    {
+      "id": "8-6-lgs-9",
+      "tip": "secim",
+      "soru": "Duygu ve Anlatım Buluşması çalışmasında yalnız iki küçük grubun diyalog metni örnekleri incelendi. Bir grupta açıklama notu varken diğerinde yoktu. Açıklama notu olan örnekte katılımcılar daha az soru sordu. Bu sınırlı bulgu için kapsamı en doğru başlık hangisidir?",
+      "secenekler": [
+        "İki Gruptaki Örneklerde Açıklama Notuyla Soru Sayısı Birlikte İncelendi",
+        "Açıklama Notları Bütün Soruları Sonsuza Dek Bitirdi",
+        "Bütün Öğrenciler Aynı Yöntemi Tercih Ediyor",
+        "Not Olmayan Her Çalışma Başarısızdır"
+      ],
+      "dogru": "İki Gruptaki Örneklerde Açıklama Notuyla Soru Sayısı Birlikte İncelendi",
+      "aciklama": "Başlık iki grup ve gözlenen ilişki sınırını korur; evrensel veya nedensel kesinlik üretmez.",
+      "cikti": "T.8.3.19"
+    },
+    {
+      "id": "8-6-lgs-10",
+      "tip": "secim",
+      "soru": "Bir paragrafın konusu Duygu ve Anlatım Buluşması kayıtlarının nasıl tutulduğudur. I: Tarih ve yöntem her kayda eklendi. II: Gözlenmeyen alanlar boş bırakılıp açıklandı. III: Etkinliğin afişi bence yılın en güzel afişiydi. IV: Yöntem değiştiğinde kayda not düşüldü. Konu bütünlüğünü bozan cümle hangisidir?",
+      "secenekler": [
+        "III",
+        "I",
+        "II",
+        "IV"
+      ],
+      "dogru": "III",
+      "aciklama": "Diğer cümleler kayıt yöntemini anlatır; III etkinlikle ilgili olsa da afişin kişisel beğeni değerine geçer.",
+      "cikti": "T.8.3.18"
+    },
+    {
+      "id": "8-6-lgs-11",
+      "tip": "secim",
+      "soru": "Duygu ve Anlatım Buluşması değerlendirmesinde dört cümle yazılmıştır. Hangisi kişisel beğeni yerine kontrol edilebilir bir bilgi bildirir?",
+      "secenekler": [
+        "Bu çalışma tartışmasız en etkileyici üründür.",
+        "Etkinliğin havası bütün diğerlerinden güzeldi.",
+        "Seçilen örnekler herkes için kusursuzdu.",
+        "Dosyada 9 adet diyalog metni örneği bulunuyor."
+      ],
+      "dogru": "Dosyada 9 adet diyalog metni örneği bulunuyor.",
+      "aciklama": "Örnek sayısı sayılarak kontrol edilebilir; diğer sözler beğeni veya kapsamı belirsiz değer yargısı içerir.",
+      "cikti": "T.8.3.21"
+    },
+    {
+      "id": "8-6-lgs-12",
+      "tip": "secim",
+      "soru": "Duygu ve Anlatım Buluşması sunumuna kabul edilmek için hem içerik onayı hem paylaşım izni gereklidir. Bir diyalog metni örneğinin içerik onayı aldığı biliniyor; paylaşım izni hakkında bilgi yoktur. Kesin olarak söylenebilecek yargı hangisidir?",
+      "secenekler": [
+        "Kesinlikle paylaşım izni reddedilmiştir.",
+        "İçerik onayı almadığı kanıtlanmıştır.",
+        "Sunuma kabul edildiği henüz kesinleştirilemez.",
+        "Kesinlikle sunuma kabul edilmiştir."
+      ],
+      "dogru": "Sunuma kabul edildiği henüz kesinleştirilemez.",
+      "aciklama": "İki gerekli koşuldan yalnız biri bilinmektedir. İzin bilgisi yokluğu ne kabulü ne de reddi kanıtlar.",
+      "cikti": "T.8.3.25"
+    },
+    {
+      "id": "8-6-lgs-13",
+      "tip": "secim",
+      "soru": "Duygu ve Anlatım Buluşması kayıt tablosu: toplam çalışma / eksik alan sayısı\nI: 18 / 3\nII: 22 / 1\nIII: 20 / 0\nIV: 24 / 2\nEn az 20 çalışma içeren ve eksik alanı olmayan dosya hangisidir?",
+      "secenekler": [
+        "IV",
+        "III",
+        "I",
+        "II"
+      ],
+      "dogru": "III",
+      "aciklama": "III alt miktar sınırını sağlar ve eksik alanı sıfırdır. II ve IV miktarı sağlasa da eksikleri vardır; I alt sınırın altındadır.",
+      "cikti": "T.8.3.32"
+    },
+    {
+      "id": "8-6-lgs-14",
+      "tip": "secim",
+      "soru": "Duygu ve Anlatım Buluşması duyurusunda “Yalnız onaylı diyalog metni örnekleri listede gösterilir.” yazıyor. Bu kurala göre hangi yorum doğrudur?",
+      "secenekler": [
+        "Listede gösterilmeyen bir örnek yine de onaylı olabilir.",
+        "Onaylı olan her örnek mutlaka gösterilmiştir.",
+        "Listede görünen her örnek onaysızdır.",
+        "Onaysız örnekler mutlaka listede yer alır."
+      ],
+      "dogru": "Listede gösterilmeyen bir örnek yine de onaylı olabilir.",
+      "aciklama": "Kural gösterilenlerin onaylı olmasını ister; onaylananların tamamının gösterileceğini söylemez.",
+      "cikti": "T.8.3.25"
+    },
+    {
+      "id": "8-6-lgs-15",
+      "tip": "secim",
+      "soru": "Duygu ve Anlatım Buluşması için araştırma yapan öğrenci aynı diyalog metni bilgisini üç ayrı sayfada bulur. İkinci ve üçüncü sayfanın birinci sayfayı aynen aktardığını görür. Bu üç sayfanın aynı bilgiyi vermesi nasıl değerlendirilmelidir?",
+      "secenekler": [
+        "Bilgi üç kez yazıldığı için kesin kanıtlanmıştır.",
+        "Kaynağı incelemeye artık gerek yoktur.",
+        "Üç sayfa mutlaka üç ayrı deney raporudur.",
+        "Birbirinden bağımsız üç doğrulama sayılmaz."
+      ],
+      "dogru": "Birbirinden bağımsız üç doğrulama sayılmaz.",
+      "aciklama": "Kopyalanan bilgi ayrı bağımsız dayanak oluşturmaz; ilk kaynağın ve ek kanıtların niteliği incelenmelidir.",
+      "cikti": "T.8.3.31"
+    },
+    {
+      "id": "8-6-lgs-16",
+      "tip": "secim",
+      "soru": "Duygu ve Anlatım Buluşması kuralı: “Diyalog metni dosyası, kaynak bilgisi tamamlanmışsa ve öğretmen uygun bulmuşsa cuma günü paylaşılacaktır.” Bu cümlenin anlamını koruyan özet hangisidir?",
+      "secenekler": [
+        "Öğretmen uygun bulursa kaynak bilgisine gerek kalmayacak.",
+        "Kaynak tamamlanınca gün gözetmeden otomatik paylaşılacak.",
+        "Paylaşım cuma günü, iki koşul da sağlanırsa yapılacak.",
+        "Dosya cuma günü her durumda paylaşılacak."
+      ],
+      "dogru": "Paylaşım cuma günü, iki koşul da sağlanırsa yapılacak.",
+      "aciklama": "Doğru özet zaman bilgisini ve iki koşulun birlikte gerekli oluşunu korur.",
+      "cikti": "T.8.3.13"
+    },
+    {
+      "id": "8-6-lgs-17",
+      "tip": "secim",
+      "soru": "Duygu ve Anlatım Buluşması raporunda “Bazı diyalog metni örnekleri henüz incelenmedi.” deniyor. Bu cümleden hangi sonuç çıkarılabilir?",
+      "secenekler": [
+        "İncelenen bütün örnekler başarısızdır.",
+        "En az bir örneğin incelemesi tamamlanmamıştır.",
+        "Bütün örnekler kesinlikle incelenmiştir.",
+        "Hiçbir örnek gelecekte incelenmeyecektir."
+      ],
+      "dogru": "En az bir örneğin incelemesi tamamlanmamıştır.",
+      "aciklama": "Bazı sözü en az bir durumu bildirir; henüz ise gelecekte inceleme ihtimalini kapatmaz.",
+      "cikti": "T.8.3.25"
+    },
+    {
+      "id": "8-6-lgs-18",
+      "tip": "secim",
+      "soru": "Duygu ve Anlatım Buluşması dosyasında dört grubun tamamladığı diyalog metni sayıları A:12, B:18, C:15, D:9 olarak verilmiştir. En yüksekten en düşüğe doğru sıralamayı gösteren grafik etiketleri hangisidir?",
+      "secenekler": [
+        "B – C – A – D",
+        "B – A – C – D",
+        "D – A – C – B",
+        "C – B – A – D"
+      ],
+      "dogru": "B – C – A – D",
+      "aciklama": "B en yüksek, ardından C ve A, son olarak D gelir. Sıralama tabloda verilen büyüklüklerden okunur.",
+      "cikti": "T.8.3.32"
+    },
+    {
+      "id": "8-6-lgs-19",
+      "tip": "secim",
+      "soru": "Duygu ve Anlatım Buluşması üzerine bir yazıda “Diyalog metni, hazırlayanla okuyan arasında bir köprü kurdu; daha önce görünmeyen düşünceler konuşulabilir oldu.” deniyor. Köprü kurmak sözü burada anlatıma ne katar?",
+      "secenekler": [
+        "Gerçek bir inşaatın tamamlandığını kanıtlar.",
+        "Bir yolun uzunluğunu sayıyla gösterir.",
+        "İki kişinin her konuda aynı düşündüğünü kesinleştirir.",
+        "İletişim ve bağlantı sağlandığını mecazla anlatır."
+      ],
+      "dogru": "İletişim ve bağlantı sağlandığını mecazla anlatır.",
+      "aciklama": "Köprü somut geçiş yapısından hareketle düşünceler arasında iletişim kurulmasını anlatır; tam uzlaşma iddiası içermez.",
+      "cikti": "T.8.3.5"
+    },
+    {
+      "id": "8-6-lgs-20",
+      "tip": "secim",
+      "soru": "Duygu ve Anlatım Buluşması için basılı duyuru “Salı, saat 14.00, okul salonu; ön kayıt gerekli.” diyor. Sesli duyuru ise “Salı okul salonunda buluşuyoruz; ön kayıt yaptırmayı unutmayın.” biçimindedir. İki duyuru karşılaştırıldığında sesli duyuruda hangi bilginin eksik olduğu görülür?",
+      "secenekler": [
+        "Gün",
+        "Yer",
+        "Ön kayıt koşulu",
+        "Başlama saati"
+      ],
+      "dogru": "Başlama saati",
+      "aciklama": "Gün, yer ve kayıt iki duyuruda da vardır; 14.00 bilgisi yalnız basılı duyuruda bulunur.",
+      "cikti": "T.8.3.23"
+    }
+  ]
+}

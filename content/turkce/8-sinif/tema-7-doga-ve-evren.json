@@ -1,0 +1,1077 @@
+{
+  "belgeTuru": "tema",
+  "semaSurumu": "1.0",
+  "sinif": 8,
+  "program": "2019",
+  "tema": 7,
+  "temaAdi": "Doğa ve Evren",
+  "durum": "incelemeye_hazir",
+  "kaynak": "https://mufredat.meb.gov.tr/Dosyalar/20195716392253-02-T%C3%BCrk%C3%A7e%20%C3%96%C4%9Fretim%20Program%C4%B1%202019.pdf",
+  "kaynak_dogrulanmadi": false,
+  "ogrenmeCiktilari": [
+    "T.8.1.1",
+    "T.8.1.10",
+    "T.8.1.11",
+    "T.8.1.12",
+    "T.8.1.13",
+    "T.8.1.14",
+    "T.8.1.2",
+    "T.8.1.3",
+    "T.8.1.4",
+    "T.8.1.5",
+    "T.8.1.6",
+    "T.8.1.7",
+    "T.8.1.8",
+    "T.8.1.9",
+    "T.8.2.1",
+    "T.8.2.2",
+    "T.8.2.3",
+    "T.8.2.4",
+    "T.8.2.5",
+    "T.8.2.6",
+    "T.8.2.7",
+    "T.8.3.1",
+    "T.8.3.10",
+    "T.8.3.11",
+    "T.8.3.12",
+    "T.8.3.13",
+    "T.8.3.14",
+    "T.8.3.15",
+    "T.8.3.16",
+    "T.8.3.17",
+    "T.8.3.18",
+    "T.8.3.19",
+    "T.8.3.2",
+    "T.8.3.20",
+    "T.8.3.21",
+    "T.8.3.22",
+    "T.8.3.23",
+    "T.8.3.24",
+    "T.8.3.25",
+    "T.8.3.26",
+    "T.8.3.27",
+    "T.8.3.28",
+    "T.8.3.29",
+    "T.8.3.3",
+    "T.8.3.30",
+    "T.8.3.31",
+    "T.8.3.32",
+    "T.8.3.33",
+    "T.8.3.34",
+    "T.8.3.35",
+    "T.8.3.4",
+    "T.8.3.5",
+    "T.8.3.6",
+    "T.8.3.7",
+    "T.8.3.8",
+    "T.8.3.9",
+    "T.8.4.1",
+    "T.8.4.10",
+    "T.8.4.11",
+    "T.8.4.12",
+    "T.8.4.13",
+    "T.8.4.14",
+    "T.8.4.15",
+    "T.8.4.16",
+    "T.8.4.17",
+    "T.8.4.18",
+    "T.8.4.19",
+    "T.8.4.2",
+    "T.8.4.20",
+    "T.8.4.3",
+    "T.8.4.4",
+    "T.8.4.5",
+    "T.8.4.6",
+    "T.8.4.7",
+    "T.8.4.8",
+    "T.8.4.9"
+  ],
+  "sozVarligi": {
+    "aciklama": "Özgün proje tanım ve örneklerinden tema uyumlu spiral tekrar seçimi. Sınıflar arasında aynı kelime yeniden yer alabilir; her sınıf için bütünüyle yeni kelime iddiası değildir.",
+    "kelimeler": [
+      {
+        "kelime": "doğa",
+        "anlam": "İnsan yapımı olmayan varlık ve süreçlerin bütünü",
+        "ornek": "Doğa gözleminde gördüklerimizle yorumlarımızı ayırdık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "evren",
+        "anlam": "Var olan bütün gök cisimlerini ve uzayı kapsayan bütün",
+        "ornek": "Evren hakkında okuduğumuz yazının kaynaklarını inceledik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "gözlem",
+        "anlam": "Bir durumu dikkatle inceleyerek bilgi toplama",
+        "ornek": "Gözlem sırasında suya yaklaşmadan kayıt tuttuk.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "örüntü",
+        "anlam": "Belirli ilişkilerle tekrarlanan düzen",
+        "ornek": "Tek günlük kayıttan uzun süreli örüntü çıkarmadık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "mevsim",
+        "anlam": "Yılın belirli hava ve doğa özellikleriyle ayrılan bölümü",
+        "ornek": "Mevsim sözcüğünün metindeki kullanımını açıkladık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "iklim",
+        "anlam": "Bir yerde uzun yıllarda görülen hava koşullarının genel durumu",
+        "ornek": "Bir günlük yağışı iklimin bütünü saymadık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "yağış",
+        "anlam": "Atmosferdeki suyun yağmur veya kar gibi biçimlerle yeryüzüne inmesi",
+        "ornek": "Yağış notunu fotoğrafın tarihine ekledik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "akış",
+        "anlam": "Bir sıvının veya sürecin ilerleyişi",
+        "ornek": "Derenin akışını güvenli noktadan gözledik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "bulanıklık",
+        "anlam": "Saydamlığın azaldığı görünüm veya durum",
+        "ornek": "Bulanıklık görünüşünü suyun niteliğiyle karıştırmadık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "yüzey",
+        "anlam": "Bir cismin dışta kalan bölümü",
+        "ornek": "Fotoğraf yalnız suyun yüzeyini gösteriyordu.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "kaynak",
+        "anlam": "Bir bilginin veya akışın geldiği yer",
+        "ornek": "Kaynak kelimesinin iki anlamını bağlamdan ayırdık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "havza",
+        "anlam": "Sularını ortak bir alana toplayan bölge",
+        "ornek": "Havza kavramını güvenilir bir harita açıklamasından öğrendik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "ekosistem",
+        "anlam": "Bir alandaki canlılarla çevrelerinin oluşturduğu ilişkili bütün",
+        "ornek": "Ekosistem anlatımında ilişkileri gösteren bir şema kullandık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "yaşam alanı",
+        "anlam": "Bir canlının yaşayabildiği çevre",
+        "ornek": "Yaşam alanı bilgisini görsel açıklamasıyla birlikte okuduk.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "çeşitlilik",
+        "anlam": "Farklı özelliklerin bir arada bulunması",
+        "ornek": "Çeşitlilik yalnız fotoğraf sayısıyla ölçülmedi.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "döngü",
+        "anlam": "Birbirini izleyerek yeniden benzer aşamaya dönen süreç",
+        "ornek": "Döngünün aşamalarını metne göre sıraladık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "aşınma",
+        "anlam": "Bir yüzeyin dış etkilerle zamanla değişip incelmesi",
+        "ornek": "Aşınma iddiası için tek görüntünün yetmediğini konuştuk.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "birikinti",
+        "anlam": "Bir yerde zamanla toplanan madde",
+        "ornek": "Fotoğraftaki birikintinin kaynağını bilmiyorduk.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "yamaç",
+        "anlam": "Yüksek bir yerin eğimli yanı",
+        "ornek": "Yamaç görüntüsünün çekim açısını kaydettik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "yükselti",
+        "anlam": "Bir yerin belirli bir düzeye göre yüksekliği",
+        "ornek": "Yükselti bilgisinin hangi kaynağa dayandığını sorduk.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "iz",
+        "anlam": "Bir olayın veya varlığın bıraktığı belirti",
+        "ornek": "İzi gördük fakat nedenini hemen kesinleştirmedik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "koşul",
+        "anlam": "Bir durumun oluştuğu veya bağlı olduğu şart",
+        "ornek": "Çekim koşulunu bilmeden karşılaştırma yapmadık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "ölçek",
+        "anlam": "Bir gösterimde gerçek büyüklükle çizim arasındaki oran",
+        "ornek": "Haritanın ölçeğini okumadan uzaklık çıkarmadık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "veri",
+        "anlam": "İnceleme için toplanmış gözlem veya ölçüm bilgisi",
+        "ornek": "Eksik veriyi tahminle doldurmadık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "belirsizlik",
+        "anlam": "Bir bilginin henüz kesinleşmemiş olma durumu",
+        "ornek": "Belirsizlik notu raporun altında görünüyordu.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "kanıt",
+        "anlam": "Bir yargıyı destekleyen bilgi veya bulgu",
+        "ornek": "Renk farkını bütün nedenlerin kanıtı saymadık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "sınır",
+        "anlam": "Bir alanın veya açıklamanın ulaştığı uç",
+        "ornek": "Sonucun sınırını başlıkta da belirttik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "koruma",
+        "anlam": "Zarar görmesini önlemeye yönelik gözetme işi",
+        "ornek": "Koruma amacı doğru bilgi kullanma gereğini kaldırmıyordu.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "sürdürülebilir",
+        "anlam": "Kaynakları tüketmeden uzun süre devam ettirilebilir",
+        "ornek": "Sürdürülebilir sözcüğünün yazıda nasıl açıklandığını inceledik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "karşılaştırma",
+        "anlam": "Benzerlik ve ayrılıkları ortak ölçütlerle inceleme",
+        "ornek": "Karşılaştırma için çekim zamanlarını yan yana yazdık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      }
+    ],
+    "esAnlamlilar": [],
+    "zitAnlamlilar": [],
+    "esSesliler": [
+      {
+        "kelime": "yüz",
+        "anlamlar": [
+          "Yüz sayısı",
+          "Başın ön bölümü",
+          "Yüzmek fiilinin emir biçimi"
+        ]
+      }
+    ],
+    "deyimler": [],
+    "atasozleri": []
+  },
+  "okumaParcalari": [
+    {
+      "id": "8-7-okuma-1",
+      "baslik": "Derenin İki Fotoğrafı",
+      "tur": "oykuleyici",
+      "metin": "Doğa kulübünün panosunda aynı derenin iki fotoğrafı yan yana duruyordu. Biri yağmurlu bir günün ardından, diğeri güneşli bir öğleden sonra çekilmişti. İlkinde su bulanık görünüyordu; ikincisinde daha açık renkliydi. Görsellerin altına “Önce kirliydi, sonra temizlendi.” yazılmıştı. Fotoğrafları getiren öğrenci bu başlığın uygun olduğunu düşünüyordu. Sude ise yalnız renge bakarak suyun niteliği hakkında böyle kesin konuşup konuşamayacaklarını sordu.\nKulüp öğretmeni öğrencilerden güvenli mesafeden yapılmış gözlemleri ve henüz bilinmeyenleri ayırmalarını istedi. Dereye girilmeyecek, suya dokunulmayacak ve kendi başlarına örnek alınmayacaktı. Ama fotoğrafların tarihleri, çekim noktaları ve hava koşulları incelenebilirdi. İki görüntünün aynı açıdan bile çekilmediği fark edildi. Işık, derinlik ve yağış gibi etkenler görünümü değiştirmiş olabilirdi. Bunların hangisinin ne ölçüde etkili olduğunu bilmiyorlardı.\nSude panonun başlığını hemen silmek yerine yanına bir soru yazdı: “Bu görüntülerden neyi söyleyebiliriz?” Arkadaşı Alp, ilk fotoğrafta suyun daha bulanık göründüğünü söyleyebileceklerini belirtti. Suyun güvenli olup olmadığına ilişkin bir sonuca ise bu fotoğraflarla ulaşamayacaklardı. Gözlenen görünüşle onun nedeni ve niteliği ayrı konulardı. Başlıkta bu sınırı korumak gerekiyordu. Öğretmen yeni başlığı onlarla birlikte düzenledi: “Aynı Dere, Farklı Koşullar.”\nÖğrenciler daha sonra fotoğraf incelemesi için küçük bir kayıt kartı hazırladı. Tarih, saat, çekim yeri, hava ve görüntünün kapsamı yer alacaktı. Bilinmeyen alanlar tahminle doldurulmayacaktı. Başka bir grubun aynı yöntemle yeni fotoğraflar getirmesi durumunda daha tutarlı karşılaştırma yapabileceklerdi. Yine de bu kayıt kartı bir laboratuvar incelemesinin yerine geçmiyordu. Yaptıkları çalışmanın sınırını açıklamak, meraklarını azaltmamıştı; sorularını daha açık hâle getirmişti.\nPano açıldığında bazı ziyaretçiler yeni başlığın eskisi kadar çarpıcı olmadığını söyledi. Alp bunun doğru olabileceğini kabul etti. İlk başlık kesin bir değişim hikâyesi kuruyordu. Yeni başlık ise bir karşılaştırmaya davet ediyordu. Sude hangi başlığın daha çok dikkat çektiğinden önce, fotoğrafların neyi gerçekten desteklediğini düşünmek istedi. Yanlış bir kesinlik, doğayı korumaya yönelik iyi bir amaç taşısa bile doğru bilgiye dönüşmüyordu.\nDönem sonunda kulüp dosyasına iki fotoğraf da kondu. Eski başlık da üstü çizilerek saklandı. Öğrenciler böylece ilk düşüncelerini nasıl değiştirdiklerini görebilecekti. Sude dosyanın kapağına bir gözlem ile bir soruyu ayrı ayrı yazdı. Gözlem: “İki görüntüde su farklı görünüyor.” Soru: “Bu farkın nedeni ne?” Aynı satırda birleştirmemesi küçük görünüyordu ama çalışmanın bütün yönünü değiştirmişti. Alp bir sonraki doğa gezisinde daha çok fotoğraf çekmekten önce daha iyi kayıt tutmayı planladı. Öğretmenin gözetiminde güvenli biçimde gözlem yapmak, acele bir yargıdan daha uzun sürüyordu. Fakat bu yavaşlık, gördüklerini anlamaya engel değil, daha doğru sorular sormanın bir parçasıydı.\nAlp fotoğraf kartının ilk denemesini okul bahçesindeki güvenli bir noktada yaptı. Öğretmen hangi bilgilerin kaydedileceğini önceden göstermişti. Alp saati yazdıktan sonra ışık koşulunu nasıl açıklayacağını düşündü. Kesin ölçmediği bir değeri sayı olarak vermek yerine gözlediği durumu kısa cümleyle anlattı. Kartın her alanının rakam olmak zorunda olmadığını gördü. Sude de aynı fotoğrafa bakıp kendi notunu yazdı. İki açıklamayı karşılaştırınca bazı sözlerin belirsiz kaldığını fark ettiler. Yeni kartta bu sözleri örneklerle açıklayacaklardı. Böylece daha iyi kayıt tutma hedefi, yalnız daha fazla alan açmak değil, yazılan bilginin ne anlama geldiğini ortaklaştırmak oldu.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; internet veya ders kitabından alınmamıştır.",
+      "sorular": [
+        {
+          "id": "8-7-okuma-1-1",
+          "tip": "secim",
+          "soru": "“Derenin İki Fotoğrafı” metnine göre: İlk başlığın sorunu nedir?",
+          "secenekler": [
+            "Görünüşten doğrulanmamış temizlik sonucu çıkarması",
+            "İki fotoğrafın bulunduğunu söylemesi",
+            "Derenin adını yazmaması"
+          ],
+          "dogru": "Görünüşten doğrulanmamış temizlik sonucu çıkarması",
+          "aciklama": "Renk farkı suyun niteliğini tek başına kanıtlamaz.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-7-okuma-1-2",
+          "tip": "secim",
+          "soru": "“Derenin İki Fotoğrafı” metnine göre: Güvenli çalışma sınırı nedir?",
+          "secenekler": [
+            "Öğrencilerin tek başına örnek alması",
+            "Suyun tadını karşılaştırmak",
+            "Görüntü ve kayıtları incelemek, suya girmemek"
+          ],
+          "dogru": "Görüntü ve kayıtları incelemek, suya girmemek",
+          "aciklama": "Öğretmen gözlem çalışmasının güvenlik ve kapsam sınırını açıklar.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-7-okuma-1-3",
+          "tip": "secim",
+          "soru": "“Derenin İki Fotoğrafı” metnine göre: Fotoğraflarda hangi koşul farkı saptanır?",
+          "secenekler": [
+            "İkisinin aynı ışıkta olması",
+            "Çekim açılarının da farklı olması",
+            "İkisinin aynı saniyede çekilmesi"
+          ],
+          "dogru": "Çekim açılarının da farklı olması",
+          "aciklama": "Metin görüntülerin tam karşılaştırılabilir olmadığını gösterir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-7-okuma-1-4",
+          "tip": "secim",
+          "soru": "“Derenin İki Fotoğrafı” metnine göre: Doğrudan gözlem niteliğindeki söz hangisidir?",
+          "secenekler": [
+            "İlk görüntü daha bulanık görünüyor.",
+            "Su kesinlikle güvenlidir.",
+            "Dere bütünüyle temizlenmiştir."
+          ],
+          "dogru": "İlk görüntü daha bulanık görünüyor.",
+          "aciklama": "Görünüm belirtmek, niteliğe ilişkin doğrulanmamış yargıdan ayrılır.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-7-okuma-1-5",
+          "tip": "secim",
+          "soru": "“Derenin İki Fotoğrafı” metnine göre: Kayıt kartı ne sağlar?",
+          "secenekler": [
+            "Laboratuvar analizinin yerini kesin alır",
+            "Bütün nedenleri kendiliğinden açıklar",
+            "Sonraki karşılaştırmaların koşullarını görünür kılar"
+          ],
+          "dogru": "Sonraki karşılaştırmaların koşullarını görünür kılar",
+          "aciklama": "Tarih, yer ve hava bilgileri karşılaştırmaya yardımcı olur.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-7-okuma-1-6",
+          "tip": "secim",
+          "soru": "“Derenin İki Fotoğrafı” metnine göre: Yeni başlık nasıl farklılaşır?",
+          "secenekler": [
+            "İki görüntüyü aynı ilan eder",
+            "Kesin sonuç yerine incelemeye davet eder",
+            "Her türlü gözlemi yasaklar"
+          ],
+          "dogru": "Kesin sonuç yerine incelemeye davet eder",
+          "aciklama": "Başlık desteklenmeyen değişim hikâyesini kaldırır.",
+          "cikti": "T.8.3.23"
+        },
+        {
+          "id": "8-7-okuma-1-7",
+          "tip": "secim",
+          "soru": "“Derenin İki Fotoğrafı” metnine göre: Eski başlığın saklanması neyi izletir?",
+          "secenekler": [
+            "Düşüncenin nasıl düzeltildiğini",
+            "Yanlışın yeniden kesin bilgi olmasını",
+            "Yeni kaydın gereksizliğini"
+          ],
+          "dogru": "Düşüncenin nasıl düzeltildiğini",
+          "aciklama": "Üstü çizilmiş başlık öğrenme sürecinin parçası olarak tutulur.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-7-okuma-1-8",
+          "tip": "secim",
+          "soru": "“Derenin İki Fotoğrafı” metnine göre: Ana düşünce hangisidir?",
+          "secenekler": [
+            "Çarpıcı başlık her zaman doğru bilgidir",
+            "İki fotoğraf bütün nedenleri kanıtlar",
+            "Doğayı anlatırken gözlemle açıklama ve kanıt sınırı ayrılmalıdır"
+          ],
+          "dogru": "Doğayı anlatırken gözlemle açıklama ve kanıt sınırı ayrılmalıdır",
+          "aciklama": "Öykü iyi amaçla doğrulanmış bilgi arasındaki farkı görünür kılar.",
+          "cikti": "T.8.3.17"
+        }
+      ]
+    },
+    {
+      "id": "8-7-okuma-2",
+      "baslik": "Bir Günün Havasından Uzun Bir Yargıya",
+      "tur": "bilgilendirici",
+      "metin": "Okul bahçesinde bir gün çok yağmur yağması, o yerin bütün yıl boyunca nasıl bir havaya sahip olduğunu tek başına göstermez. Günlük gözlem ile uzun süreye yayılan örüntü farklı kapsamda bilgi verir. Bir not, belirli bir günün koşulunu doğru kaydedebilir; fakat ondan çok geniş bir sonuca geçmek için başka kayıtlar gerekir. Bu ayrım, doğa üzerine okunan kısa haberleri ve görselleri değerlendirirken de önemlidir.\nKurgusal bir sınıf çalışmasında öğrencilerin bir hafta boyunca bahçedeki gölge alanını gözlediğini düşünelim. Her gün aynı saatte, öğretmen gözetiminde güvenli bir noktadan fotoğraf çekiyorlar. Bazı günler bulutlar yüzünden gölge sınırı açık seçilemiyor. Bu günleri ölçülmüş kesin değerlerle doldurmak yerine “Gözlenemedi.” diye işaretleyebilirler. Eksik veriyi görünür tutmak, gerçekte olmayan bir kesinlik üretmekten daha doğru bir kayıt sağlar. Boş alan her zaman ihmal demek değildir.\nKarşılaştırma için yöntemin benzer tutulması önemlidir. Bir gün sabah, diğer gün öğleden sonra çekilen görüntüler başka sorulara cevap verebilir. Bu fark açıklanmadan sonuçlar tek bir çizgi üzerinde aynı koşullardaymış gibi sunulursa yanlış yorum oluşabilir. Çekim saati, yeri ve yöntem kaydı bu nedenle ayrıntı sayılıp atılmamalıdır. Sonuçların anlamı, onların hangi yolla elde edildiğiyle ilişkilidir. Yöntem görünmez olursa okur karşılaştırmayı değerlendirmekte zorlanır.\nDoğaya ilişkin bir haberin başlığı da kapsam bakımından incelenebilir. Bir yerde gözlenen değişim bütün bölgelerin aynı biçimde değiştiğini kanıtlamaz. Aynı şekilde kısa bir görüntü, olayın öncesini ve sonrasını bütünüyle taşımaz. Haberde kaynak, tarih ve araştırmanın kapsamı belirtiliyorsa bunlar okunmalıdır. Görselin etkileyiciliği, anlatılan iddianın doğru büyüklükte kurulup kurulmadığı sorusunu ortadan kaldırmaz. Bir örneğin açıklayıcı olmasıyla her şeyi temsil etmesi farklıdır.\nBu yaklaşım, öğrencilerin hiçbir yorum yapmaması gerektiği anlamına gelmez. Yorum, dayanağı ve sınırı belirtilerek kurulabilir. “Bu haftaki gözlemlerimizde şu farkı gördük.” cümlesi sınırlı bir sonuç bildirir. “Her zaman böyle olur.” cümlesi ise daha geniş kanıt ister. Soru, hangi yargının eldeki kayıtlarla desteklendiğidir. Yeterli bilgi yoksa bunu söylemek de araştırma davranışının parçasıdır. Yeni veri istemek, ilk çalışmayı değersiz saymak değildir.\nSınıf çalışmasının sonunda gözlem notlarıyla haber başlıkları karşılaştırılabilir. Öğrenciler hangi cümlenin ölçümü, hangisinin olası açıklamayı, hangisinin henüz sınanmamış iddiayı bildirdiğini işaretleyebilir. Böylece doğayı gözlemekle metni okumak birbirini destekler. Bilgiyi yalnız toplamak değil, nasıl sunulduğunu anlamak da öğrenilir. Kayıtlar düzenli tutulduğunda sonraki sınıflar aynı soruyu daha iyi yöntemle inceleyebilir. İlk grubun görevi bütün cevapları vermek değildir. Güvenli bir gözlem, dürüst kayıt ve uygun kapsamlı sonuçla daha sonraki sorulara sağlam bir başlangıç bırakmaktır. Bu tutum, doğa sevgisinin dikkatli bilgi kullanımıyla birlikte gelişmesine yardım eden bir çalışma biçimi sunar.\nKayıt defterinin başında kullanılan sözcükler için kısa açıklamalar bulunması da yararlı olabilir. Bir grubun bulutlu dediği durumu başka grup farklı adlandırıyorsa karşılaştırma zorlaşabilir. Öğrenciler gözlem ölçütlerini öğretmenleriyle birlikte açıklar ve gerektiğinde örnek görüntüler kullanır. Bu açıklamalar bütün doğayı birkaç kelimeye indirmez; yalnız o çalışmanın yöntemini anlaşılır kılar. Yöntem değiştiğinde tarih atılarak not düşülür. Eski ve yeni veriler aynı koşuldaymış gibi sessizce birleştirilmez. Böylece sonraki okuyucu kayıtların nasıl oluştuğunu izleyebilir. Doğru bir kayıt, yalnız görülen şeyin değil, onu görme ve yazma biçiminin de bilgisini taşır.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; internet veya ders kitabından alınmamıştır.",
+      "sorular": [
+        {
+          "id": "8-7-okuma-2-1",
+          "tip": "secim",
+          "soru": "“Bir Günün Havasından Uzun Bir Yargıya” metnine göre: Günlük gözlemden yıllık yargıya geçmenin sorunu nedir?",
+          "secenekler": [
+            "Günün hiç kaydedilememesi",
+            "Bütün kayıtların aynı olması",
+            "Kapsamın kanıttan fazla genişletilmesi"
+          ],
+          "dogru": "Kapsamın kanıttan fazla genişletilmesi",
+          "aciklama": "Tek gün, uzun süreli örüntüyü tek başına göstermez.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-7-okuma-2-2",
+          "tip": "secim",
+          "soru": "“Bir Günün Havasından Uzun Bir Yargıya” metnine göre: Gözlenemeyen gün nasıl kaydedilmelidir?",
+          "secenekler": [
+            "Diğer günün sayısı kopyalanarak",
+            "Gözlenemedi diye belirtilerek",
+            "Tahminî kesin değer yazılarak"
+          ],
+          "dogru": "Gözlenemedi diye belirtilerek",
+          "aciklama": "Eksik verinin açıklanması olmayan ölçümü varmış gibi göstermez.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-7-okuma-2-3",
+          "tip": "secim",
+          "soru": "“Bir Günün Havasından Uzun Bir Yargıya” metnine göre: Saat ve yer kaydı neden önemlidir?",
+          "secenekler": [
+            "Karşılaştırma koşullarını gösterir",
+            "Grafiği otomatik doğru yapar",
+            "Bütün havaları aynılaştırır"
+          ],
+          "dogru": "Karşılaştırma koşullarını gösterir",
+          "aciklama": "Yöntem farklılığı sonuçların nasıl yorumlanacağını etkiler.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-7-okuma-2-4",
+          "tip": "secim",
+          "soru": "“Bir Günün Havasından Uzun Bir Yargıya” metnine göre: Bir örneğin açıklayıcı olması neyi garanti etmez?",
+          "secenekler": [
+            "Bir durumu somutlaştırmasını",
+            "Okura başlangıç vermesini",
+            "Bütün durumları temsil etmesini"
+          ],
+          "dogru": "Bütün durumları temsil etmesini",
+          "aciklama": "Örnek sınırlı kapsamda yararlı olabilir, genelleme için ek veri gerekir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-7-okuma-2-5",
+          "tip": "secim",
+          "soru": "“Bir Günün Havasından Uzun Bir Yargıya” metnine göre: Hangi yargı daha sınırlıdır?",
+          "secenekler": [
+            "Bütün bölgelerde aynıdır.",
+            "Bu haftaki gözlemlerimizde fark gördük.",
+            "Her zaman böyle olur."
+          ],
+          "dogru": "Bu haftaki gözlemlerimizde fark gördük.",
+          "aciklama": "İlk cümle zaman ve veri grubunun sınırını belirtir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-7-okuma-2-6",
+          "tip": "secim",
+          "soru": "“Bir Günün Havasından Uzun Bir Yargıya” metnine göre: Yeni veri istemek nasıl yorumlanır?",
+          "secenekler": [
+            "Sonucu daha iyi sınama imkânı",
+            "İlk çalışmayı zorunlu değersiz sayma",
+            "Her gözlemi yalanlama"
+          ],
+          "dogru": "Sonucu daha iyi sınama imkânı",
+          "aciklama": "Araştırma yeni kayıtlarla gelişebilir.",
+          "cikti": "T.8.3.25"
+        },
+        {
+          "id": "8-7-okuma-2-7",
+          "tip": "secim",
+          "soru": "“Bir Günün Havasından Uzun Bir Yargıya” metnine göre: Sınıf çalışmasının son görevi nedir?",
+          "secenekler": [
+            "Bütün haberleri aynı kabul etmek",
+            "Kaynak notlarını silmek",
+            "Ölçüm, açıklama ve iddiaları ayırmak"
+          ],
+          "dogru": "Ölçüm, açıklama ve iddiaları ayırmak",
+          "aciklama": "Metin üç bilgi düzeyini görünür biçimde ayırmayı önerir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-7-okuma-2-8",
+          "tip": "secim",
+          "soru": "“Bir Günün Havasından Uzun Bir Yargıya” metnine göre: Ana düşünce hangisidir?",
+          "secenekler": [
+            "Tek fotoğraf bütün süreyi anlatır",
+            "Doğa gözlemleri yöntem ve kapsam bilgisiyle birlikte değerlendirilmelidir",
+            "Eksik bilgi her zaman tahminle doldurulmalıdır"
+          ],
+          "dogru": "Doğa gözlemleri yöntem ve kapsam bilgisiyle birlikte değerlendirilmelidir",
+          "aciklama": "Yazı dürüst kayıt ve uygun büyüklükte yargı kurmayı savunur.",
+          "cikti": "T.8.3.17"
+        }
+      ]
+    }
+  ],
+  "konular": [
+    {
+      "kod": "8-7-fiilimsi-tekrar",
+      "ad": "Doğa metinlerinde fiilimsi işlevleri",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.8.3.9",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Bir gözlem metninde birden çok eylem anlamı bulunabilir. Bunların hangisinin çekimli yargı, hangisinin ad, niteleme veya zaman-durum katkısı olduğunu ayır. Aynı ek görünüşünden hareketle karar verme; kelimenin cümledeki ilişkisini incele. Böylece gözlem sırası ve açıklamalar arasındaki bağlantı da daha açık görülür.</p><ul><li>Gözlemek dikkat ister.</li><li>Gözlenen alan işaretlendi.</li><li>Gözleyerek öğrendik.</li></ul>",
+      "ornekler": [
+        "Gözlemek dikkat ister.",
+        "Gözlenen alan işaretlendi.",
+        "Gözleyerek öğrendik."
+      ],
+      "testler": [
+        {
+          "id": "8-7-fiilimsi-tekrar-1",
+          "tip": "secim",
+          "soru": "“Gözlemek dikkat ister. / gözlemek” örneğinde belirtilen kelime hangi işlevdedir?",
+          "secenekler": [
+            "Sıfat-fiil",
+            "Çekimli yüklem",
+            "İsim-fiil"
+          ],
+          "dogru": "İsim-fiil",
+          "aciklama": "Gözlemek işin adını bildirir.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-7-fiilimsi-tekrar-2",
+          "tip": "secim",
+          "soru": "“Gözlenen alan kapatıldı. / gözlenen” örneğinde belirtilen kelime hangi işlevdedir?",
+          "secenekler": [
+            "Çekimli ana yüklem",
+            "Sıfat-fiil",
+            "İsim-fiil"
+          ],
+          "dogru": "Sıfat-fiil",
+          "aciklama": "Gözlenen sözü alan adını niteler.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-7-fiilimsi-tekrar-3",
+          "tip": "secim",
+          "soru": "“Gözleyerek öğrendi. / gözleyerek” örneğinde belirtilen kelime hangi işlevdedir?",
+          "secenekler": [
+            "Zarf-fiil",
+            "İsim-fiil",
+            "Çekimli yüklem"
+          ],
+          "dogru": "Zarf-fiil",
+          "aciklama": "Ana eylemin nasıl gerçekleştiğini belirtir.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-7-fiilimsi-tekrar-4",
+          "tip": "secim",
+          "soru": "“Çekilen fotoğrafı sakladı. / çekilen” örneğinde belirtilen kelime hangi işlevdedir?",
+          "secenekler": [
+            "Zarf-fiil",
+            "İsim-fiil",
+            "Sıfat-fiil"
+          ],
+          "dogru": "Sıfat-fiil",
+          "aciklama": "Çekilen hangi fotoğraf olduğunu niteler.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-7-fiilimsi-tekrar-5",
+          "tip": "secim",
+          "soru": "“Kaydı tutmayı unutma. / tutmayı” örneğinde belirtilen kelime hangi işlevdedir?",
+          "secenekler": [
+            "Çekimli ana yüklem",
+            "İsim-fiil",
+            "Sıfat-fiil"
+          ],
+          "dogru": "İsim-fiil",
+          "aciklama": "Tutma iş adı belirtme ekiyle kullanılmıştır.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-7-fiilimsi-tekrar-6",
+          "tip": "secim",
+          "soru": "“Yağmur dinince çıktık. / dinince” örneğinde belirtilen kelime hangi işlevdedir?",
+          "secenekler": [
+            "Zarf-fiil",
+            "Sıfat-fiil",
+            "İsim-fiil"
+          ],
+          "dogru": "Zarf-fiil",
+          "aciklama": "Çıkma eylemiyle zaman ilişkisi kurar.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-7-fiilimsi-tekrar-7",
+          "tip": "secim",
+          "soru": "“Akışı izlemek istedi. / izlemek” örneğinde belirtilen kelime hangi işlevdedir?",
+          "secenekler": [
+            "Sıfat-fiil",
+            "Çekimli geçmiş zaman",
+            "İsim-fiil"
+          ],
+          "dogru": "İsim-fiil",
+          "aciklama": "İzlemek istenen işin adıdır.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-7-fiilimsi-tekrar-8",
+          "tip": "secim",
+          "soru": "“Değişen ışık görünümü etkiledi. / değişen” örneğinde belirtilen kelime hangi işlevdedir?",
+          "secenekler": [
+            "Zarf-fiil",
+            "Sıfat-fiil",
+            "İsim-fiil"
+          ],
+          "dogru": "Sıfat-fiil",
+          "aciklama": "Değişen sözü ışık adını niteler.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-7-fiilimsi-tekrar-9",
+          "tip": "secim",
+          "soru": "“Not alıp karşılaştırdı. / alıp” örneğinde belirtilen kelime hangi işlevdedir?",
+          "secenekler": [
+            "Zarf-fiil",
+            "Sıfat-fiil",
+            "Çekimli yüklem"
+          ],
+          "dogru": "Zarf-fiil",
+          "aciklama": "Alıp ana eylemle bağlantı kuran fiilimsidir.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-7-fiilimsi-tekrar-10",
+          "tip": "secim",
+          "soru": "“Gördüğü ayrıntıyı çizdi. / gördüğü” örneğinde belirtilen kelime hangi işlevdedir?",
+          "secenekler": [
+            "İsim-fiil",
+            "Ana yüklem",
+            "Sıfat-fiil"
+          ],
+          "dogru": "Sıfat-fiil",
+          "aciklama": "Gördüğü sözü ayrıntı adını niteler.",
+          "cikti": "T.8.3.9"
+        }
+      ]
+    }
+  ],
+  "dinleme": [
+    {
+      "id": "8-7-dinleme",
+      "baslik": "Aynı Dere Başka Koşul",
+      "metin": "İki dere fotoğrafının birinde su daha bulanık görünüyordu. İlk başlık bunu kesin temizlik değişimi diye sundu. Öğrenciler öğretmenle birlikte çekim açısı, tarih ve ışığı inceledi. Yalnız görüntüden suyun güvenliğine karar verilemeyeceğini belirtti. Suya girmeden ve örnek almadan, kayıtları karşılaştırmakla yetindiler. Yeni başlık görünüş farkını anlattı; nedenini kesinleştirmedi. Eksik alanlar tahminle doldurulmadı. Son dosyada eski başlık üstü çizilerek saklandı; böylece düşüncenin nasıl değiştiği izlenebilecekti.",
+      "tts": {
+        "dil": "tr-TR",
+        "sesYoksa": "metin"
+      },
+      "sorular": [
+        {
+          "id": "8-7-dinleme-1",
+          "tip": "secim",
+          "soru": "“Aynı Dere Başka Koşul” dinleme metnine göre: İki görüntüde doğrudan gözlenen neydi?",
+          "secenekler": [
+            "Bulanıklık görünüşünün farklılığı",
+            "Suyun kesin güvenliği",
+            "Bütün nedenlerin aynı oluşu"
+          ],
+          "dogru": "Bulanıklık görünüşünün farklılığı",
+          "aciklama": "Dinlenen olayın sırası ve açıklamaları “Bulanıklık görünüşünün farklılığı” cevabını destekler. Diğer seçeneklerdeki ayrıntılar metinde verilen bilgiyle uyuşmaz.",
+          "cikti": "T.8.1.4"
+        },
+        {
+          "id": "8-7-dinleme-2",
+          "tip": "secim",
+          "soru": "“Aynı Dere Başka Koşul” dinleme metnine göre: İnceleme hangi sınırda kaldı?",
+          "secenekler": [
+            "Suya girerek tadım",
+            "Öğrencilerin tek başına örnek alması",
+            "Görüntü ve kayıt karşılaştırması"
+          ],
+          "dogru": "Görüntü ve kayıt karşılaştırması",
+          "aciklama": "Dinlenen olayın sırası ve açıklamaları “Görüntü ve kayıt karşılaştırması” cevabını destekler. Diğer seçeneklerdeki ayrıntılar metinde verilen bilgiyle uyuşmaz.",
+          "cikti": "T.8.1.4"
+        },
+        {
+          "id": "8-7-dinleme-3",
+          "tip": "secim",
+          "soru": "“Aynı Dere Başka Koşul” dinleme metnine göre: Yeni başlık neyi yapmadı?",
+          "secenekler": [
+            "Kayıtlara hiç bakmadı",
+            "Nedeni kesinleştirmedi",
+            "Görünüş farkını belirtmedi"
+          ],
+          "dogru": "Nedeni kesinleştirmedi",
+          "aciklama": "Dinlenen olayın sırası ve açıklamaları “Nedeni kesinleştirmedi” cevabını destekler. Diğer seçeneklerdeki ayrıntılar metinde verilen bilgiyle uyuşmaz.",
+          "cikti": "T.8.1.4"
+        },
+        {
+          "id": "8-7-dinleme-4",
+          "tip": "secim",
+          "soru": "“Aynı Dere Başka Koşul” dinleme metnine göre: Eski başlığın saklanma nedeni nedir?",
+          "secenekler": [
+            "Düşüncedeki düzeltmeyi izlemek",
+            "Yanlışı yeniden kanıt saymak",
+            "Bütün dosyayı gizlemek"
+          ],
+          "dogru": "Düşüncedeki düzeltmeyi izlemek",
+          "aciklama": "Dinlenen olayın sırası ve açıklamaları “Düşüncedeki düzeltmeyi izlemek” cevabını destekler. Diğer seçeneklerdeki ayrıntılar metinde verilen bilgiyle uyuşmaz.",
+          "cikti": "T.8.1.4"
+        }
+      ]
+    }
+  ],
+  "yazmaGorevleri": [
+    {
+      "id": "8-7-yazma",
+      "baslik": "Gözlem ve İddia",
+      "yonerge": "180–280 kelimelik kurgusal gözlem raporu yaz. Tarih ve yöntem bilgisi, doğrudan gözlem, olası açıklama ve sınırları ayır. Güvensiz deney tasarlama. Küçük bir tabloyu anlatım içinde açıkla.",
+      "minKelime": 180,
+      "maxKelime": 280,
+      "ciktilar": [
+        "T.8.4.2",
+        "T.8.4.5",
+        "T.8.4.14"
+      ],
+      "ogretmenDegerlendirmeli": true,
+      "rubrik": [
+        {
+          "olcut": "Amaç ve kapsam",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Gerekçe ve anlam bütünlüğü",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Dil yapıları ve söz varlığı",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Yazım, noktalama ve düzenleme",
+          "enDusuk": 0,
+          "enYuksek": 4
+        }
+      ]
+    }
+  ],
+  "lgsSorulari": [
+    {
+      "id": "8-7-lgs-1",
+      "tip": "secim",
+      "soru": "Doğa Gözlemi Haftası için hazırlanan dört çalışma aşağıda verilmiştir.\ngözlem notu A: 27 dakika; kaynak notu var; ses gereksinimi yok.\ngözlem notu B: 30 dakika; kaynak notu var; ses gereksinimi yok.\ngözlem notu C: 25 dakika; kaynak notu yok; ses gereksinimi yok.\ngözlem notu D: 26 dakika; kaynak notu var; ses gereksinimi var.\nSeçilecek çalışmada kaynak notu bulunmalı, ses gerekmemeli ve süre 27 dakikayı aşmamalıdır. Üç koşulu birlikte sağlayan hangisidir?",
+      "secenekler": [
+        "gözlem notu B",
+        "gözlem notu C",
+        "gözlem notu D",
+        "gözlem notu A"
+      ],
+      "dogru": "gözlem notu A",
+      "aciklama": "gözlem notu A üç koşulu sağlar. B süreyi aşar, C kaynak notu içermez, D ses gerektirir.",
+      "cikti": "T.8.3.32"
+    },
+    {
+      "id": "8-7-lgs-2",
+      "tip": "secim",
+      "soru": "Doğa Gözlemi Haftası programında dört işlem farklı sıralarda yapılacaktır: yöntem seçimi, gözlem, veri kontrolü, sonuç. Yöntem seçimi, gözlem işleminden önce yapılır. Veri kontrolü, gözlem işleminin hemen ardından gelir. Sonuç son işlemdir. Her işlem bir kez yapılacağına göre uygun sıra hangisidir?",
+      "secenekler": [
+        "yöntem seçimi → veri kontrolü → gözlem → sonuç",
+        "yöntem seçimi → gözlem → sonuç → veri kontrolü",
+        "yöntem seçimi → gözlem → veri kontrolü → sonuç",
+        "gözlem → yöntem seçimi → veri kontrolü → sonuç"
+      ],
+      "dogru": "yöntem seçimi → gözlem → veri kontrolü → sonuç",
+      "aciklama": "sonuç sonda olmalıdır. gözlem ile veri kontrolü yan yana ve bu sırada bulunur; yöntem seçimi da onlardan önce gelir.",
+      "cikti": "T.8.3.35"
+    },
+    {
+      "id": "8-7-lgs-3",
+      "tip": "secim",
+      "soru": "Doğa Gözlemi Haftası sonrasında gönüllü 17 katılımcının tamamı gözlem notu çalışmasının anlaşılır olduğunu söyledi. Katılmayanlar ve cevap vermeyenler hakkında veri toplanmadı. Bu bilgiye dayanan, kapsamı aşmayan sonuç hangisidir?",
+      "secenekler": [
+        "Bu yöntem her koşulda en başarılı yöntemdir.",
+        "Yanıt veren 17 kişi çalışmayı anlaşılır bulmuştur.",
+        "Okuldaki herkes çalışmayı anlaşılır bulmuştur.",
+        "Yanıt vermeyenlerin tamamı çalışmayı anlaşılmaz bulmuştur."
+      ],
+      "dogru": "Yanıt veren 17 kişi çalışmayı anlaşılır bulmuştur.",
+      "aciklama": "Veri yalnız yanıt veren gönüllü grubu kapsar; diğer kişiler veya bütün yöntemler hakkında kesin sonuç vermez.",
+      "cikti": "T.8.3.21"
+    },
+    {
+      "id": "8-7-lgs-4",
+      "tip": "secim",
+      "soru": "Doğa Gözlemi Haftası için iki görüş var. I: “Gözlem notu kısa olmalı; okuyucu temel bilgiyi hızla bulabilmeli.” II: “Gözlem notu gerektiğinde ayrıntı içermeli; okuyucunun önemli koşulları anlaması sağlanmalı.” Bu iki görüş hangi ilkede buluşur?",
+      "secenekler": [
+        "İçerik, okuyucunun ihtiyacını karşılayacak biçimde düzenlenmelidir.",
+        "Her metin olabilecek en kısa biçime indirilmelidir.",
+        "Ayrıntılar bütün koşullarda kaldırılmalıdır.",
+        "Okuyucunun ön bilgisi hiçbir zaman dikkate alınmamalıdır."
+      ],
+      "dogru": "İçerik, okuyucunun ihtiyacını karşılayacak biçimde düzenlenmelidir.",
+      "aciklama": "İlk görüş hıza, ikincisi koşullara dikkat çeker; ortak nokta okuyucunun bilgiyi uygun biçimde almasıdır.",
+      "cikti": "T.8.3.23"
+    },
+    {
+      "id": "8-7-lgs-5",
+      "tip": "secim",
+      "soru": "Aşağıdaki cümleler anlamlı bir paragraf oluşturacaktır.\nI. Doğa Gözlemi Haftası grubu ilk taslağını hazırladı.\nII. Son değerlendirmede bu iki düzeltmenin etkisini birlikte inceledi.\nIII. Bu taslağı okuyanlar iki belirsiz nokta belirledi.\nIV. Grup, belirlenen noktaları açıklayan iki düzeltme yaptı.\nGönderimler ve işlem sırası gözetildiğinde doğru diziliş hangisidir?",
+      "secenekler": [
+        "III – I – IV – II",
+        "I – II – III – IV",
+        "IV – III – I – II",
+        "I – III – IV – II"
+      ],
+      "dogru": "I – III – IV – II",
+      "aciklama": "Bu taslak, ilk taslağa; belirlenen noktalar, okuyucu tespitine; bu iki düzeltme, yapılan değişikliklere gönderir.",
+      "cikti": "T.8.3.35"
+    },
+    {
+      "id": "8-7-lgs-6",
+      "tip": "secim",
+      "soru": "Doğa Gözlemi Haftası için hazırlanan gözlem notu ilk denemede uzun bulundu. Grup bazı tekrarları çıkardı. ——— önemli bir koşulun da silindiğini görünce onu yeniden ekledi. Daha kısa bir metin elde etmek, her durumda daha doğru bir metin elde etmek değildi. Boşluğa, önceki adımın beklenen yararına karşı ortaya çıkan sınırlılığı belirtmek için hangisi getirilmelidir?",
+      "secenekler": [
+        "Örneğin",
+        "Başka bir deyişle",
+        "Ancak",
+        "Bu nedenle"
+      ],
+      "dogru": "Ancak",
+      "aciklama": "Kısaltma olumlu bir adım gibi görünürken koşul kaybı ters bir durum getirir; ancak bu karşıtlığı bağlar.",
+      "cikti": "T.8.3.10"
+    },
+    {
+      "id": "8-7-lgs-7",
+      "tip": "secim",
+      "soru": "İki dere fotoğrafındaki renk farkı önce kesin temizlik değişimi diye sunuldu. Öğrenciler çekim koşullarını inceleyince bu yargının eldeki görüntülerden çıkmadığını gördü. Görünüşü kaydetmekle onun nedenini kanıtlamayı ayırdı. Yeni başlıklarında sonuç yerine soruyu ve karşılaştırma koşullarını öne çıkardı.\nBu parçada asıl vurgulanan düşünce hangisidir?",
+      "secenekler": [
+        "Bütün durumlar tek bir ölçütle eksiksiz açıklanabilir.",
+        "Bir değerlendirme, amaca uygun somut dayanaklarla gözden geçirilmelidir.",
+        "İlk izlenim her zaman yeterli ve kesindir.",
+        "Yeni bilgi ilk kararı hiçbir koşulda değiştirmemelidir."
+      ],
+      "dogru": "Bir değerlendirme, amaca uygun somut dayanaklarla gözden geçirilmelidir.",
+      "aciklama": "Parçada ilk yargı, yeni inceleme ve somut dayanaklarla düzeltilir; kapsamı geniş kesinlikler savunulmaz.",
+      "cikti": "T.8.3.17"
+    },
+    {
+      "id": "8-7-lgs-8",
+      "tip": "secim",
+      "soru": "Doğa Gözlemi Haftası yönergesi şöyledir: Kaynak bilgisi eksik gözlem notu doğrudan geri bildirim aşamasına alınır; tamamlanmadan sunuma geçmez. Kaynak bilgisi tamam olanlar önce içerik kontrolünden geçer, uygun bulunursa sunulur. Kaynak bilgisi eksik bir çalışma için ilk uygun işlem hangisidir?",
+      "secenekler": [
+        "Eksik bilgi için geri bildirim vermek",
+        "İçerik kontrolünü atlayıp sunmak",
+        "Eksikliği görünmez biçimde silmek",
+        "Kaynak eksik olsa da doğrudan uygun saymak"
+      ],
+      "dogru": "Eksik bilgi için geri bildirim vermek",
+      "aciklama": "Yönergenin ilk koşulu eksik kaynak durumunu açıkça geri bildirime bağlar.",
+      "cikti": "T.8.3.35"
+    },
+    {
+      "id": "8-7-lgs-9",
+      "tip": "secim",
+      "soru": "Doğa Gözlemi Haftası çalışmasında yalnız iki küçük grubun gözlem notu örnekleri incelendi. Bir grupta açıklama notu varken diğerinde yoktu. Açıklama notu olan örnekte katılımcılar daha az soru sordu. Bu sınırlı bulgu için kapsamı en doğru başlık hangisidir?",
+      "secenekler": [
+        "Açıklama Notları Bütün Soruları Sonsuza Dek Bitirdi",
+        "Bütün Öğrenciler Aynı Yöntemi Tercih Ediyor",
+        "Not Olmayan Her Çalışma Başarısızdır",
+        "İki Gruptaki Örneklerde Açıklama Notuyla Soru Sayısı Birlikte İncelendi"
+      ],
+      "dogru": "İki Gruptaki Örneklerde Açıklama Notuyla Soru Sayısı Birlikte İncelendi",
+      "aciklama": "Başlık iki grup ve gözlenen ilişki sınırını korur; evrensel veya nedensel kesinlik üretmez.",
+      "cikti": "T.8.3.19"
+    },
+    {
+      "id": "8-7-lgs-10",
+      "tip": "secim",
+      "soru": "Bir paragrafın konusu Doğa Gözlemi Haftası kayıtlarının nasıl tutulduğudur. I: Tarih ve yöntem her kayda eklendi. II: Gözlenmeyen alanlar boş bırakılıp açıklandı. III: Etkinliğin afişi bence yılın en güzel afişiydi. IV: Yöntem değiştiğinde kayda not düşüldü. Konu bütünlüğünü bozan cümle hangisidir?",
+      "secenekler": [
+        "I",
+        "II",
+        "IV",
+        "III"
+      ],
+      "dogru": "III",
+      "aciklama": "Diğer cümleler kayıt yöntemini anlatır; III etkinlikle ilgili olsa da afişin kişisel beğeni değerine geçer.",
+      "cikti": "T.8.3.18"
+    },
+    {
+      "id": "8-7-lgs-11",
+      "tip": "secim",
+      "soru": "Doğa Gözlemi Haftası değerlendirmesinde dört cümle yazılmıştır. Hangisi kişisel beğeni yerine kontrol edilebilir bir bilgi bildirir?",
+      "secenekler": [
+        "Etkinliğin havası bütün diğerlerinden güzeldi.",
+        "Seçilen örnekler herkes için kusursuzdu.",
+        "Dosyada 10 adet gözlem notu örneği bulunuyor.",
+        "Bu çalışma tartışmasız en etkileyici üründür."
+      ],
+      "dogru": "Dosyada 10 adet gözlem notu örneği bulunuyor.",
+      "aciklama": "Örnek sayısı sayılarak kontrol edilebilir; diğer sözler beğeni veya kapsamı belirsiz değer yargısı içerir.",
+      "cikti": "T.8.3.21"
+    },
+    {
+      "id": "8-7-lgs-12",
+      "tip": "secim",
+      "soru": "Doğa Gözlemi Haftası sunumuna kabul edilmek için hem içerik onayı hem paylaşım izni gereklidir. Bir gözlem notu örneğinin içerik onayı aldığı biliniyor; paylaşım izni hakkında bilgi yoktur. Kesin olarak söylenebilecek yargı hangisidir?",
+      "secenekler": [
+        "İçerik onayı almadığı kanıtlanmıştır.",
+        "Sunuma kabul edildiği henüz kesinleştirilemez.",
+        "Kesinlikle sunuma kabul edilmiştir.",
+        "Kesinlikle paylaşım izni reddedilmiştir."
+      ],
+      "dogru": "Sunuma kabul edildiği henüz kesinleştirilemez.",
+      "aciklama": "İki gerekli koşuldan yalnız biri bilinmektedir. İzin bilgisi yokluğu ne kabulü ne de reddi kanıtlar.",
+      "cikti": "T.8.3.25"
+    },
+    {
+      "id": "8-7-lgs-13",
+      "tip": "secim",
+      "soru": "Doğa Gözlemi Haftası kayıt tablosu: toplam çalışma / eksik alan sayısı\nI: 19 / 3\nII: 23 / 1\nIII: 21 / 0\nIV: 25 / 2\nEn az 21 çalışma içeren ve eksik alanı olmayan dosya hangisidir?",
+      "secenekler": [
+        "III",
+        "I",
+        "II",
+        "IV"
+      ],
+      "dogru": "III",
+      "aciklama": "III alt miktar sınırını sağlar ve eksik alanı sıfırdır. II ve IV miktarı sağlasa da eksikleri vardır; I alt sınırın altındadır.",
+      "cikti": "T.8.3.32"
+    },
+    {
+      "id": "8-7-lgs-14",
+      "tip": "secim",
+      "soru": "Doğa Gözlemi Haftası duyurusunda “Yalnız onaylı gözlem notu örnekleri listede gösterilir.” yazıyor. Bu kurala göre hangi yorum doğrudur?",
+      "secenekler": [
+        "Onaylı olan her örnek mutlaka gösterilmiştir.",
+        "Listede görünen her örnek onaysızdır.",
+        "Onaysız örnekler mutlaka listede yer alır.",
+        "Listede gösterilmeyen bir örnek yine de onaylı olabilir."
+      ],
+      "dogru": "Listede gösterilmeyen bir örnek yine de onaylı olabilir.",
+      "aciklama": "Kural gösterilenlerin onaylı olmasını ister; onaylananların tamamının gösterileceğini söylemez.",
+      "cikti": "T.8.3.25"
+    },
+    {
+      "id": "8-7-lgs-15",
+      "tip": "secim",
+      "soru": "Doğa Gözlemi Haftası için araştırma yapan öğrenci aynı gözlem notu bilgisini üç ayrı sayfada bulur. İkinci ve üçüncü sayfanın birinci sayfayı aynen aktardığını görür. Bu üç sayfanın aynı bilgiyi vermesi nasıl değerlendirilmelidir?",
+      "secenekler": [
+        "Kaynağı incelemeye artık gerek yoktur.",
+        "Üç sayfa mutlaka üç ayrı deney raporudur.",
+        "Birbirinden bağımsız üç doğrulama sayılmaz.",
+        "Bilgi üç kez yazıldığı için kesin kanıtlanmıştır."
+      ],
+      "dogru": "Birbirinden bağımsız üç doğrulama sayılmaz.",
+      "aciklama": "Kopyalanan bilgi ayrı bağımsız dayanak oluşturmaz; ilk kaynağın ve ek kanıtların niteliği incelenmelidir.",
+      "cikti": "T.8.3.31"
+    },
+    {
+      "id": "8-7-lgs-16",
+      "tip": "secim",
+      "soru": "Doğa Gözlemi Haftası kuralı: “Gözlem notu dosyası, kaynak bilgisi tamamlanmışsa ve öğretmen uygun bulmuşsa cuma günü paylaşılacaktır.” Bu cümlenin anlamını koruyan özet hangisidir?",
+      "secenekler": [
+        "Kaynak tamamlanınca gün gözetmeden otomatik paylaşılacak.",
+        "Paylaşım cuma günü, iki koşul da sağlanırsa yapılacak.",
+        "Dosya cuma günü her durumda paylaşılacak.",
+        "Öğretmen uygun bulursa kaynak bilgisine gerek kalmayacak."
+      ],
+      "dogru": "Paylaşım cuma günü, iki koşul da sağlanırsa yapılacak.",
+      "aciklama": "Doğru özet zaman bilgisini ve iki koşulun birlikte gerekli oluşunu korur.",
+      "cikti": "T.8.3.13"
+    },
+    {
+      "id": "8-7-lgs-17",
+      "tip": "secim",
+      "soru": "Doğa Gözlemi Haftası raporunda “Bazı gözlem notu örnekleri henüz incelenmedi.” deniyor. Bu cümleden hangi sonuç çıkarılabilir?",
+      "secenekler": [
+        "En az bir örneğin incelemesi tamamlanmamıştır.",
+        "Bütün örnekler kesinlikle incelenmiştir.",
+        "Hiçbir örnek gelecekte incelenmeyecektir.",
+        "İncelenen bütün örnekler başarısızdır."
+      ],
+      "dogru": "En az bir örneğin incelemesi tamamlanmamıştır.",
+      "aciklama": "Bazı sözü en az bir durumu bildirir; henüz ise gelecekte inceleme ihtimalini kapatmaz.",
+      "cikti": "T.8.3.25"
+    },
+    {
+      "id": "8-7-lgs-18",
+      "tip": "secim",
+      "soru": "Doğa Gözlemi Haftası dosyasında dört grubun tamamladığı gözlem notu sayıları A:13, B:19, C:16, D:10 olarak verilmiştir. En yüksekten en düşüğe doğru sıralamayı gösteren grafik etiketleri hangisidir?",
+      "secenekler": [
+        "B – A – C – D",
+        "D – A – C – B",
+        "C – B – A – D",
+        "B – C – A – D"
+      ],
+      "dogru": "B – C – A – D",
+      "aciklama": "B en yüksek, ardından C ve A, son olarak D gelir. Sıralama tabloda verilen büyüklüklerden okunur.",
+      "cikti": "T.8.3.32"
+    },
+    {
+      "id": "8-7-lgs-19",
+      "tip": "secim",
+      "soru": "Doğa Gözlemi Haftası üzerine bir yazıda “Gözlem notu, hazırlayanla okuyan arasında bir köprü kurdu; daha önce görünmeyen düşünceler konuşulabilir oldu.” deniyor. Köprü kurmak sözü burada anlatıma ne katar?",
+      "secenekler": [
+        "Bir yolun uzunluğunu sayıyla gösterir.",
+        "İki kişinin her konuda aynı düşündüğünü kesinleştirir.",
+        "İletişim ve bağlantı sağlandığını mecazla anlatır.",
+        "Gerçek bir inşaatın tamamlandığını kanıtlar."
+      ],
+      "dogru": "İletişim ve bağlantı sağlandığını mecazla anlatır.",
+      "aciklama": "Köprü somut geçiş yapısından hareketle düşünceler arasında iletişim kurulmasını anlatır; tam uzlaşma iddiası içermez.",
+      "cikti": "T.8.3.5"
+    },
+    {
+      "id": "8-7-lgs-20",
+      "tip": "secim",
+      "soru": "Doğa Gözlemi Haftası için basılı duyuru “Salı, saat 14.00, okul salonu; ön kayıt gerekli.” diyor. Sesli duyuru ise “Salı okul salonunda buluşuyoruz; ön kayıt yaptırmayı unutmayın.” biçimindedir. İki duyuru karşılaştırıldığında sesli duyuruda hangi bilginin eksik olduğu görülür?",
+      "secenekler": [
+        "Yer",
+        "Ön kayıt koşulu",
+        "Başlama saati",
+        "Gün"
+      ],
+      "dogru": "Başlama saati",
+      "aciklama": "Gün, yer ve kayıt iki duyuruda da vardır; 14.00 bilgisi yalnız basılı duyuruda bulunur.",
+      "cikti": "T.8.3.23"
+    }
+  ]
+}

@@ -7,7 +7,7 @@ Asıl içerik kaynağı bu klasördeki JSON dosyalarıdır. Sıra **sınıf → 
 - `sema.json`: JSON Schema 2020-12. `belgeTuru` ile `mufredat` ve `tema` ayrılır; bilinmeyen alanlar reddedilir.
 - `kaynaklar.json`: resmi tema kaynakları, kontrol tarihi ve doğrulanmış kodlar; yıllık planın adresi ve kontrol edilen sayfa/satırlar. İndirilen kaynakların SHA-256 değerleri izlenebilirlik içindir. CI internete bağlanıp kaynak metinlerinin doğruluğunu yeniden onaylamaz.
 - `5-sinif`–`7-sinif`: `program: "TYMM"`. 5., 6. ve 7. sınıfın altışar teması hazırdır.
-- `8-sinif`: `program: "2019"`; her temada en az 20 LGS sorusu gerekir. Şema 2019 biçimindeki `T.8.3.1` gibi kodları da destekler. TYMM'ye geçiş ayrıca sürümlenecektir. 8. sınıf bankası sonraki teslimdir.
+- `8-sinif`: `program: "2019"`; her temada en az 20 LGS sorusu gerekir. Şema 2019 biçimindeki `T.8.3.1` gibi kodları da destekler. TYMM'ye geçiş ayrıca sürümlenecektir. 8. sınıfın seçilen yıllık plana göre sekiz teması da hazırdır.
 
 ## Tema alanları
 
@@ -58,10 +58,10 @@ Yazma görevleri öğrenci beyanıyla tamamlanmış veya puanlanmış sayılmaz.
 ```sh
 npm ci --prefix tools --ignore-scripts
 node tools/icerik-dogrula.mjs
-node --test tests/turkce-content.test.mjs
+node --test tests/turkce-content.test.mjs tests/turkce-lgs-mantik.test.mjs
 ```
 
-Araç şema uyumu yanında doğru cevabı, soru/kimlik/kelime tekrarlarını, karakter bozulmalarını, kod biçimi ve sınıfını, kaynak kaydını, tema-müfredat eşleşmesini, resmî tema çıktı listesinin eksiksizliğini, kaynak adresi eşleşmesini, 5–7. sınıfta altı tema şartını, konu kapsamını, metin uzunluğunu, güvenli anlatım HTML'ini ve öğretmen değerlendirmesi şartını kontrol eder. Hata varsa çıkış kodu 1 olur. `--json` rapor, `--root <depo>` başka bir kontrol kökü sağlar. Araç öğrenci veritabanına bağlanmaz.
+Araç şema uyumu yanında doğru cevabı, soru/kimlik/kelime tekrarlarını, karakter bozulmalarını, kod biçimi ve sınıfını, kaynak kaydını, tema-müfredat eşleşmesini, resmî tema çıktı listesinin eksiksizliğini, kaynak adresi eşleşmesini, 5–7. sınıfta altı, 8. sınıfta sekiz tema şartını, konu kapsamını, metin uzunluğunu, güvenli anlatım HTML'ini ve öğretmen değerlendirmesi şartını kontrol eder. Hata varsa çıkış kodu 1 olur. `--json` rapor, `--root <depo>` başka bir kontrol kökü sağlar. Araç öğrenci veritabanına bağlanmaz.
 
 GitHub Actions `turkce-icerik.yml`, kilit dosyasıyla Node 22 üzerinde bu denetimleri çalıştırır. Dilsel doğruluk, tek anlamlılık, kaynak-çıktı eşlemesinin pedagojik niteliği ve öğretmen incelemesi ayrıca değerlendirilir; otomatik kontrol bunların yerine geçmez.
 
@@ -74,3 +74,9 @@ GitHub Actions `turkce-icerik.yml`, kilit dosyasıyla Node 22 üzerinde bu denet
 6. sınıfın tema uygulama açıklamalarında dil yapıları bulunur; her biri için ayrı bir resmî DYS kodu verilmiş gibi gösterilmez. `6-2-kok` gibi kimlikler yereldir. Etkinlikler temadaki doğrulanmış genel öğrenme çıktılarıyla eşlenir. Bu pedagojik eşleme, ayrı bir resmî dil bilgisi kazanım kodu iddiası taşımaz; ayrıntılar 6. sınıf müfredatının `kaynakNotlari` alanında ve sınıf teslim raporundadır.
 
 `kaynaklar.json` içindeki `yillikPlan` 5. sınıfın ilk kaynak incelemesini, `ekSinifPlanlari` eklenen sınıfların kontrol edilen çalışma sayfalarını saklar. Temalara ait kodlar, adresler ve kaynak dosyalarının SHA-256 değerleri `kaynaklar` listesindedir.
+
+## 8. sınıfın 2019 programı
+
+8. sınıf için TYMM kullanılmaz. `T.8.1.1`–`T.8.4.20` biçimindeki 76 kazanım sınıf düzeyinde ortak izinli kümedir; her tema dosyasında bu ortak küme yer alır. Bu kayıt, 76 kazanımın her temada ölçüldüğü veya resmî sabit tema dağılımı olduğu iddiasını taşımaz. Tema sırası 2026–2027 MEB yayınları taslak yıllık planından seçilmiştir. Başka onaylı kitaplar için sıra ayrıca sürümlenebilir. Kaynak kayıtlarındaki `kapsam` bu ayrımı açıklar.
+
+Her temada en az 20 LGS tarzı özgün alıştırma ve her LGS alıştırmasında dört seçenek bulunur. Bunlar MEB’in gerçek sınav soruları veya kalibre edilmiş bir ölçme aracı olarak sunulmaz. Yirmi görev ailesi farklı tema bağlamlarında tekrar edilir. Mantık testleri, JSON içindeki metinden tablo verilerini ve sözel koşulları bağımsız okuyarak sekiz temada 32 soruyu yeniden çözer. Diğer soruların pedagojik incelemesinin yerini almaz.

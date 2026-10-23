@@ -55,11 +55,12 @@ export function validateDocument(document,{schema,sourceCodes=new Set(),themeCod
  }
  walk(document);
  if(document.belgeTuru==='tema'){
-  if(themeCodes.size&&document.kaynak_dogrulanmadi!==true&&JSON.stringify([...new Set(document.ogrenmeCiktilari)].sort())!==JSON.stringify([...themeCodes].sort()))fail('/ogrenmeCiktilari','resmî temanın çıktı listesi eksik veya farklı');
+  if(themeCodes.size&&document.kaynak_dogrulanmadi!==true&&JSON.stringify([...new Set(document.ogrenmeCiktilari)].sort())!==JSON.stringify([...themeCodes].sort()))fail('/ogrenmeCiktilari','kayıtlı program/tema çıktı listesi eksik veya farklı');
   const words=document.sozVarligi.kelimeler.map(v=>normalize(v.kelime));
   if(new Set(words).size!==words.length)fail('/sozVarligi/kelimeler','tema içinde yinelenen kelime');
   const limits={5:[250,400],6:[300,500],7:[350,600],8:[450,700]}[grade];
   document.okumaParcalari.forEach((r,i)=>{const count=wordCount(r.metin);if(count<limits[0]||count>limits[1])fail(`/okumaParcalari/${i}/metin`,`${count} kelime; beklenen ${limits.join('–')}`);});
+  if(grade===8)document.lgsSorulari.forEach((q,i)=>{if(q.secenekler.length!==4)fail(`/lgsSorulari/${i}/secenekler`,'LGS alıştırmasında dört seçenek gerekli');});
   document.konular.forEach((l,i)=>{
    if(/<(?!\/?(?:p|ul|li|strong|em|h3)\b)[^>]*>/iu.test(l.anlatimHTML)||/\son\w+\s*=|javascript:|<(?:p|ul|li|strong|em|h3)\s+[^>]+>/iu.test(l.anlatimHTML))fail(`/konular/${i}/anlatimHTML`,'yalnızca özniteliksiz güvenli anlatım etiketleri kullanılabilir');
    if(!new RegExp(`^${grade}-${document.tema}-[a-z0-9-]+$`).test(l.kod))fail(`/konular/${i}/kod`,'konu kodu sınıf/tema ile uyumsuz');
@@ -84,6 +85,7 @@ export async function validateBank(root=project){
   const listed=new Set(manifest.temalar.map(t=>t.dosya));
   for(const extra of files.filter(f=>/^tema-.*\.json$/.test(f)&&!listed.has(f)))result.errors.push(`${grade}-sinif/${extra}: müfredata bağlı olmayan tema dosyası`);
   if(new Set(manifest.temalar.map(t=>t.no)).size!==manifest.temalar.length)result.errors.push(`${grade}-sinif: yinelenen tema numarası`);
+  if(grade===8&&manifest.temalar.length!==8)result.errors.push('8. sınıf: sekiz tema gerekli');
   if([5,6,7].includes(grade)&&manifest.temalar.length!==6)result.errors.push(`${grade}. sınıf: altı tema gerekli`);
   for(const [index,theme] of manifest.temalar.entries()){
    if(theme.no!==index+1)result.errors.push(`${grade}-sinif: tema sırası kesintisiz olmalı`);

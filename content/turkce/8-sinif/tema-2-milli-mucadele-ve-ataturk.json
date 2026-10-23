@@ -1,0 +1,1218 @@
+{
+  "belgeTuru": "tema",
+  "semaSurumu": "1.0",
+  "sinif": 8,
+  "program": "2019",
+  "tema": 2,
+  "temaAdi": "Millî Mücadele ve Atatürk",
+  "durum": "incelemeye_hazir",
+  "kaynak": "https://mufredat.meb.gov.tr/Dosyalar/20195716392253-02-T%C3%BCrk%C3%A7e%20%C3%96%C4%9Fretim%20Program%C4%B1%202019.pdf",
+  "kaynak_dogrulanmadi": false,
+  "ogrenmeCiktilari": [
+    "T.8.1.1",
+    "T.8.1.10",
+    "T.8.1.11",
+    "T.8.1.12",
+    "T.8.1.13",
+    "T.8.1.14",
+    "T.8.1.2",
+    "T.8.1.3",
+    "T.8.1.4",
+    "T.8.1.5",
+    "T.8.1.6",
+    "T.8.1.7",
+    "T.8.1.8",
+    "T.8.1.9",
+    "T.8.2.1",
+    "T.8.2.2",
+    "T.8.2.3",
+    "T.8.2.4",
+    "T.8.2.5",
+    "T.8.2.6",
+    "T.8.2.7",
+    "T.8.3.1",
+    "T.8.3.10",
+    "T.8.3.11",
+    "T.8.3.12",
+    "T.8.3.13",
+    "T.8.3.14",
+    "T.8.3.15",
+    "T.8.3.16",
+    "T.8.3.17",
+    "T.8.3.18",
+    "T.8.3.19",
+    "T.8.3.2",
+    "T.8.3.20",
+    "T.8.3.21",
+    "T.8.3.22",
+    "T.8.3.23",
+    "T.8.3.24",
+    "T.8.3.25",
+    "T.8.3.26",
+    "T.8.3.27",
+    "T.8.3.28",
+    "T.8.3.29",
+    "T.8.3.3",
+    "T.8.3.30",
+    "T.8.3.31",
+    "T.8.3.32",
+    "T.8.3.33",
+    "T.8.3.34",
+    "T.8.3.35",
+    "T.8.3.4",
+    "T.8.3.5",
+    "T.8.3.6",
+    "T.8.3.7",
+    "T.8.3.8",
+    "T.8.3.9",
+    "T.8.4.1",
+    "T.8.4.10",
+    "T.8.4.11",
+    "T.8.4.12",
+    "T.8.4.13",
+    "T.8.4.14",
+    "T.8.4.15",
+    "T.8.4.16",
+    "T.8.4.17",
+    "T.8.4.18",
+    "T.8.4.19",
+    "T.8.4.2",
+    "T.8.4.20",
+    "T.8.4.3",
+    "T.8.4.4",
+    "T.8.4.5",
+    "T.8.4.6",
+    "T.8.4.7",
+    "T.8.4.8",
+    "T.8.4.9"
+  ],
+  "sozVarligi": {
+    "aciklama": "Özgün proje tanım ve örneklerinden tema uyumlu spiral tekrar seçimi. Sınıflar arasında aynı kelime yeniden yer alabilir; her sınıf için bütünüyle yeni kelime iddiası değildir.",
+    "kelimeler": [
+      {
+        "kelime": "bağımsızlık",
+        "anlam": "Bir topluluğun kendi kararlarını kendisinin verebilmesi",
+        "ornek": "Serginin konusu bağımsızlık mücadelesiydi.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "egemenlik",
+        "anlam": "Yönetme ve karar verme yetkisi",
+        "ornek": "Sınıf meclisinde egemenlik kavramını tartıştık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "cumhuriyet",
+        "anlam": "Yönetim yetkisinin milletin seçtiği temsilciler aracılığıyla kullanıldığı yönetim biçimi",
+        "ornek": "Cumhuriyet üzerine bir okuma yaptık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "dayanışma",
+        "anlam": "Bir amaç veya güçlük karşısında birbirine destek olma",
+        "ornek": "Mahalledeki dayanışma herkesi cesaretlendirdi.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "fedakârlık",
+        "anlam": "Bir amaç için kendi isteğinden veya rahatından vazgeçme",
+        "ornek": "Gönüllüler zamanlarından fedakârlık etti.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "kararlılık",
+        "anlam": "Bir kararın arkasında durup çalışmayı sürdürme",
+        "ornek": "Ekibin kararlılığı hazırlıklara yansıdı.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "sorumluluk",
+        "anlam": "Üstlenilen işi yerine getirme yükümlülüğü",
+        "ornek": "Belgeleri koruma sorumluluğu bana verildi.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "emanet",
+        "anlam": "Korunması veya sonradan geri verilmesi için bırakılan şey",
+        "ornek": "Defter bize bir emanet olarak bırakıldı.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "cephe",
+        "anlam": "Bir savaşta karşıt güçlerin karşılaştığı bölge",
+        "ornek": "Anlatının bir bölümü cephe gerisinde geçiyor.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "seferberlik",
+        "anlam": "Bir ihtiyacı karşılamak için bütün imkânlarla birlikte harekete geçme",
+        "ornek": "Kitap onarımı için seferberlik başlattık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "özveri",
+        "anlam": "Bir başkasının yararı için kendi çıkarından vazgeçme",
+        "ornek": "Çalışmada gösterilen özveriyi anlattık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "yurt",
+        "anlam": "Bir topluluğun yaşadığı ve bağlılık duyduğu ülke",
+        "ornek": "Şiirde yurt sevgisi işleniyor.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "anıt",
+        "anlam": "Bir kişiyi veya olayı hatırlatmak için yapılan eser",
+        "ornek": "Anıtın bilgi levhasını okuduk.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "tanıklık",
+        "anlam": "Bir olayda görülen veya yaşananları aktarma",
+        "ornek": "Tanıklık ile duyumu ayırmaya çalıştık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "belge",
+        "anlam": "Bir durumu veya olayı kayda geçiren yazı ya da nesne",
+        "ornek": "Belgenin üzerindeki tarih silinmişti.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "arşiv",
+        "anlam": "Belgelerin düzenlenerek saklandığı yer veya bütün",
+        "ornek": "Okul arşivini görevliyle gezdik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "kronoloji",
+        "anlam": "Olayların zaman sırasına göre düzeni",
+        "ornek": "Sergi için bir kronoloji çizdik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "kanıt",
+        "anlam": "Bir yargıyı destekleyen bilgi veya bulgu",
+        "ornek": "Bu yorum için yeterli kanıt bulunmadı.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "meclis",
+        "anlam": "Ortak işleri görüşüp karara bağlamak üzere toplanan temsilciler kurulu",
+        "ornek": "Meclis kelimesini sözlükten araştırdık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "ortak",
+        "anlam": "Birden çok kişinin paylaştığı",
+        "ornek": "Ortak kararımız sergiyi sade tutmaktı.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "birlik",
+        "anlam": "Aynı amaç çevresinde birleşme durumu",
+        "ornek": "Birlik içinde hazırlıkları tamamladık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "ulaştırmak",
+        "anlam": "Bir şeyi gitmesi gereken yere götürmek veya göndermek",
+        "ornek": "Kutuları depoya ulaştırdık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "korumak",
+        "anlam": "Zarar görmesini veya kaybolmasını önlemek",
+        "ornek": "Eski fotoğrafları ışıktan korumak gerekiyordu.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "hatırat",
+        "anlam": "Bir kişinin yaşadıklarını sonradan anlattığı eser",
+        "ornek": "Hatıratın ne zaman yazıldığını araştırdım.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "bellek",
+        "anlam": "Yaşananları ve öğrenilenleri saklama yetisi",
+        "ornek": "Müze toplumsal belleğe katkı sağlıyor.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "restorasyon",
+        "anlam": "Bir eseri özgün özelliklerini gözeterek onarma işi",
+        "ornek": "Binadaki restorasyon uzmanlarca yürütüldü.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "özgürlük",
+        "anlam": "Başkalarının haklarını gözeterek seçim yapabilme durumu",
+        "ornek": "Özgürlük ile sorumluluğu birlikte konuştuk.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "uzlaşma",
+        "anlam": "Farklı görüşlerin ortak bir çözümde buluşması",
+        "ornek": "Sergi düzeninde uzlaşma sağlandı.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "katılım",
+        "anlam": "Bir çalışmada veya kararda yer alma",
+        "ornek": "Gönüllü katılım için duyuru hazırladık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "güven",
+        "anlam": "Birine veya bir şeye duyulan inanma duygusu",
+        "ornek": "Açık bilgi paylaşımı güven oluşturdu.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      }
+    ],
+    "esAnlamlilar": [
+      [
+        "özveri",
+        "fedakârlık"
+      ]
+    ],
+    "zitAnlamlilar": [],
+    "esSesliler": [],
+    "deyimler": [],
+    "atasozleri": []
+  },
+  "okumaParcalari": [
+    {
+      "id": "8-2-okuma-1",
+      "baslik": "Panodaki Son İmza",
+      "tur": "oykuleyici",
+      "metin": "Cumhuriyet temalı okul çalışmasının panosu neredeyse hazırdı. Öğrenciler bağımsızlık, eğitim ve ortak sorumluluk üzerine özgün metinler yazmış, araştırdıkları bilgilerin kaynaklarını ayrı bir bölümde göstermişti. Panonun altına çalışmayı hazırlayan grubun adı yazılacaktı. Fakat son kontrol sırasında yalnız sahnede konuşacak dört öğrencinin isimlerinin bulunduğu görüldü. Kâğıtları düzenleyen, kaynakları denetleyen ve panoyu erişilebilir yükseklikte yerleştiren arkadaşlarının katkıları görünmüyordu.\nAras bunun önemli olmadığını söyledi. Ziyaretçiler zaten bütün sınıfın çalıştığını anlayabilirdi. İpek ise ilk toplantıyı hatırlattı: Ortak emeği anlatan bir pano hazırlamak istemişlerdi. Hazırlanışındaki emeği görünmez bırakmaları kendi amaçlarıyla çelişiyordu. Konu yalnız herkesin adını büyük harfle yazmak değildi. Hangi katkının değerli sayıldığını düşünmeleri gerekiyordu. Sahneye çıkmayan birinin işi de çalışmanın sonucu için gerekli olabilirdi.\nÖğretmenleri isimleri hemen çoğaltmak yerine görevleri yeniden listelemelerini istedi. Liste uzadıkça pano daha farklı görünmeye başladı. Bir öğrenci küçük harflerin uzaktan okunmadığını fark etmiş, başka biri görsellerin açıklamasını yazmıştı. Konuşma metnindeki doğrulanmamış bir sözü çıkaran arkadaşları da vardı. Hiçbiri ziyaretçinin ilk bakışta göreceği gösterişli görevler değildi. Yine de hepsi bilginin doğru ve anlaşılır sunulmasına katkı sağlamıştı.\nGrup iki çözümü tartıştı. Birincisi herkesin adını rastgele sıralamaktı. İkincisi çalışmayı ortak sınıf ürünü olarak belirtmek, isteyenlerin gönüllü katkı notlarını ayrı dosyada tutmaktı. İsim paylaşımı konusunda okulun kurallarına uyacaklardı; kimse kişisel bilgisini panoya koymaya zorlanmayacaktı. Seçimlerinin gerekçesini de yazdılar. Böylece ortak katkıyı tanımak, bütün ayrıntıları herkesin önünde açıklamakla aynı şey sayılmadı.\nAçılış günü Aras konuşmasını bitirince dinleyicilerin alkışını duydu. Eskiden yalnız kendi performansını düşünebilirdi. Bu kez arkasındaki panoda tek bir öğrencinin zaferi yerine birlikte yapılan işin izlerini gördü. Konuşmada kullandığı açık bir geçiş cümlesini İpek önermişti. Büyük başlığın okunmasını kolaylaştıran boşluğu başka bir arkadaşı ayarlamıştı. Bunları fark etmek kendi emeğini küçültmüyor, çalışmanın nasıl mümkün olduğunu daha doğru görmesini sağlıyordu.\nProgramdan sonra öğrenciler hazırlık dosyasına kısa bir değerlendirme ekledi. Ne öğrendiklerini ve neyi farklı yapacaklarını yazdılar. Millî Mücadele ve Cumhuriyet üzerine konuşmanın yalnız geçmiş olayların adlarını söylemek olmadığını düşündüler. Ortak emek, sorumluluk ve doğru bilgi gibi kavramların bugünkü davranışlarında da karşılığı olabilirdi. Tarihî kişilere yeni sözler atfetmeden, kendi yaşadıkları sınıf deneyimi üzerinden bunu anlatmışlardı. Son imza bir kişinin adı olmadı. “Bu çalışma, farklı görevlerle katkı sunan sınıfımızın ortak ürünüdür.” cümlesi panonun altına yerleşti. İpek cümleyi uzaktan okuyup başını salladı. Bu küçük değişiklik, panonun savunduğu düşünceyle hazırlanış biçimini birbirine biraz daha yaklaştırmıştı.\nDeğerlendirme dosyasına görevlerin yalnız adları değil, birbirleriyle ilişkileri de eklendi. Kaynak kontrolü yapılmadan konuşma metni tamamlanamıyor, okunabilirlik denenmeden pano son biçimini alamıyordu. Öğrenciler bu bağlantıları küçük oklarla gösterdi. Bir işi önce yapmak her zaman daha önemli olmak anlamına gelmiyordu; bazen sonraki görevin başlayabilmesi için gerekliydi. Aras kendi çalışmasının nerede başkasının emeğine dayandığını görünce teşekkürünün daha somut olabileceğini düşündü. Genel bir övgü yerine hangi katkının neyi kolaylaştırdığını söyleyebilirdi. İpek de bunu önemli buldu. Son toplantıda herkes bir arkadaşının görünmeyen katkısını örnekle anlattı ve kayıtlar ortak dosyada saklandı.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; internet veya ders kitabından alınmamıştır.",
+      "sorular": [
+        {
+          "id": "8-2-okuma-1-1",
+          "tip": "secim",
+          "soru": "“Panodaki Son İmza” metnine göre: Başlangıçtaki eksiklik nedir?",
+          "secenekler": [
+            "Hiç kaynak bulunmaması",
+            "Bütün metinlerin dışarıdan kopyalanması",
+            "Yalnız sahneye çıkacakların katkısının görünmesi"
+          ],
+          "dogru": "Yalnız sahneye çıkacakların katkısının görünmesi",
+          "aciklama": "İlk paragraf görünmeyen hazırlık görevlerinin adlandırılmadığını anlatır.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-2-okuma-1-2",
+          "tip": "secim",
+          "soru": "“Panodaki Son İmza” metnine göre: İpek hangi çelişkiye dikkat çeker?",
+          "secenekler": [
+            "Tarihlerin alfabetik olmamasına",
+            "Ortak emeği anlatırken bazı emekleri görünmez kılmaya",
+            "Pano ile masa renklerinin ayrılmasına"
+          ],
+          "dogru": "Ortak emeği anlatırken bazı emekleri görünmez kılmaya",
+          "aciklama": "Amaç ile hazırlıkta tanınan katkılar arasında uyumsuzluk vardır.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-2-okuma-1-3",
+          "tip": "secim",
+          "soru": "“Panodaki Son İmza” metnine göre: Görev listesi neyi değiştirir?",
+          "secenekler": [
+            "Gösterişsiz katkıların da gerekli olduğunun görülmesini",
+            "Sadece konuşma yapanların kalmasını",
+            "Bütün görevlerin iptal edilmesini"
+          ],
+          "dogru": "Gösterişsiz katkıların da gerekli olduğunun görülmesini",
+          "aciklama": "Kaynak kontrolü ve okunabilirlik düzeni gibi işler listede görünür olur.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-2-okuma-1-4",
+          "tip": "secim",
+          "soru": "“Panodaki Son İmza” metnine göre: İsim paylaşımı konusunda ne gözetilir?",
+          "secenekler": [
+            "Herkesin özel bilgisinin zorunlu açıklanması",
+            "Yalnız en uzun adı olanın yazılması",
+            "Gönüllülük ve okulun kuralları"
+          ],
+          "dogru": "Gönüllülük ve okulun kuralları",
+          "aciklama": "Ortak emeği tanımak kişisel bilgi paylaşımına zorlamayla eşit sayılmaz.",
+          "cikti": "T.8.3.13"
+        },
+        {
+          "id": "8-2-okuma-1-5",
+          "tip": "secim",
+          "soru": "“Panodaki Son İmza” metnine göre: Aras'ın tutumu nasıl değişir?",
+          "secenekler": [
+            "Konuşmanın gereksiz olduğunu savunur",
+            "Kendi performansıyla birlikte diğer katkıları da fark eder",
+            "Kendi emeğini bütünüyle yok sayar"
+          ],
+          "dogru": "Kendi performansıyla birlikte diğer katkıları da fark eder",
+          "aciklama": "Aras alkıştan sonra ürünün ortak hazırlıkla oluştuğunu düşünür.",
+          "cikti": "T.8.3.23"
+        },
+        {
+          "id": "8-2-okuma-1-6",
+          "tip": "secim",
+          "soru": "“Panodaki Son İmza” metnine göre: Son cümledeki biraz daha sözü neyi anlatır?",
+          "secenekler": [
+            "Uyumun geliştirilmiş fakat kusursuz ilan edilmemiş olmasını",
+            "Hiç değişiklik yapılmadığını",
+            "Bütün sorunların kesin bittiğini"
+          ],
+          "dogru": "Uyumun geliştirilmiş fakat kusursuz ilan edilmemiş olmasını",
+          "aciklama": "İfade sınırlı ve gerçekçi bir gelişme bildirir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-2-okuma-1-7",
+          "tip": "secim",
+          "soru": "“Panodaki Son İmza” metnine göre: Metinde tarihî kişiler adına ne yapılmamıştır?",
+          "secenekler": [
+            "Kendi sınıf deneyimi anlatılmamıştır",
+            "Kaynaklar gösterilmemiştir",
+            "Doğrulanmamış yeni sözler üretilmemiştir"
+          ],
+          "dogru": "Doğrulanmamış yeni sözler üretilmemiştir",
+          "aciklama": "Son bölüm öğrencilerin kendi deneyimlerini anlattığını açıklar.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-2-okuma-1-8",
+          "tip": "secim",
+          "soru": "“Panodaki Son İmza” metnine göre: Ana düşünce hangisidir?",
+          "secenekler": [
+            "Bir başarı yalnız en görünür kişiye aittir",
+            "Ortaklık söylemi, farklı katkıları tanıyan uygulamayla desteklenmelidir",
+            "Sahne dışında yapılan işler önemsizdir"
+          ],
+          "dogru": "Ortaklık söylemi, farklı katkıları tanıyan uygulamayla desteklenmelidir",
+          "aciklama": "Olaylar amaçla davranışın tutarlılığına ve görünmeyen emeğe odaklanır.",
+          "cikti": "T.8.3.17"
+        }
+      ]
+    },
+    {
+      "id": "8-2-okuma-2",
+      "baslik": "Ortak Belleği Anlatmak",
+      "tur": "bilgilendirici",
+      "metin": "Bir toplumun geçmişi hakkında hazırlanan çalışma, yalnız tarih ve isimleri sıralamaktan oluşmaz. Hangi olayların seçildiği, bunların hangi kaynaklarla açıklandığı ve aralarındaki ilişkinin nasıl kurulduğu da anlatımı biçimlendirir. Millî Mücadele ve Atatürk temalı bir okul çalışması bu bakımdan hem araştırma hem iletişim görevidir. Amaç, kaynağı belli bilgiyle düşünmek ve bu bilgiyi doğru kapsamda sunmaktır. Etkileyici bir anlatım kurma isteği, doğrulanmamış ayrıntıları kesinleştirmeye gerekçe olamaz.\nİlk aşamada çalışma sorusu belirlenebilir. Çok geniş bir konu, kısa bir panoda bütün yönleriyle ele alınamaz. Örneğin ortak bir amaca katkı sağlayan farklı görevler üzerinde durulacaksa belgeler bu soruyla ilişkilendirilir. Bir örnek, bütün dönemi tek başına temsil ettiği iddiasıyla sunulmaz. Seçimin neden yapıldığı açıklanır. Böylece okur önündeki çalışmanın sınırını görür; eksik bırakılan her ayrıntıyı yok sayılmış kabul etmek zorunda kalmaz.\nKaynakların türleri de birbirinden ayrılmalıdır. Olay sırasında tutulmuş bir kayıt, yıllar sonra yazılmış bir anı ve güncel bir inceleme aynı koşullarda oluşmaz. Aralarındaki farkları bilmek, birini otomatik olarak doğru ve diğerini yanlış saymak demek değildir. Her kaynak, hangi soruya ne ölçüde cevap verdiği düşünülerek incelenir. Bir kişinin hatırladığı ayrıntı, başka belgelerle karşılaştırılabilir. Kaynakta bulunmayan duygu ve konuşmalar ise araştırmacının kesin bilgisi gibi eklenmez.\nSunumda görsellerin açıklaması da metnin parçasıdır. Bir görselin tarihi veya niteliği biliniyorsa belirtilir. Sonradan yapılmış öğrenci modeli, dönemden kalmış özgün eser diye tanıtılmaz. Harita bir şemaysa tam güzergâhı kesin olarak gösterdiği ileri sürülmez. Görselin güçlü etkisi, onu kendiliğinden kanıt yapmaz. Okurun ne gördüğünü anlayabilmesi için kısa fakat açık bir bilgiye ihtiyacı vardır.\nFarklı kaynaklar arasında ayrılık bulunduğunda bu durum saklanmayabilir. Öğrenciler öğretmenlerinin rehberliğiyle hangi noktaların ortak, hangilerinin henüz tartışmalı olduğunu gösterebilir. Bir belirsizliği açıkça belirtmek, çalışmanın değerini zorunlu olarak azaltmaz. Aksine, bilinenle bilinmeyenin ayrıldığını gösterir. Bu yaklaşım, ortak geçmişi önemsemenin bilgiye özen göstermeyi de gerektirdiğini düşündürür. Saygı, doğrulukla birlikte yürütülebilir.\nSon aşamada ürünün okuyucuyla kurduğu ilişki değerlendirilir. Başlık soruyu yansıtıyor mu, kaynak notları bulunabiliyor mu, yazılar farklı uzaklıklardan okunabiliyor mu? Bunlar araştırmadan bağımsız süsleme soruları değildir. Bilgiye ulaşmanın ve onu anlamanın koşullarıdır. Çalışmanın sonunda kullanılan kaynakların ve alınan kararların kısa bir kaydı saklanabilir. Yeni bir belge bulunduğunda veya açıklama düzeltilmesi gerektiğinde bu kayıt yardımcı olur. Ortak bellek üzerine çalışma böylece değişmez bir anlatıyı ezberlemekten daha geniş bir iş hâline gelir. Öğrenciler hem geçmişe ilişkin bilgiyi hem de bilgi sunarken taşıdıkları sorumluluğu düşünür. Sonuç ürün kadar araştırma yolu da anlam kazanır. Kaynakla konuşmayı öğrenmek, sonraki okuma ve tartışmalarda kullanılabilecek bir alışkanlık bırakır.\nHazırlık dosyasında her alıntının yanına kullanıldığı yer de yazılabilir. Böylece bir bilgi daha sonra düzeltilirse hangi pano veya konuşma bölümünün değişeceği bulunur. Bu düzen yalnız araştırmayı yapan ilk grup için değildir. Sonraki öğrenciler de aynı kaynağı nerede ve neden kullandıklarını izleyebilir. Kaydın çok ayrıntılı olması şart değildir; anlaşılır olması önemlidir. Gereksiz kişisel bilgiler eklenmez. Belgenin kimden geldiği gibi gerekli kayıtlar okulun uygun süreçlerinde tutulur. Sunum için herkese açık dosya ile çalışma notlarının paylaşım kapsamı aynı olmayabilir. Bu ayrım, ortak belleği anlatırken güncel sorumlulukların da sürdüğünü gösterir.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; internet veya ders kitabından alınmamıştır.",
+      "sorular": [
+        {
+          "id": "8-2-okuma-2-1",
+          "tip": "secim",
+          "soru": "“Ortak Belleği Anlatmak” metnine göre: Bir okul çalışmasında soru belirlemenin işlevi nedir?",
+          "secenekler": [
+            "Her ayrıntıyı tek panoya sığdırmak",
+            "Kapsamı ve kaynak seçimini yönlendirmek",
+            "Bütün kaynakları gereksiz yapmak"
+          ],
+          "dogru": "Kapsamı ve kaynak seçimini yönlendirmek",
+          "aciklama": "Çalışma sorusu hangi bilgilerin hangi amaçla seçildiğini belirler.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-2-okuma-2-2",
+          "tip": "secim",
+          "soru": "“Ortak Belleği Anlatmak” metnine göre: Bir örneğin sınırlı tutulması neyi önler?",
+          "secenekler": [
+            "Bütün dönemi temsil ettiği izlenimini",
+            "Okurun kaynağa bakmasını",
+            "Başlığın konuyla ilişkilendirilmesini"
+          ],
+          "dogru": "Bütün dönemi temsil ettiği izlenimini",
+          "aciklama": "Yazar örneğin kapsamının açık tutulmasını önerir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-2-okuma-2-3",
+          "tip": "secim",
+          "soru": "“Ortak Belleği Anlatmak” metnine göre: Kaynak türlerini ayırmak ne anlama gelmez?",
+          "secenekler": [
+            "Oluşma koşullarını incelemek",
+            "Soruyla ilişkisini değerlendirmek",
+            "Bir türü otomatik doğru, diğerini yanlış saymak"
+          ],
+          "dogru": "Bir türü otomatik doğru, diğerini yanlış saymak",
+          "aciklama": "Metin kaynakları türüne göre peşinen kesinleştirmeyi reddeder.",
+          "cikti": "T.8.3.25"
+        },
+        {
+          "id": "8-2-okuma-2-4",
+          "tip": "secim",
+          "soru": "“Ortak Belleği Anlatmak” metnine göre: Görselin güçlü etkisi hangi niteliği tek başına sağlamaz?",
+          "secenekler": [
+            "Bir yorum uyandırmasını",
+            "Kanıt olmasını",
+            "Okurun dikkatini çekmesini"
+          ],
+          "dogru": "Kanıt olmasını",
+          "aciklama": "Duygusal veya görsel etki doğruluk dayanağının yerini tutmaz.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-2-okuma-2-5",
+          "tip": "secim",
+          "soru": "“Ortak Belleği Anlatmak” metnine göre: Belirsizliğin belirtilmesi nasıl yorumlanır?",
+          "secenekler": [
+            "Bilinenle bilinmeyenin ayrılması",
+            "Her bilginin yanlış ilanı",
+            "Araştırmanın gereksiz oluşu"
+          ],
+          "dogru": "Bilinenle bilinmeyenin ayrılması",
+          "aciklama": "Açıklık çalışmanın bilgi sınırını gösterir.",
+          "cikti": "T.8.3.25"
+        },
+        {
+          "id": "8-2-okuma-2-6",
+          "tip": "secim",
+          "soru": "“Ortak Belleği Anlatmak” metnine göre: Okunabilirlik neden içerikle ilişkilidir?",
+          "secenekler": [
+            "Yalnız dış görünüşü belirlediği için",
+            "Kaynakların tarihini değiştirdiği için",
+            "Bilgiye ulaşma ve anlamanın koşulu olduğu için"
+          ],
+          "dogru": "Bilgiye ulaşma ve anlamanın koşulu olduğu için",
+          "aciklama": "Bilgi sunulsa da okunamıyorsa iletişim işlevi sınırlanır.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-2-okuma-2-7",
+          "tip": "secim",
+          "soru": "“Ortak Belleği Anlatmak” metnine göre: Karar kaydı ne zaman yararlıdır?",
+          "secenekler": [
+            "Bütün çalışmayı değişmez kılmak için",
+            "Yeni bilgi veya düzeltme gerektiğinde",
+            "Kaynakları saklamak istendiğinde"
+          ],
+          "dogru": "Yeni bilgi veya düzeltme gerektiğinde",
+          "aciklama": "Kayıt, sonraki incelemelerde önceki kararın dayanağını izletir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-2-okuma-2-8",
+          "tip": "secim",
+          "soru": "“Ortak Belleği Anlatmak” metnine göre: Ana düşünce hangisidir?",
+          "secenekler": [
+            "Ortak geçmişi anlatmak kaynak, kapsam ve sunum sorumluluğu ister",
+            "Etkileyici anlatım doğruluk için yeterlidir",
+            "Kaynaklar arasındaki farklar daima gizlenmelidir"
+          ],
+          "dogru": "Ortak geçmişi anlatmak kaynak, kapsam ve sunum sorumluluğu ister",
+          "aciklama": "Bölümler araştırmayla iletişimin birlikte özen istediğini vurgular.",
+          "cikti": "T.8.3.17"
+        }
+      ]
+    }
+  ],
+  "konular": [
+    {
+      "kod": "8-2-temel-ogeler",
+      "ad": "Yüklem ve özne",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.8.4.18",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Yüklem cümlenin temel yargısını taşır; özne bu yargının bildirdiği işi yapan veya durumda bulunan unsurdur. Önce yüklemi belirlemek, sonra ona uygun kim veya ne sorusunu sormak çözümlemeyi kolaylaştırır. Her cümlede açık özne bulunmayabilir. Kişi ekinden anlaşılan gizli özneyle cümlede yazılı özneyi ayır. Bir kelimeyi yalnız başta durduğu için özne sayma.</p><ul><li>Öğrenciler panoyu hazırladı.</li><li>Pano hazırdı.</li><li>Notları topladık: gizli özne biz.</li></ul>",
+      "ornekler": [
+        "Öğrenciler panoyu hazırladı.",
+        "Pano hazırdı.",
+        "Notları topladık: gizli özne biz."
+      ],
+      "testler": [
+        {
+          "id": "8-2-temel-ogeler-1",
+          "tip": "secim",
+          "soru": "“Öğrenciler panoyu hazırladı. / yüklem” için istenen öge hangisidir?",
+          "secenekler": [
+            "Panoyu",
+            "Hazırladı",
+            "Öğrenciler"
+          ],
+          "dogru": "Hazırladı",
+          "aciklama": "Temel yargı hazırladı sözünde bulunur.",
+          "cikti": "T.8.4.18"
+        },
+        {
+          "id": "8-2-temel-ogeler-2",
+          "tip": "secim",
+          "soru": "“Öğrenciler panoyu hazırladı. / özne” için istenen öge hangisidir?",
+          "secenekler": [
+            "Öğrenciler",
+            "Panoyu",
+            "Hazırladı"
+          ],
+          "dogru": "Öğrenciler",
+          "aciklama": "Hazırlayan kim sorusunun cevabı öğrenciler sözüdür.",
+          "cikti": "T.8.4.18"
+        },
+        {
+          "id": "8-2-temel-ogeler-3",
+          "tip": "secim",
+          "soru": "“Pano bugün hazırdı. / yüklem” için istenen öge hangisidir?",
+          "secenekler": [
+            "Pano",
+            "Bugün",
+            "Hazırdı"
+          ],
+          "dogru": "Hazırdı",
+          "aciklama": "Hazır olma yargısını taşıyan söz hazırdıdır.",
+          "cikti": "T.8.4.18"
+        },
+        {
+          "id": "8-2-temel-ogeler-4",
+          "tip": "secim",
+          "soru": "“Notları birlikte topladık. / gizli özne” için istenen öge hangisidir?",
+          "secenekler": [
+            "Birlikte",
+            "Biz",
+            "Notlar"
+          ],
+          "dogru": "Biz",
+          "aciklama": "Topladık kişi eki konuşanı içeren çoğul özneyi gösterir.",
+          "cikti": "T.8.4.18"
+        },
+        {
+          "id": "8-2-temel-ogeler-5",
+          "tip": "secim",
+          "soru": "“İpek kaynakları denetledi. / özne” için istenen öge hangisidir?",
+          "secenekler": [
+            "İpek",
+            "Kaynakları",
+            "Denetledi"
+          ],
+          "dogru": "İpek",
+          "aciklama": "Denetleyen kim sorusu özneyi verir.",
+          "cikti": "T.8.4.18"
+        },
+        {
+          "id": "8-2-temel-ogeler-6",
+          "tip": "secim",
+          "soru": "“Kapının yanında bir kutu vardı. / özne” için istenen öge hangisidir?",
+          "secenekler": [
+            "Kapının yanında",
+            "Vardı",
+            "Bir kutu"
+          ],
+          "dogru": "Bir kutu",
+          "aciklama": "Var olan ne sorusunun cevabı bir kutudur.",
+          "cikti": "T.8.4.18"
+        },
+        {
+          "id": "8-2-temel-ogeler-7",
+          "tip": "secim",
+          "soru": "“Panoyu Aras düzenledi. / özne” için istenen öge hangisidir?",
+          "secenekler": [
+            "Düzenledi",
+            "Aras",
+            "Panoyu"
+          ],
+          "dogru": "Aras",
+          "aciklama": "Kelimenin sıradaki yeri değil, yüklemle ilişkisi belirleyicidir.",
+          "cikti": "T.8.4.18"
+        },
+        {
+          "id": "8-2-temel-ogeler-8",
+          "tip": "secim",
+          "soru": "“Sınıfın hazırlığı tamamlandı. / yüklem” için istenen öge hangisidir?",
+          "secenekler": [
+            "Tamamlandı",
+            "Sınıfın",
+            "Hazırlığı"
+          ],
+          "dogru": "Tamamlandı",
+          "aciklama": "Cümlede temel yargı tamamlandı sözüdür.",
+          "cikti": "T.8.4.18"
+        },
+        {
+          "id": "8-2-temel-ogeler-9",
+          "tip": "secim",
+          "soru": "“Çalışmamız anlamlıydı. / özne” için istenen öge hangisidir?",
+          "secenekler": [
+            "Anlamlıydı",
+            "Biz",
+            "Çalışmamız"
+          ],
+          "dogru": "Çalışmamız",
+          "aciklama": "Anlamlı olan ne sorusu çalışmamız sözünü verir.",
+          "cikti": "T.8.4.18"
+        },
+        {
+          "id": "8-2-temel-ogeler-10",
+          "tip": "secim",
+          "soru": "“Kaynak notunu unutmadın. / gizli özne” için istenen öge hangisidir?",
+          "secenekler": [
+            "O",
+            "Sen",
+            "Kaynak notu"
+          ],
+          "dogru": "Sen",
+          "aciklama": "Unutmadın kişi eki ikinci tekil özneyi gösterir.",
+          "cikti": "T.8.4.18"
+        }
+      ]
+    },
+    {
+      "kod": "8-2-yardimci-ogeler",
+      "ad": "Nesne, yer ve zarf tamlayıcısı",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.8.4.18",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Cümlede yardımcı ögeler yüklemin anlamını farklı yönlerden tamamlar. Nesne işten etkilenen unsuru, yer tamlayıcısı yönelme, bulunma veya ayrılma ilişkisini, zarf tamlayıcısı zaman, durum veya sebep gibi katkıları bildirebilir. Soruları cümledeki yükleme yönelt. Bir kelimenin ekini görmek tek başına yeterli değildir; bütün söz grubunun görevini incele.</p><ul><li>Metni okudum: nesne.</li><li>Okula gittim: yer tamlayıcısı.</li><li>Dün geldim: zarf tamlayıcısı.</li></ul>",
+      "ornekler": [
+        "Metni okudum: nesne.",
+        "Okula gittim: yer tamlayıcısı.",
+        "Dün geldim: zarf tamlayıcısı."
+      ],
+      "testler": [
+        {
+          "id": "8-2-yardimci-ogeler-1",
+          "tip": "secim",
+          "soru": "“Aras metni okudu. / metni” örneğinde belirtilen sözün görevi nedir?",
+          "secenekler": [
+            "Zarf tamlayıcısı",
+            "Belirtili nesne",
+            "Özne"
+          ],
+          "dogru": "Belirtili nesne",
+          "aciklama": "Neyi okudu sorusuna metni cevabı verilir.",
+          "cikti": "T.8.4.18"
+        },
+        {
+          "id": "8-2-yardimci-ogeler-2",
+          "tip": "secim",
+          "soru": "“İpek okula gitti. / okula” örneğinde belirtilen sözün görevi nedir?",
+          "secenekler": [
+            "Yer tamlayıcısı",
+            "Belirtili nesne",
+            "Özne"
+          ],
+          "dogru": "Yer tamlayıcısı",
+          "aciklama": "Nereye gitti sorusu yönelme ilişkili ögeyi buldurur.",
+          "cikti": "T.8.4.18"
+        },
+        {
+          "id": "8-2-yardimci-ogeler-3",
+          "tip": "secim",
+          "soru": "“Öğrenciler dün buluştu. / dün” örneğinde belirtilen sözün görevi nedir?",
+          "secenekler": [
+            "Nesne",
+            "Yüklem",
+            "Zarf tamlayıcısı"
+          ],
+          "dogru": "Zarf tamlayıcısı",
+          "aciklama": "Ne zaman buluştu sorusunun cevabı dün sözüdür.",
+          "cikti": "T.8.4.18"
+        },
+        {
+          "id": "8-2-yardimci-ogeler-4",
+          "tip": "secim",
+          "soru": "“Kutuyu rafa koydu. / rafa” örneğinde belirtilen sözün görevi nedir?",
+          "secenekler": [
+            "Belirtisiz nesne",
+            "Yer tamlayıcısı",
+            "Özne"
+          ],
+          "dogru": "Yer tamlayıcısı",
+          "aciklama": "Nereye koydu sorusunu rafa karşılar.",
+          "cikti": "T.8.4.18"
+        },
+        {
+          "id": "8-2-yardimci-ogeler-5",
+          "tip": "secim",
+          "soru": "“Kartları dikkatle düzenledi. / dikkatle” örneğinde belirtilen sözün görevi nedir?",
+          "secenekler": [
+            "Zarf tamlayıcısı",
+            "Belirtili nesne",
+            "Özne"
+          ],
+          "dogru": "Zarf tamlayıcısı",
+          "aciklama": "Nasıl düzenledi sorusu durum bildiren ögeyi verir.",
+          "cikti": "T.8.4.18"
+        },
+        {
+          "id": "8-2-yardimci-ogeler-6",
+          "tip": "secim",
+          "soru": "“Panoya etiket astık. / etiket” örneğinde belirtilen sözün görevi nedir?",
+          "secenekler": [
+            "Yer tamlayıcısı",
+            "Yüklem",
+            "Belirtisiz nesne"
+          ],
+          "dogru": "Belirtisiz nesne",
+          "aciklama": "Ne astık sorusuna cevap veren etiket belirtisiz nesnedir.",
+          "cikti": "T.8.4.18"
+        },
+        {
+          "id": "8-2-yardimci-ogeler-7",
+          "tip": "secim",
+          "soru": "“Öğretmen sınıftan çıktı. / sınıftan” örneğinde belirtilen sözün görevi nedir?",
+          "secenekler": [
+            "Zarf-fiil",
+            "Yer tamlayıcısı",
+            "Nesne"
+          ],
+          "dogru": "Yer tamlayıcısı",
+          "aciklama": "Nereden çıktı sorusu ayrılma ilişkili ögeyi gösterir.",
+          "cikti": "T.8.4.18"
+        },
+        {
+          "id": "8-2-yardimci-ogeler-8",
+          "tip": "secim",
+          "soru": "“Öğrenciler bu sabah çalıştı. / bu sabah” örneğinde belirtilen sözün görevi nedir?",
+          "secenekler": [
+            "Zarf tamlayıcısı",
+            "Belirtili nesne",
+            "Özne"
+          ],
+          "dogru": "Zarf tamlayıcısı",
+          "aciklama": "Zaman bildiren söz grubu bir bütün olarak ögedir.",
+          "cikti": "T.8.4.18"
+        },
+        {
+          "id": "8-2-yardimci-ogeler-9",
+          "tip": "secim",
+          "soru": "“Defne bir açıklama yazdı. / bir açıklama” örneğinde belirtilen sözün görevi nedir?",
+          "secenekler": [
+            "Yer tamlayıcısı",
+            "Yüklem",
+            "Belirtisiz nesne"
+          ],
+          "dogru": "Belirtisiz nesne",
+          "aciklama": "Ne yazdı sorusu işten etkilenen ad grubunu verir.",
+          "cikti": "T.8.4.18"
+        },
+        {
+          "id": "8-2-yardimci-ogeler-10",
+          "tip": "secim",
+          "soru": "“Kaynakları kütüphanede inceledik. / kütüphanede” örneğinde belirtilen sözün görevi nedir?",
+          "secenekler": [
+            "Gizli özne",
+            "Yer tamlayıcısı",
+            "Nesne"
+          ],
+          "dogru": "Yer tamlayıcısı",
+          "aciklama": "Nerede inceledik sorusunun cevabı bulunma ilişkili ögedir.",
+          "cikti": "T.8.4.18"
+        }
+      ]
+    }
+  ],
+  "dinleme": [
+    {
+      "id": "8-2-dinleme",
+      "baslik": "Görünmeyen Görevler",
+      "metin": "Anma çalışmasının altına yalnız konuşma yapanların adı yazılmıştı. Hazırlık toplantısında kaynak kontrolü ve okunabilirlik düzeni gibi görevlerin de gerekli olduğu hatırlatıldı. Grup ortak ürünü sınıf adına tanıtmaya karar verdi. Kişisel bilgi paylaşımı için okulun uygun kuralları gözetildi. İsteyenlerin katkı notları ayrı dosyada tutuldu. Bir öğrencinin sahnede görünmemesi, çalışmaya katkısı olmadığı anlamına gelmiyordu. Öğrenciler görevlerin birbirine nasıl bağlandığını da kaydetti; sonraki çalışmada bu ilişkilerden yararlanabileceklerdi.",
+      "tts": {
+        "dil": "tr-TR",
+        "sesYoksa": "metin"
+      },
+      "sorular": [
+        {
+          "id": "8-2-dinleme-1",
+          "tip": "secim",
+          "soru": "“Görünmeyen Görevler” dinleme metnine göre: İlk listede kimler vardı?",
+          "secenekler": [
+            "Bütün hazırlık görevlileri",
+            "Yalnız ziyaretçiler",
+            "Konuşma yapanlar"
+          ],
+          "dogru": "Konuşma yapanlar",
+          "aciklama": "Dinlenen olayın sırası ve açıklamaları “Konuşma yapanlar” cevabını destekler. Diğer seçeneklerdeki ayrıntılar metinde verilen bilgiyle uyuşmaz.",
+          "cikti": "T.8.1.4"
+        },
+        {
+          "id": "8-2-dinleme-2",
+          "tip": "secim",
+          "soru": "“Görünmeyen Görevler” dinleme metnine göre: Hatırlatılan katkılardan biri nedir?",
+          "secenekler": [
+            "Özel adres toplama",
+            "Kaynak kontrolü",
+            "Bilet satışı"
+          ],
+          "dogru": "Kaynak kontrolü",
+          "aciklama": "Dinlenen olayın sırası ve açıklamaları “Kaynak kontrolü” cevabını destekler. Diğer seçeneklerdeki ayrıntılar metinde verilen bilgiyle uyuşmaz.",
+          "cikti": "T.8.1.4"
+        },
+        {
+          "id": "8-2-dinleme-3",
+          "tip": "secim",
+          "soru": "“Görünmeyen Görevler” dinleme metnine göre: Ortak ürün nasıl tanıtıldı?",
+          "secenekler": [
+            "Sınıf adına",
+            "Yalnız tek öğrenci adına",
+            "Kaynağı olmayan belge olarak"
+          ],
+          "dogru": "Sınıf adına",
+          "aciklama": "Dinlenen olayın sırası ve açıklamaları “Sınıf adına” cevabını destekler. Diğer seçeneklerdeki ayrıntılar metinde verilen bilgiyle uyuşmaz.",
+          "cikti": "T.8.1.4"
+        },
+        {
+          "id": "8-2-dinleme-4",
+          "tip": "secim",
+          "soru": "“Görünmeyen Görevler” dinleme metnine göre: Dinlenenin ana düşüncesi nedir?",
+          "secenekler": [
+            "Yalnız sahnede olmak önemlidir",
+            "Her katkı özel bilgi yayımlamayı gerektirir",
+            "Görünür olmayan görevler de ortak ürüne katkı sağlar"
+          ],
+          "dogru": "Görünür olmayan görevler de ortak ürüne katkı sağlar",
+          "aciklama": "Dinlenen olayın sırası ve açıklamaları “Görünür olmayan görevler de ortak ürüne katkı sağlar” cevabını destekler. Diğer seçeneklerdeki ayrıntılar metinde verilen bilgiyle uyuşmaz.",
+          "cikti": "T.8.1.6"
+        }
+      ]
+    }
+  ],
+  "yazmaGorevleri": [
+    {
+      "id": "8-2-yazma",
+      "baslik": "Ortak Emeği Anlatmak",
+      "yonerge": "180–280 kelimelik kurgusal okul panosu açıklaması yaz. Görünmeyen görevleri de örnekle belirt. Gerçek tarihî kişiye söz uydurma; bilgi ve kurgu ayrımını koru. Özne ve yüklem ilişkisini kontrol et.",
+      "minKelime": 180,
+      "maxKelime": 280,
+      "ciktilar": [
+        "T.8.4.2",
+        "T.8.4.14",
+        "T.8.4.18"
+      ],
+      "ogretmenDegerlendirmeli": true,
+      "rubrik": [
+        {
+          "olcut": "Amaç ve kapsam",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Gerekçe ve anlam bütünlüğü",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Dil yapıları ve söz varlığı",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Yazım, noktalama ve düzenleme",
+          "enDusuk": 0,
+          "enYuksek": 4
+        }
+      ]
+    }
+  ],
+  "lgsSorulari": [
+    {
+      "id": "8-2-lgs-1",
+      "tip": "secim",
+      "soru": "Ortak Emek Panosu için hazırlanan dört çalışma aşağıda verilmiştir.\nanma panosu A: 22 dakika; kaynak notu var; ses gereksinimi yok.\nanma panosu B: 25 dakika; kaynak notu var; ses gereksinimi yok.\nanma panosu C: 20 dakika; kaynak notu yok; ses gereksinimi yok.\nanma panosu D: 21 dakika; kaynak notu var; ses gereksinimi var.\nSeçilecek çalışmada kaynak notu bulunmalı, ses gerekmemeli ve süre 22 dakikayı aşmamalıdır. Üç koşulu birlikte sağlayan hangisidir?",
+      "secenekler": [
+        "anma panosu A",
+        "anma panosu B",
+        "anma panosu C",
+        "anma panosu D"
+      ],
+      "dogru": "anma panosu A",
+      "aciklama": "anma panosu A üç koşulu sağlar. B süreyi aşar, C kaynak notu içermez, D ses gerektirir.",
+      "cikti": "T.8.3.32"
+    },
+    {
+      "id": "8-2-lgs-2",
+      "tip": "secim",
+      "soru": "Ortak Emek Panosu programında dört işlem farklı sıralarda yapılacaktır: araştırma, kaynak kontrolü, metin yazımı, pano kurulumu. Araştırma, kaynak kontrolü işleminden önce yapılır. Metin yazımı, kaynak kontrolü işleminin hemen ardından gelir. Pano kurulumu son işlemdir. Her işlem bir kez yapılacağına göre uygun sıra hangisidir?",
+      "secenekler": [
+        "kaynak kontrolü → araştırma → metin yazımı → pano kurulumu",
+        "araştırma → metin yazımı → kaynak kontrolü → pano kurulumu",
+        "araştırma → kaynak kontrolü → pano kurulumu → metin yazımı",
+        "araştırma → kaynak kontrolü → metin yazımı → pano kurulumu"
+      ],
+      "dogru": "araştırma → kaynak kontrolü → metin yazımı → pano kurulumu",
+      "aciklama": "pano kurulumu sonda olmalıdır. kaynak kontrolü ile metin yazımı yan yana ve bu sırada bulunur; araştırma da onlardan önce gelir.",
+      "cikti": "T.8.3.35"
+    },
+    {
+      "id": "8-2-lgs-3",
+      "tip": "secim",
+      "soru": "Ortak Emek Panosu sonrasında gönüllü 12 katılımcının tamamı anma panosu çalışmasının anlaşılır olduğunu söyledi. Katılmayanlar ve cevap vermeyenler hakkında veri toplanmadı. Bu bilgiye dayanan, kapsamı aşmayan sonuç hangisidir?",
+      "secenekler": [
+        "Yanıt vermeyenlerin tamamı çalışmayı anlaşılmaz bulmuştur.",
+        "Bu yöntem her koşulda en başarılı yöntemdir.",
+        "Yanıt veren 12 kişi çalışmayı anlaşılır bulmuştur.",
+        "Okuldaki herkes çalışmayı anlaşılır bulmuştur."
+      ],
+      "dogru": "Yanıt veren 12 kişi çalışmayı anlaşılır bulmuştur.",
+      "aciklama": "Veri yalnız yanıt veren gönüllü grubu kapsar; diğer kişiler veya bütün yöntemler hakkında kesin sonuç vermez.",
+      "cikti": "T.8.3.21"
+    },
+    {
+      "id": "8-2-lgs-4",
+      "tip": "secim",
+      "soru": "Ortak Emek Panosu için iki görüş var. I: “Anma panosu kısa olmalı; okuyucu temel bilgiyi hızla bulabilmeli.” II: “Anma panosu gerektiğinde ayrıntı içermeli; okuyucunun önemli koşulları anlaması sağlanmalı.” Bu iki görüş hangi ilkede buluşur?",
+      "secenekler": [
+        "Okuyucunun ön bilgisi hiçbir zaman dikkate alınmamalıdır.",
+        "İçerik, okuyucunun ihtiyacını karşılayacak biçimde düzenlenmelidir.",
+        "Her metin olabilecek en kısa biçime indirilmelidir.",
+        "Ayrıntılar bütün koşullarda kaldırılmalıdır."
+      ],
+      "dogru": "İçerik, okuyucunun ihtiyacını karşılayacak biçimde düzenlenmelidir.",
+      "aciklama": "İlk görüş hıza, ikincisi koşullara dikkat çeker; ortak nokta okuyucunun bilgiyi uygun biçimde almasıdır.",
+      "cikti": "T.8.3.23"
+    },
+    {
+      "id": "8-2-lgs-5",
+      "tip": "secim",
+      "soru": "Aşağıdaki cümleler anlamlı bir paragraf oluşturacaktır.\nI. Ortak Emek Panosu grubu ilk taslağını hazırladı.\nII. Son değerlendirmede bu iki düzeltmenin etkisini birlikte inceledi.\nIII. Bu taslağı okuyanlar iki belirsiz nokta belirledi.\nIV. Grup, belirlenen noktaları açıklayan iki düzeltme yaptı.\nGönderimler ve işlem sırası gözetildiğinde doğru diziliş hangisidir?",
+      "secenekler": [
+        "I – III – IV – II",
+        "III – I – IV – II",
+        "I – II – III – IV",
+        "IV – III – I – II"
+      ],
+      "dogru": "I – III – IV – II",
+      "aciklama": "Bu taslak, ilk taslağa; belirlenen noktalar, okuyucu tespitine; bu iki düzeltme, yapılan değişikliklere gönderir.",
+      "cikti": "T.8.3.35"
+    },
+    {
+      "id": "8-2-lgs-6",
+      "tip": "secim",
+      "soru": "Ortak Emek Panosu için hazırlanan anma panosu ilk denemede uzun bulundu. Grup bazı tekrarları çıkardı. ——— önemli bir koşulun da silindiğini görünce onu yeniden ekledi. Daha kısa bir metin elde etmek, her durumda daha doğru bir metin elde etmek değildi. Boşluğa, önceki adımın beklenen yararına karşı ortaya çıkan sınırlılığı belirtmek için hangisi getirilmelidir?",
+      "secenekler": [
+        "Bu nedenle",
+        "Örneğin",
+        "Başka bir deyişle",
+        "Ancak"
+      ],
+      "dogru": "Ancak",
+      "aciklama": "Kısaltma olumlu bir adım gibi görünürken koşul kaybı ters bir durum getirir; ancak bu karşıtlığı bağlar.",
+      "cikti": "T.8.3.10"
+    },
+    {
+      "id": "8-2-lgs-7",
+      "tip": "secim",
+      "soru": "Anma panosunu hazırlayan sınıf yalnız sahnede konuşanları değil, kaynak ve okunabilirlik kontrolü yapanları da değerlendirdi. Görevlerin birbirine nasıl bağlı olduğunu gösteren bir kayıt hazırladı. Böylece görünür olmanın katkının tek ölçütü olmadığını, ortak ürünün farklı işler sayesinde tamamlandığını fark etti.\nBu parçada asıl vurgulanan düşünce hangisidir?",
+      "secenekler": [
+        "Yeni bilgi ilk kararı hiçbir koşulda değiştirmemelidir.",
+        "Bütün durumlar tek bir ölçütle eksiksiz açıklanabilir.",
+        "Bir değerlendirme, amaca uygun somut dayanaklarla gözden geçirilmelidir.",
+        "İlk izlenim her zaman yeterli ve kesindir."
+      ],
+      "dogru": "Bir değerlendirme, amaca uygun somut dayanaklarla gözden geçirilmelidir.",
+      "aciklama": "Parçada ilk yargı, yeni inceleme ve somut dayanaklarla düzeltilir; kapsamı geniş kesinlikler savunulmaz.",
+      "cikti": "T.8.3.17"
+    },
+    {
+      "id": "8-2-lgs-8",
+      "tip": "secim",
+      "soru": "Ortak Emek Panosu yönergesi şöyledir: Kaynak bilgisi eksik anma panosu doğrudan geri bildirim aşamasına alınır; tamamlanmadan sunuma geçmez. Kaynak bilgisi tamam olanlar önce içerik kontrolünden geçer, uygun bulunursa sunulur. Kaynak bilgisi eksik bir çalışma için ilk uygun işlem hangisidir?",
+      "secenekler": [
+        "Kaynak eksik olsa da doğrudan uygun saymak",
+        "Eksik bilgi için geri bildirim vermek",
+        "İçerik kontrolünü atlayıp sunmak",
+        "Eksikliği görünmez biçimde silmek"
+      ],
+      "dogru": "Eksik bilgi için geri bildirim vermek",
+      "aciklama": "Yönergenin ilk koşulu eksik kaynak durumunu açıkça geri bildirime bağlar.",
+      "cikti": "T.8.3.35"
+    },
+    {
+      "id": "8-2-lgs-9",
+      "tip": "secim",
+      "soru": "Ortak Emek Panosu çalışmasında yalnız iki küçük grubun anma panosu örnekleri incelendi. Bir grupta açıklama notu varken diğerinde yoktu. Açıklama notu olan örnekte katılımcılar daha az soru sordu. Bu sınırlı bulgu için kapsamı en doğru başlık hangisidir?",
+      "secenekler": [
+        "İki Gruptaki Örneklerde Açıklama Notuyla Soru Sayısı Birlikte İncelendi",
+        "Açıklama Notları Bütün Soruları Sonsuza Dek Bitirdi",
+        "Bütün Öğrenciler Aynı Yöntemi Tercih Ediyor",
+        "Not Olmayan Her Çalışma Başarısızdır"
+      ],
+      "dogru": "İki Gruptaki Örneklerde Açıklama Notuyla Soru Sayısı Birlikte İncelendi",
+      "aciklama": "Başlık iki grup ve gözlenen ilişki sınırını korur; evrensel veya nedensel kesinlik üretmez.",
+      "cikti": "T.8.3.19"
+    },
+    {
+      "id": "8-2-lgs-10",
+      "tip": "secim",
+      "soru": "Bir paragrafın konusu Ortak Emek Panosu kayıtlarının nasıl tutulduğudur. I: Tarih ve yöntem her kayda eklendi. II: Gözlenmeyen alanlar boş bırakılıp açıklandı. III: Etkinliğin afişi bence yılın en güzel afişiydi. IV: Yöntem değiştiğinde kayda not düşüldü. Konu bütünlüğünü bozan cümle hangisidir?",
+      "secenekler": [
+        "III",
+        "I",
+        "II",
+        "IV"
+      ],
+      "dogru": "III",
+      "aciklama": "Diğer cümleler kayıt yöntemini anlatır; III etkinlikle ilgili olsa da afişin kişisel beğeni değerine geçer.",
+      "cikti": "T.8.3.18"
+    },
+    {
+      "id": "8-2-lgs-11",
+      "tip": "secim",
+      "soru": "Ortak Emek Panosu değerlendirmesinde dört cümle yazılmıştır. Hangisi kişisel beğeni yerine kontrol edilebilir bir bilgi bildirir?",
+      "secenekler": [
+        "Bu çalışma tartışmasız en etkileyici üründür.",
+        "Etkinliğin havası bütün diğerlerinden güzeldi.",
+        "Seçilen örnekler herkes için kusursuzdu.",
+        "Dosyada 5 adet anma panosu örneği bulunuyor."
+      ],
+      "dogru": "Dosyada 5 adet anma panosu örneği bulunuyor.",
+      "aciklama": "Örnek sayısı sayılarak kontrol edilebilir; diğer sözler beğeni veya kapsamı belirsiz değer yargısı içerir.",
+      "cikti": "T.8.3.21"
+    },
+    {
+      "id": "8-2-lgs-12",
+      "tip": "secim",
+      "soru": "Ortak Emek Panosu sunumuna kabul edilmek için hem içerik onayı hem paylaşım izni gereklidir. Bir anma panosu örneğinin içerik onayı aldığı biliniyor; paylaşım izni hakkında bilgi yoktur. Kesin olarak söylenebilecek yargı hangisidir?",
+      "secenekler": [
+        "Kesinlikle paylaşım izni reddedilmiştir.",
+        "İçerik onayı almadığı kanıtlanmıştır.",
+        "Sunuma kabul edildiği henüz kesinleştirilemez.",
+        "Kesinlikle sunuma kabul edilmiştir."
+      ],
+      "dogru": "Sunuma kabul edildiği henüz kesinleştirilemez.",
+      "aciklama": "İki gerekli koşuldan yalnız biri bilinmektedir. İzin bilgisi yokluğu ne kabulü ne de reddi kanıtlar.",
+      "cikti": "T.8.3.25"
+    },
+    {
+      "id": "8-2-lgs-13",
+      "tip": "secim",
+      "soru": "Ortak Emek Panosu kayıt tablosu: toplam çalışma / eksik alan sayısı\nI: 14 / 3\nII: 18 / 1\nIII: 16 / 0\nIV: 20 / 2\nEn az 16 çalışma içeren ve eksik alanı olmayan dosya hangisidir?",
+      "secenekler": [
+        "IV",
+        "III",
+        "I",
+        "II"
+      ],
+      "dogru": "III",
+      "aciklama": "III alt miktar sınırını sağlar ve eksik alanı sıfırdır. II ve IV miktarı sağlasa da eksikleri vardır; I alt sınırın altındadır.",
+      "cikti": "T.8.3.32"
+    },
+    {
+      "id": "8-2-lgs-14",
+      "tip": "secim",
+      "soru": "Ortak Emek Panosu duyurusunda “Yalnız onaylı anma panosu örnekleri listede gösterilir.” yazıyor. Bu kurala göre hangi yorum doğrudur?",
+      "secenekler": [
+        "Listede gösterilmeyen bir örnek yine de onaylı olabilir.",
+        "Onaylı olan her örnek mutlaka gösterilmiştir.",
+        "Listede görünen her örnek onaysızdır.",
+        "Onaysız örnekler mutlaka listede yer alır."
+      ],
+      "dogru": "Listede gösterilmeyen bir örnek yine de onaylı olabilir.",
+      "aciklama": "Kural gösterilenlerin onaylı olmasını ister; onaylananların tamamının gösterileceğini söylemez.",
+      "cikti": "T.8.3.25"
+    },
+    {
+      "id": "8-2-lgs-15",
+      "tip": "secim",
+      "soru": "Ortak Emek Panosu için araştırma yapan öğrenci aynı anma panosu bilgisini üç ayrı sayfada bulur. İkinci ve üçüncü sayfanın birinci sayfayı aynen aktardığını görür. Bu üç sayfanın aynı bilgiyi vermesi nasıl değerlendirilmelidir?",
+      "secenekler": [
+        "Bilgi üç kez yazıldığı için kesin kanıtlanmıştır.",
+        "Kaynağı incelemeye artık gerek yoktur.",
+        "Üç sayfa mutlaka üç ayrı deney raporudur.",
+        "Birbirinden bağımsız üç doğrulama sayılmaz."
+      ],
+      "dogru": "Birbirinden bağımsız üç doğrulama sayılmaz.",
+      "aciklama": "Kopyalanan bilgi ayrı bağımsız dayanak oluşturmaz; ilk kaynağın ve ek kanıtların niteliği incelenmelidir.",
+      "cikti": "T.8.3.31"
+    },
+    {
+      "id": "8-2-lgs-16",
+      "tip": "secim",
+      "soru": "Ortak Emek Panosu kuralı: “Anma panosu dosyası, kaynak bilgisi tamamlanmışsa ve öğretmen uygun bulmuşsa cuma günü paylaşılacaktır.” Bu cümlenin anlamını koruyan özet hangisidir?",
+      "secenekler": [
+        "Öğretmen uygun bulursa kaynak bilgisine gerek kalmayacak.",
+        "Kaynak tamamlanınca gün gözetmeden otomatik paylaşılacak.",
+        "Paylaşım cuma günü, iki koşul da sağlanırsa yapılacak.",
+        "Dosya cuma günü her durumda paylaşılacak."
+      ],
+      "dogru": "Paylaşım cuma günü, iki koşul da sağlanırsa yapılacak.",
+      "aciklama": "Doğru özet zaman bilgisini ve iki koşulun birlikte gerekli oluşunu korur.",
+      "cikti": "T.8.3.13"
+    },
+    {
+      "id": "8-2-lgs-17",
+      "tip": "secim",
+      "soru": "Ortak Emek Panosu raporunda “Bazı anma panosu örnekleri henüz incelenmedi.” deniyor. Bu cümleden hangi sonuç çıkarılabilir?",
+      "secenekler": [
+        "İncelenen bütün örnekler başarısızdır.",
+        "En az bir örneğin incelemesi tamamlanmamıştır.",
+        "Bütün örnekler kesinlikle incelenmiştir.",
+        "Hiçbir örnek gelecekte incelenmeyecektir."
+      ],
+      "dogru": "En az bir örneğin incelemesi tamamlanmamıştır.",
+      "aciklama": "Bazı sözü en az bir durumu bildirir; henüz ise gelecekte inceleme ihtimalini kapatmaz.",
+      "cikti": "T.8.3.25"
+    },
+    {
+      "id": "8-2-lgs-18",
+      "tip": "secim",
+      "soru": "Ortak Emek Panosu dosyasında dört grubun tamamladığı anma panosu sayıları A:8, B:14, C:11, D:5 olarak verilmiştir. En yüksekten en düşüğe doğru sıralamayı gösteren grafik etiketleri hangisidir?",
+      "secenekler": [
+        "B – C – A – D",
+        "B – A – C – D",
+        "D – A – C – B",
+        "C – B – A – D"
+      ],
+      "dogru": "B – C – A – D",
+      "aciklama": "B en yüksek, ardından C ve A, son olarak D gelir. Sıralama tabloda verilen büyüklüklerden okunur.",
+      "cikti": "T.8.3.32"
+    },
+    {
+      "id": "8-2-lgs-19",
+      "tip": "secim",
+      "soru": "Ortak Emek Panosu üzerine bir yazıda “Anma panosu, hazırlayanla okuyan arasında bir köprü kurdu; daha önce görünmeyen düşünceler konuşulabilir oldu.” deniyor. Köprü kurmak sözü burada anlatıma ne katar?",
+      "secenekler": [
+        "Gerçek bir inşaatın tamamlandığını kanıtlar.",
+        "Bir yolun uzunluğunu sayıyla gösterir.",
+        "İki kişinin her konuda aynı düşündüğünü kesinleştirir.",
+        "İletişim ve bağlantı sağlandığını mecazla anlatır."
+      ],
+      "dogru": "İletişim ve bağlantı sağlandığını mecazla anlatır.",
+      "aciklama": "Köprü somut geçiş yapısından hareketle düşünceler arasında iletişim kurulmasını anlatır; tam uzlaşma iddiası içermez.",
+      "cikti": "T.8.3.5"
+    },
+    {
+      "id": "8-2-lgs-20",
+      "tip": "secim",
+      "soru": "Ortak Emek Panosu için basılı duyuru “Salı, saat 14.00, okul salonu; ön kayıt gerekli.” diyor. Sesli duyuru ise “Salı okul salonunda buluşuyoruz; ön kayıt yaptırmayı unutmayın.” biçimindedir. İki duyuru karşılaştırıldığında sesli duyuruda hangi bilginin eksik olduğu görülür?",
+      "secenekler": [
+        "Gün",
+        "Yer",
+        "Ön kayıt koşulu",
+        "Başlama saati"
+      ],
+      "dogru": "Başlama saati",
+      "aciklama": "Gün, yer ve kayıt iki duyuruda da vardır; 14.00 bilgisi yalnız basılı duyuruda bulunur.",
+      "cikti": "T.8.3.23"
+    }
+  ]
+}

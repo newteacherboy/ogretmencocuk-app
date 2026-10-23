@@ -1,10 +1,10 @@
 name: Türkçe içerik doğrulama
 on:
   pull_request:
-    paths: ['content/turkce/**', 'tools/icerik-dogrula.mjs', 'tools/package*.json', 'tests/turkce-content.test.mjs', '.github/workflows/turkce-icerik.yml']
+    paths: ['content/turkce/**', 'tools/icerik-dogrula.mjs', 'tools/package*.json', 'tests/turkce-*.test.mjs', '.github/workflows/turkce-icerik.yml']
   push:
     branches: [main]
-    paths: ['content/turkce/**', 'tools/icerik-dogrula.mjs', 'tools/package*.json', 'tests/turkce-content.test.mjs', '.github/workflows/turkce-icerik.yml']
+    paths: ['content/turkce/**', 'tools/icerik-dogrula.mjs', 'tools/package*.json', 'tests/turkce-*.test.mjs', '.github/workflows/turkce-icerik.yml']
 permissions:
   contents: read
 jobs:
@@ -20,4 +20,4 @@ jobs:
           cache-dependency-path: tools/package-lock.json
       - run: npm ci --prefix tools --ignore-scripts
       - run: node tools/icerik-dogrula.mjs
-      - run: node --test tests/turkce-content.test.mjs
+      - run: node --test tests/turkce-content.test.mjs tests/turkce-lgs-mantik.test.mjs

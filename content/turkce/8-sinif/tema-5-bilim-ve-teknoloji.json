@@ -1,0 +1,1228 @@
+{
+  "belgeTuru": "tema",
+  "semaSurumu": "1.0",
+  "sinif": 8,
+  "program": "2019",
+  "tema": 5,
+  "temaAdi": "Bilim ve Teknoloji",
+  "durum": "incelemeye_hazir",
+  "kaynak": "https://mufredat.meb.gov.tr/Dosyalar/20195716392253-02-T%C3%BCrk%C3%A7e%20%C3%96%C4%9Fretim%20Program%C4%B1%202019.pdf",
+  "kaynak_dogrulanmadi": false,
+  "ogrenmeCiktilari": [
+    "T.8.1.1",
+    "T.8.1.10",
+    "T.8.1.11",
+    "T.8.1.12",
+    "T.8.1.13",
+    "T.8.1.14",
+    "T.8.1.2",
+    "T.8.1.3",
+    "T.8.1.4",
+    "T.8.1.5",
+    "T.8.1.6",
+    "T.8.1.7",
+    "T.8.1.8",
+    "T.8.1.9",
+    "T.8.2.1",
+    "T.8.2.2",
+    "T.8.2.3",
+    "T.8.2.4",
+    "T.8.2.5",
+    "T.8.2.6",
+    "T.8.2.7",
+    "T.8.3.1",
+    "T.8.3.10",
+    "T.8.3.11",
+    "T.8.3.12",
+    "T.8.3.13",
+    "T.8.3.14",
+    "T.8.3.15",
+    "T.8.3.16",
+    "T.8.3.17",
+    "T.8.3.18",
+    "T.8.3.19",
+    "T.8.3.2",
+    "T.8.3.20",
+    "T.8.3.21",
+    "T.8.3.22",
+    "T.8.3.23",
+    "T.8.3.24",
+    "T.8.3.25",
+    "T.8.3.26",
+    "T.8.3.27",
+    "T.8.3.28",
+    "T.8.3.29",
+    "T.8.3.3",
+    "T.8.3.30",
+    "T.8.3.31",
+    "T.8.3.32",
+    "T.8.3.33",
+    "T.8.3.34",
+    "T.8.3.35",
+    "T.8.3.4",
+    "T.8.3.5",
+    "T.8.3.6",
+    "T.8.3.7",
+    "T.8.3.8",
+    "T.8.3.9",
+    "T.8.4.1",
+    "T.8.4.10",
+    "T.8.4.11",
+    "T.8.4.12",
+    "T.8.4.13",
+    "T.8.4.14",
+    "T.8.4.15",
+    "T.8.4.16",
+    "T.8.4.17",
+    "T.8.4.18",
+    "T.8.4.19",
+    "T.8.4.2",
+    "T.8.4.20",
+    "T.8.4.3",
+    "T.8.4.4",
+    "T.8.4.5",
+    "T.8.4.6",
+    "T.8.4.7",
+    "T.8.4.8",
+    "T.8.4.9"
+  ],
+  "sozVarligi": {
+    "aciklama": "Özgün proje tanım ve örneklerinden tema uyumlu spiral tekrar seçimi. Sınıflar arasında aynı kelime yeniden yer alabilir; her sınıf için bütünüyle yeni kelime iddiası değildir.",
+    "kelimeler": [
+      {
+        "kelime": "bilim",
+        "anlam": "Sistemli yöntemlerle bilgi üretme ve sınama etkinliği",
+        "ornek": "Bilim sorularla ve kanıtlarla ilerler.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "teknoloji",
+        "anlam": "Bilgiyi bir ihtiyacı karşılayan araç veya yönteme dönüştürme",
+        "ornek": "Teknoloji tasarımını ihtiyaca göre değerlendirdik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "varsayım",
+        "anlam": "Sınanmak üzere başlangıçta doğru kabul edilen düşünce",
+        "ornek": "Varsayımı sonuçla karıştırmadık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "deney",
+        "anlam": "Bir düşünceyi kontrollü koşullarda sınama işlemi",
+        "ornek": "Deneyde tek değişkeni değiştirdik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "veri",
+        "anlam": "İnceleme amacıyla toplanan gözlem veya ölçüm bilgisi",
+        "ornek": "Veri tablosuna eksik ölçümleri de işledik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "bulgu",
+        "anlam": "Araştırma sonucunda elde edilen bilgi",
+        "ornek": "Bulgu ilk tahminimizi desteklemedi.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "ölçüm",
+        "anlam": "Bir niceliği belirli bir birimle belirleme işlemi",
+        "ornek": "Ölçüm aynı araçla tekrarlandı.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "değişken",
+        "anlam": "Araştırmada farklı değerler alabilen özellik",
+        "ornek": "Işık miktarını değişken olarak seçtik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "model",
+        "anlam": "Bir yapıyı veya süreci temsil eden düzenek",
+        "ornek": "Model gerçek köprünün bütün ayrıntılarını göstermez.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "tasarım",
+        "anlam": "Bir ürünün yapısını ve işleyişini planlama",
+        "ornek": "Tasarımın ilk çizimini yeniledik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "prototip",
+        "anlam": "Denenmek üzere hazırlanan ilk ürün örneği",
+        "ornek": "Prototip kartondan yapıldı.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "algoritma",
+        "anlam": "Bir işi çözmek için izlenen belirli adımlar dizisi",
+        "ornek": "Algoritmayı arkadaşımın uygulamasını istedim.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "yazılım",
+        "anlam": "Bilgisayara işlem yaptıran komutlar bütünü",
+        "ornek": "Yazılım dosyayı sıralamayı sağladı.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "sensör",
+        "anlam": "Çevredeki bir değişimi algılayan aygıt",
+        "ornek": "Sensörün verdiği değeri kontrol ettik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "enerji",
+        "anlam": "İş yapabilme veya değişim oluşturabilme kapasitesi",
+        "ornek": "Modelin enerji kaynağını işaretledik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "yenilenebilir",
+        "anlam": "Doğal süreçlerle yeniden oluşabilen",
+        "ornek": "Yenilenebilir kaynaklar hakkında bir afiş hazırladık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "verim",
+        "anlam": "Kullanılan kaynakla elde edilen yarar arasındaki ilişki",
+        "ornek": "Aracın verimini aynı koşullarda karşılaştırdık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "kanıtlamak",
+        "anlam": "Bir yargıyı yeterli bulguyla desteklemek",
+        "ornek": "Tek denemenin iddiayı kanıtlamak için yetmediğini gördük.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "sorgulamak",
+        "anlam": "Bir bilgiyi nedenleri ve dayanaklarıyla incelemek",
+        "ornek": "Sonucun kaynağını sorgulamak istedik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "yapay zekâ",
+        "anlam": "Verilerden yararlanarak belirli görevleri yerine getiren bilgisayar sistemleri alanı",
+        "ornek": "Yapay zekâ çıktısındaki bilgiyi başka kaynakla kontrol ettik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "otomasyon",
+        "anlam": "Bir işin belirlenen kurallarla kendiliğinden yürütülmesi",
+        "ornek": "Sulama otomasyonu tasarladık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "hata payı",
+        "anlam": "Bir ölçümde beklenebilen belirsizlik aralığı",
+        "ornek": "Hata payını grafiğin altına yazdık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "çözüm",
+        "anlam": "Bir sorunu gidermek için bulunan yol",
+        "ornek": "Çözüm küçük bir denemeyle sınandı.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "onarım",
+        "anlam": "Bozulan bir şeyi yeniden işler hâle getirme",
+        "ornek": "Onarım atölyesinde güvenlik kurallarını izledik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "erişilebilirlik",
+        "anlam": "Bir ürünün farklı ihtiyaçları olan kişilerce kullanılabilmesi",
+        "ornek": "Düğmelerin erişilebilirliğini değerlendirdik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "çıktı",
+        "anlam": "Bir işlem veya sistem sonunda elde edilen ürün",
+        "ornek": "Programın çıktısı her zaman doğru olmayabilir.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "girdi",
+        "anlam": "Bir sisteme işlenmek üzere verilen bilgi",
+        "ornek": "Eksik girdi sonucu değiştirdi.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "güvenilirlik",
+        "anlam": "Bir bilginin veya aracın tutarlı ve dayanaklı olma niteliği",
+        "ornek": "Kaynağın güvenilirliğini değerlendirdik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "yenilik",
+        "anlam": "Daha önceki uygulamaya yeni bir özellik ekleyen değişim",
+        "ornek": "Yenilik küçük bir ihtiyaçtan doğdu.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "uygulama",
+        "anlam": "Bir düşüncenin işleme dönüştürülmesi",
+        "ornek": "Uygulama sırasında planı değiştirdik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      }
+    ],
+    "esAnlamlilar": [
+      [
+        "varsayım",
+        "faraziye"
+      ]
+    ],
+    "zitAnlamlilar": [],
+    "esSesliler": [],
+    "deyimler": [],
+    "atasozleri": []
+  },
+  "okumaParcalari": [
+    {
+      "id": "8-5-okuma-1",
+      "baslik": "Ekrandaki Kesin Cevap",
+      "tur": "oykuleyici",
+      "metin": "Fen ve Türkçe kulüpleri ortak bir okul sergisi hazırlıyordu. Öğrenciler, ürettikleri küçük modellerin yanına anlaşılır açıklamalar yazacaktı. Selim dijital bir araçtan yardım almayı önerdi. Araca kişisel bilgi veya özel dosya yüklemeden, örnek bir metni nasıl sadeleştirebileceklerini sordular. Ekrana gelen cevap çok akıcıydı. Her cümle düzenli görünüyordu; bir başlık ve kısa sonuç bölümü bile vardı. Selim metni doğrudan etikete geçirmek istedi.\nEce bir cümlede durdu. Açıklama, modellerinin gerçekte yapmadığı bir ölçümü yaptığını söylüyordu. Aracı kullananlar, modelin bütün ayrıntılarını vermemişti; sistem de boşluğu uygun görünen bir bilgiyle doldurmuştu. Selim önce bunun küçük bir ifade farkı olduğunu savundu. Fakat ziyaretçi bu cümleyi okursa modelin ölçüm yeteneği hakkında yanlış düşünürdü. Düzgün bir cümle, yanlış bilgi taşıdığında yine yanlıştı.\nÖğrenciler metni cümle cümle ayırdı. Hangi bilginin kendi kayıtlarından, hangisinin araçtan geldiğini işaretledi. İki açıklama modellerine uyuyordu; biri ise kontrol edilemiyordu. Öğretmenleri, doğrulanamayan cümleyi sırf akıcı diye tutmamalarını söyledi. Onun yerine modelin gerçekten neyi gösterdiğini kendi gözlem notlarından yazdılar. Araç, dil düzeni konusunda öneri sunabilirdi; içerik sorumluluğu kendiliğinden ortadan kalkmıyordu.\nSonraki denemede önce kendi açıklamalarını hazırladılar. Dijital araçtan yalnız cümle uzunlukları hakkında seçenek istediler. Gelen önerileri yine kontrol ettiler. Kısaltılan bir cümlede önemli bir koşulun çıkarıldığını fark ettiler. Koşulu geri ekleyince cümle biraz uzadı ama anlamı korundu. Ece bütün kısaltmaların iyileştirme olmadığını not etti. Selim de son metnin hangi yolla oluşturulduğunu hazırlık dosyasında açıklamayı önerdi.\nSergi açıldığında bir ziyaretçi modelin başka koşullarda da aynı sonucu verip vermeyeceğini sordu. Öğrenciler bunu denemediklerini açıkça söyledi. Etiketin altına sınırlı deneme koşullarını yazmışlardı. Bu açıklama ürünü daha az gösterişli kılmış olabilirdi, fakat neyi bildiklerini doğru aktarıyordu. Selim ilk ekrandaki metni düşününce, kesin bir cevabın insana ne kadar kolay güven verebildiğini fark etti. Güvenin dayanağı, yalnız cümlenin düzenli görünmesi olmamalıydı.\nKulüp kapanırken eski ve yeni açıklamalar karşılaştırıldı. Aracın önerilerinden yararlı olanlar da vardı; hepsini reddetmek gerekmemişti. Fakat öneriler seçilmiş, sınanmış ve gerektiğinde düzeltilmişti. Öğrenciler kullandıkları yöntem için kısa bir kontrol listesi yazdı. Kaynak, kapsam, koşul ve doğruluk başlıkları listenin dört köşesiydi. Ece, ekrandan gelen cevabı bir son durak yerine tartışılacak taslak olarak gördüğünde daha iyi çalışabildiğini söyledi. Selim ise en önemli değişikliği tek cümleyle anlattı: Artık önce metnin ne kadar güzel göründüğüne değil, ne söylediğine bakıyordu. Bu tutum yalnız dijital araçlar için değil, karşılaştıkları başka bilgi kaynakları için de işe yarayabilirdi. Her akıcı metnin arkasında aynı ölçüde sağlam dayanak bulunmayabileceğini öğrenmişlerdi.\nEce kontrol listesini başka bir kulüp metninde de denedi. Bu kez sorun ölçüm iddiası değil, bir başlığın kapsamıydı. Başlık yalnız iki örneğe dayanan açıklamayı bütün modeller için geçerli gösteriyordu. Liste böyle bir genişlemeyi fark etmelerine yardım etti. Selim başlığı daraltınca metnin daha az iddialı göründüğünü söyledi. Ece bunun eksiklik olmadığını düşündü. Doğru kapsamda kurulmuş bir cümle, geniş fakat dayanıksız bir cümleden daha güvenilir olabilirdi. İkisi yeni başlığı birkaç arkadaşına okuttu. Arkadaşlarının ne anladığını dinleyerek son düzenlemeyi yaptı. Böylece denetim yalnız ekran karşısında değil, gerçek okuma deneyimiyle de tamamlandı.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; internet veya ders kitabından alınmamıştır.",
+      "sorular": [
+        {
+          "id": "8-5-okuma-1-1",
+          "tip": "secim",
+          "soru": "“Ekrandaki Kesin Cevap” metnine göre: İlk cevabın ikna edici görünmesinin nedeni nedir?",
+          "secenekler": [
+            "Bütün ölçümleri gerçekten yapması",
+            "Öğretmenin önceden onaylaması",
+            "Akıcı ve düzenli olması"
+          ],
+          "dogru": "Akıcı ve düzenli olması",
+          "aciklama": "İlk paragraf biçimsel düzenin güven hissi oluşturduğunu gösterir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-5-okuma-1-2",
+          "tip": "secim",
+          "soru": "“Ekrandaki Kesin Cevap” metnine göre: Ece hangi sorunu bulur?",
+          "secenekler": [
+            "Başlığın konuya hiç değinmemesi",
+            "Modelin yapmadığı ölçümün yapılıyor gibi anlatılması",
+            "Metinde hiç cümle olmaması"
+          ],
+          "dogru": "Modelin yapmadığı ölçümün yapılıyor gibi anlatılması",
+          "aciklama": "İçerik, modelin gerçek özellikleriyle uyuşmayan bilgi taşır.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-5-okuma-1-3",
+          "tip": "secim",
+          "soru": "“Ekrandaki Kesin Cevap” metnine göre: Cümleleri ayırıp işaretlemek ne sağlar?",
+          "secenekler": [
+            "Bilginin kaynağını ve doğrulanabilirliğini izlemeyi",
+            "Her öneriyi kesin kabul etmeyi",
+            "Kayıtları gereksiz kılmayı"
+          ],
+          "dogru": "Bilginin kaynağını ve doğrulanabilirliğini izlemeyi",
+          "aciklama": "Öğrenciler hangi bilginin nereden geldiğini inceler.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-5-okuma-1-4",
+          "tip": "secim",
+          "soru": "“Ekrandaki Kesin Cevap” metnine göre: Kısaltılan cümlede ne kaybolmuştur?",
+          "secenekler": [
+            "Yalnız süslü sıfat",
+            "Modelin rengi",
+            "Önemli bir koşul"
+          ],
+          "dogru": "Önemli bir koşul",
+          "aciklama": "Koşul geri eklenince anlamın kapsamı korunur.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-5-okuma-1-5",
+          "tip": "secim",
+          "soru": "“Ekrandaki Kesin Cevap” metnine göre: Ziyaretçi sorusuna nasıl yanıt verilir?",
+          "secenekler": [
+            "Bütün sorular geri çevrilir",
+            "Denenmemiş koşulun bilinmediği açıklanır",
+            "Kesin sonuç uydurulur"
+          ],
+          "dogru": "Denenmemiş koşulun bilinmediği açıklanır",
+          "aciklama": "Öğrenciler kayıtlarının sınırını görünür tutar.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-5-okuma-1-6",
+          "tip": "secim",
+          "soru": "“Ekrandaki Kesin Cevap” metnine göre: Öğrencilerin son tutumu hangisidir?",
+          "secenekler": [
+            "Önerileri seçip kontrol ederek kullanmak",
+            "Bütün araçları gerekçesiz reddetmek",
+            "Bütün çıktıları otomatik doğru saymak"
+          ],
+          "dogru": "Önerileri seçip kontrol ederek kullanmak",
+          "aciklama": "Yararlı öneriler korunur, hatalar düzeltilir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-5-okuma-1-7",
+          "tip": "secim",
+          "soru": "“Ekrandaki Kesin Cevap” metnine göre: Son durak yerine taslak sözü neyi vurgular?",
+          "secenekler": [
+            "Aracın hiçbir metin üretemediğini",
+            "Her taslağın aynen yayımlanacağını",
+            "Cevabın incelenip geliştirilebileceğini"
+          ],
+          "dogru": "Cevabın incelenip geliştirilebileceğini",
+          "aciklama": "Taslak, son kararın ve sorumluluğun hâlâ kullanıcıda olduğunu anlatır.",
+          "cikti": "T.8.3.25"
+        },
+        {
+          "id": "8-5-okuma-1-8",
+          "tip": "secim",
+          "soru": "“Ekrandaki Kesin Cevap” metnine göre: Ana düşünce hangisidir?",
+          "secenekler": [
+            "Kısa metin her durumda daha doğrudur",
+            "Akıcı dijital içerik de kaynak ve kapsam yönünden doğrulanmalıdır",
+            "Düzenli cümleler her zaman kanıttır"
+          ],
+          "dogru": "Akıcı dijital içerik de kaynak ve kapsam yönünden doğrulanmalıdır",
+          "aciklama": "Olaylar görünüş ile bilgi doğruluğunu ayırma gereğini gösterir.",
+          "cikti": "T.8.3.17"
+        }
+      ]
+    },
+    {
+      "id": "8-5-okuma-2",
+      "baslik": "Tablonun Altındaki Not",
+      "tur": "bilgilendirici",
+      "metin": "Bir tablo veya grafik, çok sayıda bilgiyi kısa bir alanda gösterebilir. Ancak görselin kolay anlaşılır görünmesi, bütün sorulara cevap verdiği anlamına gelmez. Başlık, ölçülen özellik, kullanılan birim, zaman aralığı ve verinin kimlerden toplandığı birlikte incelenmelidir. Bu ayrıntılar bilinmeden yalnız en yüksek sütuna bakmak yanlış sonuca götürebilir. Bir grafik, sunduğu veri kadar verinin sınırlarıyla da anlam kazanır.\nKurgusal bir okul kulübünün üç haftalık çalışma kayıtlarını düşünelim. İlk hafta on iki, ikinci hafta on sekiz, üçüncü hafta on beş ürün hazırlanmış olsun. Bu tablo ürün sayısını gösterir. Üçüncü haftanın ikinciye göre daha az ürün vermesi, o haftanın her açıdan daha başarısız olduğunu kanıtlamaz. Ürünlerin niteliği, kullanılan süre veya katılımcı sayısı hakkında ayrı bilgi gerekir. Sayıdaki değişim, nedenini kendi başına açıklamaz.\nKarşılaştırılan grupların koşulları da önemlidir. Bir grubun iki, diğerinin dört çalışma oturumu yapması toplam ürün sayısını etkileyebilir. Toplamlar aynı olsa bile çalışma düzenleri farklı olabilir. Böyle bir tabloda hangi sorunun sorulduğu açık olmalıdır. Toplam üretim mi, bir oturumdaki üretim mi, yoksa katılımcı deneyimi mi inceleniyor? Her soru için aynı sütun yeterli olmayabilir. Bir ölçütü başka bir ölçütün yerine kullanmak kapsam hatası oluşturur.\nGörselin ölçeği, algılanan farkı değiştirebilir. Eşit sayısal farkların eşit uzunluklarla gösterilip gösterilmediğine bakılır. Eksende başlangıç noktası veya aralıklar açıklanmıyorsa yorum dikkatle yapılmalıdır. Sütunların renkli ve üç boyutlu olması bilgiyi daha doğru kılmaz. Bazı süslemeler değeri okumayı bile zorlaştırabilir. Bu yüzden önce görselin ne söylediğini, sonra bunu nasıl gösterdiğini incelemek yararlıdır.\nVerinin toplandığı grup sınırlıysa sonuçlar da bu sınır içinde ele alınır. Bir kulübün gönüllü on üyesinin yanıtı, okulun bütün öğrencilerinin görüşü diye sunulamaz. Yanıt vermeyen kişilerin ne düşündüğü de tahminle doldurulmaz. Tablo altındaki küçük bir not, bu sınırı açıklayabilir. Notu okumamak, veriyi olduğundan daha geniş bir alanın kanıtı sanmaya yol açabilir. Dikkatli okuyucu bu nedenle yalnız çizime değil, açıklama bölümüne de döner.\nBir öğrencinin grafik yorumunu geliştirmek için önce gözlemini, sonra çıkarımını yazması yararlı olabilir. “İkinci sütun daha yüksek.” bir gözlemdir. “Bu yöntemi herkes seviyor.” ise çok daha geniş bir iddiadır ve ek dayanak gerektirir. Soru, hangi yorumun gerçekten veriden çıkarılabileceğini belirlemektir. Bazı sorular için en doğru cevap, eldeki tablonun yeterli bilgi vermediğini söylemek olabilir. Bu, yorum yapamamak değil, kanıtın sınırını tanımaktır. Tabloyla sunulan bilgi başka kaynaklarla karşılaştırılabilir; eksik alanlar için yeni veri istenebilir. Böylece grafik okuma, yalnız rakamı bulup işaretleme becerisinden daha kapsamlı hâle gelir. Okur, ölçütleri, kapsamı ve sunum biçimini birlikte değerlendirir. Kısa bir görselin arkasındaki uzun düşünme işini de fark eder.\nBir görseli yeniden çizerken aynı veriyi farklı ölçeklerle göstermek öğretici bir deneme olabilir. Öğrenciler önce rakamları değiştirmeden iki ayrı sunum hazırlar. Sonra hangisinin farkları daha büyük hissettirdiğini tartışır. Bu çalışma, veriyi bilerek yanıltıcı sunmak için değil, sunum etkisini fark etmek için yapılır. Her çizimde ölçek açıkça yazılır. Kaynak ve kapsam notları korunur. Okuyucunun yalnız görüntüye güvenip rakamları atlamaması gerektiği görülür. İki çizim aynı sayılara dayansa da ilk izlenimleri farklı olabilir. Bu farkı açıklamak, grafik okumanın tasarım ve eleştirel düşünmeyle de ilişkili olduğunu gösteren somut bir alıştırmadır.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; internet veya ders kitabından alınmamıştır.",
+      "sorular": [
+        {
+          "id": "8-5-okuma-2-1",
+          "tip": "secim",
+          "soru": "“Tablonun Altındaki Not” metnine göre: Başlık dışında hangi bilgi gerekir?",
+          "secenekler": [
+            "Grafiğin dosya adı",
+            "Birim, zaman ve veri kapsamı",
+            "Yalnız çerçeve rengi"
+          ],
+          "dogru": "Birim, zaman ve veri kapsamı",
+          "aciklama": "İlk paragraf yorum için ölçüm ve kapsam bilgilerini birlikte ister.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-5-okuma-2-2",
+          "tip": "secim",
+          "soru": "“Tablonun Altındaki Not” metnine göre: Verilen üç haftada en yüksek ürün sayısı hangisidir?",
+          "secenekler": [
+            "İkinci hafta, on sekiz",
+            "Birinci hafta, on iki",
+            "Üçüncü hafta, on beş"
+          ],
+          "dogru": "İkinci hafta, on sekiz",
+          "aciklama": "Kurgusal tabloda on sekiz diğer iki sayıdan büyüktür.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-5-okuma-2-3",
+          "tip": "secim",
+          "soru": "“Tablonun Altındaki Not” metnine göre: Ürün sayısının azalması neyi tek başına kanıtlamaz?",
+          "secenekler": [
+            "Sayının önceki haftadan düşük olduğunu",
+            "Üçüncü haftanın on beş olduğunu",
+            "Her açıdan başarısızlığı"
+          ],
+          "dogru": "Her açıdan başarısızlığı",
+          "aciklama": "Nitelik ve koşullar bilinmeden genel başarı yargısı kurulamaz.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-5-okuma-2-4",
+          "tip": "secim",
+          "soru": "“Tablonun Altındaki Not” metnine göre: Oturum sayıları farklıysa ne yapılmalıdır?",
+          "secenekler": [
+            "Bütün sayılar eşitlenmelidir",
+            "Karşılaştırmanın ölçütü açıklanmalıdır",
+            "Toplamlar gizlenmelidir"
+          ],
+          "dogru": "Karşılaştırmanın ölçütü açıklanmalıdır",
+          "aciklama": "Toplam ve oturum başına üretim farklı sorulara cevap verir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-5-okuma-2-5",
+          "tip": "secim",
+          "soru": "“Tablonun Altındaki Not” metnine göre: Renkli görünüm hangi niteliği garanti etmez?",
+          "secenekler": [
+            "Bilginin doğruluğunu",
+            "Dikkat çekiciliği",
+            "Görsel tasarımın varlığını"
+          ],
+          "dogru": "Bilginin doğruluğunu",
+          "aciklama": "Süsleme ölçüm veya kaynak doğruluğunun yerine geçmez.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-5-okuma-2-6",
+          "tip": "secim",
+          "soru": "“Tablonun Altındaki Not” metnine göre: On gönüllünün yanıtı nasıl kullanılmalıdır?",
+          "secenekler": [
+            "Bütün okulun kesin görüşü diye",
+            "Yanıt vermeyenler tahminle eklenerek",
+            "Grubun sınırı belirtilerek"
+          ],
+          "dogru": "Grubun sınırı belirtilerek",
+          "aciklama": "Örneklemin kapsamı sonuçların kapsamını sınırlar.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-5-okuma-2-7",
+          "tip": "secim",
+          "soru": "“Tablonun Altındaki Not” metnine göre: Bilgi yetersizdir demek neyi gösterebilir?",
+          "secenekler": [
+            "Her ölçümü reddetmeyi",
+            "Kanıtın sınırını tanımayı",
+            "Grafiği hiç görmemeyi"
+          ],
+          "dogru": "Kanıtın sınırını tanımayı",
+          "aciklama": "Bazı iddialar için tabloda gereken veri bulunmayabilir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-5-okuma-2-8",
+          "tip": "secim",
+          "soru": "“Tablonun Altındaki Not” metnine göre: Ana düşünce hangisidir?",
+          "secenekler": [
+            "Grafikler ölçüt, kapsam ve sunum biçimi birlikte incelenerek yorumlanmalıdır",
+            "En yüksek sütun her soruya cevap verir",
+            "Görsel çekicilik bütün veriyi doğrular"
+          ],
+          "dogru": "Grafikler ölçüt, kapsam ve sunum biçimi birlikte incelenerek yorumlanmalıdır",
+          "aciklama": "Yazı sayılarla geniş iddialar arasındaki sınırı korumayı savunur.",
+          "cikti": "T.8.3.17"
+        }
+      ]
+    }
+  ],
+  "konular": [
+    {
+      "kod": "8-5-anlatim",
+      "ad": "Dil bilgisine dayalı anlatım bozuklukları",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.8.3.8",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Anlatım bozukluğu bazen özne-yüklem uyumsuzluğundan veya ortak kullanılan ögenin ikinci yükleme uymamasından doğabilir. Cümleyi düzeltirken yalnız kelime eklemeye çalışma; her yüklemin hangi ögeyi gerektirdiğini denetle. Gereksiz değişiklik yerine anlamı koruyan açık düzenleme yap. Bu derste dil bilgisi ilişkilerine odaklanıyoruz.</p><ul><li>Sen ve ben çalıştık.</li><li>Onu gördüm, ona selam verdim.</li><li>Kitabı aldım ve okudum.</li></ul>",
+      "ornekler": [
+        "Sen ve ben çalıştık.",
+        "Onu gördüm, ona selam verdim.",
+        "Kitabı aldım ve okudum."
+      ],
+      "testler": [
+        {
+          "id": "8-5-anlatim-1",
+          "tip": "secim",
+          "soru": "Kişi uyumu hangi cümlede doğrudur?",
+          "secenekler": [
+            "Sen ve ben metni denetledik.",
+            "Sen ve ben metni denetlediniz.",
+            "Sen ve ben metni denetledin."
+          ],
+          "dogru": "Sen ve ben metni denetledik.",
+          "aciklama": "Ben içeren ortak özne birinci çoğul yüklemle uyumludur.",
+          "cikti": "T.8.3.8"
+        },
+        {
+          "id": "8-5-anlatim-2",
+          "tip": "secim",
+          "soru": "İki yüklemin gerektirdiği ekler hangisinde karşılanır?",
+          "secenekler": [
+            "Onu gördüm ve seslendim.",
+            "Ona gördüm ve seslendim.",
+            "Onu gördüm ve ona seslendim."
+          ],
+          "dogru": "Onu gördüm ve ona seslendim.",
+          "aciklama": "Görmek belirtme, seslenmek yönelme ilişkisi gerektirir.",
+          "cikti": "T.8.3.8"
+        },
+        {
+          "id": "8-5-anlatim-3",
+          "tip": "secim",
+          "soru": "Kişi uyumu doğru seçenek hangisidir?",
+          "secenekler": [
+            "Biz ve öğretmenimiz inceledim.",
+            "Biz ve öğretmenimiz inceledik.",
+            "Biz ve öğretmenimiz incelediniz."
+          ],
+          "dogru": "Biz ve öğretmenimiz inceledik.",
+          "aciklama": "Konuşanı içeren çoğul grup biz kişi ekiyle kullanılır.",
+          "cikti": "T.8.3.8"
+        },
+        {
+          "id": "8-5-anlatim-4",
+          "tip": "secim",
+          "soru": "İkinci yüklemin gerektirdiği öge hangisinde açıktır?",
+          "secenekler": [
+            "Bu aracı beğeniyor ve ona güveniyorum.",
+            "Bu aracı beğeniyor ve güveniyorum.",
+            "Bu araca beğeniyor ve güveniyorum."
+          ],
+          "dogru": "Bu aracı beğeniyor ve ona güveniyorum.",
+          "aciklama": "Beğenmek nesne, güvenmek yönelme tamlayıcısı ister.",
+          "cikti": "T.8.3.8"
+        },
+        {
+          "id": "8-5-anlatim-5",
+          "tip": "secim",
+          "soru": "Sen ve Ece öznesiyle doğru yüklem hangisidir?",
+          "secenekler": [
+            "Sen ve Ece açıklamayı yazdık.",
+            "Sen ve Ece açıklamayı yazdım.",
+            "Sen ve Ece açıklamayı yazdınız."
+          ],
+          "dogru": "Sen ve Ece açıklamayı yazdınız.",
+          "aciklama": "Konuşanı içermeyen sen ve üçüncü kişi grubu siz anlamındadır.",
+          "cikti": "T.8.3.8"
+        },
+        {
+          "id": "8-5-anlatim-6",
+          "tip": "secim",
+          "soru": "Öge eksikliği giderilmiş cümle hangisidir?",
+          "secenekler": [
+            "Öneriye tartıştık ve uyduk.",
+            "Öneriyi tartıştık ve öneriye uyduk.",
+            "Öneriyi tartıştık ve uyduk."
+          ],
+          "dogru": "Öneriyi tartıştık ve öneriye uyduk.",
+          "aciklama": "Tartışmak nesne, uymak yönelme ilişkisi gerektirir.",
+          "cikti": "T.8.3.8"
+        },
+        {
+          "id": "8-5-anlatim-7",
+          "tip": "secim",
+          "soru": "Tekil özneye uygun kişi eki hangisidir?",
+          "secenekler": [
+            "Ben sonucu açıkladım.",
+            "Ben sonucu açıkladık.",
+            "Ben sonucu açıkladınız."
+          ],
+          "dogru": "Ben sonucu açıkladım.",
+          "aciklama": "Ben öznesi birinci tekil kişi ekiyle uyumlu olmalıdır.",
+          "cikti": "T.8.3.8"
+        },
+        {
+          "id": "8-5-anlatim-8",
+          "tip": "secim",
+          "soru": "İki yükleme uygun ögeler hangisinde verilmiştir?",
+          "secenekler": [
+            "Arkadaşını aradı ve haber verdi.",
+            "Arkadaşına aradı ve haber verdi.",
+            "Arkadaşını aradı ve arkadaşına haber verdi."
+          ],
+          "dogru": "Arkadaşını aradı ve arkadaşına haber verdi.",
+          "aciklama": "Aramak nesne, haber vermek yönelme tamlayıcısı gerektirir; burada eksik ilişki tamamlanır.",
+          "cikti": "T.8.3.8"
+        },
+        {
+          "id": "8-5-anlatim-9",
+          "tip": "secim",
+          "soru": "Kişi uyumu doğru cümle hangisidir?",
+          "secenekler": [
+            "Siz raporu gönderdim.",
+            "Siz raporu gönderdiniz.",
+            "Siz raporu gönderdik."
+          ],
+          "dogru": "Siz raporu gönderdiniz.",
+          "aciklama": "Siz öznesi ikinci çoğul kişi yüklemiyle kullanılır.",
+          "cikti": "T.8.3.8"
+        },
+        {
+          "id": "8-5-anlatim-10",
+          "tip": "secim",
+          "soru": "Anlam korunarak ögeler hangi cümlede tamamlanmıştır?",
+          "secenekler": [
+            "Metni okudum ve metinden yararlandım.",
+            "Metni okudum ve yararlandım.",
+            "Metinden okudum ve yararlandım."
+          ],
+          "dogru": "Metni okudum ve metinden yararlandım.",
+          "aciklama": "Okumak belirtme, yararlanmak ayrılma ilişkisi gerektirir.",
+          "cikti": "T.8.3.8"
+        }
+      ]
+    },
+    {
+      "kod": "8-5-duzenleme",
+      "ad": "Yazıyı yazım ve noktalama bakımından düzenleme",
+      "kategori": "yazim-noktalama",
+      "cikti": "T.8.4.16",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Yazıyı düzenlemek yalnız sözcükleri kısaltmak değildir. Yazım, noktalama, anlatım ve anlam ilişkileri birlikte kontrol edilir. Bağlaç, ek, soru ve alıntı yapılarında doğru yazımı koru. Bir değişiklik önemli koşulu siliyorsa daha kısa olsa bile uygun değildir. Aşağıdaki örnekler önceki sınıflarda öğrenilen kuralları metin düzenleme bağlamında tekrar eder.</p><ul><li>Ben de kontrol ettim.</li><li>Sonuç doğru mu?</li><li>İki kayıt var: ilk ve son deneme.</li></ul>",
+      "ornekler": [
+        "Ben de kontrol ettim.",
+        "Sonuç doğru mu?",
+        "İki kayıt var: ilk ve son deneme."
+      ],
+      "testler": [
+        {
+          "id": "8-5-duzenleme-1",
+          "tip": "secim",
+          "soru": "Katılma anlamlı bağlaç hangi cümlede doğrudur?",
+          "secenekler": [
+            "Ben’de veriyi kontrol ettim.",
+            "Ben de veriyi kontrol ettim.",
+            "Bende veriyi kontrol ettim."
+          ],
+          "dogru": "Ben de veriyi kontrol ettim.",
+          "aciklama": "Katılma bildiren de bağlacı ayrı yazılır.",
+          "cikti": "T.8.4.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "8-5-duzenleme-2",
+          "tip": "secim",
+          "soru": "Bulunma eki hangi cümlede doğrudur?",
+          "secenekler": [
+            "Veriler dosyada duruyor.",
+            "Veriler dosya da duruyor.",
+            "Veriler dosya-da duruyor."
+          ],
+          "dogru": "Veriler dosyada duruyor.",
+          "aciklama": "Dosyada yer bildirir; ek bitişik yazılır.",
+          "cikti": "T.8.4.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "8-5-duzenleme-3",
+          "tip": "secim",
+          "soru": "Soru ekli cümle hangisinde doğru yazılmıştır?",
+          "secenekler": [
+            "Bu sonuç yeterlimi?",
+            "Bu sonuç yeterli-mi?",
+            "Bu sonuç yeterli mi?"
+          ],
+          "dogru": "Bu sonuç yeterli mi?",
+          "aciklama": "Mi önceki kelimeden ayrı yazılır.",
+          "cikti": "T.8.4.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "8-5-duzenleme-4",
+          "tip": "secim",
+          "soru": "Ek olan ki hangi seçenekte doğrudur?",
+          "secenekler": [
+            "Ekran daki metni düzelttik.",
+            "Ekrandaki metni düzelttik.",
+            "Ekranda ki metni düzelttik."
+          ],
+          "dogru": "Ekrandaki metni düzelttik.",
+          "aciklama": "Ekrandaki sözü bitişik yazılan -ki ekini taşır.",
+          "cikti": "T.8.4.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "8-5-duzenleme-5",
+          "tip": "secim",
+          "soru": "Bağlaç olan ki hangi cümlede doğrudur?",
+          "secenekler": [
+            "Anlaşıldı ki koşul eksilmiş.",
+            "Anlaşıldıki koşul eksilmiş.",
+            "Anlaşıldı-ki koşul eksilmiş."
+          ],
+          "dogru": "Anlaşıldı ki koşul eksilmiş.",
+          "aciklama": "Yargıları bağlayan ki ayrı yazılır.",
+          "cikti": "T.8.4.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "8-5-duzenleme-6",
+          "tip": "secim",
+          "soru": "Konuşmacı adı hangi satırda doğru işaretlenmiştir?",
+          "secenekler": [
+            "Ece/ Yeniden inceleyelim.",
+            "Ece’ Yeniden inceleyelim.",
+            "Ece: Yeniden inceleyelim."
+          ],
+          "dogru": "Ece: Yeniden inceleyelim.",
+          "aciklama": "Konuşmacı adından sonra iki nokta gelir.",
+          "cikti": "T.8.4.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "8-5-duzenleme-7",
+          "tip": "secim",
+          "soru": "Örnek listesinden önce hangi yazım doğrudur?",
+          "secenekler": [
+            "İki ölçüt: seçtik doğruluk ve kapsam.",
+            "İki ölçüt seçtik: doğruluk ve kapsam.",
+            "İki: ölçüt seçtik doğruluk ve kapsam."
+          ],
+          "dogru": "İki ölçüt seçtik: doğruluk ve kapsam.",
+          "aciklama": "Tamamlanan tanıtım cümlesinden sonra örnekler iki noktayla verilir.",
+          "cikti": "T.8.4.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "8-5-duzenleme-8",
+          "tip": "secim",
+          "soru": "İkileme hangi seçenekte doğrudur?",
+          "secenekler": [
+            "adım adım",
+            "adımadım",
+            "adım-adım"
+          ],
+          "dogru": "adım adım",
+          "aciklama": "İkilemeler ayrı yazılır ve aralarına çizgi konmaz.",
+          "cikti": "T.8.4.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "8-5-duzenleme-9",
+          "tip": "secim",
+          "soru": "Pekiştirme hangi seçenekte doğrudur?",
+          "secenekler": [
+            "ter temiz sayfa",
+            "ter-temiz sayfa",
+            "tertemiz sayfa"
+          ],
+          "dogru": "tertemiz sayfa",
+          "aciklama": "Pekiştirme kelimesi tertemiz bitişik yazılır.",
+          "cikti": "T.8.4.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "8-5-duzenleme-10",
+          "tip": "secim",
+          "soru": "Sıra sayısı hangi seçenekte doğru yazılmıştır?",
+          "secenekler": [
+            "3 üncü deneme",
+            "3. deneme",
+            "3.’üncü deneme"
+          ],
+          "dogru": "3. deneme",
+          "aciklama": "Nokta sıra anlamı verdiğinde ayrıca sıra eki yazılmaz.",
+          "cikti": "T.8.4.16",
+          "yazimDuyarli": true
+        }
+      ]
+    }
+  ],
+  "dinleme": [
+    {
+      "id": "8-5-dinleme",
+      "baslik": "Akıcı Cümleyi Kontrol Etmek",
+      "metin": "Bir model açıklaması dijital araçla kısaltıldı. Metin akıcıydı fakat modelin yapmadığı bir ölçümü yaptığını söylüyordu. Öğrenciler açıklamayı kendi kayıtlarıyla karşılaştırdı ve bu iddiayı çıkardı. Daha sonra önemli bir koşulun da kısaltmada kaybolduğunu gördü. Koşulu geri eklediler. Aracın bütün önerilerini reddetmediler; yararlı dil seçeneklerini seçerken doğruluğu ayrıca denetlediler. Etiketin altına deneme koşullarını yazdılar. Ziyaretçi farklı koşulları sorduğunda henüz denemediklerini açıkça belirttiler.",
+      "tts": {
+        "dil": "tr-TR",
+        "sesYoksa": "metin"
+      },
+      "sorular": [
+        {
+          "id": "8-5-dinleme-1",
+          "tip": "secim",
+          "soru": "“Akıcı Cümleyi Kontrol Etmek” dinleme metnine göre: İlk metindeki yanlış iddia neydi?",
+          "secenekler": [
+            "Modelin masada bulunduğu",
+            "Metnin bir başlığı olduğu",
+            "Yapılmayan bir ölçümün yapıldığı"
+          ],
+          "dogru": "Yapılmayan bir ölçümün yapıldığı",
+          "aciklama": "Dinlenen olayın sırası ve açıklamaları “Yapılmayan bir ölçümün yapıldığı” cevabını destekler. Diğer seçeneklerdeki ayrıntılar metinde verilen bilgiyle uyuşmaz.",
+          "cikti": "T.8.1.4"
+        },
+        {
+          "id": "8-5-dinleme-2",
+          "tip": "secim",
+          "soru": "“Akıcı Cümleyi Kontrol Etmek” dinleme metnine göre: İddia neyle kontrol edildi?",
+          "secenekler": [
+            "İleti beğenisiyle",
+            "Öğrencilerin kayıtlarıyla",
+            "Yalnız yazı rengiyle"
+          ],
+          "dogru": "Öğrencilerin kayıtlarıyla",
+          "aciklama": "Dinlenen olayın sırası ve açıklamaları “Öğrencilerin kayıtlarıyla” cevabını destekler. Diğer seçeneklerdeki ayrıntılar metinde verilen bilgiyle uyuşmaz.",
+          "cikti": "T.8.1.4"
+        },
+        {
+          "id": "8-5-dinleme-3",
+          "tip": "secim",
+          "soru": "“Akıcı Cümleyi Kontrol Etmek” dinleme metnine göre: Kısaltmada kaybolan neydi?",
+          "secenekler": [
+            "Önemli bir koşul",
+            "Bütün kelimeler",
+            "Modelin kendisi"
+          ],
+          "dogru": "Önemli bir koşul",
+          "aciklama": "Dinlenen olayın sırası ve açıklamaları “Önemli bir koşul” cevabını destekler. Diğer seçeneklerdeki ayrıntılar metinde verilen bilgiyle uyuşmaz.",
+          "cikti": "T.8.1.4"
+        },
+        {
+          "id": "8-5-dinleme-4",
+          "tip": "secim",
+          "soru": "“Akıcı Cümleyi Kontrol Etmek” dinleme metnine göre: Son tutum hangisidir?",
+          "secenekler": [
+            "Her akıcı metni doğrudan yayımlamak",
+            "Hiçbir kaynağı incelememek",
+            "Yararlı öneriyi seçip doğruluğu denetlemek"
+          ],
+          "dogru": "Yararlı öneriyi seçip doğruluğu denetlemek",
+          "aciklama": "Dinlenen olayın sırası ve açıklamaları “Yararlı öneriyi seçip doğruluğu denetlemek” cevabını destekler. Diğer seçeneklerdeki ayrıntılar metinde verilen bilgiyle uyuşmaz.",
+          "cikti": "T.8.1.4"
+        }
+      ]
+    }
+  ],
+  "yazmaGorevleri": [
+    {
+      "id": "8-5-yazma",
+      "baslik": "Kontrol Edilen Açıklama",
+      "yonerge": "180–280 kelimede bir model metninin hangi adımlarla doğrulanacağını anlat. Kaynak, kapsam ve koşul için bir kontrol sırası kur. Gerçek özel veri kullanma. Anlatım ve yazımı gözden geçir.",
+      "minKelime": 180,
+      "maxKelime": 280,
+      "ciktilar": [
+        "T.8.4.6",
+        "T.8.4.14",
+        "T.8.4.16"
+      ],
+      "ogretmenDegerlendirmeli": true,
+      "rubrik": [
+        {
+          "olcut": "Amaç ve kapsam",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Gerekçe ve anlam bütünlüğü",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Dil yapıları ve söz varlığı",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Yazım, noktalama ve düzenleme",
+          "enDusuk": 0,
+          "enYuksek": 4
+        }
+      ]
+    }
+  ],
+  "lgsSorulari": [
+    {
+      "id": "8-5-lgs-1",
+      "tip": "secim",
+      "soru": "Bilim İletişimi Günü için hazırlanan dört çalışma aşağıda verilmiştir.\nmodel açıklaması A: 25 dakika; kaynak notu var; ses gereksinimi yok.\nmodel açıklaması B: 28 dakika; kaynak notu var; ses gereksinimi yok.\nmodel açıklaması C: 23 dakika; kaynak notu yok; ses gereksinimi yok.\nmodel açıklaması D: 24 dakika; kaynak notu var; ses gereksinimi var.\nSeçilecek çalışmada kaynak notu bulunmalı, ses gerekmemeli ve süre 25 dakikayı aşmamalıdır. Üç koşulu birlikte sağlayan hangisidir?",
+      "secenekler": [
+        "model açıklaması D",
+        "model açıklaması A",
+        "model açıklaması B",
+        "model açıklaması C"
+      ],
+      "dogru": "model açıklaması A",
+      "aciklama": "model açıklaması A üç koşulu sağlar. B süreyi aşar, C kaynak notu içermez, D ses gerektirir.",
+      "cikti": "T.8.3.32"
+    },
+    {
+      "id": "8-5-lgs-2",
+      "tip": "secim",
+      "soru": "Bilim İletişimi Günü programında dört işlem farklı sıralarda yapılacaktır: gözlem, kayıt, karşılaştırma, rapor. Gözlem, kayıt işleminden önce yapılır. Karşılaştırma, kayıt işleminin hemen ardından gelir. Rapor son işlemdir. Her işlem bir kez yapılacağına göre uygun sıra hangisidir?",
+      "secenekler": [
+        "gözlem → kayıt → karşılaştırma → rapor",
+        "kayıt → gözlem → karşılaştırma → rapor",
+        "gözlem → karşılaştırma → kayıt → rapor",
+        "gözlem → kayıt → rapor → karşılaştırma"
+      ],
+      "dogru": "gözlem → kayıt → karşılaştırma → rapor",
+      "aciklama": "rapor sonda olmalıdır. kayıt ile karşılaştırma yan yana ve bu sırada bulunur; gözlem da onlardan önce gelir.",
+      "cikti": "T.8.3.35"
+    },
+    {
+      "id": "8-5-lgs-3",
+      "tip": "secim",
+      "soru": "Bilim İletişimi Günü sonrasında gönüllü 15 katılımcının tamamı model açıklaması çalışmasının anlaşılır olduğunu söyledi. Katılmayanlar ve cevap vermeyenler hakkında veri toplanmadı. Bu bilgiye dayanan, kapsamı aşmayan sonuç hangisidir?",
+      "secenekler": [
+        "Okuldaki herkes çalışmayı anlaşılır bulmuştur.",
+        "Yanıt vermeyenlerin tamamı çalışmayı anlaşılmaz bulmuştur.",
+        "Bu yöntem her koşulda en başarılı yöntemdir.",
+        "Yanıt veren 15 kişi çalışmayı anlaşılır bulmuştur."
+      ],
+      "dogru": "Yanıt veren 15 kişi çalışmayı anlaşılır bulmuştur.",
+      "aciklama": "Veri yalnız yanıt veren gönüllü grubu kapsar; diğer kişiler veya bütün yöntemler hakkında kesin sonuç vermez.",
+      "cikti": "T.8.3.21"
+    },
+    {
+      "id": "8-5-lgs-4",
+      "tip": "secim",
+      "soru": "Bilim İletişimi Günü için iki görüş var. I: “Model açıklaması kısa olmalı; okuyucu temel bilgiyi hızla bulabilmeli.” II: “Model açıklaması gerektiğinde ayrıntı içermeli; okuyucunun önemli koşulları anlaması sağlanmalı.” Bu iki görüş hangi ilkede buluşur?",
+      "secenekler": [
+        "Ayrıntılar bütün koşullarda kaldırılmalıdır.",
+        "Okuyucunun ön bilgisi hiçbir zaman dikkate alınmamalıdır.",
+        "İçerik, okuyucunun ihtiyacını karşılayacak biçimde düzenlenmelidir.",
+        "Her metin olabilecek en kısa biçime indirilmelidir."
+      ],
+      "dogru": "İçerik, okuyucunun ihtiyacını karşılayacak biçimde düzenlenmelidir.",
+      "aciklama": "İlk görüş hıza, ikincisi koşullara dikkat çeker; ortak nokta okuyucunun bilgiyi uygun biçimde almasıdır.",
+      "cikti": "T.8.3.23"
+    },
+    {
+      "id": "8-5-lgs-5",
+      "tip": "secim",
+      "soru": "Aşağıdaki cümleler anlamlı bir paragraf oluşturacaktır.\nI. Bilim İletişimi Günü grubu ilk taslağını hazırladı.\nII. Son değerlendirmede bu iki düzeltmenin etkisini birlikte inceledi.\nIII. Bu taslağı okuyanlar iki belirsiz nokta belirledi.\nIV. Grup, belirlenen noktaları açıklayan iki düzeltme yaptı.\nGönderimler ve işlem sırası gözetildiğinde doğru diziliş hangisidir?",
+      "secenekler": [
+        "IV – III – I – II",
+        "I – III – IV – II",
+        "III – I – IV – II",
+        "I – II – III – IV"
+      ],
+      "dogru": "I – III – IV – II",
+      "aciklama": "Bu taslak, ilk taslağa; belirlenen noktalar, okuyucu tespitine; bu iki düzeltme, yapılan değişikliklere gönderir.",
+      "cikti": "T.8.3.35"
+    },
+    {
+      "id": "8-5-lgs-6",
+      "tip": "secim",
+      "soru": "Bilim İletişimi Günü için hazırlanan model açıklaması ilk denemede uzun bulundu. Grup bazı tekrarları çıkardı. ——— önemli bir koşulun da silindiğini görünce onu yeniden ekledi. Daha kısa bir metin elde etmek, her durumda daha doğru bir metin elde etmek değildi. Boşluğa, önceki adımın beklenen yararına karşı ortaya çıkan sınırlılığı belirtmek için hangisi getirilmelidir?",
+      "secenekler": [
+        "Ancak",
+        "Bu nedenle",
+        "Örneğin",
+        "Başka bir deyişle"
+      ],
+      "dogru": "Ancak",
+      "aciklama": "Kısaltma olumlu bir adım gibi görünürken koşul kaybı ters bir durum getirir; ancak bu karşıtlığı bağlar.",
+      "cikti": "T.8.3.10"
+    },
+    {
+      "id": "8-5-lgs-7",
+      "tip": "secim",
+      "soru": "Model açıklamasını dijital araçla düzenleyen bir grup, akıcı görünen metinde gerçekte yapılmayan bir ölçümün anlatıldığını fark etti. Cümleleri kendi kayıtlarıyla karşılaştırıp yanlış iddiayı çıkardı. Aracı tamamen reddetmedi; dil önerileriyle bilgi doğruluğunu ayrı ayrı değerlendirmeyi seçti.\nBu parçada asıl vurgulanan düşünce hangisidir?",
+      "secenekler": [
+        "İlk izlenim her zaman yeterli ve kesindir.",
+        "Yeni bilgi ilk kararı hiçbir koşulda değiştirmemelidir.",
+        "Bütün durumlar tek bir ölçütle eksiksiz açıklanabilir.",
+        "Bir değerlendirme, amaca uygun somut dayanaklarla gözden geçirilmelidir."
+      ],
+      "dogru": "Bir değerlendirme, amaca uygun somut dayanaklarla gözden geçirilmelidir.",
+      "aciklama": "Parçada ilk yargı, yeni inceleme ve somut dayanaklarla düzeltilir; kapsamı geniş kesinlikler savunulmaz.",
+      "cikti": "T.8.3.17"
+    },
+    {
+      "id": "8-5-lgs-8",
+      "tip": "secim",
+      "soru": "Bilim İletişimi Günü yönergesi şöyledir: Kaynak bilgisi eksik model açıklaması doğrudan geri bildirim aşamasına alınır; tamamlanmadan sunuma geçmez. Kaynak bilgisi tamam olanlar önce içerik kontrolünden geçer, uygun bulunursa sunulur. Kaynak bilgisi eksik bir çalışma için ilk uygun işlem hangisidir?",
+      "secenekler": [
+        "Eksikliği görünmez biçimde silmek",
+        "Kaynak eksik olsa da doğrudan uygun saymak",
+        "Eksik bilgi için geri bildirim vermek",
+        "İçerik kontrolünü atlayıp sunmak"
+      ],
+      "dogru": "Eksik bilgi için geri bildirim vermek",
+      "aciklama": "Yönergenin ilk koşulu eksik kaynak durumunu açıkça geri bildirime bağlar.",
+      "cikti": "T.8.3.35"
+    },
+    {
+      "id": "8-5-lgs-9",
+      "tip": "secim",
+      "soru": "Bilim İletişimi Günü çalışmasında yalnız iki küçük grubun model açıklaması örnekleri incelendi. Bir grupta açıklama notu varken diğerinde yoktu. Açıklama notu olan örnekte katılımcılar daha az soru sordu. Bu sınırlı bulgu için kapsamı en doğru başlık hangisidir?",
+      "secenekler": [
+        "Not Olmayan Her Çalışma Başarısızdır",
+        "İki Gruptaki Örneklerde Açıklama Notuyla Soru Sayısı Birlikte İncelendi",
+        "Açıklama Notları Bütün Soruları Sonsuza Dek Bitirdi",
+        "Bütün Öğrenciler Aynı Yöntemi Tercih Ediyor"
+      ],
+      "dogru": "İki Gruptaki Örneklerde Açıklama Notuyla Soru Sayısı Birlikte İncelendi",
+      "aciklama": "Başlık iki grup ve gözlenen ilişki sınırını korur; evrensel veya nedensel kesinlik üretmez.",
+      "cikti": "T.8.3.19"
+    },
+    {
+      "id": "8-5-lgs-10",
+      "tip": "secim",
+      "soru": "Bir paragrafın konusu Bilim İletişimi Günü kayıtlarının nasıl tutulduğudur. I: Tarih ve yöntem her kayda eklendi. II: Gözlenmeyen alanlar boş bırakılıp açıklandı. III: Etkinliğin afişi bence yılın en güzel afişiydi. IV: Yöntem değiştiğinde kayda not düşüldü. Konu bütünlüğünü bozan cümle hangisidir?",
+      "secenekler": [
+        "IV",
+        "III",
+        "I",
+        "II"
+      ],
+      "dogru": "III",
+      "aciklama": "Diğer cümleler kayıt yöntemini anlatır; III etkinlikle ilgili olsa da afişin kişisel beğeni değerine geçer.",
+      "cikti": "T.8.3.18"
+    },
+    {
+      "id": "8-5-lgs-11",
+      "tip": "secim",
+      "soru": "Bilim İletişimi Günü değerlendirmesinde dört cümle yazılmıştır. Hangisi kişisel beğeni yerine kontrol edilebilir bir bilgi bildirir?",
+      "secenekler": [
+        "Dosyada 8 adet model açıklaması örneği bulunuyor.",
+        "Bu çalışma tartışmasız en etkileyici üründür.",
+        "Etkinliğin havası bütün diğerlerinden güzeldi.",
+        "Seçilen örnekler herkes için kusursuzdu."
+      ],
+      "dogru": "Dosyada 8 adet model açıklaması örneği bulunuyor.",
+      "aciklama": "Örnek sayısı sayılarak kontrol edilebilir; diğer sözler beğeni veya kapsamı belirsiz değer yargısı içerir.",
+      "cikti": "T.8.3.21"
+    },
+    {
+      "id": "8-5-lgs-12",
+      "tip": "secim",
+      "soru": "Bilim İletişimi Günü sunumuna kabul edilmek için hem içerik onayı hem paylaşım izni gereklidir. Bir model açıklaması örneğinin içerik onayı aldığı biliniyor; paylaşım izni hakkında bilgi yoktur. Kesin olarak söylenebilecek yargı hangisidir?",
+      "secenekler": [
+        "Kesinlikle sunuma kabul edilmiştir.",
+        "Kesinlikle paylaşım izni reddedilmiştir.",
+        "İçerik onayı almadığı kanıtlanmıştır.",
+        "Sunuma kabul edildiği henüz kesinleştirilemez."
+      ],
+      "dogru": "Sunuma kabul edildiği henüz kesinleştirilemez.",
+      "aciklama": "İki gerekli koşuldan yalnız biri bilinmektedir. İzin bilgisi yokluğu ne kabulü ne de reddi kanıtlar.",
+      "cikti": "T.8.3.25"
+    },
+    {
+      "id": "8-5-lgs-13",
+      "tip": "secim",
+      "soru": "Bilim İletişimi Günü kayıt tablosu: toplam çalışma / eksik alan sayısı\nI: 17 / 3\nII: 21 / 1\nIII: 19 / 0\nIV: 23 / 2\nEn az 19 çalışma içeren ve eksik alanı olmayan dosya hangisidir?",
+      "secenekler": [
+        "II",
+        "IV",
+        "III",
+        "I"
+      ],
+      "dogru": "III",
+      "aciklama": "III alt miktar sınırını sağlar ve eksik alanı sıfırdır. II ve IV miktarı sağlasa da eksikleri vardır; I alt sınırın altındadır.",
+      "cikti": "T.8.3.32"
+    },
+    {
+      "id": "8-5-lgs-14",
+      "tip": "secim",
+      "soru": "Bilim İletişimi Günü duyurusunda “Yalnız onaylı model açıklaması örnekleri listede gösterilir.” yazıyor. Bu kurala göre hangi yorum doğrudur?",
+      "secenekler": [
+        "Onaysız örnekler mutlaka listede yer alır.",
+        "Listede gösterilmeyen bir örnek yine de onaylı olabilir.",
+        "Onaylı olan her örnek mutlaka gösterilmiştir.",
+        "Listede görünen her örnek onaysızdır."
+      ],
+      "dogru": "Listede gösterilmeyen bir örnek yine de onaylı olabilir.",
+      "aciklama": "Kural gösterilenlerin onaylı olmasını ister; onaylananların tamamının gösterileceğini söylemez.",
+      "cikti": "T.8.3.25"
+    },
+    {
+      "id": "8-5-lgs-15",
+      "tip": "secim",
+      "soru": "Bilim İletişimi Günü için araştırma yapan öğrenci aynı model açıklaması bilgisini üç ayrı sayfada bulur. İkinci ve üçüncü sayfanın birinci sayfayı aynen aktardığını görür. Bu üç sayfanın aynı bilgiyi vermesi nasıl değerlendirilmelidir?",
+      "secenekler": [
+        "Birbirinden bağımsız üç doğrulama sayılmaz.",
+        "Bilgi üç kez yazıldığı için kesin kanıtlanmıştır.",
+        "Kaynağı incelemeye artık gerek yoktur.",
+        "Üç sayfa mutlaka üç ayrı deney raporudur."
+      ],
+      "dogru": "Birbirinden bağımsız üç doğrulama sayılmaz.",
+      "aciklama": "Kopyalanan bilgi ayrı bağımsız dayanak oluşturmaz; ilk kaynağın ve ek kanıtların niteliği incelenmelidir.",
+      "cikti": "T.8.3.31"
+    },
+    {
+      "id": "8-5-lgs-16",
+      "tip": "secim",
+      "soru": "Bilim İletişimi Günü kuralı: “Model açıklaması dosyası, kaynak bilgisi tamamlanmışsa ve öğretmen uygun bulmuşsa cuma günü paylaşılacaktır.” Bu cümlenin anlamını koruyan özet hangisidir?",
+      "secenekler": [
+        "Dosya cuma günü her durumda paylaşılacak.",
+        "Öğretmen uygun bulursa kaynak bilgisine gerek kalmayacak.",
+        "Kaynak tamamlanınca gün gözetmeden otomatik paylaşılacak.",
+        "Paylaşım cuma günü, iki koşul da sağlanırsa yapılacak."
+      ],
+      "dogru": "Paylaşım cuma günü, iki koşul da sağlanırsa yapılacak.",
+      "aciklama": "Doğru özet zaman bilgisini ve iki koşulun birlikte gerekli oluşunu korur.",
+      "cikti": "T.8.3.13"
+    },
+    {
+      "id": "8-5-lgs-17",
+      "tip": "secim",
+      "soru": "Bilim İletişimi Günü raporunda “Bazı model açıklaması örnekleri henüz incelenmedi.” deniyor. Bu cümleden hangi sonuç çıkarılabilir?",
+      "secenekler": [
+        "Hiçbir örnek gelecekte incelenmeyecektir.",
+        "İncelenen bütün örnekler başarısızdır.",
+        "En az bir örneğin incelemesi tamamlanmamıştır.",
+        "Bütün örnekler kesinlikle incelenmiştir."
+      ],
+      "dogru": "En az bir örneğin incelemesi tamamlanmamıştır.",
+      "aciklama": "Bazı sözü en az bir durumu bildirir; henüz ise gelecekte inceleme ihtimalini kapatmaz.",
+      "cikti": "T.8.3.25"
+    },
+    {
+      "id": "8-5-lgs-18",
+      "tip": "secim",
+      "soru": "Bilim İletişimi Günü dosyasında dört grubun tamamladığı model açıklaması sayıları A:11, B:17, C:14, D:8 olarak verilmiştir. En yüksekten en düşüğe doğru sıralamayı gösteren grafik etiketleri hangisidir?",
+      "secenekler": [
+        "C – B – A – D",
+        "B – C – A – D",
+        "B – A – C – D",
+        "D – A – C – B"
+      ],
+      "dogru": "B – C – A – D",
+      "aciklama": "B en yüksek, ardından C ve A, son olarak D gelir. Sıralama tabloda verilen büyüklüklerden okunur.",
+      "cikti": "T.8.3.32"
+    },
+    {
+      "id": "8-5-lgs-19",
+      "tip": "secim",
+      "soru": "Bilim İletişimi Günü üzerine bir yazıda “Model açıklaması, hazırlayanla okuyan arasında bir köprü kurdu; daha önce görünmeyen düşünceler konuşulabilir oldu.” deniyor. Köprü kurmak sözü burada anlatıma ne katar?",
+      "secenekler": [
+        "İletişim ve bağlantı sağlandığını mecazla anlatır.",
+        "Gerçek bir inşaatın tamamlandığını kanıtlar.",
+        "Bir yolun uzunluğunu sayıyla gösterir.",
+        "İki kişinin her konuda aynı düşündüğünü kesinleştirir."
+      ],
+      "dogru": "İletişim ve bağlantı sağlandığını mecazla anlatır.",
+      "aciklama": "Köprü somut geçiş yapısından hareketle düşünceler arasında iletişim kurulmasını anlatır; tam uzlaşma iddiası içermez.",
+      "cikti": "T.8.3.5"
+    },
+    {
+      "id": "8-5-lgs-20",
+      "tip": "secim",
+      "soru": "Bilim İletişimi Günü için basılı duyuru “Salı, saat 14.00, okul salonu; ön kayıt gerekli.” diyor. Sesli duyuru ise “Salı okul salonunda buluşuyoruz; ön kayıt yaptırmayı unutmayın.” biçimindedir. İki duyuru karşılaştırıldığında sesli duyuruda hangi bilginin eksik olduğu görülür?",
+      "secenekler": [
+        "Başlama saati",
+        "Gün",
+        "Yer",
+        "Ön kayıt koşulu"
+      ],
+      "dogru": "Başlama saati",
+      "aciklama": "Gün, yer ve kayıt iki duyuruda da vardır; 14.00 bilgisi yalnız basılı duyuruda bulunur.",
+      "cikti": "T.8.3.23"
+    }
+  ]
+}
