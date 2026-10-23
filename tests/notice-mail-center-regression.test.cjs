@@ -20,12 +20,7 @@ test('verification reminder belongs to Games and uses safe visible modal checks'
  assert(server.includes("kind==='email'?10*60000:30*60000"));
  assert(server.includes('Math.floor(Date.now()/600000)'));
 });
-test('route cards distinguish learners without losing progress',()=>{
- const code=read('member-experience.js');
- assert(code.includes('1–8. SINIF ÖĞRENCİLERİ İÇİN'));
- assert(code.includes('KENDİM İÇİN İNGİLİZCE ÖĞRENMEK İSTİYORUM'));
- assert(code.includes('Her parkurun ilerlemesi ayrı korunur'));
-});
+test('member route action opens the single Turkish route without an English chooser',()=>{const code=read('member-experience.js');assert(code.includes("window.dmTurkce?.open('route')"));assert(!code.includes('dm-route-card-school'));assert(!code.includes('KENDİM İÇİN İNGİLİZCE'));});
 test('teacher hub exposes inventory without claiming live writable settings',()=>{
  const code=read('teacher-workspace.js');
  assert(code.includes('dmNoticeMailCenterButton'));

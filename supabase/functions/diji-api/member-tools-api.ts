@@ -15,6 +15,8 @@ export function memberToolsAPI({db,json,welcome,hash,teacherScope,useStreakShiel
   if(!ops.has(op))return null;
   if(method!=='POST')return fail('POST gerekli.',405);
   if(!a)return json({ok:false,hata:'oturum',mesaj:'Önce giriş yap.'},401);
+  if(['placementSave','startPlacementSave','startPointChoose','startPlacementFollowup','teacherPlacementResults'].includes(op))return fail('Seviye testi kaldırıldı. Sınıfının Türkçe parkurundan devam et.',410);
+  if(op==='studyPlacementInvite'||(op==='memberReminderClaim'&&b.kind==='placement'))return json({ok:true,show:false,retired:true});
   if(op==='communicationNoticePolicy'){
    if(a.role!=='student'||!a.student_id)return fail('Öğrenci oturumu gerekli.',403);
    const {data,error}=await db.from('dm_communication_rules').select('key,enabled,settings').eq('category','notice');
@@ -124,7 +126,7 @@ export function memberToolsAPI({db,json,welcome,hash,teacherScope,useStreakShiel
    let loginStreak=0;for(let i=0;i<370;i++){const stamp=new Date(Date.now()+10800000-i*86400000).toISOString().slice(0,10);if(!streakDays.has(stamp))break;loginStreak++;}
    let maxLoginStreak=0,run=0,previous='';for(const stamp of [...streakDays].sort()){run=previous&&Date.parse(stamp)-Date.parse(previous)===86400000?run+1:1;maxLoginStreak=Math.max(maxLoginStreak,run);previous=stamp;}
    const firstValue=parse(first?.value);
-   return json({ok:true,emailVerified:!!s.email_verified_at,email:s.email||'',hasPlacement:!!exam?.value||!!startExam?.value||!!parse(yo?.value).seviye,placement:exam?.value||null,startingPoint:startExam?.value||null,learnerProfile:profile?.value||null,teacherLinked:!!s.teacher_id,serverNow:now,maxLoginStreak,loginStreak,loginDays:days.size,streakSaved,memberFirstSeenAt:firstValue.at,welcomeEligible:!!firstValue.welcomeEligible,welcomeEarned:!!firstValue.welcomeEligible&&Date.now()-Date.parse(firstValue.at)>=120000});
+   return json({ok:true,emailVerified:!!s.email_verified_at,email:s.email||'',placementRequired:false,hasPlacement:true,placement:null,startingPoint:null,learnerProfile:profile?.value||null,teacherLinked:!!s.teacher_id,serverNow:now,maxLoginStreak,loginStreak,loginDays:days.size,streakSaved,memberFirstSeenAt:firstValue.at,welcomeEligible:!!firstValue.welcomeEligible,welcomeEarned:!!firstValue.welcomeEligible&&Date.now()-Date.parse(firstValue.at)>=120000});
   }
   if(op==='studyPlacementInvite'){
    const exam=await get(sid,'placement_start_v1');if(parse(exam?.value).completedAt)return json({ok:true,show:false,completed:true});

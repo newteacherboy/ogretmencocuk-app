@@ -88,17 +88,17 @@
       </div>
       <img class="kb-everyone-art" src="discovery-assets/her-yasta-ogren.webp" alt="Her yaşta öğrenenler ve Papi">
       <div class="kb-grup"><h4>Öğrenme tercihlerim</h4>
-        <div class="kb-alan"><label for="kbPurpose">Öğrenme amacım</label><select id="kbPurpose"><option value="school">Okul derslerim için</option><option value="independent">Kendim için</option></select></div>
+        <div class="kb-alan"><label for="kbPurpose">Öğrenme amacım</label><select id="kbPurpose"><option value="school">Okul derslerim için</option></select></div>
         <div class="kb-alan"><label for="kbAge">Yaş aralığım (profilimde paylaşılmaz)</label><select id="kbAge"><option value="">Seç</option><option value="under13">13 yaş altı</option><option value="teen">13–17 yaş</option><option value="adult">18 yaş ve üzeri</option></select></div>
         <div class="kb-alan"><label for="kbGoal">Öğrenme hedefim</label><select id="kbGoal"><option value="daily">Günlük yaşam</option><option value="travel">Seyahat</option><option value="school">Derslerime destek</option><option value="exam">Sınava hazırlık</option></select></div>
-        <button type="button" class="kb-placement">Başlangıç seviyemi bul</button><p class="kb-ipucu">Test isteğe bağlıdır; Şimdilik geç ile doğrudan başlayabilirsin.</p>
+        <p class="kb-ipucu">Türkçe parkurun sınıfının ilk temasından başlar.</p>
       </div>
       <div class="kb-grup"><h4>Öğretmen bağlantım</h4><p id="kbTeacherStatus" class="kb-ipucu"></p><div class="kb-alan"><label for="kbTeacherCode">Öğretmen kodu (isteğe bağlı)</label><input id="kbTeacherCode" maxlength="10" autocapitalize="characters" placeholder="Bir öğretmene bağlanmak istersen"></div></div>
       <div class="kb-grup" id="kbEducation"><h4>Eğitim bilgilerim</h4>
         <div class="kb-alan"><label for="kbStage">Eğitim kademem</label><select id="kbStage"><option value="">Seç</option><option value="middle">Ortaokul</option></select></div>
         <div class="kb-alan"><label for="kbOkul">Okul adı <span style="font-weight:600;color:#8a7cb8">(isteğe bağlı)</span></label><input id="kbOkul" maxlength="120"></div>
         <div class="kb-iki">
-          <div class="kb-alan"><label for="kbSinif">Sınıf (okul öğrencisi için zorunlu)</label><select id="kbSinif"><option value="">Belirtmek istemiyorum</option>${[5,6,7,8].map(n => `<option value="${n}">${n}. sınıf</option>`).join("")}</select></div>
+          <div class="kb-alan"><label for="kbSinif">Sınıf (5–8)</label><select id="kbSinif"><option value="">Sınıfını seç</option>${[5,6,7,8].map(n => `<option value="${n}">${n}. sınıf</option>`).join("")}</select></div>
           <div class="kb-alan"><label for="kbSube">Şube</label><input id="kbSube" maxlength="10" autocapitalize="characters"></div>
         </div>
         <div class="kb-ipucu" id="kbSinifIpucu"></div>
@@ -142,7 +142,7 @@
       $("kbAd").value = x.adSoyad || "";
       $("kbOkul").value = x.okul || "";
       const pref=x.learnerProfile||{purpose:x.sinif?'school':'independent',educationStage:Number(x.sinif)<=4?'primary':Number(x.sinif)<=8?'middle':'high',ageBand:'',goal:'daily'};
-      $("kbPurpose").value=pref.purpose;$("kbAge").value=pref.ageBand||'';$("kbGoal").value=pref.goal||'daily';$("kbStage").value=pref.educationStage||'';
+      $("kbPurpose").value='school';$("kbAge").value=pref.ageBand||'';$("kbGoal").value=pref.goal||'daily';$("kbStage").value='middle';
       $("kbSinif").value=String(x.sinif||''); education(false);
       $("kbSube").value = x.sube || "";$("kbTeacherCode").value="";$("kbTeacherStatus").textContent=x.ogretmenBagli?"Bir öğretmene bağlısın. Öğrenme amacını değiştirmek bu bağlantıyı kaldırmaz.":"Bağımsız öğreniyorsun; öğretmen kodu zorunlu değil.";
       $("kbTel").value = telGoster(x.telefon);
@@ -154,7 +154,6 @@
     }
     function education(reset=false){const school=$("kbPurpose").value==='school',stage=$("kbStage").value,bounds={primary:[1,4],middle:[5,8],high:[9,12],university:[0,0]}[stage]||[0,0];$("kbEducation").hidden=!school;for(const o of $("kbSinif").options)o.hidden=!!o.value&&(Number(o.value)<bounds[0]||Number(o.value)>bounds[1]);$("kbSinif").closest('.kb-iki').hidden=!stage||stage==='university';if(reset||$("kbSinif").selectedOptions[0]?.hidden)$("kbSinif").value='';$("kbContactTitle").textContent=$("kbAge").value==='adult'?'İletişim bilgilerim':'Veli iletişim bilgileri';}
     for(const id of ['kbPurpose','kbStage','kbAge'])$(id).addEventListener('change',()=>education(id==='kbStage'));
-    kutu.querySelector('.kb-placement').onclick=()=>{kapat();window.seviyeTestAc?.();};
     const iletisimDegisti = () => (Boolean(telSade(mevcut.telefon)) && telSade($("kbTel").value) !== telSade(mevcut.telefon)) || (Boolean(String(mevcut.email||'').trim()) && $("kbMail").value.trim().toLowerCase() !== String(mevcut.email || "").trim().toLowerCase());
     function sifreGoster() {
       const gerekli = sifreZorunlu || iletisimDegisti(), grup = $("kbSifreGrup");
