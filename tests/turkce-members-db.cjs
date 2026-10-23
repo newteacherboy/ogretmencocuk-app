@@ -59,4 +59,8 @@ await assert.rejects(()=>db.query("insert into auth.users(id,email_confirmed_at,
 let audit=(await db.query("select public.turkce_admin_request($1,'update',$2) r",[uid,JSON.stringify({user_id:uid2,full_name:'Güncel Öğrenci',school:'Güncel Okul',grade:7,disabled:true})])).rows[0].r;assert.equal(audit.ok,true);await assert.rejects(()=>asOther('state'),/duraklat/);
 assert.equal((await db.query("select has_function_privilege('authenticated','public.turkce_admin_request(uuid,text,jsonb)','execute') ok")).rows[0].ok,false);
 console.log('PASS reserved admin identity, admin SQL edits/audit, suspended student guard');
+await db.exec(fs.readFileSync('supabase/member-release/social-defaults.sql','utf8'));
+let socialDefaults=(await call('state')).profile;assert.equal(socialDefaults.share_activity,true);assert.equal(socialDefaults.show_online,true);assert.equal(socialDefaults.join_leagues,true);
+const uid3='10000000-0000-4000-8000-000000000003';await db.query(`insert into auth.users(id,email_confirmed_at,raw_user_meta_data) values($1,now(),'{"username":"trcccccccccc","grade":5,"full_name":"Yeni Öğrenci","school":"Deneme Okulu"}')`,[uid3]);
+const fresh=(await db.query('select share_activity,show_online,join_leagues from public.turkce_profiles where id=$1',[uid3])).rows[0];assert.deepEqual(fresh,{share_activity:true,show_online:true,join_leagues:true});console.log('PASS existing and new profiles have all three social defaults enabled');
 console.log('PASS schema, private catalog, locks/resume energy, server answers, sequential unlock, atomic reward, replay rejection');await db.close();})().catch(e=>{console.error(e);process.exit(1)});

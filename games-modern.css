@@ -20,7 +20,7 @@ body{background:linear-gradient(140deg,#f0f5fc,#faf8ff);color:var(--modern-ink)}
 #levelValue{display:none}
 #accountLink{display:block;width:48px;height:48px;border-radius:50%;border:2px solid #8fa4ff;background-image:url('assets/games/approved-modern.webp');background-size:2648% 1707%;background-position:96.14% 5.7%;font-size:0;flex:none;box-shadow:0 0 0 4px #f4f5ff}
 #accountLink:after{content:'⌄';font-size:17px;color:#322d78;position:relative;left:46px;top:13px}
-#accountLink:focus-visible,.modern-play:focus-visible,.games-context button:focus-visible{outline:3px solid #263cb0;outline-offset:4px}
+#accountLink:focus-visible,.modern-play:focus-visible,.games-context-label:focus-visible{outline:3px solid #263cb0;outline-offset:4px}
 #gamesView.active{display:block;margin-top:12px}
 .modern-games-layout{display:grid;grid-template-columns:minmax(220px,25%) minmax(0,1fr);gap:18px;background:#fff;padding:10px;border-radius:26px;box-shadow:0 8px 25px #3030800a;min-height:690px}
 .games-sidebar{background:linear-gradient(150deg,#eeebff,#f7f5ff);border-radius:23px;display:flex;flex-direction:column;overflow:hidden;min-width:0}
@@ -28,8 +28,8 @@ body{background:linear-gradient(140deg,#f0f5fc,#faf8ff);color:var(--modern-ink)}
 .games-sidebar h1:after{content:'';position:absolute;bottom:0;left:0;width:70%;height:8px;border-radius:60% 40%;background:linear-gradient(90deg,#a46aff,#c5abff);transform:rotate(-3deg)}
 .games-sidebar>p{font-size:19px;font-weight:650;line-height:1.5;color:#55578d;margin:0 21px 25px}
 .games-context{display:grid;gap:11px;padding:0 20px;z-index:1}
-.games-context button{display:flex;align-items:center;gap:10px;text-align:left;color:#25215d;background:#ffffffd9;border:1px solid #d7d5ff;border-radius:14px;padding:14px 12px;font-size:14px;min-height:50px;cursor:pointer}
-.games-context button span:nth-last-child(2){flex:1}.games-context .ui-icon{color:#606594}
+.games-context-label{display:flex;align-items:center;gap:10px;text-align:left;color:#25215d;background:#ffffffd9;border:1px solid #d7d5ff;border-radius:14px;padding:14px 12px;font-size:14px;min-height:50px;}
+.games-context-label span:nth-last-child(2){flex:1}.games-context .ui-icon{color:#606594}
 .games-mascot{margin-top:18px;min-height:300px;flex:1;background-image:url('assets/games/approved-modern.webp');background-size:432.68% 205.21%;background-position:2.286% 91.43%;aspect-ratio:355/499;border-radius:0 0 23px 23px}
 .modern-game-grid{display:grid;grid-template-rows:repeat(3,minmax(0,1fr));gap:18px;min-width:0;padding:10px 3px}
 .modern-game-card{--outline:#ffdabd;--wash:#fff8f1;display:grid;grid-template-columns:minmax(0,45%) minmax(0,1fr);gap:25px;align-items:center;padding:16px;border:3px solid var(--outline);border-radius:25px;background:linear-gradient(120deg,#fff,var(--wash));min-width:0}
@@ -58,7 +58,7 @@ body{background:linear-gradient(140deg,#f0f5fc,#faf8ff);color:var(--modern-ink)}
  .games-sidebar{position:relative;display:block;padding:13px 12px 15px;min-height:155px;border-radius:16px}
  .games-sidebar h1{font-size:32px;padding-bottom:10px;letter-spacing:-1px;margin:0 0 9px;max-width:65%}.games-sidebar h1:after{height:4px;width:100px}
  .games-sidebar>p{font-size:13px;line-height:1.35;margin:0 0 13px;max-width:64%}
- .games-context{display:flex;gap:5px;padding:0;position:relative;flex-wrap:wrap;width:100%}.games-context button{font-size:10px;padding:8px 6px;gap:4px;min-height:33px;border-radius:10px}.games-context .ui-icon{width:14px;height:14px}
+ .games-context{display:flex;gap:5px;padding:0;position:relative;flex-wrap:wrap;width:100%}.games-context-label{font-size:10px;padding:8px 6px;gap:4px;min-height:33px;border-radius:10px}.games-context .ui-icon{width:14px;height:14px}
  .games-mascot{position:absolute;right:0;top:0;width:85px;height:115px;min-height:0;margin:0;border-radius:12px;aspect-ratio:355/499}
  .modern-game-grid{display:grid;grid-template-rows:none;gap:9px;padding:0}
  .modern-game-card{grid-template-columns:37% minmax(0,1fr);gap:9px;padding:9px;border-width:2px;border-radius:17px;min-height:136px}
@@ -74,7 +74,7 @@ body{background:linear-gradient(140deg,#f0f5fc,#faf8ff);color:var(--modern-ink)}
  .modern-game-grid{min-height:0}
 }
 @media(max-width:700px){
- #app .tabs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));align-items:stretch}
+ #app .tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:stretch}
  #app .tab{font-size:9px!important;gap:3px;padding:6px 3px!important}
  #app .tab span{white-space:normal}
  #app .economy-pill small{display:inline!important;font-size:9px}
