@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="styles.css?v=energy-refill-v1" /><link rel="stylesheet" href="mobile-parkur.css?v=energy-refill-v1" /><link rel="stylesheet" href="reward-ui.css?v=energy-refill-v1" />
   <link rel="stylesheet" href="member-admin.css?v=members-admin-v1">
 <style>html[data-app-pending] #app{visibility:hidden}#app-loading{position:fixed;inset:0;display:grid;place-items:center;background:#e8f5ff;color:#173c82;font:700 20px system-ui;z-index:1000}</style>  <link rel="stylesheet" href="question-feedback.css?v=solutions-2">
-<link rel="stylesheet" href="games-modern.css?v=modern-3"></head>
+<link rel="stylesheet" href="games-modern.css?v=social-open-1"></head>
 <body>
 <p id="app-loading" role="status">Parkurun hazırlanıyor…</p>
   <div id="app">
@@ -19,7 +19,7 @@
       <nav class="tabs">
         <button class="tab active" data-view="parkurView"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m2 11 10-9 10 9-3 1v10h-6v-7h-2v7H5V12z"/></svg><span>Parkur</span></button>
         <button class="tab" data-view="gamesView"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h10c4 0 7 14 3 15-2 .5-4-4-5-4H9c-1 0-3 4.5-5 4C0 19 3 5 7 5z"/><path d="M7 8v6m-3-3h6" stroke="white" stroke-width="2"/><circle cx="16" cy="9" r="1.3" fill="white"/><circle cx="19" cy="12" r="1.3" fill="white"/></svg><span>Oyunlar</span></button>
-        <button class="tab" data-view="topicsView"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 3c4-1 7 0 10 2 3-2 6-3 10-2v17c-4-1-7 0-10 2-3-2-6-3-10-2z"/><path d="M12 5v17" stroke="white" stroke-width="1.5"/></svg><span>Sınıf ve Tema</span></button><button class="tab" data-view="friendsView"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="6" r="4"/><circle cx="19" cy="8" r="3"/><path d="M1 22v-4a8 8 0 0 1 16 0v4zm18 0v-4a10 10 0 0 0-2-6c5-1 7 2 7 6v4z"/></svg><span>Arkadaşlar</span></button>
+<button class="tab" data-view="friendsView"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="6" r="4"/><circle cx="19" cy="8" r="3"/><path d="M1 22v-4a8 8 0 0 1 16 0v4zm18 0v-4a10 10 0 0 0-2-6c5-1 7 2 7 6v4z"/></svg><span>Arkadaşlar</span></button>
 
         <button class="tab" data-view="adminView" id="adminTab" hidden>Kontrol Merkezi</button>
       </nav>
@@ -39,8 +39,8 @@
           <aside class="games-sidebar">
             <h1>Oyunlar</h1><p>Oyna, düşün, Türkçeni geliştir!</p>
             <div class="games-context">
-              <button type="button" onclick="showView('topicsView')"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m1 8 11-6 11 6-11 6zM5 13l7 4 7-4v6c-4 4-10 4-14 0z"/></svg><span>5. Sınıf</span><span aria-hidden="true">⌄</span></button>
-              <button type="button" onclick="showView('topicsView')"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 3c4-1 7 0 10 2 3-2 6-3 10-2v17c-4-1-7 0-10 2-3-2-6-3-10-2z"/><path d="M12 5v17" stroke="white" stroke-width="1.5"/></svg><span>1. Tema: Oyun Dünyası</span><span aria-hidden="true">⌄</span></button>
+              <div class="games-context-label"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m1 8 11-6 11 6-11 6zM5 13l7 4 7-4v6c-4 4-10 4-14 0z"/></svg><span>5. Sınıf</span></div>
+              <div class="games-context-label"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 3c4-1 7 0 10 2 3-2 6-3 10-2v17c-4-1-7 0-10 2-3-2-6-3-10-2z"/><path d="M12 5v17" stroke="white" stroke-width="1.5"/></svg><span>1. Tema: Oyun Dünyası</span></div>
             </div>
             <div class="games-mascot" role="img" aria-label="Kitap okuyan turkuaz papağan"></div>
           </aside>
@@ -48,19 +48,6 @@
         </div>
       </section>
 
-      <section id="topicsView" class="view">
-        <div class="topics-layout card">
-          <h2>Sınıf ve Tema</h2>
-          <p>Şimdilik yalnızca 5. sınıf 1. tema aktif. Diğer temalar zamanla eklenecek.</p>
-          <div class="topic-card active-topic">
-            <strong>5. Sınıf • 1. Tema: Oyun Dünyası</strong>
-            <span>24 duraklı aktif parkur</span>
-          </div>
-          <div class="topic-card disabled-topic"><strong>2. Tema</strong><span>Yakında</span></div>
-          <div class="topic-card disabled-topic"><strong>3. Tema</strong><span>Yakında</span></div>
-          <div class="topic-card disabled-topic"><strong>4. Tema</strong><span>Yakında</span></div>
-        </div>
-      </section>
       <section id="friendsView" class="view"><div class="league-page"><h2>Arkadaşlar ve Ligler</h2><p id="socialStatus" role="status"></p><div id="memberSocial"></div></div></section>
       <section id="adminView" class="view"><div id="adminRoot"></div></section>
     </main>
@@ -68,6 +55,6 @@
 
   <div id="modalRoot"></div>
   <script src="curriculum.js?v=illustrations-2"></script>
-  <script src="vendor/supabase-2.118.0.js"></script><script src="member-client.js?v=members-v1"></script><script src="app-gate.js?v=adventure-1"></script><script src="app.js?v=modern-games-3"></script><script src="member-social.js?v=members-v1"></script><script src="member-admin.js?v=members-admin-v1"></script>
+  <script src="vendor/supabase-2.118.0.js"></script><script src="member-client.js?v=members-v1"></script><script src="app-gate.js?v=adventure-1"></script><script src="app.js?v=modern-games-3"></script><script src="member-social.js?v=social-open-1"></script><script src="member-admin.js?v=members-admin-v1"></script>
 </body>
 </html>
