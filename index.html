@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Öğretmen Çocuk | 5. Sınıf Türkçe</title>
-  <link rel="stylesheet" href="styles.css?v=feedback-20261023b" /><link rel="stylesheet" href="mobile-parkur.css?v=feedback-20261023b" />
+  <link rel="stylesheet" href="styles.css?v=energy-refill-v1" /><link rel="stylesheet" href="mobile-parkur.css?v=energy-refill-v1" /><link rel="stylesheet" href="reward-ui.css?v=energy-refill-v1" />
 </head>
 <body>
   <div id="app">
@@ -16,7 +16,7 @@
       <nav class="tabs">
         <button class="tab active" data-view="parkurView">Parkur</button>
         <button class="tab" data-view="gamesView">Oyunlar</button>
-        <button class="tab" data-view="topicsView">Sınıf ve Tema</button>
+        <button class="tab" data-view="topicsView">Sınıf ve Tema</button><button class="tab" data-view="friendsView">Arkadaşlar</button>
       </nav>
       <div class="topbar-right">
         <div class="select-pill">5. Sınıf</div>
@@ -25,7 +25,7 @@
 
     <main>
       <section id="parkurView" class="view active">
-        <div class="mobile-parkur-title"><div><span>5. Sınıf Türkçe</span><h1>1. Tema: Oyun Dünyası</h1></div><img src="assets/theme-objects.webp" alt="Oyun kumandası ve açık kitap" /></div>
+        <div class="economy-strip" aria-label="Günlük enerji, XP ve altın"><div class="economy-pill energy"><span aria-hidden="true">⚡</span><b id="energyValue">30/30</b><small>Enerji</small></div><div class="economy-pill experience"><span aria-hidden="true">✨</span><b id="xpValue">0</b><small>XP</small></div><div class="economy-pill coins"><span aria-hidden="true">🪙</span><b id="goldValue">0</b><small>Altın</small></div><span class="economy-level" id="levelValue">Sv. 1</span></div><div class="mobile-parkur-title"><div><span>5. Sınıf Türkçe</span><h1>1. Tema: Oyun Dünyası</h1></div><img src="assets/theme-objects.webp" alt="Oyun kumandası ve açık kitap" /></div>
         <div id="mapCanvas" class="adventure-map" aria-label="Altı bölge ve 24 ayrı tıklanabilir durak"></div>
         <div class="adventure-footer"><span id="adventureProgress" aria-live="polite">0 / 24</span><button id="showAchievements" type="button">🎯 Tema hedefleri</button><button id="continueJourney" type="button" class="adventure-continue">▶ Başla</button></div>
         <p class="map-help">Duraklar sırayla açılır. İlerlemen bu cihazda saklanır.</p>
@@ -60,11 +60,12 @@
           <div class="topic-card disabled-topic"><strong>4. Tema</strong><span>Yakında</span></div>
         </div>
       </section>
+      <section id="friendsView" class="view"><div class="league-page"><h2>Arkadaşlar ve Ligler</h2><p>Ligler kullanıcı hesapları ve güvenli sunucu puanlaması tamamlanınca etkinleşecek. Şu anda yalnızca kuralların önizlemesi gösteriliyor.</p><div class="friend-panels"><div class="friend-panel"><h3>📰 Arkadaş Akışı</h3><p>Arkadaşlarının isteğe bağlı paylaştığı bölüm tamamlama, rozet, ödül, seviye ve oyun başarıları burada görünecek.</p><div class="friend-empty">Henüz paylaşım yok. Arkadaşlar ve izinli paylaşımlar için güvenli üyelik sistemi gerekiyor.</div></div><div class="friend-panel"><h3>🟢 Arkadaş Durumu</h3><p>Çevrimiçi bilgisi herkese açık olmayacak. İzin veren arkadaşların uygunluk durumu bu bölümde gösterilebilecek.</p><div class="friend-empty">Henüz bağlı arkadaş yok.</div></div></div><h3>Ligler</h3><div class="league-grid"><article><h3>🏡 Yerel Lig</h3><p>İlk girişte açık</p><b>Seviye 1+</b></article><article><h3>🏆 Süper Lig</h3><p>5. seviyede açılır</p><b>Seviye 5+</b></article><article><h3>🥇 Şampiyonlar Ligi</h3><p>10. seviyede açılır</p><b>Seviye 10+</b></article><article><h3>⭐ Efsaneler Ligi</h3><p>Tüm zamanların toplam XP sıralaması</p><b>Hesap gerekir</b></article></div><p class="league-note">Yerel, Süper ve Şampiyonlar liglerinin XP sıralamaları haftalık yenilenir. Efsaneler Ligi birikmiş toplam XP’ye göre sıralanır. Henüz gerçek kullanıcı sıralaması gösterilmez.</p></div></section>
     </main>
   </div>
 
   <div id="modalRoot"></div>
   <script src="curriculum.js"></script>
-  <script src="app.js"></script>
+  <script src="economy.js?v=energy-refill-v1"></script><script src="app.js?v=energy-refill-v1"></script>
 </body>
 </html>

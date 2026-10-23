@@ -12,6 +12,14 @@ const tabs = document.querySelectorAll('.tab');
 const modalRoot = document.getElementById('modalRoot');
 const completedCount = document.getElementById('completedCount');
 
+function refreshEconomy(){
+ const x=window.practiceEconomy?.snapshot();if(!x)return;
+ const vals={energyValue:x.energy+"/30",xpValue:x.xp.toLocaleString("tr-TR"),goldValue:x.gold.toLocaleString("tr-TR"),levelValue:"Sv. "+x.level};
+ Object.entries(vals).forEach(([key,value])=>{const e=document.getElementById(key);if(e)e.textContent=value});
+ const e=document.querySelector(".economy-pill.energy");
+ if(e){const m=Math.floor(x.nextEnergySeconds/60),s=x.nextEnergySeconds%60;e.title=x.energy>=30?"Enerjin dolu":"Sonraki enerji: "+String(m).padStart(2,"0")+":"+String(s).padStart(2,"0");}
+}
+window.addEventListener("practice-rewards-changed",refreshEconomy);
 function saveProgress(){ localStorage.setItem(state.progressKey, JSON.stringify(state.completed)); updateStats(); renderMap(); }
 function updateStats(){ if(completedCount) completedCount.textContent = state.completed.length; }
 
@@ -70,15 +78,18 @@ function showProgress(){
   openModal(`<div class="modal-card"><div class="modal-inner"><div class="stop-header"><h2>İlerlemem</h2><button class="back-btn" onclick="closeModal()">×</button></div><p>5. Sınıf · Oyun Dünyası</p><div class="detail-grid"><div class="detail"><strong>${state.completed.length} / 24</strong><span>Tamamlanan durak</span></div><div class="detail"><strong>${24-state.completed.length}</strong><span>Kalan durak</span></div><div class="detail"><strong>Üyelik yok</strong><span>İlerleme yalnızca bu cihazda tutulur</span></div></div><button class="large-start" onclick="closeModal();openStopIntro(getNextUnlockedStopId())">Kaldığım yerden devam et →</button></div></div>`);
 }
 
+let quizTimerId=null;
+function stopQuizTimer(){if(quizTimerId!==null){clearInterval(quizTimerId);quizTimerId=null}}
+function startQuizTimer(){stopQuizTimer();const tick=()=>{const el=document.getElementById('elapsedClock');if(el){const secs=Math.max(0,Math.floor((Date.now()-(state.startedAt||Date.now()))/1000));el.textContent=String(Math.floor(secs/60)).padStart(2,'0')+':'+String(secs%60).padStart(2,'0')}};tick();quizTimerId=setInterval(tick,1000)}
 function openModal(content){
   modalRoot.innerHTML = `<div class="modal-backdrop${content.includes('quiz-layout') ? ' quiz-screen' : ''}">${content}</div>`;
 }
-function closeModal(){ modalRoot.innerHTML=''; }
+function closeModal(){stopQuizTimer();modalRoot.innerHTML=''; }
 
 function openStopIntro(stopId){
   const stop = stops.find(s=>s.id===stopId);
   openModal(`
-    <div class="modal-card">
+    <div class="modal-card stop-intro-card">
       <div class="modal-inner">
         <div class="stop-header">
           <button class="back-btn" onclick="closeModal()">←</button>
@@ -103,9 +114,9 @@ function openStopIntro(stopId){
               <div class="detail"><strong>Soru sayısı</strong><span>${stop.questions.length} soru</span></div>
               <div class="detail"><strong>Tahmini süre</strong><span>${stop.duration}</span></div>
             </div>
-            <button class="large-start" onclick="startStop(${stop.id})">Göreve Başla →</button>
+            <div class="stop-reward-hint">⚡ ${stop.questions.length} enerji &nbsp; ✨ En fazla 140 XP &nbsp; 🪙 En fazla 80 altın</div><button class="large-start" onclick="startStop(${stop.id})">Göreve Başla →</button>
           </div>
-          <div class="preview-image"></div>
+          <div class="stop-illustration" aria-hidden="true"><span class="stop-art-number">${stop.id}</span><span class="stop-art-symbol">📚</span><span class="stop-art-sparkle">✦</span></div>
         </div>
       </div>
     </div>
@@ -116,10 +127,16 @@ function startStop(stopId){
   state.currentStop = stops.find(s=>s.id===stopId);
   state.currentQuestionIndex = 0;
   state.answers = [];
+  state.questionMistakes = 0;
+  state.totalMistakes = 0;
+  state.startedAt = Date.now();
   renderQuestion();
 }
 
 function renderQuestion(){
+  if(!window.practiceEconomy?.spend()){openModal(`<div class="modal-card"><div class="modal-inner"><h2>⚡ Enerjin bitti</h2><p>Günlük 30 enerjini kullandın. Enerjin Türkiye saatine göre ertesi gün yenilenir.</p><button class="large-start" onclick="closeModal()">Parkura dön</button></div></div>`);return;}
+  state.questionMistakes = 0;
+  refreshEconomy();
   const stop = state.currentStop;
   const q = stop.questions[state.currentQuestionIndex];
   const progressNodes = stop.questions.map((_,i)=>`<div class="pnode ${i<state.currentQuestionIndex?'done':''} ${i===state.currentQuestionIndex?'active':''}">${i+1}</div>`).join('');
@@ -151,7 +168,7 @@ function renderQuestion(){
             <span class="crumb-pill">${stop.id}. Durak: ${stop.title}</span>
           </div>
           <div class="progress-nodes">${progressNodes}</div>
-          <div class="timer"><div class="timer-pill">Soru ${state.currentQuestionIndex+1}/${stop.questions.length}</div></div>
+          <div class="timer"><div class="timer-pill">⏱ <span id="elapsedClock">00:00</span></div><div class="timer-pill">Soru ${state.currentQuestionIndex+1}/${stop.questions.length}</div></div>
         </div>
         <div class="quiz-card">
           <div class="q-card-left">
@@ -173,6 +190,7 @@ function renderQuestion(){
     </div>
   `);
 
+  startQuizTimer();
   if(q.type==='text'){
     const ta=document.getElementById('textAnswer');
     const cc=document.getElementById('charCount');
@@ -248,6 +266,7 @@ function markOptionsAfterCheck(answer,correct){
 function checkQuestion(){
   const stop = state.currentStop;
   const q = stop.questions[state.currentQuestionIndex];
+  if(document.getElementById("actionBtn")?.dataset.validated==="true")return;
   let correct = false;
   const feedbackBox = document.getElementById('feedbackBox');
   if(q.type==='text'){
@@ -264,10 +283,11 @@ function checkQuestion(){
     correct = idx === q.answer;
     markOptionsAfterCheck(q.answer,correct);
   }
-  if(correct) state.answers.push({question: q.title || q.prompt, correct:true});
+  if(correct) state.answers.push({question: q.title || q.prompt, correct:state.questionMistakes===0});
   showAnswerFeedback(correct,feedbackBox,q.feedback || 'Doğru!','Bir daha düşün. İstersen tekrar deneyebilirsin.');
-  if(!correct){ return; }
+  if(!correct){state.questionMistakes++;state.totalMistakes++;return;}
   const actionBtn=document.getElementById('actionBtn');
+  actionBtn.dataset.validated="true";
   actionBtn.textContent = state.currentQuestionIndex === stop.questions.length-1 ? 'Sonuç Ekranına Geç →' : 'Sonraki Soru →';
   actionBtn.className='nav-btn nav-orange';
   actionBtn.onclick = ()=>nextQuestion();
@@ -283,10 +303,14 @@ function nextQuestion(){
 }
 
 function finishStop(){
+  stopQuizTimer();
   const total = state.answers.length;
   const correct = state.answers.filter(a=>a.correct).length;
   const wrong = total - correct;
   const score = total ? Math.round((correct/total)*100) : 0;
+  const elapsedMs=Date.now()-(state.startedAt||Date.now());
+  const reward=window.practiceEconomy.award(state.currentStop.id,correct,state.totalMistakes||0,elapsedMs,total);
+  refreshEconomy();
   if(!state.completed.includes(state.currentStop.id)){
     state.completed.push(state.currentStop.id);
     state.completed.sort((a,b)=>a-b);
@@ -304,7 +328,7 @@ function finishStop(){
           <div>
             <div class="stars">⭐ ⭐ ⭐</div>
             <div class="big-title">Harika!</div>
-            <div class="mascot-speech">${total} sorunun ${correct} tanesini doğru cevapladın.</div>
+            <div class="mascot-speech">${total} sorunun ${correct} tanesini ilk denemede doğru cevapladın.</div><div class="reward-summary">✨ +${reward.xp} XP &nbsp; 🪙 +${reward.gold} Altın ${reward.repeat?"(Tekrar ödülü yok)":""}</div>
           </div>
           <div>
             <div class="result-stats">
@@ -334,11 +358,15 @@ function goNextStop(id){
 
 function openGame(gameId){
   const game = games.find(g=>g.id===gameId);
-  state.game = { game, index:0, answers:[] };
+  if(!game)return;
+  if(!window.practiceEconomy?.spendGame()){openModal(`<div class="modal-card"><div class="modal-inner"><h2>⚡ Enerjin yetersiz</h2><p>Oyun başlatmak için 3 enerji gerekiyor. Enerji her gün yenilenir.</p><button class="large-start" onclick="closeModal()">Oyunlara dön</button></div></div>`);return;}
+  refreshEconomy();
+  state.game = { game, index:0, answers:[],mistakes:0,questionMistakes:0, startedAt:Date.now(),completed:false };
   renderGameQuestion();
 }
 function renderGameQuestion(){
   const {game, index} = state.game;
+  state.game.questionMistakes=0;
   const q = game.questions[index];
   const nodes = game.questions.map((_,i)=>`<div class="pnode ${i<index?'done':''} ${i===index?'active':''}">${i+1}</div>`).join('');
   let body='';
@@ -350,15 +378,17 @@ function renderGameQuestion(){
   }
   openModal(`
     <div class="modal-card"><div class="modal-inner quiz-layout">
-      <div class="quiz-top"><div class="crumbs"><button class="back-btn" onclick="showView('gamesView');closeModal()">←</button><span class="crumb-pill">${game.title}</span></div><div class="progress-nodes">${nodes}</div><div class="timer-pill">${index+1}/${game.questions.length}</div></div>
+      <div class="quiz-top"><div class="crumbs"><button class="back-btn" onclick="showView('gamesView');closeModal()">←</button><span class="crumb-pill">${game.title}</span></div><div class="progress-nodes">${nodes}</div><div class="timer"><div class="timer-pill">⏱ <span id="elapsedClock">00:00</span></div><div class="timer-pill">${index+1}/${game.questions.length}</div></div></div>
       <div class="quiz-card"><div class="q-card-left"><h3>${game.title}</h3><div class="question-title">${q.prompt || 'Doğru sıralamayı yap.'}</div>${body}<div class="q-actions"><div class="feedback-box" id="feedbackBox">Hazırsan cevapla.</div><button class="nav-btn nav-green" id="gameBtn">Kontrol Et</button></div></div><aside class="q-side"><div class="mascot-mini"><h4>Oyun açıklaması</h4><div class="mascot-speech">${game.description}</div></div></aside></div>
     </div></div>
   `);
   if(q.ordering) redrawOrder();
+  startQuizTimer();
   document.querySelectorAll('.option').forEach(btn=>btn.addEventListener('click', ()=>{ document.querySelectorAll('.option').forEach(b=>b.classList.remove('selected')); btn.classList.add('selected'); }));
   document.getElementById('gameBtn').addEventListener('click', ()=>checkGameQuestion());
 }
 function checkGameQuestion(){
+  if(document.getElementById("gameBtn")?.dataset.validated==="true")return;
   const {game, index} = state.game; const q = game.questions[index]; let correct = false;
   const fb=document.getElementById('feedbackBox');
   if(q.ordering){
@@ -368,9 +398,10 @@ function checkGameQuestion(){
     const idx=Number(selected.dataset.index); correct = idx===q.answer;
     markOptionsAfterCheck(q.answer,correct);
   }
-  if(!correct){ showAnswerFeedback(false,fb,'','Tekrar düşün ve yeniden dene.'); return; }
-  state.game.answers.push(true);
+  if(!correct){state.game.mistakes++;state.game.questionMistakes++;showAnswerFeedback(false,fb,'','Tekrar düşün ve yeniden dene.'); return; }
+  state.game.answers.push(state.game.questionMistakes===0);
   const btn=document.getElementById('gameBtn');
+  btn.dataset.validated="true";
   showAnswerFeedback(true,fb,'Doğru cevap!','');
   btn.textContent = index===game.questions.length-1 ? 'Sonuç Ekranı →' : 'Sonraki Soru →';
   btn.className='nav-btn nav-orange';
@@ -380,11 +411,14 @@ function checkGameQuestion(){
   }
 }
 function finishGame(){
+  stopQuizTimer();
   const total = state.game.game.questions.length;
-  const correct = state.game.answers.length;
-  const score = Math.round((correct/total)*100);
+  const correct = state.game.answers.filter(Boolean).length;
+  const score = Math.max(0,Math.round((correct/total)*100));
+  const reward=window.practiceEconomy.awardGame(state.game.game.id,correct,state.game.mistakes||0,Date.now()-(state.game.startedAt||Date.now()),total);
+  refreshEconomy();
   openModal(`
-    <div class="modal-card"><div class="modal-inner result-wrap"><div class="result-banner"><div><div class="stars">🎮 ⭐ 🎮</div><div class="big-title">Oyun Bitti!</div><div class="mascot-speech">${state.game.game.title} oyununu tamamladın.</div></div><div><div class="result-stats"><div class="result-box"><strong>${score}/100</strong><span>Puanın</span></div><div class="result-box"><strong>${correct}</strong><span>Doğru</span></div><div class="result-box"><strong>${total-correct}</strong><span>Yanlış</span></div><div class="result-box"><strong>${total}</strong><span>Soru</span></div></div><div class="result-actions"><button class="nav-btn nav-blue" onclick="openGame('${state.game.game.id}')">Tekrar Oyna</button><button class="nav-btn nav-orange" onclick="closeModal()">Oyunlara Dön</button></div></div></div></div></div>
+    <div class="modal-card"><div class="modal-inner result-wrap"><div class="result-banner"><div><div class="stars">🎮 ⭐ 🎮</div><div class="big-title">Oyun Bitti!</div><div class="mascot-speech">${state.game.game.title} oyununu tamamladın.</div><div class="reward-summary">✨ +${reward.xp} XP &nbsp; 🪙 +${reward.gold} Altın ${reward.repeat?"(Bugünkü tekrar için ödül yok)":""}</div><div class="league-preview-note">🏆 Öğrenci sıralaması, güvenli üyelik ve sunucu puanlaması açıldığında burada görünecek.</div></div><div><div class="result-stats"><div class="result-box"><strong>${score}/100</strong><span>Puanın</span></div><div class="result-box"><strong>${correct}</strong><span>Doğru</span></div><div class="result-box"><strong>${total-correct}</strong><span>Yanlış</span></div><div class="result-box"><strong>${total}</strong><span>Soru</span></div></div><div class="result-actions"><button class="nav-btn nav-blue" onclick="openGame('${state.game.game.id}')">Tekrar Oyna</button><button class="nav-btn nav-orange" onclick="closeModal()">Oyunlara Dön</button></div></div></div></div></div>
   `)
 }
 
@@ -405,5 +439,9 @@ window.openGame = openGame;
 document.getElementById('continueJourney')?.addEventListener('click',()=>openStopIntro(getNextUnlockedStopId()));
 document.getElementById('showAchievements')?.addEventListener('click',showProgress);
 updateStats();
+refreshEconomy();
+window.addEventListener("focus",refreshEconomy);
+document.addEventListener("visibilitychange",()=>{if(!document.hidden)refreshEconomy()});
+setInterval(()=>{if(!document.hidden)refreshEconomy()},30000);
 renderMap();
 renderGames();
