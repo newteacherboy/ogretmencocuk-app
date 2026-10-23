@@ -1,52 +1,379 @@
-'use strict';
-const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
-const names=['Oyun Kapısı','Kelime Ormanı','Hikâye Adası','Ses Şatosu','Cümle Atölyesi','Oyun Festivali'];
-const coords=[[27.5,85.7],[35.4,85.7],[42.3,85.7],[52,84.7],[23.8,68.7],[32.4,68.7],[40.5,69.1],[48.9,71.4],[61.5,59],[70,59],[78,59],[84.8,62.5],[42.2,48.6],[50.8,48.2],[59.6,48],[67.1,45.7],[54.3,32.6],[61.5,33.6],[68.1,35],[75,36.7],[72,18.2],[75,18.2],[78,18.2],[80.8,19.4]];
-const quizOne=[
-{title:'Görselden Tahmin Et',skill:'Görsel okuma',text:'Aşağıdaki çocuklar bir ipi çevirerek üzerinden atlıyor. Hangi oyunu oynuyor olabilirler?',options:['Saklambaç','İp atlama','Mendil kapmaca','Yakan top'],correct:1,feedback:'Doğru! Çocuklar ipin üzerinden atlıyor. Bu oyun ip atlamadır.'},
-{title:'İpuçlarını Kullan',skill:'Tahmin etme',text:'En az iki kişiyle oynanır. Bir oyuncu diğerlerini bulmaya çalışır. Genellikle bahçede ya da parkta oynanır.',options:['Yakan top','Saklambaç','İp atlama','Körebe'],correct:1,feedback:'Aferin! Bu ipuçları saklambaç oyununu tanımlıyor.'},
-{title:'Karışık Kuralları Sırala',skill:'Sıralama',text:'Saklambaç kurallarını doğru sıraya koy. İlk adım hangisidir?',options:['Ebe, diğer oyuncuları arar.','Oyuncular uygun bir yere saklanır.','Ebe belirlenir ve saymaya başlar.','Oyun biter, ebe tüm oyuncuları bulmuştur.'],correct:2,feedback:'Harika! Önce ebe belirlenir ve saymaya başlar.'},
-{title:'Ayrıntıları Bul',skill:'Dikkat ve gözlem',text:'Oyun alanında top, salıncak ve kaydırak var. Hangisi yoktur?',options:['Top','Salıncak','Kaydırak','Kayak'],correct:3,feedback:'Evet! Top, salıncak ve kaydırağı gördük; kayak yok.'},
-{title:'Metinden Tahmin Yap',skill:'Okuduğunu anlama',text:'Akşam olduğunda mahalledeki çocuklar toplandı. Baş gözüm üstüne sayışmasını yaparak ebe seçtiler. Ebe gözlerini kapattı ve yüze kadar saydı. Diğer çocuklar saklandı.',options:['İp atlama','Saklambaç','Mendil kapmaca','Yakan top'],correct:1,feedback:'Doğru! Ebe sayarken diğer çocukların saklanması saklambaç oyununu gösteriyor.'},
-{title:'Kendi Tahminini Yaz',skill:'Yazılı ifade',text:'Sence bu çocuklar nasıl bir oyun oynuyor olabilir? Kısa bir tahmin cümlesi yaz ve gerekçeni belirt.',write:true,feedback:'Harika bir tahmin! Gerekçeni yazdığın için çok iyi.'}
-];
-const extras=[
-['Görsel Dedektifi','Bir çocuk topu potaya atıyor. Hangi oyunu oynuyor?',['Basketbol','Satranç','Seksek','Saklambaç'],0],['Oyun Kuralları','Oyuna başlamadan önce hangisini yapmak uygundur?',['Kuralları öğrenmek','Oyunu yarıda bırakmak','Arkadaşları dışlamak','Sırayı bozmak'],0],['Tahmin Ustası','Hava karardı ve çocuklar evlerine döndü. Bundan sonra ne olabilir?',['Akşam yemeği yiyebilirler','Sabah güneş doğdu','Okulda teneffüs başladı','Oyun yeni başladı'],0],['Kayıp Sözcük','Çocuklar neşeyle oynadı. Neşeyle ne anlama gelir?',['Üzüntüyle','Sevinçle','Korkuyla','Sessizce'],1],['Anlam Köprüsü','Mutlu kelimesinin zıt anlamlısı hangisidir?',['Neşeli','Sevinçli','Üzgün','Keyifli'],2],['İkiz Kelimeler','Yüz kelimesi hangi cümlede sayı anlamındadır?',['Yüzünü yıkadı.','Yüz metre koştu.','Denizde yüz.','Yüzü güldü.'],1],['Kelime Sandığı','Cesur kelimesine yakın anlamlı olan hangisidir?',['Korkak','Yürekli','Çekingen','Yorgun'],1],['Hikâye İzinde','Ece parka gitti. Arkadaşlarıyla ip atladı. Ece nereye gitti?',['Okula','Parka','Markete','Eve'],1],['Olay Treni','Ali ayakkabılarını giydi, dışarı çıktı, top oynadı. İlk olay hangisi?',['Top oynaması','Dışarı çıkması','Ayakkabılarını giymesi','Eve dönmesi'],2],['Anahtar Avı','Yağmur başlayınca maç ertelendi. Maç neden ertelendi?',['Yağmur yağdığı için','Herkes kazandığı için','Hava güneşli olduğu için','Top kaybolduğu için'],0],['Hikâye Haritası','Mert sabah okul bahçesinde arkadaşını gördü. Olayın yeri neresidir?',['Ev','Okul bahçesi','Kütüphane','Sokak'],1],['Dinle ve Keşfet','Önce iki takım kurulur, ardından top ortaya konur. İlk yapılacak iş nedir?',['Topu saklamak','İki takım kurmak','Oyunu bitirmek','Sahadan ayrılmak'],1],['Sesin Şifresi','Ebe saklanan arkadaşlarını buldu. Kim arama yapıyor?',['Ebe','Hakem','Öğretmen','Anlatıcı'],0],['Ben Anlatıyorum','Bir oyunun kurallarını anlatırken hangi ifade daha açıktır?',['Önce oyuncular belirlenir.','Bir şeyler yapılır.','Sonra öyle olur.','Herkes bilir.'],0],['Karakter Sahnesi','Bir arkadaşın oyunda hata yaptığında hangi söz uygundur?',['Bir daha denemek ister misin?','Artık oynama!','Seninle oynamam.','Hep sen suçlusun.'],0],['İsim mi Fiil mi?','Çocuk koştu. Hareket bildiren kelime hangisidir?',['Çocuk','Koştu','Cümle','Hiçbiri'],1],['Hece Köprüsü','Kalem sözcüğü nasıl hecelenir?',['Ka-lem','Kal-em','K-alem','Kale-m'],0],['Noktalama Tamircisi','Bugün parka gittik cümlesinin sonuna hangi işaret gelmelidir?',['Virgül','Nokta','İki nokta','Kesme işareti'],1],['Tahmin Laboratuvarı','Hangisi tahmin bildirir?',['Belki yarın yağmur yağar.','Dün yağmur yağdı.','Saat üç oldu.','Kapı açıktır.'],0],['Kural Yazarı','Oyun kuralları nasıl yazılmalıdır?',['Açık ve anlaşılır','Çelişkili','Çok belirsiz','Yarım bırakılmış'],0],['Oyun Tasarımcısı','Bir oyun tasarlarken ilk olarak hangisini belirlemek yararlı olur?',['Oyunun amacı','Oyuncuların telefonları','Kazananın ayakkabısı','Hava durumu'],0],['Arkadaşımın Oyunu','Bir arkadaşının oyununu değerlendirirken ne yapmalısın?',['Yapıcı öneri sunmak','Alay etmek','Dinlememek','Sözünü kesmek'],0],['Festival Hazırlığı','Bir oyunu tanıtan metinde hangisi bulunmalıdır?',['Oyunun adı ve kuralları','Yalnızca hava durumu','Sadece renkler','İlgisiz olaylar'],0],['Festival Finali','Kendi oyununun kurallarını nasıl anlatırsın?',['Sıralı ve anlaşılır biçimde','Hiç açıklamadan','Çelişkili biçimde','Sadece bağırarak'],0]
-];
-const key='ogretmencocuk-v3-progress';let progress=0;try{progress=Math.min(24,Math.max(0,parseInt(localStorage.getItem(key),10)||0))}catch{}let stop=1,step=0,answers={};
-function view(id){$$('.page').forEach(e=>e.classList.toggle('hidden',e.id!==id));$('#nav-parkur').classList.toggle('on',id!=='games');$('#nav-oyunlar').classList.toggle('on',id==='games');scrollTo({top:0,behavior:'smooth'})}
-function drawStops(){const box=$('#stops');box.replaceChildren();coords.forEach(([x,y],i)=>{const b=document.createElement('button');b.className='stop '+(i<progress?'done':i===progress?'current':'locked');b.style.left=x+'%';b.style.top=y+'%';b.title=(i+1)+'. Durak'+(i>progress?' (kilitli)':'');b.setAttribute('aria-label',(i+1)+'. durak'+(i>progress?' kilitli':''));b.disabled=i>progress;b.onclick=()=>openStop(i+1);box.append(b)})}
-function openStop(n){stop=n;step=0;answers={};$('#crumb').textContent='5. Sınıf › 1. Tema: Oyun Dünyası › '+Math.ceil(n/4)+'. Bölge: '+names[Math.ceil(n/4)-1];$('#intro-title').textContent=n+'. Durak: '+(n===1?'Gizemli Oyun Kutusu':CURRICULUM[n-2].n);$('#intro-subtitle').textContent=n===1?'Görsellere ve ipuçlarına bakarak hangi oyunun anlatıldığını tahmin et.':CURRICULUM[n-2].topic;$('#count').textContent='6 soru';$('#skill').textContent=names[Math.ceil(n/4)-1];view('intro')}
-function questions(){return stop===1?quizOne:stopQuestions(stop)}
-function render(){const qs=questions();$('#quiz-heading').textContent=stop+'. Durak – Soru Akışı ('+qs.length+' Soru)';$('#counter').textContent=(step+1)+' / '+qs.length;const grid=$('#quiz-grid');grid.replaceChildren();qs.forEach((q,i)=>{const card=document.createElement('article');card.className='question-card '+(i===step?'current':'');const h=document.createElement('h2');const number=document.createElement('span');number.className='number';number.textContent=i+1;h.append(number,document.createTextNode(q.title));card.append(h);const badge=document.createElement('span');badge.className='skill';badge.textContent=q.skill;card.append(badge);const p=document.createElement('p');p.textContent=q.text;p.style.whiteSpace='pre-line';card.append(p);if(q.sequence){const hint=document.createElement('div');hint.className='sequence-note';hint.textContent='Sırayı değiştir: adımları seçerek yukarı taşı.';card.append(hint);const seq=document.createElement('div');seq.className='sequence-list';const current=answers[i]?.sequence||q.sequence.map((_,j)=>q.sequence.length-1-j);current.forEach((idx,pos)=>{const b=document.createElement('button');b.type='button';b.className='sequence-item';b.disabled=i!==step;b.textContent=(pos+1)+'. '+q.sequence[idx];b.onclick=()=>{if(i!==step)return;const next=[...current];if(pos>0)[next[pos-1],next[pos]]=[next[pos],next[pos-1]];else next.push(next.shift());answers[i]={sequence:next};render()};seq.append(b)});card.append(seq)}else if(q.write){const t=document.createElement('textarea');t.placeholder='Tahminini ve gerekçeni yaz...';t.maxLength=200;t.value=answers[i]?.text||'';t.disabled=i!==step;t.oninput=()=>{answers[i]={text:t.value}};card.append(t)}else{const options=document.createElement('div');options.className='options';q.options.forEach((v,j)=>{const b=document.createElement('button');b.className='option '+(answers[i]?.choice===j?'selected':'');b.textContent=String.fromCharCode(65+j)+'. '+v;b.disabled=i!==step;b.onclick=()=>{answers[i]={choice:j};render()};options.append(b)});card.append(options)}if(answers[i]?.verified&&!q.write&&!q.sequence){[...card.querySelectorAll('.option')].forEach((b,j)=>{if(j===q.correct)b.classList.add('correct');else if(j===answers[i].choice)b.classList.add('wrong')})}const f=document.createElement('div');f.className='feedback-small';f.textContent=answers[i]?.verified?q.feedback:'🐦 Papi: Bu soruyu düşün, sonra cevabını kontrol et!';card.append(f);grid.append(card)});$('#previous').disabled=step===0;$('#next').textContent=step===qs.length-1?'Durağı Tamamla ✓':'Cevabı Kontrol Et →';$('#feedback').textContent=''}
-function advance(){const q=questions()[step],a=answers[step];if(!a||(!q.write&&!q.sequence&&a.choice===undefined)||(q.write&&a.text.trim().length<12)){$('#feedback').textContent='Önce cevabını yaz veya seç.';return}if(q.sequence&&a.sequence.some((v,i)=>v!==i)){$('#feedback').textContent='Sıralamayı yeniden dene. Bir adıma basarak yerini değiştir.';return}if(!q.write&&!q.sequence&&a.choice!==q.correct){$('#feedback').textContent='Tekrar dene! İpucunu dikkatle oku.';return}a.verified=true;if(step===questions().length-1){if(stop===progress+1){progress=stop;try{localStorage.setItem(key,String(progress))}catch{}}drawStops();view('parkur');alert('Tebrikler! '+stop+'. durağı tamamladın.');return}step++;render()}
-$('#start').onclick=()=>openStop(Math.min(progress+1,24));$('#begin').onclick=()=>{render();view('questions')};$('#next').onclick=advance;$('#previous').onclick=()=>{step=Math.max(0,step-1);render()};$$('[data-back]').forEach(b=>b.onclick=()=>view('parkur'));$('#nav-parkur').onclick=()=>view('parkur');$('#nav-oyunlar').onclick=()=>view('games');$('#nav-tema').onclick=()=>view('games');$('#grade').onclick=()=>view('games');drawStops();
+const state = {
+  progressKey:'ogretmencocuk_tr_5_1_progress',
+  completed: (()=>{try{const v=JSON.parse(localStorage.getItem('ogretmencocuk_tr_5_1_progress') || '[]');return Array.isArray(v)?v.filter(n=>Number.isInteger(n)&&n>=1&&n<=24):[]}catch{return []}})(),
+  currentStop:null,
+  currentQuestionIndex:0,
+  answers:[],
+  currentView:'parkurView'
+};
 
-$('#map-start').onclick=$('#start').onclick;$('#map-games').onclick=()=>view('games');$('#map-theme').onclick=()=>view('games');$('#map-grade').onclick=()=>view('games');
+const views = document.querySelectorAll('.view');
+const tabs = document.querySelectorAll('.tab');
+const modalRoot = document.getElementById('modalRoot');
+const completedCount = document.getElementById('completedCount');
 
-// Üyeliksiz ve çevrimdışı çalışan üç özgün tema oyunu.
-const gameBanks=[
- {title:'Kelime Dedektifi',items:[
- ['Neşeli sözcüğünün yakın anlamlısı nedir?',['Mutlu','Üzgün','Yorgun','Kızgın'],0],
- ['Cesur sözcüğünün zıt anlamlısı nedir?',['Yürekli','Korkak','Güçlü','Atılgan'],1],
- ['Yüz kelimesi hangi cümlede sayı belirtir?',['Yüzünü yıkadı.','Havuzda yüz.','Yüz kitap okudu.','Yüzü güldü.'],2],
- ['Oyun sözcüğünün çoğulu hangisidir?',['Oyuncu','Oyunlar','Oynamak','Oyunluk'],1],
- ['Süratli kelimesine yakın anlamlı olan nedir?',['Yavaş','Hızlı','Durgun','Sessiz'],1]]},
- {title:'Olay Treni',items:[
- ['Oyuna başlamadan önce hangisi yapılır?',['Kurallar belirlenir.','Oyun bitirilir.','Ödüller verilir.','Herkes eve döner.'],0],
- ['Ali ayakkabısını giydi, dışarı çıktı ve top oynadı. İkinci olay nedir?',['Top oynaması','Dışarı çıkması','Ayakkabı giymesi','Uyuması'],1],
- ['Ebe saydı, arkadaşları saklandı, ebe aradı. Son olay nedir?',['Ebenin araması','Ebenin sayması','Saklanılması','Ebe seçilmesi'],0],
- ['Bir hikâyenin başlangıcında genellikle ne tanıtılır?',['Olayın sonucu','Kişiler ve ortam','Son söz','Çözüm'],1],
- ['Olayları anlatırken hangi söz sıralama bildirir?',['Çünkü','Fakat','Ardından','Belki'],2]]},
- {title:'Noktalama Tamircisi',items:[
- ['Bugün çok eğlendik cümlesinin sonuna ne gelir?',['.','?',';',','],0],
- ['Sen de bizimle oynar mısın cümlesinin sonuna ne gelir?',['.','?',';',','],1],
- ['Eyvah, top kaçtı cümlesinin sonuna ne gelir?',['?','.',',','!'],3],
- ['Elma armut ve muz aldık. Sözcükleri ayırmak için hangi işaret kullanılır?',['Virgül','Soru işareti','Kesme işareti','Ünlem'],0],
- ['Arkadaşım Ayşe bugün geldi. Özel ad nasıl yazılır?',['ayşe','AYşe','Ayşe','ayŞe'],2]]}
-];
-let gameId=0,gameStep=0,gamePoints=0,gameLocked=false;
-function gameRender(){const g=gameBanks[gameId],item=g.items[gameStep];$('#game-title').textContent=g.title;$('#game-score').textContent='Soru '+(gameStep+1)+' / '+g.items.length+' • '+gamePoints+' puan';$('#game-question').textContent=item[0];$('#game-feedback').textContent='';$('#game-next').classList.add('hidden');gameLocked=false;const box=$('#game-options');box.replaceChildren();item[1].forEach((v,i)=>{const b=document.createElement('button');b.className='option';b.textContent=String.fromCharCode(65+i)+'. '+v;b.onclick=()=>{if(gameLocked)return;gameLocked=true;const correct=i===item[2];if(correct)gamePoints+=20;$('#game-feedback').textContent=correct?'Harika! Doğru cevap.':'Bu kez olmadı. Doğru cevap: '+item[1][item[2]];[...box.children].forEach((x,j)=>{x.disabled=true;if(j===item[2])x.classList.add('correct');else if(j===i)x.classList.add('wrong')});$('#game-next').textContent=gameStep===g.items.length-1?'Sonucu Gör':'Sonraki →';$('#game-next').classList.remove('hidden')};box.append(b)})}
-$$('[data-game]').forEach(b=>b.onclick=()=>{gameId=Number(b.dataset.game);gameStep=0;gamePoints=0;$('#game-area').classList.remove('hidden');gameRender();$('#game-area').scrollIntoView({behavior:'smooth',block:'start'})});
-$('#game-next').onclick=()=>{if(!gameLocked)return;if(gameStep<gameBanks[gameId].items.length-1){gameStep++;gameRender()}else{$('#game-question').textContent='Oyun tamamlandı!';$('#game-score').textContent='Toplam puanın: '+gamePoints+' / 100';$('#game-options').replaceChildren();$('#game-feedback').textContent='Bir başka oyun seçebilir veya tekrar oynayabilirsin.';$('#game-next').classList.add('hidden')}};
-$('#game-exit').onclick=()=>{$('#game-area').classList.add('hidden')};
+function saveProgress(){ localStorage.setItem(state.progressKey, JSON.stringify(state.completed)); updateStats(); renderMap(); }
+function updateStats(){ completedCount.textContent = state.completed.length; }
+
+function showView(id){
+  views.forEach(v => v.classList.toggle('active', v.id===id));
+  tabs.forEach(t => t.classList.toggle('active', t.dataset.view===id));
+  state.currentView = id;
+}
+
+tabs.forEach(tab => tab.addEventListener('click', ()=>showView(tab.dataset.view)));
+document.getElementById('startJourney').addEventListener('click', ()=>{
+  const nextId = getNextUnlockedStopId();
+  openStopIntro(nextId);
+});
+
+document.getElementById('startJourney').addEventListener('keydown', e=>{ if(e.key==='Enter') document.getElementById('startJourney').click(); });
+
+function getNextUnlockedStopId(){
+  for(let i=1;i<=24;i++) if(!state.completed.includes(i)) return i;
+  return 24;
+}
+
+function renderMap(){
+  const map = document.getElementById('mapCanvas');
+  map.innerHTML = `
+    <svg class="path-svg" viewBox="0 0 1000 840" preserveAspectRatio="none">
+      <path d="M160 748 C 230 745, 305 745, 360 736 S 400 646, 345 560 S 270 504, 150 545 S 215 592, 365 555 S 560 540, 810 556 S 734 463, 625 517 S 525 445, 500 338 S 350 326, 288 344 S 468 304, 775 265 S 760 173, 690 89 S 795 69, 836 81" fill="none" stroke="#e8d29e" stroke-width="26" stroke-linecap="round" opacity="0.95"/>
+      <path d="M160 748 C 230 745, 305 745, 360 736 S 400 646, 345 560 S 270 504, 150 545 S 215 592, 365 555 S 560 540, 810 556 S 734 463, 625 517 S 525 445, 500 338 S 350 326, 288 344 S 468 304, 775 265 S 760 173, 690 89 S 795 69, 836 81" fill="none" stroke="#fdf1c7" stroke-width="12" stroke-linecap="round" opacity="1"/>
+    </svg>`;
+
+  zones.forEach(z => {
+    const island = document.createElement('div');
+    island.className='zone-island';
+    island.style.left=z.island.x+'px'; island.style.top=z.island.y+'px'; island.style.width=z.island.w+'px'; island.style.height=z.island.h+'px';
+    map.appendChild(island);
+    const sign=document.createElement('div');
+    sign.className='zone-label'; sign.style.left=z.sign.x+'px'; sign.style.top=z.sign.y+'px';
+    sign.innerHTML=`<small>${z.id}. Bölge</small><span>${z.title}</span>`;
+    map.appendChild(sign);
+  });
+
+  stationPositions.forEach((pos, idx)=>{
+    const id = idx+1;
+    const stop = stops.find(s=>s.id===id);
+    const zone = zones.find(z=>z.id===stop.zone);
+    const btn=document.createElement('button');
+    btn.className=`station ${zone.color}`;
+    const unlocked = id===1 || state.completed.includes(id) || state.completed.includes(id-1);
+    if(!unlocked) btn.classList.add('locked');
+    if(state.completed.includes(id)) btn.classList.add('done');
+    btn.style.left=(pos[0]-31)+'px'; btn.style.top=(pos[1]-31)+'px';
+    btn.textContent=id;
+    btn.title=`${id}. Durak - ${stop.title}`;
+    btn.addEventListener('click', ()=>{ if(unlocked) openStopIntro(id); });
+    map.appendChild(btn);
+  });
+
+  const mascot=document.createElement('div');
+  mascot.className='mascot';
+  mascot.innerHTML='<div class="hair"></div><div class="head"></div><div class="strap"></div><div class="strap r"></div><div class="body"></div><div class="legs"><span></span><span></span></div><div class="shoe" style="left:50px"></div><div class="shoe" style="right:50px"></div>';
+  map.appendChild(mascot);
+}
+
+function openModal(content){
+  modalRoot.innerHTML = `<div class="modal-backdrop">${content}</div>`;
+}
+function closeModal(){ modalRoot.innerHTML=''; }
+
+function openStopIntro(stopId){
+  const stop = stops.find(s=>s.id===stopId);
+  openModal(`
+    <div class="modal-card">
+      <div class="modal-inner">
+        <div class="stop-header">
+          <button class="back-btn" onclick="closeModal()">←</button>
+          <div class="crumbs">
+            <span class="crumb-pill">5. Sınıf</span>
+            <span>›</span>
+            <span class="crumb-pill">1. Tema: Oyun Dünyası</span>
+            <span>›</span>
+            <span class="crumb-pill">${stop.zone}. Bölge: ${zones.find(z=>z.id===stop.zone).title}</span>
+            <span>›</span>
+            <span class="crumb-pill">${stop.id}. Durak</span>
+          </div>
+          <div></div>
+        </div>
+        <div class="stop-overview">
+          <div>
+            <h2>${stop.id}. Durak</h2>
+            <h3>${stop.title}</h3>
+            <p>${stop.subtitle}</p>
+            <div class="detail-grid">
+              <div class="detail"><strong>Kazanım</strong><span>${stop.outcome}</span></div>
+              <div class="detail"><strong>Soru sayısı</strong><span>${stop.questions.length} soru</span></div>
+              <div class="detail"><strong>Tahmini süre</strong><span>${stop.duration}</span></div>
+            </div>
+            <button class="large-start" onclick="startStop(${stop.id})">Göreve Başla →</button>
+          </div>
+          <div class="preview-image"></div>
+        </div>
+      </div>
+    </div>
+  `);
+}
+
+function startStop(stopId){
+  state.currentStop = stops.find(s=>s.id===stopId);
+  state.currentQuestionIndex = 0;
+  state.answers = [];
+  renderQuestion();
+}
+
+function renderQuestion(){
+  const stop = state.currentStop;
+  const q = stop.questions[state.currentQuestionIndex];
+  const progressNodes = stop.questions.map((_,i)=>`<div class="pnode ${i<state.currentQuestionIndex?'done':''} ${i===state.currentQuestionIndex?'active':''}">${i+1}</div>`).join('');
+  let leftHtml='';
+  if(q.type==='visual_mcq'){
+    leftHtml = `<div class="image-panel playground"><div class="rope"></div><div class="child one"></div><div class="child jump"></div><div class="child two"></div></div>`;
+  } else if(q.type==='hint_mcq'){
+    leftHtml = `<div class="prompt-box"><ul>${q.hints.map(h=>`<li>${h}</li>`).join('')}</ul></div>`;
+  } else if(q.type==='reading_mcq'){
+    leftHtml = `<div class="reading-box">${q.text}</div>`;
+  } else if(q.type==='ordering'){
+    leftHtml = `<div class="order-list" id="orderList">${q.items.map((it,i)=>orderItemTemplate(it,i)).join('')}</div>`;
+  } else if(q.type==='text'){
+    leftHtml = `<div class="text-box"><textarea id="textAnswer" maxlength="220" placeholder="${q.placeholder || ''}"></textarea><div class="text-meta"><span>Kısa bir tahmin cümlesi yaz.</span><span id="charCount">0/220</span></div></div>`;
+  } else {
+    leftHtml = `<div class="prompt-box">${q.prompt || ''}</div>`;
+  }
+
+  const optionsHtml = (q.choices || []).map((c,i)=>`<button class="option" data-index="${i}"><b>${String.fromCharCode(65+i)}</b> <span>${c}</span></button>`).join('');
+
+  openModal(`
+    <div class="modal-card">
+      <div class="modal-inner quiz-layout">
+        <div class="quiz-top">
+          <div class="crumbs">
+            <button class="back-btn" onclick="openStopIntro(${stop.id})">←</button>
+            <span class="crumb-pill">5. Sınıf</span><span>›</span>
+            <span class="crumb-pill">1. Tema: Oyun Dünyası</span><span>›</span>
+            <span class="crumb-pill">${stop.id}. Durak: ${stop.title}</span>
+          </div>
+          <div class="progress-nodes">${progressNodes}</div>
+          <div class="timer"><div class="timer-pill">Soru ${state.currentQuestionIndex+1}/${stop.questions.length}</div></div>
+        </div>
+        <div class="quiz-card">
+          <div class="q-card-left">
+            <h3>${state.currentQuestionIndex+1}. Soru <span class="skill-badge">${q.skill}</span></h3>
+            <div class="question-title">${q.prompt || q.title}</div>
+            ${leftHtml}
+            ${q.choices ? `<div class="options" id="optionsArea">${optionsHtml}</div>` : ''}
+            <div class="q-actions">
+              <div class="feedback-box" id="feedbackBox">Her soru farklı bir beceriyi ölçer.</div>
+              <button class="nav-btn nav-green" id="actionBtn">Kontrol Et</button>
+            </div>
+          </div>
+          <aside class="q-side">
+            <div class="mascot-mini"><h4>Küçük İpucu</h4><div class="mascot-speech">Dikkatli bak, oku ve düşün. İstersen bir daha kontrol et.</div></div>
+            <div class="reward-box"><h4>Durak Özeti</h4><div class="progress-summary"><span>Durak: ${stop.id}</span><span>Bölge: ${zones.find(z=>z.id===stop.zone).title}</span><span>Beceri odağı: ${q.skill}</span></div></div>
+          </aside>
+        </div>
+      </div>
+    </div>
+  `);
+
+  if(q.type==='text'){
+    const ta=document.getElementById('textAnswer');
+    const cc=document.getElementById('charCount');
+    ta.addEventListener('input', ()=>cc.textContent=`${ta.value.length}/220`);
+  }
+  if(q.choices){
+    document.querySelectorAll('.option').forEach(btn => btn.addEventListener('click', ()=>{
+      document.querySelectorAll('.option').forEach(b=>b.classList.remove('selected'));
+      btn.classList.add('selected');
+    }));
+  }
+  if(q.type==='ordering') bindOrdering();
+
+  document.getElementById('actionBtn').addEventListener('click', ()=>checkQuestion());
+}
+
+function orderItemTemplate(text,i){
+  return `<div class="order-item" data-order-index="${i}"><span class="order-num">${i+1}</span><span class="order-text">${text}</span><div class="order-actions"><button onclick="moveOrder(${i},-1)">↑</button><button onclick="moveOrder(${i},1)">↓</button></div></div>`;
+}
+
+let currentOrderState = [];
+function bindOrdering(){
+  const q = state.currentStop.questions[state.currentQuestionIndex];
+  currentOrderState = q.items.map((text,idx)=>({text, original: idx}));
+  redrawOrder();
+}
+function redrawOrder(){
+  const root=document.getElementById('orderList'); if(!root) return;
+  root.innerHTML = currentOrderState.map((it,i)=>`<div class="order-item"><span class="order-num">${i+1}</span><span class="order-text">${it.text}</span><div class="order-actions"><button onclick="moveOrder(${i},-1)">↑</button><button onclick="moveOrder(${i},1)">↓</button></div></div>`).join('');
+}
+function moveOrder(index,dir){
+  const ni=index+dir; if(ni<0 || ni>=currentOrderState.length) return;
+  [currentOrderState[index], currentOrderState[ni]] = [currentOrderState[ni], currentOrderState[index]];
+  redrawOrder();
+}
+
+function checkQuestion(){
+  const stop = state.currentStop;
+  const q = stop.questions[state.currentQuestionIndex];
+  let correct = false;
+  const feedbackBox = document.getElementById('feedbackBox');
+  if(q.type==='text'){
+    const value=(document.getElementById('textAnswer').value || '').trim();
+    if(value.length < 8){ feedbackBox.textContent='Lütfen en az bir anlamlı cümle yaz.'; return; }
+    correct = true;
+  } else if(q.type==='ordering'){
+    const order = currentOrderState.map(x=>x.original);
+    correct = JSON.stringify(order) === JSON.stringify(q.answerOrder);
+  } else {
+    const selected = document.querySelector('.option.selected');
+    if(!selected){ feedbackBox.textContent='Önce bir seçenek işaretlemelisin.'; return; }
+    const idx=Number(selected.dataset.index);
+    correct = idx === q.answer;
+    document.querySelectorAll('.option').forEach((opt,i)=>{
+      if(i===q.answer) opt.classList.add('correct');
+      else if(opt.classList.contains('selected')) opt.classList.add('wrong');
+    });
+  }
+  if(correct) state.answers.push({question: q.title || q.prompt, correct:true});
+  feedbackBox.textContent = correct ? (q.feedback || 'Doğru!') : 'Bir daha düşün. İstersen tekrar deneyebilirsin.';
+  if(!correct){ return; }
+  const actionBtn=document.getElementById('actionBtn');
+  actionBtn.textContent = state.currentQuestionIndex === stop.questions.length-1 ? 'Sonuç Ekranına Geç →' : 'Sonraki Soru →';
+  actionBtn.className='nav-btn nav-orange';
+  actionBtn.onclick = ()=>nextQuestion();
+}
+
+function nextQuestion(){
+  state.currentQuestionIndex++;
+  if(state.currentQuestionIndex >= state.currentStop.questions.length){
+    finishStop();
+  } else {
+    renderQuestion();
+  }
+}
+
+function finishStop(){
+  const total = state.answers.length;
+  const correct = state.answers.filter(a=>a.correct).length;
+  const wrong = total - correct;
+  const score = total ? Math.round((correct/total)*100) : 0;
+  if(!state.completed.includes(state.currentStop.id)){
+    state.completed.push(state.currentStop.id);
+    state.completed.sort((a,b)=>a-b);
+    saveProgress();
+  }
+  openModal(`
+    <div class="modal-card">
+      <div class="modal-inner result-wrap">
+        <div class="result-header">
+          <button class="back-btn" onclick="closeModal()">←</button>
+          <div class="crumbs"><span class="crumb-pill">${state.currentStop.id}. Durak tamamlandı</span></div>
+          <div></div>
+        </div>
+        <div class="result-banner">
+          <div>
+            <div class="stars">⭐ ⭐ ⭐</div>
+            <div class="big-title">Harika!</div>
+            <div class="mascot-speech">${total} sorunun ${correct} tanesini doğru cevapladın.</div>
+          </div>
+          <div>
+            <div class="result-stats">
+              <div class="result-box"><strong>${score}/100</strong><span>Puanın</span></div>
+              <div class="result-box"><strong>${correct}</strong><span>Doğru</span></div>
+              <div class="result-box"><strong>${wrong}</strong><span>Yanlış</span></div>
+              <div class="result-box"><strong>${state.currentStop.id}</strong><span>Durak</span></div>
+            </div>
+            <div class="result-actions">
+              <button class="nav-btn nav-blue" onclick="restartStop(${state.currentStop.id})">Tekrar Oyna</button>
+              <button class="nav-btn nav-orange" onclick="goNextStop(${state.currentStop.id})">Sonraki Durağa Geç →</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  `);
+}
+
+function restartStop(id){ startStop(id); }
+function goNextStop(id){
+  closeModal();
+  renderMap();
+  const next = Math.min(24, id+1);
+  setTimeout(()=>openStopIntro(next), 80);
+}
+
+function openGame(gameId){
+  const game = games.find(g=>g.id===gameId);
+  state.game = { game, index:0, answers:[] };
+  renderGameQuestion();
+}
+function renderGameQuestion(){
+  const {game, index} = state.game;
+  const q = game.questions[index];
+  const nodes = game.questions.map((_,i)=>`<div class="pnode ${i<index?'done':''} ${i===index?'active':''}">${i+1}</div>`).join('');
+  let body='';
+  if(q.ordering){
+    currentOrderState=q.ordering.map((t,i)=>({text:t, original:i}));
+    body=`<div class="order-list" id="orderList"></div>`;
+  } else {
+    body=`<div class="options" id="optionsArea">${q.choices.map((c,i)=>`<button class="option" data-index="${i}"><b>${String.fromCharCode(65+i)}</b><span>${c}</span></button>`).join('')}</div>`;
+  }
+  openModal(`
+    <div class="modal-card"><div class="modal-inner quiz-layout">
+      <div class="quiz-top"><div class="crumbs"><button class="back-btn" onclick="showView('gamesView');closeModal()">←</button><span class="crumb-pill">${game.title}</span></div><div class="progress-nodes">${nodes}</div><div class="timer-pill">${index+1}/${game.questions.length}</div></div>
+      <div class="quiz-card"><div class="q-card-left"><h3>${game.title}</h3><div class="question-title">${q.prompt || 'Doğru sıralamayı yap.'}</div>${body}<div class="q-actions"><div class="feedback-box" id="feedbackBox">Hazırsan cevapla.</div><button class="nav-btn nav-green" id="gameBtn">Kontrol Et</button></div></div><aside class="q-side"><div class="mascot-mini"><h4>Oyun açıklaması</h4><div class="mascot-speech">${game.description}</div></div></aside></div>
+    </div></div>
+  `);
+  if(q.ordering) redrawOrder();
+  document.querySelectorAll('.option').forEach(btn=>btn.addEventListener('click', ()=>{ document.querySelectorAll('.option').forEach(b=>b.classList.remove('selected')); btn.classList.add('selected'); }));
+  document.getElementById('gameBtn').addEventListener('click', ()=>checkGameQuestion());
+}
+function checkGameQuestion(){
+  const {game, index} = state.game; const q = game.questions[index]; let correct = false;
+  const fb=document.getElementById('feedbackBox');
+  if(q.ordering){
+    const order=currentOrderState.map(x=>x.original); correct = JSON.stringify(order)===JSON.stringify(q.answerOrder);
+  } else {
+    const selected=document.querySelector('.option.selected'); if(!selected){ fb.textContent='Önce bir cevap seç.'; return; }
+    const idx=Number(selected.dataset.index); correct = idx===q.answer;
+    document.querySelectorAll('.option').forEach((opt,i)=>{ if(i===q.answer) opt.classList.add('correct'); else if(opt.classList.contains('selected')) opt.classList.add('wrong'); });
+  }
+  if(!correct){ fb.textContent='Tekrar düşün ve yeniden dene.'; return; }
+  state.game.answers.push(true);
+  const btn=document.getElementById('gameBtn');
+  fb.textContent='Doğru cevap!';
+  btn.textContent = index===game.questions.length-1 ? 'Sonuç Ekranı →' : 'Sonraki Soru →';
+  btn.className='nav-btn nav-orange';
+  btn.onclick=()=>{
+    state.game.index++;
+    if(state.game.index >= game.questions.length) finishGame(); else renderGameQuestion();
+  }
+}
+function finishGame(){
+  const total = state.game.game.questions.length;
+  const correct = state.game.answers.length;
+  const score = Math.round((correct/total)*100);
+  openModal(`
+    <div class="modal-card"><div class="modal-inner result-wrap"><div class="result-banner"><div><div class="stars">🎮 ⭐ 🎮</div><div class="big-title">Oyun Bitti!</div><div class="mascot-speech">${state.game.game.title} oyununu tamamladın.</div></div><div><div class="result-stats"><div class="result-box"><strong>${score}/100</strong><span>Puanın</span></div><div class="result-box"><strong>${correct}</strong><span>Doğru</span></div><div class="result-box"><strong>${total-correct}</strong><span>Yanlış</span></div><div class="result-box"><strong>${total}</strong><span>Soru</span></div></div><div class="result-actions"><button class="nav-btn nav-blue" onclick="openGame('${state.game.game.id}')">Tekrar Oyna</button><button class="nav-btn nav-orange" onclick="closeModal()">Oyunlara Dön</button></div></div></div></div></div>
+  `)
+}
+
+function renderGames(){
+  const grid=document.getElementById('gameGrid');
+  grid.innerHTML = games.map(g=>`<div class="game-card card"><h3>${g.title}</h3><p>${g.description}</p><button class="play" onclick="openGame('${g.id}')">Oyunu Aç</button></div>`).join('');
+}
+
+window.closeModal = closeModal;
+window.startStop = startStop;
+window.openStopIntro = openStopIntro;
+window.restartStop = restartStop;
+window.goNextStop = goNextStop;
+window.moveOrder = moveOrder;
+window.showView = showView;
+window.openGame = openGame;
+
+updateStats();
+renderMap();
+renderGames();

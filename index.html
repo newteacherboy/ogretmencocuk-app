@@ -1,6 +1,97 @@
-<!doctype html><html lang="tr"><head><script>if("serviceWorker" in navigator){navigator.serviceWorker.getRegistrations().then(rs=>rs.forEach(r=>r.unregister()))}</script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#2178db"><title>Öğretmen Çocuk – Türkçe Oyun Dünyası</title><link rel="stylesheet" href="style.css"></head><body>
-<div class="app"><header><a class="logo" href="#parkur">Diji<span>Medu</span></a><nav aria-label="Ana menü"><button id="nav-parkur" class="on">Parkur</button><button id="nav-oyunlar">Oyunlar</button><button id="nav-tema">Sınıf ve Tema</button></nav><button class="grade" id="grade">5. Sınıf⌄</button></header>
-<main><section id="parkur" class="page"><div class="map" aria-label="Oyun Dünyası 24 duraklık macera parkuru"><img src="assets/parkur-referans.webp" alt="Altı renkli yüzen adadan oluşan Oyun Dünyası parkuru" class="map-art"><div class="map-heading"><h1>5. Sınıf Türkçe<br>1. Tema: Oyun Dünyası</h1><p>Türkçenin eğlenceli dünyasında<br>24 duraklı bir maceraya hazır mısın?<br>Her durağı tamamla, yeni bölgelere<br>ilerle ve tema finalinde kendi oyununu<br>tasarla!</p><button id="start" class="orange">Maceraya Başla →</button></div><div id="stops" class="stops"></div><button class="hotspot hot-start" aria-label="Maceraya Başla" id="map-start"></button><button class="hotspot hot-games" aria-label="Oyunlar" id="map-games"></button><button class="hotspot hot-theme" aria-label="Sınıf ve Tema" id="map-theme"></button><button class="hotspot hot-grade" aria-label="Sınıf seçimi" id="map-grade"></button><div class="goals"><strong>Tema Hedeflerin</strong><p>📘 Okuduğunu anlama</p><p>🧩 Kelime bilgisi</p><p>🎧 Dinleme ve konuşma</p><p>🌍 Yazma becerileri</p><p>📝 Dil bilgisi ve yazım</p><p>🏆 Kendi oyununu tasarla</p></div></div><p class="save-note">Üyelik gerekmez. İlerlemen yalnızca bu cihazda saklanır.</p></section>
-<section id="intro" class="page hidden"><button class="back" data-back>← Parkura dön</button><div class="intro-shell"><div class="intro-image"><img src="assets/durak-referans.webp" alt="Gizemli Oyun Kutusu durak başlangıç kartı"></div><div class="intro-copy"><div class="crumb" id="crumb"></div><h1 id="intro-title">1. Durak: Gizemli Oyun Kutusu</h1><p id="intro-subtitle">Görsellere ve ipuçlarına bakarak hangi oyunun anlatıldığını tahmin et.</p><div class="stats"><div>🔵 <b>Kazanım</b><small id="skill">Görselden hareketle tahminde bulunma</small></div><div>🟣 <b>Soru sayısı</b><small id="count">6 soru</small></div><div>⏱️ <b>Tahmini süre</b><small>5–7 dakika</small></div></div><button class="orange" id="begin">Göreve Başla →</button></div></div></section>
-<section id="questions" class="page hidden"><div class="quiz-top"><button class="back" data-back>← Parkur</button><div><h1 id="quiz-heading">1. Durak – Soru Akışı</h1><p>Her soru farklı bir beceriye odaklanır.</p></div><span id="counter"></span></div><div class="quiz-grid" id="quiz-grid"></div><div class="quiz-actions"><button id="previous">← Önceki</button><button id="next" class="green">Sonraki →</button></div><p id="feedback" role="status" aria-live="polite"></p></section>
-<section id="games" class="page hidden"><div class="plain"><h1>🎮 Oyunlar</h1><p>Oyunlar bölümünü sınıf ve tema seçimiyle hazırlıyoruz. Üç oyun şu anda oynanabilir.</p><label>Sınıf <select><option>5. Sınıf</option></select></label><label>Tema <select><option>1. Tema: Oyun Dünyası</option></select></label><div class="game-list"><button class="game-launch" data-game="0">🌳 <b>Kelime Dedektifi</b><small>Kelime anlamını bul</small></button><button class="game-launch" data-game="1">🚂 <b>Olay Treni</b><small>Olayları sırala</small></button><button class="game-launch" data-game="2">✏️ <b>Noktalama Tamircisi</b><small>Doğru işareti seç</small></button></div><div id="game-area" class="game-area hidden" aria-live="polite"><h2 id="game-title"></h2><p id="game-score"></p><p id="game-question"></p><div id="game-options" class="game-options"></div><p id="game-feedback" role="status"></p><button id="game-next" class="green hidden">Sonraki →</button><button id="game-exit" class="back">Oyunlara dön</button></div></div></section></main></div><script src="curriculum.js"></script><script src="app.js"></script></body></html>
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Öğretmen Çocuk | 5. Sınıf Türkçe</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark">Ö</div>
+        <div class="brand-text"><span>Öğretmen</span><strong>Çocuk</strong></div>
+      </div>
+      <nav class="tabs">
+        <button class="tab active" data-view="parkurView">Parkur</button>
+        <button class="tab" data-view="gamesView">Oyunlar</button>
+        <button class="tab" data-view="topicsView">Sınıf ve Tema</button>
+      </nav>
+      <div class="topbar-right">
+        <div class="select-pill">5. Sınıf</div>
+      </div>
+    </header>
+
+    <main>
+      <section id="parkurView" class="view active">
+        <div class="parkur-shell">
+          <aside class="hero-panel card">
+            <h1>5. Sınıf Türkçe<br/>1. Tema: Oyun Dünyası</h1>
+            <p>
+              Türkçenin eğlenceli dünyasında 24 duraklı bir maceraya hazır mısın?
+              Her durakta bir beceri çalış, görevleri tamamla ve tema finalinde kendi oyununu tasarla.
+            </p>
+            <button id="startJourney" class="cta">Maceraya Başla →</button>
+            <div class="mini-stats">
+              <div><strong id="completedCount">0</strong><span>Tamamlanan durak</span></div>
+              <div><strong>24</strong><span>Toplam durak</span></div>
+            </div>
+          </aside>
+
+          <section class="map card">
+            <div class="sky-decor decor-cloud a"></div>
+            <div class="sky-decor decor-cloud b"></div>
+            <div class="map-header"> 
+              <div class="map-badge">Tema Hedeflerin</div>
+              <ul class="theme-goals">
+                <li>Okuduğunu anlama</li>
+                <li>Kelime bilgisi</li>
+                <li>Dinleme ve konuşma</li>
+                <li>Yazma becerileri</li>
+                <li>Dil bilgisi ve yazım</li>
+                <li>Kendi oyununu tasarla</li>
+              </ul>
+            </div>
+            <div id="mapCanvas" class="map-canvas"></div>
+          </section>
+        </div>
+      </section>
+
+      <section id="gamesView" class="view">
+        <div class="games-layout">
+          <div class="games-top card">
+            <div>
+              <h2>Oyunlar</h2>
+              <p>1. Tema: Oyun Dünyası için oyunlarla tekrar yap.</p>
+            </div>
+            <div class="filters">
+              <div class="select-pill">5. Sınıf</div>
+              <div class="select-pill">1. Tema: Oyun Dünyası</div>
+            </div>
+          </div>
+          <div id="gameGrid" class="game-grid"></div>
+        </div>
+      </section>
+
+      <section id="topicsView" class="view">
+        <div class="topics-layout card">
+          <h2>Sınıf ve Tema</h2>
+          <p>Şimdilik yalnızca 5. sınıf 1. tema aktif. Diğer temalar zamanla eklenecek.</p>
+          <div class="topic-card active-topic">
+            <strong>5. Sınıf • 1. Tema: Oyun Dünyası</strong>
+            <span>24 duraklı aktif parkur</span>
+          </div>
+          <div class="topic-card disabled-topic"><strong>2. Tema</strong><span>Yakında</span></div>
+          <div class="topic-card disabled-topic"><strong>3. Tema</strong><span>Yakında</span></div>
+          <div class="topic-card disabled-topic"><strong>4. Tema</strong><span>Yakında</span></div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div id="modalRoot"></div>
+  <script src="curriculum.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
