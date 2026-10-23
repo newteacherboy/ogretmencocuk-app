@@ -1,0 +1,162 @@
+{
+  "sinif": 6,
+  "temalar": [
+    {
+      "tema": 1,
+      "ad": "Dilimizin Zenginliği",
+      "kelime": 30,
+      "okumaKelimeSayilari": [
+        304,
+        325
+      ],
+      "konu": 5,
+      "soru": 73,
+      "etkinlikCiktilari": [
+        "T.D.6.15",
+        "T.D.6.5",
+        "T.O.6.16",
+        "T.O.6.21",
+        "T.O.6.5",
+        "T.O.6.6",
+        "T.Y.6.1",
+        "T.Y.6.18",
+        "T.Y.6.21",
+        "T.Y.6.22"
+      ],
+      "oncekiTemaSorusu": 0
+    },
+    {
+      "tema": 2,
+      "ad": "Bağımsızlık Yolu",
+      "kelime": 30,
+      "okumaKelimeSayilari": [
+        323,
+        318
+      ],
+      "konu": 3,
+      "soru": 50,
+      "etkinlikCiktilari": [
+        "T.D.6.7",
+        "T.D.6.8",
+        "T.D.6.9",
+        "T.K.6.12",
+        "T.O.6.10",
+        "T.O.6.12",
+        "T.O.6.21",
+        "T.O.6.23",
+        "T.O.6.5",
+        "T.O.6.8",
+        "T.O.6.9",
+        "T.Y.6.1",
+        "T.Y.6.11",
+        "T.Y.6.21",
+        "T.Y.6.3"
+      ],
+      "oncekiTemaSorusu": 0
+    },
+    {
+      "tema": 3,
+      "ad": "Farklı Dünyalar",
+      "kelime": 30,
+      "okumaKelimeSayilari": [
+        334,
+        321
+      ],
+      "konu": 3,
+      "soru": 50,
+      "etkinlikCiktilari": [
+        "T.D.6.20",
+        "T.D.6.8",
+        "T.D.6.9",
+        "T.O.6.17",
+        "T.O.6.21",
+        "T.O.6.7",
+        "T.Y.6.1",
+        "T.Y.6.21",
+        "T.Y.6.22",
+        "T.Y.6.9"
+      ],
+      "oncekiTemaSorusu": 0
+    },
+    {
+      "tema": 4,
+      "ad": "İletişim ve Sosyal İlişkiler",
+      "kelime": 30,
+      "okumaKelimeSayilari": [
+        324,
+        319
+      ],
+      "konu": 3,
+      "soru": 50,
+      "etkinlikCiktilari": [
+        "T.D.6.12",
+        "T.D.6.14",
+        "T.O.6.13",
+        "T.O.6.15",
+        "T.O.6.21",
+        "T.O.6.22",
+        "T.Y.6.1",
+        "T.Y.6.21",
+        "T.Y.6.22",
+        "T.Y.6.3"
+      ],
+      "oncekiTemaSorusu": 0
+    },
+    {
+      "tema": 5,
+      "ad": "Bilim ve Teknoloji",
+      "kelime": 30,
+      "okumaKelimeSayilari": [
+        315,
+        322
+      ],
+      "konu": 4,
+      "soru": 60,
+      "etkinlikCiktilari": [
+        "T.D.6.13",
+        "T.D.6.18",
+        "T.O.6.14",
+        "T.O.6.20",
+        "T.O.6.21",
+        "T.Y.6.1",
+        "T.Y.6.14",
+        "T.Y.6.21",
+        "T.Y.6.3"
+      ],
+      "oncekiTemaSorusu": 0
+    },
+    {
+      "tema": 6,
+      "ad": "Lider Ruhlar",
+      "kelime": 30,
+      "okumaKelimeSayilari": [
+        322,
+        342
+      ],
+      "konu": 2,
+      "soru": 40,
+      "etkinlikCiktilari": [
+        "T.D.6.22",
+        "T.D.6.23",
+        "T.D.6.24",
+        "T.O.6.21",
+        "T.O.6.24",
+        "T.O.6.25",
+        "T.O.6.26",
+        "T.Y.6.1",
+        "T.Y.6.13",
+        "T.Y.6.15",
+        "T.Y.6.16",
+        "T.Y.6.21"
+      ],
+      "oncekiTemaSorusu": 0
+    }
+  ],
+  "dogruSecenekDagilimi": {
+    "3": 113,
+    "2": 106,
+    "1": 104
+  },
+  "hata": [],
+  "dogrulanmayanKaynak": []
+}

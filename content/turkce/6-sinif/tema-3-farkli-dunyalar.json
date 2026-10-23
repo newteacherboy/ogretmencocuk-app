@@ -1,0 +1,1049 @@
+{
+  "belgeTuru": "tema",
+  "semaSurumu": "1.0",
+  "sinif": 6,
+  "program": "TYMM",
+  "tema": 3,
+  "temaAdi": "Farklı Dünyalar",
+  "durum": "incelemeye_hazir",
+  "kaynak": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/124",
+  "kaynak_dogrulanmadi": false,
+  "ogrenmeCiktilari": [
+    "T.D.6.1",
+    "T.D.6.10",
+    "T.D.6.17",
+    "T.D.6.20",
+    "T.D.6.21",
+    "T.D.6.25",
+    "T.D.6.8",
+    "T.D.6.9",
+    "T.K.6.1",
+    "T.K.6.13",
+    "T.K.6.14",
+    "T.K.6.17",
+    "T.K.6.26",
+    "T.K.6.6",
+    "T.O.6.1",
+    "T.O.6.17",
+    "T.O.6.18",
+    "T.O.6.19",
+    "T.O.6.27",
+    "T.O.6.7",
+    "T.Y.6.1",
+    "T.Y.6.10",
+    "T.Y.6.17",
+    "T.Y.6.21",
+    "T.Y.6.22",
+    "T.Y.6.7",
+    "T.Y.6.9"
+  ],
+  "sozVarligi": {
+    "aciklama": "Tanım ve örnekler özgündür. T.O.6.21 ilk temada tanıtılan söz varlığını geliştirme çıktısıdır; sonraki temalarda tekrar edilir.",
+    "kelimeler": [
+      {
+        "kelime": "kültür",
+        "anlam": "Bir topluluğun ürettiği ve aktardığı maddi ve manevi değerler bütünü",
+        "ornek": "Kültür köşesinde farklı anlatılar vardı.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "çeşitlilik",
+        "anlam": "Birbirinden farklı özelliklerin bir arada bulunması",
+        "ornek": "Dil çeşitliliğini bir zenginlik olarak gördük.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "coğrafya",
+        "anlam": "Bir yerin doğal ve beşerî özellikleri",
+        "ornek": "Coğrafya evlerin yapısını etkileyebilir.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "iklim",
+        "anlam": "Bir yerde uzun yıllar boyunca gözlenen hava koşullarının genel durumu",
+        "ornek": "İklim üzerine güvenilir kaynaklar okuduk.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "mimari",
+        "anlam": "Yapı tasarlama ve yapma sanatı",
+        "ornek": "Mimari örnekleri malzemelerine göre karşılaştırdık.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "gelenek",
+        "anlam": "Bir toplulukta kuşaktan kuşağa aktarılan uygulama",
+        "ornek": "Gelenek zaman içinde değişebilir.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "gözlem",
+        "anlam": "Bir durumu dikkatle inceleyip bilgi toplama",
+        "ornek": "Gözlem ile tahmini ayrı sütunlara yazdım.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "önyargı",
+        "anlam": "Yeterli bilgi edinmeden verilen peşin hüküm",
+        "ornek": "Tek örnekten genelleme yapmak önyargıyı besleyebilir.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "merak",
+        "anlam": "Bir şeyi öğrenme ve anlama isteği",
+        "ornek": "Merak bizi yeni sorulara yöneltti.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "empati",
+        "anlam": "Başkasının duygu ve düşüncesini anlamaya çalışma",
+        "ornek": "Empati kurmak için önce dinledik.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "çeviri",
+        "anlam": "Bir dildeki anlatımı başka bir dile aktarma",
+        "ornek": "Çeviri sırasında kelimelerin bağlamına baktık.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "yöre",
+        "anlam": "Belirli özellikleriyle ayrılan çevre veya bölge",
+        "ornek": "Yöre halkının anlatılarını izinle dinledik.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "göç",
+        "anlam": "İnsanların yaşadıkları yeri değiştirmesi",
+        "ornek": "Öyküde göç sonrası yeni arkadaşlıklar anlatılıyordu.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "konuk",
+        "anlam": "Bir yere ziyarete gelen kişi",
+        "ornek": "Konuk öğrenciler sorularımızı yanıtladı.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "karşılaştırma",
+        "anlam": "Benzerlik ve ayrılıkları inceleme işi",
+        "ornek": "Karşılaştırma tablosunda iki okul vardı.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "benzerlik",
+        "anlam": "Birbirine benzeme durumu",
+        "ornek": "Oyunların kurallarında benzerlik bulduk.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "ayrım",
+        "anlam": "İki şey arasındaki fark",
+        "ornek": "Gözlemle yorum arasındaki ayrımı konuştuk.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "uyum",
+        "anlam": "Farklı unsurların birlikte işleyebilmesi",
+        "ornek": "Yeni kurallar uyum sağlamamızı kolaylaştırdı.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "ileti",
+        "anlam": "Birinden başkasına iletilen haber veya düşünce",
+        "ornek": "İletinin anlamı çeviride değişmişti.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "işaret",
+        "anlam": "Bir anlamı göstermek için kullanılan belirti",
+        "ornek": "İşaretin her yerde aynı anlama gelmediğini öğrendik.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "bakış açısı",
+        "anlam": "Bir olayı ele alma ve değerlendirme biçimi",
+        "ornek": "Metni başka bir bakış açısıyla yeniden okuduk.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "etkilemek",
+        "anlam": "Bir şeyde değişikliğe yol açmak",
+        "ornek": "Yağış ev tasarımını etkileyebilir.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "uyarlamak",
+        "anlam": "Bir şeyi yeni koşullara uygun duruma getirmek",
+        "ornek": "Oyunu küçük alana uyarladık.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "araştırma",
+        "anlam": "Bir soruya cevap bulmak için planlı bilgi arama işi",
+        "ornek": "Araştırma sorumuzu önce daralttık.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "izlenim",
+        "anlam": "Bir karşılaşmanın zihinde bıraktığı genel etki",
+        "ornek": "İlk izlenim her zaman yeterli bilgi vermez.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "sunum",
+        "anlam": "Bir konuyu dinleyiciye düzenli biçimde aktarma",
+        "ornek": "Sunum boyunca kaynaklarımızı gösterdik.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "harita",
+        "anlam": "Bir alanın belirli ölçü ve işaretlerle düzlemde gösterimi",
+        "ornek": "Harita ülkelerin yerlerini bulmamıza yardım etti.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "mesafe",
+        "anlam": "İki nokta arasındaki uzaklık",
+        "ornek": "Mesafe arkadaşlığımıza engel olmadı.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "ortam",
+        "anlam": "Bir olayın gerçekleştiği koşulların ve çevrenin bütünü",
+        "ornek": "Öğrenme ortamını birlikte düzenledik.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "hoşgörü",
+        "anlam": "Farklı görüşlere saygı gösterme tutumu",
+        "ornek": "Hoşgörü soru sormamızı kolaylaştırdı.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      }
+    ],
+    "esAnlamlilar": [
+      [
+        "konuk",
+        "misafir"
+      ]
+    ],
+    "zitAnlamlilar": [
+      [
+        "benzer",
+        "farklı"
+      ]
+    ],
+    "esSesliler": [],
+    "deyimler": [],
+    "atasozleri": []
+  },
+  "okumaParcalari": [
+    {
+      "id": "6-3-okuma-1",
+      "baslik": "Aynı Oyunun Başka Kuralı",
+      "tur": "oykuleyici",
+      "metin": "Okulun çevrim içi buluşmasında Deniz, başka bir şehirde yaşayan yaşıtı Lina ile tanıştı. İkisi de teneffüste aynı taş oyununu oynadıklarını söyleyince sevindiler. Deniz oyunun kurallarını anlatmaya başladı. Ona göre oyuncu çizgiye basarsa sırasını hemen kaybederdi. Lina ise kendi grubunda çizgiye bir kez basan oyuncuya yeniden deneme hakkı verildiğini söyledi. Deniz şaşırdı; yıllardır bildiği bir oyunun başka türlü oynanabileceğini hiç düşünmemişti.\nİlk anda Lina'nın kuralı yanlış öğrendiğini söylemek istedi. Fakat öğretmenin buluşmadan önce verdiği notu hatırladı: Önce açıklama iste, sonra karşılaştır. Deniz bu kez oyuncuların nerede oynadığını sordu. Lina, okul bahçelerindeki alanın küçük olduğunu ve oyuna yeni başlayan çok arkadaşları bulunduğunu anlattı. Yeniden deneme hakkını, herkes oyuna alışabilsin diye eklemişlerdi. Deniz'in okulunda ise oyun alanı daha genişti ve aynı grup uzun süredir birlikte oynuyordu.\nİki öğrenci kuralları yan yana yazdı. Oyunun başlama biçimi ve taşın atılacağı yer aynıydı. Sıra kaybetme koşulu farklıydı. Deniz, bütün çocukların kendi okulundaki gibi oynadığını varsaydığını fark etti. Lina da kendi kuralının her yerde daha iyi işleyeceğini savunmadı. Bir kuralın uygunluğu, oyunun amacına ve oyuncuların ihtiyaçlarına göre değişebilirdi. Bunu görmek için birinin yanlış olduğunu ilan etmeleri gerekmiyordu.\nBuluşmanın sonunda ortak bir deneme yapmaya karar verdiler. Her grup diğerinin kuralıyla bir tur oynayacak, sonra katılanların görüşlerini toplayacaktı. Öğretmen sonuçları yalnız kazananların puanlarına göre değerlendirmemelerini önerdi. Oyuna katılmak kolay mıydı, bekleme süresi uzamış mıydı, yeni başlayanlar kendilerini nasıl hissetmişti? Bu sorulara kısa notlarla cevap verdiler. Tek bir kişinin görüşünü bütün gruba mal etmediler.\nDeniz ertesi hafta yazdığı mektupta başka bir kuralı öğrenmenin kendi oyununu değersizleştirmediğini anlattı. Aksine, eskiden hiç sorgulamadığı bir alışkanlığı açıklamasını sağlamıştı. Lina'nın gönderdiği notta da benzer bir düşünce vardı: Ortak yönleri bulmak arkadaşlığı başlatmış, farklılıkları merak etmek konuşmayı sürdürmüştü. İki arkadaş artık yeni bir ayrıntıyla karşılaştıklarında hemen bir genelleme yapmak yerine nerede ve niçin kullanıldığını soruyordu. Oyun onların gözünde yalnızca taş atıp çizgiye basmamaktan oluşmuyordu. Başka birinin deneyimini dinlemek ve ortak bir karar denemek için de bir alan açıyordu. Son buluşmada hazırladıkları küçük tabloya en alta şu soruyu eklediler: “Başka hangi kural mümkün?” Bu soruya tek bir doğru cevap aramıyorlardı.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; kitap veya internet metninden alınmamıştır.",
+      "sorular": [
+        {
+          "id": "6-3-okuma-1-1",
+          "tip": "secim",
+          "soru": "“Aynı Oyunun Başka Kuralı” metnine göre: Deniz'in ilk yargısının değişmesini en iyi açıklayan düşünce hangisidir?",
+          "secenekler": [
+            "Bir uygulamayı değerlendirmek için koşullarını öğrenmek gerekir",
+            "Bütün okullar aynı kuralla oynamalıdır",
+            "Uzakta yaşayanların deneyimleri önemsizdir"
+          ],
+          "dogru": "Bir uygulamayı değerlendirmek için koşullarını öğrenmek gerekir",
+          "aciklama": "Alan ve oyuncu ihtiyaçları öğrenilince farklı kuralın gerekçesi anlaşılır.",
+          "cikti": "T.O.6.7"
+        },
+        {
+          "id": "6-3-okuma-1-2",
+          "tip": "secim",
+          "soru": "“Aynı Oyunun Başka Kuralı” metnine göre: Metne uygun bir başlık alternatifi hangisidir?",
+          "secenekler": [
+            "Kayıp Taşın Sırrı",
+            "Tek Bir Okulun Tarihi",
+            "Kuralların Ardındaki İhtiyaçlar"
+          ],
+          "dogru": "Kuralların Ardındaki İhtiyaçlar",
+          "aciklama": "Öykünün odağı farklı kuralları doğuran koşulları anlamaktır.",
+          "cikti": "T.O.6.7"
+        },
+        {
+          "id": "6-3-okuma-1-3",
+          "tip": "secim",
+          "soru": "“Aynı Oyunun Başka Kuralı” metnine göre: Metinde hangi düşünceyi geliştirme yolu belirgindir?",
+          "secenekler": [
+            "Ünlü bir kişinin sözünü kanıt gösterme",
+            "İki uygulamayı karşılaştırma",
+            "Sayısal deney sonuçları sunma"
+          ],
+          "dogru": "İki uygulamayı karşılaştırma",
+          "aciklama": "Aynı oyunun benzer ve farklı kuralları karşılaştırılır.",
+          "cikti": "T.O.6.17"
+        },
+        {
+          "id": "6-3-okuma-1-4",
+          "tip": "secim",
+          "soru": "“Aynı Oyunun Başka Kuralı” metnine göre: Aksine sözü anlatıma nasıl katkıda bulunur?",
+          "secenekler": [
+            "Önceki olasılığın tersini vurgular",
+            "Olayın kesin tarihini bildirir",
+            "Konuşan kişinin adını verir"
+          ],
+          "dogru": "Önceki olasılığın tersini vurgular",
+          "aciklama": "Deniz'in oyununun değersizleşmesi beklentisine karşı, anlamının gelişmesi anlatılır.",
+          "cikti": "T.O.6.7"
+        },
+        {
+          "id": "6-3-okuma-1-5",
+          "tip": "secim",
+          "soru": "“Aynı Oyunun Başka Kuralı” metnine göre: Oyun alanlarının farklı olması hangi görüşü destekler?",
+          "secenekler": [
+            "Her fark mutlaka bir hatadır",
+            "Geniş alanlarda oyun oynanamaz",
+            "Aynı etkinlik farklı koşullara uyarlanabilir"
+          ],
+          "dogru": "Aynı etkinlik farklı koşullara uyarlanabilir",
+          "aciklama": "İki okulun koşulları kuralların neden farklılaşabildiğini açıklar.",
+          "cikti": "T.O.6.7"
+        },
+        {
+          "id": "6-3-okuma-1-6",
+          "tip": "secim",
+          "soru": "“Aynı Oyunun Başka Kuralı” metnine göre: Öğretmenin yalnız puana bakılmamasını istemesi ne sağlar?",
+          "secenekler": [
+            "Kazananların görüşünün tek ölçüt olmasını",
+            "Katılım deneyiminin de değerlendirilmesini",
+            "Oyunda hiç kural kalmamasını"
+          ],
+          "dogru": "Katılım deneyiminin de değerlendirilmesini",
+          "aciklama": "Bekleme süresi ve yeni başlayanların duyguları da ele alınır.",
+          "cikti": "T.O.6.7"
+        },
+        {
+          "id": "6-3-okuma-1-7",
+          "tip": "secim",
+          "soru": "“Aynı Oyunun Başka Kuralı” metnine göre: Metnin temel iletisi hangisidir?",
+          "secenekler": [
+            "Farklılıkları anlamak için merakla soru sormak gerekir",
+            "Arkadaşlık için bütün alışkanlıklar aynı olmalıdır",
+            "İlk izlenim her zaman kesin bilgidir"
+          ],
+          "dogru": "Farklılıkları anlamak için merakla soru sormak gerekir",
+          "aciklama": "Öğrenciler yargı yerine açıklama ve karşılaştırmayla birbirlerini anlar.",
+          "cikti": "T.O.6.7"
+        },
+        {
+          "id": "6-3-okuma-1-8",
+          "tip": "secim",
+          "soru": "“Aynı Oyunun Başka Kuralı” metnine göre: Başka hangi kural mümkün sorusu okuyucuyu neye yöneltir?",
+          "secenekler": [
+            "Oyunu tamamen bırakmaya",
+            "Her şeyi ezberlemeye",
+            "Alternatifleri düşünmeye"
+          ],
+          "dogru": "Alternatifleri düşünmeye",
+          "aciklama": "Son soru tek çözüm dayatmadan başka düzenlemelere alan açar.",
+          "cikti": "T.O.6.7"
+        }
+      ]
+    },
+    {
+      "id": "6-3-okuma-2",
+      "baslik": "Evleri Anlatırken",
+      "tur": "bilgilendirici",
+      "metin": "Bir evin fotoğrafına bakarak o evde yaşayanların bütün alışkanlıklarını öğrenebilir miyiz? Fotoğraf, yapının rengi ve biçimi hakkında bazı bilgiler verir. Fakat ailelerin günlük hayatını, tercihlerini ve düşüncelerini bütünüyle göstermez. Bu yüzden farklı yerlerdeki evleri araştırırken gördüğümüz özelliklerle yaptığımız yorumları ayırmak yararlıdır. “Çatısı eğimli.” demek ile “Burada yaşayan herkes aynı hayatı sürer.” demek aynı türden bir bilgi değildir.\nEvlerin tasarımını etkileyebilecek pek çok unsur vardır. Yağış, sıcaklık, elde bulunan malzeme, ekonomik imkânlar ve zaman içinde değişen ihtiyaçlar bunlardan bazılarıdır. Örneğin iki yapının aynı malzemeyi kullanması, bütün özelliklerinin aynı olduğu anlamına gelmez. Bir yapı sonradan onarılmış, diğeri yeni yapılmış olabilir. Bir fotoğrafın çekildiği tarih bilinmiyorsa o görüntünün güncel durumu yansıttığı da varsayılamaz. Araştırmacı, açıklamasının sınırlarını görünür tutmalıdır.\nBir karşılaştırma tablosu hazırlayan öğrenciler, sütunları önce ülke adlarına göre düzenleyebilir. Ancak tek bir evi bir ülkenin bütün evlerinin örneği gibi sunmamak gerekir. Daha dikkatli bir başlık, yapının bulunduğu yerle birlikte incelenen örneğin adını da belirtir. Böylece okuyucu, önündeki bilgilerin sınırlı sayıda örnekten geldiğini anlar. Başlıkta kullanılan küçük bir ayrıntı, büyük bir genellemeyi önleyebilir.\nAraştırmada birden fazla kaynak türüne yer vermek de yararlıdır. Yapının ölçülerini gösteren çizim, dış görünüşünü anlatan fotoğraf ve kullanımını açıklayan görüşme farklı sorulara cevap verir. Görüşme yapılacaksa kişinin paylaşmak istediği bilgilerle yetinilir. Özel adres, aile bilgisi veya görüntü paylaşmaya zorlamak, öğrenme amacı için gerekli değildir. Örnekler açık kaynaklı veya izinli materyallerden seçilebilir.\nÇalışmanın sonunda öğrenciler yalnız benzer ve farklı özellikleri sıralamaz. Hangi açıklamanın gözleme, hangisinin kaynak bilgisine, hangisinin henüz sınanmamış tahmine dayandığını da işaretler. Bu yaklaşım, başka kültürleri tek bir görüntüyle tanımlama alışkanlığını azaltabilir. Evler araştırmanın başlangıç noktasıdır; insanların çeşitliliği ise bir tabloya bütünüyle sığmaz. İyi bir sunum bu sınırı saklamak yerine okura gösterir. Son sayfaya yeni sorular eklemek çalışmayı zayıflatmaz. Örneğin “Aynı sokaktaki başka yapılar nasıl?” sorusu araştırmayı genişletebilir. Öğrenciler böylece öğrendiklerini kesin ve değişmez bir son söz olarak sunmak yerine, dayanağı bilinen ve geliştirilebilen bir açıklama kurmayı öğrenir. Birbirlerinin tablolarını incelerken de eksikleri küçümsemek yerine hangi kaynağın yararlı olabileceğini önerebilirler.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; kitap veya internet metninden alınmamıştır.",
+      "sorular": [
+        {
+          "id": "6-3-okuma-2-1",
+          "tip": "secim",
+          "soru": "“Evleri Anlatırken” metnine göre: İlk paragraftaki soru hangi işlevi görür?",
+          "secenekler": [
+            "Bir evin satış fiyatını açıklar",
+            "Yazarın kesin cevabını gizler",
+            "Okuyucuyu bilginin sınırlarını düşünmeye çağırır"
+          ],
+          "dogru": "Okuyucuyu bilginin sınırlarını düşünmeye çağırır",
+          "aciklama": "Fotoğrafın neyi gösterip neyi gösteremediği üzerine düşünme başlatılır.",
+          "cikti": "T.O.6.7"
+        },
+        {
+          "id": "6-3-okuma-2-2",
+          "tip": "secim",
+          "soru": "“Evleri Anlatırken” metnine göre: Metinde kullanılan düşünceyi geliştirme yolu hangisidir?",
+          "secenekler": [
+            "Kesin nüfus sayılarıyla kanıtlama",
+            "Eğimli çatı cümlesiyle örnekleme",
+            "Yazar adı vererek tanık gösterme"
+          ],
+          "dogru": "Eğimli çatı cümlesiyle örnekleme",
+          "aciklama": "Somut gözlem cümlesi, gözlem ile genelleme ayrımına örnek olur.",
+          "cikti": "T.O.6.17"
+        },
+        {
+          "id": "6-3-okuma-2-3",
+          "tip": "secim",
+          "soru": "“Evleri Anlatırken” metnine göre: Tek bir evin bütün ülkeyi temsil etmesi neden sorunludur?",
+          "secenekler": [
+            "Sınırlı örnekten geniş genelleme yapılmış olur",
+            "Ev fotoğrafları hiçbir bilgi vermez",
+            "Bütün ülkelerde evler bütünüyle aynıdır"
+          ],
+          "dogru": "Sınırlı örnekten geniş genelleme yapılmış olur",
+          "aciklama": "Metin örnek sayısının ve kapsamın açıkça belirtilmesini önerir.",
+          "cikti": "T.O.6.7"
+        },
+        {
+          "id": "6-3-okuma-2-4",
+          "tip": "secim",
+          "soru": "“Evleri Anlatırken” metnine göre: Bir kaynakta fotoğrafın tarihinin bulunmaması neyi sınırlar?",
+          "secenekler": [
+            "Fotoğrafın renklerini görmeyi",
+            "Yapının bir dış yüzünün bulunduğunu anlamayı",
+            "Görüntünün güncelliğini değerlendirmeyi"
+          ],
+          "dogru": "Görüntünün güncelliğini değerlendirmeyi",
+          "aciklama": "Tarih bilinmeden bugünkü görünüşe ilişkin kesin yargı kurulamaz.",
+          "cikti": "T.O.6.7"
+        },
+        {
+          "id": "6-3-okuma-2-5",
+          "tip": "secim",
+          "soru": "“Evleri Anlatırken” metnine göre: Çizim, fotoğraf ve görüşmenin birlikte kullanılması nasıl yorumlanır?",
+          "secenekler": [
+            "Görüşmeler ölçü çizimlerinin aynısıdır",
+            "Farklı sorular için farklı kaynaklara başvurulur",
+            "Aynı bilgi gereksizce çoğaltılır"
+          ],
+          "dogru": "Farklı sorular için farklı kaynaklara başvurulur",
+          "aciklama": "Kaynak türleri ölçü, görünüş ve kullanım gibi farklı boyutlara cevap verir.",
+          "cikti": "T.O.6.7"
+        },
+        {
+          "id": "6-3-okuma-2-6",
+          "tip": "secim",
+          "soru": "“Evleri Anlatırken” metnine göre: Son sayfaya yeni sorular eklemenin anlamı nedir?",
+          "secenekler": [
+            "Bilginin geliştirilebilir olduğunu kabul etmek",
+            "Çalışmanın tamamen değersiz olduğunu söylemek",
+            "İlk kaynakları gizlemeye çalışmak"
+          ],
+          "dogru": "Bilginin geliştirilebilir olduğunu kabul etmek",
+          "aciklama": "Metin yeni soruların araştırmayı genişletebileceğini vurgular.",
+          "cikti": "T.O.6.7"
+        },
+        {
+          "id": "6-3-okuma-2-7",
+          "tip": "secim",
+          "soru": "“Evleri Anlatırken” metnine göre: Metnin vermek istediği temel düşünce hangisidir?",
+          "secenekler": [
+            "Bir fotoğraf bir toplum hakkında her şeyi söyler",
+            "Araştırmada yalnız ilk bulunan kaynak kullanılmalıdır",
+            "Kültürel örnekleri kapsamı ve dayanağı açık biçimde incelemek gerekir"
+          ],
+          "dogru": "Kültürel örnekleri kapsamı ve dayanağı açık biçimde incelemek gerekir",
+          "aciklama": "Metnin bütün bölümleri sınırları bilinen ve doğrulanan açıklamayı destekler.",
+          "cikti": "T.O.6.7"
+        },
+        {
+          "id": "6-3-okuma-2-8",
+          "tip": "secim",
+          "soru": "“Evleri Anlatırken” metnine göre: Aşağıdaki önerilerden hangisi yazarın yaklaşımına uygundur?",
+          "secenekler": [
+            "Görüşülen kişiden özel adresini mutlaka istemek",
+            "Tablodaki tahminleri gözlemlerden ayrı işaretlemek",
+            "Bilinmeyen bilgileri kesinmiş gibi tamamlamak"
+          ],
+          "dogru": "Tablodaki tahminleri gözlemlerden ayrı işaretlemek",
+          "aciklama": "Son bölümde gözlem, kaynak bilgisi ve tahmin ayrımı açıkça önerilir.",
+          "cikti": "T.O.6.7"
+        }
+      ]
+    }
+  ],
+  "konular": [
+    {
+      "kod": "6-3-iki-nokta",
+      "ad": "Açıklama, örnek ve konuşmada iki nokta",
+      "kategori": "yazim-noktalama",
+      "cikti": "T.Y.6.21",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>İki nokta, ardından örnek veya açıklama verileceğini gösterebilir. Karşılıklı konuşmalarda konuşan kişinin adından sonra da kullanılır. Her listeden önce otomatik olarak iki nokta gelmez; önceki sözün sonraki bölümü tanıtıp tanıtmadığına bakılır. Tam cümle biçimindeki açıklama büyük harfle, yalnız örnekler sıralanıyorsa özel ad olmayan ilk örnek küçük harfle başlayabilir. Noktalama seçiminde yalnız ses duraklamasını değil, anlam ilişkisini gözet.</p><ul><li>Üç malzeme seçtik: kâğıt, ip, boya.</li><li>Sonuç açıktı: Plan değişmeliydi.</li><li>Deniz: Hangi oyunu oynuyorsunuz?</li></ul>",
+      "ornekler": [
+        "Üç malzeme seçtik: kâğıt, ip, boya.",
+        "Sonuç açıktı: Plan değişmeliydi.",
+        "Deniz: Hangi oyunu oynuyorsunuz?"
+      ],
+      "testler": [
+        {
+          "id": "6-3-iki-nokta-1",
+          "tip": "secim",
+          "soru": "Örnek vermek için uygun işaret hangisidir? İki araç kullandık ... makas ve cetvel.",
+          "secenekler": [
+            "Soru işareti",
+            "Kesme işareti",
+            "İki nokta"
+          ],
+          "dogru": "İki nokta",
+          "aciklama": "Sonraki sözler önceki cümlede tanıtılan araçlara örnek verir.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-3-iki-nokta-2",
+          "tip": "secim",
+          "soru": "Konuşmacı adından sonra hangi işaret kullanılır? Lina ... Yeniden deneyelim.",
+          "secenekler": [
+            "Kesme işareti",
+            "İki nokta",
+            "Eğik çizgi"
+          ],
+          "dogru": "İki nokta",
+          "aciklama": "Karşılıklı konuşmada kişi adından sonra iki nokta gelir.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-3-iki-nokta-3",
+          "tip": "secim",
+          "soru": "Açıklama ilişkisi hangi cümlede iki noktayla doğru gösterilmiştir?",
+          "secenekler": [
+            "Kararımız açıktı: Birlikte deneyecektik.",
+            "Kararımız: açıktı birlikte deneyecektik.",
+            "Kararımız açıktı birlikte: deneyecektik."
+          ],
+          "dogru": "Kararımız açıktı: Birlikte deneyecektik.",
+          "aciklama": "İkinci cümle kararın ne olduğunu açıkladığı için iki nokta ilk yargıdan sonra gelir.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-3-iki-nokta-4",
+          "tip": "secim",
+          "soru": "Örneklerin doğru gösterildiği cümle hangisidir?",
+          "secenekler": [
+            "Bazı: oyunlar seçildi seksek saklambaç körebe.",
+            "Bazı oyunlar: seçildi seksek saklambaç körebe.",
+            "Bazı oyunlar seçildi: seksek, saklambaç, körebe."
+          ],
+          "dogru": "Bazı oyunlar seçildi: seksek, saklambaç, körebe.",
+          "aciklama": "İlk cümle tamamlandıktan sonra örnek listesi iki noktayla tanıtılır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-3-iki-nokta-5",
+          "tip": "secim",
+          "soru": "Metinde iki noktadan sonra tam cümle başlıyorsa ilk harf nasıl olur?",
+          "secenekler": [
+            "Mutlaka sayı olur",
+            "Büyük yazılır",
+            "Her durumda küçük yazılır"
+          ],
+          "dogru": "Büyük yazılır",
+          "aciklama": "Tam cümle niteliğindeki açıklama büyük harfle başlar.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-3-iki-nokta-6",
+          "tip": "secim",
+          "soru": "Kültür köşesinde şunlar vardı: harita, fotoğraf ve kartlar. cümlesinde iki noktanın görevi nedir?",
+          "secenekler": [
+            "Sonrasında örnekleri göstermek",
+            "Bir ek ayırmak",
+            "İki dizeyi ayırmak"
+          ],
+          "dogru": "Sonrasında örnekleri göstermek",
+          "aciklama": "Şunlar sözü ardından gelecek örnek listesini hazırlar.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-3-iki-nokta-7",
+          "tip": "secim",
+          "soru": "Sebebi belliydi: Kaynaklar kontrol edilmemişti. cümlesindeki iki noktanın işlevi nedir?",
+          "secenekler": [
+            "Alıntının sahibine ek getirmek",
+            "Bir kelimeyi bölmek",
+            "Önceki yargının açıklamasını başlatmak"
+          ],
+          "dogru": "Önceki yargının açıklamasını başlatmak",
+          "aciklama": "İkinci cümle sebebin ne olduğunu açıklar.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-3-iki-nokta-8",
+          "tip": "secim",
+          "soru": "Doğru konuşma satırı hangisidir?",
+          "secenekler": [
+            "Ada/ Önce soralım.",
+            "Ada: Önce soralım.",
+            "Ada; Önce soralım."
+          ],
+          "dogru": "Ada: Önce soralım.",
+          "aciklama": "Konuşan kişinin adından sonra iki nokta kullanılır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-3-iki-nokta-9",
+          "tip": "secim",
+          "soru": "Hangi cümlede iki nokta açıklamadan önce doğru yerde kullanılmıştır?",
+          "secenekler": [
+            "Bir ihtiyacımız vardı: Daha geniş bir alan.",
+            "Bir: ihtiyacımız vardı daha geniş bir alan.",
+            "Bir ihtiyacımız: vardı daha geniş bir alan."
+          ],
+          "dogru": "Bir ihtiyacımız vardı: Daha geniş bir alan.",
+          "aciklama": "İhtiyacın ne olduğu, tamamlanan ilk yargıdan sonra açıklanır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-3-iki-nokta-10",
+          "tip": "secim",
+          "soru": "Yanlış yerleştirilmiş iki nokta hangi sorunu doğurur?",
+          "secenekler": [
+            "Her cümleyi otomatik olarak soru yapar",
+            "Bütün özel adları küçük harfe çevirir",
+            "Birlikte okunması gereken sözleri gereksiz yere ayırabilir"
+          ],
+          "dogru": "Birlikte okunması gereken sözleri gereksiz yere ayırabilir",
+          "aciklama": "İki nokta anlam ilişkisini göstermeli, söz gruplarını keyfî biçimde parçalamamalıdır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        }
+      ]
+    },
+    {
+      "kod": "6-3-zitlik",
+      "ad": "Zıtlık bildiren sözler",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.Y.6.1",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Zıtlık bildiren ama, fakat, ancak, hâlbuki ve aksine gibi sözler iki düşünce arasında beklenmeyen bir ayrılık kurabilir. Bir sözün görevi her kullanımında aynı değildir. Ancak bazen karşıtlık, bazen yalnız anlamı taşır. Anlatımdaki ilişkiyi belirlemek için kelimeyi tek başına etiketlemek yerine iki yargıyı birlikte oku. Karşıtlık kurarken hangi düşüncenin sınırlandığını veya değiştiğini açıkça göster.</p><ul><li>Evler benziyor ama malzemeleri farklı.</li><li>Uzakta yaşıyor; buna rağmen düzenli görüşüyoruz.</li><li>Beklediğim gibi değildi; aksine çok sakindi.</li></ul>",
+      "ornekler": [
+        "Evler benziyor ama malzemeleri farklı.",
+        "Uzakta yaşıyor; buna rağmen düzenli görüşüyoruz.",
+        "Beklediğim gibi değildi; aksine çok sakindi."
+      ],
+      "testler": [
+        {
+          "id": "6-3-zitlik-1",
+          "tip": "secim",
+          "soru": "Yağmur vardı ama gezi sürdü. cümlesinde ama ne bildirir?",
+          "secenekler": [
+            "Bir eşyanın adını",
+            "Kesin bir neden",
+            "Beklentiye karşıt bir sonuç"
+          ],
+          "dogru": "Beklentiye karşıt bir sonuç",
+          "aciklama": "Yağmurun geziyi durdurma beklentisine karşı sürmesi anlatılır.",
+          "cikti": "T.Y.6.1"
+        },
+        {
+          "id": "6-3-zitlik-2",
+          "tip": "secim",
+          "soru": "Aksine sözü hangi ilişkide uygundur?",
+          "secenekler": [
+            "Kapıyı açtı; aksine kapı açıldı.",
+            "Sessiz sanmıştım; aksine oldukça hareketliydi.",
+            "Saat erkendi; aksine sabah sekizdi."
+          ],
+          "dogru": "Sessiz sanmıştım; aksine oldukça hareketliydi.",
+          "aciklama": "Sessiz ve hareketli nitelikleri önceki düşüncenin tersine işaret eder.",
+          "cikti": "T.Y.6.1"
+        },
+        {
+          "id": "6-3-zitlik-3",
+          "tip": "secim",
+          "soru": "Hangi cümlede ancak karşıtlık bildirir?",
+          "secenekler": [
+            "İstiyordum ancak zamanım yoktu.",
+            "Ancak iki kart kaldı.",
+            "Bu kutuyu ancak üç kişi taşır."
+          ],
+          "dogru": "İstiyordum ancak zamanım yoktu.",
+          "aciklama": "İstemeye rağmen zamanın olmaması düşünceler arasında karşıtlık kurar.",
+          "cikti": "T.Y.6.1"
+        },
+        {
+          "id": "6-3-zitlik-4",
+          "tip": "secim",
+          "soru": "Hangi cümlede hâlbuki önceki yargıyla çelişen bir durum getirir?",
+          "secenekler": [
+            "Sabah oldu; hâlbuki güneş doğdu.",
+            "Kapı açıldı; hâlbuki giriş mümkün oldu.",
+            "Herkes aynı sanıyordu; hâlbuki kurallar değişmişti."
+          ],
+          "dogru": "Herkes aynı sanıyordu; hâlbuki kurallar değişmişti.",
+          "aciklama": "Kuralların değişmesi, aynı oldukları düşüncesine karşıtlık oluşturur.",
+          "cikti": "T.Y.6.1"
+        },
+        {
+          "id": "6-3-zitlik-5",
+          "tip": "secim",
+          "soru": "Benzer evlerdi ... kullanım amaçları farklıydı. boşluğuna hangisi uygundur?",
+          "secenekler": [
+            "Bu yüzden",
+            "Fakat",
+            "Çünkü"
+          ],
+          "dogru": "Fakat",
+          "aciklama": "Benzer görünüş ile farklı kullanım arasında karşıtlık kurulmaktadır.",
+          "cikti": "T.Y.6.1"
+        },
+        {
+          "id": "6-3-zitlik-6",
+          "tip": "secim",
+          "soru": "Hangi cümlede karşıtlık yoktur?",
+          "secenekler": [
+            "Yağdığı için içeri girdik.",
+            "Yağmur yağdı ama dışarıda kaldık.",
+            "Soğuktu fakat üşümedim."
+          ],
+          "dogru": "Yağdığı için içeri girdik.",
+          "aciklama": "İlk cümle neden-sonuç bildirir; diğerlerinde beklentiye karşıtlık vardır.",
+          "cikti": "T.Y.6.1"
+        },
+        {
+          "id": "6-3-zitlik-7",
+          "tip": "secim",
+          "soru": "Tam tersine ifadesi neyi vurgular?",
+          "secenekler": [
+            "İki olayın aynı zamanını",
+            "Bir kelimenin kökünü",
+            "Önceki düşüncenin karşı yönünü"
+          ],
+          "dogru": "Önceki düşüncenin karşı yönünü",
+          "aciklama": "Tam tersine önceki yargının aksi yöndeki düşünceyi başlatır.",
+          "cikti": "T.Y.6.1"
+        },
+        {
+          "id": "6-3-zitlik-8",
+          "tip": "secim",
+          "soru": "Uzakta olmasına rağmen buluşmaya geldi. cümlesinin anlamı hangisidir?",
+          "secenekler": [
+            "Buluşmanın zamanı belirtilmemiştir diye cümle anlamsızdır",
+            "Uzaklık beklentisine karşı katılım gerçekleşmiştir",
+            "Uzaklık katılımın tek nedenidir"
+          ],
+          "dogru": "Uzaklık beklentisine karşı katılım gerçekleşmiştir",
+          "aciklama": "Rağmen sözü engelleyici olabilecek duruma karşı sonucu gösterir.",
+          "cikti": "T.Y.6.1"
+        },
+        {
+          "id": "6-3-zitlik-9",
+          "tip": "secim",
+          "soru": "Zıtlık ilişkisini koruyan yeniden yazım hangisidir? Kısaydı fakat açıklayıcıydı.",
+          "secenekler": [
+            "Kısa olmasına rağmen açıklayıcıydı.",
+            "Kısa olduğu için açıklayıcıydı.",
+            "Kısa olursa açıklayıcı olurdu."
+          ],
+          "dogru": "Kısa olmasına rağmen açıklayıcıydı.",
+          "aciklama": "Rağmen yapısı kısa olma ile açıklayıcı olma arasındaki karşıt beklentiyi korur.",
+          "cikti": "T.Y.6.1"
+        },
+        {
+          "id": "6-3-zitlik-10",
+          "tip": "secim",
+          "soru": "Hem ... hem de yapısı her kullanımda zıtlık kurar mı?",
+          "secenekler": [
+            "Evet; cümleye bakmak gerekmez",
+            "Hayır; hiçbir anlam ilişkisi kuramaz",
+            "Hayır; çoğu kullanımda birlikte bulunmayı da bildirebilir"
+          ],
+          "dogru": "Hayır; çoğu kullanımda birlikte bulunmayı da bildirebilir",
+          "aciklama": "İşlev bağlama bağlıdır; bir söz kalıbı otomatik olarak tek etiketle değerlendirilmez.",
+          "cikti": "T.Y.6.1"
+        }
+      ]
+    },
+    {
+      "kod": "6-3-sebep",
+      "ad": "Sebep bildiren dil yapıları",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.Y.6.1",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Sebep bildiren yapılar bir olayın niçin gerçekleştiğini açıklar. Çünkü, bu nedenle, -dığı için ve yüzünden gibi ifadeler bu ilişkiyi kurabilir. Amaç ise henüz ulaşılmak istenen sonuçtur; her için sözü aynı işlevde değildir. Yağmur yağdığı için beklemek sebep, ıslanmamak için beklemek amaç bildirir. Yazarken ilişkinin yönünü kontrol et; gerekçeyi sonuçla karıştırma.</p><ul><li>Yol kapalı olduğu için bekledik.</li><li>Kaynak eksikti; bu nedenle yeniden araştırdık.</li><li>Yağmur yüzünden oyun ertelendi.</li></ul>",
+      "ornekler": [
+        "Yol kapalı olduğu için bekledik.",
+        "Kaynak eksikti; bu nedenle yeniden araştırdık.",
+        "Yağmur yüzünden oyun ertelendi."
+      ],
+      "testler": [
+        {
+          "id": "6-3-sebep-1",
+          "tip": "secim",
+          "soru": "Cümlede neden hangisidir? Yol kapandığı için geç kaldık.",
+          "secenekler": [
+            "Yolun kapanması",
+            "Geç kalmamız",
+            "Yarın yola çıkmamız"
+          ],
+          "dogru": "Yolun kapanması",
+          "aciklama": "Geç kalma sonucunu doğuran durum yolun kapanmasıdır.",
+          "cikti": "T.Y.6.1"
+        },
+        {
+          "id": "6-3-sebep-2",
+          "tip": "secim",
+          "soru": "Sebep bildiren bağlaç hangisidir?",
+          "secenekler": [
+            "Fakat",
+            "Ya da",
+            "Çünkü"
+          ],
+          "dogru": "Çünkü",
+          "aciklama": "Çünkü ardından önceki yargının gerekçesini getirir.",
+          "cikti": "T.Y.6.1"
+        },
+        {
+          "id": "6-3-sebep-3",
+          "tip": "secim",
+          "soru": "Kaynak eksikti; bu nedenle araştırma sürdü. cümlesinde sonuç nedir?",
+          "secenekler": [
+            "Kaynağın renkli olması",
+            "Araştırmanın sürmesi",
+            "Kaynağın eksik olması"
+          ],
+          "dogru": "Araştırmanın sürmesi",
+          "aciklama": "Bu nedenle sonrasındaki yargı, önceki durumun sonucudur.",
+          "cikti": "T.Y.6.1"
+        },
+        {
+          "id": "6-3-sebep-4",
+          "tip": "secim",
+          "soru": "Hangi cümle sebep ilişkisi kurar?",
+          "secenekler": [
+            "Çatı aktığı için sınıf değiştirildi.",
+            "Sınıfı görmek için geldik.",
+            "Yeni sınıf daha genişti."
+          ],
+          "dogru": "Çatı aktığı için sınıf değiştirildi.",
+          "aciklama": "Akma durumu, sınıf değiştirmenin gerçekleşmiş nedenidir.",
+          "cikti": "T.Y.6.1"
+        },
+        {
+          "id": "6-3-sebep-5",
+          "tip": "secim",
+          "soru": "Yüzünden sözü hangi cümlede neden bildirir?",
+          "secenekler": [
+            "Kapının yüzünü boyadık.",
+            "Yüzünden bir gülümseme geçti.",
+            "Gürültü yüzünden duyamadık."
+          ],
+          "dogru": "Gürültü yüzünden duyamadık.",
+          "aciklama": "Gürültü, duyamama sonucunun nedeni olarak gösterilir.",
+          "cikti": "T.Y.6.1"
+        },
+        {
+          "id": "6-3-sebep-6",
+          "tip": "secim",
+          "soru": "Eksik bilgi karar vermemizi zorlaştırdı. cümlesinin sebep ilişkili eş değeri hangisidir?",
+          "secenekler": [
+            "Karar verirsek bilgi eksilir.",
+            "Bilgi eksik olduğu için karar vermekte zorlandık.",
+            "Karar vermek için bilgiyi eksilttik."
+          ],
+          "dogru": "Bilgi eksik olduğu için karar vermekte zorlandık.",
+          "aciklama": "İlk seçenekte aynı neden ve sonuç ilişkisi korunur.",
+          "cikti": "T.Y.6.1"
+        },
+        {
+          "id": "6-3-sebep-7",
+          "tip": "secim",
+          "soru": "Hangi ifade sonuçtan sonra gerekçeyi açıklar?",
+          "secenekler": [
+            "Bekledik çünkü kapı kilitliydi.",
+            "Kapı kilitliydi ama beklemedik.",
+            "Beklersek kapı açılır."
+          ],
+          "dogru": "Bekledik çünkü kapı kilitliydi.",
+          "aciklama": "Çünkü sözü bekleme kararının sebebini ardından verir.",
+          "cikti": "T.Y.6.1"
+        },
+        {
+          "id": "6-3-sebep-8",
+          "tip": "secim",
+          "soru": "İçeri girdik ... yağmur başlamıştı. boşluğuna hangisi uygundur?",
+          "secenekler": [
+            "Rağmen",
+            "Veya",
+            "Çünkü"
+          ],
+          "dogru": "Çünkü",
+          "aciklama": "İkinci yargı içeri girmenin gerekçesini açıkladığı için çünkü uygundur.",
+          "cikti": "T.Y.6.1"
+        },
+        {
+          "id": "6-3-sebep-9",
+          "tip": "secim",
+          "soru": "Soğuk nedeniyle etkinlik ertelendi. cümlesinde nedeniyle nasıl işlev görür?",
+          "secenekler": [
+            "Konuşmacının adını gösterir",
+            "Sebep ilişkisi kurar",
+            "Karşılaştırma derecesi bildirir"
+          ],
+          "dogru": "Sebep ilişkisi kurar",
+          "aciklama": "Soğuk, ertelemenin gerekçesi olarak belirtilmiştir.",
+          "cikti": "T.Y.6.1"
+        },
+        {
+          "id": "6-3-sebep-10",
+          "tip": "secim",
+          "soru": "Sebep ile amacı doğru ayıran açıklama hangisidir?",
+          "secenekler": [
+            "Yorgun olduğu için durdu neden; dinlenmek için durdu amaç bildirir",
+            "İki cümle de her durumda yalnız zaman bildirir",
+            "İlk cümle amaç, ikincisi geçmişteki neden bildirir"
+          ],
+          "dogru": "Yorgun olduğu için durdu neden; dinlenmek için durdu amaç bildirir",
+          "aciklama": "Yorgunluk var olan neden, dinlenmek ise hedeflenen sonuçtur.",
+          "cikti": "T.Y.6.1"
+        }
+      ]
+    }
+  ],
+  "dinleme": [
+    {
+      "id": "6-3-dinleme",
+      "baslik": "Ortak Oyunun Notları",
+      "metin": "Çevrim içi buluşmada iki okul aynı oyunun farklı kurallarını anlattı. Birinde yeni başlayanlara ikinci deneme hakkı tanınıyor, diğerinde oyuncu ilk hatada sırasını bırakıyordu. Öğrenciler bir kuralı yanlış ilan etmek yerine gerekçelerini sordu. Küçük bahçe ve yeni oyuncular, ikinci deneme hakkının neden tercih edildiğini açıklıyordu. İki grup, diğer kuralı da deneyip görüş toplamaya karar verdi. Yalnız kazananların değil, bekleyenlerin ve yeni başlayanların da deneyimleri kaydedilecekti. Bu seçim, değerlendirmede katılımın da önemli görüldüğünü düşündürüyordu. Bir öğrencinin sözü bütün grubun değişmez fikri sayılmayacaktı.",
+      "tts": {
+        "dil": "tr-TR",
+        "sesYoksa": "metin"
+      },
+      "sorular": [
+        {
+          "id": "6-3-dinleme-1",
+          "tip": "secim",
+          "soru": "“Ortak Oyunun Notları” dinleme metnine göre: Kurallar hangi yönden farklıdır?",
+          "secenekler": [
+            "İlk hatadan sonra verilen hak bakımından",
+            "Oyunun her iki yerde de yasak olması bakımından",
+            "Her iki okulun aynı genişlikte olması bakımından"
+          ],
+          "dogru": "İlk hatadan sonra verilen hak bakımından",
+          "aciklama": "Bir grupta ikinci deneme vardır; diğerinde sıra bırakılır.",
+          "cikti": "T.D.6.9"
+        },
+        {
+          "id": "6-3-dinleme-2",
+          "tip": "secim",
+          "soru": "“Ortak Oyunun Notları” dinleme metnine göre: Katılımın önemsendiği hangi seçimden çıkarılır?",
+          "secenekler": [
+            "Yalnız kazananların puanının yazılmasından",
+            "Hiç görüş alınmamasından",
+            "Yeni başlayan ve bekleyenlerin görüşlerinin de alınmasından"
+          ],
+          "dogru": "Yeni başlayan ve bekleyenlerin görüşlerinin de alınmasından",
+          "aciklama": "Farklı katılımcıların deneyimlerinin kaydı kapsamlı değerlendirmeye işaret eder.",
+          "cikti": "T.D.6.8"
+        },
+        {
+          "id": "6-3-dinleme-3",
+          "tip": "secim",
+          "soru": "“Ortak Oyunun Notları” dinleme metnine göre: Tek kişinin sözünün herkese mal edilmemesi neyi gözetir?",
+          "secenekler": [
+            "Kuralların hiç değişmeyeceğini",
+            "Grup içindeki farklı görüşleri",
+            "Her okulun aynı olduğunu"
+          ],
+          "dogru": "Grup içindeki farklı görüşleri",
+          "aciklama": "Bir bireyin görüşü grubun bütün üyelerinin görüşünü kanıtlamaz.",
+          "cikti": "T.D.6.8"
+        },
+        {
+          "id": "6-3-dinleme-4",
+          "tip": "secim",
+          "soru": "“Ortak Oyunun Notları” dinleme metnine göre: Dinlenenin özünü koruyan özet hangisidir?",
+          "secenekler": [
+            "İki grup farklı kuralları gerekçeleriyle inceleyip denemeyi planlar",
+            "Bir okul diğer bütün oyunları yasaklar",
+            "Öğrenciler yalnız kazananın sözünü dinler"
+          ],
+          "dogru": "İki grup farklı kuralları gerekçeleriyle inceleyip denemeyi planlar",
+          "aciklama": "Özet, farkları anlama ve farklı katılımcılarla deneme planını kapsar.",
+          "cikti": "T.D.6.20"
+        }
+      ]
+    }
+  ],
+  "yazmaGorevleri": [
+    {
+      "id": "6-3-yazma",
+      "baslik": "Aynı Oyun, Farklı İhtiyaçlar",
+      "yonerge": "İki kurgusal grubun aynı oyunu farklı kurallarla oynadığını düşün. 120–200 kelimede ortak ve farklı yönleri, olası nedenleriyle anlat. Bir grubu bütün bir ülkenin temsilcisi gibi gösterme. En az bir sebep ve bir zıtlık ifadesi kullan. Son paragrafta iki grubun birbirine sorabileceği bir soru öner.",
+      "minKelime": 120,
+      "maxKelime": 200,
+      "ciktilar": [
+        "T.Y.6.1",
+        "T.Y.6.9",
+        "T.Y.6.21",
+        "T.Y.6.22"
+      ],
+      "ogretmenDegerlendirmeli": true,
+      "rubrik": [
+        {
+          "olcut": "Amaca ve konuya uygunluk",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Düşünce düzeni ve gerekçelendirme",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Bağlama uygun dil yapıları ve söz varlığı",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Yazım, noktalama ve gözden geçirme",
+          "enDusuk": 0,
+          "enYuksek": 4
+        }
+      ]
+    }
+  ],
+  "lgsSorulari": []
+}

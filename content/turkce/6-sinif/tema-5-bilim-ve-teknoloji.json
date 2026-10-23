@@ -1,0 +1,1209 @@
+{
+  "belgeTuru": "tema",
+  "semaSurumu": "1.0",
+  "sinif": 6,
+  "program": "TYMM",
+  "tema": 5,
+  "temaAdi": "Bilim ve Teknoloji",
+  "durum": "incelemeye_hazir",
+  "kaynak": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/278",
+  "kaynak_dogrulanmadi": false,
+  "ogrenmeCiktilari": [
+    "T.D.6.13",
+    "T.D.6.16",
+    "T.D.6.18",
+    "T.D.6.2",
+    "T.D.6.25",
+    "T.K.6.1",
+    "T.K.6.10",
+    "T.K.6.11",
+    "T.K.6.23",
+    "T.K.6.26",
+    "T.O.6.14",
+    "T.O.6.20",
+    "T.O.6.27",
+    "T.O.6.3",
+    "T.Y.6.1",
+    "T.Y.6.14",
+    "T.Y.6.19",
+    "T.Y.6.20",
+    "T.Y.6.21",
+    "T.Y.6.22",
+    "T.Y.6.3",
+    "T.Y.6.8"
+  ],
+  "sozVarligi": {
+    "aciklama": "Tanım ve örnekler özgündür. T.O.6.21 ilk temada tanıtılan söz varlığını geliştirme çıktısıdır; sonraki temalarda tekrar edilir.",
+    "kelimeler": [
+      {
+        "kelime": "bilim",
+        "anlam": "Sistemli yöntemlerle bilgi üretme ve sınama etkinliği",
+        "ornek": "Bilim sorularla ve kanıtlarla ilerler.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "teknoloji",
+        "anlam": "Bilgiyi bir ihtiyacı karşılayan araç veya yönteme dönüştürme",
+        "ornek": "Teknoloji tasarımını ihtiyaca göre değerlendirdik.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "varsayım",
+        "anlam": "Sınanmak üzere başlangıçta doğru kabul edilen düşünce",
+        "ornek": "Varsayımı sonuçla karıştırmadık.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "deney",
+        "anlam": "Bir düşünceyi kontrollü koşullarda sınama işlemi",
+        "ornek": "Deneyde tek değişkeni değiştirdik.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "veri",
+        "anlam": "İnceleme amacıyla toplanan gözlem veya ölçüm bilgisi",
+        "ornek": "Veri tablosuna eksik ölçümleri de işledik.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "bulgu",
+        "anlam": "Araştırma sonucunda elde edilen bilgi",
+        "ornek": "Bulgu ilk tahminimizi desteklemedi.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "ölçüm",
+        "anlam": "Bir niceliği belirli bir birimle belirleme işlemi",
+        "ornek": "Ölçüm aynı araçla tekrarlandı.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "değişken",
+        "anlam": "Araştırmada farklı değerler alabilen özellik",
+        "ornek": "Işık miktarını değişken olarak seçtik.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "model",
+        "anlam": "Bir yapıyı veya süreci temsil eden düzenek",
+        "ornek": "Model gerçek köprünün bütün ayrıntılarını göstermez.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "tasarım",
+        "anlam": "Bir ürünün yapısını ve işleyişini planlama",
+        "ornek": "Tasarımın ilk çizimini yeniledik.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "prototip",
+        "anlam": "Denenmek üzere hazırlanan ilk ürün örneği",
+        "ornek": "Prototip kartondan yapıldı.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "algoritma",
+        "anlam": "Bir işi çözmek için izlenen belirli adımlar dizisi",
+        "ornek": "Algoritmayı arkadaşımın uygulamasını istedim.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "yazılım",
+        "anlam": "Bilgisayara işlem yaptıran komutlar bütünü",
+        "ornek": "Yazılım dosyayı sıralamayı sağladı.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "sensör",
+        "anlam": "Çevredeki bir değişimi algılayan aygıt",
+        "ornek": "Sensörün verdiği değeri kontrol ettik.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "enerji",
+        "anlam": "İş yapabilme veya değişim oluşturabilme kapasitesi",
+        "ornek": "Modelin enerji kaynağını işaretledik.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "yenilenebilir",
+        "anlam": "Doğal süreçlerle yeniden oluşabilen",
+        "ornek": "Yenilenebilir kaynaklar hakkında bir afiş hazırladık.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "verim",
+        "anlam": "Kullanılan kaynakla elde edilen yarar arasındaki ilişki",
+        "ornek": "Aracın verimini aynı koşullarda karşılaştırdık.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "kanıtlamak",
+        "anlam": "Bir yargıyı yeterli bulguyla desteklemek",
+        "ornek": "Tek denemenin iddiayı kanıtlamak için yetmediğini gördük.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "sorgulamak",
+        "anlam": "Bir bilgiyi nedenleri ve dayanaklarıyla incelemek",
+        "ornek": "Sonucun kaynağını sorgulamak istedik.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "yapay zekâ",
+        "anlam": "Verilerden yararlanarak belirli görevleri yerine getiren bilgisayar sistemleri alanı",
+        "ornek": "Yapay zekâ çıktısındaki bilgiyi başka kaynakla kontrol ettik.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "otomasyon",
+        "anlam": "Bir işin belirlenen kurallarla kendiliğinden yürütülmesi",
+        "ornek": "Sulama otomasyonu tasarladık.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "hata payı",
+        "anlam": "Bir ölçümde beklenebilen belirsizlik aralığı",
+        "ornek": "Hata payını grafiğin altına yazdık.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "çözüm",
+        "anlam": "Bir sorunu gidermek için bulunan yol",
+        "ornek": "Çözüm küçük bir denemeyle sınandı.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "onarım",
+        "anlam": "Bozulan bir şeyi yeniden işler hâle getirme",
+        "ornek": "Onarım atölyesinde güvenlik kurallarını izledik.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "erişilebilirlik",
+        "anlam": "Bir ürünün farklı ihtiyaçları olan kişilerce kullanılabilmesi",
+        "ornek": "Düğmelerin erişilebilirliğini değerlendirdik.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "çıktı",
+        "anlam": "Bir işlem veya sistem sonunda elde edilen ürün",
+        "ornek": "Programın çıktısı her zaman doğru olmayabilir.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "girdi",
+        "anlam": "Bir sisteme işlenmek üzere verilen bilgi",
+        "ornek": "Eksik girdi sonucu değiştirdi.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "güvenilirlik",
+        "anlam": "Bir bilginin veya aracın tutarlı ve dayanaklı olma niteliği",
+        "ornek": "Kaynağın güvenilirliğini değerlendirdik.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "yenilik",
+        "anlam": "Daha önceki uygulamaya yeni bir özellik ekleyen değişim",
+        "ornek": "Yenilik küçük bir ihtiyaçtan doğdu.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "uygulama",
+        "anlam": "Bir düşüncenin işleme dönüştürülmesi",
+        "ornek": "Uygulama sırasında planı değiştirdik.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      }
+    ],
+    "esAnlamlilar": [
+      [
+        "varsayım",
+        "faraziye"
+      ]
+    ],
+    "zitAnlamlilar": [
+      [
+        "güvenilir",
+        "güvenilmez"
+      ]
+    ],
+    "esSesliler": [],
+    "deyimler": [],
+    "atasozleri": []
+  },
+  "okumaParcalari": [
+    {
+      "id": "6-5-okuma-1",
+      "baslik": "Konuşan Saksının Sessiz Günü",
+      "tur": "oykuleyici",
+      "metin": "Bilim kulübünün masasında duran saksı, bir haftadır öğrencilerin gözdesiydi. Toprağa yerleştirilen küçük algılayıcı, nem değeri belirlenen sınırın altına düşünce ekranda “Suyu kontrol et.” uyarısını gösteriyordu. Derya buna konuşan saksı adını vermişti. Arkadaşı Can, “Yakında çiçekler bize ders verecek.” diye takıldı. Aslında saksı konuşmuyor, öğrencilerin yazdığı kurala göre bir değer gösteriyordu. İkisi de bunu biliyordu; yine de seçtikleri ad tasarıma eğlence katmıştı.\nPerşembe günü bekledikleri uyarı gelmedi. Derya toprağın yüzeyini kuru görünce yazılımın bozulduğunu düşündü. Can ise algılayıcının doğru ölçtüğünde ısrar etti. Öğretmenleri hangi parçanın hatalı olduğunu tahmin ederek değiştirmeden önce gözlemlerini kaydetmelerini istedi. Toprağın yüzeyi, algılayıcının yeri, ekrandaki değer ve son sulama zamanı ayrı satırlara yazıldı. Böylece tartışmaları bir iddia yarışından incelemeye dönüştü.\nAlgılayıcıyı çıkarıp bağlantıları kontrol ettiler. Kablolardan biri gevşemişti. Bağlantıyı düzelttikten sonra ekrandaki sayı değişti, fakat ilk bekledikleri uyarı yine görünmedi. Bu kez programdaki sınır değerine baktılar. Önceki denemede kullandıkları sayı hâlâ oradaydı. Saksı ve toprak değiştiği hâlde aynı sınırı hiç sınamadan kullanmışlardı. Tek bir düzeltmeyle bütün sorunun çözüleceğini düşünmeleri aceleci olmuştu.\nÖğrenciler yeni denemeyi bitkinin bakımını aksatmadan, öğretmenin yönlendirmesiyle planladı. Ölçümleri aynı aralıklarla kaydettiler; uyarının ne zaman çıktığını ve hangi durumda yanıltıcı olduğunu not ettiler. Prototiplerinin her bitki için geçerli bir bakım kılavuzu olmadığını afişe eklediler. Uyarı, insan gözleminin yerini almıyor; kontrol edilmesi gereken bir bilgi sunuyordu. Başarılı görünmesi için hataları saklamak yerine sınıfa göstermek istediler.\nSunum günü Derya, saksının o sessiz gününü anlattı. Can, başlangıçta araca duyduğu güvenin kanıta dayanmadığını kabul etti. İki arkadaş için asıl yenilik, ekrana güzel bir uyarı koymak değildi. Bir sistemin verdiği sonucu sorgulayabilmek ve sınırlarını açıklayabilmekti. Masanın üstündeki saksı pencereye dönük duruyordu. Derya, “Bugün de sessiz ama bize epey şey öğretti.” dedi. Bu sözü gerçek anlamıyla almayan arkadaşları gülümsedi. Sonra biri kablo bağlantısının nasıl denetlendiğini, bir başkası sınır değerinin neden değiştiğini sordu. Artık sunum yalnız çalışan bir ürünü göstermekle kalmıyor, çalışmanın nasıl düzeltildiğini de anlatıyordu. Kulübün not defterinde ilk kez hatalar için ayrı bir bölüm açılmıştı.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; kitap veya internet metninden alınmamıştır.",
+      "sorular": [
+        {
+          "id": "6-5-okuma-1-1",
+          "tip": "secim",
+          "soru": "“Konuşan Saksının Sessiz Günü” metnine göre: Olayı başlatan durum hangisidir?",
+          "secenekler": [
+            "Saksının kırılması",
+            "Beklenen uyarının görünmemesi",
+            "Kulübün taşınması"
+          ],
+          "dogru": "Beklenen uyarının görünmemesi",
+          "aciklama": "Perşembe günü uyarı gelmeyince inceleme başlar.",
+          "cikti": "T.O.6.14"
+        },
+        {
+          "id": "6-5-okuma-1-2",
+          "tip": "secim",
+          "soru": "“Konuşan Saksının Sessiz Günü” metnine göre: Olayın temel mekânı hangisidir?",
+          "secenekler": [
+            "Bilim kulübünün çalışma alanı",
+            "Tren istasyonu",
+            "Bir spor salonu"
+          ],
+          "dogru": "Bilim kulübünün çalışma alanı",
+          "aciklama": "Saksı, kablolar ve sunum kulübün çalışma masası çevresinde anlatılır.",
+          "cikti": "T.O.6.14"
+        },
+        {
+          "id": "6-5-okuma-1-3",
+          "tip": "secim",
+          "soru": "“Konuşan Saksının Sessiz Günü” metnine göre: Gevşek kablonun bulunması olay örgüsünde ne işe yarar?",
+          "secenekler": [
+            "Bütün ölçümlerin doğru olduğunu kanıtlar",
+            "Öğrencilerin ilk gününe geri dönülmesini sağlar",
+            "Sorunun ilk nedenlerinden birini ortaya çıkarır"
+          ],
+          "dogru": "Sorunun ilk nedenlerinden birini ortaya çıkarır",
+          "aciklama": "Bağlantı düzeltildiğinde sayı değişir; ancak ikinci sorun da incelenir.",
+          "cikti": "T.O.6.14"
+        },
+        {
+          "id": "6-5-okuma-1-4",
+          "tip": "secim",
+          "soru": "“Konuşan Saksının Sessiz Günü” metnine göre: Derya'nın saksının öğrettiğini söylemesi hangi söz sanatına örnektir?",
+          "secenekler": [
+            "Tanık gösterme",
+            "Kişileştirme",
+            "Yalnız karşıt anlamlı kelime kullanımı"
+          ],
+          "dogru": "Kişileştirme",
+          "aciklama": "Öğretme davranışı cansız saksıya aktarılmıştır.",
+          "cikti": "T.O.6.20"
+        },
+        {
+          "id": "6-5-okuma-1-5",
+          "tip": "secim",
+          "soru": "“Konuşan Saksının Sessiz Günü” metnine göre: Saksıdaki sorunu inceleme kararı nasıl bir değişim başlatır?",
+          "secenekler": [
+            "İddialar yerine gözlemlerin kaydedilmesini",
+            "İki arkadaşın denemeyi tamamen bırakmasını",
+            "Sunumun ilk günden tamamlanmasını"
+          ],
+          "dogru": "İddialar yerine gözlemlerin kaydedilmesini",
+          "aciklama": "Öğretmenin önerisiyle gözlemler ayrı satırlara yazılır ve inceleme başlar.",
+          "cikti": "T.O.6.14"
+        },
+        {
+          "id": "6-5-okuma-1-6",
+          "tip": "secim",
+          "soru": "“Konuşan Saksının Sessiz Günü” metnine göre: Çözüm sürecindeki doğru sıra hangisidir?",
+          "secenekler": [
+            "Sunum, saksıyı atma, ilk ölçüm",
+            "Sınırı gizleme, kayıt silme, kabloyu unutma",
+            "Kayıt tutma, bağlantıyı düzeltme, sınır değerini inceleme"
+          ],
+          "dogru": "Kayıt tutma, bağlantıyı düzeltme, sınır değerini inceleme",
+          "aciklama": "Öyküde gözlemler kaydedilir, kablo kontrol edilir ve ardından programın sınırı incelenir.",
+          "cikti": "T.O.6.14"
+        },
+        {
+          "id": "6-5-okuma-1-7",
+          "tip": "secim",
+          "soru": "“Konuşan Saksının Sessiz Günü” metnine göre: Prototipin sınırlarını açıklama kararı kimin tutumunu değiştirir?",
+          "secenekler": [
+            "Saksıyı görmeyen bir yolcunun",
+            "Başta araca koşulsuz güvenen Can'ın",
+            "Öyküde adı geçmeyen bir satıcının"
+          ],
+          "dogru": "Başta araca koşulsuz güvenen Can'ın",
+          "aciklama": "Can sunumda başlangıçtaki güveninin kanıta dayanmadığını kabul eder.",
+          "cikti": "T.O.6.14"
+        },
+        {
+          "id": "6-5-okuma-1-8",
+          "tip": "secim",
+          "soru": "“Konuşan Saksının Sessiz Günü” metnine göre: Son bölüm olay örgüsünü nasıl tamamlar?",
+          "secenekler": [
+            "Hatanın araştırma deneyimine dönüşmesini gösterir",
+            "Bütün denemelerin hiç yapılmadığını söyler",
+            "Öyküyü ilgisiz bir yarışa taşır"
+          ],
+          "dogru": "Hatanın araştırma deneyimine dönüşmesini gösterir",
+          "aciklama": "Sunumda düzeltmeler anlatılır ve defterde hata bölümü açılır.",
+          "cikti": "T.O.6.14"
+        }
+      ]
+    },
+    {
+      "id": "6-5-okuma-2",
+      "baslik": "Köprünün İkinci Denemesi",
+      "tur": "oykuleyici",
+      "metin": "Yağmurlu bir cumartesi Ekin ve Barış, okul atölyesinde kâğıttan köprü yapıyordu. Görevleri iki masa arasındaki boşluğu, yalnız kâğıt ve bant kullanarak geçmekti. Köprüye konacak ağırlığı öğretmen yerleştirecekti. Çocuklar ilk çizimi hemen beğendi. Düz bir kâğıdı iki masaya bantladılar. Köprü uzaktan bakıldığında bir kurdele gibi ince görünüyordu. Ekin rengini çok sevmişti; Barış ise yapımın birkaç dakika sürmesine şaşırmıştı.\nİlk ağırlık konduğunda kâğıdın ortası aşağı doğru eğildi. Bir sonraki küçük ağırlıkla bant ayrıldı. Ekin bütün fikrin başarısız olduğunu söyledi. Barış aynı kâğıdı daha çok bantla tutturmak istedi. Öğretmen ikisinden de önce hangi bölümün nasıl değiştiğini çizmelerini istedi. Kâğıdın eğilmesi ile bandın ayrılması aynı olay değildi. İki sorunu ayırmadan yapılan değişiklik, neyin işe yaradığını anlamalarını zorlaştırabilirdi.\nİkinci taslakta kâğıdı katlayarak farklı bir biçim verdiler. Kullanılan kâğıt sayısını ve masalar arasındaki uzaklığı değiştirmediler. Ekin, kıvrımların küçük birer tepeye benzediğini düşündü. Yeni köprü ilk ağırlıkta çökmeyince sevindi. Fakat bunu her koşulda en iyi tasarım ilan etmediler. Deneme yalnız o kâğıt, bant ve açıklık için bilgi veriyordu. Başka malzemelerle farklı sonuçlar çıkabilirdi.\nBarış not defterine “Köprü sonunda inat etmeyi bıraktı.” yazdı. Ekin bu cümleye güldü. Kâğıdın gerçekten inat etmediğini, değişen şeyin tasarımları olduğunu biliyorlardı. Yine de bu kişileştirme, ilk denemede yaşadıkları zorluğu anlatıyordu. Sunum metninde hangi cümlenin ölçüm bilgisi, hangisinin eğlenceli bir anlatım olduğunu ayırmaya karar verdiler. Sonuçları süslü sözlerle olduğundan büyük göstermeyeceklerdi.\nAtölye kapanırken iki köprüyü de yan yana koydular. İlk köprüyü saklamaları, onu yeniden kullanacakları anlamına gelmiyordu. Nasıl düşündüklerini ve neden yöntem değiştirdiklerini gösterecekti. Ekin artık ilk denemeye yalnız başarısızlık demiyordu. O deneme, neyi gözlemlemeleri gerektiğini öğretmişti. Barış da daha çok malzemenin her zaman daha iyi çözüm olmadığını not etti. Son afişte iki fotoğraf, kısa bir tablo ve yeni sorular vardı. “Katların sayısı değişirse ne olur?” sorusunu gelecek haftaya bıraktılar. O gün bütün cevapları bulmak istemiyorlardı. Dikkatle kurulmuş bir sonraki denemenin, aceleyle verilmiş büyük bir sonuçtan daha yararlı olabileceğini görmüşlerdi. İki arkadaş masayı toplarken köprülerin altına tarih etiketleri koydu; böylece hangi denemenin önce yapıldığı da unutulmayacaktı.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; kitap veya internet metninden alınmamıştır.",
+      "sorular": [
+        {
+          "id": "6-5-okuma-2-1",
+          "tip": "secim",
+          "soru": "“Köprünün İkinci Denemesi” metnine göre: Öykünün zamanı nasıl belirtilmiştir?",
+          "secenekler": [
+            "Yağmurlu bir cumartesi",
+            "Yaz tatilinin son gecesi",
+            "Belirli olmayan bir yılbaşı"
+          ],
+          "dogru": "Yağmurlu bir cumartesi",
+          "aciklama": "İlk cümle çalışmanın yağmurlu bir cumartesi yapıldığını söyler.",
+          "cikti": "T.O.6.14"
+        },
+        {
+          "id": "6-5-okuma-2-2",
+          "tip": "secim",
+          "soru": "“Köprünün İkinci Denemesi” metnine göre: Temel çatışma hangisidir?",
+          "secenekler": [
+            "İki öğrencinin aynı okula gitmemesi",
+            "Öğretmenin bütün malzemeleri saklaması",
+            "İlk tasarımın beklenen dayanıklılığı göstermemesi"
+          ],
+          "dogru": "İlk tasarımın beklenen dayanıklılığı göstermemesi",
+          "aciklama": "Köprü eğilip bant ayrılınca tasarımı geliştirme ihtiyacı doğar.",
+          "cikti": "T.O.6.14"
+        },
+        {
+          "id": "6-5-okuma-2-3",
+          "tip": "secim",
+          "soru": "“Köprünün İkinci Denemesi” metnine göre: İkinci denemede ne değiştirilmiştir?",
+          "secenekler": [
+            "Kullanılan kâğıt sayısı",
+            "Kâğıdın katlanma biçimi",
+            "Masa sayısı"
+          ],
+          "dogru": "Kâğıdın katlanma biçimi",
+          "aciklama": "Kâğıt katlanmış; kâğıt sayısı ve açıklık aynı tutulmuştur.",
+          "cikti": "T.O.6.14"
+        },
+        {
+          "id": "6-5-okuma-2-4",
+          "tip": "secim",
+          "soru": "“Köprünün İkinci Denemesi” metnine göre: Kurdele gibi ince sözünde hangi sanat vardır?",
+          "secenekler": [
+            "Benzetme",
+            "Kişileştirme",
+            "Konuşturma"
+          ],
+          "dogru": "Benzetme",
+          "aciklama": "Köprü incelik yönünden kurdeleye benzetilir.",
+          "cikti": "T.O.6.20"
+        },
+        {
+          "id": "6-5-okuma-2-5",
+          "tip": "secim",
+          "soru": "“Köprünün İkinci Denemesi” metnine göre: Köprü inat etmeyi bıraktı sözünde ne yapılmıştır?",
+          "secenekler": [
+            "Gerçek bir insanın konuşması aktarılmıştır",
+            "İki sayısal ölçüm karşılaştırılmıştır",
+            "Cansız varlığa insana özgü davranış verilmiştir"
+          ],
+          "dogru": "Cansız varlığa insana özgü davranış verilmiştir",
+          "aciklama": "İnat etmek insana özgü bir tutum olarak köprüye aktarılır.",
+          "cikti": "T.O.6.20"
+        },
+        {
+          "id": "6-5-okuma-2-6",
+          "tip": "secim",
+          "soru": "“Köprünün İkinci Denemesi” metnine göre: Ekin'in ilk ve son tutumu arasındaki değişim nedir?",
+          "secenekler": [
+            "Başta kâğıt kullanırken sonunda tahtaya geçer",
+            "İlk denemeyi yalnız başarısızlık sayarken sonra öğrenme fırsatı olarak görür",
+            "Önce ölçüm yaparken sonunda bütün notları siler"
+          ],
+          "dogru": "İlk denemeyi yalnız başarısızlık sayarken sonra öğrenme fırsatı olarak görür",
+          "aciklama": "Son bölümde ilk denemenin gözlem yapmayı öğrettiğini kabul eder.",
+          "cikti": "T.O.6.14"
+        },
+        {
+          "id": "6-5-okuma-2-7",
+          "tip": "secim",
+          "soru": "“Köprünün İkinci Denemesi” metnine göre: Tarih etiketleri olayın sonunda hangi ihtiyacı karşılar?",
+          "secenekler": [
+            "Denemelerin sırasını korumayı",
+            "Köprünün ağırlığını artırmayı",
+            "Kâğıdı yağmurdan korumayı"
+          ],
+          "dogru": "Denemelerin sırasını korumayı",
+          "aciklama": "Etiketler hangi denemenin önce yapıldığının unutulmaması için konur.",
+          "cikti": "T.O.6.14"
+        },
+        {
+          "id": "6-5-okuma-2-8",
+          "tip": "secim",
+          "soru": "“Köprünün İkinci Denemesi” metnine göre: Olayın çözümünü en iyi anlatan ifade hangisidir?",
+          "secenekler": [
+            "İlk fikri hiçbir inceleme yapmadan savunmak",
+            "Bütün malzemeleri rastgele değiştirmek",
+            "Sorunları ayırıp kontrollü bir değişiklikle yeni tasarımı sınamak"
+          ],
+          "dogru": "Sorunları ayırıp kontrollü bir değişiklikle yeni tasarımı sınamak",
+          "aciklama": "Köprünün eğilmesi ve bandın ayrılması ayrı incelenir, sonra tek temel özellik değiştirilir.",
+          "cikti": "T.O.6.14"
+        }
+      ]
+    }
+  ],
+  "konular": [
+    {
+      "kod": "6-5-kisa-cizgi",
+      "ad": "Kök ve ek gösteriminde kısa çizgi",
+      "kategori": "yazim-noktalama",
+      "cikti": "T.Y.6.21",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Kısa çizgi dil incelemelerinde kelimenin kök, gövde ve eklerini ayırmak için kullanılabilir. Fiil kök ve gövdeleri gösterilirken sonuna çizgi konur. İsim yapma eki tek başına gösterildiğinde başına, fiil yapma eki gösterildiğinde başına ve sonuna çizgi getirilebilir. Bunlar inceleme gösterimleridir; günlük yazıda her kelimenin ekleri çizgiyle ayrılmaz. Kelimeyi cümlede doğru yazmakla yapısını çözümlemede göstermek farklı işlerdir.</p><ul><li>kitap-lık-lar</li><li>yaz-</li><li>İsim yapan -lık ve fiil yapan -la- ekleri</li></ul>",
+      "ornekler": [
+        "kitap-lık-lar",
+        "yaz-",
+        "İsim yapan -lık ve fiil yapan -la- ekleri"
+      ],
+      "testler": [
+        {
+          "id": "6-5-kisa-cizgi-1",
+          "tip": "secim",
+          "soru": "Kitaplıklar kelimesinin bölümlerini gösteren çözümleme hangisidir?",
+          "secenekler": [
+            "ki-taplıklar",
+            "kitaplı-klar",
+            "kitap-lık-lar"
+          ],
+          "dogru": "kitap-lık-lar",
+          "aciklama": "Kitap kökü, -lık yapım eki ve -lar çoğul eki çizgiyle ayrılmıştır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-5-kisa-cizgi-2",
+          "tip": "secim",
+          "soru": "Yazmak fiilinin kökü incelemede nasıl gösterilir?",
+          "secenekler": [
+            "yaz:",
+            "yaz-",
+            "yaz/"
+          ],
+          "dogru": "yaz-",
+          "aciklama": "Fiil kökü sonuna kısa çizgi konarak gösterilir.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-5-kisa-cizgi-3",
+          "tip": "secim",
+          "soru": "Tek başına isim yapma eki doğru nasıl gösterilir?",
+          "secenekler": [
+            "-lık",
+            "lık-",
+            "/lık"
+          ],
+          "dogru": "-lık",
+          "aciklama": "İsim yapma ekinin başına kısa çizgi getirilir.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-5-kisa-cizgi-4",
+          "tip": "secim",
+          "soru": "Tek başına fiil yapma eki için doğru gösterim hangisidir?",
+          "secenekler": [
+            "la/",
+            "la:",
+            "-la-"
+          ],
+          "dogru": "-la-",
+          "aciklama": "Fiil yapma ekinin başına ve sonuna kısa çizgi konur.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-5-kisa-cizgi-5",
+          "tip": "secim",
+          "soru": "Gözlük kelimesinin inceleme gösterimi hangisidir?",
+          "secenekler": [
+            "gözl-ük",
+            "göz-lük",
+            "g-özlük"
+          ],
+          "dogru": "göz-lük",
+          "aciklama": "Kök göz ve yapım eki -lük, kısa çizgiyle ayrılır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-5-kisa-cizgi-6",
+          "tip": "secim",
+          "soru": "Cümle içinde normal yazım hangisidir?",
+          "secenekler": [
+            "Kitaplıklar yenilendi.",
+            "Kitap-lık-lar yenilendi.",
+            "Kitap/lık/lar yenilendi."
+          ],
+          "dogru": "Kitaplıklar yenilendi.",
+          "aciklama": "Günlük cümlede ekler çözümlemedeki gibi çizgiyle ayrılmaz.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-5-kisa-cizgi-7",
+          "tip": "secim",
+          "soru": "Bilmek fiilinin kökünü gösteren biçim hangisidir?",
+          "secenekler": [
+            "bi-l",
+            "bil:",
+            "bil-"
+          ],
+          "dogru": "bil-",
+          "aciklama": "Bil- fiil kökünün sonunda kısa çizgi bulunur.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-5-kisa-cizgi-8",
+          "tip": "secim",
+          "soru": "Yolcular kelimesinin yapısını incelemek için hangi gösterim uygundur?",
+          "secenekler": [
+            "yolcu-l-ar",
+            "yol-cu-lar",
+            "yo-lcular"
+          ],
+          "dogru": "yol-cu-lar",
+          "aciklama": "Yol kökü, -cu yapım eki ve -lar çoğul eki ayrılmıştır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-5-kisa-cizgi-9",
+          "tip": "secim",
+          "soru": "Tuzsuz kelimesinin bölüm gösterimi hangisidir?",
+          "secenekler": [
+            "tuz-suz",
+            "tu-zsuz",
+            "tuzs-uz"
+          ],
+          "dogru": "tuz-suz",
+          "aciklama": "Tuz kökü ile -suz eki anlamlı sınırdan ayrılır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-5-kisa-cizgi-10",
+          "tip": "secim",
+          "soru": "Kök ve ekler arasındaki kısa çizginin temel işlevi nedir?",
+          "secenekler": [
+            "Kelimeyi özel ada dönüştürmek",
+            "Her kelimeyi soru yapmak",
+            "Yapı incelemesinde bölüm sınırlarını göstermek"
+          ],
+          "dogru": "Yapı incelemesinde bölüm sınırlarını göstermek",
+          "aciklama": "Çizgi çözümleme amacıyla kullanılır; kelimenin cümledeki yazımı değildir.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        }
+      ]
+    },
+    {
+      "kod": "6-5-kisaltma",
+      "ad": "Kısaltmalara gelen eklerin yazımı",
+      "kategori": "yazim-noktalama",
+      "cikti": "T.Y.6.21",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Kısaltmalara ek getirirken okunuşa bakılır. Büyük harflerle yapılan kısaltmalar genellikle harf adlarıyla okunur; ek son harfin okunuşuna göre seçilir ve kesmeyle ayrılır. Kelime gibi okunan kısaltmalarda ise bütünün söylenişi esas alınır. Küçük harfli ölçü birimlerine gelen ekler de okunuşa göre yazılır. Kuralı uygularken önce kısaltmanın nasıl söylendiğini belirle, sonra uygun eki getir.</p><ul><li>TDK’nin açıklaması</li><li>TBMM’de yapılan görüşme</li><li>TÜBİTAK’ın duyurusu</li></ul>",
+      "ornekler": [
+        "TDK’nin açıklaması",
+        "TBMM’de yapılan görüşme",
+        "TÜBİTAK’ın duyurusu"
+      ],
+      "testler": [
+        {
+          "id": "6-5-kisaltma-1",
+          "tip": "secim",
+          "soru": "TDK kısaltmasına ilgi eki doğru nasıl getirilir?",
+          "secenekler": [
+            "TDKnin",
+            "TDK’nin",
+            "TDK’nın"
+          ],
+          "dogru": "TDK’nin",
+          "aciklama": "TDK harf adlarıyla te-de-ke okunur; son ses e olduğundan -nin gelir.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-5-kisaltma-2",
+          "tip": "secim",
+          "soru": "TBMM kısaltmasının bulunma eki doğru nasıl yazılır?",
+          "secenekler": [
+            "TBMM’de",
+            "TBMM’da",
+            "TBMMde"
+          ],
+          "dogru": "TBMM’de",
+          "aciklama": "TBMM son harfi me diye okunur; -de kesmeyle ayrılır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-5-kisaltma-3",
+          "tip": "secim",
+          "soru": "TÜBİTAK kelime gibi okunduğunda ilgi eki hangisidir?",
+          "secenekler": [
+            "TÜBİTAK’nin",
+            "TÜBİTAKın",
+            "TÜBİTAK’ın"
+          ],
+          "dogru": "TÜBİTAK’ın",
+          "aciklama": "Kelime gibi okunan kısaltmada bütünün söylenişine göre -ın seçilir ve kesmeyle ayrılır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-5-kisaltma-4",
+          "tip": "secim",
+          "soru": "TRT kısaltmasına yönelme eki doğru nasıl eklenir?",
+          "secenekler": [
+            "TRTye",
+            "TRT’ye",
+            "TRT’ya"
+          ],
+          "dogru": "TRT’ye",
+          "aciklama": "TRT te-re-te okunur; yönelme eki -ye kesmeyle ayrılır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-5-kisaltma-5",
+          "tip": "secim",
+          "soru": "TDK kısaltmasının yönelme eki doğru nasıl yazılır?",
+          "secenekler": [
+            "TDK’ye",
+            "TDK’ya",
+            "TDKye"
+          ],
+          "dogru": "TDK’ye",
+          "aciklama": "Son harf ke okunur; bu söylenişe uygun -ye eki kullanılır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-5-kisaltma-6",
+          "tip": "secim",
+          "soru": "TBMM kısaltmasının ayrılma eki hangi biçimdedir?",
+          "secenekler": [
+            "TBMM’dan",
+            "TBMMden",
+            "TBMM’den"
+          ],
+          "dogru": "TBMM’den",
+          "aciklama": "Son harfin me okunuşu -den ekini gerektirir; kesme kullanılır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-5-kisaltma-7",
+          "tip": "secim",
+          "soru": "MEB kelime gibi okunduğunda ilgi eki nasıl yazılır?",
+          "secenekler": [
+            "MEBin",
+            "MEB’in",
+            "MEB’nin"
+          ],
+          "dogru": "MEB’in",
+          "aciklama": "MEB sözcük gibi okunduğunda ek bütünün söylenişine göre -in olur.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-5-kisaltma-8",
+          "tip": "secim",
+          "soru": "kg kısaltmasının kilogram okunuşuna uygun ilgi eki hangisidir?",
+          "secenekler": [
+            "kg’ın",
+            "kg’nin",
+            "kgın"
+          ],
+          "dogru": "kg’ın",
+          "aciklama": "Ölçü kısaltmasının okunuşu kilogramdır; ek bu okunuşa göre -ın olur.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-5-kisaltma-9",
+          "tip": "secim",
+          "soru": "cm kısaltmasının santimetre okunuşuna uygun yönelme eki hangisidir?",
+          "secenekler": [
+            "cm’ya",
+            "cmye",
+            "cm’ye"
+          ],
+          "dogru": "cm’ye",
+          "aciklama": "Santimetre söylenişi -ye yönelme ekini gerektirir; kesmeyle ayrılır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-5-kisaltma-10",
+          "tip": "secim",
+          "soru": "TÜBİTAK kısaltmasının bulunma eki kelime okunuşuna göre hangisidir?",
+          "secenekler": [
+            "TÜBİTAKta",
+            "TÜBİTAK’ta",
+            "TÜBİTAK’de"
+          ],
+          "dogru": "TÜBİTAK’ta",
+          "aciklama": "Son ses k sert olduğundan ve son ünlü a olduğundan -ta seçilir; kesme kullanılır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        }
+      ]
+    },
+    {
+      "kod": "6-5-ozne-yuklem",
+      "ad": "Özne ve yüklemde kişi uyumu",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.Y.6.3",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Cümlenin öznesiyle yüklemi kişi bakımından uyumlu olmalıdır. Ben çizdim, biz çizdik örneklerinde işin kim tarafından yapıldığı yüklemde de görünür. Birden çok kişi özne olduğunda anlatıcının gruba katılıp katılmadığına dikkat edilir. Özne-yüklem uyumunu incelemek bütün çoğul öznelerin mutlaka çoğul yüklem alacağını sanmak değildir. Bu derste kişi bakımından açık uyuşmazlıkları gideriyoruz; özellikle birinci, ikinci ve üçüncü kişi eklerini kontrol ediyoruz.</p><ul><li>Ben tasarladım.</li><li>Sen ve ben birlikte çizdik.</li><li>Sen ve Ece sunumu hazırladınız.</li></ul>",
+      "ornekler": [
+        "Ben tasarladım.",
+        "Sen ve ben birlikte çizdik.",
+        "Sen ve Ece sunumu hazırladınız."
+      ],
+      "testler": [
+        {
+          "id": "6-5-ozne-yuklem-1",
+          "tip": "secim",
+          "soru": "Kişi uyumunun doğru olduğu cümle hangisidir?",
+          "secenekler": [
+            "Ben modeli çizdim.",
+            "Ben modeli çizdin.",
+            "Ben modeli çizdiniz."
+          ],
+          "dogru": "Ben modeli çizdim.",
+          "aciklama": "Ben öznesi birinci tekil kişi yüklemi gerektirir.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-5-ozne-yuklem-2",
+          "tip": "secim",
+          "soru": "Biz ölçümleri ... cümlesini doğru tamamlayan yüklem hangisidir?",
+          "secenekler": [
+            "Kaydettim",
+            "Kaydettin",
+            "Kaydettik"
+          ],
+          "dogru": "Kaydettik",
+          "aciklama": "Biz öznesi birinci çoğul kişi ekiyle uyumlu kaydettik biçimini alır.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-5-ozne-yuklem-3",
+          "tip": "secim",
+          "soru": "Sen bağlantıyı ... cümlesindeki uygun yüklem hangisidir?",
+          "secenekler": [
+            "Kontrol ettim",
+            "Kontrol ettin",
+            "Kontrol ettik"
+          ],
+          "dogru": "Kontrol ettin",
+          "aciklama": "Sen ikinci tekil kişidir; ettin biçimiyle uyumludur.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-5-ozne-yuklem-4",
+          "tip": "secim",
+          "soru": "Siz raporu ... cümlesine uygun yüklem hangisidir?",
+          "secenekler": [
+            "Hazırladınız",
+            "Hazırladık",
+            "Hazırladım"
+          ],
+          "dogru": "Hazırladınız",
+          "aciklama": "Siz öznesi ikinci çoğul kişi yüklemiyle kullanılır.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-5-ozne-yuklem-5",
+          "tip": "secim",
+          "soru": "Sen ve ben sonucu ... cümlesine hangi yüklem gelir?",
+          "secenekler": [
+            "Tartıştınız",
+            "Tartıştım",
+            "Tartıştık"
+          ],
+          "dogru": "Tartıştık",
+          "aciklama": "Özne grubunda ben varsa birinci çoğul kişi biçimi kullanılır.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-5-ozne-yuklem-6",
+          "tip": "secim",
+          "soru": "Ben ve arkadaşım düzeni ... cümlesine uygun yüklem hangisidir?",
+          "secenekler": [
+            "Değiştirdiniz",
+            "Değiştirdik",
+            "Değiştirdin"
+          ],
+          "dogru": "Değiştirdik",
+          "aciklama": "Ben içeren ortak özne biz anlamı taşır; değiştirdik uygundur.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-5-ozne-yuklem-7",
+          "tip": "secim",
+          "soru": "Sen ve Ece afişi ... cümlesine hangi yüklem uygundur?",
+          "secenekler": [
+            "Tamamladınız",
+            "Tamamladım",
+            "Tamamladık"
+          ],
+          "dogru": "Tamamladınız",
+          "aciklama": "Konuşan grupta değildir; sen ve üçüncü kişi siz anlamıyla ikinci çoğul kişi alır.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-5-ozne-yuklem-8",
+          "tip": "secim",
+          "soru": "Kişi uyumsuzluğu hangi cümlededir?",
+          "secenekler": [
+            "Sen deneyi bitirdin.",
+            "Biz deneyi bitirdik.",
+            "Ben ve sen deneyi bitirdiniz."
+          ],
+          "dogru": "Ben ve sen deneyi bitirdiniz.",
+          "aciklama": "Ben içeren özne grubunun yüklemi bitirdik olmalıdır.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-5-ozne-yuklem-9",
+          "tip": "secim",
+          "soru": "Ben bu fikri önerdin. cümlesi nasıl düzeltilir?",
+          "secenekler": [
+            "Ben bu fikri önerdik.",
+            "Ben bu fikri önerdim.",
+            "Ben bu fikri önerdiniz."
+          ],
+          "dogru": "Ben bu fikri önerdim.",
+          "aciklama": "Ben öznesiyle önerdim birinci tekil kişi uyumu kurar.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-5-ozne-yuklem-10",
+          "tip": "secim",
+          "soru": "Biz ve öğretmenimiz kayıtları inceledim. cümlesinde uygun düzeltme nedir?",
+          "secenekler": [
+            "Kayıtları inceledik.",
+            "Kayıtları inceledin.",
+            "Kayıtları incelediniz."
+          ],
+          "dogru": "Kayıtları inceledik.",
+          "aciklama": "Konuşanı içeren çoğul özne için inceledik kullanılmalıdır.",
+          "cikti": "T.Y.6.3"
+        }
+      ]
+    },
+    {
+      "kod": "6-5-egik-cizgi",
+      "ad": "Dizeleri yan yana yazarken eğik çizgi",
+      "kategori": "yazim-noktalama",
+      "cikti": "T.Y.6.21",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Bir şiirin dizeleri sayfada alt alta yer alır. Dizeler bir cümle içinde yan yana aktarılırken aralarına eğik çizgi konabilir. Bu kullanım, şiirin dize sınırlarını görünür tutar. Eğik çizgiyle kısa çizgiyi karıştırma; görevleri farklıdır. Aktardığın dizeler başkasına aitse kaynağını da belirt. Bu dersteki kısa dizeler uygulama için özgün yazılmıştır; eğik çizginin neyi ayırdığını anlamaya odaklan.</p><ul><li>Işık süzüldü içeri / Bir fikir doğdu yeniden</li><li>Kâğıttan bir köprü / Düşlerden bir yol</li><li>Bir soru açar kapıyı / Merak yürür ardınca</li></ul>",
+      "ornekler": [
+        "Işık süzüldü içeri / Bir fikir doğdu yeniden",
+        "Kâğıttan bir köprü / Düşlerden bir yol",
+        "Bir soru açar kapıyı / Merak yürür ardınca"
+      ],
+      "testler": [
+        {
+          "id": "6-5-egik-cizgi-1",
+          "tip": "secim",
+          "soru": "İki dizeyi yan yana aktarmada araya hangi işaret konur?",
+          "secenekler": [
+            "İki nokta",
+            "Eğik çizgi",
+            "Kesme işareti"
+          ],
+          "dogru": "Eğik çizgi",
+          "aciklama": "Eğik çizgi yan yana yazılan dizelerin sınırını gösterir.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-5-egik-cizgi-2",
+          "tip": "secim",
+          "soru": "Işık düştü masaya / Bir düşünce uyandı. ifadesinde eğik çizgi neyi ayırır?",
+          "secenekler": [
+            "Dizeleri",
+            "Kök ve yapım ekini",
+            "Özel ad ve ekini"
+          ],
+          "dogru": "Dizeleri",
+          "aciklama": "Burada iki şiir dizesi yan yana aktarılmıştır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-5-egik-cizgi-3",
+          "tip": "secim",
+          "soru": "İlk dizesi “Bir kıvılcım düşüncede”, ikinci dizesi “Yeni yollar önümde” olan iki dize yan yana nasıl aktarılır?",
+          "secenekler": [
+            "Bir kıvılcım / düşüncede yeni yollar önümde",
+            "Bir kıvılcım düşüncede yeni yollar / önümde",
+            "Bir kıvılcım düşüncede / Yeni yollar önümde"
+          ],
+          "dogru": "Bir kıvılcım düşüncede / Yeni yollar önümde",
+          "aciklama": "Verilen iki tam dize arasındaki sınır ilk seçenekte korunur.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-5-egik-cizgi-4",
+          "tip": "secim",
+          "soru": "Üç dize yan yana yazılırsa aralarındaki iki sınır için kaç eğik çizgi gerekir?",
+          "secenekler": [
+            "Dört",
+            "İki",
+            "Bir"
+          ],
+          "dogru": "İki",
+          "aciklama": "Üç dize arasında iki ayrı sınır bulunur.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-5-egik-cizgi-5",
+          "tip": "secim",
+          "soru": "Eğik çizgi bu kullanımda kısa çizgiden nasıl ayrılır?",
+          "secenekler": [
+            "Dize sınırını gösterir; kök ve ek çözümlemesi yapmaz",
+            "Her kelimeyi köküne ayırır",
+            "Özel adlara ek bağlar"
+          ],
+          "dogru": "Dize sınırını gösterir; kök ve ek çözümlemesi yapmaz",
+          "aciklama": "İşaretin görevi bu bağlamda şiirin dize düzenini korumaktır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-5-egik-cizgi-6",
+          "tip": "secim",
+          "soru": "Yağmur dinledi yolu / Rüzgâr çevirdi sayfayı. aktarımında kaç dize vardır?",
+          "secenekler": [
+            "Üç",
+            "Dört",
+            "İki"
+          ],
+          "dogru": "İki",
+          "aciklama": "Tek eğik çizgi iki dizeyi birbirinden ayırır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-5-egik-cizgi-7",
+          "tip": "secim",
+          "soru": "Bir soru / Bir deneme / Yeni bir yol. aktarımında kaç dize gösterilmiştir?",
+          "secenekler": [
+            "Beş",
+            "Üç",
+            "İki"
+          ],
+          "dogru": "Üç",
+          "aciklama": "İki eğik çizgi üç dize parçasının sınırını gösterir.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-5-egik-cizgi-8",
+          "tip": "secim",
+          "soru": "Dizeleri yan yana yazarken en önemli kontrol hangisidir?",
+          "secenekler": [
+            "Çizginin gerçek dize sınırında olması",
+            "Her kelimeden sonra çizgi koymak",
+            "Bütün büyük harfleri silmek"
+          ],
+          "dogru": "Çizginin gerçek dize sınırında olması",
+          "aciklama": "İşaret şiirin asıl dize sınırını korumak için kullanılır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-5-egik-cizgi-9",
+          "tip": "secim",
+          "soru": "Dize aktarımındaki eğik çizginin görevi için hangi yargı doğrudur?",
+          "secenekler": [
+            "Her zaman bölme işlemi bildirir",
+            "Her zaman internet adresi kurar",
+            "Sayfadaki alt satıra geçiş bilgisini görünür kılar"
+          ],
+          "dogru": "Sayfadaki alt satıra geçiş bilgisini görünür kılar",
+          "aciklama": "İşlev bağlama bağlıdır; burada dize düzenini gösterir.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-5-egik-cizgi-10",
+          "tip": "secim",
+          "soru": "Alt alta iki dizeyi yan yana aktarmanın uygun yolu hangisidir?",
+          "secenekler": [
+            "Her dizeyi zorunlu olarak soru yapmak",
+            "Dizeleri bozmadan aralarına eğik çizgi koymak",
+            "Kelimeleri rastgele sıraya dizmek"
+          ],
+          "dogru": "Dizeleri bozmadan aralarına eğik çizgi koymak",
+          "aciklama": "Sözlerin sırası ve dize sınırı korunarak yan yana aktarım yapılır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        }
+      ]
+    }
+  ],
+  "dinleme": [
+    {
+      "id": "6-5-dinleme",
+      "baslik": "İkinci Çizim",
+      "metin": "Cumartesi sabahı Eylül okul atölyesinde kartondan bir rüzgâr değirmeni modeli yaptı. Kanatlar ince bir kuş kanadı gibiydi. İlk denemede dönmediklerini görünce her şeyi baştan yapmak istedi. Arkadaşı Mete önce bağlantıların sürtünüp sürtünmediğine bakmasını önerdi. Öğretmenlerinin gözetiminde yalnız bağlantı yerini değiştirdiler. İkinci denemede kanatlar hareket etti. Eylül, model sonunda uykudan uyandı, diye gülümsedi. İki arkadaş ölçüm notuyla bu eğlenceli cümleyi ayırdı. Sunumda hem ilk sorunu hem düzeltmeyi göstereceklerdi. Tek denemenin bütün modeller hakkında kesin sonuç vermediğini de not ettiler.",
+      "tts": {
+        "dil": "tr-TR",
+        "sesYoksa": "metin"
+      },
+      "sorular": [
+        {
+          "id": "6-5-dinleme-1",
+          "tip": "secim",
+          "soru": "“İkinci Çizim” dinleme metnine göre: Olay nerede geçer?",
+          "secenekler": [
+            "Yüzme havuzunda",
+            "Okul atölyesinde",
+            "Bir otobüs durağında"
+          ],
+          "dogru": "Okul atölyesinde",
+          "aciklama": "İlk cümle çalışmanın okul atölyesinde yapıldığını belirtir.",
+          "cikti": "T.D.6.13"
+        },
+        {
+          "id": "6-5-dinleme-2",
+          "tip": "secim",
+          "soru": "“İkinci Çizim” dinleme metnine göre: Çözümde hangi özellik değiştirilmiştir?",
+          "secenekler": [
+            "Bağlantı yeri",
+            "Atölyenin adresi",
+            "Modelin bütün malzemesi"
+          ],
+          "dogru": "Bağlantı yeri",
+          "aciklama": "Öğretmen gözetiminde yalnız bağlantı yeri değiştirilir.",
+          "cikti": "T.D.6.13"
+        },
+        {
+          "id": "6-5-dinleme-3",
+          "tip": "secim",
+          "soru": "“İkinci Çizim” dinleme metnine göre: Kuş kanadı gibi sözü hangi sanata örnektir?",
+          "secenekler": [
+            "Tanık gösterme",
+            "Sayıyla kanıtlama",
+            "Benzetme"
+          ],
+          "dogru": "Benzetme",
+          "aciklama": "Modelin kanatları incelik yönünden kuş kanadına benzetilir.",
+          "cikti": "T.D.6.18"
+        },
+        {
+          "id": "6-5-dinleme-4",
+          "tip": "secim",
+          "soru": "“İkinci Çizim” dinleme metnine göre: Model uykudan uyandı sözünde ne yapılmıştır?",
+          "secenekler": [
+            "Kesin ölçüm sonucu verilmiştir",
+            "Cansız modele insana özgü bir durum aktarılmıştır",
+            "Gerçek bir uyuyan kişi tanıtılmıştır"
+          ],
+          "dogru": "Cansız modele insana özgü bir durum aktarılmıştır",
+          "aciklama": "Uyuma ve uyanma davranışı modele aktarılarak kişileştirme yapılır.",
+          "cikti": "T.D.6.18"
+        }
+      ]
+    }
+  ],
+  "yazmaGorevleri": [
+    {
+      "id": "6-5-yazma",
+      "baslik": "Modelimizin İlk Denemesi",
+      "yonerge": "120–200 kelimelik kurgusal bir tasarım öyküsü yaz. Kişiler, yer, zaman, sorun ve çözüm belirgin olsun. Bir benzetme ve bir kişileştirme kullan; bunları gerçek ölçüm bilgisi gibi sunma. Bir teknoloji kullanmanın yararına ve sınırına gerekçeli birer cümle ayır. Tehlikeli deney veya kişisel veri paylaşımı tasarlama.",
+      "minKelime": 120,
+      "maxKelime": 200,
+      "ciktilar": [
+        "T.Y.6.1",
+        "T.Y.6.3",
+        "T.Y.6.14",
+        "T.Y.6.21"
+      ],
+      "ogretmenDegerlendirmeli": true,
+      "rubrik": [
+        {
+          "olcut": "Amaca ve konuya uygunluk",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Düşünce düzeni ve gerekçelendirme",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Bağlama uygun dil yapıları ve söz varlığı",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Yazım, noktalama ve gözden geçirme",
+          "enDusuk": 0,
+          "enYuksek": 4
+        }
+      ]
+    }
+  ],
+  "lgsSorulari": []
+}

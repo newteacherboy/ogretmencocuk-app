@@ -55,6 +55,7 @@ export function validateDocument(document,{schema,sourceCodes=new Set(),themeCod
  }
  walk(document);
  if(document.belgeTuru==='tema'){
+  if(themeCodes.size&&document.kaynak_dogrulanmadi!==true&&JSON.stringify([...new Set(document.ogrenmeCiktilari)].sort())!==JSON.stringify([...themeCodes].sort()))fail('/ogrenmeCiktilari','resmî temanın çıktı listesi eksik veya farklı');
   const words=document.sozVarligi.kelimeler.map(v=>normalize(v.kelime));
   if(new Set(words).size!==words.length)fail('/sozVarligi/kelimeler','tema içinde yinelenen kelime');
   const limits={5:[250,400],6:[300,500],7:[350,600],8:[450,700]}[grade];
@@ -83,11 +84,13 @@ export async function validateBank(root=project){
   const listed=new Set(manifest.temalar.map(t=>t.dosya));
   for(const extra of files.filter(f=>/^tema-.*\.json$/.test(f)&&!listed.has(f)))result.errors.push(`${grade}-sinif/${extra}: müfredata bağlı olmayan tema dosyası`);
   if(new Set(manifest.temalar.map(t=>t.no)).size!==manifest.temalar.length)result.errors.push(`${grade}-sinif: yinelenen tema numarası`);
-  if(grade===5&&manifest.temalar.length!==6)result.errors.push('5. sınıf: altı tema gerekli');
+  if([5,6].includes(grade)&&manifest.temalar.length!==6)result.errors.push(`${grade}. sınıf: altı tema gerekli`);
   for(const [index,theme] of manifest.temalar.entries()){
    if(theme.no!==index+1)result.errors.push(`${grade}-sinif: tema sırası kesintisiz olmalı`);
    let d;try{d=await readJSON(path.join(dir,theme.dosya));}catch(e){result.errors.push(`${grade}-sinif/${theme.dosya}: okunamadı (${e.message})`);continue;}
    const entry=registry.kaynaklar.find(s=>s.sinif===grade&&s.tema===theme.no);
+   if(!entry)result.errors.push(`${theme.dosya}: resmî tema kaynak kaydı eksik`);
+   else if(d.kaynak!==entry.url||theme.kaynak!==entry.url)result.errors.push(`${theme.dosya}: tema kaynak adresi kayıtla uyuşmuyor`);
    const checked=validateDocument(d,{schema,sourceCodes,themeCodes:new Set(entry?.kodlar||[]),seenIds,seenQuestions,file:`${grade}-sinif/${theme.dosya}`});
    result.errors.push(...checked.errors);result.warnings.push(...checked.warnings);if(checked.errors.length)continue;
    if(d.sinif!==grade||d.tema!==theme.no||d.temaAdi!==theme.ad||d.program!==manifest.program)result.errors.push(`${theme.dosya}: müfredat ve tema kimliği uyuşmuyor`);

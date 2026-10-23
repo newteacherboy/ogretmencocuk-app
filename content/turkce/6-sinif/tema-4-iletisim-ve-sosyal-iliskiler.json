@@ -1,0 +1,1040 @@
+{
+  "belgeTuru": "tema",
+  "semaSurumu": "1.0",
+  "sinif": 6,
+  "program": "TYMM",
+  "tema": 4,
+  "temaAdi": "İletişim ve Sosyal İlişkiler",
+  "durum": "incelemeye_hazir",
+  "kaynak": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/270",
+  "kaynak_dogrulanmadi": false,
+  "ogrenmeCiktilari": [
+    "T.D.6.1",
+    "T.D.6.12",
+    "T.D.6.14",
+    "T.D.6.2",
+    "T.D.6.25",
+    "T.K.6.1",
+    "T.K.6.20",
+    "T.K.6.21",
+    "T.K.6.24",
+    "T.K.6.26",
+    "T.O.6.1",
+    "T.O.6.13",
+    "T.O.6.15",
+    "T.O.6.22",
+    "T.O.6.27",
+    "T.O.6.3",
+    "T.Y.6.1",
+    "T.Y.6.12",
+    "T.Y.6.21",
+    "T.Y.6.22",
+    "T.Y.6.3",
+    "T.Y.6.6"
+  ],
+  "sozVarligi": {
+    "aciklama": "Tanım ve örnekler özgündür. T.O.6.21 ilk temada tanıtılan söz varlığını geliştirme çıktısıdır; sonraki temalarda tekrar edilir.",
+    "kelimeler": [
+      {
+        "kelime": "iletişim",
+        "anlam": "Duygu ve düşüncelerin karşılıklı aktarılması",
+        "ornek": "İletişim için ortak bir zaman belirledik.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "anlaşmazlık",
+        "anlam": "Bir konuda farklı düşünüp uyuşamama durumu",
+        "ornek": "Anlaşmazlığı konuşarak çözmeye çalıştık.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "uzlaşmak",
+        "anlam": "Farklı istekleri ortak bir çözümde buluşturmak",
+        "ornek": "İki grup çalışma saatinde uzlaştı.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "dinleyici",
+        "anlam": "Bir konuşmayı veya sesi dinleyen kişi",
+        "ornek": "Dinleyici soru sormak için sırasını bekledi.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "konuşmacı",
+        "anlam": "Bir topluluğa konuşan kişi",
+        "ornek": "Konuşmacı son cümlesini yeniden açıkladı.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "sıra",
+        "anlam": "Bir işte veya dizilişte izlenecek yer",
+        "ornek": "Söz sırası gelince önerimi sundum.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "üslup",
+        "anlam": "Bir anlatımın kendine özgü söyleyiş biçimi",
+        "ornek": "İletinin üslubu daha nazik hâle getirildi.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "açıklık",
+        "anlam": "Bir anlatımın kolay anlaşılır olma özelliği",
+        "ornek": "Duyurunun açıklığını kontrol ettik.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "nezaket",
+        "anlam": "Başkalarını gözeten incelikli davranış",
+        "ornek": "Nezaket görüş ayrılığında da sürmelidir.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "eleştiri",
+        "anlam": "Bir işin güçlü ve geliştirilebilir yanlarını gerekçeleriyle inceleme",
+        "ornek": "Eleştiri kişiliğe değil çalışmaya yönelikti.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "öneri",
+        "anlam": "Bir işin nasıl yapılabileceğine ilişkin düşünce",
+        "ornek": "Öneri çözüm için yeni bir yol açtı.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "onay",
+        "anlam": "Bir görüşü veya işi uygun bulma",
+        "ornek": "Ses kaydı için herkesin onayı alındı.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "rıza",
+        "anlam": "Bir davranışı özgür iradeyle kabul etme",
+        "ornek": "Fotoğraf paylaşımı için rıza istendi.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "mahremiyet",
+        "anlam": "Kişisel alanın ve özel bilgilerin korunması",
+        "ornek": "Duyuruda mahremiyet gözetildi.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "sınır",
+        "anlam": "Bir davranışın veya alanın aşılmaması gereken çizgisi",
+        "ornek": "Paylaşım sınırımızı baştan belirledik.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "yanlış anlama",
+        "anlam": "Bir sözü amaçlanandan farklı yorumlama",
+        "ornek": "Kısa ileti yanlış anlamaya yol açmıştı.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "geri bildirim",
+        "anlam": "Bir çalışmanın etkisi veya niteliği hakkında verilen bilgi",
+        "ornek": "Geri bildirim metni geliştirmemize yardım etti.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "arabulucu",
+        "anlam": "Anlaşmazlıkta tarafların konuşmasını kolaylaştıran kişi",
+        "ornek": "Arabulucu iki tarafa da söz verdi.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "niyet",
+        "anlam": "Bir davranışla ulaşılmak istenen amaç",
+        "ornek": "Niyetini varsaymak yerine kendisine sordum.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "beklenti",
+        "anlam": "Gerçekleşmesi umulan durum",
+        "ornek": "Görevden beklentimizi birlikte yazdık.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "saygı",
+        "anlam": "Başkalarının hak ve değerini gözetme tutumu",
+        "ornek": "Saygı duymak aynı fikirde olmayı gerektirmez.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "iş birliği",
+        "anlam": "Ortak amaç için birlikte çalışma",
+        "ornek": "İş birliği görevleri paylaşınca kolaylaştı.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "koşul",
+        "anlam": "Bir şeyin gerçekleşmesinin bağlı olduğu durum",
+        "ornek": "Etkinliğe katılım koşulu açıkça yazıldı.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "amaç",
+        "anlam": "Bir eylemle ulaşılmak istenen sonuç",
+        "ornek": "Toplantının amacı çözüm bulmaktı.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "gerekçe",
+        "anlam": "Bir düşünce veya kararın dayandığı neden",
+        "ornek": "Kararımın gerekçesini açıkladım.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "davet",
+        "anlam": "Birini bir yere veya etkinliğe çağırma",
+        "ornek": "Davet tarih ve yer bilgisi içeriyordu.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "duyuru",
+        "anlam": "Bir bilgiyi topluluğa bildiren yazı veya söz",
+        "ornek": "Duyurudaki eksik saati tamamladık.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "mesaj",
+        "anlam": "Bir kişiye iletilen söz veya yazı",
+        "ornek": "Mesajı göndermeden önce yeniden okudum.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "sessizlik",
+        "anlam": "Sesin veya konuşmanın bulunmadığı durum",
+        "ornek": "Sessizlik bazen düşünmek için zaman kazandırır.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "gönüllülük",
+        "anlam": "Bir işi kendi isteğiyle üstlenme durumu",
+        "ornek": "Görev paylaşımında gönüllülük esas alındı.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      }
+    ],
+    "esAnlamlilar": [],
+    "zitAnlamlilar": [],
+    "esSesliler": [],
+    "deyimler": [
+      {
+        "ifade": "açık kapı bırakmak",
+        "anlam": "Bir konuda yeniden görüşme veya anlaşma imkânını sürdürmek.",
+        "ornek": "İlk öneriyi kabul etmese de yeni görüşmeye açık kapı bıraktı."
+      }
+    ],
+    "atasozleri": []
+  },
+  "okumaParcalari": [
+    {
+      "id": "6-4-okuma-1",
+      "baslik": "Gönderilmeden Önce",
+      "tur": "oykuleyici",
+      "metin": "Sınıfın çalışma grubuna akşam kısa bir mesaj geldi: “Yarınki toplantı iptal.” Mesajın altında açıklama yoktu. Ada, hazırladığı afişi kenara bıraktı. Ertesi gün okulda buluşacaklarını düşündüğünden bütün işlerini buna göre ayarlamıştı. Gruba öfkeli bir cevap yazdı, fakat gönder düğmesine basmadan durdu. Belki de toplantı yalnızca başka bir saate alınmıştı. Önce ne olduğunu sormaya karar verdi.\nMesajı yazan Berk, iptal edilenin kendi küçük prova toplantıları olduğunu açıkladı. Sınıfın ertesi günkü ortak toplantısı yapılacaktı. Telefon ekranında önceki konuşmanın görüldüğünü sandığı için ayrıntı vermemişti. Ada ise mesajı tek başına okumuştu. Aynı iki kelime, farklı beklentilerle okununca iki ayrı anlama gelmişti. Ada hazırladığı öfkeli cevabı sildi ve hangi toplantının kastedildiğini netleştiren bir soru gönderdi.\nErtesi gün öğretmen bu olayı sınıfın izniyle, kimseyi suçlamadan konuşmalarını önerdi. Tahtaya gönderen, alıcı, amaç ve eksik bilgi başlıklarını yazdı. Öğrenciler önce olayın kısa bir özetini çıkardı. Sonra Berk'in iletisinde hangi bilginin eksik olduğunu belirledi. “Salı günkü küçük prova toplantımız iptal; çarşamba sınıf toplantısı aynı saatte yapılacak.” cümlesi üzerinde anlaştılar. Tarih ve toplantı adı eklenince belirsizlik azalmıştı.\nAncak tartışma yalnızca daha uzun mesaj yazmakla bitmedi. Bazen uzun iletiler de karışık olabiliyordu. Sınıf, önemli bilgiyi başa koymaya, açık bir saat yazmaya ve değişiklik varsa önceki planı belirtmeye karar verdi. Ayrıca yanıt bekleyen bir soruyla yalnız bilgi veren bir duyurunun aynı olmadığını konuştular. Her iletiye hemen cevap vermek zorunda olmadıklarını, fakat ortak işi etkileyen bilgiyi uygun zamanda kontrol etmeleri gerektiğini belirttiler.\nAda akşam defterine olayın kendisinde bıraktığı düşünceyi yazdı. Durup soru sorması, hem yanlış anlamayı çözmüş hem de gereksiz bir tartışmayı önlemişti. Berk de kendi açısından bir not ekledi: Başkasının ekranda ne gördüğünü ve ne bildiğini varsaymak kolaydı. İyi bir ileti, bu varsayımı mümkün olduğunca azaltmalıydı. Sonraki duyuruyu göndermeden önce birbirlerinin metnini okumayı önerdiler. Bu kontrol birinin diğerine izin vermesi anlamına gelmiyordu; ortak çalışmayı anlaşılır kılmak için karşılıklı yardım sunuyorlardı. Panoya astıkları küçük hatırlatmada yalnız şu sorular vardı: “Kim için yazıyorum? Ne değişti? Okuyan hangi bilgiyi bilmeyebilir?” Sorular birkaç saniye sürüyordu, fakat uzun bir yanlış anlamayı önleyebilirdi.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; kitap veya internet metninden alınmamıştır.",
+      "sorular": [
+        {
+          "id": "6-4-okuma-1-1",
+          "tip": "secim",
+          "soru": "“Gönderilmeden Önce” metnine göre: Bu metin türünü en iyi belirleyen özellik hangisidir?",
+          "secenekler": [
+            "Bir kavramı yalnız tanımlarla açıklaması",
+            "Dizelerle ritimli bir yapı kurması",
+            "Kişiler ve olay örgüsüyle bir yaşantıyı anlatması"
+          ],
+          "dogru": "Kişiler ve olay örgüsüyle bir yaşantıyı anlatması",
+          "aciklama": "Ada ve Berk'in yaşadığı olay başlangıç, gelişme ve sonuçla aktarılır.",
+          "cikti": "T.O.6.15"
+        },
+        {
+          "id": "6-4-okuma-1-2",
+          "tip": "secim",
+          "soru": "“Gönderilmeden Önce” metnine göre: Giriş bölümünün işlevi nedir?",
+          "secenekler": [
+            "Başka bir araştırmanın verilerini sıralamak",
+            "Yanlış anlamayı başlatan iletiyi ve durumu tanıtmak",
+            "Bütün çözüm önerilerini sonuçlandırmak"
+          ],
+          "dogru": "Yanlış anlamayı başlatan iletiyi ve durumu tanıtmak",
+          "aciklama": "İlk paragraf olayın çıkış noktasını ve Ada'nın ilk tepkisini kurar.",
+          "cikti": "T.O.6.13"
+        },
+        {
+          "id": "6-4-okuma-1-3",
+          "tip": "secim",
+          "soru": "“Gönderilmeden Önce” metnine göre: Olayın gelişmesinde dönüm noktası hangisidir?",
+          "secenekler": [
+            "Ada'nın göndermeden önce açıklama istemesi",
+            "Ada'nın afişin rengini değiştirmesi",
+            "Berk'in okuldan ayrılması"
+          ],
+          "dogru": "Ada'nın göndermeden önce açıklama istemesi",
+          "aciklama": "Açıklama sorusu farklı toplantılardan söz edildiğini ortaya çıkarır.",
+          "cikti": "T.O.6.13"
+        },
+        {
+          "id": "6-4-okuma-1-4",
+          "tip": "secim",
+          "soru": "“Gönderilmeden Önce” metnine göre: Son bölüm metne nasıl katkıda bulunur?",
+          "secenekler": [
+            "Yeni ve ilgisiz bir tartışma başlatır",
+            "Bütün kişileri yeniden ayrıntılı tanıtır",
+            "Yaşanan olaydan çıkarılan iletişim alışkanlığını gösterir"
+          ],
+          "dogru": "Yaşanan olaydan çıkarılan iletişim alışkanlığını gösterir",
+          "aciklama": "Son paragraflar deneyimin sorular ve karşılıklı kontrolle yeni alışkanlığa dönüşmesini anlatır.",
+          "cikti": "T.O.6.13"
+        },
+        {
+          "id": "6-4-okuma-1-5",
+          "tip": "secim",
+          "soru": "“Gönderilmeden Önce” metnine göre: Berk'in mesajını daha açık kılan değişiklik hangisidir?",
+          "secenekler": [
+            "Açıklamayı bütünüyle kaldırmak",
+            "İptal edilen toplantının adını ve zamanını belirtmek",
+            "Mesajı yalnız büyük harfle yazmak"
+          ],
+          "dogru": "İptal edilen toplantının adını ve zamanını belirtmek",
+          "aciklama": "Toplantı adı ve zaman eklendiğinde iki planın karışması önlenir.",
+          "cikti": "T.O.6.22"
+        },
+        {
+          "id": "6-4-okuma-1-6",
+          "tip": "secim",
+          "soru": "“Gönderilmeden Önce” metnine göre: Metne ilişkin hangi değerlendirme gerekçelidir?",
+          "secenekler": [
+            "Yanlış anlamanın nasıl çözüldüğü olay içinde gösterilmiştir",
+            "Metinde hiçbir kişiye yer verilmemiştir",
+            "Anlatı yalnız kelime tanımlarından oluşur"
+          ],
+          "dogru": "Yanlış anlamanın nasıl çözüldüğü olay içinde gösterilmiştir",
+          "aciklama": "Olay sorunun çıkışını ve açıklama sorusuyla çözülmesini gösterir.",
+          "cikti": "T.O.6.22"
+        },
+        {
+          "id": "6-4-okuma-1-7",
+          "tip": "secim",
+          "soru": "“Gönderilmeden Önce” metnine göre: Metnin sonuç kısmı hangi soruya cevap verir?",
+          "secenekler": [
+            "Afiş hangi dükkândan alındı?",
+            "Telefonun markası neydi?",
+            "Bu olaydan sonra hangi alışkanlıklar gelişti?"
+          ],
+          "dogru": "Bu olaydan sonra hangi alışkanlıklar gelişti?",
+          "aciklama": "Son kısım gelecekte kullanılacak kontrol sorularına odaklanır.",
+          "cikti": "T.O.6.13"
+        },
+        {
+          "id": "6-4-okuma-1-8",
+          "tip": "secim",
+          "soru": "“Gönderilmeden Önce” metnine göre: Metnin başlığının uygunluğu nasıl açıklanabilir?",
+          "secenekler": [
+            "Olayın mekânını tam olarak söyler",
+            "Göndermeden önce durup düşünme davranışını öne çıkarır",
+            "Yalnız mektup tarihini bildirir"
+          ],
+          "dogru": "Göndermeden önce durup düşünme davranışını öne çıkarır",
+          "aciklama": "Başlık Ada'nın iletiyi göndermeden önceki kararını ve sonraki alışkanlığı ilişkilendirir.",
+          "cikti": "T.O.6.22"
+        }
+      ]
+    },
+    {
+      "id": "6-4-okuma-2",
+      "baslik": "Bir Toplantıyı Kolaylaştıran Yönerge",
+      "tur": "bilgilendirici",
+      "metin": "Bir grup toplantısında herkesin konuşması, herkesin anlaşıldığı anlamına gelmez. Kimi zaman aynı öneri birkaç kez tekrar edilir, bazı sorular cevapsız kalır ve toplantı sonunda hangi kararın alındığı unutulur. Bu sorunları azaltmak için kısa bir toplantı yönergesi hazırlanabilir. Yönerge, katılımcıların yerine düşünmez. Onlara hangi amaçla bir araya geldiklerini ve konuşmayı nasıl düzenleyeceklerini hatırlatan bir araçtır.\nİlk bölümde toplantının amacı tek bir açık cümleyle belirtilir. “Sınıf kitap köşesinin kullanımını kolaylaştıracak iki öneri seçmek.” gibi bir amaç, görüşmenin kapsamını gösterir. Buna karşılık “Her şeyi konuşmak.” sözü hangi konunun önce ele alınacağını açıklamaz. Amaç belirlendikten sonra süre ve gündem başlıkları eklenir. Gündem, konuşulacak konuların hangi sırada ele alınacağını gösteren kısa bir listedir.\nUygulama bölümünde söz alma ve dinleme biçimi açıklanır. Bir kişi konuşurken diğerleri kısa notlar alabilir. Anlaşılmayan yerde yargılayıcı bir cevap vermek yerine açıklama istenebilir. Süreyi izleyen kişi, herkesin aynı miktarda konuşmasını zorla sağlamaya çalışmaz; söz almak isteyenlerin gözden kaçmamasını gözetir. Sessiz kalan birini kişisel bir deneyimini anlatmaya zorlamak da gerekmez. İsteyen düşüncesini yazıyla iletebilir.\nKarar bölümünde seçilen öneriler ve üstlenilen görevler kaydedilir. Bir önerinin neden seçildiği açıklanırsa sonraki toplantıda kararın dayanağı hatırlanabilir. Görev yazılırken yalnız kişinin adı değil, yapılacak iş ve hedeflenen zaman da belirtilir. Fakat gönüllü bir iş, kişinin kabulü olmadan üzerine bırakılmaz. Koşullar değişirse görevin yeniden konuşulabilmesi için bir yöntem belirlenir.\nSon bölümde kısa bir değerlendirme yapılır. Katılımcılar hangi adımın işe yaradığını ve neyin değiştirilmesi gerektiğini söyleyebilir. Buradaki amaç kişileri iyi veya kötü diye sıralamak değildir. Örneğin “Gündem başlıkları çok geniş olduğu için süre yetmedi.” cümlesi, değiştirilebilecek bir durumu gösterir. Sonraki toplantıda başlıkları daraltmak somut bir deneme olabilir. Böylece yönerge, duvara asılı değişmez bir kural listesi olmaktan çıkar. Kullanıldıkça incelenen ve ihtiyaçlara göre geliştirilen ortak bir düzenleme hâline gelir. Toplantı tutanağı da bu süreci destekleyebilir. Tutanak bütün konuşmaların kelimesi kelimesine kaydı olmak zorunda değildir. Amaç, kararlar ve sonraki adımlar açıkça görülebiliyorsa kısa bir metin yeterli olabilir. Paylaşılacak nüshada özel bilgiler yer almaz; katılımcılar hangi notun kimlerle paylaşılacağını önceden bilir.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; kitap veya internet metninden alınmamıştır.",
+      "sorular": [
+        {
+          "id": "6-4-okuma-2-1",
+          "tip": "secim",
+          "soru": "“Bir Toplantıyı Kolaylaştıran Yönerge” metnine göre: Metnin genel yapısı nasıl ilerler?",
+          "secenekler": [
+            "Sonuçtan sonra ilgisiz bir şiir verir",
+            "Sorunu tanıtır, adımları açıklar, değerlendirmeyle bitirir",
+            "Yalnız zaman sırasıyla bir geziyi anlatır"
+          ],
+          "dogru": "Sorunu tanıtır, adımları açıklar, değerlendirmeyle bitirir",
+          "aciklama": "Paragraflar ihtiyaçtan yönergenin bölümlerine ve geliştirilmesine ilerler.",
+          "cikti": "T.O.6.13"
+        },
+        {
+          "id": "6-4-okuma-2-2",
+          "tip": "secim",
+          "soru": "“Bir Toplantıyı Kolaylaştıran Yönerge” metnine göre: Bu metin neden bilgilendiricidir?",
+          "secenekler": [
+            "Bir uygulamanın amacını ve yöntemini açıklaması nedeniyle",
+            "Kurgusal kişilerin macerasını anlatması nedeniyle",
+            "Dizeler ve uyaklarla kurulması nedeniyle"
+          ],
+          "dogru": "Bir uygulamanın amacını ve yöntemini açıklaması nedeniyle",
+          "aciklama": "Metin toplantı yönergesi oluşturma sürecini açıklayan bilgiler sunar.",
+          "cikti": "T.O.6.15"
+        },
+        {
+          "id": "6-4-okuma-2-3",
+          "tip": "secim",
+          "soru": "“Bir Toplantıyı Kolaylaştıran Yönerge” metnine göre: Amaç cümlesi metinde hangi bölümün konusu olur?",
+          "secenekler": [
+            "Yalnız son değerlendirme",
+            "Özel bilgilerin listesi",
+            "Yönergenin ilk bölümü"
+          ],
+          "dogru": "Yönergenin ilk bölümü",
+          "aciklama": "İkinci paragraf ilk bölümde amacın açıkça belirtilmesini anlatır.",
+          "cikti": "T.O.6.13"
+        },
+        {
+          "id": "6-4-okuma-2-4",
+          "tip": "secim",
+          "soru": "“Bir Toplantıyı Kolaylaştıran Yönerge” metnine göre: Uygulama bölümünde hangi konu açıklanır?",
+          "secenekler": [
+            "Kişilerin özel adresleri",
+            "Söz alma ve dinleme biçimi",
+            "Sergi biletlerinin fiyatı"
+          ],
+          "dogru": "Söz alma ve dinleme biçimi",
+          "aciklama": "Üçüncü paragraf söz sırası, not alma ve açıklama isteme üzerinde durur.",
+          "cikti": "T.O.6.13"
+        },
+        {
+          "id": "6-4-okuma-2-5",
+          "tip": "secim",
+          "soru": "“Bir Toplantıyı Kolaylaştıran Yönerge” metnine göre: Yönergenin niteliğiyle ilgili hangi yargı metinle desteklenir?",
+          "secenekler": [
+            "İhtiyaçlara göre geliştirilebilen bir araçtır",
+            "Bütün kararları katılımcıların yerine verir",
+            "Bir kez yazılınca değiştirilemez"
+          ],
+          "dogru": "İhtiyaçlara göre geliştirilebilen bir araçtır",
+          "aciklama": "Son bölüm yönergenin deneyime göre düzenlenebileceğini belirtir.",
+          "cikti": "T.O.6.22"
+        },
+        {
+          "id": "6-4-okuma-2-6",
+          "tip": "secim",
+          "soru": "“Bir Toplantıyı Kolaylaştıran Yönerge” metnine göre: Gündemin daraltılması önerisi hangi gerekçeye dayanır?",
+          "secenekler": [
+            "Toplantıda hiç konu bulunmamasına",
+            "Her konuşmanın kaydedilme zorunluluğuna",
+            "Geniş başlıklar nedeniyle sürenin yetmemesine"
+          ],
+          "dogru": "Geniş başlıklar nedeniyle sürenin yetmemesine",
+          "aciklama": "Verilen örnekte süre sorunu geniş gündem başlıklarıyla ilişkilendirilir.",
+          "cikti": "T.O.6.22"
+        },
+        {
+          "id": "6-4-okuma-2-7",
+          "tip": "secim",
+          "soru": "“Bir Toplantıyı Kolaylaştıran Yönerge” metnine göre: Son paragrafın ana metne katkısı nedir?",
+          "secenekler": [
+            "Bütün görevleri tek kişiye verir",
+            "Kararların nasıl kısa ve uygun biçimde kaydedilebileceğini açıklar",
+            "Toplantının amacını geçersiz kılar"
+          ],
+          "dogru": "Kararların nasıl kısa ve uygun biçimde kaydedilebileceğini açıklar",
+          "aciklama": "Tutanak açıklaması yönergenin kayıt ve paylaşım yönünü tamamlar.",
+          "cikti": "T.O.6.13"
+        },
+        {
+          "id": "6-4-okuma-2-8",
+          "tip": "secim",
+          "soru": "“Bir Toplantıyı Kolaylaştıran Yönerge” metnine göre: Yazarın önerisine uygun değerlendirme hangisidir?",
+          "secenekler": [
+            "Süre sorunu için gündem başlıklarını somutlaştırmak yararlıdır",
+            "Sessiz kalan herkes mutlaka konuşmaya zorlanmalıdır",
+            "Görevler kabul sorulmadan dağıtılmalıdır"
+          ],
+          "dogru": "Süre sorunu için gündem başlıklarını somutlaştırmak yararlıdır",
+          "aciklama": "Yapıcı değerlendirme değiştirilebilen bir durumu ve denenebilir çözümü ilişkilendirir.",
+          "cikti": "T.O.6.22"
+        }
+      ]
+    }
+  ],
+  "konular": [
+    {
+      "kod": "6-4-amac",
+      "ad": "Amaç bildiren dil yapıları",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.Y.6.3",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Amaç, bir işi yaparken ulaşmak istediğimiz sonuçtur. -mak için, amacıyla, üzere gibi yapılar bu ilişkiyi kurabilir. Amacın gerçekleştiği her zaman kesin değildir; bir etkinliğe öğrenmek için gitmiş olmak, her şeyi öğrendiğimizi göstermez. Neden bildiren kullanımla karıştırmamak için cümleye ulaşılmak istenen ne sorusunu sor. Aynı için kelimesinin farklı cümlelerde farklı işlevler taşıyabileceğini unutma.</p><ul><li>Bilgi almak için soru sordum.</li><li>Toplantıyı düzenlemek amacıyla gündem yazdık.</li><li>Görüşmek üzere salona geçti.</li></ul>",
+      "ornekler": [
+        "Bilgi almak için soru sordum.",
+        "Toplantıyı düzenlemek amacıyla gündem yazdık.",
+        "Görüşmek üzere salona geçti."
+      ],
+      "testler": [
+        {
+          "id": "6-4-amac-1",
+          "tip": "secim",
+          "soru": "Kaybolmamak için haritaya baktı. cümlesindeki amaç nedir?",
+          "secenekler": [
+            "Yağmurun yağması",
+            "Kaybolmamak",
+            "Haritanın yırtılması"
+          ],
+          "dogru": "Kaybolmamak",
+          "aciklama": "Haritaya bakmanın hedeflenen sonucu kaybolmamaktır.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-4-amac-2",
+          "tip": "secim",
+          "soru": "Hangi cümle amaç bildirir?",
+          "secenekler": [
+            "Anlaşılmak için örnek verdim.",
+            "Yorgun olduğum için durdum.",
+            "Yağmur yüzünden bekledim."
+          ],
+          "dogru": "Anlaşılmak için örnek verdim.",
+          "aciklama": "Anlaşılmak, örnek verme eyleminin ulaşmak istediği sonuçtur.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-4-amac-3",
+          "tip": "secim",
+          "soru": "Amaç ilişkisi kuran ifade hangisidir?",
+          "secenekler": [
+            "Yüzünden",
+            "Rağmen",
+            "Amacıyla"
+          ],
+          "dogru": "Amacıyla",
+          "aciklama": "Amacıyla bir eylemin hedefini açıklar.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-4-amac-4",
+          "tip": "secim",
+          "soru": "Kitap almak üzere kütüphaneye gittim. cümlesinde üzere ne bildirir?",
+          "secenekler": [
+            "Geçmişteki hatayı",
+            "Hedeflenen işi",
+            "Bir karşıtlığı"
+          ],
+          "dogru": "Hedeflenen işi",
+          "aciklama": "Kütüphaneye gidişin hedefi kitap almaktır.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-4-amac-5",
+          "tip": "secim",
+          "soru": "Toplantıyı kısaltmak için gündemi daralttık. cümlesi neyi kesin olarak söylemez?",
+          "secenekler": [
+            "Toplantının gerçekten kısaldığını",
+            "Gündemin daraltıldığını",
+            "Bir amacın bulunduğunu"
+          ],
+          "dogru": "Toplantının gerçekten kısaldığını",
+          "aciklama": "Amaç bildirimi, hedeflenen sonucun mutlaka gerçekleştiğini kanıtlamaz.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-4-amac-6",
+          "tip": "secim",
+          "soru": "İletiyi ... daha açık yazdı. amaç bildiren tamamlayıcı hangisidir?",
+          "secenekler": [
+            "Kısa olduğu için",
+            "Önceki gün geldiği için",
+            "Yanlış anlaşılmamak için"
+          ],
+          "dogru": "Yanlış anlaşılmamak için",
+          "aciklama": "Yanlış anlaşılmamak istenen sonuçtur; diğerleri var olan nedenlere işaret eder.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-4-amac-7",
+          "tip": "secim",
+          "soru": "Daha iyi duymak için öne geçti. cümlesinin amaç bölümü hangisidir?",
+          "secenekler": [
+            "Daha iyi duyduğu için",
+            "Daha iyi duymak için",
+            "Öne geçti"
+          ],
+          "dogru": "Daha iyi duymak için",
+          "aciklama": "İçin öncesindeki eylem ulaşılmak istenen sonucu belirtir.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-4-amac-8",
+          "tip": "secim",
+          "soru": "Hangi yeniden yazım amacı korur? Görüş almak için anket hazırladık.",
+          "secenekler": [
+            "Görüş almak amacıyla anket hazırladık.",
+            "Görüş aldığımız için anket hazırladık.",
+            "Anket hazırlandığı için görüş aldık."
+          ],
+          "dogru": "Görüş almak amacıyla anket hazırladık.",
+          "aciklama": "Amacıyla yapısı hedeflenen görüş alma işlevini korur.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-4-amac-9",
+          "tip": "secim",
+          "soru": "Neden yerine amaç bildiren söz hangisidir?",
+          "secenekler": [
+            "Salon dolduğu için",
+            "Elektrik kesildiğinden",
+            "Herkes katılabilsin diye"
+          ],
+          "dogru": "Herkes katılabilsin diye",
+          "aciklama": "Katılabilsin diye gelecekteki istenen sonuca yöneliktir.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-4-amac-10",
+          "tip": "secim",
+          "soru": "Dinlenmek amacıyla ara verdik. cümlesindeki ilişki hangisidir?",
+          "secenekler": [
+            "Bir bilginin kaynağını gösterme",
+            "Eylem ve ulaşılmak istenen sonuç",
+            "İki nesnenin boy karşılaştırması"
+          ],
+          "dogru": "Eylem ve ulaşılmak istenen sonuç",
+          "aciklama": "Ara verme eylemi dinlenme hedefi için yapılır.",
+          "cikti": "T.Y.6.3"
+        }
+      ]
+    },
+    {
+      "kod": "6-4-kosul",
+      "ad": "Koşul bildiren dil yapıları",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.Y.6.3",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Koşul bildiren yapılar, bir durumun gerçekleşmesini başka bir duruma bağlar. Eğer, -sa/-se ve şu şartla gibi ifadeler bu işlevi görebilir. Bir kelimenin görünüşü tek başına yeterli değildir; ise karşılaştırmada da kullanılabilir. Cümlede hangi sonucun hangi şart altında mümkün olduğunu belirle. Koşul ile tehdit aynı şey değildir; yazıda kuralların açık, anlaşılır ve amaca uygun olması gerekir.</p><ul><li>İstersen düşünceni yazıyla paylaşabilirsin.</li><li>Süre yeterse ikinci öneriyi konuşuruz.</li><li>Şu şartla katılırım: Görevler gönüllü olacak.</li></ul>",
+      "ornekler": [
+        "İstersen düşünceni yazıyla paylaşabilirsin.",
+        "Süre yeterse ikinci öneriyi konuşuruz.",
+        "Şu şartla katılırım: Görevler gönüllü olacak."
+      ],
+      "testler": [
+        {
+          "id": "6-4-kosul-1",
+          "tip": "secim",
+          "soru": "Vaktimiz kalırsa ikinci konuyu görüşürüz. cümlesindeki koşul nedir?",
+          "secenekler": [
+            "Toplantının rengi",
+            "Vaktin kalması",
+            "İkinci konunun adı"
+          ],
+          "dogru": "Vaktin kalması",
+          "aciklama": "İkinci konunun görüşülmesi vaktin kalmasına bağlanmıştır.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-4-kosul-2",
+          "tip": "secim",
+          "soru": "Eğer bilgi eksikse yeniden soralım. cümlesinde eğer ne yapar?",
+          "secenekler": [
+            "Koşul ilişkisini belirginleştirir",
+            "Kesin bir geçmiş zaman verir",
+            "Bir kişiye seslenir"
+          ],
+          "dogru": "Koşul ilişkisini belirginleştirir",
+          "aciklama": "Eğer, sonraki önerinin hangi durumda geçerli olduğunu gösterir.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-4-kosul-3",
+          "tip": "secim",
+          "soru": "Hangi cümle koşul bildirir?",
+          "secenekler": [
+            "Sıra beklemek için geldin.",
+            "Sıra beklediğin için yoruldun.",
+            "Sıranı beklersen konuşabilirsin."
+          ],
+          "dogru": "Sıranı beklersen konuşabilirsin.",
+          "aciklama": "Konuşabilme durumu sırayı bekleme şartına bağlanır.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-4-kosul-4",
+          "tip": "secim",
+          "soru": "İse hangi cümlede koşul görevi görür?",
+          "secenekler": [
+            "Bu kısa, öteki ise uzundur.",
+            "Hazırsan başlayalım; hazır değil isen bekleyelim.",
+            "Ben yazarım, sen ise çizersin."
+          ],
+          "dogru": "Hazırsan başlayalım; hazır değil isen bekleyelim.",
+          "aciklama": "Bekleme kararı hazır olmama durumuna bağlandığı için koşul vardır.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-4-kosul-5",
+          "tip": "secim",
+          "soru": "Şu şartla ödünç veririm: Zamanında geri getireceksin. sözünde koşul nedir?",
+          "secenekler": [
+            "Zamanında geri getirmek",
+            "Kitabı satın almak",
+            "Rafın yerini değiştirmek"
+          ],
+          "dogru": "Zamanında geri getirmek",
+          "aciklama": "Ödünç verme, geri getirme şartıyla kabul edilmektedir.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-4-kosul-6",
+          "tip": "secim",
+          "soru": "Koşul ilişkisini koruyan cümle hangisidir? İstersen katılabilirsin.",
+          "secenekler": [
+            "İstediğin için zaten katıldın.",
+            "Katılmak için istediğini söyledin.",
+            "Katılman, istemene bağlı."
+          ],
+          "dogru": "Katılman, istemene bağlı.",
+          "aciklama": "İlk seçenek istek durumuyla olası katılım arasındaki şartı korur.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-4-kosul-7",
+          "tip": "secim",
+          "soru": "Süre yeterse herkes bir örnek verecek. cümlesi neyi kesinleştirmez?",
+          "secenekler": [
+            "Örnek verme planının bulunduğunu",
+            "Herkesin mutlaka örnek vereceğini",
+            "Sürenin bir koşul olarak alındığını"
+          ],
+          "dogru": "Herkesin mutlaka örnek vereceğini",
+          "aciklama": "Sonuç süreye bağlıdır; şart sağlanmazsa aynı sonuç kesin değildir.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-4-kosul-8",
+          "tip": "secim",
+          "soru": "Hangi kullanım koşul bildirmez?",
+          "secenekler": [
+            "Görüşmek için geldim.",
+            "Uygunsa görüşelim.",
+            "Gelirsen görüşebiliriz."
+          ],
+          "dogru": "Görüşmek için geldim.",
+          "aciklama": "İlk cümle görüşme amacını bildirir, şart ilişkisi kurmaz.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-4-kosul-9",
+          "tip": "secim",
+          "soru": "Kabul edersen öneriyi kaydedelim. cümlesinde sonuç hangisidir?",
+          "secenekler": [
+            "Kabul etme koşulu",
+            "Geçen haftaki karar",
+            "Önerinin kaydedilmesi"
+          ],
+          "dogru": "Önerinin kaydedilmesi",
+          "aciklama": "Kaydetme işi kabul etme durumuna bağlanan sonuçtur.",
+          "cikti": "T.Y.6.3"
+        },
+        {
+          "id": "6-4-kosul-10",
+          "tip": "secim",
+          "soru": "Duyurudaki koşulu en açık ifade eden seçenek hangisidir?",
+          "secenekler": [
+            "Atölye katılımı işte öyle olur.",
+            "Atölyeye, önceden kayıt yaptıranlar katılabilir.",
+            "Atölyeye belki herkes gibi birileri katılır."
+          ],
+          "dogru": "Atölyeye, önceden kayıt yaptıranlar katılabilir.",
+          "aciklama": "İlk cümle katılım için gereken kayıt koşulunu açıkça belirtir.",
+          "cikti": "T.Y.6.3"
+        }
+      ]
+    },
+    {
+      "kod": "6-4-yazim-gozden-gecirme",
+      "ad": "İletilerde yazım ve noktalama kontrolü",
+      "kategori": "yazim-noktalama",
+      "cikti": "T.Y.6.21",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Bir iletiyi göndermeden önce anlamı ve yazımı birlikte gözden geçir. Bağlaç ve eklerin doğru ayrılması, soruların uygun işaretle bitmesi ve açıklama ilişkilerinin görünür olması okumayı kolaylaştırır. Kontrol etmek metni yalnız uzatmak değildir. Gereksiz işaretleri de kaldırmak gerekebilir. Önce iletinin amacını belirle, sonra kelimeler arası ilişkilere bak ve en son yazımı denetle. Bu alıştırmalar önceki temalarda ele alınan yapıların tekrarını içerir.</p><ul><li>Toplantı yarın mı?</li><li>İki önerimiz var: yazılı not ve kısa görüşme.</li><li>Ben de gündeme bir madde ekledim.</li></ul>",
+      "ornekler": [
+        "Toplantı yarın mı?",
+        "İki önerimiz var: yazılı not ve kısa görüşme.",
+        "Ben de gündeme bir madde ekledim."
+      ],
+      "testler": [
+        {
+          "id": "6-4-yazim-gozden-gecirme-1",
+          "tip": "secim",
+          "soru": "Soru cümlesinin doğru yazımı hangisidir?",
+          "secenekler": [
+            "Yarın görüşür müyüz?",
+            "Yarın görüşürmüyüz?",
+            "Yarın görüşür mü yüz?"
+          ],
+          "dogru": "Yarın görüşür müyüz?",
+          "aciklama": "Soru eki önceki kelimeden ayrı, kişi ekiyle bitişik yazılır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-4-yazim-gozden-gecirme-2",
+          "tip": "secim",
+          "soru": "Katılma bildiren de hangi cümlede doğru yazılmıştır?",
+          "secenekler": [
+            "Bu öneriyi bende destekliyorum.",
+            "Bu öneriyi ben’de destekliyorum.",
+            "Bu öneriyi ben de destekliyorum."
+          ],
+          "dogru": "Bu öneriyi ben de destekliyorum.",
+          "aciklama": "De katılma anlamı veren bağlaçtır ve ayrı yazılır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-4-yazim-gozden-gecirme-3",
+          "tip": "secim",
+          "soru": "Yer bildiren ek hangi cümlede doğrudur?",
+          "secenekler": [
+            "Toplantı okul-da yapılacak.",
+            "Toplantı okulda yapılacak.",
+            "Toplantı okul da yapılacak."
+          ],
+          "dogru": "Toplantı okulda yapılacak.",
+          "aciklama": "Okulda yer bildirir; bulunma eki bitişik yazılır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-4-yazim-gozden-gecirme-4",
+          "tip": "secim",
+          "soru": "Konuşan kişinin belirtildiği satır hangisinde doğrudur?",
+          "secenekler": [
+            "Ece: Önce gündemi okuyalım.",
+            "Ece/ Önce gündemi okuyalım.",
+            "Ece’ Önce gündemi okuyalım."
+          ],
+          "dogru": "Ece: Önce gündemi okuyalım.",
+          "aciklama": "Karşılıklı konuşmada kişi adından sonra iki nokta kullanılır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-4-yazim-gozden-gecirme-5",
+          "tip": "secim",
+          "soru": "Açıklamayı başlatan iki nokta hangi cümlede doğru yerde kullanılmıştır?",
+          "secenekler": [
+            "Plan: değişti önce salonda buluşacağız.",
+            "Plan değişti önce: salonda buluşacağız.",
+            "Plan değişti: Önce salonda buluşacağız."
+          ],
+          "dogru": "Plan değişti: Önce salonda buluşacağız.",
+          "aciklama": "İlk yargının açıklaması iki noktadan sonra gelir.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-4-yazim-gozden-gecirme-6",
+          "tip": "secim",
+          "soru": "Kabul bildiren sözün ayrıldığı doğru cümle hangisidir?",
+          "secenekler": [
+            "Evet notunu aldım,",
+            "Evet, notunu aldım.",
+            "Evet notunu, aldım."
+          ],
+          "dogru": "Evet, notunu aldım.",
+          "aciklama": "Evet kabul bildirir ve cümlenin devamından virgülle ayrılır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-4-yazim-gozden-gecirme-7",
+          "tip": "secim",
+          "soru": "Ek olan ki hangi seçenekte doğru yazılmıştır?",
+          "secenekler": [
+            "Panodaki duyuruyu yeniledik.",
+            "Panoda ki duyuruyu yeniledik.",
+            "Pano daki duyuruyu yeniledik."
+          ],
+          "dogru": "Panodaki duyuruyu yeniledik.",
+          "aciklama": "Panodaki sözündeki ek bitişik yazılır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-4-yazim-gozden-gecirme-8",
+          "tip": "secim",
+          "soru": "Bağlaç olan ki hangi seçenekte doğru yazılmıştır?",
+          "secenekler": [
+            "Gördümki saat değişmiş.",
+            "Gördüm-ki saat değişmiş.",
+            "Gördüm ki saat değişmiş."
+          ],
+          "dogru": "Gördüm ki saat değişmiş.",
+          "aciklama": "Yargıları bağlayan ki ayrı yazılır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-4-yazim-gozden-gecirme-9",
+          "tip": "secim",
+          "soru": "Sıralı cümlelerin virgülle ayrıldığı doğru seçenek hangisidir?",
+          "secenekler": [
+            "Süre doldu toplantı, bitti.",
+            "Süre doldu, toplantı bitti.",
+            "Süre, doldu toplantı bitti."
+          ],
+          "dogru": "Süre doldu, toplantı bitti.",
+          "aciklama": "İki yargı arasına virgül konarak sınır gösterilir.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-4-yazim-gozden-gecirme-10",
+          "tip": "secim",
+          "soru": "Soru eki ve bağlacın birlikte doğru yazıldığı cümle hangisidir?",
+          "secenekler": [
+            "Siz de katılır mısınız?",
+            "Sizde katılırmısınız?",
+            "Siz de katılır mı sınız?"
+          ],
+          "dogru": "Siz de katılır mısınız?",
+          "aciklama": "De bağlacı ve soru eki ayrı başlar; soru ekinin kişi eki bitişir.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        }
+      ]
+    }
+  ],
+  "dinleme": [
+    {
+      "id": "6-4-dinleme",
+      "baslik": "Duyurunun Düzeni",
+      "metin": "Bugünkü çalışma, bir duyuruyu anlaşılır hâle getirmekle ilgili. Önce hangi etkinliğin duyurulduğunu yazacağız. Ardından yer, tarih ve saat bilgilerini ekleyeceğiz. Önceki planda bir değişiklik varsa neyin değiştiğini açıkça belirteceğiz. Sonra metni başka bir arkadaşımıza okutacağız. Arkadaşımızın bilmediği bir ayrıntı var mı, soracağız. Bu kontrol sırasında kişileri iyi veya kötü diye değerlendirmeyeceğiz; metnin ne kadar açık olduğunu inceleyeceğiz. En son yazım ve noktalama kontrolü yapacağız. Gönderilecek metinde kişisel bilgiler bulunmayacak. Duyuruyu hazırlayan kişi, okurun aynı konuşmaları görmüş olduğunu varsaymayacak.",
+      "tts": {
+        "dil": "tr-TR",
+        "sesYoksa": "metin"
+      },
+      "sorular": [
+        {
+          "id": "6-4-dinleme-1",
+          "tip": "secim",
+          "soru": "“Duyurunun Düzeni” dinleme metnine göre: Anlatımın başlangıcında hangi adım vardır?",
+          "secenekler": [
+            "Son noktalama kontrolünü yapmak",
+            "Metni hemen göndermek",
+            "Etkinliği tanıtmak"
+          ],
+          "dogru": "Etkinliği tanıtmak",
+          "aciklama": "Önce hangi etkinliğin duyurulduğunun yazılması istenir.",
+          "cikti": "T.D.6.14"
+        },
+        {
+          "id": "6-4-dinleme-2",
+          "tip": "secim",
+          "soru": "“Duyurunun Düzeni” dinleme metnine göre: Yer ve zamandan sonra hangi bilgiye dikkat edilir?",
+          "secenekler": [
+            "Telefonun markasına",
+            "Önceki planda neyin değiştiğine",
+            "Duyuruyu yazanın özel adresine"
+          ],
+          "dogru": "Önceki planda neyin değiştiğine",
+          "aciklama": "Yönerge değişiklik varsa bunun açıkça belirtilmesini söyler.",
+          "cikti": "T.D.6.14"
+        },
+        {
+          "id": "6-4-dinleme-3",
+          "tip": "secim",
+          "soru": "“Duyurunun Düzeni” dinleme metnine göre: Dinlenen metnin ana düzeni hangisidir?",
+          "secenekler": [
+            "Bir işin adımlarını sırayla açıklama",
+            "Karakterlerin serüvenini anlatma",
+            "Dizelerle duyguyu aktarma"
+          ],
+          "dogru": "Bir işin adımlarını sırayla açıklama",
+          "aciklama": "Metin duyuru hazırlama sürecinin basamaklarını sıralar.",
+          "cikti": "T.D.6.14"
+        },
+        {
+          "id": "6-4-dinleme-4",
+          "tip": "secim",
+          "soru": "“Duyurunun Düzeni” dinleme metnine göre: Hangi özet temel bilgiyi korur?",
+          "secenekler": [
+            "Duyuru yalnız uzun tutulur",
+            "Okurun her bilgiyi zaten bildiği kabul edilir",
+            "Etkinlik ve değişiklikler açık yazılır, metin anlaşılma ve yazım yönünden kontrol edilir"
+          ],
+          "dogru": "Etkinlik ve değişiklikler açık yazılır, metin anlaşılma ve yazım yönünden kontrol edilir",
+          "aciklama": "Özet yönergenin açıklık ve gözden geçirme adımlarını birleştirir.",
+          "cikti": "T.D.6.12"
+        }
+      ]
+    }
+  ],
+  "yazmaGorevleri": [
+    {
+      "id": "6-4-yazma",
+      "baslik": "Anlaşılır Bir Duyuru",
+      "yonerge": "Kurgusal bir sınıf etkinliği için 120–200 kelimelik duyuru ve kısa açıklama hazırla. Etkinlik amacı, katılım koşulu, yer ve zaman açık olsun. Önceki planda neyin değiştiğini belirt. Ardından duyuruyu neden böyle düzenlediğini açıkla. Gerçek adres veya kişisel iletişim bilgisi kullanma.",
+      "minKelime": 120,
+      "maxKelime": 200,
+      "ciktilar": [
+        "T.Y.6.1",
+        "T.Y.6.3",
+        "T.Y.6.21",
+        "T.Y.6.22"
+      ],
+      "ogretmenDegerlendirmeli": true,
+      "rubrik": [
+        {
+          "olcut": "Amaca ve konuya uygunluk",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Düşünce düzeni ve gerekçelendirme",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Bağlama uygun dil yapıları ve söz varlığı",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Yazım, noktalama ve gözden geçirme",
+          "enDusuk": 0,
+          "enYuksek": 4
+        }
+      ]
+    }
+  ],
+  "lgsSorulari": []
+}

@@ -1,0 +1,890 @@
+{
+  "belgeTuru": "tema",
+  "semaSurumu": "1.0",
+  "sinif": 6,
+  "program": "TYMM",
+  "tema": 6,
+  "temaAdi": "Lider Ruhlar",
+  "durum": "incelemeye_hazir",
+  "kaynak": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/282",
+  "kaynak_dogrulanmadi": false,
+  "ogrenmeCiktilari": [
+    "T.D.6.1",
+    "T.D.6.22",
+    "T.D.6.23",
+    "T.D.6.24",
+    "T.D.6.25",
+    "T.K.6.1",
+    "T.K.6.16",
+    "T.K.6.18",
+    "T.K.6.19",
+    "T.K.6.26",
+    "T.O.6.1",
+    "T.O.6.24",
+    "T.O.6.25",
+    "T.O.6.26",
+    "T.O.6.27",
+    "T.Y.6.1",
+    "T.Y.6.13",
+    "T.Y.6.15",
+    "T.Y.6.16",
+    "T.Y.6.21",
+    "T.Y.6.22"
+  ],
+  "sozVarligi": {
+    "aciklama": "Tanım ve örnekler özgündür. T.O.6.21 ilk temada tanıtılan söz varlığını geliştirme çıktısıdır; sonraki temalarda tekrar edilir.",
+    "kelimeler": [
+      {
+        "kelime": "liderlik",
+        "anlam": "Bir grubun ortak amacına ilerlemesini kolaylaştırma işi",
+        "ornek": "Liderlik görev paylaşmayı da gerektirir.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "azim",
+        "anlam": "Bir güçlük karşısında çabayı sürdürme isteği",
+        "ornek": "Azim ile yeni bir çalışma planı yaptı.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "kararlılık",
+        "anlam": "Verilen kararı sürdürme tutumu",
+        "ornek": "Kararlılık gerektiğinde yöntem değiştirmeye engel değildir.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "girişim",
+        "anlam": "Bir işi gerçekleştirmek için atılan adım",
+        "ornek": "Küçük girişim bütün okula yayıldı.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "bütçe",
+        "anlam": "Gelir ve giderlerin önceden planlanması",
+        "ornek": "Bütçe tablosunda beklenmeyen gider için yer ayırdık.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "maliyet",
+        "anlam": "Bir işin yapılması için gereken toplam harcama",
+        "ornek": "Maliyet ürünün fiyatından farklı olabilir.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "tasarruf",
+        "anlam": "Kaynakları gereksiz tüketmeden kullanma",
+        "ornek": "Tasarruf için sağlam malzemeleri yeniden kullandık.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "öncelik",
+        "anlam": "Diğerlerinden önce ele alınacak iş veya ihtiyaç",
+        "ornek": "Güvenliği ilk öncelik olarak belirledik.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "hedef",
+        "anlam": "Ulaşılması amaçlanan sonuç",
+        "ornek": "Hedefi ölçülebilir biçimde yazdık.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "planlama",
+        "anlam": "İşlerin sırasını ve kaynaklarını önceden düzenleme",
+        "ornek": "Planlama ekibin zamanını korudu.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "esneklik",
+        "anlam": "Değişen koşullara uyabilme niteliği",
+        "ornek": "Esneklik sayesinde yeni bir yol bulduk.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "sebat",
+        "anlam": "Başlanan işi güçlük karşısında bırakmama",
+        "ornek": "Sebat düzenli çalışmada kendini gösterdi.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "yetenek",
+        "anlam": "Bir işi öğrenmeye veya yapmaya yatkınlık",
+        "ornek": "Yetenek düzenli çalışmayla gelişebilir.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "deneyim",
+        "anlam": "Yaşayarak veya uygulayarak kazanılan bilgi",
+        "ornek": "İlk denemenin deneyimi sonraki çalışmayı kolaylaştırdı.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "başarı",
+        "anlam": "Belirlenen amaca ulaşma durumu",
+        "ornek": "Başarıyı yalnız ödülle ölçmedik.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "ölçüt",
+        "anlam": "Bir değerlendirmede esas alınan özellik",
+        "ornek": "Ölçütleri çalışmadan önce açıkladık.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "değerlendirme",
+        "anlam": "Bir işi belirli ölçütlere göre inceleme",
+        "ornek": "Değerlendirme gerekçeler içeriyordu.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "yapıcı",
+        "anlam": "Gelişmeye ve çözüme yardım eden",
+        "ornek": "Yapıcı eleştiri somut bir öneri sunar.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "ilham",
+        "anlam": "Yeni bir düşünce veya üretim isteği uyandıran etki",
+        "ornek": "Gördüğü sergi ona ilham verdi.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "rehber",
+        "anlam": "Yol gösteren kişi veya kaynak",
+        "ornek": "Rehber tüm kararları bizim yerimize almadı.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "görev",
+        "anlam": "Bir kişinin üstlendiği iş",
+        "ornek": "Görev için gereken süreyi hesapladım.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "yetki",
+        "anlam": "Bir işi yapmaya veya karar vermeye tanınan hak",
+        "ornek": "Yetki ile sorumluluğu birlikte konuştuk.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "hesap vermek",
+        "anlam": "Yapılan bir işin gerekçesini ve sonucunu açıklamak",
+        "ornek": "Ekip harcamalar için hesap vermek istedi.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "risk",
+        "anlam": "Bir kararın istenmeyen sonuç doğurma olasılığı",
+        "ornek": "Risk için yedek plan hazırladık.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "fırsat",
+        "anlam": "Bir amaca ulaşmayı kolaylaştırabilecek uygun durum",
+        "ornek": "Boş atölye bizim için bir fırsattı.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "üretkenlik",
+        "anlam": "Kaynakları kullanarak ürün veya düşünce ortaya koyabilme",
+        "ornek": "Üretkenlik dinlenmeye de ihtiyaç duyar.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "bağımsız",
+        "anlam": "Kendi kararını verebilen",
+        "ornek": "Bağımsız çalışırken gerektiğinde yardım istedim.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "ortaklık",
+        "anlam": "Bir işi veya amacı paylaşma ilişkisi",
+        "ornek": "Ortaklık görevlerin adil dağılmasını gerektiriyordu.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "şeffaflık",
+        "anlam": "Karar ve işlemlerin açıkça anlaşılabilir olması",
+        "ornek": "Şeffaflık için bütçeyi panoya astık.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "sürdürülebilir",
+        "anlam": "Kaynakları tüketmeden uzun süre devam ettirilebilir",
+        "ornek": "Sürdürülebilir bir atölye planı yaptık.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      }
+    ],
+    "esAnlamlilar": [
+      [
+        "hedef",
+        "amaç"
+      ]
+    ],
+    "zitAnlamlilar": [],
+    "esSesliler": [],
+    "deyimler": [],
+    "atasozleri": [
+      {
+        "ifade": "Damlaya damlaya göl olur.",
+        "anlam": "Küçük birikimler zamanla büyük bir toplam oluşturabilir.",
+        "ornek": "Atölyede küçük tasarrufları kaydederken bu atasözünü hatırladık."
+      }
+    ]
+  },
+  "okumaParcalari": [
+    {
+      "id": "6-6-okuma-1",
+      "baslik": "En Yüksek Ses Değildi",
+      "tur": "oykuleyici",
+      "metin": "Okul bahçesinde kurulacak paylaşım rafı için gönüllüler ilk kez toplandı. Rafın üzerinde öğrencilerin artık kullanmadıkları ama sağlam olan araç gereçler bulunacaktı. İsteyen ihtiyacı olan bir eşyayı alabilecek, isteyen de temiz ve kullanılabilir bir eşya bırakabilecekti. Toplantının başında herkes aynı anda konuştu. Kerem büyük bir afiş istiyor, Elif önce rafın sağlamlığını kontrol etmek gerektiğini söylüyordu. Duru ise henüz konuşmamıştı.\nBir süre sonra Kerem kendisini grubun yöneticisi ilan etti. En çok öneriyi kendisinin sunduğunu düşünüyordu. Duru elini kaldırıp bir soru sordu: “Şu anda hangi sorunu önce çözmemiz gerekiyor?” Bu soru konuşmayı değiştirdi. Rafın nerede duracağı belli değildi. Yağmurdan korunması, geçiş yolunu kapatmaması ve farklı boylardaki öğrencilerin erişebilmesi gerekiyordu. Güzel bir afiş, bu koşullar çözülmeden işe yaramayabilirdi.\nGrup önce ihtiyaçları listeledi. Öğretmenin uygun bulduğu iki alanı ölçtüler ve görevli kişiden rafın durumunu kontrol etmesini istediler. Öğrenciler kendi başlarına ağır rafı taşımadı. Bir köşede geçişin daraldığını görünce diğer alanı seçtiler. Duru herkes adına tek başına karar vermedi; gözlemleri sırayla dinleyip seçenekleri tahtaya yazdı. Kerem de afiş önerisini sonradan ele alınacak işler bölümüne taşıdı.\nİlk hafta rafa bırakılan bazı eşyalar kullanılamaz durumdaydı. Elif, kötü eşya getirenleri herkesin önünde açıklamayı önerdi. Duru sorunun kişilerden çok yönergenin belirsizliğinden kaynaklanabileceğini söyledi. Birlikte örnekli bir kabul listesi hazırladılar. Temiz, sağlam ve güvenli ürünler kabul edilecek; değerlendirmeyi bir öğretmenle birlikte yapacaklardı. Kimsenin ihtiyaç durumunu açıklaması istenmeyecekti. Paylaşımın amacı insanları etiketlemek değildi.\nAy sonunda grup yalnız kaç eşya toplandığını saymadı. Kullanılamayan ürünlerin azalıp azalmadığını, rafın düzenli kalıp kalmadığını ve nöbetlerin eşit dağılıp dağılmadığını inceledi. Kerem toplantı notlarında Duru'nun adının az geçtiğini fark etti. Oysa doğru soruları sorması ve görüşleri görünür kılması pek çok kararı kolaylaştırmıştı. Liderliğin yalnız yüksek sesle konuşmak veya bütün kararları almak olmadığını düşündü. Sonraki toplantıyı kendisi yönetirken önce sessizce herkesten bir öneri yazmasını istedi. Duru'nun yöntemini aynen kopyalamadı; grubun o günkü ihtiyacına göre uyarladı. Rafın üzerinde ise kocaman bir isim yerine küçük bir cümle yer aldı: “Birlikte kurduk, birlikte geliştirelim.” Bu cümle, projenin tek bir kişinin başarısı olarak sunulmamasını sağlıyordu.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; kitap veya internet metninden alınmamıştır.",
+      "sorular": [
+        {
+          "id": "6-6-okuma-1-1",
+          "tip": "secim",
+          "soru": "“En Yüksek Ses Değildi” metnine göre: Başlangıçtaki öneriler hangi ölçüte göre sıralanmalıdır?",
+          "secenekler": [
+            "Güvenlik ve erişim gibi temel ihtiyaçlara göre",
+            "Kimin daha yüksek sesle konuştuğuna göre",
+            "En çok renk isteyen kişinin isteğine göre"
+          ],
+          "dogru": "Güvenlik ve erişim gibi temel ihtiyaçlara göre",
+          "aciklama": "Rafın güvenli konumu çözülmeden afiş gibi işler öncelikli değildir.",
+          "cikti": "T.O.6.24"
+        },
+        {
+          "id": "6-6-okuma-1-2",
+          "tip": "secim",
+          "soru": "“En Yüksek Ses Değildi” metnine göre: Kerem'in kendisini yönetici ilan etmesine yönelik hangi eleştiri gerekçelidir?",
+          "secenekler": [
+            "Afiş fikri sunan hiç kimse gruba katılamaz",
+            "Yönetici her zaman en sessiz kişi olmalıdır",
+            "Çok öneri sunmak tek başına ortak karar yetkisi vermez"
+          ],
+          "dogru": "Çok öneri sunmak tek başına ortak karar yetkisi vermez",
+          "aciklama": "Metin liderliği katkıları düzenlemekle ilişkilendirir, ses yüksekliğiyle değil.",
+          "cikti": "T.O.6.25"
+        },
+        {
+          "id": "6-6-okuma-1-3",
+          "tip": "secim",
+          "soru": "“En Yüksek Ses Değildi” metnine göre: Kullanılamayan eşya sorununa uygun çözüm hangisidir?",
+          "secenekler": [
+            "Bütün paylaşımı gerekçesizce bitirmek",
+            "Örnekli bir kabul listesi hazırlamak",
+            "İhtiyacı olanların adını panoya yazmak"
+          ],
+          "dogru": "Örnekli bir kabul listesi hazırlamak",
+          "aciklama": "Belirsiz yönergeyi açık örneklerle düzeltmek sorunun kaynağına yönelir.",
+          "cikti": "T.O.6.26"
+        },
+        {
+          "id": "6-6-okuma-1-4",
+          "tip": "secim",
+          "soru": "“En Yüksek Ses Değildi” metnine göre: Elif'in kişileri açıklama önerisindeki sorun nedir?",
+          "secenekler": [
+            "Sorunu çözmek yerine kişileri hedef gösterebilmesi",
+            "Yönergeyi çok ayrıntılı yapması",
+            "Rafın ölçüsünü yanlış hesaplaması"
+          ],
+          "dogru": "Sorunu çözmek yerine kişileri hedef gösterebilmesi",
+          "aciklama": "Kişileri açıkça suçlamak yerine kabul koşullarını netleştirmek önerilir.",
+          "cikti": "T.O.6.25"
+        },
+        {
+          "id": "6-6-okuma-1-5",
+          "tip": "secim",
+          "soru": "“En Yüksek Ses Değildi” metnine göre: Duru'nun tutumunu değerlendiren en dayanaklı ifade hangisidir?",
+          "secenekler": [
+            "Bütün işleri tek başına yapması başarıyı getirir",
+            "Hiç soru sormaması zaman kazandırır",
+            "Görüşleri toplaması ortak karar almayı kolaylaştırır"
+          ],
+          "dogru": "Görüşleri toplaması ortak karar almayı kolaylaştırır",
+          "aciklama": "Duru seçenekleri ve görüşleri görünür kılarak grubu karar sürecine katar.",
+          "cikti": "T.O.6.24"
+        },
+        {
+          "id": "6-6-okuma-1-6",
+          "tip": "secim",
+          "soru": "“En Yüksek Ses Değildi” metnine göre: Projenin başarısı için hangi ölçüt daha kapsamlıdır?",
+          "secenekler": [
+            "Yalnız toplantıda geçen isim sayısı",
+            "Düzen, kullanılabilirlik ve görev paylaşımı",
+            "Yalnız afişin büyüklüğü"
+          ],
+          "dogru": "Düzen, kullanılabilirlik ve görev paylaşımı",
+          "aciklama": "Son değerlendirmede birden çok somut işleyiş ölçütü incelenir.",
+          "cikti": "T.O.6.24"
+        },
+        {
+          "id": "6-6-okuma-1-7",
+          "tip": "secim",
+          "soru": "“En Yüksek Ses Değildi” metnine göre: Nöbetlerin eşit dağılmadığı görülürse uygun öneri hangisidir?",
+          "secenekler": [
+            "Görev sürelerini birlikte gözden geçirmek",
+            "Durumu herkesten saklamak",
+            "Bütün nöbetleri tek öğrenciye bırakmak"
+          ],
+          "dogru": "Görev sürelerini birlikte gözden geçirmek",
+          "aciklama": "Görev dağılımını yeniden konuşmak eşitsizliğin çözümüne yönelir.",
+          "cikti": "T.O.6.26"
+        },
+        {
+          "id": "6-6-okuma-1-8",
+          "tip": "secim",
+          "soru": "“En Yüksek Ses Değildi” metnine göre: Son cümledeki birlikte vurgusunun metne katkısı nedir?",
+          "secenekler": [
+            "Her kararı tek kişiye bağlaması",
+            "Sorunların bittiğini kesinleştirmesi",
+            "Ortak emeği görünür kılması"
+          ],
+          "dogru": "Ortak emeği görünür kılması",
+          "aciklama": "Rafın sözü, projenin ortak katkıyla kurulduğunu ve gelişeceğini anlatır.",
+          "cikti": "T.O.6.24"
+        }
+      ]
+    },
+    {
+      "id": "6-6-okuma-2",
+      "baslik": "Küçük Bütçe, Açık Kararlar",
+      "tur": "bilgilendirici",
+      "metin": "Bir öğrenci topluluğu kâğıt ürünler hazırlayacağı küçük bir atölye kurmak istiyor. Ellerinde sınırlı miktarda malzeme ve harcayabilecekleri küçük bir bütçe var. İlk toplantıda bütün parayı renkli süslemelere ayırma önerisi geliyor. Başka bir öğrenci ise önce hangi ürünün, kim için ve ne kadar üretileceğinin belirlenmesini istiyor. İkinci öneri daha az heyecan verici görünebilir. Fakat bütçeyi amaçla ilişkilendirmek, eldeki kaynağın ihtiyaç dışı kullanılmasını önleyebilir.\nPlanlama için önce gerekli malzemeler ve elde bulunanlar ayrı listelere yazılır. Kullanılabilir kâğıtları yeniden değerlendirmek, yeni malzeme ihtiyacını azaltabilir. Bununla birlikte yeniden kullanımın her koşulda ücretsiz olduğu varsayılmaz. Ayırma, temizleme veya uygun hâle getirme için zaman gerekebilir. Bir ürünün maliyeti yalnız dükkânda ödenen tutardan oluşmaz; çalışma için gereken diğer kaynaklar da düşünülür.\nArdından farklı seçenekler aynı ölçütlerle karşılaştırılır. Bir malzemenin ucuz olması, amaca uygun veya güvenli olduğu anlamına gelmez. Kolay bozulan bir ürün daha sonra yeniden harcama gerektirebilir. Bu yüzden karar tablosunda fiyatın yanında dayanıklılık, kullanım kolaylığı ve erişilebilirlik gibi özelliklere de yer verilir. Kesin bilinmeyen tutarlar tahmin olarak işaretlenir. Tahmin ile gerçekleşen harcama birbirine karıştırılmaz.\nBütçede beklenmedik durumlar için pay bırakmak da düşünülebilir. Bu payın miktarı çalışmanın ihtiyacına göre belirlenir; herkes için değişmez tek bir oran önerilmez. Grup bütün parayı harcamayı başarı göstergesi saymaz. Amaç uygun ürünü, uygun koşullarda hazırlamaktır. Harcanmayan kaynak, sonraki ihtiyaçlar için korunabilir. Topluluk, parasal işlemleri okulun kuralları ve yetişkin sorumluluğu çerçevesinde yürütür.\nDeğerlendirme sırasında yalnız ürün sayısı sayılmaz. Görevlerin adil paylaşılıp paylaşılmadığı, bütçe kayıtlarının anlaşılır olup olmadığı ve atık miktarının azalıp azalmadığı da incelenir. “Çalışma güzeldi.” cümlesi bir görüş bildirir; hangi özelliğin neden başarılı bulunduğunu açıklayan cümle ise gelişmeye daha çok yardım eder. Eleştiri de aynı biçimde somutlaştırılabilir. “Bazı giderler kaydedilmediği için kalan tutarı izlemek zorlaştı.” sözü, bir sonraki atölyede düzenli kayıt tutma önerisine kapı açar. Böylece küçük bütçe yalnız hesap yapma alıştırması olmaz. Ortak kararların gerekçesini açıklama ve yapılan işi geliştirme fırsatı da sunar. Planın toplantıdan sonra herkesin anlayabileceği kısa bir özetle paylaşılması, görevlerin unutulmasını azaltabilir. Özette kişilerle ilgili özel bilgiler yerine alınan kararlar ve sorumluluklar yer alır. Yeni bir ihtiyaç çıktığında plan yeniden görüşülebilir; ilk karar sırf önce alındığı için değişmez kabul edilmez.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; kitap veya internet metninden alınmamıştır.",
+      "sorular": [
+        {
+          "id": "6-6-okuma-2-1",
+          "tip": "secim",
+          "soru": "“Küçük Bütçe, Açık Kararlar” metnine göre: İlk öneriye karşı hangi eleştiri metne uygundur?",
+          "secenekler": [
+            "Süsleme hiçbir çalışmada kullanılamaz",
+            "Bütçe yapmak her durumda gereksizdir",
+            "Ürün ve ihtiyaç belli olmadan bütün kaynağı süslemeye ayırmak erken olabilir"
+          ],
+          "dogru": "Ürün ve ihtiyaç belli olmadan bütün kaynağı süslemeye ayırmak erken olabilir",
+          "aciklama": "Metin harcamayı önce amaç ve ihtiyaçla ilişkilendirmeyi önerir.",
+          "cikti": "T.O.6.25"
+        },
+        {
+          "id": "6-6-okuma-2-2",
+          "tip": "secim",
+          "soru": "“Küçük Bütçe, Açık Kararlar” metnine göre: Maliyet değerlendirmesinde hangi ölçüt daha kapsamlıdır?",
+          "secenekler": [
+            "Sadece alışveriş çantasının rengine bakmak",
+            "Para yanında gereken zaman ve kaynakları da düşünmek",
+            "Yalnız en parlak malzemeyi seçmek"
+          ],
+          "dogru": "Para yanında gereken zaman ve kaynakları da düşünmek",
+          "aciklama": "İkinci paragraf diğer kaynakların ve zamanın da hesaba katılmasını ister.",
+          "cikti": "T.O.6.24"
+        },
+        {
+          "id": "6-6-okuma-2-3",
+          "tip": "secim",
+          "soru": "“Küçük Bütçe, Açık Kararlar” metnine göre: Eksik harcama kaydı sorununa en uygun çözüm hangisidir?",
+          "secenekler": [
+            "Düzenli kayıt yöntemi belirlemek",
+            "Kalan tutarı rastgele tahmin etmek",
+            "Bütçe tablosunu tamamen gizlemek"
+          ],
+          "dogru": "Düzenli kayıt yöntemi belirlemek",
+          "aciklama": "Sorunun kaynağı kayıtsız gider olduğundan kayıt düzeni geliştirilmelidir.",
+          "cikti": "T.O.6.26"
+        },
+        {
+          "id": "6-6-okuma-2-4",
+          "tip": "secim",
+          "soru": "“Küçük Bütçe, Açık Kararlar” metnine göre: Ucuz malzemeyi tek ölçütle seçmeye hangi gerekçeyle itiraz edilir?",
+          "secenekler": [
+            "Ucuz olan her şey tehlikelidir",
+            "Pahalı olan her şey her zaman uygundur",
+            "Dayanıklılık ve uygunluk da sonucu etkileyebilir"
+          ],
+          "dogru": "Dayanıklılık ve uygunluk da sonucu etkileyebilir",
+          "aciklama": "Metin fiyatın tek başına kalite veya uygunluk göstermediğini açıklar.",
+          "cikti": "T.O.6.25"
+        },
+        {
+          "id": "6-6-okuma-2-5",
+          "tip": "secim",
+          "soru": "“Küçük Bütçe, Açık Kararlar” metnine göre: Başarıyı değerlendirmek için hangisi metinle uyumludur?",
+          "secenekler": [
+            "Ürünleri saymadan bütün kayıtları atmak",
+            "Görev adaleti ve kayıt açıklığını da incelemek",
+            "Bütün paranın bitmesini tek başarı ölçütü saymak"
+          ],
+          "dogru": "Görev adaleti ve kayıt açıklığını da incelemek",
+          "aciklama": "Değerlendirme ürün sayısının yanında süreç ölçütlerini de içerir.",
+          "cikti": "T.O.6.24"
+        },
+        {
+          "id": "6-6-okuma-2-6",
+          "tip": "secim",
+          "soru": "“Küçük Bütçe, Açık Kararlar” metnine göre: Yeni ihtiyaç ortaya çıkınca ne önerilebilir?",
+          "secenekler": [
+            "Planı gerekçeleriyle yeniden görüşmek",
+            "İlk kararları hiçbir koşulda değiştirmemek",
+            "Yeni ihtiyacı yok saymak"
+          ],
+          "dogru": "Planı gerekçeleriyle yeniden görüşmek",
+          "aciklama": "Son bölüm planın değişen ihtiyaçlara göre yeniden ele alınabileceğini belirtir.",
+          "cikti": "T.O.6.26"
+        },
+        {
+          "id": "6-6-okuma-2-7",
+          "tip": "secim",
+          "soru": "“Küçük Bütçe, Açık Kararlar” metnine göre: Çalışma güzeldi değerlendirmesinin eksik yanı nedir?",
+          "secenekler": [
+            "Mutlaka yanlış bir duygu bildirmesi",
+            "Hiçbir görüş içermemesi",
+            "Hangi özelliğin neden başarılı olduğunu açıklamaması"
+          ],
+          "dogru": "Hangi özelliğin neden başarılı olduğunu açıklamaması",
+          "aciklama": "Bu söz bir görüş bildirir fakat geliştirmeye yardımcı somut dayanak sunmaz.",
+          "cikti": "T.O.6.25"
+        },
+        {
+          "id": "6-6-okuma-2-8",
+          "tip": "secim",
+          "soru": "“Küçük Bütçe, Açık Kararlar” metnine göre: Şeffaflığı artıran uygulama hangisidir?",
+          "secenekler": [
+            "Kayıtları yalnız bir kişinin anlamasını sağlamak",
+            "Kararları anlaşılır kısa bir özetle paylaşmak",
+            "Tahminleri kesin harcama diye yazmak"
+          ],
+          "dogru": "Kararları anlaşılır kısa bir özetle paylaşmak",
+          "aciklama": "Anlaşılır karar özeti ortak sorumluluğun izlenmesini kolaylaştırır.",
+          "cikti": "T.O.6.24"
+        }
+      ]
+    }
+  ],
+  "konular": [
+    {
+      "kod": "6-6-olumsuzluk",
+      "ad": "Olumsuzluk bildiren dil yapıları",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.Y.6.16",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Olumsuzluk farklı sözlerle kurulabilir. Değil, yok, hayır gibi sözler; -ma/-me, -maz/-mez ve -sız/-siz gibi ekler bağlamda farklı görevler üstlenir. Her olumsuz biçim aynı türden kelime değildir; susuz bir nitelik, gelmedi bir yargı bildirir. Ayrıca biçim ile genel anlamı birlikte düşünmek gerekir. Bir çözüm önerisinde yalnız neyin olmadığını söylemek yerine, yapılabilecek olumlu adımı da açıkça eklemek anlatımı geliştirir.</p><ul><li>Bu görev imkânsız değil.</li><li>Bugün araç yok.</li><li>Planı denemeden reddetmeyelim.</li></ul>",
+      "ornekler": [
+        "Bu görev imkânsız değil.",
+        "Bugün araç yok.",
+        "Planı denemeden reddetmeyelim."
+      ],
+      "testler": [
+        {
+          "id": "6-6-olumsuzluk-1",
+          "tip": "secim",
+          "soru": "Toplantıya gelmedi. cümlesinde olumsuzluk nasıl kurulmuştur?",
+          "secenekler": [
+            "Soru ekiyle",
+            "Çoğul ekiyle",
+            "Fiile gelen -me ekiyle"
+          ],
+          "dogru": "Fiile gelen -me ekiyle",
+          "aciklama": "Gelmedi kelimesinde -me fiilin gerçekleşmediğini bildirir.",
+          "cikti": "T.Y.6.16"
+        },
+        {
+          "id": "6-6-olumsuzluk-2",
+          "tip": "secim",
+          "soru": "Bu ürün sağlam değil. cümlesinde olumsuzluğu hangi söz kurar?",
+          "secenekler": [
+            "Sağlam",
+            "Değil",
+            "Ürün"
+          ],
+          "dogru": "Değil",
+          "aciklama": "Değil, sağlam olma yargısını olumsuzlaştırır.",
+          "cikti": "T.Y.6.16"
+        },
+        {
+          "id": "6-6-olumsuzluk-3",
+          "tip": "secim",
+          "soru": "Masada malzeme yok. cümlesinde yok ne bildirir?",
+          "secenekler": [
+            "Bulunmama",
+            "Karşılaştırma",
+            "Bir amaç"
+          ],
+          "dogru": "Bulunmama",
+          "aciklama": "Yok sözü malzemenin bulunmadığını belirtir.",
+          "cikti": "T.Y.6.16"
+        },
+        {
+          "id": "6-6-olumsuzluk-4",
+          "tip": "secim",
+          "soru": "Susuz bir kap kaldı. cümlesinde susuz kelimesi neyi belirtir?",
+          "secenekler": [
+            "Kabın çoğul olduğunu",
+            "Bir kişinin zamanını",
+            "Suyun bulunmadığı bir niteliği"
+          ],
+          "dogru": "Suyun bulunmadığı bir niteliği",
+          "aciklama": "Su adına gelen -suz eki yokluk niteliği oluşturur.",
+          "cikti": "T.Y.6.16"
+        },
+        {
+          "id": "6-6-olumsuzluk-5",
+          "tip": "secim",
+          "soru": "Asla vazgeçmedik. cümlesinde asla ne yapar?",
+          "secenekler": [
+            "Özneye çoğul eki getirir",
+            "Olumsuzluğu pekiştirir",
+            "Bir tarih açıklar"
+          ],
+          "dogru": "Olumsuzluğu pekiştirir",
+          "aciklama": "Asla olumsuz yargıyı güçlendiren bir söz olarak kullanılır.",
+          "cikti": "T.Y.6.16"
+        },
+        {
+          "id": "6-6-olumsuzluk-6",
+          "tip": "secim",
+          "soru": "Hangi cümlede olumsuzluk yoktur?",
+          "secenekler": [
+            "Ekip bugün çalıştı.",
+            "Ekip bugün çalışmadı.",
+            "Ekip bugün burada değil."
+          ],
+          "dogru": "Ekip bugün çalıştı.",
+          "aciklama": "Çalıştı olumlu bir yargıdır; diğer seçenekler olumsuzluk içerir.",
+          "cikti": "T.Y.6.16"
+        },
+        {
+          "id": "6-6-olumsuzluk-7",
+          "tip": "secim",
+          "soru": "Hayır, bunu kabul etmiyorum. cümlesinde hayır hangi işlevdedir?",
+          "secenekler": [
+            "Yer bildirir",
+            "Amaç bildirir",
+            "Ret bildirir"
+          ],
+          "dogru": "Ret bildirir",
+          "aciklama": "Hayır önceki öneriye veya soruya olumsuz yanıt verir.",
+          "cikti": "T.Y.6.16"
+        },
+        {
+          "id": "6-6-olumsuzluk-8",
+          "tip": "secim",
+          "soru": "Yapıcı bir olumsuz eleştiri hangisidir?",
+          "secenekler": [
+            "Siz hiçbir şeyi yapamazsınız.",
+            "Kayıt eksik; her gider için bir satır ekleyebiliriz.",
+            "Bu çalışma kötü, hepsi bu."
+          ],
+          "dogru": "Kayıt eksik; her gider için bir satır ekleyebiliriz.",
+          "aciklama": "İlk seçenek somut bir eksikliği çözüm önerisiyle tamamlar.",
+          "cikti": "T.Y.6.16"
+        },
+        {
+          "id": "6-6-olumsuzluk-9",
+          "tip": "secim",
+          "soru": "Güvenilmez sözü için hangi açıklama uygundur?",
+          "secenekler": [
+            "Güvenmeye elverişli bulunmayanı niteler",
+            "Her durumda güvenilir olanı gösterir",
+            "Yalnız çoğulluk bildirir"
+          ],
+          "dogru": "Güvenmeye elverişli bulunmayanı niteler",
+          "aciklama": "Kelime olumsuz nitelik taşır; güvenilir olma durumunu reddeder.",
+          "cikti": "T.Y.6.16"
+        },
+        {
+          "id": "6-6-olumsuzluk-10",
+          "tip": "secim",
+          "soru": "Öneriyi hiç incelemedim. cümlesinin anlamını koruyan ifade hangisidir?",
+          "secenekler": [
+            "Öneriyi ayrıntılıca inceledim.",
+            "Öneriyi incelemek için geldim.",
+            "Öneri üzerinde bir inceleme yapmadım."
+          ],
+          "dogru": "Öneri üzerinde bir inceleme yapmadım.",
+          "aciklama": "İlk seçenek inceleme eyleminin gerçekleşmemesini aynı biçimde bildirir.",
+          "cikti": "T.Y.6.16"
+        }
+      ]
+    },
+    {
+      "kod": "6-6-benzerlik",
+      "ad": "Benzerlik bildiren sözler",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.Y.6.13",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Benzerlik bildiren yapılar, iki şeyin belirli bir yönden birbirine yaklaştığını anlatır. Gibi, sanki, âdeta, benzer ve -msı gibi yapılar bağlama göre bu işlevde kullanılabilir. Bir benzerlik, iki şeyin bütün özelliklerinin aynı olduğu anlamına gelmez. Değerlendirme yazısında benzerliğin hangi ölçüte dayandığını belirt. Hayalî benzetmeyi gerçek bir kanıt gibi sunmadan, anlatıma sağladığı etkiyi açıkla.</p><ul><li>İki plan görev sırası bakımından benzer.</li><li>Raf âdeta küçük bir paylaşım istasyonuydu.</li><li>Mavimsi bir etiket kullandık.</li></ul>",
+      "ornekler": [
+        "İki plan görev sırası bakımından benzer.",
+        "Raf âdeta küçük bir paylaşım istasyonuydu.",
+        "Mavimsi bir etiket kullandık."
+      ],
+      "testler": [
+        {
+          "id": "6-6-benzerlik-1",
+          "tip": "secim",
+          "soru": "Raf küçük bir istasyon gibiydi. cümlesinde gibi ne yapar?",
+          "secenekler": [
+            "Kesin tarih verir",
+            "Bir kişiyi reddeder",
+            "Benzerlik ilişkisi kurar"
+          ],
+          "dogru": "Benzerlik ilişkisi kurar",
+          "aciklama": "Raf bazı yönleriyle istasyona benzetilir.",
+          "cikti": "T.Y.6.13"
+        },
+        {
+          "id": "6-6-benzerlik-2",
+          "tip": "secim",
+          "soru": "Mavimsi etikette -msi ne bildirir?",
+          "secenekler": [
+            "Etiketin sayısını",
+            "Maviye yakın bir renk",
+            "Mavinin tamamen yokluğunu"
+          ],
+          "dogru": "Maviye yakın bir renk",
+          "aciklama": "Ek, maviyi andıran veya maviye yakın niteliği belirtir.",
+          "cikti": "T.Y.6.13"
+        },
+        {
+          "id": "6-6-benzerlik-3",
+          "tip": "secim",
+          "soru": "İki plan benzer. sözünü hangi ek bilgi daha açık yapar?",
+          "secenekler": [
+            "Görevleri aynı sırayla ele alıyorlar.",
+            "İkisi de bir yerde duruyor.",
+            "İkisine de bakılabilir."
+          ],
+          "dogru": "Görevleri aynı sırayla ele alıyorlar.",
+          "aciklama": "Görev sırası benzerliğin dayandığı somut ölçütü gösterir.",
+          "cikti": "T.Y.6.13"
+        },
+        {
+          "id": "6-6-benzerlik-4",
+          "tip": "secim",
+          "soru": "Sanki bütün sınıf tek bir ekipti. cümlesinde hangi ilişki vardır?",
+          "secenekler": [
+            "Kesin kişi sayısı hesabı",
+            "Bir koşulun gerçekleştiğinin kanıtı",
+            "Birlikte çalışma üzerinden benzetme"
+          ],
+          "dogru": "Birlikte çalışma üzerinden benzetme",
+          "aciklama": "Sanki anlatılan birlik duygusunu benzetmeyle güçlendirir.",
+          "cikti": "T.Y.6.13"
+        },
+        {
+          "id": "6-6-benzerlik-5",
+          "tip": "secim",
+          "soru": "Hangi cümlede benzerlik belirtilir?",
+          "secenekler": [
+            "Bu yöntemi üç kişi yazdı.",
+            "Bu yöntem öncekiyle aynı adımları izliyor.",
+            "Bu yöntem dün kullanıldı."
+          ],
+          "dogru": "Bu yöntem öncekiyle aynı adımları izliyor.",
+          "aciklama": "Aynı adımlar iki yöntem arasında belirli bir benzerlik kurar.",
+          "cikti": "T.Y.6.13"
+        },
+        {
+          "id": "6-6-benzerlik-6",
+          "tip": "secim",
+          "soru": "Âdeta sözü hangi cümlede benzetmeyi destekler?",
+          "secenekler": [
+            "Atölye âdeta küçük bir fikir bahçesiydi.",
+            "Atölye âdeta saat üçte açıldı.",
+            "Atölye âdeta üç masadan oluşuyordu."
+          ],
+          "dogru": "Atölye âdeta küçük bir fikir bahçesiydi.",
+          "aciklama": "Fikir bahçesi gerçek bir bahçe değildir; benzetme âdeta ile belirginleşir.",
+          "cikti": "T.Y.6.13"
+        },
+        {
+          "id": "6-6-benzerlik-7",
+          "tip": "secim",
+          "soru": "Bir yönüyle benzer olan iki şey hakkında ne söylenemez?",
+          "secenekler": [
+            "Bir ortak ölçütleri olabilir",
+            "Başka yönlerden ayrılabilirler",
+            "Bütün özellikleri kesinlikle aynıdır"
+          ],
+          "dogru": "Bütün özellikleri kesinlikle aynıdır",
+          "aciklama": "Sınırlı benzerlik bütün özelliklerin eşitliğini kanıtlamaz.",
+          "cikti": "T.Y.6.13"
+        },
+        {
+          "id": "6-6-benzerlik-8",
+          "tip": "secim",
+          "soru": "Bu iki çalışma erişilebilirlik bakımından benzer. cümlesinde ölçüt nedir?",
+          "secenekler": [
+            "Kullanılan boya miktarı",
+            "Erişilebilirlik",
+            "Yapıldıkları gün"
+          ],
+          "dogru": "Erişilebilirlik",
+          "aciklama": "Bakımından sözü benzerliğin hangi özellik üzerinden kurulduğunu belirtir.",
+          "cikti": "T.Y.6.13"
+        },
+        {
+          "id": "6-6-benzerlik-9",
+          "tip": "secim",
+          "soru": "Sarımsı bir kâğıt seçildi. sözünde sarımsı nasıl açıklanır?",
+          "secenekler": [
+            "Sarıyı andıran",
+            "Kesinlikle siyah",
+            "Her türlü renkten yoksun"
+          ],
+          "dogru": "Sarıyı andıran",
+          "aciklama": "Sarımsı sözü sarıya yakınlığı veya benzerliği bildirir.",
+          "cikti": "T.Y.6.13"
+        },
+        {
+          "id": "6-6-benzerlik-10",
+          "tip": "secim",
+          "soru": "Benzerliği gerekçelendiren değerlendirme hangisidir?",
+          "secenekler": [
+            "Bütçeler aynı çünkü bence öyle.",
+            "İki bütçe her bakımdan kusursuz.",
+            "İki bütçe de zorunlu giderleri öncelediği için aynı yaklaşımı taşıyor."
+          ],
+          "dogru": "İki bütçe de zorunlu giderleri öncelediği için aynı yaklaşımı taşıyor.",
+          "aciklama": "İlk seçenek ortak yaklaşımı somut bir karara dayandırır.",
+          "cikti": "T.Y.6.13"
+        }
+      ]
+    }
+  ],
+  "dinleme": [
+    {
+      "id": "6-6-dinleme",
+      "baslik": "Paylaşım Rafını Değerlendirmek",
+      "metin": "Paylaşım rafının ilk ayını değerlendiriyoruz. Çok sayıda eşya topladık; fakat bazıları kullanılamaz durumdaydı. Yalnız sayıyı başarı ölçütü almak bu sorunu görünmez kılabilir. Bu nedenle temiz, sağlam ve güvenli ürünleri örneklerle açıklayan bir kabul listesi hazırlamayı öneriyorum. Görevleri de yeniden gözden geçirelim; bazı arkadaşlarımız diğerlerinden uzun süre çalışmış olabilir. Kayıtlarımıza bakıp süreleri birlikte dengeleyebiliriz. İhtiyacı olanların adını açıklamak gerekmiyor. Amacımız kişileri etiketlemek değil, paylaşımı kolaylaştırmak. Gelecek ay listeyi ve görev dağılımını deneyip sonuçlarını aynı ölçütlerle inceleyelim.",
+      "tts": {
+        "dil": "tr-TR",
+        "sesYoksa": "metin"
+      },
+      "sorular": [
+        {
+          "id": "6-6-dinleme-1",
+          "tip": "secim",
+          "soru": "“Paylaşım Rafını Değerlendirmek” dinleme metnine göre: Yalnız eşya sayısını ölçüt almak neden eleştiriliyor?",
+          "secenekler": [
+            "Kullanılabilirlik sorununu gizleyebileceği için",
+            "Hiç eşya toplanmadığı için",
+            "Bütün eşyalar yeni olduğu için"
+          ],
+          "dogru": "Kullanılabilirlik sorununu gizleyebileceği için",
+          "aciklama": "Konuşmacı sayı yüksek olsa da kullanılamayan ürünlerin bulunduğunu vurgular.",
+          "cikti": "T.D.6.23"
+        },
+        {
+          "id": "6-6-dinleme-2",
+          "tip": "secim",
+          "soru": "“Paylaşım Rafını Değerlendirmek” dinleme metnine göre: Ürün sorununa sunulan çözüm nedir?",
+          "secenekler": [
+            "İsimleri panoda açıklamak",
+            "Bütün görevleri tek kişiye vermek",
+            "Örnekli kabul listesi"
+          ],
+          "dogru": "Örnekli kabul listesi",
+          "aciklama": "Temiz, sağlam ve güvenli ürünleri açıklayan liste soruna yöneliktir.",
+          "cikti": "T.D.6.24"
+        },
+        {
+          "id": "6-6-dinleme-3",
+          "tip": "secim",
+          "soru": "“Paylaşım Rafını Değerlendirmek” dinleme metnine göre: Görev adaletini incelemek için hangi dayanak öneriliyor?",
+          "secenekler": [
+            "Rafın boya rengi",
+            "Çalışma süresi kayıtları",
+            "En yüksek sesli kişinin görüşü"
+          ],
+          "dogru": "Çalışma süresi kayıtları",
+          "aciklama": "Kayıtlara bakıp sürelerin birlikte dengelenmesi önerilir.",
+          "cikti": "T.D.6.22"
+        },
+        {
+          "id": "6-6-dinleme-4",
+          "tip": "secim",
+          "soru": "“Paylaşım Rafını Değerlendirmek” dinleme metnine göre: Gelecek ay aynı ölçütleri kullanmak ne sağlar?",
+          "secenekler": [
+            "Değişikliğin etkisini karşılaştırmayı",
+            "Önceki kayıtları gizlemeyi",
+            "Sonucu görmeden başarı ilan etmeyi"
+          ],
+          "dogru": "Değişikliğin etkisini karşılaştırmayı",
+          "aciklama": "Aynı ölçütler önceki ve sonraki işleyişi değerlendirmeye yardım eder.",
+          "cikti": "T.D.6.22"
+        }
+      ]
+    }
+  ],
+  "yazmaGorevleri": [
+    {
+      "id": "6-6-yazma",
+      "baslik": "Paylaşım Projesine Yapıcı Öneri",
+      "yonerge": "Kurgusal bir paylaşım rafını 120–200 kelimede değerlendir. İki açık ölçüt kullan; bir güçlü yanı, bir geliştirilebilir yanı gerekçelendir. Sorun için uygulanabilir bir çözüm öner. Kişileri etiketleme ve kimsenin ihtiyaç durumunu açıklama. Bir olumsuzluk ve bir benzerlik ifadesini bağlama uygun kullan.",
+      "minKelime": 120,
+      "maxKelime": 200,
+      "ciktilar": [
+        "T.Y.6.1",
+        "T.Y.6.13",
+        "T.Y.6.15",
+        "T.Y.6.16",
+        "T.Y.6.21"
+      ],
+      "ogretmenDegerlendirmeli": true,
+      "rubrik": [
+        {
+          "olcut": "Amaca ve konuya uygunluk",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Düşünce düzeni ve gerekçelendirme",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Bağlama uygun dil yapıları ve söz varlığı",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Yazım, noktalama ve gözden geçirme",
+          "enDusuk": 0,
+          "enYuksek": 4
+        }
+      ]
+    }
+  ],
+  "lgsSorulari": []
+}

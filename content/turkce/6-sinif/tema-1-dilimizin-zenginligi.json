@@ -1,0 +1,1404 @@
+{
+  "belgeTuru": "tema",
+  "semaSurumu": "1.0",
+  "sinif": 6,
+  "program": "TYMM",
+  "tema": 1,
+  "temaAdi": "Dilimizin Zenginliği",
+  "durum": "incelemeye_hazir",
+  "kaynak": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/104",
+  "kaynak_dogrulanmadi": false,
+  "ogrenmeCiktilari": [
+    "T.D.6.1",
+    "T.D.6.15",
+    "T.D.6.19",
+    "T.D.6.2",
+    "T.D.6.25",
+    "T.D.6.4",
+    "T.D.6.5",
+    "T.K.6.1",
+    "T.K.6.2",
+    "T.K.6.22",
+    "T.K.6.26",
+    "T.K.6.3",
+    "T.K.6.9",
+    "T.O.6.1",
+    "T.O.6.16",
+    "T.O.6.2",
+    "T.O.6.21",
+    "T.O.6.27",
+    "T.O.6.3",
+    "T.O.6.4",
+    "T.O.6.5",
+    "T.O.6.6",
+    "T.Y.6.1",
+    "T.Y.6.18",
+    "T.Y.6.2",
+    "T.Y.6.21",
+    "T.Y.6.22",
+    "T.Y.6.3"
+  ],
+  "sozVarligi": {
+    "aciklama": "Tanım ve örnekler özgündür. T.O.6.21 ilk temada tanıtılan söz varlığını geliştirme çıktısıdır; sonraki temalarda tekrar edilir.",
+    "kelimeler": [
+      {
+        "kelime": "söz varlığı",
+        "anlam": "Bir dilde kullanılan kelime ve kalıp sözlerin bütünü",
+        "ornek": "Söz varlığımız yeni okumalarla gelişir.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "ağız",
+        "anlam": "Bir dilin yörelere göre değişen söyleyiş biçimi",
+        "ornek": "Dedemin ağzında bazı sesler farklı duyulur.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "deyim",
+        "anlam": "Genellikle gerçek anlamından farklı bir anlam taşıyan kalıplaşmış söz",
+        "ornek": "Metindeki deyim anlatımı güçlendirdi.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "atasözü",
+        "anlam": "Deneyimlerden doğan genel bir öğüdü bildiren kalıplaşmış söz",
+        "ornek": "Bu atasözü sabırlı olmayı öğütlüyor.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "çağrışım",
+        "anlam": "Bir düşüncenin başka bir düşünceyi hatırlatması",
+        "ornek": "Yağmur kelimesinin bende bir sonbahar çağrışımı var.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "bağlam",
+        "anlam": "Bir sözün anlamını belirleyen çevresindeki anlatım",
+        "ornek": "Kelimenin anlamını bağlamdan çıkardım.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "nüans",
+        "anlam": "Birbirine yakın şeyler arasındaki ince ayrım",
+        "ornek": "İki ifadenin arasında küçük bir nüans var.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "akıcılık",
+        "anlam": "Söyleyişin veya anlatımın kesintisiz ilerlemesi",
+        "ornek": "Sesli okurken akıcılık üzerinde çalıştık.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "vurgu",
+        "anlam": "Söyleyişte bir sesi veya kelimeyi belirginleştirme",
+        "ornek": "Vurgu değişince sorunun anlamı değişti.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "tonlama",
+        "anlam": "Konuşurken sesin anlamla uyumlu biçimde yükselip alçalması",
+        "ornek": "Tonlama dinleyicinin ilgisini canlı tuttu.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "derleme",
+        "anlam": "Dağınık kaynaklardan bilgi veya ürün toplama işi",
+        "ornek": "Bilmecelerden oluşan bir derleme yaptık.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "kuşak",
+        "anlam": "Yakın yıllarda doğup benzer dönemleri yaşayan insanlar topluluğu",
+        "ornek": "Her kuşak dilimize yeni ifadeler katıyor.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "sözlü",
+        "anlam": "Konuşmayla aktarılan",
+        "ornek": "Sözlü anlatıları izin alarak kaydettik.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "yazılı",
+        "anlam": "Yazıyla oluşturulan veya aktarılan",
+        "ornek": "Yazılı kaynağın tarihini not ettim.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "özgün",
+        "anlam": "Kendine özgü nitelik taşıyan",
+        "ornek": "Bilmecem için özgün bir benzetme buldum.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "kavram",
+        "anlam": "Bir varlığı veya düşünceyi zihinde temsil eden genel tasarım",
+        "ornek": "Dayanışma kavramını örneklerle açıkladık.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "karşılık",
+        "anlam": "Bir sözün başka bir sözle anlatılan eş değeri",
+        "ornek": "Yabancı terimin Türkçe karşılığını araştırdım.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "tanım",
+        "anlam": "Bir kavramın temel özelliklerini açıklayan anlatım",
+        "ornek": "Tanımın altına bir örnek ekledim.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "kaynakça",
+        "anlam": "Bir çalışmada yararlanılan kaynakların listesi",
+        "ornek": "Dosyanın sonunda kaynakça bulunuyor.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "aktarılmak",
+        "anlam": "Birinden veya bir yerden başkasına iletilmek",
+        "ornek": "Ninni yıllardır aile içinde aktarılmış.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "kalıp söz",
+        "anlam": "Belirli durumlarda alışılmış biçimiyle kullanılan ifade",
+        "ornek": "Geçmiş olsun bir kalıp sözdür.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "mani",
+        "anlam": "Genellikle dört dizeden oluşan halk şiiri türü",
+        "ornek": "Şenlikte yeni yazdığımız maniyi okuduk.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "ninni",
+        "anlam": "Küçük çocukları uyutmak için ezgiyle söylenen söz",
+        "ornek": "Ninninin yumuşak ritmini dinledim.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "tekerleme",
+        "anlam": "Ses benzerlikleriyle kurulan ritimli söz dizisi",
+        "ornek": "Tekerlemeyi yavaş söyleyerek başladık.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "bilmece",
+        "anlam": "Bir varlığı özellikleriyle dolaylı anlatan sözlü soru",
+        "ornek": "Bilmecenin cevabını ipuçlarından buldum.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "söyleyiş",
+        "anlam": "Bir sözün söylenme biçimi",
+        "ornek": "Söyleyiş farklı olsa da anlam aynıydı.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "etkileşim",
+        "anlam": "Birbirini karşılıklı olarak etkileme",
+        "ornek": "Diller arasında etkileşim olabilir.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "birikim",
+        "anlam": "Zaman içinde toplanan bilgi ve deneyim",
+        "ornek": "Okuma birikimim yazılarıma yansıdı.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "özen",
+        "anlam": "Bir işi dikkatle ve titizlikle yapma",
+        "ornek": "Kelimeleri seçerken özen gösterdim.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      },
+      {
+        "kelime": "incelik",
+        "anlam": "Anlatımda veya davranışta gözetilen hassas ayrıntı",
+        "ornek": "Bir teşekkürün inceliğini fark ettik.",
+        "tip": "kelime",
+        "cikti": "T.O.6.21"
+      }
+    ],
+    "esAnlamlilar": [
+      [
+        "kelime",
+        "sözcük"
+      ],
+      [
+        "özgün",
+        "orijinal"
+      ]
+    ],
+    "zitAnlamlilar": [],
+    "esSesliler": [],
+    "deyimler": [
+      {
+        "ifade": "kulak vermek",
+        "anlam": "Dikkatle dinlemek.",
+        "ornek": "Yeni kelimelere kulak verdim."
+      }
+    ],
+    "atasozleri": []
+  },
+  "okumaParcalari": [
+    {
+      "id": "6-1-okuma-1",
+      "baslik": "Kaybolmayan Kelimeler",
+      "tur": "oykuleyici",
+      "metin": "Zeynep, okulun dil atölyesine giderken yanında boş bir defter taşıyordu. Öğretmeni, çevrelerinde duydukları ama günlük konuşmalarında az kullandıkları kelimeleri toplamalarını istemişti. Zeynep başta bunun kolay olduğunu düşündü. Evdeki eski bir kitabı açıp sayfalar dolusu kelime yazabilirdi. Fakat görev kâğıdında küçük bir ayrıntı vardı: Her kelimenin hangi durumda kullanıldığını da kaydedeceklerdi. Liste yapmak tek başına yeterli değildi.\nO akşam komşuları Selma Hanım, birlikte hazırladıkları afişe bakarken “Pek özenli olmuş.” dedi. Zeynep hemen defterini açtı. Kelimeyi biliyordu ama özen ile dikkat arasındaki farkı açıklayamıyordu. Selma Hanım, her iki kelimenin bazı durumlarda birbirine yaklaşabileceğini söyledi. Sonra afişteki düzgün harfleri, seçilmiş renkleri ve okunaklı başlığı gösterdi. Zeynep, özenin yaptığı işe değer vermeyi de düşündürdüğünü kendi cümlesiyle not etti.\nErtesi gün atölyede herkes bir kelime sundu. Arda, dedesinden duyduğu yöresel bir söyleyişi getirmişti. Bazı arkadaşları gülmeye başlayınca durdu. Öğretmen, farklı söyleyişleri bir yarışın kazananı ve kaybedeni gibi düşünmemelerini istedi. Önce kelimenin nerede duyulduğunu, sonra ne anlama geldiğini konuştular. Arda anlatmaya yeniden başladı. Böylece defterdeki kelimenin yanında bir insanın sesi de yer buldu.\nGrup, topladıkları kelimeleri hemen çevrim içi yayımlamak istedi. Zeynep ise kayıtların sahiplerinden izin almaları gerektiğini hatırlattı. Sesini paylaşmak istemeyenlerin örnekleri yazıyla aktarılabilirdi. Üstelik bir kişinin açıklaması, kelimenin bütün kullanımlarını göstermeyebilirdi. Sözlükten ve başka örneklerden de yararlanmaya karar verdiler. Kesinleşmeyen anlamları ayrı bir renkle işaretlediler.\nHafta sonunda defter çok kalınlaşmamıştı. Buna karşılık her sayfada bağlam, örnek cümle ve kontrol edilen bir anlam vardı. Zeynep başlangıçta hızlıca doldurabileceğini sandığı sayfalara baktı. Az yazmış olmaktan utanmadı. Bir kelimeyi gerçekten tanımanın, onu yalnızca kopyalamaktan farklı olduğunu anlamıştı. Defterin kapağına “Bitmiş Sözlük” yerine “Sorularımız ve Kelimelerimiz” yazdı. Çünkü çalışma, yeni bir kullanım duyduklarında sürdürülebilirdi. Atölyeden çıkarken arkadaşları da kendi defterlerinin sonuna boş sayfalar ekledi. Bir sonraki buluşmaya kadar dinleyecekleri çok ses vardı. Zeynep artık bir kelimeyi bilmediğinde hemen geçmek yerine kısa bir soru sormayı düşünüyordu. Defteri, cevaplar kadar bu soruları da saklayacaktı.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; kitap veya internet metninden alınmamıştır.",
+      "sorular": [
+        {
+          "id": "6-1-okuma-1-1",
+          "tip": "secim",
+          "soru": "“Kaybolmayan Kelimeler” metnine göre: Görevde kelime listesine ek olarak ne istenmiştir?",
+          "secenekler": [
+            "Kelimeleri yalnız alfabetik sıraya koymak",
+            "Bütün kelimeleri ezberlemek",
+            "Kelimelerin kullanıldığı durumları kaydetmek"
+          ],
+          "dogru": "Kelimelerin kullanıldığı durumları kaydetmek",
+          "aciklama": "Görev kâğıdı, kelimelerin hangi durumda kullanıldığının kaydedilmesini ister.",
+          "cikti": "T.O.6.6"
+        },
+        {
+          "id": "6-1-okuma-1-2",
+          "tip": "secim",
+          "soru": "“Kaybolmayan Kelimeler” metnine göre: Zeynep ilk kelimeyi kimden duymuştur?",
+          "secenekler": [
+            "Okul müdüründen",
+            "Selma Hanım'dan",
+            "Arda'nın dedesinden"
+          ],
+          "dogru": "Selma Hanım'dan",
+          "aciklama": "Özenli sözü, afişe bakan Selma Hanım'ın konuşmasında geçer.",
+          "cikti": "T.O.6.6"
+        },
+        {
+          "id": "6-1-okuma-1-3",
+          "tip": "secim",
+          "soru": "“Kaybolmayan Kelimeler” metnine göre: Özen kelimesinin anlamını açıklarken hangi nesne kullanılmıştır?",
+          "secenekler": [
+            "Hazırlanan afiş",
+            "Eski bir harita",
+            "Bir ses cihazı"
+          ],
+          "dogru": "Hazırlanan afiş",
+          "aciklama": "Selma Hanım afişin harflerini, renklerini ve başlığını gösterir.",
+          "cikti": "T.O.6.6"
+        },
+        {
+          "id": "6-1-okuma-1-4",
+          "tip": "secim",
+          "soru": "“Kaybolmayan Kelimeler” metnine göre: Kesinleşmeyen anlamlar nasıl gösterilmiştir?",
+          "secenekler": [
+            "Üzerleri tamamen silinerek",
+            "Defterden koparılarak",
+            "Ayrı bir renkle"
+          ],
+          "dogru": "Ayrı bir renkle",
+          "aciklama": "Grup, henüz doğrulanmayan anlamları ayrı renkle işaretler.",
+          "cikti": "T.O.6.6"
+        },
+        {
+          "id": "6-1-okuma-1-5",
+          "tip": "secim",
+          "soru": "“Kaybolmayan Kelimeler” metnine göre: Bağlam kelimesi bu çalışmada hangi bilgiyi kapsar?",
+          "secenekler": [
+            "Afişin hangi duvara asıldığını",
+            "Sözün hangi durumda kullanıldığını",
+            "Defterin kaç liraya alındığını"
+          ],
+          "dogru": "Sözün hangi durumda kullanıldığını",
+          "aciklama": "Bağlam, kelimenin anlamını belirleyen kullanım çevresidir.",
+          "cikti": "T.O.6.5"
+        },
+        {
+          "id": "6-1-okuma-1-6",
+          "tip": "secim",
+          "soru": "“Kaybolmayan Kelimeler” metnine göre: Çalışmayı en iyi temsil eden anahtar kelime grubu hangisidir?",
+          "secenekler": [
+            "Kelime, bağlam, anlam",
+            "Ulaşım, bilet, yolculuk",
+            "Yarış, derece, kupa"
+          ],
+          "dogru": "Kelime, bağlam, anlam",
+          "aciklama": "Metnin odağında kelimeleri bağlam ve anlamlarıyla toplamak bulunur.",
+          "cikti": "T.O.6.16"
+        },
+        {
+          "id": "6-1-okuma-1-7",
+          "tip": "secim",
+          "soru": "“Kaybolmayan Kelimeler” metnine göre: Defterin sonuna neden boş sayfalar eklenmiştir?",
+          "secenekler": [
+            "Afişin ölçüsünü büyütmek için",
+            "Öğretmenin imzasını çoğaltmak için",
+            "Yeni kullanımları kaydetmeye devam edebilmek için"
+          ],
+          "dogru": "Yeni kullanımları kaydetmeye devam edebilmek için",
+          "aciklama": "Son bölümde yeni bir kullanım duyuldukça çalışmanın sürebileceği belirtilir.",
+          "cikti": "T.O.6.6"
+        },
+        {
+          "id": "6-1-okuma-1-8",
+          "tip": "secim",
+          "soru": "“Kaybolmayan Kelimeler” metnine göre: Kayıt paylaşmak istemeyenlerin örnekleri nasıl aktarılabilir?",
+          "secenekler": [
+            "Adları değiştirilerek her durumda sesli",
+            "Yazıyla",
+            "İzinsiz ses kaydıyla"
+          ],
+          "dogru": "Yazıyla",
+          "aciklama": "Zeynep, ses paylaşımı istemeyenlerin örneklerinin yazılı aktarılabileceğini belirtir.",
+          "cikti": "T.O.6.6"
+        }
+      ]
+    },
+    {
+      "id": "6-1-okuma-2",
+      "baslik": "Bir Kelimenin Yolculuğunu İzlemek",
+      "tur": "bilgilendirici",
+      "metin": "Bir kelimenin anlamını öğrenmek için sözlüğe bakmak iyi bir başlangıçtır. Fakat sözlükteki ilk açıklamayı her cümleye yerleştirmek doğru sonuç vermeyebilir. Çünkü kelimeler, birlikte kullanıldıkları başka kelimelerle ve anlatılan durumla ilişki kurar. “İnce bir ip” sözünde ölçü bildiren ince, “ince bir düşünce” sözünde aynı görevi yapmaz. İkinci örnekte kişinin başkasını gözeten davranışı öne çıkar. Bu ayrımı anlamak için kelimenin çevresindeki anlatımı da okumak gerekir.\nDil atölyesinde hazırlanacak küçük bir kelime dosyası, bu ilişkileri görmeyi kolaylaştırabilir. Dosyanın ilk bölümüne kelime ve duyulduğu cümle yazılır. İkinci bölümde kelimenin anlamıyla ilgili bir tahmin yapılır. Üçüncü bölümde ise bu tahmin uygun bir sözlük veya güvenilir başka bir kaynakla kontrol edilir. Tahmin yanlış çıkarsa ilk not silinmek zorunda değildir. Yanına düzeltme eklemek, düşüncenin nasıl değiştiğini gösterir.\nKaynak seçerken yalnızca sayfanın renkli görünmesine veya arama sonuçlarında üst sırada çıkmasına güvenilmez. Kelimeyi açıklayan kurumun kim olduğu, örneklerin bulunup bulunmadığı ve bilginin ne zaman kontrol edildiği incelenebilir. Birbirinden kopyalanmış beş sayfa, birbirinden bağımsız beş kanıt sayılmaz. Kaynağı belli olmayan bir açıklama, araştırmanın sonu yerine yeni bir kontrolün başlangıcı olabilir.\nKelimelerin anlam ilişkileri de dosyaya eklenebilir. Yakın anlamlı iki söz her yerde birbirinin yerine geçmeyebilir. Örneğin bir cümlede birbirine yaklaşan ifadeler, başka bir cümlede farklı bir duygu oluşturabilir. Bu nedenle kelime kartlarına yalnızca eşleştirmeler değil, özgün örnekler de yazmak yararlıdır. Örneği okuyan bir arkadaş, ne kastedildiğini açıklayabiliyorsa anlatımın açıklığı konusunda ipucu elde edilir.\nBöyle bir çalışma, mümkün olduğunca çok kelimeyi bir günde biriktirme yarışı değildir. Önemli olan seçilen kelimeleri anlamları, bağlamları ve kullanım incelikleriyle tanımaktır. Dosya zaman zaman yeniden açılır; yeni bir örnek bulunduğunda eski açıklama geliştirilir. Bir kelimenin yolculuğunu izlemek, dilin yaşayan ve değişen yönünü fark etmeyi sağlar. Öğrenci böylece hem okurken daha dikkatli sorular sorabilir hem de yazarken anlatmak istediği düşünceye uygun sözleri seçebilir. Son sayfaya konacak küçük bir kontrol listesi bu alışkanlığı destekler. Listede “Cümleyi kaydettim mi?”, “Tahminimi sınadım mı?” ve “Kendi örneğimi yazdım mı?” soruları bulunabilir. Her kutunun doldurulması çalışmanın sonsuza kadar tamamlandığını değil, o günkü incelemenin hangi adımlarının yapıldığını gösterir.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; kitap veya internet metninden alınmamıştır.",
+      "sorular": [
+        {
+          "id": "6-1-okuma-2-1",
+          "tip": "secim",
+          "soru": "“Bir Kelimenin Yolculuğunu İzlemek” metnine göre: Metinde ince kelimesi niçin iki cümlede kullanılmıştır?",
+          "secenekler": [
+            "Bir yazım yanlışını göstermek için",
+            "Bağlama göre anlamın değişebildiğini göstermek için",
+            "İki ipin kalınlığını karşılaştırmak için"
+          ],
+          "dogru": "Bağlama göre anlamın değişebildiğini göstermek için",
+          "aciklama": "İp ve düşünce örneklerinde aynı kelimenin farklı anlamları gösterilir.",
+          "cikti": "T.O.6.6"
+        },
+        {
+          "id": "6-1-okuma-2-2",
+          "tip": "secim",
+          "soru": "“Bir Kelimenin Yolculuğunu İzlemek” metnine göre: Kelime dosyasının ilk bölümüne ne yazılır?",
+          "secenekler": [
+            "Kelime ve duyulduğu cümle",
+            "Yalnızca sözlüğün fiyatı",
+            "Dosyanın toplam sayfa sayısı"
+          ],
+          "dogru": "Kelime ve duyulduğu cümle",
+          "aciklama": "Dosya düzeninde ilk adım kelimeyle kullanım cümlesini kaydetmektir.",
+          "cikti": "T.O.6.6"
+        },
+        {
+          "id": "6-1-okuma-2-3",
+          "tip": "secim",
+          "soru": "“Bir Kelimenin Yolculuğunu İzlemek” metnine göre: Yanlış çıkan tahmin için hangi işlem önerilir?",
+          "secenekler": [
+            "Bütün dosyayı atmak",
+            "Tahmini doğru kabul etmek",
+            "Yanına düzeltme eklemek"
+          ],
+          "dogru": "Yanına düzeltme eklemek",
+          "aciklama": "İlk notun yanına düzeltme eklenmesi düşüncedeki değişimi görünür kılar.",
+          "cikti": "T.O.6.6"
+        },
+        {
+          "id": "6-1-okuma-2-4",
+          "tip": "secim",
+          "soru": "“Bir Kelimenin Yolculuğunu İzlemek” metnine göre: Metne göre kaynak seçerken hangisi tek başına yeterli değildir?",
+          "secenekler": [
+            "Örneklerin kontrol edilmesi",
+            "Sayfanın renkli görünmesi",
+            "Bilgiyi sunan kurumun incelenmesi"
+          ],
+          "dogru": "Sayfanın renkli görünmesi",
+          "aciklama": "Görsel çekicilik bilgi güvenilirliğini tek başına göstermez.",
+          "cikti": "T.O.6.6"
+        },
+        {
+          "id": "6-1-okuma-2-5",
+          "tip": "secim",
+          "soru": "“Bir Kelimenin Yolculuğunu İzlemek” metnine göre: Birbirinden kopyalanmış sayfalar için ne söylenir?",
+          "secenekler": [
+            "Bağımsız kanıtlar sayılmazlar",
+            "Her biri ayrı bir deneydir",
+            "Her durumda sözlükten üstündürler"
+          ],
+          "dogru": "Bağımsız kanıtlar sayılmazlar",
+          "aciklama": "Aynı açıklamanın kopyaları bağımsız doğrulama sağlamaz.",
+          "cikti": "T.O.6.6"
+        },
+        {
+          "id": "6-1-okuma-2-6",
+          "tip": "secim",
+          "soru": "“Bir Kelimenin Yolculuğunu İzlemek” metnine göre: Bağlam burada hangi anlama gelir?",
+          "secenekler": [
+            "Dosyanın dış kapağı",
+            "Kaynağın baskı maliyeti",
+            "Kelimenin yer aldığı anlatım çevresi"
+          ],
+          "dogru": "Kelimenin yer aldığı anlatım çevresi",
+          "aciklama": "İlk paragraf kelimeyi çevresindeki sözlerle birlikte ele alır.",
+          "cikti": "T.O.6.5"
+        },
+        {
+          "id": "6-1-okuma-2-7",
+          "tip": "secim",
+          "soru": "“Bir Kelimenin Yolculuğunu İzlemek” metnine göre: Metnin anahtar kelimeleri hangileridir?",
+          "secenekler": [
+            "Bilet, durak, yolcu",
+            "Kelime, bağlam, kaynak",
+            "Yağış, bulut, rüzgâr"
+          ],
+          "dogru": "Kelime, bağlam, kaynak",
+          "aciklama": "Metin, kelimeyi bağlamıyla ve kaynak kontrolüyle inceleme üzerinde durur.",
+          "cikti": "T.O.6.16"
+        },
+        {
+          "id": "6-1-okuma-2-8",
+          "tip": "secim",
+          "soru": "“Bir Kelimenin Yolculuğunu İzlemek” metnine göre: Kontrol listesinde hangisi bulunabilir?",
+          "secenekler": [
+            "Kendi örneğimi yazdım mı?",
+            "En pahalı defteri aldım mı?",
+            "Bütün kelimeleri bir günde bitirdim mi?"
+          ],
+          "dogru": "Kendi örneğimi yazdım mı?",
+          "aciklama": "Son paragraftaki liste özgün örnek yazma adımını içerir.",
+          "cikti": "T.O.6.6"
+        }
+      ]
+    }
+  ],
+  "konular": [
+    {
+      "kod": "6-1-de-da",
+      "ad": "Bağlaç de ve bulunma eki",
+      "kategori": "yazim-noktalama",
+      "cikti": "T.Y.6.21",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Bağlaç olan de, da kendinden önceki kelimeden ayrı yazılır ve d ile başlar. Bulunma durumunu bildiren -de eki kelimeye bitişir; ses uyumuna göre -da, -te, -ta biçimleri olabilir. Yalnızca cümleden çıkarma denemesiyle karar vermek yerine kullanımın işlevine bak. Ek yer veya durum bildirirken bağlaç çoğu zaman katılma anlamı katar. Özel adın bulunma eki kesmeyle ayrılır; özel addan sonraki bağlaç ise yine ayrı yazılır.</p><ul><li>Ben de bir kelime önerdim.</li><li>Sözlük masada duruyor.</li><li>Ankara’da bir atölyeye katıldık.</li></ul>",
+      "ornekler": [
+        "Ben de bir kelime önerdim.",
+        "Sözlük masada duruyor.",
+        "Ankara’da bir atölyeye katıldık."
+      ],
+      "testler": [
+        {
+          "id": "6-1-de-da-1",
+          "tip": "secim",
+          "soru": "Katılma anlamı veren bağlaç hangi cümlede doğru yazılmıştır?",
+          "secenekler": [
+            "Defteri bende inceledim.",
+            "Defteri ben te inceledim.",
+            "Defteri ben de inceledim."
+          ],
+          "dogru": "Defteri ben de inceledim.",
+          "aciklama": "Burada de, benim de katıldığımı bildirir ve ayrı yazılır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-1-de-da-2",
+          "tip": "secim",
+          "soru": "Yer bildiren ek hangi cümlede doğru yazılmıştır?",
+          "secenekler": [
+            "Kalem kutu ta duruyor.",
+            "Kalem kutuda duruyor.",
+            "Kalem kutu da duruyor."
+          ],
+          "dogru": "Kalem kutuda duruyor.",
+          "aciklama": "Kutuda kelimesindeki -da bulunma ekidir ve bitişik yazılır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-1-de-da-3",
+          "tip": "secim",
+          "soru": "Kitap kelimesine bulunma eki hangi cümlede doğru getirilmiştir?",
+          "secenekler": [
+            "Örnek kitapta var.",
+            "Örnek kitap da var.",
+            "Örnek kitap ta var."
+          ],
+          "dogru": "Örnek kitapta var.",
+          "aciklama": "Kitapta kelimesi yer bildirir; ek sert ünsüzden sonra -ta olur.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-1-de-da-4",
+          "tip": "secim",
+          "soru": "Özel ada gelen bulunma eki hangi seçenekte doğrudur?",
+          "secenekler": [
+            "İzmir de bir derleme yapıldı.",
+            "İzmirde bir derleme yapıldı.",
+            "İzmir’de bir derleme yapıldı."
+          ],
+          "dogru": "İzmir’de bir derleme yapıldı.",
+          "aciklama": "Yer bildiren ek özel ada kesmeyle bağlanır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-1-de-da-5",
+          "tip": "secim",
+          "soru": "Benzer bir katılımı anlatan doğru cümle hangisidir?",
+          "secenekler": [
+            "Arda’da öykü yazdı.",
+            "Arda da öykü yazdı.",
+            "Ardada öykü yazdı."
+          ],
+          "dogru": "Arda da öykü yazdı.",
+          "aciklama": "Da burada bulunma eki değil, katılma anlamlı bağlaçtır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-1-de-da-6",
+          "tip": "secim",
+          "soru": "İki farklı işlevin birlikte doğru yazıldığı cümle hangisidir?",
+          "secenekler": [
+            "Rafta da bir sözlük var.",
+            "Raf ta da bir sözlük var.",
+            "Rafda da bir sözlük var."
+          ],
+          "dogru": "Rafta da bir sözlük var.",
+          "aciklama": "Rafta bulunma eki bitişiktir; ardından gelen da bağlacı ayrıdır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-1-de-da-7",
+          "tip": "secim",
+          "soru": "Sokak kelimesinin yer bildiren biçimi hangisinde doğrudur?",
+          "secenekler": [
+            "Sokak da bir şenlik vardı.",
+            "Sokak ta bir şenlik vardı.",
+            "Sokakta bir şenlik vardı."
+          ],
+          "dogru": "Sokakta bir şenlik vardı.",
+          "aciklama": "Sokakta yer anlamı taşıyan -ta ekini bitişik alır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-1-de-da-8",
+          "tip": "secim",
+          "soru": "Bağlacın sertleşmediğini gösteren doğru kullanım hangisidir?",
+          "secenekler": [
+            "Sözlükde masadaydı.",
+            "Sözlük de masadaydı.",
+            "Sözlük te masadaydı."
+          ],
+          "dogru": "Sözlük de masadaydı.",
+          "aciklama": "Bağlaç de ayrı yazılır ve önceki sert sese uyarak te olmaz.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-1-de-da-9",
+          "tip": "secim",
+          "soru": "Sınıf kelimesinin bulunma eki hangi seçenekte doğrudur?",
+          "secenekler": [
+            "Sınıfta sessizce okuduk.",
+            "Sınıf da sessizce okuduk.",
+            "Sınıf ta sessizce okuduk."
+          ],
+          "dogru": "Sınıfta sessizce okuduk.",
+          "aciklama": "Sınıfta yer bildirir; ek f ünsüzünden sonra -ta biçimindedir.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-1-de-da-10",
+          "tip": "secim",
+          "soru": "Katılma ve yer işlevleri hangi cümlede doğru gösterilmiştir?",
+          "secenekler": [
+            "Ece’de müze de çalıştı.",
+            "Ecede müzede çalıştı.",
+            "Ece de müzede çalıştı."
+          ],
+          "dogru": "Ece de müzede çalıştı.",
+          "aciklama": "Ece de katılma, müzede ise yer bildirir; yazımları farklıdır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        }
+      ]
+    },
+    {
+      "kod": "6-1-ki",
+      "ad": "Bağlaç ki ve ek olan ki",
+      "kategori": "yazim-noktalama",
+      "cikti": "T.Y.6.21",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Bağlaç olan ki, cümleler arasında ilişki kurar ve ayrı yazılır. Ek olan -ki ise aitlik veya yer-zaman ilişkisi kurarak kelimeye bitişir. Masadaki örneğinde bir şeyin nerede bulunduğu belirtilir; benimki örneğinde bir adın yerini tutar. Çünkü, belki, sanki gibi kalıplaşmış kelimelerin yazımı ayrıca öğrenilir. Bütün ki seslerini tek bir kuralla ayırmaya çalışma; cümlede yaptığı işi incele.</p><ul><li>Anladım ki sözün anlamı değişmiş.</li><li>Masadaki kartı aldım.</li><li>Benimki daha kısa bir metin.</li></ul>",
+      "ornekler": [
+        "Anladım ki sözün anlamı değişmiş.",
+        "Masadaki kartı aldım.",
+        "Benimki daha kısa bir metin."
+      ],
+      "testler": [
+        {
+          "id": "6-1-ki-1",
+          "tip": "secim",
+          "soru": "Cümleleri bağlayan ki hangi seçenekte doğru yazılmıştır?",
+          "secenekler": [
+            "Duydumki sergi açılmış.",
+            "Duydum-ki sergi açılmış.",
+            "Duydum ki sergi açılmış."
+          ],
+          "dogru": "Duydum ki sergi açılmış.",
+          "aciklama": "Ki cümleler arasında bağ kurar ve ayrı yazılır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-1-ki-2",
+          "tip": "secim",
+          "soru": "Yer ilişkisi kuran ek hangi cümlede doğrudur?",
+          "secenekler": [
+            "Raf taki defteri uzattı.",
+            "Raftaki defteri uzattı.",
+            "Rafta ki defteri uzattı."
+          ],
+          "dogru": "Raftaki defteri uzattı.",
+          "aciklama": "Raftaki kelimesindeki -ki ektir ve bitişik yazılır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-1-ki-3",
+          "tip": "secim",
+          "soru": "Bir adın yerini tutan ek hangi seçenekte doğru yazılmıştır?",
+          "secenekler": [
+            "Seninki masanın üstünde.",
+            "Senin ki masanın üstünde.",
+            "Senin-ki masanın üstünde."
+          ],
+          "dogru": "Seninki masanın üstünde.",
+          "aciklama": "Seninki bir adın yerini tutar; -ki bitişik yazılır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-1-ki-4",
+          "tip": "secim",
+          "soru": "Kalıcı kelime yazımı hangi seçenekte doğrudur?",
+          "secenekler": [
+            "Bel ki yarın görüşürüz.",
+            "Bel-ki yarın görüşürüz.",
+            "Belki yarın görüşürüz."
+          ],
+          "dogru": "Belki yarın görüşürüz.",
+          "aciklama": "Belki kalıplaşmış bir kelimedir; ayrı yazılmaz.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-1-ki-5",
+          "tip": "secim",
+          "soru": "Zaman ilişkisi kuran ek hangi cümlede doğru yazılmıştır?",
+          "secenekler": [
+            "Yarın-ki toplantıya hazırlanıyoruz.",
+            "Yarınki toplantıya hazırlanıyoruz.",
+            "Yarın ki toplantıya hazırlanıyoruz."
+          ],
+          "dogru": "Yarınki toplantıya hazırlanıyoruz.",
+          "aciklama": "Yarınki kelimesindeki -ki bitişik yazılan ektir.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-1-ki-6",
+          "tip": "secim",
+          "soru": "Bağlaç kullanımının doğru yazımı hangisidir?",
+          "secenekler": [
+            "Öyle dikkatli dinledi ki ayrıntıyı kaçırmadı.",
+            "Öyle dikkatli dinlediki ayrıntıyı kaçırmadı.",
+            "Öyle dikkatli dinledi-ki ayrıntıyı kaçırmadı."
+          ],
+          "dogru": "Öyle dikkatli dinledi ki ayrıntıyı kaçırmadı.",
+          "aciklama": "Ki iki yargı arasında ilişki kurduğu için ayrı yazılır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-1-ki-7",
+          "tip": "secim",
+          "soru": "Bugün kelimesiyle kurulan doğru yazım hangisidir?",
+          "secenekler": [
+            "Bugün ki notları dosyaladık.",
+            "Bugün-ki notları dosyaladık.",
+            "Bugünkü notları dosyaladık."
+          ],
+          "dogru": "Bugünkü notları dosyaladık.",
+          "aciklama": "Bugünkü kelimesinde ek bitişir ve ü biçimini alır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-1-ki-8",
+          "tip": "secim",
+          "soru": "Kalıplaşmış sebep bağlacının doğru yazımı hangisidir?",
+          "secenekler": [
+            "Gelmiyorum çün-ki işim var.",
+            "Gelmiyorum çünkü işim var.",
+            "Gelmiyorum çün ki işim var."
+          ],
+          "dogru": "Gelmiyorum çünkü işim var.",
+          "aciklama": "Çünkü bir bütün olarak yazılır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-1-ki-9",
+          "tip": "secim",
+          "soru": "Dolap kelimesiyle yer ilişkisi kuran doğru biçim hangisidir?",
+          "secenekler": [
+            "Dolaptaki sözlük yeniydi.",
+            "Dolapta ki sözlük yeniydi.",
+            "Dolap taki sözlük yeniydi."
+          ],
+          "dogru": "Dolaptaki sözlük yeniydi.",
+          "aciklama": "Dolaptaki sözü -ki ekini bitişik alır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-1-ki-10",
+          "tip": "secim",
+          "soru": "Ek ve bağlaç hangi cümlede birlikte doğru yazılmıştır?",
+          "secenekler": [
+            "Benim ki öyle kısaydıki hemen okundu.",
+            "Benimki öyle kısaydıki hemen okundu.",
+            "Benimki öyle kısaydı ki hemen okundu."
+          ],
+          "dogru": "Benimki öyle kısaydı ki hemen okundu.",
+          "aciklama": "Benimki ek alır; yargıları ilişkilendiren ki ise ayrı yazılır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        }
+      ]
+    },
+    {
+      "kod": "6-1-soru-eki",
+      "ad": "Soru eki mı, mi, mu, mü",
+      "kategori": "yazim-noktalama",
+      "cikti": "T.Y.6.21",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Soru eki mı, mi, mu, mü kendinden önceki kelimeden ayrı yazılır. Ardından gelen kişi veya zaman ekleri bu eke bitişir. Soru eki yalnız cümlenin sonuna gelmez; sorunun odağındaki unsurdan sonra da kullanılabilir. Bazı kullanımlarda soru anlamı yerine pekiştirme ya da koşula yakın anlam taşır; bu durum ayrı yazılmasını değiştirmez. Ses uyumunu ve ekten sonraki eklerin yazımını birlikte kontrol et.</p><ul><li>Bu kelimeyi duydun mu?</li><li>Sen de gelir misin?</li><li>Güzel mi güzel bir anlatımdı.</li></ul>",
+      "ornekler": [
+        "Bu kelimeyi duydun mu?",
+        "Sen de gelir misin?",
+        "Güzel mi güzel bir anlatımdı."
+      ],
+      "testler": [
+        {
+          "id": "6-1-soru-eki-1",
+          "tip": "secim",
+          "soru": "Soru ekinin doğru yazıldığı cümle hangisidir?",
+          "secenekler": [
+            "Bu sözü duydunmu?",
+            "Bu sözü duydun-mu?",
+            "Bu sözü duydun mu?"
+          ],
+          "dogru": "Bu sözü duydun mu?",
+          "aciklama": "Mu kendinden önceki kelimeden ayrı yazılır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-1-soru-eki-2",
+          "tip": "secim",
+          "soru": "Kişi ekinin soru ekine doğru bağlandığı seçenek hangisidir?",
+          "secenekler": [
+            "Bize katılırmısın?",
+            "Bize katılır mısın?",
+            "Bize katılır mı sın?"
+          ],
+          "dogru": "Bize katılır mısın?",
+          "aciklama": "Soru eki ayrı başlar; kişi eki ona bitişir.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-1-soru-eki-3",
+          "tip": "secim",
+          "soru": "Özneyi soru odağı yapan doğru cümle hangisidir?",
+          "secenekler": [
+            "Bu notu Ece mi yazdı?",
+            "Bu notu Ecemi yazdı?",
+            "Bu notu Ece-mi yazdı?"
+          ],
+          "dogru": "Bu notu Ece mi yazdı?",
+          "aciklama": "Mi, Ece kelimesinden sonra ayrı yazılarak özneyi sorar.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-1-soru-eki-4",
+          "tip": "secim",
+          "soru": "Yere yönelik sorunun doğru yazımı hangisidir?",
+          "secenekler": [
+            "Toplantı buradamı yapılacak?",
+            "Toplantı burada-mı yapılacak?",
+            "Toplantı burada mı yapılacak?"
+          ],
+          "dogru": "Toplantı burada mı yapılacak?",
+          "aciklama": "Mı yer bildiren burada sözünden ayrı yazılır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-1-soru-eki-5",
+          "tip": "secim",
+          "soru": "Çoğul kişi ekli doğru soru hangisidir?",
+          "secenekler": [
+            "Hazırmısınız?",
+            "Hazır mısınız?",
+            "Hazır mı sınız?"
+          ],
+          "dogru": "Hazır mısınız?",
+          "aciklama": "Mısınız kendi içinde bitişik, önceki kelimeden ayrı yazılır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-1-soru-eki-6",
+          "tip": "secim",
+          "soru": "Geçmiş zaman ekiyle soru hangi seçenekte doğrudur?",
+          "secenekler": [
+            "Bu açıklama doğru muydu?",
+            "Bu açıklama doğrumuydu?",
+            "Bu açıklama doğru mu ydu?"
+          ],
+          "dogru": "Bu açıklama doğru muydu?",
+          "aciklama": "Mu ayrı yazılır; kendisinden sonraki ekler ona bitişir.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-1-soru-eki-7",
+          "tip": "secim",
+          "soru": "Pekiştirme anlamında soru eki hangi cümlede doğru yazılmıştır?",
+          "secenekler": [
+            "Uzunmu uzun bir metindi.",
+            "Uzun-mu uzun bir metindi.",
+            "Uzun mu uzun bir metindi."
+          ],
+          "dogru": "Uzun mu uzun bir metindi.",
+          "aciklama": "Soru anlamı bulunmasa da mu ayrı yazılır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-1-soru-eki-8",
+          "tip": "secim",
+          "soru": "İkinci çoğul kişiye yönelen doğru soru hangisidir?",
+          "secenekler": [
+            "Yarın gelir mi siniz?",
+            "Yarın gelir misiniz?",
+            "Yarın gelirmisiniz?"
+          ],
+          "dogru": "Yarın gelir misiniz?",
+          "aciklama": "Mi önceki kelimeden ayrı, siniz kişi ekiyle bitişik yazılır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-1-soru-eki-9",
+          "tip": "secim",
+          "soru": "Soru ekinin ünlü uyumuna uygun yazımı hangisidir?",
+          "secenekler": [
+            "Bu sözcük yeni mi?",
+            "Bu sözcük yeni mı?",
+            "Bu sözcük yeni mu?"
+          ],
+          "dogru": "Bu sözcük yeni mi?",
+          "aciklama": "Yeni kelimesinin son ünlüsüne göre mi biçimi seçilir.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "6-1-soru-eki-10",
+          "tip": "secim",
+          "soru": "İki ayrı dil unsurunun doğru yazıldığı soru hangisidir?",
+          "secenekler": [
+            "Sende dinledinmi?",
+            "Sen de dinledinmi?",
+            "Sen de dinledin mi?"
+          ],
+          "dogru": "Sen de dinledin mi?",
+          "aciklama": "Katılma bağlacı de ve soru eki mi ayrı yazılır.",
+          "cikti": "T.Y.6.21",
+          "yazimDuyarli": true
+        }
+      ]
+    },
+    {
+      "kod": "6-1-virgul",
+      "ad": "Virgülün cümledeki işlevleri",
+      "kategori": "yazim-noktalama",
+      "cikti": "T.Y.6.21",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Virgül, cümledeki anlam ilişkilerini görmeye yardım eder. Özne olarak kullanılan bu, şu, o sözlerinden sonra anlam karışıklığını önlemek için gelebilir. Birbirine bağlanan sıralı cümleleri ayırabilir; evet, hayır, peki gibi sözleri sonraki cümleden ayırabilir. Her nefes alınan yere virgül koymak doğru değildir. Özellikle özne olmayan her bu sözünün arkasına otomatik olarak virgül getirilmez. Önce cümlenin yapısını ve işaretin görevini düşün.</p><ul><li>O, örnekleri dikkatle seçti.</li><li>Kapı açıldı, öğrenciler içeri girdi.</li><li>Evet, bu metni okudum.</li></ul>",
+      "ornekler": [
+        "O, örnekleri dikkatle seçti.",
+        "Kapı açıldı, öğrenciler içeri girdi.",
+        "Evet, bu metni okudum."
+      ],
+      "testler": [
+        {
+          "id": "6-1-virgul-1",
+          "tip": "secim",
+          "soru": "O, panodaki notu okudu. cümlesindeki virgülün görevi nedir?",
+          "secenekler": [
+            "Bir tarih belirtmek",
+            "Kelimeyi hecelerine ayırmak",
+            "Özne olan zamiri sonraki sözlerden ayırmak"
+          ],
+          "dogru": "Özne olan zamiri sonraki sözlerden ayırmak",
+          "aciklama": "O özne görevinde kullanılan bir zamirdir.",
+          "cikti": "T.Y.6.21"
+        },
+        {
+          "id": "6-1-virgul-2",
+          "tip": "secim",
+          "soru": "Pencere açıldı, perde hareket etti. cümlesinde virgül neyi ayırır?",
+          "secenekler": [
+            "Bir kitabın adını",
+            "Sıralı cümleleri",
+            "Bir kelimenin eklerini"
+          ],
+          "dogru": "Sıralı cümleleri",
+          "aciklama": "Açıldı ve hareket etti yüklemleriyle kurulan iki cümle ayrılmıştır.",
+          "cikti": "T.Y.6.21"
+        },
+        {
+          "id": "6-1-virgul-3",
+          "tip": "secim",
+          "soru": "Hayır, bu bilgiyi henüz doğrulamadım. cümlesinde virgülün görevi nedir?",
+          "secenekler": [
+            "Ret bildiren sözü sonraki cümleden ayırmak",
+            "Kesirli sayı göstermek",
+            "Satır sonundaki kelimeyi bölmek"
+          ],
+          "dogru": "Ret bildiren sözü sonraki cümleden ayırmak",
+          "aciklama": "Hayır ret bildirir ve devamındaki cümleden virgülle ayrılır.",
+          "cikti": "T.Y.6.21"
+        },
+        {
+          "id": "6-1-virgul-4",
+          "tip": "secim",
+          "soru": "Evet, kaynağı kontrol ettim. cümlesinde virgül neyi belirtir?",
+          "secenekler": [
+            "Bir alıntının kaynakçasını",
+            "Bir saat bilgisini",
+            "Kabul bildiren sözün sınırını"
+          ],
+          "dogru": "Kabul bildiren sözün sınırını",
+          "aciklama": "Evet kabul bildirir; virgül bu sözü sonraki cümleden ayırır.",
+          "cikti": "T.Y.6.21"
+        },
+        {
+          "id": "6-1-virgul-5",
+          "tip": "secim",
+          "soru": "Peki, önce sen anlat. cümlesinde virgülün işlevi nedir?",
+          "secenekler": [
+            "Bir başlığı kısaltmak",
+            "Kabul veya geçiş bildiren sözü ayırmak",
+            "Özel ada ek bağlamak"
+          ],
+          "dogru": "Kabul veya geçiş bildiren sözü ayırmak",
+          "aciklama": "Peki sözü cümlenin devamından virgülle ayrılmıştır.",
+          "cikti": "T.Y.6.21"
+        },
+        {
+          "id": "6-1-virgul-6",
+          "tip": "secim",
+          "soru": "Bu, dikkatle hazırlanmış bir dosya. cümlesinde virgül neden kullanılmıştır?",
+          "secenekler": [
+            "Bu zamirini ardından gelen sözlerden ayırmak",
+            "Her bu kelimesinden sonra zorunlu olduğu için",
+            "Dosya kelimesini kısaltmak için"
+          ],
+          "dogru": "Bu zamirini ardından gelen sözlerden ayırmak",
+          "aciklama": "Bu tek başına bir adın yerini tutarak özne olmuştur.",
+          "cikti": "T.Y.6.21"
+        },
+        {
+          "id": "6-1-virgul-7",
+          "tip": "secim",
+          "soru": "Bu dosya bugün geldi. cümlesinde bu sözünden hemen sonra virgül niçin gerekmez?",
+          "secenekler": [
+            "Bu sözü hiçbir cümlede virgül alamaz",
+            "Cümlede zaman sözü bulunduğu için",
+            "Bu, dosya adını belirtiyor; tek başına özne zamiri değil"
+          ],
+          "dogru": "Bu, dosya adını belirtiyor; tek başına özne zamiri değil",
+          "aciklama": "Bu dosya bir ad grubudur; araya gereksiz virgül getirilmez.",
+          "cikti": "T.Y.6.21"
+        },
+        {
+          "id": "6-1-virgul-8",
+          "tip": "secim",
+          "soru": "Yazı bitti, kontrol başladı. cümlesindeki virgülün görevi nedir?",
+          "secenekler": [
+            "Bir kişiye ek getirmek",
+            "İki yargıyı birbirinden ayırmak",
+            "Bir sözcüğün kökünü göstermek"
+          ],
+          "dogru": "İki yargıyı birbirinden ayırmak",
+          "aciklama": "Bitti ve başladı ayrı yargılardır; sıralı cümleler virgülle ayrılır.",
+          "cikti": "T.Y.6.21"
+        },
+        {
+          "id": "6-1-virgul-9",
+          "tip": "secim",
+          "soru": "Şu, aradığımız örnek olabilir. cümlesindeki virgül hangi kullanıma örnektir?",
+          "secenekler": [
+            "Özne olarak kullanılan zamiri ayırma",
+            "Hitap edilen kişiyi belirtme",
+            "Parantez içi bilgi ekleme"
+          ],
+          "dogru": "Özne olarak kullanılan zamiri ayırma",
+          "aciklama": "Şu bir adın yerini tutar ve ardından virgül gelir.",
+          "cikti": "T.Y.6.21"
+        },
+        {
+          "id": "6-1-virgul-10",
+          "tip": "secim",
+          "soru": "Hadi, bir örnek daha deneyelim. cümlesinde virgül neyi ayırır?",
+          "secenekler": [
+            "Alfabetik sıra numarasını",
+            "İki özel adı",
+            "Teşvik bildiren sözü"
+          ],
+          "dogru": "Teşvik bildiren sözü",
+          "aciklama": "Hadi teşvik bildirir; ardından gelen cümleden virgülle ayrılır.",
+          "cikti": "T.Y.6.21"
+        },
+        {
+          "id": "6-1-virgul-11",
+          "tip": "secim",
+          "soru": "Şimdi başlayalım, dedi öğretmen. cümlesinde virgül neyi ayırır?",
+          "secenekler": [
+            "Bir tarih aralığını",
+            "Tırnak içinde olmayan alıntı cümlesini",
+            "Kelimenin yapım ekini"
+          ],
+          "dogru": "Tırnak içinde olmayan alıntı cümlesini",
+          "aciklama": "Tırnak içinde verilmeyen alıntı söz, dedi ifadesinden virgülle ayrılır.",
+          "cikti": "T.Y.6.21"
+        },
+        {
+          "id": "6-1-virgul-12",
+          "tip": "secim",
+          "soru": "— Notları ben getiririm, dedi Ece. satırında virgül neyi ayırır?",
+          "secenekler": [
+            "Konuşma çizgisinden sonraki alıntı cümlesini",
+            "Özel adın çekim ekini",
+            "Bir saat bilgisini"
+          ],
+          "dogru": "Konuşma çizgisinden sonraki alıntı cümlesini",
+          "aciklama": "Konuşma çizgisiyle verilen alıntı söz, bildirme ifadesinden virgülle ayrılır.",
+          "cikti": "T.Y.6.21"
+        },
+        {
+          "id": "6-1-virgul-13",
+          "tip": "secim",
+          "soru": "Duru arkadaşlarına dönerek, — Bir daha deneyelim, dedi. aktarımında dönerek sözünden sonraki virgülün görevi nedir?",
+          "secenekler": [
+            "Her fiilimsi sözünden sonra zorunlu işaret koymak",
+            "Konuşmayı soruya çevirmek",
+            "Edebî anlatıda konuşma bölümünden önceki ifadeyi ayırmak"
+          ],
+          "dogru": "Edebî anlatıda konuşma bölümünden önceki ifadeyi ayırmak",
+          "aciklama": "Bu virgül, edebî anlatıdaki konuşma bölümünü hazırlayan ifadeyi ayırır; genel bir fiilimsi kuralı değildir.",
+          "cikti": "T.Y.6.21"
+        }
+      ]
+    },
+    {
+      "kod": "6-1-baglam",
+      "ad": "Bağlama uygun söz varlığı",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.Y.6.18",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Yakın anlamlı kelimeler her cümlede aynı etkiyi oluşturmaz. Yazıda seçtiğin söz, anlatmak istediğin duruma uymalıdır. Deyimler ve kalıp sözler de yalnız süs olsun diye eklenmez; anlamı doğru karşılamaları gerekir. Önce neyi anlatacağını belirle, sonra sözün bağlamdaki anlamını kontrol et. Yeni öğrendiğin kelimeyi özgün bir cümlede kullanmak ve cümleyi bir arkadaşına açıklatmak, uygunluğu gözden geçirmene yardım eder.</p><ul><li>Yeni bir fikir aklıma geldi.</li><li>Konuyu aydınlatan bir örnek sundu.</li><li>Haber onu çok sevindirdi.</li></ul>",
+      "ornekler": [
+        "Yeni bir fikir aklıma geldi.",
+        "Konuyu aydınlatan bir örnek sundu.",
+        "Haber onu çok sevindirdi."
+      ],
+      "testler": [
+        {
+          "id": "6-1-baglam-1",
+          "tip": "secim",
+          "soru": "Bir konuya dikkatle yönelmeyi anlatmak için hangi deyim uygundur?",
+          "secenekler": [
+            "Burnu havada olmak",
+            "Kulak vermek",
+            "Etekleri zil çalmak"
+          ],
+          "dogru": "Kulak vermek",
+          "aciklama": "Kulak vermek dikkatle dinlemek anlamında kullanılır.",
+          "cikti": "T.Y.6.18"
+        },
+        {
+          "id": "6-1-baglam-2",
+          "tip": "secim",
+          "soru": "Çok sevinmeyi anlatan deyim hangisidir?",
+          "secenekler": [
+            "Etekleri zil çalmak",
+            "Ağzını bıçak açmamak",
+            "Burnundan solumak"
+          ],
+          "dogru": "Etekleri zil çalmak",
+          "aciklama": "Etekleri zil çalmak güçlü sevinci karşılar.",
+          "cikti": "T.Y.6.18"
+        },
+        {
+          "id": "6-1-baglam-3",
+          "tip": "secim",
+          "soru": "Bir sorunun açıklığa kavuşmasını anlatan cümle hangisidir?",
+          "secenekler": [
+            "Bu örnek pencereyi kapattı.",
+            "Bu örnek kitabı ağırlaştırdı.",
+            "Bu örnek konuyu aydınlattı."
+          ],
+          "dogru": "Bu örnek konuyu aydınlattı.",
+          "aciklama": "Aydınlatmak mecaz anlamıyla anlaşılır kılmayı anlatır.",
+          "cikti": "T.Y.6.18"
+        },
+        {
+          "id": "6-1-baglam-4",
+          "tip": "secim",
+          "soru": "Yaptığı işe titizlik gösteren biri için hangi söz uygundur?",
+          "secenekler": [
+            "Umursamaz",
+            "Özenli",
+            "Savruk"
+          ],
+          "dogru": "Özenli",
+          "aciklama": "Özenli, işini dikkat ve titizlikle yapan kişiyi niteler.",
+          "cikti": "T.Y.6.18"
+        },
+        {
+          "id": "6-1-baglam-5",
+          "tip": "secim",
+          "soru": "Kaynakları denetlemeden kesin konuşmayan birinin yazısı nasıl nitelenir?",
+          "secenekler": [
+            "Temkinli",
+            "Gelişigüzel",
+            "Savruk"
+          ],
+          "dogru": "Temkinli",
+          "aciklama": "Temkinli anlatım, yeterli dayanak olmadan kesinlik kurmaktan kaçınır.",
+          "cikti": "T.Y.6.18"
+        },
+        {
+          "id": "6-1-baglam-6",
+          "tip": "secim",
+          "soru": "Bir fikri ayrıntılı biçimde açıklamak için hangi fiil daha uygundur?",
+          "secenekler": [
+            "Saklamak",
+            "Dağıtmak",
+            "Açımlamak"
+          ],
+          "dogru": "Açımlamak",
+          "aciklama": "Açımlamak, anlamı veya düşünceyi açıklayıp belirginleştirmektir.",
+          "cikti": "T.Y.6.18"
+        },
+        {
+          "id": "6-1-baglam-7",
+          "tip": "secim",
+          "soru": "Arkadaşının başarısını kutlarken hangi kalıp söz uygundur?",
+          "secenekler": [
+            "Başın sağ olsun.",
+            "Tebrik ederim.",
+            "Geçmiş olsun."
+          ],
+          "dogru": "Tebrik ederim.",
+          "aciklama": "Tebrik ederim başarı veya sevindirici gelişme karşısında kullanılır.",
+          "cikti": "T.Y.6.18"
+        },
+        {
+          "id": "6-1-baglam-8",
+          "tip": "secim",
+          "soru": "Birinin sunduğu yardıma karşı hangi ifade bağlama uygundur?",
+          "secenekler": [
+            "Teşekkür ederim.",
+            "Güle güle.",
+            "Afiyet olsun."
+          ],
+          "dogru": "Teşekkür ederim.",
+          "aciklama": "Yardım karşısında teşekkür etmek uygun bir kalıp söz kullanımıdır.",
+          "cikti": "T.Y.6.18"
+        },
+        {
+          "id": "6-1-baglam-9",
+          "tip": "secim",
+          "soru": "Yazının anlaşılmasını kolaylaştıran özellik hangisidir?",
+          "secenekler": [
+            "Belirsizlik",
+            "Çelişki",
+            "Açıklık"
+          ],
+          "dogru": "Açıklık",
+          "aciklama": "Açıklık, anlatımın okur tarafından anlaşılır olmasını karşılar.",
+          "cikti": "T.Y.6.18"
+        },
+        {
+          "id": "6-1-baglam-10",
+          "tip": "secim",
+          "soru": "Düşüncelerin birbiriyle uyumlu ilerlemesini anlatan kelime hangisidir?",
+          "secenekler": [
+            "Gürültü",
+            "Tutarlılık",
+            "Rastlantı"
+          ],
+          "dogru": "Tutarlılık",
+          "aciklama": "Tutarlılık, yazıdaki düşüncelerin birbirini boşa çıkarmadan ilerlemesidir.",
+          "cikti": "T.Y.6.18"
+        }
+      ]
+    }
+  ],
+  "dinleme": [
+    {
+      "id": "6-1-dinleme",
+      "baslik": "Kelime Kartının Arkası",
+      "metin": "Dil atölyesinde bugün kartların yalnız önünü değil, arkasını da dolduracağız. Ön tarafa seçtiğiniz kelimeyi yazın. Arkaya kelimeyi duyduğunuz cümleyi ve bağlamdan çıkardığınız anlamı ekleyin. Ardından tahmininizi bir sözlükle kontrol edin. Kartta kişinin özel bilgileri bulunmasın. Bir ses kaydı paylaşacaksanız önce izin alın. Son adımda kelimeyi kendi cümlenizde kullanın. Kartı arkadaşınız okuduğunda anlamı açıklayabiliyor mu, birlikte kontrol edin. Yanlış tahmin yaptıysanız ilk notu saklayıp yanına düzeltme koyabilirsiniz. Bugünkü amacımız kart sayısını artırmak değil, kelimeleri kullanım çevreleriyle tanımaktır.",
+      "tts": {
+        "dil": "tr-TR",
+        "sesYoksa": "metin"
+      },
+      "sorular": [
+        {
+          "id": "6-1-dinleme-1",
+          "tip": "secim",
+          "soru": "“Kelime Kartının Arkası” dinleme metnine göre: Kartın önüne ne yazılır?",
+          "secenekler": [
+            "Kişinin özel adresi",
+            "Yalnız kartın fiyatı",
+            "Seçilen kelime"
+          ],
+          "dogru": "Seçilen kelime",
+          "aciklama": "Yönergede ön tarafa seçilen kelimenin yazılması istenir.",
+          "cikti": "T.D.6.5"
+        },
+        {
+          "id": "6-1-dinleme-2",
+          "tip": "secim",
+          "soru": "“Kelime Kartının Arkası” dinleme metnine göre: Tahmin neyle kontrol edilir?",
+          "secenekler": [
+            "Arkadaş sayısıyla",
+            "Sözlükle",
+            "Kartın rengiyle"
+          ],
+          "dogru": "Sözlükle",
+          "aciklama": "Metin anlam tahmininin sözlük yardımıyla kontrol edilmesini söyler.",
+          "cikti": "T.D.6.5"
+        },
+        {
+          "id": "6-1-dinleme-3",
+          "tip": "secim",
+          "soru": "“Kelime Kartının Arkası” dinleme metnine göre: Anahtar kelime grubu hangisidir?",
+          "secenekler": [
+            "Kelime, bağlam, anlam",
+            "Ulaşım, durak, bilet",
+            "Yağış, sıcaklık, rüzgâr"
+          ],
+          "dogru": "Kelime, bağlam, anlam",
+          "aciklama": "Etkinlik kelimelerin kullanım çevresi ve anlamları üzerinedir.",
+          "cikti": "T.D.6.15"
+        },
+        {
+          "id": "6-1-dinleme-4",
+          "tip": "secim",
+          "soru": "“Kelime Kartının Arkası” dinleme metnine göre: Kart sayısı yerine neye önem verilir?",
+          "secenekler": [
+            "En kalın kartonu almaya",
+            "Bütün kayıtları izinsiz yayımlamaya",
+            "Kelimeleri kullanımlarıyla tanımaya"
+          ],
+          "dogru": "Kelimeleri kullanımlarıyla tanımaya",
+          "aciklama": "Son cümlede hedefin sayı değil, kullanım çevresini tanımak olduğu belirtilir.",
+          "cikti": "T.D.6.5"
+        }
+      ]
+    }
+  ],
+  "yazmaGorevleri": [
+    {
+      "id": "6-1-yazma",
+      "baslik": "Bir Kelimeyi Tanıtıyorum",
+      "yonerge": "Günlük hayattan seçtiğin bir kelimeyi iki farklı bağlamda tanıtan 120–200 kelimelik bir yazı hazırla. Önce anlam tahminini yap, uygun bir sözlükle kontrol et; sonra iki özgün örnek ver. Kişisel bilgi veya izinsiz ses kaydı kullanma. Sonunda kelime seçimini ve yazımını gözden geçir.",
+      "minKelime": 120,
+      "maxKelime": 200,
+      "ciktilar": [
+        "T.Y.6.1",
+        "T.Y.6.18",
+        "T.Y.6.21",
+        "T.Y.6.22"
+      ],
+      "ogretmenDegerlendirmeli": true,
+      "rubrik": [
+        {
+          "olcut": "Amaca ve konuya uygunluk",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Düşünce düzeni ve gerekçelendirme",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Bağlama uygun dil yapıları ve söz varlığı",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Yazım, noktalama ve gözden geçirme",
+          "enDusuk": 0,
+          "enYuksek": 4
+        }
+      ]
+    }
+  ],
+  "lgsSorulari": []
+}
