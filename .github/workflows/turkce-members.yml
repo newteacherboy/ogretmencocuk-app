@@ -1,0 +1,21 @@
+name: Türkçe üyelik ve kontrol merkezi
+on:
+  pull_request:
+    paths: ['app.js', 'index.html', 'hesap.html', 'member-*', 'turkce-auth.mjs', 'supabase/member-release/**', 'supabase/functions/diji-api/turkce-member*', 'tests/turkce-members*', '.github/workflows/turkce-members.yml']
+  push:
+    branches: [main]
+    paths: ['app.js', 'index.html', 'hesap.html', 'member-*', 'turkce-auth.mjs', 'supabase/member-release/**', 'supabase/functions/diji-api/turkce-member*', 'tests/turkce-members*', '.github/workflows/turkce-members.yml']
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci --prefix tools --ignore-scripts
+      - run: node --test tests/turkce-*.test.mjs tests/member-tools.test.cjs tests/api-security-guards.test.cjs tests/daily-mission-claim.test.cjs tests/onboarding-registration.test.cjs tests/server-reward-ledger.test.cjs
+      - run: node tests/turkce-members-db.cjs
+      - run: node tools/icerik-dogrula.mjs && node tools/turkce-paketle.mjs --check

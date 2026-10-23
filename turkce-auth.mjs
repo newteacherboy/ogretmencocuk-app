@@ -1,47 +1,11 @@
-// Standalone Auth UI module; enable only after Turkish Supabase config is validated.
-// Do not include service_role keys or public user email in profile lists.
-import {createClient} from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.57.0/+esm";
-const $=id=>document.getElementById(id);
-const supabaseUrl=window.TURKCE_SUPABASE_URL;
-const publishableKey=window.TURKCE_SUPABASE_PUBLISHABLE_KEY;
-const configured=Boolean(supabaseUrl&&publishableKey&&/^https:\/\/[a-z0-9]+\.supabase\.co$/.test(supabaseUrl));
-const supabase=configured?createClient(supabaseUrl,publishableKey,{auth:{autoRefreshToken:true,persistSession:true,detectSessionInUrl:true}}):null;
-const status=$("auth-status");
-function report(message,error=false){status.textContent=message;status.style.color=error?"#b3243b":"#1f7048"}
-$("register").addEventListener("submit",async event=>{
- event.preventDefault();
- if(!supabase){report("Türkçe Supabase projesi henüz bağlı değil. Bu sürüm sadece önizleme.",true);return}
- const fd=new FormData(event.currentTarget);
- const username=String(fd.get("username")||"").trim().toLowerCase();
- const grade=Number(fd.get("grade"));
- const email=String(fd.get("email")||"").trim();
- const password=String(fd.get("password")||"");
- if(!/^[a-z0-9_]{3,20}$/.test(username)){report("Kullanıcı adı 3–20 karakter; yalnızca harf, rakam ve alt çizgi.",true);return}
- if(![5,6,7,8].includes(grade)){report("5–8. sınıflardan birini seç.",true);return}
- if(password.length<10){report("Şifren en az 10 karakter olmalı.",true);return}
- $("register-submit").disabled=true;
- try{const {error}=await supabase.auth.signUp({email,password,options:{data:{username,grade},emailRedirectTo:location.origin+"/hesap.html"}});
- if(error)throw error;
- report("Kayıt isteğin alındı. E-postana gelen doğrulama bağlantısını kontrol et.");
- }catch(e){report("Kayıt tamamlanamadı. Kullanıcı adını veya e-posta bilgilerini kontrol et.",true)}
- finally{$("register-submit").disabled=false}
-});
-$("login").addEventListener("submit",async event=>{
- event.preventDefault();
- if(!supabase){report("Türkçe Supabase projesi henüz bağlı değil.",true);return}
- const fd=new FormData(event.currentTarget);
- $("login-submit").disabled=true;
- try{const {error}=await supabase.auth.signInWithPassword({email:String(fd.get("email")||"").trim(),password:String(fd.get("password")||"")});
- if(error)throw error;report("Giriş başarılı.");await refresh();
- }catch(e){report("E-posta veya şifre hatalı ya da hesap doğrulanmamış.",true)}
- finally{$("login-submit").disabled=false}
-});
-$("logout").addEventListener("click",async()=>{if(supabase)await supabase.auth.signOut();await refresh()});
-async function refresh(){
- const user=supabase?(await supabase.auth.getUser()).data.user:null;
- $("account-state").textContent=user?"Giriş yapıldı":"Giriş yapılmadı";
- $("logout").hidden=!user;
- if(user){const {data,error}=await supabase.from("turkce_profiles").select("username,grade").single();
- if(data&&!error)$("account-state").textContent=data.username+" • "+data.grade+". sınıf"}
-}
+const $=id=>document.getElementById(id),member=window.turkceMember,client=member.client;
+function report(text,error=false){$('auth-status').textContent=text;$('auth-status').style.color=error?'#a22239':'#1f7048';}
+function showCodes(code,recovery){$('created-code').textContent=code;$('recovery-code').textContent=recovery;$('account-created').hidden=false;$('account-created').scrollIntoView({behavior:'smooth',block:'start'});}
+async function useSession(session){if(!session)return;const {error}=await client.auth.setSession({access_token:session.access_token,refresh_token:session.refresh_token});if(error)throw error;await refresh();}
+async function refresh(){const {data:{user}}=await client.auth.getUser();$('signed-in').hidden=!user;$('auth-forms').hidden=!!user;if(user){const {data,error}=await client.from('turkce_profiles').select('username,grade,full_name,school').single();if(error){report('Hesap bilgileri yüklenemedi. Sayfayı yenile.',true);return;}$('student-code').textContent=data.username;$('account-state').textContent=data.full_name+' • '+data.school+' • '+data.grade+'. sınıf';}}
+$('register').addEventListener('submit',async e=>{e.preventDefault();const btn=$('register-submit');if(btn.disabled)return;btn.disabled=true;try{const fields=Object.fromEntries(new FormData(e.currentTarget));fields.grade=Number(fields.grade);const r=await member.authRequest('register',fields);showCodes(r.code,r.recovery);await useSession(r.session);e.target.reset();report('Hesabın hazır. Öğrenci kodunu ve kurtarma kodunu kaydet.');}catch(error){report(error.message,true)}finally{btn.disabled=false}});
+$('login').addEventListener('submit',async e=>{e.preventDefault();const btn=$('login-submit');btn.disabled=true;try{const r=await member.authRequest('login',Object.fromEntries(new FormData(e.currentTarget)));await useSession(r.session);e.target.reset();report('Giriş başarılı. Parkurdan devam edebilirsin.');}catch(error){report(error.message,true)}finally{btn.disabled=false}});
+$('recover').addEventListener('submit',async e=>{e.preventDefault();const btn=$('recover-submit');btn.disabled=true;try{const fields=Object.fromEntries(new FormData(e.currentTarget));const r=await member.authRequest('recover',fields);showCodes(fields.code.toLowerCase().trim(),r.recovery);e.target.reset();report('Şifren güncellendi. Yeni kurtarma kodunu kaydet ve yeni şifrenle giriş yap.');}catch(error){report(error.message,true)}finally{btn.disabled=false}});
+$('copy-codes').addEventListener('click',async()=>{try{await navigator.clipboard.writeText('Diji-Medu Türkçe\nÖğrenci kodu: '+$('created-code').textContent+'\nKurtarma kodu: '+$('recovery-code').textContent);report('Kodların kopyalandı. Güvenli bir yere kaydet.')}catch{report('Kodları seçerek güvenli bir yere kaydedebilirsin.')}});
+$('logout').addEventListener('click',async()=>{const {error}=await client.auth.signOut();if(error){report('Çıkış tamamlanamadı. Yeniden dene.',true);return;}$('account-created').hidden=true;$('created-code').textContent='';$('recovery-code').textContent='';await refresh();report('Çıkış yaptın.');});
 await refresh();
