@@ -30,58 +30,44 @@ function getNextUnlockedStopId(){
 }
 
 function renderMap(){
-  const map = document.getElementById('mapCanvas');
-  const controls = document.getElementById('mapControls');
-  if(!map || !controls) return;
-  controls.replaceChildren();
-  // Coordinates correspond exactly to the approved 1448 × 1086 artwork.
-  const spots = [
-    [458,884],[518,896],[582,892],[642,881],
-    [511,654],[571,667],[634,665],[691,638],
-    [890,597],[947,614],[1001,610],[1058,608],
-    [510,363],[572,380],[633,380],[693,363],
-    [760,329],[818,315],[877,308],[936,293],
-    [945,276],[995,271],[1052,262],[1104,240]
+  const map=document.getElementById('mapCanvas');
+  if(!map) return;
+  map.replaceChildren();
+  const regionScenes=[
+    {symbol:'🚪',landscape:'🏡 🌳',skill:'Görsel okuma ve tahmin',tone:'blue'},
+    {symbol:'🌳',landscape:'🍄 🌲',skill:'Sözcükleri keşfet',tone:'green'},
+    {symbol:'📖',landscape:'🏝️ 📚',skill:'Okuduğunu anla',tone:'orange'},
+    {symbol:'🎭',landscape:'🏰 🎵',skill:'Dinle ve kendini ifade et',tone:'pink'},
+    {symbol:'✏️',landscape:'📝 🏡',skill:'Cümle, yazım ve noktalama',tone:'teal'},
+    {symbol:'🏆',landscape:'🎡 🎪',skill:'Kendi oyununu tasarla',tone:'purple'}
   ];
-  // The approved illustration omits region five and its stops. A discrete interactive
-  // bridge row makes 17–20 accessible without modifying the approved illustration.
-  const explicitFifth = document.createElement('div');
-  explicitFifth.className = 'fifth-region-label';
-  explicitFifth.textContent = '5. Bölge · Cümle Atölyesi';
-  controls.appendChild(explicitFifth);
-  spots.forEach(([x,y],index)=>{
-    const id=index+1;
-    const stop=stops.find(s=>s.id===id);
-    const unlocked=id===1 || state.completed.includes(id) || state.completed.includes(id-1);
-    const btn=document.createElement('button');
-    btn.type='button';
-    btn.className='map-hotspot '+(id>=17&&id<=20?'synthetic ':'')+(unlocked?'unlocked':'locked')+(state.completed.includes(id)?' completed':'');
-    if(id>=17&&id<=20) btn.textContent=String(id);
-    btn.style.left=`${x/1448*100}%`;
-    btn.style.top=`${y/1086*100}%`;
-    btn.title=`${id}. Durak — ${stop.title}${unlocked?'':' (Önceki durak tamamlanmalı)'}`;
-    btn.setAttribute('aria-label',btn.title);
-    btn.addEventListener('click',()=>{
-      if(unlocked) openStopIntro(id);
-      else showMapMessage(`${id}. durak için önce ${id-1}. durağı tamamla.`);
-    });
-    controls.appendChild(btn);
+  zones.forEach((zone,zIndex)=>{
+    const scene=regionScenes[zIndex];
+    const region=document.createElement('section');
+    region.className=`adventure-region tone-${scene.tone}`;
+    region.setAttribute('aria-label',`${zone.id}. Bölge: ${zone.title}`);
+    region.innerHTML=`<div class="region-landscape" aria-hidden="true"><span class="landscape-item">${scene.landscape}</span><span class="landscape-symbol">${scene.symbol}</span></div><div class="region-content"><div class="region-heading"><span class="region-count">${zone.id}. Bölge</span><h2>${zone.title}</h2><p>${scene.skill}</p></div><div class="region-stations"></div></div>`;
+    const nodeList=region.querySelector('.region-stations');
+    for(let i=1;i<=4;i++){
+      const id=zIndex*4+i;
+      const stop=stops.find(s=>s.id===id);
+      const unlocked=id===1 || state.completed.includes(id) || state.completed.includes(id-1);
+      const complete=state.completed.includes(id);
+      const button=document.createElement('button');
+      button.type='button';
+      button.className=`adventure-station ${complete?'is-complete':unlocked?'is-current':'is-locked'}`;
+      button.disabled=!unlocked;
+      button.setAttribute('aria-label',`${id}. durak: ${stop.title}. ${complete?'Tamamlandı':unlocked?'Başlamaya hazır':'Kilitli'}`);
+      button.innerHTML=`<span class="station-number">${id}</span><span class="station-status" aria-hidden="true">${complete?'✓':unlocked?'▶':'🔒'}</span>`;
+      if(unlocked)button.addEventListener('click',()=>openStopIntro(id));
+      nodeList.appendChild(button);
+    }
+    map.appendChild(region);
   });
-  const addHotspot=(text,x,y,w,h,callback)=>{
-    const btn=document.createElement('button');btn.type='button';btn.className='map-ui-hotspot';
-    btn.setAttribute('aria-label',text);btn.title=text;
-    btn.style.cssText=`left:${x/1448*100}%;top:${y/1086*100}%;width:${w/1448*100}%;height:${h/1086*100}%;`;
-    btn.addEventListener('click',callback);controls.appendChild(btn);
-  };
-  addHotspot('Parkur',454,27,165,65,()=>showView('parkurView'));
-  addHotspot('Dersler / Sınıf ve Tema',643,30,155,60,()=>showView('topicsView'));
-  addHotspot('Rozetler ve ilerleme',807,28,160,60,()=>showProgress());
-  addHotspot('Profilim ve ilerleme',971,27,147,60,()=>showProgress());
-  const progressLabel=document.createElement('div'); progressLabel.className='progress-dynamic'; progressLabel.textContent=state.completed.length+' / 24'; controls.appendChild(progressLabel);
-  addHotspot('İlerleme',1151,25,140,65,()=>showProgress());
-  addHotspot('Ayarlar',1320,25,69,65,()=>showProgress());
-  addHotspot('İlk durağa başla',430,840,260,115,()=>openStopIntro(getNextUnlockedStopId()));
+  const counter=document.getElementById('adventureProgress');
+  if(counter)counter.textContent=`${state.completed.length} / 24 durak tamamlandı`;
 }
+
 function showMapMessage(message){
   const old=document.querySelector('.map-toast');if(old) old.remove();
   const p=document.createElement('div');p.className='map-toast';p.textContent=message;
@@ -391,6 +377,8 @@ window.moveOrder = moveOrder;
 window.showView = showView;
 window.openGame = openGame;
 
+document.getElementById('continueJourney')?.addEventListener('click',()=>openStopIntro(getNextUnlockedStopId()));
+document.getElementById('showAchievements')?.addEventListener('click',showProgress);
 updateStats();
 renderMap();
 renderGames();

@@ -25,13 +25,13 @@
 
     <main>
       <section id="parkurView" class="view active">
-        <div class="map-scroll" aria-label="5. sınıf Oyun Dünyası etkileşimli macera haritası">
-          <div id="mapCanvas" class="approved-map">
-            <img class="approved-map-art" src="assets/parkur-tasarim-2.webp" width="1448" height="1086" alt="Altı bölgelik Oyun Dünyası macera haritası; durakların üstüne dokunarak etkinliklere girilebilir." draggable="false">
-            <div id="mapControls" class="map-controls"></div>
-          </div>
+        <div class="adventure-head">
+          <div><span class="adventure-eyebrow">5. Sınıf • 1. Tema</span><h1>Oyun Dünyası <span aria-hidden="true">✨</span></h1><p>Altı bölgede Türkçenin farklı becerilerini keşfet.</p></div>
+          <button id="continueJourney" class="adventure-continue">Macera Başlasın <span aria-hidden="true">→</span></button>
         </div>
-        <p class="map-help">Bir durağa dokunarak etkinliği aç. Gri olmayan duraklar sırayla açılır; tamamladıkların yeniden oynanabilir. İlerleme bu cihazda saklanır.</p>
+        <div id="mapCanvas" class="adventure-map" aria-label="Altı bölge ve 24 gerçek tıklanabilir durak"></div>
+        <div class="adventure-footer"><span id="adventureProgress" aria-live="polite"></span><button id="showAchievements" type="button">İlerlemem</button></div>
+        <p class="map-help">İlerleme bu cihazda saklanır. Sıradaki renkli durağa dokunarak etkinliğe başlayabilirsin.</p>
       </section>
 
       <section id="gamesView" class="view">
