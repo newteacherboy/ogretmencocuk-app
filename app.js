@@ -71,7 +71,7 @@ function showProgress(){
 }
 
 function openModal(content){
-  modalRoot.innerHTML = `<div class="modal-backdrop">${content}</div>`;
+  modalRoot.innerHTML = `<div class="modal-backdrop${content.includes('quiz-layout') ? ' quiz-screen' : ''}">${content}</div>`;
 }
 function closeModal(){ modalRoot.innerHTML=''; }
 

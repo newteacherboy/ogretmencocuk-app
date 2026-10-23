@@ -58,3 +58,79 @@ html,body{overflow-x:hidden}body:has(#parkurView.active){overflow:hidden}
 @media(max-height:590px) and (max-width:700px){.mobile-parkur-title{min-height:42px}.mobile-parkur-title img{max-height:34px}.mobile-parkur-title span{font-size:15px}#app:has(#parkurView.active) .topbar{min-height:43px}.mobile-node{width:28px;height:28px;min-height:28px;min-width:28px}}
 @media(min-width:701px){#app:has(#parkurView.active){max-width:1050px}#parkurView .adventure-map{min-height:670px}.mobile-region{min-height:95px}}
 @media(prefers-reduced-motion:reduce){.mobile-node{transition:none}}
+/* Unified desktop/mobile parkour; keep every footer action inside viewport. */
+#app:has(#parkurView.active){max-width:980px;width:100%;margin-inline:auto;min-width:0}
+#app:has(#parkurView.active) main,#parkurView.active,#parkurView .adventure-map{min-width:0}
+#parkurView .adventure-footer{width:100%;max-width:100%;box-sizing:border-box;display:grid!important;grid-template-columns:minmax(0,1fr) auto auto!important;align-items:center;gap:clamp(3px,1vw,12px);overflow:hidden}
+#parkurView .adventure-footer >span{min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#parkurView .adventure-footer >button{min-width:0;box-sizing:border-box;max-width:100%;white-space:nowrap;display:flex;justify-content:center;align-items:center}
+#parkurView .adventure-continue{margin:0}
+@media(min-width:701px){
+ #app:has(#parkurView.active){max-width:980px}
+ #parkurView .adventure-map{grid-template-columns:minmax(0,1fr);grid-template-rows:repeat(6,minmax(0,1fr));min-height:600px;height:min(70vh,760px);gap:9px}
+ #parkurView .mobile-region{min-height:0;padding:8px 16px}
+ #parkurView .mobile-region-label{flex-basis:34%}
+ #parkurView .mobile-region-nodes{margin-right:9%;justify-content:flex-start}
+ #parkurView .region-art{width:28%}
+}
+@media(max-width:700px){
+ #app:has(#parkurView.active){max-width:100vw;width:100%;overflow:hidden}
+ #parkurView.active{min-width:0;overflow:hidden}
+ #parkurView .adventure-map{min-height:0!important}
+ #parkurView .adventure-footer{min-height:43px!important;gap:3px!important;padding:5px!important}
+ #parkurView .adventure-footer >button{padding:5px clamp(4px,1.4vw,8px)!important;font-size:clamp(10px,2.6vw,12px)!important;min-height:32px!important}
+ #parkurView .adventure-footer >span{font-size:clamp(10px,2.8vw,12px)}
+}
+@media(max-width:360px){
+ #parkurView .adventure-footer >button{font-size:10px!important;padding:5px 4px!important}
+ #parkurView .mobile-region-label{flex-basis:31%}
+ #parkurView .mobile-node{width:27px;height:27px;min-width:27px;min-height:27px}
+}
+/* Mobile question screen: one question and all controls within one viewport. */
+@media(max-width:700px){
+ body:has(.modal-backdrop.quiz-screen){overflow:hidden}
+ .modal-backdrop.quiz-screen{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;padding:5px;overflow:hidden;height:100dvh;max-height:100dvh}
+ .quiz-screen .modal-card{width:100%;height:calc(100dvh - 10px);max-height:calc(100dvh - 10px);margin:0;overflow:hidden;display:flex;flex-direction:column;min-height:0;border:2px solid #dbe8fa}
+ .quiz-screen .quiz-layout{height:100%;min-height:0;display:flex;flex-direction:column;gap:4px;padding:7px}
+ .quiz-screen .quiz-top{flex:0 0 auto;gap:4px;padding:0;justify-content:space-between}
+ .quiz-screen .quiz-top .crumbs{flex:1;min-width:0;overflow:hidden;white-space:nowrap;flex-wrap:nowrap}
+ .quiz-screen .quiz-top .crumbs>.crumb-pill:not(:last-child),.quiz-screen .quiz-top .crumbs>span:not(.crumb-pill){display:none}
+ .quiz-screen .quiz-top .crumbs>.crumb-pill:last-child{min-width:0;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+ .quiz-screen .quiz-top .back-btn{width:36px;height:36px;font-size:21px}
+ .quiz-screen .progress-nodes{gap:3px;flex:none}
+ .quiz-screen .pnode{width:24px;height:24px;font-size:11px}
+ .quiz-screen .timer,.quiz-screen .timer-pill{display:none}
+ .quiz-screen .quiz-card{display:flex;flex-direction:column;flex:1;min-height:0;padding:9px;border-radius:14px;overflow:hidden}
+ .quiz-screen .q-card-left{height:100%;min-height:0;display:flex;flex-direction:column;gap:5px;overflow:hidden}
+ .quiz-screen .q-card-left h3{font-size:17px;line-height:1.15;margin:0;flex:0 0 auto}
+ .quiz-screen .skill-badge{padding:3px 6px;font-size:10px}
+ .quiz-screen .question-title{font-size:clamp(14px,3.7vw,17px);line-height:1.22;margin:0;flex:0 0 auto}
+ .quiz-screen .options{display:grid;grid-template-columns:1fr;gap:5px;margin:0;flex:1 1 auto;min-height:0}
+ .quiz-screen .option{padding:5px 9px;font-size:clamp(12px,3.3vw,15px);line-height:1.15;min-height:0;display:flex;align-items:center;border-radius:11px}
+ .quiz-screen .option b{width:25px;height:25px;flex:none;font-size:12px}
+ .quiz-screen .prompt-box,.quiz-screen .reading-box{font-size:clamp(12px,3.1vw,15px);line-height:1.25;padding:8px;flex:0 1 auto;min-height:0;overflow:hidden}
+ .quiz-screen .prompt-box ul{margin:0;padding-left:19px}
+ .quiz-screen .image-panel{height:clamp(90px,19dvh,160px);flex:0 1 auto;min-height:65px}
+ .quiz-screen .order-list{display:grid;gap:4px;flex:1;min-height:0}
+ .quiz-screen .order-item{padding:5px 7px;line-height:1.15;min-height:0;font-size:clamp(12px,3.2vw,15px);gap:6px}
+ .quiz-screen .order-num{width:24px;height:24px;flex:none}
+ .quiz-screen .order-actions button{height:30px;width:31px}
+ .quiz-screen .text-box{display:flex;flex-direction:column;flex:1;min-height:0}
+ .quiz-screen .text-box textarea{flex:1;min-height:70px;padding:10px;font-size:16px}
+ .quiz-screen .text-meta{font-size:11px;margin-top:2px}
+ .quiz-screen .q-side{display:none}
+ .quiz-screen .q-actions{margin:0;gap:4px;flex:0 0 auto;display:flex;flex-direction:column}
+ .quiz-screen .feedback-box{min-height:27px;padding:5px 8px;font-size:clamp(11px,2.9vw,13px);line-height:1.15}
+ .quiz-screen .nav-btn{min-height:42px;padding:8px;font-size:15px}
+}
+@media(max-width:700px) and (max-height:650px){
+ .quiz-screen .quiz-layout{padding:4px}
+ .quiz-screen .quiz-card{padding:5px}
+ .quiz-screen .q-card-left{gap:3px}
+ .quiz-screen .image-panel{height:90px}
+ .quiz-screen .q-card-left h3{font-size:15px}
+ .quiz-screen .question-title{font-size:13px}
+ .quiz-screen .option{font-size:12px;padding:3px 6px}
+ .quiz-screen .feedback-box{min-height:22px;padding:3px 5px}
+ .quiz-screen .nav-btn{min-height:37px;padding:5px}
+}
