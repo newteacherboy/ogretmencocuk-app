@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="tr" data-app-pending>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Öğretmen Çocuk | 5. Sınıf Türkçe</title>
+  <link rel="stylesheet" href="styles.css?v=energy-refill-v1" /><link rel="stylesheet" href="mobile-parkur.css?v=energy-refill-v1" /><link rel="stylesheet" href="reward-ui.css?v=energy-refill-v1" />
+  <link rel="stylesheet" href="member-admin.css?v=members-admin-v1">
+<style>html[data-app-pending] #app{visibility:hidden}#app-loading{position:fixed;inset:0;display:grid;place-items:center;background:#e8f5ff;color:#173c82;font:700 20px system-ui;z-index:1000}</style></head>
+<body>
+<p id="app-loading" role="status">Parkurun hazırlanıyor…</p>
+  <div id="app">
+    <header class="topbar">
+      <div class="brand">
+        <img class="papi-brand" src="assets/papi-logo.webp" alt="Papi papağan maskotu" />
+        <div class="brand-text"><span>Diji-Medu</span><strong> Türkçe</strong></div>
+      </div>
+      <nav class="tabs">
+        <button class="tab active" data-view="parkurView">Parkur</button>
+        <button class="tab" data-view="gamesView">Oyunlar</button>
+        <button class="tab" data-view="topicsView">Sınıf ve Tema</button><button class="tab" data-view="friendsView">Arkadaşlar</button>
+        <a class="tab account-tab" href="hesap.html" id="accountLink">Giriş</a>
+        <button class="tab" data-view="adminView" id="adminTab" hidden>Kontrol Merkezi</button>
+      </nav>
+
+    </header>
+
+    <main>
+      <section id="parkurView" class="view active">
+        <div class="economy-strip" aria-label="Günlük enerji, XP ve altın"><div class="economy-pill energy"><span aria-hidden="true">⚡</span><b id="energyValue">30/30</b><small>Enerji</small></div><div class="economy-pill experience"><span aria-hidden="true">✨</span><b id="xpValue">0</b><small>XP</small></div><div class="economy-pill coins"><span aria-hidden="true">🪙</span><b id="goldValue">0</b><small>Altın</small></div><span class="economy-level" id="levelValue">Sv. 1</span></div><div class="mobile-parkur-title"><div><span>5. Sınıf Türkçe</span><h1>1. Tema: Oyun Dünyası</h1></div><img src="assets/theme-objects.webp" alt="Oyun kumandası ve açık kitap" /></div>
+        <div id="mapCanvas" class="adventure-map" aria-label="Altı bölge ve 24 ayrı tıklanabilir durak"></div>
+        <div class="adventure-footer"><span id="adventureProgress" aria-live="polite">0 / 24</span><button id="showAchievements" type="button">🎯 Tema hedefleri</button><button id="continueJourney" type="button" class="adventure-continue">▶ Başla</button></div>
+        <p class="map-help">Duraklar sırayla açılır. İlerlemen hesabına güvenli biçimde kaydedilir.</p>
+      </section>
+
+      <section id="gamesView" class="view">
+        <div class="games-layout">
+          <div class="games-top card">
+            <div>
+              <h2>Oyunlar</h2>
+              <p>1. Tema: Oyun Dünyası için oyunlarla tekrar yap.</p>
+            </div>
+            <div class="filters">
+              <div class="select-pill">5. Sınıf</div>
+              <div class="select-pill">1. Tema: Oyun Dünyası</div>
+            </div>
+          </div>
+          <div id="gameGrid" class="game-grid"></div>
+        </div>
+      </section>
+
+      <section id="topicsView" class="view">
+        <div class="topics-layout card">
+          <h2>Sınıf ve Tema</h2>
+          <p>Şimdilik yalnızca 5. sınıf 1. tema aktif. Diğer temalar zamanla eklenecek.</p>
+          <div class="topic-card active-topic">
+            <strong>5. Sınıf • 1. Tema: Oyun Dünyası</strong>
+            <span>24 duraklı aktif parkur</span>
+          </div>
+          <div class="topic-card disabled-topic"><strong>2. Tema</strong><span>Yakında</span></div>
+          <div class="topic-card disabled-topic"><strong>3. Tema</strong><span>Yakında</span></div>
+          <div class="topic-card disabled-topic"><strong>4. Tema</strong><span>Yakında</span></div>
+        </div>
+      </section>
+      <section id="friendsView" class="view"><div class="league-page"><h2>Arkadaşlar ve Ligler</h2><p id="socialStatus" role="status"></p><div id="memberSocial"></div></div></section>
+      <section id="adminView" class="view"><div id="adminRoot"></div></section>
+    </main>
+  </div>
+
+  <div id="modalRoot"></div>
+  <script src="curriculum.js"></script>
+  <script src="vendor/supabase-2.118.0.js"></script><script src="member-client.js?v=members-v1"></script><script src="app-gate.js?v=adventure-1"></script><script src="app.js?v=members-v1"></script><script src="member-social.js?v=members-v1"></script><script src="member-admin.js?v=members-admin-v1"></script>
+</body>
+</html>
