@@ -9,7 +9,7 @@
     el.onerror=()=>{el.remove();reject(Error('Oyun dosyası yüklenemedi. Bağlantını kontrol edip tekrar dene.'));};
     document.head.append(el);
   });}
-  function ready(){if(pending)return pending;pending=(async()=>{
+  function ready(){if(window.dmTurkce)return Promise.resolve();if(pending)return pending;pending=(async()=>{
     // Start all independent downloads together; async=false retains execution order.
     await Promise.all(files.map(script));
     readyDone=true;
@@ -17,6 +17,7 @@
     document.dispatchEvent(new Event('dm:state'));
   })().catch(e=>{pending=null;throw e;});return pending;}
   function opener(read){const proxy=async function(...args){
+    if(window.dmTurkce)return window.dmTurkce.open('games');
     const owner=typeof aktifOgrenciAdi==='undefined'?'':aktifOgrenciAdi;
     try{await ready();if(owner!==(typeof aktifOgrenciAdi==='undefined'?'':aktifOgrenciAdi))return;
       const fn=read();if(fn===proxy||typeof fn!=='function')throw Error('Oyun açılamadı. Tekrar dene.');return fn(...args);

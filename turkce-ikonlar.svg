@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+<symbol id="es" viewBox="0 0 48 48"><path d="M7 8h12v7a5 5 0 1 0 10 0V8h12v12h-7a5 5 0 1 0 0 10h7v11H29v-6a5 5 0 1 0-10 0v6H7V29h7a5 5 0 1 0 0-10H7Z"/></symbol>
+<symbol id="hafiza" viewBox="0 0 48 48"><rect x="5" y="11" width="23" height="31" rx="5" transform="rotate(-10 5 11)"/><path d="M27 5h11a5 5 0 0 1 5 5v24a5 5 0 0 1-5 5h-3M16 21l2 4 5 1-4 3 1 5-4-3-4 2 1-5-3-3 5-1Z"/></symbol>
+<symbol id="harf" viewBox="0 0 48 48"><circle cx="21" cy="20" r="14"/><path d="m31 31 11 11M15 26l6-14 6 14M17 22h8"/></symbol>
+<symbol id="bahce" viewBox="0 0 48 48"><path d="M24 42V24M24 35c-12 0-15-10-15-10s15-1 15 10Zm0 4c12 0 15-10 15-10s-15-1-15 10Z"/><path d="M24 8c8-9 18 4 8 9 10 8-5 17-8 7-7 11-19-2-8-7C6 10 19 0 24 8Z"/><circle cx="24" cy="16" r="4"/></symbol>
+<symbol id="cumle" viewBox="0 0 48 48"><path d="M4 32h40M8 8h27a5 5 0 0 1 5 5v17H6V10a2 2 0 0 1 2-2Z"/><path d="M12 15h9v9h-9ZM27 15h7v9h-7ZM7 40h34M13 36l-2 8M34 36l3 8"/><circle cx="15" cy="31" r="4"/><circle cx="33" cy="31" r="4"/></symbol>
+<symbol id="dikte" viewBox="0 0 48 48"><path d="M7 29v-7a17 17 0 0 1 34 0v7M8 23h5v16H8a4 4 0 0 1-4-4v-8a4 4 0 0 1 4-4ZM40 23h-5v16h5a4 4 0 0 0 4-4v-8a4 4 0 0 0-4-4ZM20 24v10M25 20v18M30 26v6"/></symbol>
+<symbol id="balon" viewBox="0 0 48 48"><ellipse cx="24" cy="18" rx="14" ry="16"/><path d="m24 34-3 4h6ZM24 38c-7 5 8 5 0 9M18 9c-3 2-4 4-4 7"/></symbol>
+<symbol id="meteor" viewBox="0 0 48 48"><path d="m43 5-15 9M44 15l-8 6M34 4l-7 9M39 28l-8 12"/><circle cx="18" cy="31" r="13"/><path d="m10 30 6 2 3-7 6 6-4 7M8 11l2 4 4 2-4 2-2 4-2-4-4-2 4-2Z"/></symbol>
+<symbol id="cark" viewBox="0 0 48 48"><circle cx="24" cy="22" r="19"/><circle cx="24" cy="22" r="5"/><path d="M24 3v14M24 27v14M5 22h14M29 22h14M11 9l10 10M28 26l10 10M37 9l-9 9M20 26l-9 10M24 41v5M15 46h18"/></symbol>
+<symbol id="map" viewBox="0 0 48 48"><path d="m4 10 13-5 14 5 13-5v33l-13 5-14-5-13 5ZM17 5v33M31 10v33M9 20l3 2M22 27l3-2M37 15l3-3M37 12l3 3"/></symbol>
+<symbol id="book" viewBox="0 0 48 48"><path d="M24 11C18 5 8 5 3 8v31c8-3 15-2 21 3 6-5 13-6 21-3V8c-5-3-15-3-21 3ZM24 11v31M9 16h8M9 22h8M31 16h8M31 22h8"/></symbol>
+<symbol id="person" viewBox="0 0 48 48"><circle cx="24" cy="15" r="10"/><path d="M5 43v-5c0-12 38-12 38 0v5Z"/></symbol>
+<symbol id="lock" viewBox="0 0 48 48"><rect x="9" y="21" width="30" height="23" rx="6"/><path d="M15 21V12a9 9 0 0 1 18 0v9M24 30v6"/></symbol>
+<symbol id="check" viewBox="0 0 48 48"><path d="m10 25 9 9 20-22"/></symbol>
+<symbol id="bulb" viewBox="0 0 48 48"><path d="M15 32c0-7-7-9-7-16a16 16 0 0 1 32 0c0 7-7 9-7 16ZM17 38h14M20 44h8M24 7v7M17 17l7 6 7-6M24 23v9"/></symbol>
+</svg>

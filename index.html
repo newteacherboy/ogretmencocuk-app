@@ -460,7 +460,7 @@ document.getElementById('dmBootRetry').onclick=()=>location.reload();
                             <option value="">-- Hazır Ödev Seçin --</option>
                             <option value="Vocabulary Tekrarı ve Kelime Kartı Çalışması">Vocabulary Tekrarı ve Kelime Kartı Çalışması</option>
                             <option value="Ünite Testi Çözümü ve Yanlış Analizi">Ünite Testi Çözümü ve Yanlış Analizi</option>
-                            <option value="İngilizce Hikaye Kitabı Okuma ve Özet Çıkarma">İngilizce Hikaye Kitabı Okuma ve Özet Çıkarma</option>
+                            <option value="Türkçe Hikâye Kitabı Okuma ve Özet Çıkarma">Türkçe Hikâye Kitabı Okuma ve Özet Çıkarma</option>
                             <option value="Dinleme (Listening) Pratiği ve Ses Kaydı">Dinleme (Listening) Pratiği ve Ses Kaydı</option>
                             <option value="Grammar Konu Tekrarı ve Soru Çözümü">Grammar Konu Tekrarı ve Soru Çözümü</option>
                         </select>
@@ -636,10 +636,10 @@ document.getElementById('dmBootRetry').onclick=()=>location.reload();
                             <div class="dm-logo-icon"><img src="papi-loading.webp" alt="Papağan Papi" loading="lazy" decoding="async"></div>
                     <div class="dm-logo-text">
                         <div class="dm-logo-word"><span class="dm-diji">Diji</span>-<span class="dm-medu">Medu</span></div>
-                        <div class="dm-logo-tag">İngilizce Portalı</div>
+                        <div class="dm-logo-tag">Türkçe Keşif Alanı</div>
                     </div>
                 </div>
-                <h2>İngilizce Portal Giriş</h2>
+                <h2>Türkçe Öğrenme Alanı</h2>
                 <p class="subtitle" id="girisSubtitle">Lütfen sistemde kayıtlı kullanıcı adınızı ve şifrenizi giriniz.</p>
                 <form id="loginForm" onsubmit="girisYap(event)">
                     <div class="form-group">
@@ -1346,7 +1346,7 @@ document.getElementById('dmBootRetry').onclick=()=>location.reload();
                                     <button class="dc-icon-btn hidden" id="dcHomeBtn" onclick="dcAnaEkranaDon()" title="Seviyelere dön" aria-label="Seviyelere dön">🏠</button>
                 <div class="dc-crumb" id="dcCrumb"></div>
                 <div class="dc-arama-kutu">
-                    <input type="text" id="dcAramaInput" aria-label="Türkçe veya İngilizce konu ara" placeholder="Konu ara…" oninput="dcAramaYap(this.value)">
+                    <input type="text" id="dcAramaInput" aria-label="Türkçe konu ara" placeholder="Konu ara…" oninput="dcAramaYap(this.value)">
                 </div>
             </div>
             <div id="dcAramaSonuclari" style="display:none;"></div>
@@ -3637,7 +3637,7 @@ mesajlar.forEach(m => {
                             tavsiyeBolumu += `\n`;
                         }
 
-                                        let raporMetni = `${E.cap} *Diji Medu Türkçe - HAFTALIK İNGİLİZCE GELİŞİM RAPORU* ${E.cap}\n\n` +
+                                        let raporMetni = `${E.cap} *Diji Medu Türkçe - HAFTALIK TÜRKÇE GELİŞİM RAPORU* ${E.cap}\n\n` +
                             `Sevgili Velimiz, ${E.star} *${tarih}* tarihli dersimizi geride bıraktık. Öğrencimiz *${ogrenci}*, 'ın bu hafta sergilediği performansın özeti sizlerle. ${E.rocket}\n\n` +
                             `${E.chart} *Haftalık Genel Durumumuz:*\n` +
                             genelDurumCumlesi +
@@ -7774,7 +7774,7 @@ setTimeout(() => {
                 return;
             }
 
-            let detayliMetin = `Değerli Velimiz, \n\nBu rapor döneminde öğrencimiz ${ad} ile son derece verimli, disiplinli ve istikrarlı bir İngilizce öğrenim süreci geride bıraktık. Seçilen tarih aralığında toplam ${ders} ders başarıyla tamamlanmış olup, öğrencimizin genel başarı ortalaması ${puan} / 100 olarak kaydedilmiştir.\n\n` +
+            let detayliMetin = `Değerli Velimiz, \n\nBu rapor döneminde öğrencimiz ${ad} ile son derece verimli, disiplinli ve istikrarlı bir Türkçe öğrenim süreci geride bıraktık. Seçilen tarih aralığında toplam ${ders} ders başarıyla tamamlanmış olup, öğrencimizin genel başarı ortalaması ${puan} / 100 olarak kaydedilmiştir.\n\n` +
                 (gelisimYonu === "yukselen" ? "Ders içi performans ve puan seyrinde gözlenen düzenli yükseliş trendi, öğrencinin çalışma disiplinine sadık kaldığını ve konuları kalıcı olarak kavradığını açıkça göstermektedir. 📈\n" : 
                  gelisimYonu === "dusen" ? "Dönem içerisinde ufak çaplı dalgalanmalar gözlenmiş olup, eksik kalan beceri başlıklarının pekiştirilmesi amacıyla özel tekrarlar planlanmaktadır.\n" : 
                  "Öğrencimiz dönem boyunca istikrarlı çizgisini koruyarak tüm çalışmalara gereken özeni göstermiştir.\n") +
@@ -11475,14 +11475,14 @@ function ozellikSecDoldur() {
                 <p>Google veya Apple ile girişte kimlik doğrulama ilgili sağlayıcıyla yapılır; parolan bize iletilmez. İlerleme e-postaları yalnız seçersen gönderilir ve her e-postadan çıkabilirsin. Reklam veya izleme çerezi kullanılmaz.</p>
                 <p>Bu bilgilendirmeyi okumak açık rıza vermek değildir. Ayrı izin gerektiren işlemler için ilgili tercihin ayrıca alınması gerekir.</p>
                 <p><a href="gizlilik.html" target="_blank" rel="noopener noreferrer" style="font-weight:800;">Tam gizlilik politikasını oku ↗</a><br>İşlenen veriler, hukuki sebepler, sağlayıcılar, saklama süreleri, çocuk verileri ve başvuru hakları tam metinde açıklanır.</p>
-                <p><a href="hesap-sil.html" target="_blank" rel="noopener noreferrer">İngilizce hesabımı sil ↗</a><br>Gizlilik ve veli talepleri: <a href="mailto:official.ogretmencocuk@gmail.com">official.ogretmencocuk@gmail.com</a>. KVKK başvuruları en geç 30 gün içinde cevaplanır.</p>
+                <p><a href="hesap-sil.html" target="_blank" rel="noopener noreferrer">Hesabımı sil ↗</a><br>Gizlilik ve veli talepleri: <a href="mailto:official.ogretmencocuk@gmail.com">official.ogretmencocuk@gmail.com</a>. KVKK başvuruları en geç 30 gün içinde cevaplanır.</p>
             </div>
         </div>
         <div class="rubric-modal" id="kullanimKosullariModal">
             <div class="rubric-content legal-modal-content">
                 <button class="game-close-btn" onclick="document.getElementById('kullanimKosullariModal').style.display='none'">✕</button>
                 <h3 style="color:#1e293b; font-size:15px; font-weight:900; margin-bottom:4px;">📄 Kullanım Koşulları</h3>
-                <p>Diji Medu Türkçe, İngilizce öğrenimini destekleyen bir eğitim platformudur. Kısaca:</p>
+                <p>Diji Medu Türkçe, 5–8. sınıflarda Türkçe öğrenimini destekleyen bir eğitim platformudur. Kısaca:</p>
                 <ul><li>Puan, XP, enerji ve altın uygulama içi ilerleme göstergeleridir; para veya resmî not değildir. Uygulamada gerçek parayla satın alma yoktur.</li><li>Parolanı ve doğrulama bağlantını paylaşma; sosyal alanlarda takma ad kullan, adres veya telefon yazma.</li><li>Zorbalık, hakaret, uygunsuz içerik ve başkasının bilgisini paylaşmak yasaktır; ⋯ → Bildir ile yöneticilere bildirebilirsin.</li><li>Diji Medu Türkçe’nin tasarımı, kodu ve çizimleri izinsiz kopyalanamaz.</li><li>Hesabını dondurabilir veya silebilirsin.</li></ul>
                 <p><a href="kullanim-kosullari.html" target="_blank" rel="noopener noreferrer" style="font-weight:800;">Kullanım koşullarının tamamını oku ↗</a> · <a href="cerez.html" target="_blank" rel="noopener noreferrer">Çerez ve yerel depolama ↗</a> · <a href="hakkinda.html" target="_blank" rel="noopener noreferrer">Hakkında ↗</a></p>
                 <div class="legal-last-updated">Son güncelleme: 22 Ekim 2026 · Sürüm 1.1</div>
@@ -26483,7 +26483,7 @@ body.dc-ada #tab-derscalis .km-baslangic .i::after{font-size:34px}
 <script defer src="experience-ui.js?v=20261013-member-122"></script>
 <link rel="stylesheet" href="harf-bahcesi.css?v=1">
 <link rel="stylesheet" href="kelime-rallisi.css?v=20261020-slow">
-<script defer src="lazy-games.js?v=20261016-flow-2"></script>
+<script defer src="lazy-games.js?v=20261023-turkce"></script>
 <link rel="stylesheet" href="game-experience.css?v=20261011-wordmode">
 <script defer src="game-experience.js?v=20261022-hiz-1"></script>
 <script defer src="game-access.js?v=20261020-1"></script>
@@ -26614,7 +26614,7 @@ body.dc-ada #tab-derscalis .km-baslangic .i::after{font-size:34px}
 <!-- Eight selected mini-games: fullscreen responsive layout and separate back/X controls. -->
 <link rel="stylesheet" href="eight-game-fullscreen.css?v=20261020-fit-v1">
 <script defer src="eight-game-fullscreen.js?v=20261020-fit-v1"></script>
-<link rel="stylesheet" href="turkce-parkur.css?v=20261023-2">
-<script defer src="turkce-parkur.js?v=20261023-1"></script>
+<link rel="stylesheet" href="turkce-parkur.css?v=20261023-harita-3">
+<script defer src="turkce-oyunlar.js?v=20261023-1"></script><script defer src="turkce-parkur.js?v=20261023-harita-3"></script>
 </body>      
         </html>

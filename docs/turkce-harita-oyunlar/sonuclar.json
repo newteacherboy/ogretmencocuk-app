@@ -1,0 +1,64 @@
+[
+  {
+    "width": 360,
+    "height": 740,
+    "theme": "day",
+    "map": true,
+    "gameCards": 9,
+    "completed": [
+      "es",
+      "hafiza",
+      "harf",
+      "bahce",
+      "cumle",
+      "dikte",
+      "balon",
+      "meteor",
+      "cark"
+    ],
+    "overflow": false,
+    "pageErrors": []
+  },
+  {
+    "width": 360,
+    "height": 740,
+    "theme": "night",
+    "map": true,
+    "gameCards": 9,
+    "completed": [],
+    "overflow": false,
+    "pageErrors": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "theme": "day",
+    "map": true,
+    "gameCards": 9,
+    "completed": [],
+    "overflow": false,
+    "pageErrors": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "theme": "day",
+    "map": true,
+    "gameCards": 9,
+    "completed": [],
+    "overflow": false,
+    "pageErrors": []
+  },
+  {
+    "fullApplication": true,
+    "theme": "day",
+    "contrast": 11.123013623413197,
+    "pageErrors": []
+  },
+  {
+    "fullApplication": true,
+    "theme": "night",
+    "contrast": 11.030005372272106,
+    "pageErrors": []
+  }
+]

@@ -1,0 +1,53 @@
+/* Run with TURKCE_PLAYWRIGHT_PATH and TURKCE_CHROMIUM_PATH, or installed Playwright. */
+const fs=require('node:fs'),path=require('node:path'),http=require('node:http'),assert=require('node:assert/strict');
+const {chromium}=require(process.env.TURKCE_PLAYWRIGHT_PATH||'playwright');
+const root=path.resolve(__dirname,'..'),out=process.env.TURKCE_QA_OUTPUT||path.join(root,'docs/turkce-harita-oyunlar');fs.mkdirSync(out,{recursive:true});
+const bank=JSON.parse(fs.readFileSync(path.join(root,'content/turkce/parkur-7.json'))),words=bank.themes[0].words,meaning=new Map(words.map(w=>[w.anlam,w])),byWord=new Map(words.map(w=>[w.kelime,w]));
+const server=http.createServer((req,res)=>{try{const rel=decodeURIComponent(req.url.split('?')[0]);if(rel==='/fixture'){res.setHeader('Content-Type','text/html; charset=utf-8');res.end('<html lang="tr"><head><meta name="viewport" content="width=device-width,initial-scale=1"></head><body></body></html>');return;}const file=path.resolve(root,rel==='/'?'index.html':'.'+rel);if(!file.startsWith(root+path.sep))throw Error();res.setHeader('Content-Type',({'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.mjs':'text/javascript; charset=utf-8','.json':'application/json','.svg':'image/svg+xml','.css':'text/css'})[path.extname(file)]||'application/octet-stream');res.end(fs.readFileSync(file));}catch{res.writeHead(404);res.end();}});
+const launch=()=>chromium.launch({executablePath:process.env.TURKCE_CHROMIUM_PATH||chromium.executablePath(),headless:true,args:['--no-sandbox','--no-zygote','--single-process','--disable-dev-shm-usage']});
+(async()=>{await new Promise(r=>server.listen(0,'127.0.0.1',r));const origin='http://127.0.0.1:'+server.address().port,results=[];let browser;
+try{for(const [width,height,theme]of [[360,740,'day'],[360,740,'night'],[768,1024,'day'],[1440,900,'day']]){
+ browser=await launch();const context=await browser.newContext({viewport:{width,height},serviceWorkers:'block',reducedMotion:'reduce'}),page=await context.newPage(),errors=[],calls=[];page.setDefaultTimeout(8000);page.on('pageerror',e=>errors.push(e.message));
+ await page.route('**/*',r=>{if(r.request().url()===origin+'/api'){const b=r.request().postDataJSON();calls.push(b.islem);return r.fulfill({json:{ok:true,grade:7,done:[],version:bank.version}});}return r.request().url().startsWith(origin)?r.continue():r.abort();});
+ await page.goto(origin+'/fixture');await page.setContent(`<html lang="tr" data-dm-theme="${theme}"><head><meta name="viewport" content="width=device-width,initial-scale=1"><style>h2{color:white!important}</style><link rel="stylesheet" href="${origin}/turkce-parkur.css"></head><body><script>const apiURL='${origin}/api';localStorage.setItem('ing_token','qa');</script><script src="${origin}/turkce-oyunlar.js"></script><script src="${origin}/turkce-parkur.js"></script></body></html>`);
+ await page.waitForFunction(()=>!!window.dmTurkce);await page.evaluate(()=>window.dmTurkce.open());await page.getByRole('heading',{name:'7. Sınıf Türkçe',exact:true}).waitFor();assert.equal(await page.locator('.tr-island').count(),6);assert.equal(await page.locator('.tr-map-stop [aria-current=step]').count(),1);assert.equal(await page.locator('#dmTurkce').evaluate(e=>e.scrollWidth>innerWidth),false);assert.equal(await page.locator('.tr-dock').evaluate(e=>e.getBoundingClientRect().bottom<=innerHeight),true);await page.screenshot({path:path.join(out,`harita-${width}-${theme}.png`)});await page.locator('#dmTurkce main').evaluate(e=>e.scrollTop=450);await page.screenshot({path:path.join(out,`harita-yol-${width}-${theme}.png`)});
+ await page.locator('.tr-dock [data-mode=games]').click();assert.equal(await page.locator('.tr-game-grid>button').count(),9);await page.screenshot({path:path.join(out,`oyunlar-${width}-${theme}.png`)});
+ const completed=[];
+ if(width===360&&theme==='day')for(const game of ['es','hafiza','harf','bahce','cumle','dikte','balon','meteor','cark']){
+  const before=calls.length;await page.locator(`[data-game="${game}"]`).click();await page.locator('.tg-stage').waitFor();
+  if(game==='es'||game==='hafiza'){
+   const known=new Map();if(game==='hafiza'){
+    for(let i=0;i<8;i+=2){await page.locator(`[data-card="${i}"]`).click();known.set(i,await page.locator(`[data-card="${i}"]`).innerText());await page.locator(`[data-card="${i+1}"]`).click();known.set(i+1,await page.locator(`[data-card="${i+1}"]`).innerText());if(await page.locator('[data-game-action=reset-pair]').count())await page.locator('[data-game-action=reset-pair]').click();}
+   }else for(let i=0;i<8;i++)known.set(i,await page.locator(`[data-card="${i}"]`).innerText());
+   for(const w of words){const indices=[...known].filter(([,text])=>text===w.kelime||text===w.anlam).map(([i])=>i);if(indices.length!==2)continue;if(await page.locator(`[data-card="${indices[0]}"]`).isDisabled())continue;for(const i of indices)await page.locator(`[data-card="${i}"]`).click();}
+   await page.locator('[data-game-action=finish]').click();
+  }else{
+   if(game==='meteor'){await page.locator('[data-game-action=toggle-time]').click();assert.equal(await page.locator('#tgTime').innerText(),'Süresiz');}
+   for(let n=0;n<6;n++){
+    if(game==='cark')await page.locator('[data-game-action=spin]').click();
+    if(['balon','meteor','cark'].includes(game)){
+     const w=byWord.get(await page.locator('.tg-clue h2').innerText());assert(w);await page.locator('[data-game-action=choice]').filter({hasText:w.anlam}).click();
+    }else if(game==='harf'){
+     const w=meaning.get(await page.locator('.tg-clue h2').innerText());assert(w);for(const c of new Set([...w.kelime.toLocaleLowerCase('tr-TR')].filter(c=>/[a-zçğıöşü]/u.test(c))))await page.locator(`[data-letter="${c}"]`).click();
+    }else if(game==='bahce'||game==='cumle'){
+     const clue=await page.locator('.tg-clue h2').innerText(),w=game==='bahce'?meaning.get(clue):byWord.get(clue),parts=game==='bahce'?[...w.kelime.toLocaleLowerCase('tr-TR')]:w.ornek.trim().split(/\s+/);
+     for(const c of parts)await page.locator('[data-game-action=tile]:enabled').filter({hasText:new RegExp('^'+(c===' '?'␣':c).replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'$')}).first().click();await page.locator('[data-game-action=submit]').click();
+    }else if(game==='dikte'){
+     await page.locator('[data-game-action=speak]').click();await page.locator('.tg-clue summary').click();const clue=(await page.locator('.tg-clue details p').first().innerText()),w=meaning.get(clue);await page.locator('[data-game-input]').fill(w.kelime.toLocaleUpperCase('tr-TR'));await page.locator('[data-game-input]').press('Enter');
+    }
+    assert((await page.locator('.tg-feedback').innerText()).includes('Doğru')||(await page.locator('.tg-feedback').innerText()).includes('Harika'));if(n===0)await page.screenshot({path:path.join(out,`oyun-${game}-360.png`)});await page.locator('[data-game-action=next]').click();
+   }
+  }
+  await page.locator('.tg-result h1').waitFor();assert((await page.locator('.tg-result').innerText()).includes(game==='es'||game==='hafiza'?'4 / 4':'6 / 6'));assert.equal(calls.length,before,'Practice never writes progress or rewards');completed.push(game);await page.locator('[data-game-action=exit]').click();
+ }
+ // Timer can be paused and leaving a game cancels its work. Account changes close the entire view.
+ await page.locator('[data-game=meteor]').click();await page.locator('[data-game-action=choice]').first().click();await page.locator('[data-game-action=pause]').click();await page.getByRole('heading',{name:'Oyun duraklatıldı'}).waitFor();await page.locator('[data-game-action=resume]').click();await page.locator('.tr-dock [data-mode=route]').click();assert.equal(await page.evaluate(()=>dmTurkceGames.active()),false);
+ await page.locator('.tr-dock [data-mode=games]').click();await page.locator('[data-game=bahce]').click();await page.keyboard.press('Escape');assert.equal(await page.locator('.tr-game-grid>button').count(),9);await page.locator('[data-game=hafiza]').click();await page.evaluate(()=>{localStorage.setItem('ing_token','other');window.dispatchEvent(new StorageEvent('storage',{key:'ing_token'}));});assert.equal(await page.locator('#dmTurkce').count(),0);assert.equal(await page.evaluate(()=>dmTurkceGames.active()),false);
+ assert.deepEqual(errors,[]);results.push({width,height,theme,map:true,gameCards:9,completed,overflow:false,pageErrors:errors});await browser.close();browser=null;
+ }
+ // Full application styles and final navigation bindings, not just an isolated fixture.
+ browser=await launch();const page=await browser.newPage({viewport:{width:360,height:740}}),errors=[];page.on('pageerror',e=>errors.push(e.message));await page.route('**/*',r=>{const u=r.request().url();if(u.includes('functions/v1/')&&r.request().method()==='POST'){const b=r.request().postDataJSON();return r.fulfill({json:b.islem==='turkceStatus'?{ok:true,grade:7,done:[],version:bank.version}:{ok:true}});}return u.startsWith(origin)?r.continue():r.abort();});await page.goto(origin,{waitUntil:'load'});await page.waitForFunction(()=>!!window.dmTurkce);await page.evaluate(()=>window.dmFirstDiscovery.openLogin());await page.locator('#dmBootSplash').waitFor({state:'detached'});await page.evaluate(()=>{localStorage.setItem('ing_token','qa');return window.aktivitelerTamEkranAc();});await page.locator('.tr-game-grid>button').first().waitFor();await page.screenshot({path:path.join(out,'uygulama-oyunlar-360.png')});assert.equal(await page.locator('#dmTurkce').evaluate(e=>e.scrollWidth>innerWidth),false);
+ for(const theme of ['day','night']){await page.evaluate(t=>document.documentElement.dataset.dmTheme=t,theme);await page.locator('.tr-dock [data-mode=route]').click();const contrast=await page.locator('.tr-next h2').evaluate(el=>{const rgb=s=>(s.match(/[\d.]+/g)||[]).map(Number),lum=c=>c.slice(0,3).map(v=>{v/=255;return v<=.04045?v/12.92:((v+.055)/1.055)**2.4}).reduce((n,v,i)=>n+v*[.2126,.7152,.0722][i],0);let bg;for(let p=el;p;p=p.parentElement){const c=rgb(getComputedStyle(p).backgroundColor);if(c.length===3||c[3]===1){bg=c;break;}}const a=lum(rgb(getComputedStyle(el).color)),b=lum(bg);return(Math.max(a,b)+.05)/(Math.min(a,b)+.05);});assert(contrast>=4.5);await page.screenshot({path:path.join(out,`uygulama-harita-${theme}-360.png`)});results.push({fullApplication:true,theme,contrast,pageErrors:errors});}
+ assert.deepEqual(errors,[]);fs.writeFileSync(path.join(out,'sonuclar.json'),JSON.stringify(results,null,2)+'\n');console.log(JSON.stringify(results));
+}finally{if(browser)await browser.close();await new Promise(r=>server.close(r));}
+})().catch(e=>{console.error(e);process.exit(1);});
