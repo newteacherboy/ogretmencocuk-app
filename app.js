@@ -127,6 +127,8 @@ async function startStop(stopId){
   try{await window.turkceMember.ready;state.serverAttempt=await window.turkceMember.request("start",{mode:"stop",activity_id:String(stopId)});}catch(e){showMapMessage(e.message);return;}
   state.currentStop = stops.find(s=>s.id===stopId);
   state.currentQuestionIndex = state.serverAttempt.index;
+  if(state.stopSession?.attemptId!==state.serverAttempt.attempt_id)state.stopSession={attemptId:state.serverAttempt.attempt_id,frontier:state.serverAttempt.index,results:{},drafts:{}};
+  state.stopSession.frontier=state.serverAttempt.index;
   state.answers = [];
   state.questionMistakes = state.serverAttempt.mistakes;
   state.totalMistakes = state.serverAttempt.wrong;
@@ -138,7 +140,7 @@ function renderQuestion(){
   refreshEconomy();
   const stop = state.currentStop;
   const q = stop.questions[state.currentQuestionIndex];
-  const progressNodes = stop.questions.map((_,i)=>`<div class="pnode ${i<state.currentQuestionIndex?'done':''} ${i===state.currentQuestionIndex?'active':''}">${i+1}</div>`).join('');
+  const progressNodes = stop.questions.map((_,i)=>`<div class="pnode ${i<(state.stopSession?.frontier??state.currentQuestionIndex)?'done':''} ${i===state.currentQuestionIndex?'active':''}">${i+1}</div>`).join('');
   let leftHtml='';
   if(q.type==='visual_mcq'||q.type==='detail_mcq'){
     leftHtml = `<figure class="image-panel question-illustration"><img src="${q.image}" alt="${q.imageAlt}" width="1050" height="700"><figcaption hidden>${q.imageAlt}</figcaption></figure>`;
@@ -149,7 +151,7 @@ function renderQuestion(){
   } else if(q.type==='ordering'){
     leftHtml = `<div class="order-list" id="orderList">${q.items.map((it,i)=>orderItemTemplate(it,i)).join('')}</div>`;
   } else if(q.type==='text'){
-    leftHtml = `<div class="text-box"><textarea id="textAnswer" maxlength="220" placeholder="${q.placeholder || ''}"></textarea><div class="text-meta"><span>Kısa bir tahmin cümlesi yaz.</span><span id="charCount">0/220</span></div></div>`;
+    leftHtml = `${q.image?`<figure class="image-panel question-illustration"><img src="${q.image}" alt="${q.imageAlt}" width="1050" height="700"><figcaption hidden>${q.imageAlt}</figcaption></figure>`:''}<div class="text-box"><textarea id="textAnswer" maxlength="220" placeholder="${q.placeholder || ''}"></textarea><div class="text-meta"><span>8–220 karakterlik bir cümle yaz. Birden fazla yanıt olabilir.</span><span id="charCount">0/220</span></div></div>`;
   } else {
     leftHtml = `<div class="prompt-box">${q.prompt || ''}</div>`;
   }
@@ -177,7 +179,7 @@ function renderQuestion(){
             ${q.choices ? `<div class="options" id="optionsArea">${optionsHtml}</div>` : ''}
             <div class="q-actions">
               <div class="feedback-box" id="feedbackBox" role="status" aria-live="polite">Her soru farklı bir beceriyi ölçer.</div>
-              <button class="nav-btn nav-green" id="actionBtn">Kontrol Et</button>
+              <div class="question-navigation"><button class="nav-btn nav-blue" id="previousQuestionBtn" type="button" onclick="previousQuestion()">← Önceki Soru</button><button class="nav-btn nav-green" id="actionBtn">Kontrol Et</button></div>
             </div>
           </div>
           <aside class="q-side">
@@ -205,7 +207,30 @@ function renderQuestion(){
   }
   if(q.type==='ordering') bindOrdering();
 
-  document.getElementById('actionBtn').addEventListener('click', ()=>checkQuestion());
+  const session=state.stopSession,idx=state.currentQuestionIndex;
+  const saved=session?.results[idx],draft=saved?.answer??session?.drafts[idx];
+  if(draft!==undefined&&draft!==null){
+    if(q.choices)document.querySelector(`.option[data-index="${draft}"]`)?.classList.add('selected');
+    else if(q.type==='ordering'&&Array.isArray(draft)){currentOrderState=draft.map(i=>({text:q.items[i],original:i}));redrawOrder();}
+    else if(q.type==='text'){document.getElementById('textAnswer').value=draft;document.getElementById('charCount').textContent=draft.length+'/220';}
+  }
+  document.getElementById('previousQuestionBtn').disabled=idx===0;
+  document.getElementById('actionBtn').onclick=checkQuestion;
+  if(saved)showStopAnswer(q,saved.result,false);
+  else if(session&&idx<session.frontier)showStopAnswer(q,{advanced:true,correct:null,ungraded:q.type==='text',correct_answer:q.answerOrder??q.answer},false);
+}
+
+function stopAnswerDraft(){
+ const q=state.currentStop.questions[state.currentQuestionIndex];
+ if(q.type==='text')return document.getElementById('textAnswer').value;
+ if(q.type==='ordering')return currentOrderState.map(x=>x.original);
+ const selected=document.querySelector('#optionsArea .selected');return selected?Number(selected.dataset.index):undefined;
+}
+function previousQuestion(){
+ const button=document.getElementById('previousQuestionBtn');
+ if(!button||button.disabled||state.currentQuestionIndex===0)return;
+ state.stopSession.drafts[state.currentQuestionIndex]=stopAnswerDraft();
+ state.currentQuestionIndex--;renderQuestion();
 }
 
 function orderItemTemplate(text,i){
@@ -264,32 +289,50 @@ function markOptionsAfterCheck(answer,correct,reveal=false){
   });
 }
 
-async function checkQuestion(){
- const btn=document.getElementById('actionBtn');if(!btn||btn.disabled||btn.dataset.validated==='true')return;
- const q=state.currentStop.questions[state.currentQuestionIndex],fb=document.getElementById('feedbackBox');
- let answer;if(q.type==='text')answer=document.getElementById('textAnswer').value.trim();else if(q.type==='ordering')answer=currentOrderState.map(x=>x.original);else{const selected=document.querySelector('.option.selected');if(!selected){fb.textContent='Önce bir seçenek işaretle.';return;}answer=Number(selected.dataset.index);}
- btn.disabled=true;document.querySelectorAll('#optionsArea button,#orderList button,#textAnswer').forEach(el=>el.disabled=true);
- try{const r=await window.turkceMember.request('answer',{attempt_id:state.serverAttempt.attempt_id,index:state.currentQuestionIndex,answer});state.serverResult=r;
+function showStopAnswer(q,r,playSound){
+ const btn=document.getElementById('actionBtn'),fb=document.getElementById('feedbackBox');
  if(q.choices)markOptionsAfterCheck(r.correct_answer,r.correct,r.advanced);
  let solution='';
- if(r.advanced&&!r.correct&&!r.ungraded){
-   if(q.choices&&Number.isInteger(r.correct_answer))solution=String.fromCharCode(65+r.correct_answer)+' — '+q.choices[r.correct_answer];
-   else if(q.items&&Array.isArray(r.correct_answer))solution=r.correct_answer.map((i,n)=>(n+1)+'. '+q.items[i]).join(' → ');
- }
+ if(q.choices&&Number.isInteger(r.correct_answer))solution=String.fromCharCode(65+r.correct_answer)+' — '+q.choices[r.correct_answer];
+ else if(q.items&&Array.isArray(r.correct_answer))solution=r.correct_answer.map((i,n)=>(n+1)+'. '+q.items[i]).join(' → ');
  const explanation=q.type==='ordering'?'Kurallar bu sırayla uygulanır.':(q.feedback||'').replace(/^(Doğru|Aferin|Harika)[.!]?\s*/,'');
- showAnswerFeedback(r.correct,fb,r.ungraded?'Yazma görevin kaydedildi. Bu soru otomatik puanlanmaz.':q.feedback||'Doğru!',r.advanced?(solution?'Doğru cevap: '+solution+'. '+explanation:'Bu soruyu tamamladın. Sonraki soruya geçebilirsin.'):'Cümleni 8–220 karakter arasında yaz.');
- if(r.advanced){document.querySelectorAll('#optionsArea button,#orderList button,#textAnswer').forEach(el=>el.disabled=true);btn.dataset.validated='true';btn.textContent=r.done?'Sonuç Ekranına Geç →':'Sonraki Soru →';btn.onclick=nextQuestion;}
- }catch(e){fb.textContent=e.message;}finally{btn.disabled=false;if(btn.dataset.validated!=='true')document.querySelectorAll('#optionsArea button,#orderList button,#textAnswer').forEach(el=>el.disabled=false);}
+ let message;
+ if(q.type==='text')message=(r.advanced?'Yanıtın kaydedildi. Bu görev otomatik puanlanmaz. ':'8–220 karakterlik bir cümle yaz. ')+(q.answer?'Örnek yanıt: '+q.answer:'');
+ else if(r.correct===true)message=q.feedback||'Doğru!';
+ else message=(solution?'Doğru cevap: '+solution+'. '+explanation:'Cevap bilgisi alınamadı.')+(r.correct===null?' Önceki seçimin bu oturumda kayıtlı değil.':'');
+ if(playSound)playAnswerSound(r.correct===true);
+ fb.textContent=(q.type==='text'||r.correct===null?'':r.correct?'✓ ':'✕ ')+message;
+ fb.classList.toggle('feedback-correct',r.correct===true&&q.type!=='text');
+ fb.classList.toggle('feedback-wrong',r.correct===false&&q.type!=='text');
+ if(r.advanced){
+   document.querySelectorAll('#optionsArea button,#orderList button,#textAnswer').forEach(el=>el.disabled=true);
+   btn.dataset.validated='true';btn.textContent=state.currentQuestionIndex===state.currentStop.questions.length-1?'Sonuç Ekranına Geç →':'Sonraki Soru →';btn.onclick=nextQuestion;
+ }
 }
-
+async function checkQuestion(){
+ const btn=document.getElementById('actionBtn');if(!btn||btn.disabled||btn.dataset.validated==='true')return;
+ const index=state.currentQuestionIndex,q=state.currentStop.questions[index],fb=document.getElementById('feedbackBox');
+ const answer=stopAnswerDraft();
+ if(q.type==='text'&&(answer.trim().length<8||answer.trim().length>220)){showStopAnswer(q,{advanced:false,correct:false,ungraded:true},false);return;}
+ if(q.choices&&answer===undefined){fb.textContent='Önce bir seçenek işaretle.';return;}
+ btn.disabled=true;document.getElementById('previousQuestionBtn').disabled=true;
+ document.querySelectorAll('#optionsArea button,#orderList button,#textAnswer').forEach(el=>el.disabled=true);
+ try{
+   const r=await window.turkceMember.request('answer',{attempt_id:state.serverAttempt.attempt_id,index,answer:typeof answer==='string'?answer.trim():answer});
+   state.serverResult=r;state.stopSession.drafts[index]=answer;
+   if(r.advanced){state.stopSession.results[index]={answer,result:r};state.stopSession.frontier=r.index;}
+   showStopAnswer(q,r,true);
+ }catch(e){fb.textContent=e.message;}finally{
+   btn.disabled=false;document.getElementById('previousQuestionBtn').disabled=index===0;
+   if(btn.dataset.validated!=='true')document.querySelectorAll('#optionsArea button,#orderList button,#textAnswer').forEach(el=>el.disabled=false);
+ }
+}
 function nextQuestion(){
-  state.currentQuestionIndex=state.serverResult.index;
-  if(state.currentQuestionIndex >= state.currentStop.questions.length){
-    finishStop();
-  } else {
-    renderQuestion();
-  }
+ if(state.currentQuestionIndex>=state.stopSession.frontier)return;
+ state.currentQuestionIndex++;
+ if(state.currentQuestionIndex>=state.currentStop.questions.length)finishStop();else renderQuestion();
 }
+function reviewStopQuestions(){state.currentQuestionIndex=state.currentStop.questions.length-1;renderQuestion();}
 
 function finishStop(){
   stopQuizTimer();
@@ -318,7 +361,7 @@ function finishStop(){
               <div class="result-box"><strong>${state.currentStop.id}</strong><span>Durak</span></div>
             </div>
             <div class="result-actions">
-              <button class="nav-btn nav-blue" onclick="restartStop(${state.currentStop.id})">Tekrar Oyna</button>
+              <button class="nav-btn nav-blue" onclick="reviewStopQuestions()">Soruları İncele</button><button class="nav-btn nav-blue" onclick="restartStop(${state.currentStop.id})">Tekrar Oyna</button>
               <button class="nav-btn nav-orange" onclick="${reward.passed?`goNextStop(${state.currentStop.id})`:`restartStop(${state.currentStop.id})`}">${reward.passed?"Sonraki Durağa Geç →":"Tekrar Çalış →"}</button>
             </div>
           </div>
