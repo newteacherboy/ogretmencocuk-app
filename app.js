@@ -12,7 +12,13 @@ const tabs = document.querySelectorAll('.tab');
 const modalRoot = document.getElementById('modalRoot');
 const completedCount = document.getElementById('completedCount');
 
-function refreshEconomy(){const x=window.practiceEconomy?.snapshot();if(!x)return;const vals={energyValue:x.energy+"/30",xpValue:x.xp.toLocaleString("tr-TR"),goldValue:x.gold.toLocaleString("tr-TR"),levelValue:"Sv. "+x.level};Object.entries(vals).forEach(([key,value])=>{const e=document.getElementById(key);if(e)e.textContent=value})}
+function refreshEconomy(){
+ const x=window.practiceEconomy?.snapshot();if(!x)return;
+ const vals={energyValue:x.energy+"/30",xpValue:x.xp.toLocaleString("tr-TR"),goldValue:x.gold.toLocaleString("tr-TR"),levelValue:"Sv. "+x.level};
+ Object.entries(vals).forEach(([key,value])=>{const e=document.getElementById(key);if(e)e.textContent=value});
+ const e=document.querySelector(".economy-pill.energy");
+ if(e){const m=Math.floor(x.nextEnergySeconds/60),s=x.nextEnergySeconds%60;e.title=x.energy>=30?"Enerjin dolu":"Sonraki enerji: "+String(m).padStart(2,"0")+":"+String(s).padStart(2,"0");}
+}
 window.addEventListener("practice-rewards-changed",refreshEconomy);
 function saveProgress(){ localStorage.setItem(state.progressKey, JSON.stringify(state.completed)); updateStats(); renderMap(); }
 function updateStats(){ if(completedCount) completedCount.textContent = state.completed.length; }
@@ -434,5 +440,8 @@ document.getElementById('continueJourney')?.addEventListener('click',()=>openSto
 document.getElementById('showAchievements')?.addEventListener('click',showProgress);
 updateStats();
 refreshEconomy();
+window.addEventListener("focus",refreshEconomy);
+document.addEventListener("visibilitychange",()=>{if(!document.hidden)refreshEconomy()});
+setInterval(()=>{if(!document.hidden)refreshEconomy()},30000);
 renderMap();
 renderGames();
