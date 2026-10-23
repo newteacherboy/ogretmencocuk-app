@@ -29,7 +29,15 @@ jobs:
         with:
           node-version: '22'
       - run: npm install --no-save --package-lock=false --ignore-scripts playwright@1.58.2
-      - run: npx playwright install --with-deps chromium
+      - name: Select runner browser
+        shell: bash
+        run: |
+          browser_path=$(command -v google-chrome || command -v chromium || true)
+          if test -n "$browser_path"; then
+            echo "BROWSER_EXECUTABLE=$browser_path" >> "$GITHUB_ENV"
+          else
+            npx playwright install --with-deps chromium
+          fi
       - run: node tools/welcome-browser.cjs
       - uses: actions/upload-artifact@v4
         if: always()
