@@ -1,0 +1,1054 @@
+{
+  "belgeTuru": "tema",
+  "semaSurumu": "1.0",
+  "sinif": 7,
+  "program": "TYMM",
+  "tema": 3,
+  "temaAdi": "İletişim ve Sosyal İlişkiler",
+  "durum": "incelemeye_hazir",
+  "kaynak": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/291",
+  "kaynak_dogrulanmadi": false,
+  "ogrenmeCiktilari": [
+    "T.D.7.1",
+    "T.D.7.19",
+    "T.D.7.23",
+    "T.D.7.25",
+    "T.D.7.27",
+    "T.D.7.7",
+    "T.D.7.8",
+    "T.K.7.1",
+    "T.K.7.15",
+    "T.K.7.17",
+    "T.K.7.21",
+    "T.K.7.25",
+    "T.K.7.26",
+    "T.O.7.1",
+    "T.O.7.16",
+    "T.O.7.17",
+    "T.O.7.18",
+    "T.O.7.19",
+    "T.O.7.23",
+    "T.O.7.28",
+    "T.Y.7.1",
+    "T.Y.7.17",
+    "T.Y.7.21",
+    "T.Y.7.22",
+    "T.Y.7.9"
+  ],
+  "sozVarligi": {
+    "aciklama": "Tema uyumlu özgün tanım ve örnekler. Önceki sınıflardaki kelimeler spiral tekrar olarak da seçilir; 30 kayıt bütün sınıflarda farklı 30 yeni kelime iddiası değildir.",
+    "kelimeler": [
+      {
+        "kelime": "iletişim",
+        "anlam": "Duygu ve düşüncelerin karşılıklı aktarılması",
+        "ornek": "İletişim için ortak bir zaman belirledik.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "anlaşmazlık",
+        "anlam": "Bir konuda farklı düşünüp uyuşamama durumu",
+        "ornek": "Anlaşmazlığı konuşarak çözmeye çalıştık.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "uzlaşmak",
+        "anlam": "Farklı istekleri ortak bir çözümde buluşturmak",
+        "ornek": "İki grup çalışma saatinde uzlaştı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "dinleyici",
+        "anlam": "Bir konuşmayı veya sesi dinleyen kişi",
+        "ornek": "Dinleyici soru sormak için sırasını bekledi.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "konuşmacı",
+        "anlam": "Bir topluluğa konuşan kişi",
+        "ornek": "Konuşmacı son cümlesini yeniden açıkladı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "sıra",
+        "anlam": "Bir işte veya dizilişte izlenecek yer",
+        "ornek": "Söz sırası gelince önerimi sundum.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "üslup",
+        "anlam": "Bir anlatımın kendine özgü söyleyiş biçimi",
+        "ornek": "İletinin üslubu daha nazik hâle getirildi.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "açıklık",
+        "anlam": "Bir anlatımın kolay anlaşılır olma özelliği",
+        "ornek": "Duyurunun açıklığını kontrol ettik.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "nezaket",
+        "anlam": "Başkalarını gözeten incelikli davranış",
+        "ornek": "Nezaket görüş ayrılığında da sürmelidir.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "eleştiri",
+        "anlam": "Bir işin güçlü ve geliştirilebilir yanlarını gerekçeleriyle inceleme",
+        "ornek": "Eleştiri kişiliğe değil çalışmaya yönelikti.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "öneri",
+        "anlam": "Bir işin nasıl yapılabileceğine ilişkin düşünce",
+        "ornek": "Öneri çözüm için yeni bir yol açtı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "onay",
+        "anlam": "Bir görüşü veya işi uygun bulma",
+        "ornek": "Ses kaydı için herkesin onayı alındı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "rıza",
+        "anlam": "Bir davranışı özgür iradeyle kabul etme",
+        "ornek": "Fotoğraf paylaşımı için rıza istendi.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "mahremiyet",
+        "anlam": "Kişisel alanın ve özel bilgilerin korunması",
+        "ornek": "Duyuruda mahremiyet gözetildi.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "sınır",
+        "anlam": "Bir davranışın veya alanın aşılmaması gereken çizgisi",
+        "ornek": "Paylaşım sınırımızı baştan belirledik.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "yanlış anlama",
+        "anlam": "Bir sözü amaçlanandan farklı yorumlama",
+        "ornek": "Kısa ileti yanlış anlamaya yol açmıştı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "geri bildirim",
+        "anlam": "Bir çalışmanın etkisi veya niteliği hakkında verilen bilgi",
+        "ornek": "Geri bildirim metni geliştirmemize yardım etti.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "arabulucu",
+        "anlam": "Anlaşmazlıkta tarafların konuşmasını kolaylaştıran kişi",
+        "ornek": "Arabulucu iki tarafa da söz verdi.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "niyet",
+        "anlam": "Bir davranışla ulaşılmak istenen amaç",
+        "ornek": "Niyetini varsaymak yerine kendisine sordum.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "beklenti",
+        "anlam": "Gerçekleşmesi umulan durum",
+        "ornek": "Görevden beklentimizi birlikte yazdık.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "saygı",
+        "anlam": "Başkalarının hak ve değerini gözetme tutumu",
+        "ornek": "Saygı duymak aynı fikirde olmayı gerektirmez.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "iş birliği",
+        "anlam": "Ortak amaç için birlikte çalışma",
+        "ornek": "İş birliği görevleri paylaşınca kolaylaştı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "koşul",
+        "anlam": "Bir şeyin gerçekleşmesinin bağlı olduğu durum",
+        "ornek": "Etkinliğe katılım koşulu açıkça yazıldı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "amaç",
+        "anlam": "Bir eylemle ulaşılmak istenen sonuç",
+        "ornek": "Toplantının amacı çözüm bulmaktı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "gerekçe",
+        "anlam": "Bir düşünce veya kararın dayandığı neden",
+        "ornek": "Kararımın gerekçesini açıkladım.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "davet",
+        "anlam": "Birini bir yere veya etkinliğe çağırma",
+        "ornek": "Davet tarih ve yer bilgisi içeriyordu.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "duyuru",
+        "anlam": "Bir bilgiyi topluluğa bildiren yazı veya söz",
+        "ornek": "Duyurudaki eksik saati tamamladık.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "mesaj",
+        "anlam": "Bir kişiye iletilen söz veya yazı",
+        "ornek": "Mesajı göndermeden önce yeniden okudum.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "sessizlik",
+        "anlam": "Sesin veya konuşmanın bulunmadığı durum",
+        "ornek": "Sessizlik bazen düşünmek için zaman kazandırır.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "gönüllülük",
+        "anlam": "Bir işi kendi isteğiyle üstlenme durumu",
+        "ornek": "Görev paylaşımında gönüllülük esas alındı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      }
+    ],
+    "esAnlamlilar": [],
+    "zitAnlamlilar": [],
+    "esSesliler": [],
+    "deyimler": [],
+    "atasozleri": []
+  },
+  "okumaParcalari": [
+    {
+      "id": "7-3-okuma-1",
+      "baslik": "Dinlenmeyen Son Cümle",
+      "tur": "oykuleyici",
+      "metin": "Sınıfın sesli dergisi için yapılan toplantıda herkes bir bölüm önermişti. Nil, okul bahçesindeki ağaçları anlatmak istiyordu. Önerisine başlarken ağaçların neden ilgi çekici olduğunu uzun uzun açıkladı. Sözünü bitiremeden Tuna araya girip böyle bir bölümün sıkıcı olacağını söyledi. Nil, yalnızca ağaçların adlarını sıralamayı planlamıyordu. Her ağacın çevresinde yaşanan bir okul anısını toplamak istiyordu; fakat bu son cümlesini henüz söylememişti.\nToplantıyı yöneten Eren, konuşmayı durdurdu. Önce Nil'den önerisini tamamlamasını istedi. Sonra Tuna'dan duyduğunu kendi cümleleriyle özetlemesini rica etti. Tuna, önerinin ağaç isimlerini saymak olduğunu söylediğinde aradaki fark görünür oldu. Nil gerçek planını açıkladı. Tuna bu kez neyi değerlendirdiğini daha iyi anladı. Fikrini değiştirmek zorunda değildi, fakat eleştirisini gerçekten sunulan öneriye yöneltmesi gerekiyordu.\nGrup toplantı için yeni bir yöntem denedi. Her öneri önce kısaca özetlenecek, öneriyi sunan kişi bu özetin doğru olup olmadığını söyleyecekti. Ardından sorular ve değerlendirmeler gelecekti. Başlangıçta bu yöntem yavaş görünüyordu. Fakat bir süre sonra aynı yanlış anlamayı düzeltmek için harcadıkları zaman azaldı. İki öğrenci de karşısındakinin kendisini bütünüyle onaylamadan da doğru anlayabileceğini fark etti.\nSesli derginin ilk denemesinde Nil'in bölümü beklenenden uzundu. Tuna bu kez “Sıkıcı olmuş.” demekle yetinmedi. İlk iki anının aynı düşünceyi tekrarladığını, üçüncü anının ise yeni bir bakış açısı getirdiğini söyledi. Nil örnekleri dinleyip ilk iki anıdan birini çıkardı. Kısalan bölüm daha anlaşılır olmuştu. Bir eleştiriyi kabul etmek, bütün fikrinden vazgeçmek anlamına gelmemişti. Tuna da somut bir gerekçe sunduğunda önerisinin gerçekten işe yarayabildiğini gördü.\nDerginin son kaydında grubun çalışma biçimini anlatan kısa bir bölüm vardı. Eren, iyi iletişimin her konuşmayı uzatmak olmadığını söyledi. Bazen tek bir kontrol sorusu yeterliydi: “Seni doğru mu anladım?” Bu soru bir kalıp olarak ezberlendiğinde değil, cevabı gerçekten dinlendiğinde işe yarıyordu. Nil kendi kaydını yeniden dinlerken önerisinin ilk günkü hâlini düşündü. Son cümlesini söyleyebilmesi, yalnız kendi bölümünü kurtarmamıştı. Grubun eleştiri biçimini de değiştirmişti. Öğrenciler sonraki toplantının gündemine kısa bir not ekledi: “Önce anla, sonra gerekçelendir.” Notun altına hiç kimsenin adı yazılmadı. Çünkü yeni yöntemi tek bir kişinin üstünlüğü olarak değil, birlikte düzelttikleri bir çalışma alışkanlığı olarak görüyorlardı. Bu alışkanlığın her toplantıda yeniden dikkat gerektirdiğini de biliyorlardı.\nToplantı sonunda kısa bir değerlendirme yaptılar. Herkes bir sonraki oturumda denemek istediği davranışı yazdı. Bu notlar notlandırılmayacaktı; amaç, ortak yöntemin günlük konuşmaya nasıl taşındığını daha sonra birlikte görebilmekti.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır.",
+      "sorular": [
+        {
+          "id": "7-3-okuma-1-1",
+          "tip": "secim",
+          "soru": "“Dinlenmeyen Son Cümle” metnine göre: İlk yanlış anlama nasıl oluşmuştur?",
+          "secenekler": [
+            "Kayıt cihazı bozulmuştur",
+            "Bütün öneriler yazılı verilmiştir",
+            "Nil önerisini tamamlamadan değerlendirilmiştir"
+          ],
+          "dogru": "Nil önerisini tamamlamadan değerlendirilmiştir",
+          "aciklama": "Tuna son cümleyi duymadan yalnız ağaç adları anlatılacağını varsayar.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-3-okuma-1-2",
+          "tip": "secim",
+          "soru": "“Dinlenmeyen Son Cümle” metnine göre: Eren önce hangi işlemi yaptırır?",
+          "secenekler": [
+            "Tuna'nın toplantıdan çıkarılmasını",
+            "Önerinin tamamlanmasını ve özetlenmesini",
+            "Doğrudan oylama yapılmasını"
+          ],
+          "dogru": "Önerinin tamamlanmasını ve özetlenmesini",
+          "aciklama": "Özet, söylenenle anlaşılan arasındaki farkı görünür kılar.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-3-okuma-1-3",
+          "tip": "secim",
+          "soru": "“Dinlenmeyen Son Cümle” metnine göre: Yeni yöntemin sonucu nedir?",
+          "secenekler": [
+            "Yanlış anlamayı düzeltmeye ayrılan zaman azalır",
+            "Bütün görüş ayrılıkları tamamen biter",
+            "Herkes tek bir öneriyi sunar"
+          ],
+          "dogru": "Yanlış anlamayı düzeltmeye ayrılan zaman azalır",
+          "aciklama": "Yöntem yavaş görünse de tekrar eden açıklamaları azaltır.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-3-okuma-1-4",
+          "tip": "secim",
+          "soru": "“Dinlenmeyen Son Cümle” metnine göre: İkinci eleştiri ilkinden nasıl ayrılır?",
+          "secenekler": [
+            "Daha yüksek sesle söylenir",
+            "Hiç değişiklik önermez",
+            "Somut örnek ve gerekçe içerir"
+          ],
+          "dogru": "Somut örnek ve gerekçe içerir",
+          "aciklama": "Tuna aynı düşünceyi yineleyen anıları göstererek geliştirilebilir noktayı açıklar.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-3-okuma-1-5",
+          "tip": "secim",
+          "soru": "“Dinlenmeyen Son Cümle” metnine göre: Nil hangi değişikliği yapar?",
+          "secenekler": [
+            "Bütün kayıtları gizler",
+            "Tekrar eden iki anıdan birini çıkarır",
+            "Ağaç konusunu bütünüyle bırakır"
+          ],
+          "dogru": "Tekrar eden iki anıdan birini çıkarır",
+          "aciklama": "Nil eleştiriden yararlanıp içeriği kısaltır, temel düşüncesini korur.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-3-okuma-1-6",
+          "tip": "secim",
+          "soru": "“Dinlenmeyen Son Cümle” metnine göre: Bir kontrol sorusunun işe yaraması neye bağlıdır?",
+          "secenekler": [
+            "Cevabın gerçekten dinlenmesine",
+            "Her durumda aynı sesle okunmasına",
+            "Cevap beklemeden sorulmasına"
+          ],
+          "dogru": "Cevabın gerçekten dinlenmesine",
+          "aciklama": "Metin sorunun yalnız kalıp olarak ezberlenmesini yeterli görmez.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-3-okuma-1-7",
+          "tip": "secim",
+          "soru": "“Dinlenmeyen Son Cümle” metnine göre: Öykünün dönüm noktası hangisidir?",
+          "secenekler": [
+            "Derginin kapağının seçilmesi",
+            "Okul bahçesinin kapanması",
+            "Tuna'nın duyduğunu özetlemesiyle yanlış anlamanın açığa çıkması"
+          ],
+          "dogru": "Tuna'nın duyduğunu özetlemesiyle yanlış anlamanın açığa çıkması",
+          "aciklama": "Özetleme sırasında iki kişinin farklı önerileri düşündüğü anlaşılır.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-3-okuma-1-8",
+          "tip": "secim",
+          "soru": "“Dinlenmeyen Son Cümle” metnine göre: Metnin özeti hangisidir?",
+          "secenekler": [
+            "Öğrenciler bütün toplantıları kaldırır",
+            "Bir yanlış anlama, dinleme ve gerekçeli eleştiriyle ortak çalışma yöntemine dönüşür",
+            "Bir ses cihazı tamir edilerek dergi satılır"
+          ],
+          "dogru": "Bir yanlış anlama, dinleme ve gerekçeli eleştiriyle ortak çalışma yöntemine dönüşür",
+          "aciklama": "Özet başlangıçtaki sorunu, çözüm yolunu ve kalıcı alışkanlığı kapsar.",
+          "cikti": "T.O.7.23"
+        }
+      ]
+    },
+    {
+      "id": "7-3-okuma-2",
+      "baslik": "Bir Yorumun Dayanağı",
+      "tur": "bilgilendirici",
+      "metin": "Bir çalışmaya yorum yazarken ne söylediğimiz kadar neye dayanarak söylediğimiz de önemlidir. “Bu sunum çok kötü.” cümlesi bir yargı bildirir. Fakat sunumu hazırlayan kişinin hangi bölümü değiştirebileceğini açıklamaz. “Yazılar uzaktan okunmadığı için görsellerle metni birlikte izlemek zorlaştı.” cümlesi ise gözlenebilir bir özelliği ve etkisini gösterir. Böyle bir yorum, somut bir düzenleme için başlangıç olabilir.\nGerekçeli yorumun ilk adımı, değerlendirmeyi kişiden ayırmaktır. Bir sunumun eksik olması, onu hazırlayan kişinin her işte başarısız olduğunu göstermez. Kişiliğe yönelik etiketler yerine, o çalışmada değiştirilebilecek özellikler ele alınabilir. Bu ayrım eleştirinin her zaman kolay duyulacağı anlamına gelmez. Yine de konuşmanın bir suçlama yarışına dönmesini azaltabilir. Yorumun amacı, yalnız üstün gelmek değil, anlaşılır bir dayanak sunmaktır.\nİkinci adım, gözlemle varsayımı ayırmaktır. Bir arkadaşın soruya hemen cevap vermemesi gözlenebilir. Bunu konuyu önemsemediğinin kesin kanıtı saymak ise yorumdur. Belki soruyu duymamış, düşünmek için zaman istemiş veya başka bir nedenle duraksamış olabilir. Niyet okumak yerine açıklama istemek, ilk yargıyı kontrol etme imkânı verir. Açıklama alındığında yorumun değişmesi tutarsızlık değil, yeni bilgiye dikkat etme olabilir.\nÜçüncü adım, öneriyi amaçla ilişkilendirmektir. Yazı boyutunu artırmak her sunumda tek başına yeterli çözüm değildir. Aynı sayfada çok fazla bilgi varsa içeriği azaltmak da gerekebilir. Çözümün işe yarayıp yaramadığı küçük bir denemeyle görülebilir. Farklı uzaklıklardan okuyan birkaç kişinin geri bildirimi, yalnız hazırlayanın ekranına bakmasından daha kapsamlı bilgi sağlayabilir. Bu süreçte herkesin aynı görme ve okuma koşullarına sahip olmadığı düşünülür.\nYorum yapan kişinin de kendi sözünü gözden geçirmesi gerekir. Elindeki gözlem sınırlıysa kesinlik düzeyini buna göre kurabilir. “Bu bölümde zorlandım.” ile “Kimse bunu anlayamaz.” aynı iddia değildir. Birinci cümle kişisel deneyimi, ikincisi ise bütün dinleyicileri kapsayan büyük bir genellemeyi bildirir. Yapıcı yorum, her zaman yumuşak sıfatlar kullanmak demek değildir. Açık bir sorun belirtilebilir; ancak gerekçe ve çözüm ilişkisi görünür olmalıdır. Bu yaklaşım, olumlu değerlendirmelerde de işe yarar. “Geçiş cümlesi iki fikrin bağlantısını anlamamı sağladı.” sözü, yalnız beğenmekten daha çok bilgi verir. Hazırlayan kişi hangi özelliği sonraki çalışmalarında koruyabileceğini öğrenir. Böylece yorum alışverişi, sonuca verilen kısa bir not olmaktan çıkar ve üretim sürecinin parçasına dönüşür. Her iki taraf da kendi düşüncesini açıklama, sınama ve gerektiğinde değiştirme fırsatı bulur.\nYazılı yorumlar saklanacaksa paylaşım kapsamı da belirlenebilir. Her geri bildirimi herkese açık hâle getirmek gerekli değildir. Çalışmayı geliştiren bilgi ile kişiye ait özel alan arasındaki sınır, önceden konuşulmalıdır.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır.",
+      "sorular": [
+        {
+          "id": "7-3-okuma-2-1",
+          "tip": "secim",
+          "soru": "“Bir Yorumun Dayanağı” metnine göre: İlk iki yorum arasındaki fark nedir?",
+          "secenekler": [
+            "İlkinin hiçbir yargı içermemesi",
+            "İkincinin somut özellik ve etki göstermesi",
+            "İkincinin mutlaka daha kısa olması"
+          ],
+          "dogru": "İkincinin somut özellik ve etki göstermesi",
+          "aciklama": "Okunabilirlik örneği düzeltilebilecek bir sorunu gerekçelendirir.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-3-okuma-2-2",
+          "tip": "secim",
+          "soru": "“Bir Yorumun Dayanağı” metnine göre: Kişiliği etiketlemek yerine ne önerilir?",
+          "secenekler": [
+            "O çalışmanın değiştirilebilir özelliklerini incelemek",
+            "Eleştiriyi tamamen yasaklamak",
+            "Bütün işleri tek ölçütle değerlendirmek"
+          ],
+          "dogru": "O çalışmanın değiştirilebilir özelliklerini incelemek",
+          "aciklama": "Metin kişiyi ve belirli bir çalışma ürününü birbirinden ayırır.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-3-okuma-2-3",
+          "tip": "secim",
+          "soru": "“Bir Yorumun Dayanağı” metnine göre: Cevabın gecikmesinden ilgisizlik sonucu çıkarmak ne içerir?",
+          "secenekler": [
+            "Doğrudan ölçüm",
+            "Kesin kaynak kaydı",
+            "Niyet hakkında varsayım"
+          ],
+          "dogru": "Niyet hakkında varsayım",
+          "aciklama": "Gecikme gözlemdir; önemsememe yargısı ek bilgi gerektiren bir yorumdur.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-3-okuma-2-4",
+          "tip": "secim",
+          "soru": "“Bir Yorumun Dayanağı” metnine göre: Üçüncü adımın konusu nedir?",
+          "secenekler": [
+            "Kişilerin notlarını açıklamak",
+            "Öneriyi çalışmanın amacıyla ilişkilendirmek",
+            "Sadece konuşma hızını artırmak"
+          ],
+          "dogru": "Öneriyi çalışmanın amacıyla ilişkilendirmek",
+          "aciklama": "Bu bölüm çözümün ihtiyaçla uyumunu ve denenmesini anlatır.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-3-okuma-2-5",
+          "tip": "secim",
+          "soru": "“Bir Yorumun Dayanağı” metnine göre: Yazı boyutunu artırmak neden tek çözüm değildir?",
+          "secenekler": [
+            "Bilgi yoğunluğu da okunmayı zorlaştırabilir",
+            "Yazı boyutu hiçbir zaman önemli değildir",
+            "Bütün ekranlar aynı büyüklüktedir"
+          ],
+          "dogru": "Bilgi yoğunluğu da okunmayı zorlaştırabilir",
+          "aciklama": "Metin sayfadaki bilgi miktarının azaltılmasını da olası çözüm olarak gösterir.",
+          "cikti": "T.O.7.7",
+          "onKosul": true
+        },
+        {
+          "id": "7-3-okuma-2-6",
+          "tip": "secim",
+          "soru": "“Bir Yorumun Dayanağı” metnine göre: Bu bölümde zorlandım sözünün kapsamı nedir?",
+          "secenekler": [
+            "Bütün insanlığın kesin deneyimi",
+            "Çalışmanın bütün yıllardaki sonucu",
+            "Konuşanın kendi deneyimi"
+          ],
+          "dogru": "Konuşanın kendi deneyimi",
+          "aciklama": "Cümle kişisel deneyim bildirir; herkes adına kesin konuşmaz.",
+          "cikti": "T.O.7.16"
+        },
+        {
+          "id": "7-3-okuma-2-7",
+          "tip": "secim",
+          "soru": "“Bir Yorumun Dayanağı” metnine göre: Olumlu yorum da nasıl daha yararlı olur?",
+          "secenekler": [
+            "Her ayrıntıyı eksiksiz ilan ederek",
+            "İşe yarayan özelliği gerekçesiyle açıklayarak",
+            "Yalnız bir simge göndererek"
+          ],
+          "dogru": "İşe yarayan özelliği gerekçesiyle açıklayarak",
+          "aciklama": "Geçiş cümlesi örneği, korunabilecek güçlü özelliği görünür kılar.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-3-okuma-2-8",
+          "tip": "secim",
+          "soru": "“Bir Yorumun Dayanağı” metnine göre: Metnin planı hangi sırayı izler?",
+          "secenekler": [
+            "Örnek sorun, yorum ilkeleri, kapsam ve sonuç",
+            "Sonuç, kişiler, gezi güzergâhı",
+            "Yalnız kronolojik yaşam öyküsü"
+          ],
+          "dogru": "Örnek sorun, yorum ilkeleri, kapsam ve sonuç",
+          "aciklama": "Yazı örnekten ilkelerin açıklanmasına ve sürecin yararına ilerler.",
+          "cikti": "T.O.7.16"
+        }
+      ]
+    }
+  ],
+  "konular": [
+    {
+      "kod": "7-3-zaman",
+      "ad": "Zamanın biçim ve bağlamla anlatılması",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.Y.7.1",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Zaman yalnız fiilin sonundaki eke bakılarak anlaşılmaz. Zaman bildiren sözler ve konuşmanın bağlamı da dikkate alınır. Yarın geliyorum cümlesi, şimdiki zaman biçimiyle gelecekte planlanan bir işi anlatabilir. Her gün okuyorum sözünde alışkanlık vurgusu vardır. Biçimle cümledeki zaman değerini ayırmak, iletiyi doğru anlamaya yardım eder.</p><ul><li>Şimdi dinliyorum.</li><li>Yarın görüşüyoruz.</li><li>Her sabah okuyorum.</li></ul>",
+      "ornekler": [
+        "Şimdi dinliyorum.",
+        "Yarın görüşüyoruz.",
+        "Her sabah okuyorum."
+      ],
+      "testler": [
+        {
+          "id": "7-3-zaman-1",
+          "tip": "secim",
+          "soru": "“Şu anda not alıyorum.” cümlesinde zaman değeri hangisidir?",
+          "secenekler": [
+            "Konuşma anında süren iş",
+            "Geçmişte tamamlanmış iş",
+            "Henüz belirsiz tarihî olay"
+          ],
+          "dogru": "Konuşma anında süren iş",
+          "aciklama": "Şu anda sözü ve fiilin bağlamı sürmekte olan işi gösterir.",
+          "cikti": "T.Y.7.1"
+        },
+        {
+          "id": "7-3-zaman-2",
+          "tip": "secim",
+          "soru": "“Yarın okulda buluşuyoruz.” cümlesinde zaman değeri hangisidir?",
+          "secenekler": [
+            "Şu anda gerçekleşen buluşma",
+            "Dün tamamlanmış olay",
+            "Gelecekte planlanan iş"
+          ],
+          "dogru": "Gelecekte planlanan iş",
+          "aciklama": "Yarın sözü şimdiki zaman biçimine gelecek zaman değeri verir.",
+          "cikti": "T.Y.7.1"
+        },
+        {
+          "id": "7-3-zaman-3",
+          "tip": "secim",
+          "soru": "“Her akşam öykü okurum.” cümlesinde zaman değeri hangisidir?",
+          "secenekler": [
+            "Koşulsuz geçmiş sonucu",
+            "Sürekli tekrarlanan alışkanlık",
+            "Yalnız bir kez olmuş iş"
+          ],
+          "dogru": "Sürekli tekrarlanan alışkanlık",
+          "aciklama": "Her akşam ve geniş zaman biçimi tekrarı bildirir.",
+          "cikti": "T.Y.7.1"
+        },
+        {
+          "id": "7-3-zaman-4",
+          "tip": "secim",
+          "soru": "“Dün seni aradım.” cümlesinde zaman değeri hangisidir?",
+          "secenekler": [
+            "Geçmişte gerçekleşen iş",
+            "Gelecekte planlanan iş",
+            "Şimdi sürmekte olan iş"
+          ],
+          "dogru": "Geçmişte gerçekleşen iş",
+          "aciklama": "Dün zaman sözü geçmişteki eylemle uyumludur.",
+          "cikti": "T.Y.7.1"
+        },
+        {
+          "id": "7-3-zaman-5",
+          "tip": "secim",
+          "soru": "“Az sonra başlıyoruz.” cümlesinde zaman değeri hangisidir?",
+          "secenekler": [
+            "Uzak geçmişte biten iş",
+            "Yalnız evrensel tanım",
+            "Yakın gelecekte planlanan iş"
+          ],
+          "dogru": "Yakın gelecekte planlanan iş",
+          "aciklama": "Az sonra ifadesi başlangıcın konuşmadan sonra olacağını bildirir.",
+          "cikti": "T.Y.7.1"
+        },
+        {
+          "id": "7-3-zaman-6",
+          "tip": "secim",
+          "soru": "“O sırada kayıt yapıyorduk.” cümlesinde zaman değeri hangisidir?",
+          "secenekler": [
+            "Gelecek için kesin emir",
+            "Geçmişte sürmekte olan iş",
+            "Şimdi başlayan iş"
+          ],
+          "dogru": "Geçmişte sürmekte olan iş",
+          "aciklama": "Yapıyorduk biçimi geçmişteki sürme anlamını kurar.",
+          "cikti": "T.Y.7.1"
+        },
+        {
+          "id": "7-3-zaman-7",
+          "tip": "secim",
+          "soru": "“Her gün aynı saatte gelir.” cümlesinde zaman değeri hangisidir?",
+          "secenekler": [
+            "Tekrarlanan davranış",
+            "Yalnız yarına ait tek olay",
+            "Hiç gerçekleşmeyen varsayım"
+          ],
+          "dogru": "Tekrarlanan davranış",
+          "aciklama": "Her gün ifadesi alışkanlık veya süreklilik bildirir.",
+          "cikti": "T.Y.7.1"
+        },
+        {
+          "id": "7-3-zaman-8",
+          "tip": "secim",
+          "soru": "“Gelecek hafta sunacağım.” cümlesinde zaman değeri hangisidir?",
+          "secenekler": [
+            "Geçmişte duyulmuş iş",
+            "Şimdi bitmiş iş",
+            "Gelecekte yapılması beklenen iş"
+          ],
+          "dogru": "Gelecekte yapılması beklenen iş",
+          "aciklama": "Gelecek hafta sözü ve -acak biçimi aynı zaman yönündedir.",
+          "cikti": "T.Y.7.1"
+        },
+        {
+          "id": "7-3-zaman-9",
+          "tip": "secim",
+          "soru": "“Hâlâ seni dinliyorum.” cümlesinde zaman değeri hangisidir?",
+          "secenekler": [
+            "Yalnız geçmişte başlama",
+            "Konuşma anında sürme",
+            "Tamamen sona erme"
+          ],
+          "dogru": "Konuşma anında sürme",
+          "aciklama": "Hâlâ sürecin devam ettiğini vurgular.",
+          "cikti": "T.Y.7.1"
+        },
+        {
+          "id": "7-3-zaman-10",
+          "tip": "secim",
+          "soru": "“Önceden bu yolu kullanırdık.” cümlesinde zaman değeri hangisidir?",
+          "secenekler": [
+            "Geçmişteki alışkanlık",
+            "Yalnız gelecekteki plan",
+            "Şimdi verilen emir"
+          ],
+          "dogru": "Geçmişteki alışkanlık",
+          "aciklama": "Önceden ve kullanırdık biçimi geçmişte tekrarlanan işi anlatır.",
+          "cikti": "T.Y.7.1"
+        }
+      ]
+    },
+    {
+      "kod": "7-3-pekistirme",
+      "ad": "Pekiştirmelerin yazımı",
+      "kategori": "yazim-noktalama",
+      "cikti": "T.Y.7.21",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Pekiştirme amacıyla kurulan bazı sıfat ve zarflar bitişik yazılır. Masmavi, sapsarı, tertemiz gibi örneklerde anlam kuvvetlenir. Bu yapıları ayrı yazılan ikilemelerle karıştırma. Pırıl pırıl ayrı iki sözken kıpkırmızı bitişik bir pekiştirmedir. Cümleyi yazdıktan sonra yapının türünü düşünerek kontrol et.</p><ul><li>Masmavi bir gök.</li><li>Tertemiz bir sayfa.</li><li>Sapsarı yapraklar.</li></ul>",
+      "ornekler": [
+        "Masmavi bir gök.",
+        "Tertemiz bir sayfa.",
+        "Sapsarı yapraklar."
+      ],
+      "testler": [
+        {
+          "id": "7-3-pekistirme-1",
+          "tip": "secim",
+          "soru": "Pekiştirmelerin yazımı bakımından hangi seçenek doğru yazılmıştır? (Örnek 1)",
+          "secenekler": [
+            "mas mavi",
+            "mas-mavi",
+            "masmavi"
+          ],
+          "dogru": "masmavi",
+          "aciklama": "Pekiştirme sıfatı masmavi bitişik yazılır.",
+          "cikti": "T.Y.7.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "7-3-pekistirme-2",
+          "tip": "secim",
+          "soru": "Pekiştirmelerin yazımı bakımından hangi seçenek doğru yazılmıştır? (Örnek 2)",
+          "secenekler": [
+            "sap-sarı",
+            "sapsarı",
+            "sap sarı"
+          ],
+          "dogru": "sapsarı",
+          "aciklama": "Sap bölümüyle kurulan pekiştirme bitişik yazılır.",
+          "cikti": "T.Y.7.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "7-3-pekistirme-3",
+          "tip": "secim",
+          "soru": "Pekiştirmelerin yazımı bakımından hangi seçenek doğru yazılmıştır? (Örnek 3)",
+          "secenekler": [
+            "tertemiz",
+            "ter temiz",
+            "ter-temiz"
+          ],
+          "dogru": "tertemiz",
+          "aciklama": "Tertemiz pekiştirme sözü bitişik yazılır.",
+          "cikti": "T.Y.7.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "7-3-pekistirme-4",
+          "tip": "secim",
+          "soru": "Pekiştirmelerin yazımı bakımından hangi seçenek doğru yazılmıştır? (Örnek 4)",
+          "secenekler": [
+            "kıp kırmızı",
+            "kıp-kırmızı",
+            "kıpkırmızı"
+          ],
+          "dogru": "kıpkırmızı",
+          "aciklama": "Kıpkırmızı sözünün parçaları ayrılmaz.",
+          "cikti": "T.Y.7.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "7-3-pekistirme-5",
+          "tip": "secim",
+          "soru": "Pekiştirmelerin yazımı bakımından hangi seçenek doğru yazılmıştır? (Örnek 5)",
+          "secenekler": [
+            "yem-yeşil",
+            "yemyeşil",
+            "yem yeşil"
+          ],
+          "dogru": "yemyeşil",
+          "aciklama": "Yemyeşil pekiştirmesi bitişik yazılır.",
+          "cikti": "T.Y.7.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "7-3-pekistirme-6",
+          "tip": "secim",
+          "soru": "Pekiştirmelerin yazımı bakımından hangi seçenek doğru yazılmıştır? (Örnek 6)",
+          "secenekler": [
+            "bembeyaz",
+            "bem beyaz",
+            "bem-beyaz"
+          ],
+          "dogru": "bembeyaz",
+          "aciklama": "Pekiştirme anlamlı bembeyaz bitişik yazılır.",
+          "cikti": "T.Y.7.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "7-3-pekistirme-7",
+          "tip": "secim",
+          "soru": "Pekiştirmelerin yazımı bakımından hangi seçenek doğru yazılmıştır? (Örnek 7)",
+          "secenekler": [
+            "sim siyah",
+            "sim-siyah",
+            "simsiyah"
+          ],
+          "dogru": "simsiyah",
+          "aciklama": "Simsiyah bir bütün olarak yazılır.",
+          "cikti": "T.Y.7.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "7-3-pekistirme-8",
+          "tip": "secim",
+          "soru": "Pekiştirmelerin yazımı bakımından hangi seçenek doğru yazılmıştır? (Örnek 8)",
+          "secenekler": [
+            "düm-düz",
+            "dümdüz",
+            "düm düz"
+          ],
+          "dogru": "dümdüz",
+          "aciklama": "Dümdüz pekiştirme zarfı veya sıfatı bitişiktir.",
+          "cikti": "T.Y.7.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "7-3-pekistirme-9",
+          "tip": "secim",
+          "soru": "Pekiştirmelerin yazımı bakımından hangi seçenek doğru yazılmıştır? (Örnek 9)",
+          "secenekler": [
+            "sımsıkı",
+            "sım sıkı",
+            "sım-sıkı"
+          ],
+          "dogru": "sımsıkı",
+          "aciklama": "Sımsıkı kelimesinin yazımında boşluk veya çizgi kullanılmaz.",
+          "cikti": "T.Y.7.21",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "7-3-pekistirme-10",
+          "tip": "secim",
+          "soru": "Pekiştirmelerin yazımı bakımından hangi seçenek doğru yazılmıştır? (Örnek 10)",
+          "secenekler": [
+            "upu uzun",
+            "up-uzun",
+            "upuzun"
+          ],
+          "dogru": "upuzun",
+          "aciklama": "Upuzun pekiştirmesi bir kelime olarak yazılır.",
+          "cikti": "T.Y.7.21",
+          "yazimDuyarli": true
+        }
+      ]
+    },
+    {
+      "kod": "7-3-isaretler",
+      "ad": "Bağlama göre ünlem ve çizgiler",
+      "kategori": "yazim-noktalama",
+      "cikti": "T.Y.7.21",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Bir işaretin görevi bulunduğu yere göre değişebilir. Yay ayraç içindeki ünlem, alay veya kinaye bildirebilir. Kısa çizgi kelimeler ve sayılar arasında aralık ya da bağlantı kurabilir. Eğik çizgi tarih bölümlerini, adresin bazı parçalarını veya eklerin farklı biçimlerini ayırabilir. Bu örneklerde gerçek kişisel adres istemiyoruz; işaretin verilen kurgusal bilgideki görevini inceliyoruz.</p><ul><li>Ankara-İstanbul yolu</li><li>14/10/2026</li><li>-de/-da biçimleri</li></ul>",
+      "ornekler": [
+        "Ankara-İstanbul yolu",
+        "14/10/2026",
+        "-de/-da biçimleri"
+      ],
+      "testler": [
+        {
+          "id": "7-3-isaretler-1",
+          "tip": "secim",
+          "soru": "“Çok çalışkanmış (!) ama görevlerin hiçbirini yapmamış.” ifadesinde ilgili işaretin görevi nedir?",
+          "secenekler": [
+            "Bir tarih sınırı",
+            "Bir kelimenin kökü",
+            "Alay veya kinaye"
+          ],
+          "dogru": "Alay veya kinaye",
+          "aciklama": "Ayraç içindeki ünlem, övgünün gerçek anlamda kullanılmadığına işaret eder.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-3-isaretler-2",
+          "tip": "secim",
+          "soru": "“2020-2024 dönemi” ifadesinde ilgili işaretin görevi nedir?",
+          "secenekler": [
+            "Dize sınırı",
+            "Başlangıç ve bitiş aralığı",
+            "Özel ada ek"
+          ],
+          "dogru": "Başlangıç ve bitiş aralığı",
+          "aciklama": "Kısa çizgi iki yıl arasında -den -e ilişkisi kurar.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-3-isaretler-3",
+          "tip": "secim",
+          "soru": "“Ankara-İstanbul hattı” ifadesinde ilgili işaretin görevi nedir?",
+          "secenekler": [
+            "İki yer arasında bağlantı",
+            "Bir soru",
+            "Bir kitap alıntısı"
+          ],
+          "dogru": "İki yer arasında bağlantı",
+          "aciklama": "Kısa çizgi iki yer arasındaki hat ilişkisini gösterir.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-3-isaretler-4",
+          "tip": "secim",
+          "soru": "“03/11/2026” ifadesinde ilgili işaretin görevi nedir?",
+          "secenekler": [
+            "Bir konuşmayı başlatma",
+            "Bir kişiyi niteleme",
+            "Gün, ay ve yıl bölümlerini ayırma"
+          ],
+          "dogru": "Gün, ay ve yıl bölümlerini ayırma",
+          "aciklama": "Eğik çizgiler tarihin sayı bölümlerini ayırır.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-3-isaretler-5",
+          "tip": "secim",
+          "soru": "“-de/-da biçimleri” ifadesinde ilgili işaretin görevi nedir?",
+          "secenekler": [
+            "İki kişiyi suçlama",
+            "Ekin farklı biçimlerini ayırma",
+            "İki şiiri karşılaştırma"
+          ],
+          "dogru": "Ekin farklı biçimlerini ayırma",
+          "aciklama": "Eğik çizgi ekin farklı ünlülü biçimlerini yan yana gösterir.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-3-isaretler-6",
+          "tip": "secim",
+          "soru": "“Kurgusal adres: No. 12/3” ifadesinde ilgili işaretin görevi nedir?",
+          "secenekler": [
+            "Apartman ve daire numarasını ayırma",
+            "Zaman aralığı kurma",
+            "Alıntıyı bitirme"
+          ],
+          "dogru": "Apartman ve daire numarasını ayırma",
+          "aciklama": "Bu adreste eğik çizgi bina ve daire numarasını ayırır.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-3-isaretler-7",
+          "tip": "secim",
+          "soru": "“Kurgusal adres: Örnek Mahalle/Ankara” ifadesinde ilgili işaretin görevi nedir?",
+          "secenekler": [
+            "Bir fiilin kökünü gösterme",
+            "Soru anlamı kurma",
+            "Semt ve şehir bölümünü ayırma"
+          ],
+          "dogru": "Semt ve şehir bölümünü ayırma",
+          "aciklama": "Eğik çizgi adresin yer bölümlerini ayırmak için kullanılır.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-3-isaretler-8",
+          "tip": "secim",
+          "soru": "“Türkçe-matematik ortak etkinliği” ifadesinde ilgili işaretin görevi nedir?",
+          "secenekler": [
+            "Bir tarihin günü",
+            "İki alan arasındaki ilişki",
+            "Bir kişinin iyeliği"
+          ],
+          "dogru": "İki alan arasındaki ilişki",
+          "aciklama": "Kısa çizgi bu bağlamda iki alanı birlikte ilişkilendirir.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-3-isaretler-9",
+          "tip": "secim",
+          "soru": "“Ne dakikmiş (!) yine yarım saat gecikti.” ifadesinde ilgili işaretin görevi nedir?",
+          "secenekler": [
+            "Söylenenle durum arasındaki alaylı çelişki",
+            "Kesin bir saat ölçüsü",
+            "Özel adın yazımı"
+          ],
+          "dogru": "Söylenenle durum arasındaki alaylı çelişki",
+          "aciklama": "Ayraç içindeki ünlem dakiklik sözünün kinayeli olduğunu gösterir.",
+          "cikti": "T.Y.7.21"
+        },
+        {
+          "id": "7-3-isaretler-10",
+          "tip": "secim",
+          "soru": "“2-5 numaralı raflar” ifadesinde ilgili işaretin görevi nedir?",
+          "secenekler": [
+            "Bölme işlemi",
+            "Bir metin başlığı",
+            "Numaralar arasında aralık"
+          ],
+          "dogru": "Numaralar arasında aralık",
+          "aciklama": "Kısa çizgi başlangıçtan bitişe raf aralığı bildirir.",
+          "cikti": "T.Y.7.21"
+        }
+      ]
+    }
+  ],
+  "dinleme": [
+    {
+      "id": "7-3-dinleme",
+      "baslik": "Önce Özetle",
+      "metin": "Bir toplantıda Duru, ortak dolapla ilgili önerisini bitiremeden eleştirildi. Yönetici önce öneriyi tamamlamasını istedi. Sonra başka bir katılımcıdan duyduğunu özetlemesini rica etti. Özetin asıl öneriden farklı olduğu ortaya çıktı. Katılımcılar önce doğru anladıklarını kontrol etmeye, sonra gerekçelerini açıklamaya karar verdi. Sonraki eleştiride kişiler yerine açık bir soruna dikkat çekildi: Teslim zamanı belirsizdi. Öneriye bir zaman bilgisi eklenince herkes ne yapacağını daha kolay anladı.",
+      "tts": {
+        "dil": "tr-TR",
+        "sesYoksa": "metin"
+      },
+      "sorular": [
+        {
+          "id": "7-3-dinleme-1",
+          "tip": "secim",
+          "soru": "“Önce Özetle” dinleme metnine göre: Yanlış anlama nasıl görünür oldu?",
+          "secenekler": [
+            "Kapı açılınca",
+            "Bütün notlar silinince",
+            "Duyulan öneri özetlenince"
+          ],
+          "dogru": "Duyulan öneri özetlenince",
+          "aciklama": "Metindeki olay ve açıklamalar “Duyulan öneri özetlenince” seçeneğini destekler; diğer seçeneklerdeki ayrıntılar dinlenen içerikle uyuşmaz.",
+          "cikti": "T.D.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-3-dinleme-2",
+          "tip": "secim",
+          "soru": "“Önce Özetle” dinleme metnine göre: Yeni yöntemde ilk adım neydi?",
+          "secenekler": [
+            "Kişileri sıralamak",
+            "Doğru anlaşıldığını kontrol etmek",
+            "Hemen oylama yapmak"
+          ],
+          "dogru": "Doğru anlaşıldığını kontrol etmek",
+          "aciklama": "Metindeki olay ve açıklamalar “Doğru anlaşıldığını kontrol etmek” seçeneğini destekler; diğer seçeneklerdeki ayrıntılar dinlenen içerikle uyuşmaz.",
+          "cikti": "T.D.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-3-dinleme-3",
+          "tip": "secim",
+          "soru": "“Önce Özetle” dinleme metnine göre: Somut eleştiri hangi soruna yöneldi?",
+          "secenekler": [
+            "Teslim zamanının belirsizliği",
+            "Katılımcının kişiliği",
+            "Dolabın boya markası"
+          ],
+          "dogru": "Teslim zamanının belirsizliği",
+          "aciklama": "Metindeki olay ve açıklamalar “Teslim zamanının belirsizliği” seçeneğini destekler; diğer seçeneklerdeki ayrıntılar dinlenen içerikle uyuşmaz.",
+          "cikti": "T.D.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-3-dinleme-4",
+          "tip": "secim",
+          "soru": "“Önce Özetle” dinleme metnine göre: Açık zaman bilgisinin etkisi neydi?",
+          "secenekler": [
+            "Bütün görevleri kaldırdı",
+            "Önerinin konusunu tamamen değiştirdi",
+            "Beklenen davranışı anlaşılır kıldı"
+          ],
+          "dogru": "Beklenen davranışı anlaşılır kıldı",
+          "aciklama": "Metindeki olay ve açıklamalar “Beklenen davranışı anlaşılır kıldı” seçeneğini destekler; diğer seçeneklerdeki ayrıntılar dinlenen içerikle uyuşmaz.",
+          "cikti": "T.D.7.5",
+          "onKosul": true
+        }
+      ]
+    }
+  ],
+  "yazmaGorevleri": [
+    {
+      "id": "7-3-yazma",
+      "baslik": "Gerekçeli Yorum",
+      "yonerge": "140–220 kelimede iki kurgusal duyuruyu karşılaştır. Bir güçlü ve bir geliştirilebilir yönü somut örneklerle açıkla. Kişileri etiketleme. Önerinin amacı ve zamanını açıkça belirt; pekiştirmelerin yazımını kontrol et.",
+      "minKelime": 140,
+      "maxKelime": 220,
+      "ciktilar": [
+        "T.Y.7.1",
+        "T.Y.7.9",
+        "T.Y.7.17",
+        "T.Y.7.21"
+      ],
+      "ogretmenDegerlendirmeli": true,
+      "rubrik": [
+        {
+          "olcut": "Amaç ve içerik",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Gerekçe ve anlam bütünlüğü",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Dil yapıları ve söz varlığı",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Yazım, noktalama ve gözden geçirme",
+          "enDusuk": 0,
+          "enYuksek": 4
+        }
+      ]
+    }
+  ],
+  "lgsSorulari": []
+}

@@ -1,0 +1,751 @@
+{
+  "belgeTuru": "tema",
+  "semaSurumu": "1.0",
+  "sinif": 7,
+  "program": "TYMM",
+  "tema": 4,
+  "temaAdi": "Türk Sanatı",
+  "durum": "incelemeye_hazir",
+  "kaynak": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/293",
+  "kaynak_dogrulanmadi": false,
+  "ogrenmeCiktilari": [
+    "T.D.7.1",
+    "T.D.7.11",
+    "T.D.7.12",
+    "T.D.7.2",
+    "T.D.7.27",
+    "T.D.7.6",
+    "T.K.7.1",
+    "T.K.7.11",
+    "T.K.7.12",
+    "T.K.7.20",
+    "T.K.7.23",
+    "T.K.7.26",
+    "T.O.7.1",
+    "T.O.7.10",
+    "T.O.7.11",
+    "T.O.7.2",
+    "T.O.7.22",
+    "T.O.7.26",
+    "T.O.7.28",
+    "T.O.7.9",
+    "T.Y.7.12",
+    "T.Y.7.21",
+    "T.Y.7.22",
+    "T.Y.7.3",
+    "T.Y.7.6",
+    "T.Y.7.7",
+    "T.Y.7.8"
+  ],
+  "sozVarligi": {
+    "aciklama": "Tema uyumlu özgün tanım ve örnekler. Önceki sınıflardaki kelimeler spiral tekrar olarak da seçilir; 30 kayıt bütün sınıflarda farklı 30 yeni kelime iddiası değildir.",
+    "kelimeler": [
+      {
+        "kelime": "motif",
+        "anlam": "Bir bezemede tekrarlanan temel biçim",
+        "ornek": "Motifleri inceleyip kendi düzenimizi kurduk.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "doku",
+        "anlam": "Bir yüzeyin gözle veya dokunarak algılanan yapısı",
+        "ornek": "Fotoğrafta dokunun yalnız bir bölümü seçiliyordu.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "kompozisyon",
+        "anlam": "Bir eserin öğelerinin bütün oluşturacak biçimde düzenlenmesi",
+        "ornek": "Kompozisyonda boşlukları yeniden düzenledim.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "üslup",
+        "anlam": "Bir sanatçının anlatımına özgü yol",
+        "ornek": "İki çalışmanın üslubunu çizgileri üzerinden karşılaştırdık.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "ritim",
+        "anlam": "Ögelerin belirli aralıklarla yinelenmesinden doğan düzen",
+        "ornek": "Desendeki ritim tekrarlarla oluşuyordu.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "bezeme",
+        "anlam": "Bir yüzeyi düzenli biçimlerle süsleme işi",
+        "ornek": "Bezeme örneğindeki kaynağı etiketledik.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "esin",
+        "anlam": "Bir düşünce veya üretim isteği uyandıran etki",
+        "ornek": "Doğadaki biçimler çalışmamıza esin verdi.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "minyatür",
+        "anlam": "Genellikle küçük boyutlu ve ayrıntılı işlenen geleneksel resim türü",
+        "ornek": "Minyatür örneğini bir tanıtım yazısıyla inceledik.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "çini",
+        "anlam": "Yapıları veya eşyayı bezemede kullanılan sırlı seramik ürün",
+        "ornek": "Çini örneğinin malzemesini araştırdık.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "kilim",
+        "anlam": "Havsız dokuma yaygı",
+        "ornek": "Kilim desenini bir temsil görselinden inceledik.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "gelenek",
+        "anlam": "Bir toplulukta kuşaklar boyunca sürdürülen uygulama",
+        "ornek": "Bayram ziyaretleri ailemizde bir gelenektir.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "görenek",
+        "anlam": "Bir çevrede görülerek öğrenilen davranış alışkanlığı",
+        "ornek": "Misafiri karşılama göreneklerini konuştuk.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "kültür",
+        "anlam": "Bir topluluğun ürettiği ve paylaştığı yaşayış ve anlamlar bütünü",
+        "ornek": "Yöremizin kültürünü anlatan bir sergi açtık.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "miras",
+        "anlam": "Geçmişten sonraki kuşaklara kalan değer veya varlık",
+        "ornek": "Masallar kültürel mirasımızın bir parçasıdır.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "kuşak",
+        "anlam": "Yakın dönemlerde doğmuş insanların oluşturduğu topluluk",
+        "ornek": "Oyunu üç kuşak birlikte oynadı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "konuk",
+        "anlam": "Bir yere ziyarete gelen kişi",
+        "ornek": "Konuk için sofraya bir tabak daha koyduk.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "ikram",
+        "anlam": "Birine yiyecek veya içecek sunma",
+        "ornek": "İkram edilen çorbaya teşekkür ettim.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "sofra",
+        "anlam": "Yemek için hazırlanan masa veya düzen",
+        "ornek": "Sofrayı birlikte hazırladık.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "bayram",
+        "anlam": "Bir toplumun özel bir anlamla kutladığı gün",
+        "ornek": "Bayram sabahı komşularla selamlaştık.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "imece",
+        "anlam": "Bir işi gönüllü olarak birlikte yapma yöntemi",
+        "ornek": "Bahçe temizliğini imeceyle tamamladık.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "zanaat",
+        "anlam": "El becerisi ve ustalık gerektiren üretim işi",
+        "ornek": "Çömlek yapımı bir zanaattır.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "usta",
+        "anlam": "Bir işi deneyim ve beceriyle iyi yapan kişi",
+        "ornek": "Usta, çırağa sabırla yol gösterdi.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "çırak",
+        "anlam": "Bir işi ustasının yanında öğrenen kişi",
+        "ornek": "Çırak ilk desenini dikkatle çizdi.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "desen",
+        "anlam": "Bir yüzeyi süsleyen çizgi ve biçim düzeni",
+        "ornek": "Kilimin deseninde küçük üçgenler vardı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "dokuma",
+        "anlam": "İpliklerin birbirinden geçirilmesiyle yapılan üretim",
+        "ornek": "Dokuma tezgâhının çalışmasını izledik.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "çömlek",
+        "anlam": "Kilden biçimlendirilip pişirilen kap",
+        "ornek": "Çömlek kurumadan taşınmadı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "masal",
+        "anlam": "Olağanüstü olayların anlatılabildiği kurmaca anlatı",
+        "ornek": "Ninem her masalı farklı bir sesle anlatırdı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "mani",
+        "anlam": "Çoğunlukla dört dizeden oluşan halk şiiri türü",
+        "ornek": "Çocuklar kendi manilerini yazdı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "ninni",
+        "anlam": "Çocuğu uyutmak için ezgiyle söylenen sözler",
+        "ornek": "Ninniyi yumuşak bir sesle söyledi.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "türkü",
+        "anlam": "Halkın duygu ve yaşantılarını taşıyan ezgili sözler",
+        "ornek": "Türkünün hangi yöreye ait olduğunu araştırdık.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      }
+    ],
+    "esAnlamlilar": [],
+    "zitAnlamlilar": [],
+    "esSesliler": [],
+    "deyimler": [],
+    "atasozleri": []
+  },
+  "okumaParcalari": [
+    {
+      "id": "7-4-okuma-1",
+      "baslik": "Aynı Desenin İki Görünüşü",
+      "tur": "oykuleyici",
+      "metin": "Görsel sanatlar kulübünde öğrenciler bir kilim desenini inceleyecekti. Masada aynı örneğin iki görüntüsü vardı. Biri telefon ekranında parlak renklerle görünüyordu; diğeri basılı bir fotoğraftı. Yaren ikisinin farklı eserler olduğunu düşündü. Çizgiler aynıydı ama renkler birbirini tutmuyordu. Kulüp öğretmeni bu farkın eserin kendisinden mi, görüntüleme biçiminden mi kaynaklandığını hemen söylemedi. Öğrencilerden önce neyi gerçekten gördüklerini yazmalarını istedi.\nGrup, çizgi düzenini ve tekrar eden biçimleri karşılaştırdı. Bu özellikler iki görüntüde de aynıydı. Renklerdeki farkı açıklamak içinse daha fazla bilgi gerekiyordu. Görüntüler farklı ışıkta çekilmiş veya farklı aygıtlarda işlenmiş olabilirdi. Hiçbiri kontrol edilmeden “Eserin rengi kesin budur.” demek doğru değildi. Yaren notlarını gözlem ve olası açıklama diye iki sütuna ayırdı. Böylece varsayımlarını gördüğü özelliklerle karıştırmadı.\nBir sonraki çalışmada öğrenciler aynı geometrik düzenden yararlanarak kendi desenlerini tasarladı. Amaç, tarihî bir kilimin bire bir kopyasını özgün eser diye sunmak değildi. İnceledikleri kaynağı belirttiler; kendi düzenlemelerinde neyi değiştirdiklerini anlattılar. Yaren biçimlerin arasındaki boşluğu artırdı. Arkadaşı Umut ise tekrar sayısını azalttı. İki tasarım benzer bir başlangıçtan çıkmıştı ama gözün sayfada izlediği yol farklılaşmıştı.\nSunum sırasında Umut kendi tasarımının daha güzel olduğunu söyledi. Yaren hangi ölçüte göre böyle düşündüğünü sordu. Umut bir süre durduktan sonra boşlukların daha dengeli göründüğünü anlattı. Yaren aynı düzenin ona biraz tekdüze geldiğini belirtti. İki görüş birbirini geçersiz kılmıyordu. Kişisel beğeniyle ölçülebilir özellikleri ayırmaları gerekiyordu. Desendeki tekrar sayısı sayılabilir, güzellik yargısı ise gerekçelendirilen bir yorum olarak kalabilirdi.\nKulübün panosuna son ürünler kadar çalışma notları da asıldı. Görselin kaynağı, görüntünün koşulları ve öğrencinin yaptığı değişiklikler kısa açıklamalarla verildi. İzleyenler yalnız bitmiş deseni değil, tasarımın nasıl geliştiğini de görebildi. Yaren ilk gün iki ayrı eser sandığı görüntülere yeniden baktı. Acele yargısı ona bir soru sormayı öğretmişti. Bir eseri anlamak, yalnız “Beğendim.” veya “Beğenmedim.” demekten daha fazlasını gerektiriyordu. Hangi ayrıntıya baktığını, neyi bildiğini ve neyi henüz kontrol etmediğini söylemek de incelemenin parçasıydı. Pano toplandıktan sonra görüntüleri silmediler; kaynak ve izin notlarıyla birlikte dosyaladılar. Gelecek çalışmada aynı örneğe döndüklerinde önceki kararlarını yeniden inceleyebileceklerdi. Bu kayıtlar son söz değildi, daha dikkatli bir bakış için başlangıçtı.\nBir sonraki panoda farklı izleyicilerden kısa sorular istemeye karar verdiler. Soruların hepsine aynı cevabı vermek yerine, hangi ayrıntının anlaşılmadığını inceleyeceklerdi. Böylece sunum da tasarım kadar geliştirilebilir bir çalışma olacaktı.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır.",
+      "sorular": [
+        {
+          "id": "7-4-okuma-1-1",
+          "tip": "secim",
+          "soru": "“Aynı Desenin İki Görünüşü” metnine göre: İki görüntünün ortak özelliği nedir?",
+          "secenekler": [
+            "İkisinin farklı eser olduğunun bilinmesi",
+            "Çizgi düzeni ve tekrar eden biçimler",
+            "Renklerin her aygıtta aynı görünmesi"
+          ],
+          "dogru": "Çizgi düzeni ve tekrar eden biçimler",
+          "aciklama": "Grup aynı çizgileri gözler, fakat renk farkının nedenini henüz doğrulamaz.",
+          "cikti": "T.O.7.9"
+        },
+        {
+          "id": "7-4-okuma-1-2",
+          "tip": "secim",
+          "soru": "“Aynı Desenin İki Görünüşü” metnine göre: Renk farkından niçin kesin hüküm çıkarılmamıştır?",
+          "secenekler": [
+            "Görüntüleme koşulları bilinmediği için",
+            "Renklerin hiç anlamı olmadığı için",
+            "Bütün görüntüler sahte sayıldığı için"
+          ],
+          "dogru": "Görüntüleme koşulları bilinmediği için",
+          "aciklama": "Işık ve aygıt gibi etkenler kontrol edilmeden eserin rengi kesinleştirilemez.",
+          "cikti": "T.O.7.9"
+        },
+        {
+          "id": "7-4-okuma-1-3",
+          "tip": "secim",
+          "soru": "“Aynı Desenin İki Görünüşü” metnine göre: Gözlem ve açıklama sütunları neyi sağlar?",
+          "secenekler": [
+            "İki eserin zorunlu olarak aynı fiyata satılmasını",
+            "Bütün yorumların silinmesini",
+            "Görülenle varsayılanın ayrılmasını"
+          ],
+          "dogru": "Görülenle varsayılanın ayrılmasını",
+          "aciklama": "Sütunlar olası nedenleri doğrudan gözlem gibi sunmayı önler.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-4-okuma-1-4",
+          "tip": "secim",
+          "soru": "“Aynı Desenin İki Görünüşü” metnine göre: Yaren ile Umut'un tasarımları nasıl farklılaşmıştır?",
+          "secenekler": [
+            "İkisinin de değişmeden kopya olmasıyla",
+            "Boşluk ve tekrar düzeniyle",
+            "Yalnız kaynaklarını gizlemeleriyle"
+          ],
+          "dogru": "Boşluk ve tekrar düzeniyle",
+          "aciklama": "Yaren boşluğu artırır, Umut tekrar sayısını azaltır.",
+          "cikti": "T.O.7.9"
+        },
+        {
+          "id": "7-4-okuma-1-5",
+          "tip": "secim",
+          "soru": "“Aynı Desenin İki Görünüşü” metnine göre: Hangi ifade nesnel bir ölçüte daha yakındır?",
+          "secenekler": [
+            "Desendeki tekrar sayısı",
+            "En güzel desen olduğu",
+            "Her bakımdan etkileyici olduğu"
+          ],
+          "dogru": "Desendeki tekrar sayısı",
+          "aciklama": "Tekrar sayılabilir; güzellik değerlendirmesi kişisel yorum içerir.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-4-okuma-1-6",
+          "tip": "secim",
+          "soru": "“Aynı Desenin İki Görünüşü” metnine göre: Panoya çalışma notlarının eklenmesi ne sağlar?",
+          "secenekler": [
+            "Kaynağın gereksizleşmesini",
+            "Her görüşün aynılaşmasını",
+            "Üretim sürecinin de izlenebilmesini"
+          ],
+          "dogru": "Üretim sürecinin de izlenebilmesini",
+          "aciklama": "Notlar kaynağı, koşulları ve değişiklikleri izleyiciye gösterir.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-4-okuma-1-7",
+          "tip": "secim",
+          "soru": "“Aynı Desenin İki Görünüşü” metnine göre: Tasarımların özgünlüğü konusunda hangi tutum uygundur?",
+          "secenekler": [
+            "Bütün eski örnekleri kaynaksız kullanmak",
+            "Kaynağı ve yapılan değişiklikleri açıklamak",
+            "İlk örneği kendi buluşu gibi sunmak"
+          ],
+          "dogru": "Kaynağı ve yapılan değişiklikleri açıklamak",
+          "aciklama": "Öğrenciler ilham aldıkları kaynağı belirtip katkılarını ayırmıştır.",
+          "cikti": "T.O.7.26"
+        },
+        {
+          "id": "7-4-okuma-1-8",
+          "tip": "secim",
+          "soru": "“Aynı Desenin İki Görünüşü” metnine göre: Umut'un daha güzel yargısı için en yapıcı tepki hangisidir?",
+          "secenekler": [
+            "Hangi özellik üzerinden değerlendirdiğini sormak",
+            "Görüşünü açıklamasını engellemek",
+            "Bütün tasarımları ölçmeden aynı ilan etmek"
+          ],
+          "dogru": "Hangi özellik üzerinden değerlendirdiğini sormak",
+          "aciklama": "Ölçüt sorusu beğeniyi gerekçeli bir değerlendirmeye dönüştürür.",
+          "cikti": "T.O.7.26"
+        }
+      ]
+    },
+    {
+      "id": "7-4-okuma-2",
+      "baslik": "Bir Eseri Tanıtan İki Metin",
+      "tur": "bilgilendirici",
+      "metin": "Bir sanat eserinin yanındaki kısa tanıtım yazısı ile o eser üzerine yazılmış kişisel bir değerlendirme aynı işi yapmaz. Tanıtım, eserin adı, kullanılan malzeme ve yapım süreci gibi bilgileri sunabilir. Değerlendirme ise belirli özellikleri yorumlayıp bunların okurda veya izleyicide oluşturduğu etkiyi açıklayabilir. İki metin birlikte kullanılabilir; ancak hangi bölümün bilgi, hangi bölümün yorum olduğu anlaşılır olmalıdır.\nÖrneğin bir okul sergisinde kâğıt üzerine hazırlanmış özgün bir desen bulunduğunu düşünelim. Tanıtım kartında kullanılan araçlar ve çalışma süresi yazabilir. Bunlar kayıtlarla kontrol edilebilen bilgilerdir. “İnce çizgiler dingin bir etki oluşturuyor.” cümlesi ise bir yorumdur. Başka bir izleyici aynı çizgileri hareketli bulabilir. Bu farklılık, yorumların hiçbir dayanak gerektirmediği anlamına gelmez. Yorum yapan kişi hangi çizgi, boşluk veya renk ilişkisinden söz ettiğini açıklayabilir.\nMetinlerin uzunluğu da işlevlerine göre değişir. Küçük bir etiket, izleyicinin esere bakarken hızla okuyabileceği kadar kısa olabilir. Ayrıntılı inceleme daha geniş bir alanda yer alır. Bütün bilgiyi tek karta sıkıştırmak, yazıyı küçülterek okunmasını zorlaştırabilir. Bunun yerine temel bilgi kartta, ayrıntı ise erişilebilir bir ek metinde verilebilir. Dijital bağlantı sunulsa bile temel açıklamanın yalnız bağlantıya bırakılmaması düşünülmelidir.\nGörsellerle metinler arasındaki ilişki de önemlidir. Eserin yalnız bir ayrıntısı gösteriliyorsa bunun bütünü temsil etmediği belirtilir. Yakından çekilen bir bölümdeki renk dağılımı, eserin tamamında aynı olmayabilir. Görsel üzerinde yapılan düzenlemeler izleyicinin yorumunu değiştirebilir. Bu yüzden karşılaştırılan görüntülerin koşulları ve kapsamı dikkate alınır. Bir parçadan hareketle bütün esere ilişkin sınırsız yargı kurulmaz.\nİyi bir inceleme, eseri tek bir beğeni derecesine indirmez. Kullanılan teknik, anlatım amacı ve izleyiciyle kurulan ilişki farklı sorularla ele alınabilir. Aynı özellik bir amaç için uygun, başka bir amaç için sınırlayıcı olabilir. Karmaşık bir desen, dikkatli bakmayı teşvik ederken uzaktan hızlı algılanmayı zorlaştırabilir. Bu nedenle eleştiri, amacın ne olduğunu da düşünmelidir. Öğrenci kendi ürününü tanıtırken bu ayrımı öğrenebilir: Ne yaptığını açıklar, neden yaptığını gerekçelendirir ve sonucu nasıl gördüğünü yorumlar. Başkasının katkısını kullandıysa bunu da belirtir. Böylece sanat hakkında yazmak yalnız süslü sıfatlar sıralamak olmaktan çıkar. Gözlem, karşılaştırma, kaynak belirtme ve gerekçeli yorum bir arada çalışır. Okur da yazının sunduğu bilgiyi izleyerek kendi değerlendirmesini kurabilir; metnin bütün beğenilerini benimsemek zorunda kalmaz.\nBu ayrım sınıf içindeki konuşmalarda da kullanılabilir. Önce eserde gerçekten görülen özellik söylenir; ardından bu özelliğin oluşturduğu etki açıklanır. Başka bir yorum geldiğinde aynı ayrıntıya nasıl bakıldığı karşılaştırılır.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır.",
+      "sorular": [
+        {
+          "id": "7-4-okuma-2-1",
+          "tip": "secim",
+          "soru": "“Bir Eseri Tanıtan İki Metin” metnine göre: Tanıtımla değerlendirme arasındaki temel ayrım nedir?",
+          "secenekler": [
+            "Birinin bilgi, diğerinin gerekçeli yorum ağırlıklı olması",
+            "Birinin mutlaka yanlış olması",
+            "İkisinin daima aynı uzunlukta olması"
+          ],
+          "dogru": "Birinin bilgi, diğerinin gerekçeli yorum ağırlıklı olması",
+          "aciklama": "İlk paragraf iki metnin farklı işlevlerini açıklamaktadır.",
+          "cikti": "T.O.7.9"
+        },
+        {
+          "id": "7-4-okuma-2-2",
+          "tip": "secim",
+          "soru": "“Bir Eseri Tanıtan İki Metin” metnine göre: İnce çizgilerin dingin etki oluşturması nasıl sınıflandırılır?",
+          "secenekler": [
+            "Kesin süre ölçümü",
+            "Malzeme listesi",
+            "Yorum"
+          ],
+          "dogru": "Yorum",
+          "aciklama": "Dinginlik bir izleyicinin etkilenme biçimidir; başka yorumlar mümkün olabilir.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-4-okuma-2-3",
+          "tip": "secim",
+          "soru": "“Bir Eseri Tanıtan İki Metin” metnine göre: Kullanılan araçların listesi nasıl bir bilgidir?",
+          "secenekler": [
+            "Hiçbir kaynakla incelenemez",
+            "Kayıtlarla kontrol edilebilir",
+            "Her zaman kişisel beğenidir"
+          ],
+          "dogru": "Kayıtlarla kontrol edilebilir",
+          "aciklama": "Malzeme bilgisi çalışma kaydıyla doğrulanabilir.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-4-okuma-2-4",
+          "tip": "secim",
+          "soru": "“Bir Eseri Tanıtan İki Metin” metnine göre: Bütün bilgiyi tek karta sıkıştırmak hangi sorunu doğurabilir?",
+          "secenekler": [
+            "Okunabilirliği azaltabilir",
+            "Her yorumu nesnel yapar",
+            "Eserin malzemesini değiştirir"
+          ],
+          "dogru": "Okunabilirliği azaltabilir",
+          "aciklama": "Yazı küçüldüğünde etiketi okumak zorlaşabilir.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-4-okuma-2-5",
+          "tip": "secim",
+          "soru": "“Bir Eseri Tanıtan İki Metin” metnine göre: Ayrıntı görüntüsü için hangi açıklama gerekir?",
+          "secenekler": [
+            "Her zaman eserin kendisinden eski olduğunun söylenmesi",
+            "Kaynak bilgisinin kaldırılması",
+            "Eserin bütününü göstermediğinin belirtilmesi"
+          ],
+          "dogru": "Eserin bütününü göstermediğinin belirtilmesi",
+          "aciklama": "Parça görüntüsü ile bütün eser aynı kapsamda bilgi vermez.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-4-okuma-2-6",
+          "tip": "secim",
+          "soru": "“Bir Eseri Tanıtan İki Metin” metnine göre: Eleştiri hangi unsuru da gözetmelidir?",
+          "secenekler": [
+            "Yalnız izleyicinin yaşını",
+            "Eserin veya sunumun amacını",
+            "Yalnız etiket rengini"
+          ],
+          "dogru": "Eserin veya sunumun amacını",
+          "aciklama": "Aynı özellik farklı amaçlarda farklı yarar ve sınırlılık oluşturabilir.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-4-okuma-2-7",
+          "tip": "secim",
+          "soru": "“Bir Eseri Tanıtan İki Metin” metnine göre: Bir parçadan bütüne sınırsız yargı kurmanın sorunu nedir?",
+          "secenekler": [
+            "Sınırlı gözlemi gereğinden genişletmesi",
+            "Bütün eserlerin aynı olması",
+            "Görüntüde çizgi bulunması"
+          ],
+          "dogru": "Sınırlı gözlemi gereğinden genişletmesi",
+          "aciklama": "Kapsamı dar bir görüntü bütün özellikleri kanıtlamaz.",
+          "cikti": "T.O.7.26"
+        },
+        {
+          "id": "7-4-okuma-2-8",
+          "tip": "secim",
+          "soru": "“Bir Eseri Tanıtan İki Metin” metnine göre: İki metnin birlikte kullanımı için hangisi uygundur?",
+          "secenekler": [
+            "Yorumların kesin kayıt gibi sunulması",
+            "Eserin kaynağının saklanması",
+            "Bilgi ve yorum sınırlarının görünür tutulması"
+          ],
+          "dogru": "Bilgi ve yorum sınırlarının görünür tutulması",
+          "aciklama": "İki işlev bir arada bulunabilir, fakat okuyucu farkı anlayabilmelidir.",
+          "cikti": "T.O.7.26"
+        }
+      ]
+    }
+  ],
+  "konular": [
+    {
+      "kod": "7-4-zitlik",
+      "ad": "Zıtlık ve beklenti ilişkisi",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.Y.7.3",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Oysaki, buna karşın, rağmen gibi yapılar bir beklentinin tersine gelişen durumu belirginleştirebilir. Her yalnız sözü zıtlık bildirmez; yalnızca anlamıyla sınırlama da yapabilir. Bu nedenle bağlantının işlevi iki yargı birlikte okunarak belirlenir. Yazıda zıtlık kurarken hangi beklentiyi değiştirdiğini açıkça göster.</p><ul><li>Çizgiler aynıydı, oysaki renkler değişmişti.</li><li>Küçüktü; buna karşın ayrıntılıydı.</li><li>Zorlanmasına rağmen sürdürdü.</li></ul>",
+      "ornekler": [
+        "Çizgiler aynıydı, oysaki renkler değişmişti.",
+        "Küçüktü; buna karşın ayrıntılıydı.",
+        "Zorlanmasına rağmen sürdürdü."
+      ],
+      "testler": [
+        {
+          "id": "7-4-zitlik-1",
+          "tip": "secim",
+          "soru": "“Hazırlanmıştı; oysaki sunumda farklı sorular geldi.” cümlesindeki bağlantı nasıl açıklanır?",
+          "secenekler": [
+            "Beklenenden farklı durum",
+            "Kesin neden",
+            "Bir tarih"
+          ],
+          "dogru": "Beklenenden farklı durum",
+          "aciklama": "Oysaki hazırlığın bütün soruları karşılamadığına ilişkin karşıtlık kurar.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-4-zitlik-2",
+          "tip": "secim",
+          "soru": "“Küçük bir karttı; buna karşın çok bilgi içeriyordu.” cümlesindeki bağlantı nasıl açıklanır?",
+          "secenekler": [
+            "Bir amaç",
+            "Bir kişi eki",
+            "Boyutla bilgi miktarı arasındaki beklentiye karşıtlık"
+          ],
+          "dogru": "Boyutla bilgi miktarı arasındaki beklentiye karşıtlık",
+          "aciklama": "Küçüklüğe rağmen kapsamın geniş olması vurgulanır.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-4-zitlik-3",
+          "tip": "secim",
+          "soru": "“Hata yaptı; yine de çalışmayı sürdürdü.” cümlesindeki bağlantı nasıl açıklanır?",
+          "secenekler": [
+            "Bir başlık",
+            "Engel olabilecek duruma karşı devam",
+            "Kesin sebep"
+          ],
+          "dogru": "Engel olabilecek duruma karşı devam",
+          "aciklama": "Yine de hatanın ardından sürdürme kararını karşıtlıkla bağlar.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-4-zitlik-4",
+          "tip": "secim",
+          "soru": "“Koyu görünüyordu fakat baskıda açıldı.” cümlesindeki bağlantı nasıl açıklanır?",
+          "secenekler": [
+            "İki görünüş arasındaki fark",
+            "Süre hesabı",
+            "Tek bir durumun aynı biçimde tekrarı"
+          ],
+          "dogru": "İki görünüş arasındaki fark",
+          "aciklama": "Fakat görüntü ile baskı arasındaki ayrılığı belirginleştirir.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-4-zitlik-5",
+          "tip": "secim",
+          "soru": "“Yalnız üç desen seçildi.” cümlesindeki bağlantı nasıl açıklanır?",
+          "secenekler": [
+            "Mutlak zıtlık",
+            "Sebep",
+            "Sınırlama"
+          ],
+          "dogru": "Sınırlama",
+          "aciklama": "Yalnız burada yalnızca anlamındadır; her kullanımında karşıtlık taşımaz.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-4-zitlik-6",
+          "tip": "secim",
+          "soru": "“Büyük sandım, meğerse oldukça küçükmüş.” cümlesindeki bağlantı nasıl açıklanır?",
+          "secenekler": [
+            "Bir soru",
+            "Önceki düşüncenin beklenmedik biçimde değişmesi",
+            "Bir koşul"
+          ],
+          "dogru": "Önceki düşüncenin beklenmedik biçimde değişmesi",
+          "aciklama": "Meğerse ilk yargının yeni bilgiyle boşa çıktığını gösterir.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-4-zitlik-7",
+          "tip": "secim",
+          "soru": "“Denedik; gelgelelim beklenen sonucu alamadık.” cümlesindeki bağlantı nasıl açıklanır?",
+          "secenekler": [
+            "Beklentiye karşı sonuç",
+            "Eşitlik",
+            "Amaç"
+          ],
+          "dogru": "Beklentiye karşı sonuç",
+          "aciklama": "Gelgelelim denemeden beklenen olumlu sonucun gerçekleşmediğini bağlar.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-4-zitlik-8",
+          "tip": "secim",
+          "soru": "“Aynı eseri incelediler; yorumlarıysa farklıydı.” cümlesindeki bağlantı nasıl açıklanır?",
+          "secenekler": [
+            "Neden-sonuç",
+            "Yalnız zaman sırası",
+            "Ortak nesneye rağmen yorum ayrılığı"
+          ],
+          "dogru": "Ortak nesneye rağmen yorum ayrılığı",
+          "aciklama": "Aynı eser ile farklı yorumlar arasında karşıtlık vurgulanır.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-4-zitlik-9",
+          "tip": "secim",
+          "soru": "“Güçlüğe karşın vazgeçmedi.” cümlesindeki bağlantı nasıl açıklanır?",
+          "secenekler": [
+            "Gelecek koşulu",
+            "Engelleyici olabilecek duruma rağmen sürdürme",
+            "Kesin geçmiş nedeni"
+          ],
+          "dogru": "Engelleyici olabilecek duruma rağmen sürdürme",
+          "aciklama": "Karşın yapısı güçlüğün beklenen engelleme etkisini aşan sonucu gösterir.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-4-zitlik-10",
+          "tip": "secim",
+          "soru": "“Uzakta oturuyordu, yine de her provaya katıldı.” cümlesindeki bağlantı nasıl açıklanır?",
+          "secenekler": [
+            "Uzaklığın yaratacağı beklentiye karşı katılım",
+            "Salt yer bilgisi",
+            "Kişi sayısı"
+          ],
+          "dogru": "Uzaklığın yaratacağı beklentiye karşı katılım",
+          "aciklama": "Yine de yalnız uzaklığı bildirmez, katılımla karşıt beklenti kurar.",
+          "cikti": "T.Y.7.3"
+        }
+      ]
+    }
+  ],
+  "dinleme": [
+    {
+      "id": "7-4-dinleme",
+      "baslik": "Desen Üzerine Konuşmak",
+      "metin": "Atölyede iki özgün desen aynı geometrik biçimlerden oluşuyordu. İlkinde biçimler sık, ikincisinde daha geniş aralıklarla yerleştirilmişti. Öğrenciler tekrar sayısını ve boşlukları ayrı ayrı inceledi. Bir katılımcı ilk deseni hareketli, ikincisini sakin buldu. Bunun bir yorum olduğunu söyledi; sayılabilen tekrarlarla kişisel etkilenmesini birbirine karıştırmadı. Sunum kartlarına kaynak ve öğrencilerin yaptığı değişiklikler de yazıldı. Böylece yalnız bitmiş ürün değil, üretim süreci de görünür oldu.",
+      "tts": {
+        "dil": "tr-TR",
+        "sesYoksa": "metin"
+      },
+      "sorular": [
+        {
+          "id": "7-4-dinleme-1",
+          "tip": "secim",
+          "soru": "“Desen Üzerine Konuşmak” dinleme metnine göre: Ortak özellik neydi?",
+          "secenekler": [
+            "İki çalışmanın aynı kişi tarafından yapılması",
+            "Kullanılan geometrik biçimler",
+            "Bütün boşlukların eşitliği"
+          ],
+          "dogru": "Kullanılan geometrik biçimler",
+          "aciklama": "Metindeki olay ve açıklamalar “Kullanılan geometrik biçimler” seçeneğini destekler; diğer seçeneklerdeki ayrıntılar dinlenen içerikle uyuşmaz.",
+          "cikti": "T.D.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-4-dinleme-2",
+          "tip": "secim",
+          "soru": "“Desen Üzerine Konuşmak” dinleme metnine göre: Temel fark neydi?",
+          "secenekler": [
+            "Yerleştirme aralıkları",
+            "Eserlerin hiç desen içermemesi",
+            "Kâğıtların tarihsiz olması"
+          ],
+          "dogru": "Yerleştirme aralıkları",
+          "aciklama": "Metindeki olay ve açıklamalar “Yerleştirme aralıkları” seçeneğini destekler; diğer seçeneklerdeki ayrıntılar dinlenen içerikle uyuşmaz.",
+          "cikti": "T.D.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-4-dinleme-3",
+          "tip": "secim",
+          "soru": "“Desen Üzerine Konuşmak” dinleme metnine göre: Hareketli bulmak nasıl bir bilgidir?",
+          "secenekler": [
+            "Kesin sayısal ölçüm",
+            "Bir malzeme listesi",
+            "Gerekçelendirilebilen yorum"
+          ],
+          "dogru": "Gerekçelendirilebilen yorum",
+          "aciklama": "Metindeki olay ve açıklamalar “Gerekçelendirilebilen yorum” seçeneğini destekler; diğer seçeneklerdeki ayrıntılar dinlenen içerikle uyuşmaz.",
+          "cikti": "T.D.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-4-dinleme-4",
+          "tip": "secim",
+          "soru": "“Desen Üzerine Konuşmak” dinleme metnine göre: Süreç kartlarında ne yer aldı?",
+          "secenekler": [
+            "Yalnız satış tutarı",
+            "Kaynak ve yapılan değişiklikler",
+            "Öğrencilerin özel adresleri"
+          ],
+          "dogru": "Kaynak ve yapılan değişiklikler",
+          "aciklama": "Metindeki olay ve açıklamalar “Kaynak ve yapılan değişiklikler” seçeneğini destekler; diğer seçeneklerdeki ayrıntılar dinlenen içerikle uyuşmaz.",
+          "cikti": "T.D.7.5",
+          "onKosul": true
+        }
+      ]
+    }
+  ],
+  "yazmaGorevleri": [
+    {
+      "id": "7-4-yazma",
+      "baslik": "Desenimi Tanıtıyorum",
+      "yonerge": "140–220 kelimelik bir sergi kartı ve görsel açıklaması yaz. Kurgusal desenin kaynağını, yaptığın değişikliği ve kişisel yorumunu ayır. Aynı eser hakkında iki görüşü karşılaştır. En az bir zıtlık bağlantısı kullan.",
+      "minKelime": 140,
+      "maxKelime": 220,
+      "ciktilar": [
+        "T.Y.7.3",
+        "T.Y.7.6",
+        "T.Y.7.8",
+        "T.Y.7.21"
+      ],
+      "ogretmenDegerlendirmeli": true,
+      "rubrik": [
+        {
+          "olcut": "Amaç ve içerik",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Gerekçe ve anlam bütünlüğü",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Dil yapıları ve söz varlığı",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Yazım, noktalama ve gözden geçirme",
+          "enDusuk": 0,
+          "enYuksek": 4
+        }
+      ]
+    }
+  ],
+  "lgsSorulari": []
+}

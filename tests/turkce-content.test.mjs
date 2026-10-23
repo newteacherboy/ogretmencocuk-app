@@ -8,7 +8,7 @@ const registry=await read('../content/turkce/kaynaklar.json');
 const schema=await makeValidator();
 const options=()=>({schema,sourceCodes:new Set(registry.kaynaklar.flatMap(x=>x.kodlar)),themeCodes:new Set(registry.kaynaklar[0].kodlar)});
 const mutate=fn=>{const d=structuredClone(original);fn(d);return validateDocument(d,options());};
-test('5 ve 6. sınıf bankaları birlikte, yinelenen kimlik veya soru olmadan doğrulanır',async()=>{const r=await validateBank();assert.deepEqual(r.errors,[]);assert.deepEqual(r.warnings,[]);assert.equal(r.classes,2);assert.equal(r.themes,12);assert.equal(r.words,360);assert.equal(r.readings,24);assert.equal(r.lessons,50);assert.equal(r.questions,743);assert.equal(r.listening,12);assert.equal(r.writing,12);});
+test('5–7. sınıf bankaları birlikte, yinelenen kimlik veya soru olmadan doğrulanır',async()=>{const r=await validateBank();assert.deepEqual(r.errors,[]);assert.deepEqual(r.warnings,[]);assert.equal(r.classes,3);assert.equal(r.themes,18);assert.equal(r.words,540);assert.equal(r.readings,36);assert.equal(r.lessons,65);assert.equal(r.questions,1013);assert.equal(r.listening,18);assert.equal(r.writing,18);});
 test('doğru cevap şıklarda yoksa reddedilir',()=>assert(mutate(d=>d.konular[0].testler[0].dogru='bulunmayan cevap').errors.some(x=>x.includes('tam bir kez'))));
 test('indeks tabanlı eski cevap sözleşmesi yanlışlıkla kabul edilmez',()=>assert(mutate(d=>d.konular[0].testler[0].dogru=0).errors.some(x=>x.includes('şema'))));
 test('Türkçe büyük/küçük harfle gizlenmiş yinelenen şık reddedilir',()=>assert(mutate(d=>{const q=d.konular[3].testler[0];q.secenekler[1]=q.secenekler[0].toLocaleUpperCase('tr-TR');}).errors.some(x=>x.includes('yinelenen seçenek'))));
@@ -47,3 +47,9 @@ test('önceki temanın sorusu tekrar olarak işaretlenmelidir',async()=>{
  assert(validateDocument(d,opt).errors.some(x=>x.includes('onKosul=true')));
  d.okumaParcalari[0].sorular[0].onKosul=true;assert.deepEqual(validateDocument(d,opt).errors,[]);
 });
+
+const seventh=await read('../content/turkce/7-sinif/tema-1-hayat-boyu-gelisim.json');
+const seventhOptions=()=>({schema,sourceCodes:new Set(registry.kaynaklar.flatMap(x=>x.kodlar)),themeCodes:new Set(registry.kaynaklar.find(x=>x.sinif===7&&x.tema===1).kodlar)});
+test('7. sınıf da TYMM programını ve altı temayı kullanır',async()=>{const m=await read('../content/turkce/7-sinif/mufredat.json');assert.equal(m.program,'TYMM');assert.deepEqual(m.temalar.map(x=>x.ad),['Hayat Boyu Gelişim','Bir Hilal Uğruna','İletişim ve Sosyal İlişkiler','Türk Sanatı','Okuma Kültürü','Hak ve Sorumluluklar']);});
+test('7. sınıfta 349 kelimelik okuma reddedilir, 350 kabul edilir',()=>{for(const n of [349,350]){const d=structuredClone(seventh);d.okumaParcalari[0].metin=Array(n).fill('örnek').join(' ');const errors=validateDocument(d,seventhOptions()).errors;assert.equal(errors.some(x=>x.includes('beklenen 350–600')),n===349);}});
+test('7. sınıf konusu 2019 biçimindeki 8. sınıf koduyla eşlenemez',()=>{const d=structuredClone(seventh);d.konular[0].cikti='T.8.3.9';assert(validateDocument(d,seventhOptions()).errors.some(x=>x.includes('sınıfı geçersiz')));});

@@ -84,7 +84,7 @@ export async function validateBank(root=project){
   const listed=new Set(manifest.temalar.map(t=>t.dosya));
   for(const extra of files.filter(f=>/^tema-.*\.json$/.test(f)&&!listed.has(f)))result.errors.push(`${grade}-sinif/${extra}: müfredata bağlı olmayan tema dosyası`);
   if(new Set(manifest.temalar.map(t=>t.no)).size!==manifest.temalar.length)result.errors.push(`${grade}-sinif: yinelenen tema numarası`);
-  if([5,6].includes(grade)&&manifest.temalar.length!==6)result.errors.push(`${grade}. sınıf: altı tema gerekli`);
+  if([5,6,7].includes(grade)&&manifest.temalar.length!==6)result.errors.push(`${grade}. sınıf: altı tema gerekli`);
   for(const [index,theme] of manifest.temalar.entries()){
    if(theme.no!==index+1)result.errors.push(`${grade}-sinif: tema sırası kesintisiz olmalı`);
    let d;try{d=await readJSON(path.join(dir,theme.dosya));}catch(e){result.errors.push(`${grade}-sinif/${theme.dosya}: okunamadı (${e.message})`);continue;}

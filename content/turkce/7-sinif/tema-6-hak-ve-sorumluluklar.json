@@ -1,0 +1,884 @@
+{
+  "belgeTuru": "tema",
+  "semaSurumu": "1.0",
+  "sinif": 7,
+  "program": "TYMM",
+  "tema": 6,
+  "temaAdi": "Hak ve Sorumluluklar",
+  "durum": "incelemeye_hazir",
+  "kaynak": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/312",
+  "kaynak_dogrulanmadi": false,
+  "ogrenmeCiktilari": [
+    "T.D.7.1",
+    "T.D.7.10",
+    "T.D.7.13",
+    "T.D.7.21",
+    "T.D.7.27",
+    "T.K.7.1",
+    "T.K.7.10",
+    "T.K.7.24",
+    "T.K.7.26",
+    "T.K.7.6",
+    "T.O.7.1",
+    "T.O.7.13",
+    "T.O.7.25",
+    "T.O.7.28",
+    "T.Y.7.1",
+    "T.Y.7.19",
+    "T.Y.7.20",
+    "T.Y.7.21",
+    "T.Y.7.22"
+  ],
+  "sozVarligi": {
+    "aciklama": "Tema uyumlu özgün tanım ve örnekler. Önceki sınıflardaki kelimeler spiral tekrar olarak da seçilir; 30 kayıt bütün sınıflarda farklı 30 yeni kelime iddiası değildir.",
+    "kelimeler": [
+      {
+        "kelime": "iletişim",
+        "anlam": "Duygu ve düşüncelerin karşılıklı aktarılması",
+        "ornek": "İletişim için ortak bir zaman belirledik.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "anlaşmazlık",
+        "anlam": "Bir konuda farklı düşünüp uyuşamama durumu",
+        "ornek": "Anlaşmazlığı konuşarak çözmeye çalıştık.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "uzlaşmak",
+        "anlam": "Farklı istekleri ortak bir çözümde buluşturmak",
+        "ornek": "İki grup çalışma saatinde uzlaştı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "dinleyici",
+        "anlam": "Bir konuşmayı veya sesi dinleyen kişi",
+        "ornek": "Dinleyici soru sormak için sırasını bekledi.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "konuşmacı",
+        "anlam": "Bir topluluğa konuşan kişi",
+        "ornek": "Konuşmacı son cümlesini yeniden açıkladı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "sıra",
+        "anlam": "Bir işte veya dizilişte izlenecek yer",
+        "ornek": "Söz sırası gelince önerimi sundum.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "üslup",
+        "anlam": "Bir anlatımın kendine özgü söyleyiş biçimi",
+        "ornek": "İletinin üslubu daha nazik hâle getirildi.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "açıklık",
+        "anlam": "Bir anlatımın kolay anlaşılır olma özelliği",
+        "ornek": "Duyurunun açıklığını kontrol ettik.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "nezaket",
+        "anlam": "Başkalarını gözeten incelikli davranış",
+        "ornek": "Nezaket görüş ayrılığında da sürmelidir.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "eleştiri",
+        "anlam": "Bir işin güçlü ve geliştirilebilir yanlarını gerekçeleriyle inceleme",
+        "ornek": "Eleştiri kişiliğe değil çalışmaya yönelikti.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "öneri",
+        "anlam": "Bir işin nasıl yapılabileceğine ilişkin düşünce",
+        "ornek": "Öneri çözüm için yeni bir yol açtı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "onay",
+        "anlam": "Bir görüşü veya işi uygun bulma",
+        "ornek": "Ses kaydı için herkesin onayı alındı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "rıza",
+        "anlam": "Bir davranışı özgür iradeyle kabul etme",
+        "ornek": "Fotoğraf paylaşımı için rıza istendi.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "mahremiyet",
+        "anlam": "Kişisel alanın ve özel bilgilerin korunması",
+        "ornek": "Duyuruda mahremiyet gözetildi.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "sınır",
+        "anlam": "Bir davranışın veya alanın aşılmaması gereken çizgisi",
+        "ornek": "Paylaşım sınırımızı baştan belirledik.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "yanlış anlama",
+        "anlam": "Bir sözü amaçlanandan farklı yorumlama",
+        "ornek": "Kısa ileti yanlış anlamaya yol açmıştı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "geri bildirim",
+        "anlam": "Bir çalışmanın etkisi veya niteliği hakkında verilen bilgi",
+        "ornek": "Geri bildirim metni geliştirmemize yardım etti.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "arabulucu",
+        "anlam": "Anlaşmazlıkta tarafların konuşmasını kolaylaştıran kişi",
+        "ornek": "Arabulucu iki tarafa da söz verdi.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "niyet",
+        "anlam": "Bir davranışla ulaşılmak istenen amaç",
+        "ornek": "Niyetini varsaymak yerine kendisine sordum.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "beklenti",
+        "anlam": "Gerçekleşmesi umulan durum",
+        "ornek": "Görevden beklentimizi birlikte yazdık.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "saygı",
+        "anlam": "Başkalarının hak ve değerini gözetme tutumu",
+        "ornek": "Saygı duymak aynı fikirde olmayı gerektirmez.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "iş birliği",
+        "anlam": "Ortak amaç için birlikte çalışma",
+        "ornek": "İş birliği görevleri paylaşınca kolaylaştı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "koşul",
+        "anlam": "Bir şeyin gerçekleşmesinin bağlı olduğu durum",
+        "ornek": "Etkinliğe katılım koşulu açıkça yazıldı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "amaç",
+        "anlam": "Bir eylemle ulaşılmak istenen sonuç",
+        "ornek": "Toplantının amacı çözüm bulmaktı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "gerekçe",
+        "anlam": "Bir düşünce veya kararın dayandığı neden",
+        "ornek": "Kararımın gerekçesini açıkladım.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "davet",
+        "anlam": "Birini bir yere veya etkinliğe çağırma",
+        "ornek": "Davet tarih ve yer bilgisi içeriyordu.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "duyuru",
+        "anlam": "Bir bilgiyi topluluğa bildiren yazı veya söz",
+        "ornek": "Duyurudaki eksik saati tamamladık.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "mesaj",
+        "anlam": "Bir kişiye iletilen söz veya yazı",
+        "ornek": "Mesajı göndermeden önce yeniden okudum.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "sessizlik",
+        "anlam": "Sesin veya konuşmanın bulunmadığı durum",
+        "ornek": "Sessizlik bazen düşünmek için zaman kazandırır.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "gönüllülük",
+        "anlam": "Bir işi kendi isteğiyle üstlenme durumu",
+        "ornek": "Görev paylaşımında gönüllülük esas alındı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      }
+    ],
+    "esAnlamlilar": [],
+    "zitAnlamlilar": [],
+    "esSesliler": [],
+    "deyimler": [],
+    "atasozleri": []
+  },
+  "okumaParcalari": [
+    {
+      "id": "7-6-okuma-1",
+      "baslik": "Anahtar Kimde Kalacak?",
+      "tur": "oykuleyici",
+      "metin": "Okulun ortak çalışma dolabı yeni düzenlenmişti. Makaslar, renkli kalemler ve kartonlar bölmelere yerleştirilmiş, her bölmeye küçük etiketler takılmıştı. Dolabın anahtarı ilk hafta Ege'de kaldı. Ege bu görevi dikkatle yürütüyordu, fakat olmadığı günlerde arkadaşları malzemeye ulaşamıyordu. Bir süre sonra bazı öğrenciler dolabı yalnız belirli bir grubun kullanabildiğini düşünmeye başladı. Sorun kimsenin kötü niyetinden doğmamıştı; yine de sonuç herkes için eşit değildi.\nSınıf toplantısında Ege bütün sorumluluğun kendisine bırakıldığını söyledi. Anahtarı kaybetmekten korktuğu için başkasına vermek istemiyordu. Defne ise malzemeye erişimin tek kişinin okulda bulunmasına bağlanmaması gerektiğini anlattı. İki öğrencinin ihtiyacı birbirine karşıt görünüyordu: Biri güvenli saklama, diğeri düzenli erişim istiyordu. Öğretmen bu ihtiyaçları ayrı ayrı tahtaya yazdı. Böylece kişileri suçlamak yerine çözülmesi gereken koşullara bakabildiler.\nİlk öneri, anahtarı her gün başka bir öğrenciye vermekti. Fakat bu da teslim sırasında karışıklık yaratabilirdi. İkinci öneri, öğretmenin belirlediği güvenli bir teslim noktasını kullanmaktı. Dolaptan alınanlar kısa bir çizelgeye yazılacak, ders sonunda yerlerine konacaktı. Öğrenciler kendi başlarına bir güvenlik düzeni kurmak yerine okulun kuralları ve öğretmenin gözetimi içinde hareket etti. Seçtikleri yöntemi bir hafta denemeye karar verdiler.\nDenemenin üçüncü gününde iki kalem yerine konmadı. Bazı öğrenciler hemen çizelgedeki son kişiyi suçlamak istedi. Defne kaydın tek başına kalemlerin kimde kaldığını kanıtlamadığını söyledi. Önce teslim sürecini kontrol ettiler. Kalemler, sunumda kullanılmak üzere ayrı bir masaya bırakılmıştı. Çizelgede geri bırakılan yer için alan bulunmadığından bu bilgi kayda geçmemişti. Yeni bir sütun eklemek, suçlu aramaktan daha yararlı bir çözüm olmuştu.\nHafta sonunda dolap daha düzenli kullanılıyordu. Ege anahtarı tek başına taşımadığı için rahatlamıştı. Arkadaşları da erişim saatlerini biliyordu. Ancak sınıf yeni düzeni kusursuz ilan etmedi. Her ay kısa bir kontrol yapacaklardı. Ortak bir kaynağı kullanma hakkı, onu koruma sorumluluğundan ayrı düşünülmemişti. Defne toplantı notuna çözümün neden seçildiğini de yazdı. Gelecekte biri kuralı değiştirmek isterse yalnız “Eskiden böyleydi.” denmeyecekti; hangi ihtiyacı karşıladıkları görülebilecekti. Ege dolabın kapağını kapatırken üzerindeki etikete baktı. Etikette artık bir kişinin adı yerine çalışma saatleri ve teslim yöntemi yazıyordu. Küçük bir yazı değişikliği, sorumluluğun kime ait olduğu hakkındaki düşüncelerini de değiştirmişti. Dolap herkesindi; bu sözün işlemesi için ortak bir yöntem gerekiyordu.\nYeni öğrenciler geldiğinde yöntemi kısa bir örnekle anlatacaklardı. Yalnız duvardaki yazıyı göstermenin yeterli olup olmadığını da gözleyeceklerdi. Açıklamanın anlaşılması, düzenin bir parçası olarak kabul edilmişti.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır.",
+      "sorular": [
+        {
+          "id": "7-6-okuma-1-1",
+          "tip": "secim",
+          "soru": "“Anahtar Kimde Kalacak?” metnine göre: Olayın başlangıcındaki temel sorun nedir?",
+          "secenekler": [
+            "Malzemelerin tamamının kullanılamaz olması",
+            "Dolabın hiçbir etiketi bulunmaması",
+            "Erişimin tek kişinin varlığına bağlı olması"
+          ],
+          "dogru": "Erişimin tek kişinin varlığına bağlı olması",
+          "aciklama": "Anahtar Ege'de olduğu için o yokken malzemeye ulaşılamaz.",
+          "cikti": "T.O.7.13"
+        },
+        {
+          "id": "7-6-okuma-1-2",
+          "tip": "secim",
+          "soru": "“Anahtar Kimde Kalacak?” metnine göre: Ege'nin kaygısı nedir?",
+          "secenekler": [
+            "Toplantıyı uzatmak",
+            "Anahtarı kaybetmek",
+            "Bütün kalemleri yenilemek"
+          ],
+          "dogru": "Anahtarı kaybetmek",
+          "aciklama": "Ege görevi üstlenirken anahtarın güvenliğinden kaygı duyduğunu söyler.",
+          "cikti": "T.O.7.13"
+        },
+        {
+          "id": "7-6-okuma-1-3",
+          "tip": "secim",
+          "soru": "“Anahtar Kimde Kalacak?” metnine göre: Tahtadaki iki ihtiyaç neyi görünür kılar?",
+          "secenekler": [
+            "Güvenli saklama ile erişimin birlikte çözülmesi gerektiğini",
+            "Bir kişinin mutlaka suçlu olduğunu",
+            "Bütün kuralların kaldırılacağını"
+          ],
+          "dogru": "Güvenli saklama ile erişimin birlikte çözülmesi gerektiğini",
+          "aciklama": "İhtiyaçlar ayrılınca kişi çatışması yerine düzenleme sorunu belirginleşir.",
+          "cikti": "T.O.7.13"
+        },
+        {
+          "id": "7-6-okuma-1-4",
+          "tip": "secim",
+          "soru": "“Anahtar Kimde Kalacak?” metnine göre: Kalemler nerede bulunur?",
+          "secenekler": [
+            "Ege'nin evinde",
+            "Kilitli başka bir binada",
+            "Sunum için ayrılan masada"
+          ],
+          "dogru": "Sunum için ayrılan masada",
+          "aciklama": "Teslim süreci incelenince kalemlerin başka masaya bırakıldığı anlaşılır.",
+          "cikti": "T.O.7.13"
+        },
+        {
+          "id": "7-6-okuma-1-5",
+          "tip": "secim",
+          "soru": "“Anahtar Kimde Kalacak?” metnine göre: Yeni sütun hangi eksikliği giderir?",
+          "secenekler": [
+            "Kalemlerin satış fiyatını",
+            "Geri bırakılan yer bilgisini",
+            "Öğrencilerin özel adreslerini"
+          ],
+          "dogru": "Geri bırakılan yer bilgisini",
+          "aciklama": "Çizelge ilk hâlinde farklı teslim yerini kaydetmiyordu.",
+          "cikti": "T.O.7.13"
+        },
+        {
+          "id": "7-6-okuma-1-6",
+          "tip": "secim",
+          "soru": "“Anahtar Kimde Kalacak?” metnine göre: Olayların çözüm sırası hangisidir?",
+          "secenekler": [
+            "İhtiyaçları belirleme, yöntem deneme, kaydı geliştirme",
+            "Suçlama, dolabı atma, anahtarı gizleme",
+            "Kalemleri satın alma, bütün görevleri bitirme"
+          ],
+          "dogru": "İhtiyaçları belirleme, yöntem deneme, kaydı geliştirme",
+          "aciklama": "Öyküde sorun tanımlanır, düzen denenir ve eksik sütun eklenir.",
+          "cikti": "T.O.7.13"
+        },
+        {
+          "id": "7-6-okuma-1-7",
+          "tip": "secim",
+          "soru": "“Anahtar Kimde Kalacak?” metnine göre: Son etiket değişikliği neyi simgeler?",
+          "secenekler": [
+            "Ege'nin okuldan ayrılmasını",
+            "Malzemelerin artık kimseye ait olmamasını",
+            "Düzenin tek kişiden ortak yönteme geçmesini"
+          ],
+          "dogru": "Düzenin tek kişiden ortak yönteme geçmesini",
+          "aciklama": "Kişi adı yerine teslim yöntemi ve saatler yazılmıştır.",
+          "cikti": "T.O.7.13"
+        },
+        {
+          "id": "7-6-okuma-1-8",
+          "tip": "secim",
+          "soru": "“Anahtar Kimde Kalacak?” metnine göre: Metindeki hak ve sorumluluk ilişkisi hangisidir?",
+          "secenekler": [
+            "Koruma yalnız tek öğrencinin görevidir",
+            "Kaynağa erişim, ortak koruma yöntemiyle birlikte ele alınır",
+            "Hakkı olanın koruma yükümlülüğü yoktur"
+          ],
+          "dogru": "Kaynağa erişim, ortak koruma yöntemiyle birlikte ele alınır",
+          "aciklama": "Dolabı kullanma ve düzenli tutma birlikte planlanmıştır.",
+          "cikti": "T.O.7.13"
+        }
+      ]
+    },
+    {
+      "id": "7-6-okuma-2",
+      "baslik": "Kuralın Açıklaması Nerede?",
+      "tur": "bilgilendirici",
+      "metin": "Ortak bir alanın kuralları yalnız neyin yapılacağını söyleyebilir. Fakat kuralın hangi ihtiyacı karşıladığını açıklamak, onu anlamayı ve gerektiğinde geliştirmeyi kolaylaştırır. “Malzemeyi yerine koy.” cümlesi açık bir davranış ister. Bunun yanına “Sonraki kişi de kolayca bulabilsin.” açıklaması eklendiğinde davranışın ortak kullanımla ilişkisi görünür olur. Açıklama, kurala uymayı önemsizleştirmez; niçin gerekli olduğunu düşünmeye yardım eder.\nBir kural yazılırken kapsamı da belirtilmelidir. Kimin, hangi durumda ve hangi süre içinde ne yapacağı anlaşılırsa yanlış yorumlar azalabilir. Belirsiz bir “Dikkatli olun.” uyarısı yerine, ortak cihazı kullanmadan önce görevliye haber vermek gibi somut bir davranış tanımlanabilir. Bununla birlikte bütün durumları çok uzun bir listede önceden saymak mümkün olmayabilir. Beklenmedik bir durumda kime danışılacağı da düzenin parçasıdır.\nKuralları duyururken kullanılan metin, farklı kullanıcıların ihtiyaçlarını gözetmelidir. Küçük yazılar veya yalnız renge dayanan işaretler herkes için yeterli olmayabilir. Kısa açıklama, açık bir başlık ve gerektiğinde uygun bir görsel birlikte kullanılabilir. Görselin neyi anlattığı metinle de belirtilir. Bir uyarı okunamıyorsa yalnız kullanıcıyı dikkatsiz saymak yerine sunumun nasıl düzenlendiğini de incelemek gerekir.\nAynı kuralın iki farklı duyurusunu karşılaştırmak yararlı bir çalışmadır. İlkinde yalnız yasakların sıralandığını, ikincisinde ise davranış ve gerekçenin birlikte verildiğini düşünelim. İkinci metin daha açıklayıcı olabilir; fakat fazla ayrıntı temel bilgiyi gizliyorsa yeniden sadeleştirilmelidir. Amaç, mümkün olan en uzun duyuruyu yazmak değildir. Kullanıcının ihtiyaç duyduğu bilgiyi doğru zamanda ve anlaşılır biçimde sunmaktır. İki metin aynı kurala ait olsa da etkileri farklı olabilir.\nDeğerlendirme, kuralların yalnız duvarda bulunup bulunmadığını saymamalıdır. Kullanıcılar ne yapacaklarını açıklayabiliyor mu, aynı noktada tekrar eden bir karışıklık var mı, sorun çıktığında başvuru yolu biliniyor mu? Bu sorular işleyiş hakkında daha çok bilgi verir. Tek bir olaydan bütün kullanıcıları suçlayan sonuçlar çıkarmamak gerekir. Bazen sorun kuralın içeriğinde, bazen açıklamasında, bazen de uygulanması için gereken imkânların eksikliğindedir. Ortak sorumluluk, yalnız kullanıcıdan bir davranış istemek değildir. O davranışı mümkün kılan koşulları da düşünmektir. Öğrenciler küçük bir sınıf düzenlemesinde bu ayrımı deneyebilir. Önce ihtiyaçları dinler, bir taslak hazırlar, öğretmenleriyle uygunluğunu kontrol eder ve sınırlı bir denemeden sonra sonucu incelerler. Kayıtlar kişileri etiketlemek için değil, düzeni geliştirmek için tutulur. Böylece kural, açıklaması olmayan değişmez bir cümle yerine, amacı bilinen ve gerektiğinde yeniden görüşülebilen ortak bir araç olur.\nBu değerlendirmede tek bir kişinin yorumu bütün sınıf adına kabul edilmez. Farklı kullanıcıların yaşadığı güçlükler birlikte dinlenir. Sonraki karar, en çok konuşanın isteğine göre değil, ortak ihtiyacın dayanaklarına göre verilmeye çalışılır. Küçük bir değişiklik denendikten sonra aynı sorular yeniden sorulur. Böylece değişimin etkisi, yalnız ilk izlenime göre değerlendirilmez.\nBir düzenleme başka bir sınıfa taşınacaksa koşulların aynı olduğu varsayılmaz. Kullanılan araçlar, zaman ve kullanıcı ihtiyaçları yeniden incelenir. Böylece ortak ilkeler korunurken uygulama gerçek duruma göre uyarlanabilir.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır.",
+      "sorular": [
+        {
+          "id": "7-6-okuma-2-1",
+          "tip": "secim",
+          "soru": "“Kuralın Açıklaması Nerede?” metnine göre: Gerekçe eklenmesi ne sağlar?",
+          "secenekler": [
+            "Bütün durumları otomatik çözer",
+            "Davranışın ortak ihtiyaçla bağını görünür kılar",
+            "Kuralın uygulanmasını gereksiz yapar"
+          ],
+          "dogru": "Davranışın ortak ihtiyaçla bağını görünür kılar",
+          "aciklama": "Sonraki kişinin malzemeyi bulması, yerine koymanın amacını açıklar.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-6-okuma-2-2",
+          "tip": "secim",
+          "soru": "“Kuralın Açıklaması Nerede?” metnine göre: Kapsamın açık olması hangi bilgiyi içerir?",
+          "secenekler": [
+            "Kim, hangi durumda, ne zaman ne yapacak?",
+            "Her kullanıcının özel hayatı",
+            "Yalnız duyurunun fiyatı"
+          ],
+          "dogru": "Kim, hangi durumda, ne zaman ne yapacak?",
+          "aciklama": "İkinci paragraf bu sınırların belirsizliği azaltabileceğini anlatır.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-6-okuma-2-3",
+          "tip": "secim",
+          "soru": "“Kuralın Açıklaması Nerede?” metnine göre: Küçük yazılar için önerilen yaklaşım nedir?",
+          "secenekler": [
+            "Yalnız kullanıcıyı suçlamak",
+            "Bütün metni kaldırmak",
+            "Sunumun okunabilirliğini de değerlendirmek"
+          ],
+          "dogru": "Sunumun okunabilirliğini de değerlendirmek",
+          "aciklama": "Sorun kişinin dikkati dışında duyurunun biçiminden kaynaklanabilir.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-6-okuma-2-4",
+          "tip": "secim",
+          "soru": "“Kuralın Açıklaması Nerede?” metnine göre: İki duyurunun farkı ne olabilir?",
+          "secenekler": [
+            "İkisinin de zorunlu olarak anlamsız olması",
+            "Birinin yalnız yasak, diğerinin davranış ve gerekçe sunması",
+            "İkisinin farklı yasa metni olması"
+          ],
+          "dogru": "Birinin yalnız yasak, diğerinin davranış ve gerekçe sunması",
+          "aciklama": "Karşılaştırma aynı kuralın farklı sunumlarını inceler.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-6-okuma-2-5",
+          "tip": "secim",
+          "soru": "“Kuralın Açıklaması Nerede?” metnine göre: Fazla ayrıntının olası sorunu nedir?",
+          "secenekler": [
+            "Temel bilgiyi gizleyebilmesi",
+            "Her açıklamayı kesinleştirmesi",
+            "Kuralı kendiliğinden değiştirmesi"
+          ],
+          "dogru": "Temel bilgiyi gizleyebilmesi",
+          "aciklama": "Uzunluk her zaman açıklık sağlamaz; öncelikli bilgi görünür kalmalıdır.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-6-okuma-2-6",
+          "tip": "secim",
+          "soru": "“Kuralın Açıklaması Nerede?” metnine göre: İşleyişi değerlendiren soru hangisidir?",
+          "secenekler": [
+            "Panoda kaç renk var?",
+            "Kâğıt kaç gram geliyor?",
+            "Kullanıcı ne yapacağını açıklayabiliyor mu?"
+          ],
+          "dogru": "Kullanıcı ne yapacağını açıklayabiliyor mu?",
+          "aciklama": "Anlama ve uygulama, duyurunun temel işleviyle ilişkili ölçütlerdir.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-6-okuma-2-7",
+          "tip": "secim",
+          "soru": "“Kuralın Açıklaması Nerede?” metnine göre: Kayıtların önerilen amacı nedir?",
+          "secenekler": [
+            "Bütün özel bilgileri açıklamak",
+            "Düzeni geliştirmek",
+            "Kişileri etiketlemek"
+          ],
+          "dogru": "Düzeni geliştirmek",
+          "aciklama": "Son paragraf kayıtların düzeni incelemek için tutulmasını önerir.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-6-okuma-2-8",
+          "tip": "secim",
+          "soru": "“Kuralın Açıklaması Nerede?” metnine göre: Yazının temel düşüncesi hangisidir?",
+          "secenekler": [
+            "Ortak kurallar amaç, açıklık ve uygulanabilir koşullarla ele alınmalıdır",
+            "Yasakları saymak her zaman yeterlidir",
+            "Her sorun yalnız dikkatsizlikten doğar"
+          ],
+          "dogru": "Ortak kurallar amaç, açıklık ve uygulanabilir koşullarla ele alınmalıdır",
+          "aciklama": "Metin kuralın içeriğini, sunumunu ve uygulama imkânlarını birlikte düşünür.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        }
+      ]
+    }
+  ],
+  "konular": [
+    {
+      "kod": "7-6-olumsuzluk",
+      "ad": "Bağlam içinde olumsuzluk",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.Y.7.19",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Olumsuzluk bazen doğrudan değil, ne fayda gibi kalıplarla veya beklentiyi boşa çıkaran kullanımlarla kurulur. Ne... ne yapısı iki seçeneği birlikte dışlayabilir; bu kullanımda yüklem çoğu zaman olumlu biçimde kurulur. Ancak biçim ve genel anlamı birlikte incele. Sırf olumsuzluk sezildi diye cümleye gereksiz ikinci bir olumsuzluk ekleme.</p><ul><li>Ne kartı ne defteri aldı.</li><li>Ne fayda, vakit geçti.</li><li>Sormadan karar vermeyelim.</li></ul>",
+      "ornekler": [
+        "Ne kartı ne defteri aldı.",
+        "Ne fayda, vakit geçti.",
+        "Sormadan karar vermeyelim."
+      ],
+      "testler": [
+        {
+          "id": "7-6-olumsuzluk-1",
+          "tip": "secim",
+          "soru": "“Ne anahtarı ne çizelgeyi buldu.” cümlesinin anlamı hangisidir?",
+          "secenekler": [
+            "Yalnız anahtarın bulunduğu",
+            "İki nesnenin de bulunmadığı",
+            "İkisinin de bulunduğu"
+          ],
+          "dogru": "İki nesnenin de bulunmadığı",
+          "aciklama": "Ne... ne yapısı iki seçeneği birlikte dışlar.",
+          "cikti": "T.Y.7.19"
+        },
+        {
+          "id": "7-6-olumsuzluk-2",
+          "tip": "secim",
+          "soru": "“Ne fayda, duyuru geç geldi.” cümlesinin anlamı hangisidir?",
+          "secenekler": [
+            "Beklenen yararın kalmadığı",
+            "Duyurunun kesin yararlı olduğu",
+            "Bir sayı karşılaştırması"
+          ],
+          "dogru": "Beklenen yararın kalmadığı",
+          "aciklama": "Ne fayda bağlamda yararsızlık veya geç kalmışlık anlamı katar.",
+          "cikti": "T.Y.7.19"
+        },
+        {
+          "id": "7-6-olumsuzluk-3",
+          "tip": "secim",
+          "soru": "“Sormadan paylaşma.” cümlesinin anlamı hangisidir?",
+          "secenekler": [
+            "Her şeyi hemen paylaşma",
+            "Kesin bir paylaşım kaydı",
+            "Sorma işlemi yapılmadan paylaşmama isteği"
+          ],
+          "dogru": "Sorma işlemi yapılmadan paylaşmama isteği",
+          "aciklama": "Olumsuz zarf-fiil ve olumsuz emir birlikte davranış sınırını kurar.",
+          "cikti": "T.Y.7.19"
+        },
+        {
+          "id": "7-6-olumsuzluk-4",
+          "tip": "secim",
+          "soru": "“Ne mümkün, bu kadar işi bir dakikada bitirelim!” cümlesinin anlamı hangisidir?",
+          "secenekler": [
+            "Bir tarih aralığı",
+            "Gerçekleşebilirliği reddeden vurgu",
+            "Tamamlanmış işin kanıtı"
+          ],
+          "dogru": "Gerçekleşebilirliği reddeden vurgu",
+          "aciklama": "Ne mümkün bu bağlamda olasılığı güçlü biçimde reddeder.",
+          "cikti": "T.Y.7.19"
+        },
+        {
+          "id": "7-6-olumsuzluk-5",
+          "tip": "secim",
+          "soru": "“Güya herkesin görüşünü almış.” cümlesinin anlamı hangisidir?",
+          "secenekler": [
+            "İddiaya yönelik kuşku veya mesafe",
+            "Görüşün kesin doğrulanması",
+            "Doğrudan bir saat bilgisi"
+          ],
+          "dogru": "İddiaya yönelik kuşku veya mesafe",
+          "aciklama": "Güya sözü anlatıcının iddiayı benimsemediğini gösterir.",
+          "cikti": "T.Y.7.19"
+        },
+        {
+          "id": "7-6-olumsuzluk-6",
+          "tip": "secim",
+          "soru": "“Ne gelir elden, süre doldu.” cümlesinin anlamı hangisidir?",
+          "secenekler": [
+            "Her şeyin eksiksiz kontrol edildiği",
+            "Bir kişiye yönelme eki",
+            "Çözüm imkânının sınırlılığı"
+          ],
+          "dogru": "Çözüm imkânının sınırlılığı",
+          "aciklama": "Kalıp söz, durum karşısındaki çaresizlik anlamını taşır.",
+          "cikti": "T.Y.7.19"
+        },
+        {
+          "id": "7-6-olumsuzluk-7",
+          "tip": "secim",
+          "soru": "“Ne aldım ne sattım.” cümlesinin anlamı hangisidir?",
+          "secenekler": [
+            "Yalnız alış yapıldığı",
+            "İki eylemin de yapılmadığı",
+            "İkisinin de yapıldığı"
+          ],
+          "dogru": "İki eylemin de yapılmadığı",
+          "aciklama": "Ne... ne yüklem biçimi olumlu olsa da genel olumsuz anlam kurar.",
+          "cikti": "T.Y.7.19"
+        },
+        {
+          "id": "7-6-olumsuzluk-8",
+          "tip": "secim",
+          "soru": "“Dinlemeden hüküm verme.” cümlesinin anlamı hangisidir?",
+          "secenekler": [
+            "Önce dinleme gereği",
+            "Her hükmün doğru olduğu",
+            "Konuşmanın bittiği"
+          ],
+          "dogru": "Önce dinleme gereği",
+          "aciklama": "Dinlemeden yapısı gerekli bir adımın atlanmamasını vurgular.",
+          "cikti": "T.Y.7.19"
+        },
+        {
+          "id": "7-6-olumsuzluk-9",
+          "tip": "secim",
+          "soru": "“Ne acı ki açıklama okunmamış.” cümlesinin anlamı hangisidir?",
+          "secenekler": [
+            "Bir başarıyı kutlama",
+            "Sayısal büyüklük",
+            "Olumsuz duruma ilişkin üzüntü"
+          ],
+          "dogru": "Olumsuz duruma ilişkin üzüntü",
+          "aciklama": "Ne acı ki olumsuz durumun duygusal değerlendirmesini ekler.",
+          "cikti": "T.Y.7.19"
+        },
+        {
+          "id": "7-6-olumsuzluk-10",
+          "tip": "secim",
+          "soru": "“Ne dün ne bugün teslim edildi.” cümlesinin anlamı hangisidir?",
+          "secenekler": [
+            "Yalnız bugün teslim edildiği",
+            "İki zamanda da teslim edilmediği",
+            "Her iki gün teslim edildiği"
+          ],
+          "dogru": "İki zamanda da teslim edilmediği",
+          "aciklama": "Ne... ne iki zamanı birlikte dışlayan anlam kurar.",
+          "cikti": "T.Y.7.19"
+        }
+      ]
+    },
+    {
+      "kod": "7-6-sinirlama",
+      "ad": "Sınırlama bildiren yapılar",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.Y.7.20",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Sadece, yalnızca, -e kadar ve -e dek gibi yapılar anlamın kapsamını sınırlar. Yalnız sözü bazı yerlerde fakat anlamına gelirken bazı yerlerde yalnızca anlamındadır. Zaman, miktar veya seçilen kişiler bakımından sınır kurulabilir. Sınırı yazarken neyin kapsandığını ve neyin dışarıda kaldığını okurun anlayabilmesini sağla.</p><ul><li>Yalnızca bu rafı düzenleyelim.</li><li>Saat üçe kadar açık.</li><li>Bugünden sonra yeni çizelge geçerli.</li></ul>",
+      "ornekler": [
+        "Yalnızca bu rafı düzenleyelim.",
+        "Saat üçe kadar açık.",
+        "Bugünden sonra yeni çizelge geçerli."
+      ],
+      "testler": [
+        {
+          "id": "7-6-sinirlama-1",
+          "tip": "secim",
+          "soru": "“Yalnızca kayıtlı kullanıcılar alabilir.” cümlesinde sınır veya bağlantı nasıl kurulmuştur?",
+          "secenekler": [
+            "Geçmişteki neden",
+            "Kapsamın belirli kullanıcılarla sınırlanması",
+            "Herkesin koşulsuz alması"
+          ],
+          "dogru": "Kapsamın belirli kullanıcılarla sınırlanması",
+          "aciklama": "Yalnızca sözü kimlerin kapsandığını sınırlar.",
+          "cikti": "T.Y.7.20"
+        },
+        {
+          "id": "7-6-sinirlama-2",
+          "tip": "secim",
+          "soru": "“Saat dörde kadar bekleyeceğiz.” cümlesinde sınır veya bağlantı nasıl kurulmuştur?",
+          "secenekler": [
+            "Zamanın bitiş sınırı",
+            "Yer mesafesi",
+            "Karşılaştırma derecesi"
+          ],
+          "dogru": "Zamanın bitiş sınırı",
+          "aciklama": "Kadar, beklemenin hangi zamana dek süreceğini bildirir.",
+          "cikti": "T.Y.7.20"
+        },
+        {
+          "id": "7-6-sinirlama-3",
+          "tip": "secim",
+          "soru": "“Bu kutu sadece kalemler için.” cümlesinde sınır veya bağlantı nasıl kurulmuştur?",
+          "secenekler": [
+            "Bütün malzemelere açık kullanım",
+            "Bir tarihî kanıt",
+            "Kullanım amacının sınırı"
+          ],
+          "dogru": "Kullanım amacının sınırı",
+          "aciklama": "Sadece kutunun kullanım kapsamını daraltır.",
+          "cikti": "T.Y.7.20"
+        },
+        {
+          "id": "7-6-sinirlama-4",
+          "tip": "secim",
+          "soru": "“Gelebilirsin, yalnız önce haber ver.” cümlesinde sınır veya bağlantı nasıl kurulmuştur?",
+          "secenekler": [
+            "Sayıların eşitliği",
+            "Ek koşul veya uyarı",
+            "Yalnızca bir kişi anlamı"
+          ],
+          "dogru": "Ek koşul veya uyarı",
+          "aciklama": "Yalnız burada sadece değil, fakat benzeri bir bağlantı kurar.",
+          "cikti": "T.Y.7.20"
+        },
+        {
+          "id": "7-6-sinirlama-5",
+          "tip": "secim",
+          "soru": "“Hafta sonuna dek geçerli.” cümlesinde sınır veya bağlantı nasıl kurulmuştur?",
+          "secenekler": [
+            "Geçerliliğin zaman sınırı",
+            "Sonsuz geçerlilik",
+            "Kesin geçmiş neden"
+          ],
+          "dogru": "Geçerliliğin zaman sınırı",
+          "aciklama": "Dek, uygulamanın bitiş zamanını belirtir.",
+          "cikti": "T.Y.7.20"
+        },
+        {
+          "id": "7-6-sinirlama-6",
+          "tip": "secim",
+          "soru": "“Sırf bu bölüm için geldim.” cümlesinde sınır veya bağlantı nasıl kurulmuştur?",
+          "secenekler": [
+            "Birden çok işin yapılması",
+            "Bütün binanın incelenmesi",
+            "Amacın tek bir bölümle sınırlanması"
+          ],
+          "dogru": "Amacın tek bir bölümle sınırlanması",
+          "aciklama": "Sırf sözü gelişin yalnız belirtilen amaçla olduğunu vurgular.",
+          "cikti": "T.Y.7.20"
+        },
+        {
+          "id": "7-6-sinirlama-7",
+          "tip": "secim",
+          "soru": "“En fazla iki kart seç.” cümlesinde sınır veya bağlantı nasıl kurulmuştur?",
+          "secenekler": [
+            "Sınırsız seçim",
+            "Miktarın üst sınırı",
+            "En az iki zorunluluğu"
+          ],
+          "dogru": "Miktarın üst sınırı",
+          "aciklama": "En fazla ifadesi aşılmaması gereken miktarı belirtir.",
+          "cikti": "T.Y.7.20"
+        },
+        {
+          "id": "7-6-sinirlama-8",
+          "tip": "secim",
+          "soru": "“Artık yeni çizelgeyi kullanacağız.” cümlesinde sınır veya bağlantı nasıl kurulmuştur?",
+          "secenekler": [
+            "Önceki durumdan sonraki döneme geçiş",
+            "Her zaman geçmiş çizelge",
+            "Tek bir kişinin adı"
+          ],
+          "dogru": "Önceki durumdan sonraki döneme geçiş",
+          "aciklama": "Artık, bundan sonraki uygulamanın değiştiğini gösterir.",
+          "cikti": "T.Y.7.20"
+        },
+        {
+          "id": "7-6-sinirlama-9",
+          "tip": "secim",
+          "soru": "“Bir tek bu anahtar kaldı.” cümlesinde sınır veya bağlantı nasıl kurulmuştur?",
+          "secenekler": [
+            "Birden çok anahtar",
+            "Anahtarın nerede olduğu",
+            "Sayının bir unsurla sınırlanması"
+          ],
+          "dogru": "Sayının bir unsurla sınırlanması",
+          "aciklama": "Bir tek ifadesi yalnız bir örneğin kaldığını vurgular.",
+          "cikti": "T.Y.7.20"
+        },
+        {
+          "id": "7-6-sinirlama-10",
+          "tip": "secim",
+          "soru": "“Başvuru cuma gününe değin sürecek.” cümlesinde sınır veya bağlantı nasıl kurulmuştur?",
+          "secenekler": [
+            "Kişi karşılaştırması",
+            "Sürenin bitiş noktası",
+            "Başlangıcın belirsizliği"
+          ],
+          "dogru": "Sürenin bitiş noktası",
+          "aciklama": "Değin, zamansal sınırı cuma olarak belirler.",
+          "cikti": "T.Y.7.20"
+        }
+      ]
+    }
+  ],
+  "dinleme": [
+    {
+      "id": "7-6-dinleme",
+      "baslik": "Teslim Noktası",
+      "metin": "Efe ortak malzeme dolabının anahtarını taşıyordu. O gelmediğinde arkadaşları malzemeye ulaşamıyordu. Öğretmenin uygun bulduğu bir teslim noktası belirlendi. Alınan malzeme ve geri bırakıldığı yer çizelgeye yazılacaktı. İlk gün bir kalem bulunamayınca son kullanıcı suçlanmadı. Çizelgeyle teslim yerleri birlikte kontrol edildi; kalem sunum masasında çıktı. Efe artık bütün sorumluluğu tek başına taşımıyordu. Grup, yöntemin işe yarayıp yaramadığını bir hafta sonra yeniden inceleyecekti.",
+      "tts": {
+        "dil": "tr-TR",
+        "sesYoksa": "metin"
+      },
+      "sorular": [
+        {
+          "id": "7-6-dinleme-1",
+          "tip": "secim",
+          "soru": "“Teslim Noktası” dinleme metnine göre: Başlangıçtaki erişim sorunu kime bağlıydı?",
+          "secenekler": [
+            "Her öğrencinin kitap sayısına",
+            "Sunumun rengine",
+            "Efe’nin okulda bulunmasına"
+          ],
+          "dogru": "Efe’nin okulda bulunmasına",
+          "aciklama": "Metindeki olay ve açıklamalar “Efe’nin okulda bulunmasına” seçeneğini destekler; diğer seçeneklerdeki ayrıntılar dinlenen içerikle uyuşmaz.",
+          "cikti": "T.D.7.13"
+        },
+        {
+          "id": "7-6-dinleme-2",
+          "tip": "secim",
+          "soru": "“Teslim Noktası” dinleme metnine göre: Çözüm nerede uygulandı?",
+          "secenekler": [
+            "Kişisel evlerde",
+            "Öğretmenin uygun bulduğu teslim noktasında",
+            "İzinsiz özel bir depoda"
+          ],
+          "dogru": "Öğretmenin uygun bulduğu teslim noktasında",
+          "aciklama": "Metindeki olay ve açıklamalar “Öğretmenin uygun bulduğu teslim noktasında” seçeneğini destekler; diğer seçeneklerdeki ayrıntılar dinlenen içerikle uyuşmaz.",
+          "cikti": "T.D.7.13"
+        },
+        {
+          "id": "7-6-dinleme-3",
+          "tip": "secim",
+          "soru": "“Teslim Noktası” dinleme metnine göre: Kalem nerede bulundu?",
+          "secenekler": [
+            "Sunum masasında",
+            "Dolabın içinde kilitli",
+            "Okul dışındaki dükkânda"
+          ],
+          "dogru": "Sunum masasında",
+          "aciklama": "Metindeki olay ve açıklamalar “Sunum masasında” seçeneğini destekler; diğer seçeneklerdeki ayrıntılar dinlenen içerikle uyuşmaz.",
+          "cikti": "T.D.7.13"
+        },
+        {
+          "id": "7-6-dinleme-4",
+          "tip": "secim",
+          "soru": "“Teslim Noktası” dinleme metnine göre: Son karar neydi?",
+          "secenekler": [
+            "Bütün kayıtları yok etmek",
+            "Anahtarı hep aynı kişiye bırakmak",
+            "Yöntemi bir hafta sonra yeniden incelemek"
+          ],
+          "dogru": "Yöntemi bir hafta sonra yeniden incelemek",
+          "aciklama": "Metindeki olay ve açıklamalar “Yöntemi bir hafta sonra yeniden incelemek” seçeneğini destekler; diğer seçeneklerdeki ayrıntılar dinlenen içerikle uyuşmaz.",
+          "cikti": "T.D.7.13"
+        }
+      ]
+    }
+  ],
+  "yazmaGorevleri": [
+    {
+      "id": "7-6-yazma",
+      "baslik": "Ortak Dolap İçin Açıklama",
+      "yonerge": "140–220 kelimede öğretmen gözetimindeki ortak malzeme kullanımını açıklayan bir yönerge yaz. Hak, sorumluluk ve başvuru yolunu belirt. Bir sınırlama ve bir olumsuzluk yapısı kullan; gerçek kişisel bilgi isteme.",
+      "minKelime": 140,
+      "maxKelime": 220,
+      "ciktilar": [
+        "T.Y.7.1",
+        "T.Y.7.19",
+        "T.Y.7.20",
+        "T.Y.7.21"
+      ],
+      "ogretmenDegerlendirmeli": true,
+      "rubrik": [
+        {
+          "olcut": "Amaç ve içerik",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Gerekçe ve anlam bütünlüğü",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Dil yapıları ve söz varlığı",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Yazım, noktalama ve gözden geçirme",
+          "enDusuk": 0,
+          "enYuksek": 4
+        }
+      ]
+    }
+  ],
+  "lgsSorulari": []
+}

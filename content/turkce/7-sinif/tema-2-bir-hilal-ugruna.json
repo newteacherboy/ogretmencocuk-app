@@ -1,0 +1,905 @@
+{
+  "belgeTuru": "tema",
+  "semaSurumu": "1.0",
+  "sinif": 7,
+  "program": "TYMM",
+  "tema": 2,
+  "temaAdi": "Bir Hilal Uğruna",
+  "durum": "incelemeye_hazir",
+  "kaynak": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/290",
+  "kaynak_dogrulanmadi": false,
+  "ogrenmeCiktilari": [
+    "T.D.7.14",
+    "T.D.7.17",
+    "T.D.7.18",
+    "T.D.7.2",
+    "T.D.7.20",
+    "T.D.7.24",
+    "T.D.7.27",
+    "T.D.7.3",
+    "T.K.7.1",
+    "T.K.7.13",
+    "T.K.7.22",
+    "T.K.7.26",
+    "T.K.7.5",
+    "T.K.7.7",
+    "T.K.7.8",
+    "T.K.7.9",
+    "T.O.7.14",
+    "T.O.7.15",
+    "T.O.7.2",
+    "T.O.7.20",
+    "T.O.7.28",
+    "T.O.7.6",
+    "T.O.7.7",
+    "T.O.7.8",
+    "T.Y.7.10",
+    "T.Y.7.21",
+    "T.Y.7.22",
+    "T.Y.7.3",
+    "T.Y.7.4",
+    "T.Y.7.5"
+  ],
+  "sozVarligi": {
+    "aciklama": "Tema uyumlu özgün tanım ve örnekler. Önceki sınıflardaki kelimeler spiral tekrar olarak da seçilir; 30 kayıt bütün sınıflarda farklı 30 yeni kelime iddiası değildir.",
+    "kelimeler": [
+      {
+        "kelime": "bağımsızlık",
+        "anlam": "Bir topluluğun kendi kararlarını kendisinin verebilmesi",
+        "ornek": "Serginin konusu bağımsızlık mücadelesiydi.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "egemenlik",
+        "anlam": "Yönetme ve karar verme yetkisi",
+        "ornek": "Sınıf meclisinde egemenlik kavramını tartıştık.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "cumhuriyet",
+        "anlam": "Yönetim yetkisinin milletin seçtiği temsilciler aracılığıyla kullanıldığı yönetim biçimi",
+        "ornek": "Cumhuriyet üzerine bir okuma yaptık.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "dayanışma",
+        "anlam": "Bir amaç veya güçlük karşısında birbirine destek olma",
+        "ornek": "Mahalledeki dayanışma herkesi cesaretlendirdi.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "fedakârlık",
+        "anlam": "Bir amaç için kendi isteğinden veya rahatından vazgeçme",
+        "ornek": "Gönüllüler zamanlarından fedakârlık etti.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "kararlılık",
+        "anlam": "Bir kararın arkasında durup çalışmayı sürdürme",
+        "ornek": "Ekibin kararlılığı hazırlıklara yansıdı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "sorumluluk",
+        "anlam": "Üstlenilen işi yerine getirme yükümlülüğü",
+        "ornek": "Belgeleri koruma sorumluluğu bana verildi.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "emanet",
+        "anlam": "Korunması veya sonradan geri verilmesi için bırakılan şey",
+        "ornek": "Defter bize bir emanet olarak bırakıldı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "cephe",
+        "anlam": "Bir savaşta karşıt güçlerin karşılaştığı bölge",
+        "ornek": "Anlatının bir bölümü cephe gerisinde geçiyor.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "seferberlik",
+        "anlam": "Bir ihtiyacı karşılamak için bütün imkânlarla birlikte harekete geçme",
+        "ornek": "Kitap onarımı için seferberlik başlattık.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "özveri",
+        "anlam": "Bir başkasının yararı için kendi çıkarından vazgeçme",
+        "ornek": "Çalışmada gösterilen özveriyi anlattık.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "yurt",
+        "anlam": "Bir topluluğun yaşadığı ve bağlılık duyduğu ülke",
+        "ornek": "Şiirde yurt sevgisi işleniyor.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "anıt",
+        "anlam": "Bir kişiyi veya olayı hatırlatmak için yapılan eser",
+        "ornek": "Anıtın bilgi levhasını okuduk.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "tanıklık",
+        "anlam": "Bir olayda görülen veya yaşananları aktarma",
+        "ornek": "Tanıklık ile duyumu ayırmaya çalıştık.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "belge",
+        "anlam": "Bir durumu veya olayı kayda geçiren yazı ya da nesne",
+        "ornek": "Belgenin üzerindeki tarih silinmişti.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "arşiv",
+        "anlam": "Belgelerin düzenlenerek saklandığı yer veya bütün",
+        "ornek": "Okul arşivini görevliyle gezdik.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "kronoloji",
+        "anlam": "Olayların zaman sırasına göre düzeni",
+        "ornek": "Sergi için bir kronoloji çizdik.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "kanıt",
+        "anlam": "Bir yargıyı destekleyen bilgi veya bulgu",
+        "ornek": "Bu yorum için yeterli kanıt bulunmadı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "meclis",
+        "anlam": "Ortak işleri görüşüp karara bağlamak üzere toplanan temsilciler kurulu",
+        "ornek": "Meclis kelimesini sözlükten araştırdık.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "ortak",
+        "anlam": "Birden çok kişinin paylaştığı",
+        "ornek": "Ortak kararımız sergiyi sade tutmaktı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "birlik",
+        "anlam": "Aynı amaç çevresinde birleşme durumu",
+        "ornek": "Birlik içinde hazırlıkları tamamladık.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "ulaştırmak",
+        "anlam": "Bir şeyi gitmesi gereken yere götürmek veya göndermek",
+        "ornek": "Kutuları depoya ulaştırdık.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "korumak",
+        "anlam": "Zarar görmesini veya kaybolmasını önlemek",
+        "ornek": "Eski fotoğrafları ışıktan korumak gerekiyordu.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "hatırat",
+        "anlam": "Bir kişinin yaşadıklarını sonradan anlattığı eser",
+        "ornek": "Hatıratın ne zaman yazıldığını araştırdım.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "bellek",
+        "anlam": "Yaşananları ve öğrenilenleri saklama yetisi",
+        "ornek": "Müze toplumsal belleğe katkı sağlıyor.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "restorasyon",
+        "anlam": "Bir eseri özgün özelliklerini gözeterek onarma işi",
+        "ornek": "Binadaki restorasyon uzmanlarca yürütüldü.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "özgürlük",
+        "anlam": "Başkalarının haklarını gözeterek seçim yapabilme durumu",
+        "ornek": "Özgürlük ile sorumluluğu birlikte konuştuk.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "uzlaşma",
+        "anlam": "Farklı görüşlerin ortak bir çözümde buluşması",
+        "ornek": "Sergi düzeninde uzlaşma sağlandı.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "katılım",
+        "anlam": "Bir çalışmada veya kararda yer alma",
+        "ornek": "Gönüllü katılım için duyuru hazırladık.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      },
+      {
+        "kelime": "güven",
+        "anlam": "Birine veya bir şeye duyulan inanma duygusu",
+        "ornek": "Açık bilgi paylaşımı güven oluşturdu.",
+        "tip": "kelime",
+        "cikti": "T.O.7.21"
+      }
+    ],
+    "esAnlamlilar": [],
+    "zitAnlamlilar": [],
+    "esSesliler": [],
+    "deyimler": [],
+    "atasozleri": []
+  },
+  "okumaParcalari": [
+    {
+      "id": "7-2-okuma-1",
+      "baslik": "İki Ayrı Etiket",
+      "tur": "oykuleyici",
+      "metin": "Anma haftası için hazırlanan okul sergisinde, ortak emeği anlatan bir bölüm oluşturulacaktı. Öğrenciler gerçek tarihî olayları araştıracak, fakat bulamadıkları ayrıntıları kurguyla tamamlamayacaktı. Ellerindeki malzemelerin çoğu sonradan yapılmış modellerdi. Bir kağnı modeli, bir çanta ve haber taşıma yolunu gösteren basit bir harita vardı. Ziyaretçilerin bunları dönemden kalma nesneler sanmaması için açık etiketler hazırlanması gerekiyordu.\nSarp, modelin yanına etkileyici bir hikâye yazdı. Kurguladığı çocuğa bir ad vermiş, taşıdığı çantanın içine bir mektup koymuştu. Metni okuyan Asya hikâyeyi beğendi. Yine de bunun bir belgeden alınmış gibi sunulamayacağını söyledi. Sarp başta itiraz etti; herkes bunun bir öykü olduğunu anlayabilirdi. Asya ise ziyaretçilerin hazırlık sürecini bilmediğini hatırlattı. Açıkça söylenmeyen bir ayrımı okurun tahmin etmesi beklenmemeliydi.\nÖğretmenleri iki farklı etiket önermelerini istedi. Bir etikette araştırmayla doğrulanan bilgi bulunacaktı. Diğerinde ise öğrencilerin o bilgiden hareketle yazdığı özgün kurgu yer alacaktı. Kaynak bilgisiyle hayal gücü yan yana durabilirdi; yeter ki sınırları gösterilsin. Sarp kendi öyküsünün başına “Bu bölüm, öğrenciler tarafından yazılmış kurgusal bir anlatıdır.” cümlesini ekledi. Gerçek kişilerle karışmaması için ismini de özellikle kurgusal olarak belirtti.\nHarita hazırlanırken başka bir sorun çıktı. Bir çizgi, yolun tam olarak nereden geçtiği biliniyormuş izlenimi veriyordu. Oysa öğrenciler bu ayrıntıyı doğrulamamıştı. Asya çizgiyi kesin güzergâh olarak göstermekten vazgeçmelerini önerdi. Haritanın yalnız taşıma işinin güçlüğünü düşünmeye yardımcı bir şema olduğunu yazdılar. Görselin altındaki kısa açıklama, resmin nasıl okunması gerektiğini de belirliyordu. Büyük bir kırmızı ok kadar küçük bir kaynak notu da önemliydi.\nAçılışta bir ziyaretçi çantanın ne kadar eski olduğunu sordu. Sarp, çantayı geçen hafta yaptıklarını açıkça söyledi. Sonra modelin tarihî bir eşya olmasa da taşıma görevlerini düşünmelerine yardım ettiğini anlattı. Ziyaretçi öyküyü okumayı sürdürdü. Kurgunun açıklanması ilgiyi azaltmamıştı; aksine metni doğru beklentiyle okumayı sağlamıştı. Asya sunumun sonuna öğrencilerin henüz cevaplayamadığı soruları da ekledi. Bu soruların bazıları yeni bir araştırma gerektiriyordu. Sergi, bitmiş ve eksiksiz bir tarih kitabı değildi. Ortak emek hakkında düşünmek, doğru kaynak kullanmak ve bildiklerinin sınırını dürüstçe göstermek için bir başlangıçtı. Sarp o akşam kendi öyküsünü yeniden okudu. Kurgu olduğunu açıkça söylemek, onu daha az değerli yapmıyordu. Yalnızca hangi işi yaptığını daha doğru anlatıyordu.\nSergi defterine gelen soruları not ettiler. Her soruya hemen cevap yazmadılar; önce hangi kaynağa başvurabileceklerini belirlediler. Böylece merak, kaynağı belirsiz yeni bir öyküye değil, düzenli bir araştırmaya yöneldi.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır.",
+      "sorular": [
+        {
+          "id": "7-2-okuma-1-1",
+          "tip": "secim",
+          "soru": "“İki Ayrı Etiket” metnine göre: Sergi nesnelerinin niteliği nedir?",
+          "secenekler": [
+            "Öğrencilerin sonradan hazırladığı modeller",
+            "Dönemden kalma doğrulanmış eserler",
+            "Bir kazıda bulunan özgün belgeler"
+          ],
+          "dogru": "Öğrencilerin sonradan hazırladığı modeller",
+          "aciklama": "Girişte malzemelerin çoğunun yeni hazırlanmış model olduğu belirtilir.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-2-okuma-1-2",
+          "tip": "secim",
+          "soru": "“İki Ayrı Etiket” metnine göre: Asya'nın temel itirazı nedir?",
+          "secenekler": [
+            "Hiç öykü yazılmaması",
+            "Bütün nesnelerin aynı renk olması",
+            "Kurgu ile doğrulanan bilginin karışması"
+          ],
+          "dogru": "Kurgu ile doğrulanan bilginin karışması",
+          "aciklama": "Asya öyküyü beğenir fakat belgeden alınmış gibi sunulmasını doğru bulmaz.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-2-okuma-1-3",
+          "tip": "secim",
+          "soru": "“İki Ayrı Etiket” metnine göre: İki etiket neyi ayırır?",
+          "secenekler": [
+            "İki ziyaretçinin biletini",
+            "Kaynak bilgisiyle özgün kurguyu",
+            "Eski ve yeni yazı karakterlerini"
+          ],
+          "dogru": "Kaynak bilgisiyle özgün kurguyu",
+          "aciklama": "Etiketlerin biri doğrulanmış bilgiye, diğeri öğrenci kurgusuna ayrılır.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-2-okuma-1-4",
+          "tip": "secim",
+          "soru": "“İki Ayrı Etiket” metnine göre: Haritadaki kesin çizginin sorunu nedir?",
+          "secenekler": [
+            "Doğrulanmamış bir ayrıntıya kesinlik vermesi",
+            "Hiçbir taşıma işini göstermemesi",
+            "Yalnız yazıyla hazırlanması"
+          ],
+          "dogru": "Doğrulanmamış bir ayrıntıya kesinlik vermesi",
+          "aciklama": "Güzergâh bilinmediği hâlde çizgi biliniyormuş izlenimi yaratır.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-2-okuma-1-5",
+          "tip": "secim",
+          "soru": "“İki Ayrı Etiket” metnine göre: Model sözü burada neyi karşılar?",
+          "secenekler": [
+            "Kesin tarihî kanıtı",
+            "Gerçek bir kişinin anı defterini",
+            "Düşünmeyi kolaylaştıran bir temsil nesnesini"
+          ],
+          "dogru": "Düşünmeyi kolaylaştıran bir temsil nesnesini",
+          "aciklama": "Nesne dönem eşyası değil, taşıma görevini anlamaya yarayan temsildir.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-2-okuma-1-6",
+          "tip": "secim",
+          "soru": "“İki Ayrı Etiket” metnine göre: Açıklamanın ziyaretçiye etkisi ne olmuştur?",
+          "secenekler": [
+            "Modeli gerçek esere dönüştürmüştür",
+            "Metni doğru beklentiyle okumasını sağlamıştır",
+            "Öykünün okunmasını imkânsızlaştırmıştır"
+          ],
+          "dogru": "Metni doğru beklentiyle okumasını sağlamıştır",
+          "aciklama": "Ziyaretçi kurgu olduğunu öğrendikten sonra öyküyü okumaya devam eder.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-2-okuma-1-7",
+          "tip": "secim",
+          "soru": "“İki Ayrı Etiket” metnine göre: Bu metin hangi iki tür içeriği karşılaştırır?",
+          "secenekler": [
+            "Belgeye dayalı açıklama ile kurgusal anlatı",
+            "İki farklı spor kuralını",
+            "Yemek tarifi ile hava raporunu"
+          ],
+          "dogru": "Belgeye dayalı açıklama ile kurgusal anlatı",
+          "aciklama": "Anlatının temel ayrımı doğrulanmış bilgi ve hayalî öyküdür.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-2-okuma-1-8",
+          "tip": "secim",
+          "soru": "“İki Ayrı Etiket” metnine göre: Metnin iletisi hangisidir?",
+          "secenekler": [
+            "İlgi çekmek için kaynaklar gizlenmelidir",
+            "Her yeni model tarihî eser sayılmalıdır",
+            "Bilgiyle kurgu birlikte sunulurken sınırları açık olmalıdır"
+          ],
+          "dogru": "Bilgiyle kurgu birlikte sunulurken sınırları açık olmalıdır",
+          "aciklama": "Olaylar açıklığın kurguyu değersizleştirmeden doğruluğu koruduğunu gösterir.",
+          "cikti": "T.O.7.7"
+        }
+      ]
+    },
+    {
+      "id": "7-2-okuma-2",
+      "baslik": "Bir Anma Programının Dili",
+      "tur": "bilgilendirici",
+      "metin": "Bir anma programı hazırlamak, yalnız güçlü cümleler seçmek değildir. Hangi bilginin hangi kaynaktan geldiğini, kime seslenildiğini ve seçilen anlatımın neyi öne çıkardığını düşünmek de gerekir. Millî Mücadele ve bağımsızlık konulu bir çalışma, ortak emeği anlamaya yardımcı olabilir. Ancak bu amaç, etkileyici görünmesi için bilinmeyen ayrıntıları uydurmayı gerektirmez. Tarihî bilgiyle öğrencilerin özgün üretimi açıkça ayrılabilir.\nProgramda kullanılacak bir konuşma metni önce amaç yönünden incelenir. Dinleyiciye kısa bir tarihsel çerçeve mi sunulacak, bir kavram üzerine düşündürücü sorular mı sorulacak, yoksa öğrencilerin hazırladığı ürünler mi tanıtılacak? Bu amaçlar birlikte bulunabilir, fakat her bölümün işlevi anlaşılır olmalıdır. Her cümleye aynı yoğunlukta duygu yüklemek, önemli noktaları daha belirgin yapmak yerine bütün metni yorucu hâle getirebilir.\nGörseller de sözler kadar dikkatle seçilmelidir. Bir fotoğrafın ne zaman ve nerede çekildiği bilinmiyorsa o fotoğraf başka bir olayı kanıtlamak için kullanılamaz. Sonradan yapılmış bir canlandırma, gerçek görüntü olarak sunulmamalıdır. Küçük bir alt yazı, görselin niteliğini açıklamaya yardım eder. Görselde anlatılanla konuşmada söylenen arasındaki uyum kontrol edilir. Duygusal bir müzik, eksik kaynak bilgisinin yerini tutmaz.\nProgramın farklı parçaları arasında bağlantı kurmak için uygun geçişler kullanılabilir. Konuşmadan şiire geçerken şiirin hangi düşünceyle ilişkili olduğu kısa bir cümleyle belirtilir. Şiir özgünse bu söylenir; bir eserden alıntıysa adı ve kaynağı gösterilir. Uzun bir alıntı yerine kısa bir bölüm seçmek ve onu açıklamak daha anlamlı olabilir. Kullanılan içeriklerin haklarına ve okulun paylaşım kurallarına da dikkat edilir.\nSon kontrol yalnız sahne sırasını denemek değildir. Bir dinleyici metindeki temel düşünceyi izleyebiliyor mu, görseller yazıları kapatıyor mu, önemli açıklamalar okunabilir mi? Bu sorular hazırlığı geliştirebilir. Bir prova sırasında fark edilen eksiklik, programın değersiz olduğunu göstermez. Tam tersine prova, düzeltilebilecek sorunları erken görme fırsatıdır. Ortak emeği anlatan bir programın hazırlanışında da görevlerin paylaşılması anlamlıdır. Sesi güçlü olan öğrencinin bütün bölümleri üstlenmesi gerekmez. Araştırma, kaynak kontrolü, yazı düzenleme ve teknik hazırlık da görünür katkılardır. Böylece anma, yalnız geçmiş hakkında konuşmakla sınırlı kalmaz. Bugün birlikte çalışırken doğruluk, sorumluluk ve saygıyı nasıl uygulayabileceğimizi de düşündürür. Program bittikten sonra kullanılan kaynak listesi saklanabilir. Sonraki yıl aynı metni düşünmeden tekrarlamak yerine, neyin işe yaradığı ve hangi bilginin yeniden kontrol edilmesi gerektiği bu kayıtlardan izlenebilir.\nSon toplantıda hazırlıkla sunum arasındaki fark da konuşulabilir. Bir bilginin doğrulanmış olması, sahnede anlaşılır sunulduğunu tek başına göstermez. Bu nedenle doğruluk ve anlatım iki ayrı ölçütle birlikte gözden geçirilir.\nBu kayıtların anlaşılır tutulması, yeni katılan öğrencilerin çalışmayı devralmasını da kolaylaştırır. Bir kararın neden alındığını görebilen kişi, aynı sorunu yeniden yaşamadan daha iyi bir seçenek önerebilir. Ortak birikim böyle korunur.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır.",
+      "sorular": [
+        {
+          "id": "7-2-okuma-2-1",
+          "tip": "secim",
+          "soru": "“Bir Anma Programının Dili” metnine göre: Metnin konusu nedir?",
+          "secenekler": [
+            "Bir sahnenin satış fiyatını hesaplamak",
+            "Tarihî olayları yeni baştan kurgulamak",
+            "Anma programında doğru ve amaçlı anlatım kurmak"
+          ],
+          "dogru": "Anma programında doğru ve amaçlı anlatım kurmak",
+          "aciklama": "Yazı amaç, kaynak, görsel ve prova düzenini program dili çevresinde ele alır.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-2-okuma-2-2",
+          "tip": "secim",
+          "soru": "“Bir Anma Programının Dili” metnine göre: Duygusal müzik hangi eksikliği gideremez?",
+          "secenekler": [
+            "Provanın ritim ihtiyacını",
+            "Kaynak bilgisinin eksikliğini",
+            "Bir bölümün sessizliğini"
+          ],
+          "dogru": "Kaynak bilgisinin eksikliğini",
+          "aciklama": "Metin müziğin doğrulanmamış bilgiye dayanak olamayacağını açıklar.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-2-okuma-2-3",
+          "tip": "secim",
+          "soru": "“Bir Anma Programının Dili” metnine göre: Sonradan yapılan canlandırma nasıl sunulmalıdır?",
+          "secenekler": [
+            "Canlandırma olduğu belirtilerek",
+            "Gerçek olay görüntüsü diye",
+            "Kaynağı silinerek"
+          ],
+          "dogru": "Canlandırma olduğu belirtilerek",
+          "aciklama": "Görselin niteliği alt yazıyla açıklandığında bilgi ile kurgu karışmaz.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-2-okuma-2-4",
+          "tip": "secim",
+          "soru": "“Bir Anma Programının Dili” metnine göre: Geçiş cümlesinin işlevi nedir?",
+          "secenekler": [
+            "Her şiirin konusunu değiştirmek",
+            "Bütün kaynakları kaldırmak",
+            "Bölümler arasındaki düşünce bağını göstermek"
+          ],
+          "dogru": "Bölümler arasındaki düşünce bağını göstermek",
+          "aciklama": "Konuşma ve şiirin ilişkisi kısa bir geçişle dinleyiciye gösterilir.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-2-okuma-2-5",
+          "tip": "secim",
+          "soru": "“Bir Anma Programının Dili” metnine göre: Prova hangi amaçla önerilir?",
+          "secenekler": [
+            "Araştırmayı tamamen atlamak için",
+            "Düzeltilebilir sorunları erken görmek için",
+            "Hataların üstünü örtmek için"
+          ],
+          "dogru": "Düzeltilebilir sorunları erken görmek için",
+          "aciklama": "Prova, okunabilirlik ve sıralama gibi sorunları önceden ortaya çıkarır.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-2-okuma-2-6",
+          "tip": "secim",
+          "soru": "“Bir Anma Programının Dili” metnine göre: Metne göre katkı nasıl değerlendirilir?",
+          "secenekler": [
+            "Sahne dışındaki görevler de katkıdır",
+            "Yalnız sesi en güçlü olanın işi önemlidir",
+            "Araştırma bir görev sayılmaz"
+          ],
+          "dogru": "Sahne dışındaki görevler de katkıdır",
+          "aciklama": "Kaynak kontrolü ve teknik hazırlık da ortak çalışmanın parçalarıdır.",
+          "cikti": "T.O.7.7"
+        },
+        {
+          "id": "7-2-okuma-2-7",
+          "tip": "secim",
+          "soru": "“Bir Anma Programının Dili” metnine göre: İlk paragrafın sonraki bölümlere katkısı nedir?",
+          "secenekler": [
+            "Bütün ayrıntıları sonuçlandırmak",
+            "Yalnız kişiler kadrosunu tanıtmak",
+            "İncelemenin amacını ve doğruluk ilkesini kurmak"
+          ],
+          "dogru": "İncelemenin amacını ve doğruluk ilkesini kurmak",
+          "aciklama": "İlk bölüm program dilinin doğruluk ve amaçla ilişkisini tanıtır.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-2-okuma-2-8",
+          "tip": "secim",
+          "soru": "“Bir Anma Programının Dili” metnine göre: Ana düşünce hangisidir?",
+          "secenekler": [
+            "Programlar hiç değişmeden yinelenmelidir",
+            "Etkili anma çalışması duygu kadar kaynak, açıklık ve ortak sorumluluk ister",
+            "Güçlü ses bütün bilgi sorunlarını çözer"
+          ],
+          "dogru": "Etkili anma çalışması duygu kadar kaynak, açıklık ve ortak sorumluluk ister",
+          "aciklama": "Yazının bütün önerileri amaçlı ve güvenilir iletişimi destekler.",
+          "cikti": "T.O.7.5",
+          "onKosul": true
+        }
+      ]
+    }
+  ],
+  "konular": [
+    {
+      "kod": "7-2-isim-cekim",
+      "ad": "İsim çekim eklerinin işlevi",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.Y.7.3",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>İsim çekim ekleri kelimeyi cümlede çoğulluk, durum, ilgi ve iyelik gibi ilişkilerle kullanır. Aynı biçimde görünen eklerin görevleri bağlama göre ayrılabilir. Evim sözünde iyelik, eve sözünde yönelme vardır. Kelimeyi yeni bir kavrama dönüştüren yapım ekiyle çekim ekini ayır. Soru eki geleneksel adlandırmada ek sayılsa da önceki kelimeden ayrı yazılır.</p><ul><li>Kitaplar çoğul bildirir.</li><li>Defterim iyelik bildirir.</li><li>Okula yönelme bildirir.</li></ul>",
+      "ornekler": [
+        "Kitaplar çoğul bildirir.",
+        "Defterim iyelik bildirir.",
+        "Okula yönelme bildirir."
+      ],
+      "testler": [
+        {
+          "id": "7-2-isim-cekim-1",
+          "tip": "secim",
+          "soru": "“kitaplar” biçimi için hangi açıklama uygundur?",
+          "secenekler": [
+            "-lar yalnız geçmiş zaman bildirir",
+            "-lar çoğulluk bildirir",
+            "-lar yeni meslek adı yapar"
+          ],
+          "dogru": "-lar çoğulluk bildirir",
+          "aciklama": "Birden çok kitap gösterilir; kelimenin kavramı değişmez.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-2-isim-cekim-2",
+          "tip": "secim",
+          "soru": "“evde” biçimi için hangi açıklama uygundur?",
+          "secenekler": [
+            "-de bulunma bildirir",
+            "-de bağlaçtır",
+            "-de kişi eki olur"
+          ],
+          "dogru": "-de bulunma bildirir",
+          "aciklama": "Evde sözü yer ilişkisi kurduğu için bulunma ekidir.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-2-isim-cekim-3",
+          "tip": "secim",
+          "soru": "“okula” biçimi için hangi açıklama uygundur?",
+          "secenekler": [
+            "-a çoğul yapar",
+            "-a yeni ad türetir",
+            "-a yönelme bildirir"
+          ],
+          "dogru": "-a yönelme bildirir",
+          "aciklama": "Hareketin yöneldiği yer ekle belirtilir.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-2-isim-cekim-4",
+          "tip": "secim",
+          "soru": "“raftan” biçimi için hangi açıklama uygundur?",
+          "secenekler": [
+            "-tan soru bildirir",
+            "-tan ayrılma bildirir",
+            "-tan iyelik bildirir"
+          ],
+          "dogru": "-tan ayrılma bildirir",
+          "aciklama": "Raf bir başlangıç veya uzaklaşma noktası olur.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-2-isim-cekim-5",
+          "tip": "secim",
+          "soru": "“kalemi” biçimi için hangi açıklama uygundur?",
+          "secenekler": [
+            "-i belirtili nesne kullanımını sağlayabilir",
+            "-i her cümlede yeni kelime türetir",
+            "-i her cümlede soru yapar"
+          ],
+          "dogru": "-i belirtili nesne kullanımını sağlayabilir",
+          "aciklama": "Kalemi aldım bağlamında -i belirtme durum ekidir; işlev bağlamla kontrol edilir.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-2-isim-cekim-6",
+          "tip": "secim",
+          "soru": "“kitabın” biçimi için hangi açıklama uygundur?",
+          "secenekler": [
+            "-ın yalnız çoğulluk bildirir",
+            "-ın emir kipidir",
+            "-ın ilgi ilişkisi kurabilir"
+          ],
+          "dogru": "-ın ilgi ilişkisi kurabilir",
+          "aciklama": "Kitabın kapağı ifadesinde -ın ilgi eki olarak kullanılır.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-2-isim-cekim-7",
+          "tip": "secim",
+          "soru": "“defterim” biçimi için hangi açıklama uygundur?",
+          "secenekler": [
+            "-im bulunma bildirir",
+            "-im iyelik bildirir",
+            "-im her zaman yapım ekidir"
+          ],
+          "dogru": "-im iyelik bildirir",
+          "aciklama": "Defterim sözü defterin konuşana aitliğini gösterir.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-2-isim-cekim-8",
+          "tip": "secim",
+          "soru": "“kitabımız” biçimi için hangi açıklama uygundur?",
+          "secenekler": [
+            "-ımız birinci çoğul kişi iyeliği bildirir",
+            "-ımız ayrılma ekidir",
+            "-ımız fiil zamanı bildirir"
+          ],
+          "dogru": "-ımız birinci çoğul kişi iyeliği bildirir",
+          "aciklama": "Kitabımız bizim kitabımız anlamı taşır.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-2-isim-cekim-9",
+          "tip": "secim",
+          "soru": "“masaya” biçimi için hangi açıklama uygundur?",
+          "secenekler": [
+            "-ya çoğul ekidir",
+            "-ya olumsuzluk yapar",
+            "-ya yönelme bildirir"
+          ],
+          "dogru": "-ya yönelme bildirir",
+          "aciklama": "Masa sözü yönelme ekini araya y sesi alarak kullanır.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-2-isim-cekim-10",
+          "tip": "secim",
+          "soru": "“sınıflarda” biçimi için hangi açıklama uygundur?",
+          "secenekler": [
+            "Yalnız kişi eki vardır",
+            "-lar çoğul, -da bulunma bildirir",
+            "Her iki ek de yeni kelime türetir"
+          ],
+          "dogru": "-lar çoğul, -da bulunma bildirir",
+          "aciklama": "Sınıf-lar-da yapısında iki çekim eki farklı ilişki kurar.",
+          "cikti": "T.Y.7.3"
+        }
+      ]
+    },
+    {
+      "kod": "7-2-fiil-cekim",
+      "ad": "Fiilde kip ve kişi",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.Y.7.3",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Fiil çekimi bir işin zamanını veya tasarlanma biçimini ve kişisini gösterebilir. Geldim sözünde geçmiş zaman ve birinci kişi, gelelim sözünde istek anlamı görülür. Ekleri tek başına ezberlemek yerine cümledeki anlamı izle. Bir biçim bağlamla farklı bir zaman değeri taşıyabilir; bu derste önce açık örneklerin kişi ve kip ilişkisini inceliyoruz.</p><ul><li>Yazdım: birinci tekil kişi.</li><li>Yazacağız: birinci çoğul kişi.</li><li>Okuyalım: birlikte yapma isteği.</li></ul>",
+      "ornekler": [
+        "Yazdım: birinci tekil kişi.",
+        "Yazacağız: birinci çoğul kişi.",
+        "Okuyalım: birlikte yapma isteği."
+      ],
+      "testler": [
+        {
+          "id": "7-2-fiil-cekim-1",
+          "tip": "secim",
+          "soru": "“yazdım” fiil çekimi için doğru açıklama hangisidir?",
+          "secenekler": [
+            "Geçmiş zaman, birinci tekil kişi",
+            "Gelecek zaman, ikinci tekil kişi",
+            "İstek, üçüncü çoğul kişi"
+          ],
+          "dogru": "Geçmiş zaman, birinci tekil kişi",
+          "aciklama": "Yaz-dı-m çekiminde -dı geçmiş, -m konuşan kişiyi gösterir.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-2-fiil-cekim-2",
+          "tip": "secim",
+          "soru": "“yazacağız” fiil çekimi için doğru açıklama hangisidir?",
+          "secenekler": [
+            "Geçmiş zaman, birinci tekil kişi",
+            "Şimdiki zaman, ikinci çoğul kişi",
+            "Gelecek zaman, birinci çoğul kişi"
+          ],
+          "dogru": "Gelecek zaman, birinci çoğul kişi",
+          "aciklama": "Yaz-acak-ız biçimi gelecekteki işi ve biz kişisini gösterir.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-2-fiil-cekim-3",
+          "tip": "secim",
+          "soru": "“geldin” fiil çekimi için doğru açıklama hangisidir?",
+          "secenekler": [
+            "İstek, birinci çoğul kişi",
+            "Geçmiş zaman, ikinci tekil kişi",
+            "Gelecek zaman, üçüncü kişi"
+          ],
+          "dogru": "Geçmiş zaman, ikinci tekil kişi",
+          "aciklama": "Gel-di-n biçiminde -n sen kişisini bildirir.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-2-fiil-cekim-4",
+          "tip": "secim",
+          "soru": "“çalışıyoruz” fiil çekimi için doğru açıklama hangisidir?",
+          "secenekler": [
+            "Şimdiki zaman, birinci çoğul kişi",
+            "Gelecek zaman, ikinci kişi",
+            "Geçmiş zaman, üçüncü tekil kişi"
+          ],
+          "dogru": "Şimdiki zaman, birinci çoğul kişi",
+          "aciklama": "Çalış-ıyor-uz sözü sürmekte olan işi ve biz öznesini gösterir.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-2-fiil-cekim-5",
+          "tip": "secim",
+          "soru": "“okuyalım” fiil çekimi için doğru açıklama hangisidir?",
+          "secenekler": [
+            "Kesin bitmiş bir iş",
+            "Yalnız üçüncü kişi aktarımı",
+            "Birlikte yapmaya yönelik istek"
+          ],
+          "dogru": "Birlikte yapmaya yönelik istek",
+          "aciklama": "Okuyalım, konuşanın da içinde olduğu gruba yönelik istek taşır.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-2-fiil-cekim-6",
+          "tip": "secim",
+          "soru": "“bakınız” fiil çekimi için doğru açıklama hangisidir?",
+          "secenekler": [
+            "Üçüncü tekilin geleceği",
+            "İkinci çoğul kişiye yönelik emir veya yönlendirme",
+            "Birinci tekil kişinin geçmişi"
+          ],
+          "dogru": "İkinci çoğul kişiye yönelik emir veya yönlendirme",
+          "aciklama": "Bakınız biçimi siz kişisine yönelik bir yönlendirmedir.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-2-fiil-cekim-7",
+          "tip": "secim",
+          "soru": "“bilmeliyiz” fiil çekimi için doğru açıklama hangisidir?",
+          "secenekler": [
+            "Gereklilik, birinci çoğul kişi",
+            "Şimdiki zaman, ikinci tekil kişi",
+            "Geçmiş zaman, üçüncü çoğul kişi"
+          ],
+          "dogru": "Gereklilik, birinci çoğul kişi",
+          "aciklama": "Gereklilik eki ve kişi eki işi yapmanın gerekli olduğunu biz için bildirir.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-2-fiil-cekim-8",
+          "tip": "secim",
+          "soru": "“gelebilsem” fiil çekimi için doğru açıklama hangisidir?",
+          "secenekler": [
+            "Kesin gelecek, ikinci kişi",
+            "Geçmiş zaman, birinci çoğul kişi",
+            "Dilek-koşul biçimi, birinci tekil kişi"
+          ],
+          "dogru": "Dilek-koşul biçimi, birinci tekil kişi",
+          "aciklama": "Gelsem türündeki çekimde konuşanın dileği veya koşulu bağlamla ortaya çıkar.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-2-fiil-cekim-9",
+          "tip": "secim",
+          "soru": "“koştunuz” fiil çekimi için doğru açıklama hangisidir?",
+          "secenekler": [
+            "Gelecek zaman, üçüncü kişi",
+            "Geçmiş zaman, ikinci çoğul kişi",
+            "Şimdiki zaman, birinci kişi"
+          ],
+          "dogru": "Geçmiş zaman, ikinci çoğul kişi",
+          "aciklama": "Koş-tu-nuz çekimindeki kişi eki siz öznesiyle uyumludur.",
+          "cikti": "T.Y.7.3"
+        },
+        {
+          "id": "7-2-fiil-cekim-10",
+          "tip": "secim",
+          "soru": "“anlatmışlar” fiil çekimi için doğru açıklama hangisidir?",
+          "secenekler": [
+            "Öğrenilen geçmiş biçimi, üçüncü çoğul kişi",
+            "Gelecek zaman, birinci kişi",
+            "Emir, ikinci tekil kişi"
+          ],
+          "dogru": "Öğrenilen geçmiş biçimi, üçüncü çoğul kişi",
+          "aciklama": "Anlat-mış-lar biçimi -mış kipini ve üçüncü çoğul kişiyi gösterir.",
+          "cikti": "T.Y.7.3"
+        }
+      ]
+    }
+  ],
+  "dinleme": [
+    {
+      "id": "7-2-dinleme",
+      "baslik": "Model ve Belge",
+      "metin": "Sergide bir öğrenci yapımı çanta modeliyle doğrulanmış bir belge kopyası yan yana duruyordu. İlk etikette hangisinin ne olduğu açık değildi. Grup iki ayrı açıklama yazdı. Modelin geçen hafta yapıldığını, belge kopyasının ise kaynağını belirtti. Modelin yanındaki öykü de öğrencilerin kurgusu olarak tanıtıldı. Açılışta gelen bir soru, açıklamanın hâlâ eksik bir yanı olduğunu gösterdi. Öğrenciler yazıyı yeniden düzenledi; ilgi çekici bir sunumun bilgi sınırlarını gizlememesi gerektiğini düşündüler.",
+      "tts": {
+        "dil": "tr-TR",
+        "sesYoksa": "metin"
+      },
+      "sorular": [
+        {
+          "id": "7-2-dinleme-1",
+          "tip": "secim",
+          "soru": "“Model ve Belge” dinleme metnine göre: Yan yana hangi iki içerik vardı?",
+          "secenekler": [
+            "Öğrenci modeli ve belge kopyası",
+            "İki gerçek dönem eşyası",
+            "İki satın alma fişi"
+          ],
+          "dogru": "Öğrenci modeli ve belge kopyası",
+          "aciklama": "Metindeki olay ve açıklamalar “Öğrenci modeli ve belge kopyası” seçeneğini destekler; diğer seçeneklerdeki ayrıntılar dinlenen içerikle uyuşmaz.",
+          "cikti": "T.D.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-2-dinleme-2",
+          "tip": "secim",
+          "soru": "“Model ve Belge” dinleme metnine göre: İlk etiketin sorunu neydi?",
+          "secenekler": [
+            "Çok büyük olması",
+            "Hiç harf içermemesi",
+            "İçeriklerin niteliğini ayırmaması"
+          ],
+          "dogru": "İçeriklerin niteliğini ayırmaması",
+          "aciklama": "Metindeki olay ve açıklamalar “İçeriklerin niteliğini ayırmaması” seçeneğini destekler; diğer seçeneklerdeki ayrıntılar dinlenen içerikle uyuşmaz.",
+          "cikti": "T.D.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-2-dinleme-3",
+          "tip": "secim",
+          "soru": "“Model ve Belge” dinleme metnine göre: Öykü nasıl tanıtıldı?",
+          "secenekler": [
+            "Bir resmî karar olarak",
+            "Öğrencilerin kurgusu olarak",
+            "Kesin tarihî tanıklık olarak"
+          ],
+          "dogru": "Öğrencilerin kurgusu olarak",
+          "aciklama": "Metindeki olay ve açıklamalar “Öğrencilerin kurgusu olarak” seçeneğini destekler; diğer seçeneklerdeki ayrıntılar dinlenen içerikle uyuşmaz.",
+          "cikti": "T.D.7.5",
+          "onKosul": true
+        },
+        {
+          "id": "7-2-dinleme-4",
+          "tip": "secim",
+          "soru": "“Model ve Belge” dinleme metnine göre: Ziyaretçi sorusu neye yol açtı?",
+          "secenekler": [
+            "Açıklamanın yeniden düzenlenmesine",
+            "Serginin geçmişinin uydurulmasına",
+            "Bütün kaynakların kaldırılmasına"
+          ],
+          "dogru": "Açıklamanın yeniden düzenlenmesine",
+          "aciklama": "Metindeki olay ve açıklamalar “Açıklamanın yeniden düzenlenmesine” seçeneğini destekler; diğer seçeneklerdeki ayrıntılar dinlenen içerikle uyuşmaz.",
+          "cikti": "T.D.7.5",
+          "onKosul": true
+        }
+      ]
+    }
+  ],
+  "yazmaGorevleri": [
+    {
+      "id": "7-2-yazma",
+      "baslik": "İki Sergi Etiketi",
+      "yonerge": "Bir öğrenci modelini ve kaynak bilgisi bulunan belge kopyasını tanıtan iki kısa etiket ile açıklamalarını toplam 140–220 kelimede yaz. Bilgi ve kurguyu açıkça ayır; doğrulanmamış tarihî söz veya kişi üretme. İsim ve fiil çekimlerini gözden geçir.",
+      "minKelime": 140,
+      "maxKelime": 220,
+      "ciktilar": [
+        "T.Y.7.3",
+        "T.Y.7.10",
+        "T.Y.7.21",
+        "T.Y.7.22"
+      ],
+      "ogretmenDegerlendirmeli": true,
+      "rubrik": [
+        {
+          "olcut": "Amaç ve içerik",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Gerekçe ve anlam bütünlüğü",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Dil yapıları ve söz varlığı",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Yazım, noktalama ve gözden geçirme",
+          "enDusuk": 0,
+          "enYuksek": 4
+        }
+      ]
+    }
+  ],
+  "lgsSorulari": []
+}
