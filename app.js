@@ -432,7 +432,7 @@ function finishGame(){
 
 function renderGames(){
   const grid=document.getElementById('gameGrid');
-  grid.innerHTML = games.map(g=>`<div class="game-card card"><h3>${g.title}</h3><p>${g.description}</p><button class="play" onclick="openGame('${g.id}')">Oyunu Aç</button></div>`).join('');
+  grid.innerHTML = games.map((g,i)=>`<article class="modern-game-card game-tone-${i}"><div class="game-illustration game-art-${i}" role="img" aria-label="${g.title} oyun çizimi"></div><div class="game-details"><h2>${g.title}</h2><p>${g.description}</p><div class="game-card-actions"><span class="game-energy"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m13 1-10 13h8l-1 9L22 9h-9l2-8z"/></svg>3 Enerji</span><button class="modern-play" onclick="openGame('${g.id}')" aria-label="${g.title} — Oyuna Başla"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 2v20l17-10z"/></svg><span>Oyuna Başla</span></button></div></div></article>`).join('');
 }
 
 window.closeModal = closeModal;
@@ -453,6 +453,6 @@ document.addEventListener("visibilitychange",()=>{if(!document.hidden)refreshEco
 setInterval(()=>{if(!document.hidden)refreshEconomy()},30000);
 renderMap();
 renderGames();
-function applyMemberState(data){state.completed=data?.completed||[];refreshEconomy();renderMap();const link=document.getElementById('accountLink');if(link)link.textContent=data?.profile?'Hesabım':'Giriş';}
+function applyMemberState(data){state.completed=data?.completed||[];refreshEconomy();renderMap();const link=document.getElementById('accountLink');if(link){link.textContent=data?.profile?'Hesabım':'Giriş';link.setAttribute('aria-label',link.textContent);link.title=data?.profile?.full_name||link.textContent;}}
 window.addEventListener('member-state',event=>applyMemberState(event.detail));
 window.turkceMember.ready.then(()=>{applyMemberState(window.turkceMember.data);if(window.turkceMember.error)showMapMessage(window.turkceMember.error);});

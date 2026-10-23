@@ -1,0 +1,88 @@
+/* Approved design 3. Artwork is displayed from the approved composition. */
+:root{--modern-ink:#15124d;--modern-purple:#6330ed}
+body{background:linear-gradient(140deg,#f0f5fc,#faf8ff);color:var(--modern-ink)}
+#app,#app:has(#parkurView.active){max-width:1500px;width:100%;padding:14px}
+#app .topbar,body:has(#parkurView.active) #app .topbar{display:flex;position:relative;top:0;align-items:center;gap:15px;padding:12px 18px;border-radius:25px;background:white;box-shadow:0 6px 24px #3333660b;border:1px solid #e9eafa;min-height:80px;flex-wrap:wrap}
+#app .brand{gap:9px;flex-shrink:0}
+.modern-brand-art{display:block;width:48px;height:48px;border-radius:50%;background-image:url('assets/games/approved-modern.webp');background-size:2259% 1552%;background-position:2.55% 5.6%;flex:none}
+#app .brand-text{font-size:23px;max-width:none;white-space:nowrap;font-weight:900;letter-spacing:-.8px}
+#app .brand-text span{color:#141144}#app .brand-text strong{color:#6c35e9}
+#app .tabs{display:flex;gap:3px;flex:1;min-width:0;justify-content:center;flex-wrap:wrap;width:auto;order:0}
+#app .tab{display:flex;align-items:center;justify-content:center;gap:8px;padding:13px 12px!important;font-size:14px!important;border:0;border-radius:16px;background:transparent;color:#555789;box-shadow:none;white-space:nowrap;min-height:45px;text-decoration:none}
+#app .tab.active{background:#eee8ff;color:#4520d6;box-shadow:none}
+.ui-icon{height:23px;width:23px;flex:none;fill:currentColor;display:inline-block}
+.header-status{display:flex;align-items:center;gap:12px}
+#app .economy-strip{display:flex;align-items:center;justify-content:center;gap:7px;margin:0;padding:0;background:none;border:0;box-shadow:none;flex-wrap:nowrap;min-height:0}
+#app .economy-pill{display:flex;align-items:center;gap:4px;border-radius:17px;padding:9px 10px;min-height:43px;border:1px solid #b2eed7;background:#e8fff5;color:#087454;box-shadow:none;white-space:nowrap;font-size:12px}
+#app .economy-pill b{font-size:14px;color:inherit}#app .economy-pill small{font-size:12px;color:inherit}
+#app .economy-pill.experience,#app .economy-pill.coins{color:#895300;background:#fff7e4;border-color:#ffe0a0}
+#app .economy-pill.energy .ui-icon{color:#00b77d}#app .economy-pill.experience .ui-icon,#app .economy-pill.coins .ui-icon{color:#eda712}
+#levelValue{display:none}
+#accountLink{display:block;width:48px;height:48px;border-radius:50%;border:2px solid #8fa4ff;background-image:url('assets/games/approved-modern.webp');background-size:2648% 1707%;background-position:96.14% 5.7%;font-size:0;flex:none;box-shadow:0 0 0 4px #f4f5ff}
+#accountLink:after{content:'⌄';font-size:17px;color:#322d78;position:relative;left:46px;top:13px}
+#accountLink:focus-visible,.modern-play:focus-visible,.games-context button:focus-visible{outline:3px solid #263cb0;outline-offset:4px}
+#gamesView.active{display:block;margin-top:12px}
+.modern-games-layout{display:grid;grid-template-columns:minmax(220px,25%) minmax(0,1fr);gap:18px;background:#fff;padding:10px;border-radius:26px;box-shadow:0 8px 25px #3030800a;min-height:690px}
+.games-sidebar{background:linear-gradient(150deg,#eeebff,#f7f5ff);border-radius:23px;display:flex;flex-direction:column;overflow:hidden;min-width:0}
+.games-sidebar h1{font-size:clamp(36px,4vw,59px);line-height:1;letter-spacing:-2px;font-weight:900;margin:35px 21px 18px;position:relative;padding-bottom:24px;color:#15104b}
+.games-sidebar h1:after{content:'';position:absolute;bottom:0;left:0;width:70%;height:8px;border-radius:60% 40%;background:linear-gradient(90deg,#a46aff,#c5abff);transform:rotate(-3deg)}
+.games-sidebar>p{font-size:19px;font-weight:650;line-height:1.5;color:#55578d;margin:0 21px 25px}
+.games-context{display:grid;gap:11px;padding:0 20px;z-index:1}
+.games-context button{display:flex;align-items:center;gap:10px;text-align:left;color:#25215d;background:#ffffffd9;border:1px solid #d7d5ff;border-radius:14px;padding:14px 12px;font-size:14px;min-height:50px;cursor:pointer}
+.games-context button span:nth-last-child(2){flex:1}.games-context .ui-icon{color:#606594}
+.games-mascot{margin-top:18px;min-height:300px;flex:1;background-image:url('assets/games/approved-modern.webp');background-size:432.68% 205.21%;background-position:2.286% 91.43%;aspect-ratio:355/499;border-radius:0 0 23px 23px}
+.modern-game-grid{display:grid;grid-template-rows:repeat(3,minmax(0,1fr));gap:18px;min-width:0;padding:10px 3px}
+.modern-game-card{--outline:#ffdabd;--wash:#fff8f1;display:grid;grid-template-columns:minmax(0,45%) minmax(0,1fr);gap:25px;align-items:center;padding:16px;border:3px solid var(--outline);border-radius:25px;background:linear-gradient(120deg,#fff,var(--wash));min-width:0}
+.modern-game-card.game-tone-1{--outline:#b0eafb;--wash:#effcff}.modern-game-card.game-tone-2{--outline:#b9f4dc;--wash:#f1fff9}
+.game-illustration{background-image:url('assets/games/approved-modern.webp');background-size:318.01% 461.26%;background-position:40.266% 20.823%;aspect-ratio:483/222;border-radius:22px;min-width:0;width:100%}
+.game-art-1{background-size:318.01% 467.58%;background-position:40.266% 55.528%}
+.game-art-2{background-size:318.01% 451.10%;background-position:40.266% 90.966%}
+.game-details{min-width:0}.game-details h2{margin:0 0 12px;color:#16124f;font-weight:900;font-size:clamp(21px,2.2vw,32px);letter-spacing:-.8px;line-height:1.12;overflow-wrap:normal}
+.game-details p{margin:0 0 24px;font-size:clamp(14px,1.45vw,20px);color:#333365;line-height:1.45}
+.game-card-actions{display:flex;gap:12px;justify-content:space-between;align-items:center;flex-wrap:wrap}
+.game-energy{display:inline-flex;align-items:center;gap:6px;background:var(--outline);border-radius:13px;padding:10px 12px;color:#17143f;font-size:15px;font-weight:700;white-space:nowrap}.game-energy .ui-icon{color:#00a77e}
+.modern-play{display:flex;align-items:center;justify-content:center;gap:10px;background:linear-gradient(160deg,#9252ff,#5420dd);color:white;border:0;border-radius:16px;padding:14px 18px;font-size:17px;font-weight:800;cursor:pointer;min-height:48px;box-shadow:0 4px 10px #6530db20;white-space:nowrap}
+.modern-play .ui-icon{width:17px;height:17px}.modern-play:hover{filter:brightness(1.08)}
+@media(max-width:1250px){#app .topbar{gap:10px}#app .tabs{order:3!important;flex-basis:100%;width:100%!important}#app .header-status{margin-left:auto}.modern-game-card{gap:15px}.game-details p{margin-bottom:14px}.modern-play{padding:12px;font-size:15px}.games-sidebar h1{font-size:40px}.games-context{padding:0 12px}}
+@media(max-width:850px){.modern-games-layout{grid-template-columns:205px minmax(0,1fr);gap:10px;min-height:650px}.modern-game-card{grid-template-columns:40% minmax(0,1fr);padding:10px;gap:12px}.game-card-actions{gap:8px}.game-energy{font-size:12px;padding:7px 9px}.modern-play{font-size:13px;padding:9px;gap:5px}.game-details h2{font-size:21px}.game-details p{font-size:14px}.games-sidebar h1{font-size:36px;margin:25px 15px 15px}.games-sidebar>p{font-size:16px;margin-inline:15px}.games-mascot{min-height:250px}}
+@media(max-width:700px){
+ #app,#app:has(#parkurView.active){padding:6px;max-width:100%;width:100%}
+ #app .topbar,body:has(#parkurView.active) #app .topbar{display:grid;grid-template-columns:1fr auto;padding:8px;gap:7px;min-height:0;border-radius:17px}
+ #app .brand-text{font-size:18px;white-space:nowrap;max-width:none;letter-spacing:-.5px}.modern-brand-art{width:32px;height:32px}
+ #app .header-status{display:contents}#accountLink{grid-column:2;grid-row:1;width:32px;height:32px;margin-right:12px}#accountLink:after{left:32px;top:5px;font-size:14px}
+ #app .economy-strip{grid-column:1/-1;grid-row:2;width:100%;gap:6px}
+ #app .economy-pill{padding:5px 8px;min-height:32px;flex:1;justify-content:center;border-radius:12px;font-size:11px}#app .economy-pill b{font-size:12px}#app .economy-pill small{font-size:10px}#app .economy-pill .ui-icon{height:18px;width:18px}
+ #app .tabs{grid-column:1/-1;grid-row:3;flex-wrap:wrap;gap:1px;justify-content:space-between;width:100%!important}
+ #app .tab{padding:7px 5px!important;font-size:10px!important;gap:4px;min-height:34px;border-radius:10px}.tab .ui-icon{width:15px;height:15px}
+ .modern-games-layout{display:flex;flex-direction:column;padding:7px;gap:9px;min-height:0;border-radius:20px}
+ .games-sidebar{position:relative;display:block;padding:13px 12px 15px;min-height:155px;border-radius:16px}
+ .games-sidebar h1{font-size:32px;padding-bottom:10px;letter-spacing:-1px;margin:0 0 9px;max-width:65%}.games-sidebar h1:after{height:4px;width:100px}
+ .games-sidebar>p{font-size:13px;line-height:1.35;margin:0 0 13px;max-width:64%}
+ .games-context{display:flex;gap:5px;padding:0;position:relative;flex-wrap:wrap;width:100%}.games-context button{font-size:10px;padding:8px 6px;gap:4px;min-height:33px;border-radius:10px}.games-context .ui-icon{width:14px;height:14px}
+ .games-mascot{position:absolute;right:0;top:0;width:85px;height:115px;min-height:0;margin:0;border-radius:12px;aspect-ratio:355/499}
+ .modern-game-grid{display:grid;grid-template-rows:none;gap:9px;padding:0}
+ .modern-game-card{grid-template-columns:37% minmax(0,1fr);gap:9px;padding:9px;border-width:2px;border-radius:17px;min-height:136px}
+ .game-illustration{border-radius:12px}.game-details h2{font-size:17px;letter-spacing:-.4px;margin-bottom:6px}.game-details p{font-size:11px;line-height:1.3;margin-bottom:8px}
+ .game-card-actions{gap:5px;flex-wrap:wrap}.game-energy{padding:4px 6px;font-size:10px;gap:2px;border-radius:7px}.game-energy .ui-icon{width:13px;height:13px}.modern-play{font-size:11px;padding:7px 8px;min-height:34px;border-radius:9px;gap:4px}.modern-play .ui-icon{width:11px;height:11px}
+ #gamesView.active{margin-top:7px}
+}
+@media(prefers-reduced-motion:reduce){.modern-play{transition:none}}
+@media(min-width:851px){
+ .modern-games-layout{height:calc(100dvh - 125px);min-height:650px}
+ .games-sidebar{min-height:0}
+ .games-mascot{min-height:0;aspect-ratio:auto}
+ .modern-game-grid{min-height:0}
+}
+@media(max-width:700px){
+ #app .tabs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));align-items:stretch}
+ #app .tab{font-size:9px!important;gap:3px;padding:6px 3px!important}
+ #app .tab span{white-space:normal}
+ #app .economy-pill small{display:inline!important;font-size:9px}
+ #app .economy-pill{gap:3px;padding-inline:5px}
+ #app .economy-pill .ui-icon{width:15px;height:15px}
+ #app .economy-pill b{font-size:11px}
+ .modern-game-card{min-height:128px}
+ #app .tab[hidden]{display:none}
+ #adminTab:not([hidden]){grid-column:1/-1}
+}
+#app .tab[hidden]{display:none!important}

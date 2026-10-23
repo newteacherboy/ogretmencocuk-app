@@ -7,46 +7,44 @@
   <link rel="stylesheet" href="styles.css?v=energy-refill-v1" /><link rel="stylesheet" href="mobile-parkur.css?v=energy-refill-v1" /><link rel="stylesheet" href="reward-ui.css?v=energy-refill-v1" />
   <link rel="stylesheet" href="member-admin.css?v=members-admin-v1">
 <style>html[data-app-pending] #app{visibility:hidden}#app-loading{position:fixed;inset:0;display:grid;place-items:center;background:#e8f5ff;color:#173c82;font:700 20px system-ui;z-index:1000}</style>  <link rel="stylesheet" href="question-feedback.css?v=solutions-2">
-</head>
+<link rel="stylesheet" href="games-modern.css?v=modern-3"></head>
 <body>
 <p id="app-loading" role="status">Parkurun hazırlanıyor…</p>
   <div id="app">
     <header class="topbar">
       <div class="brand">
-        <img class="papi-brand" src="assets/papi-logo.webp" alt="Papi papağan maskotu" />
+        <span class="modern-brand-art" aria-hidden="true"></span>
         <div class="brand-text"><span>Diji-Medu</span><strong> Türkçe</strong></div>
       </div>
       <nav class="tabs">
-        <button class="tab active" data-view="parkurView">Parkur</button>
-        <button class="tab" data-view="gamesView">Oyunlar</button>
-        <button class="tab" data-view="topicsView">Sınıf ve Tema</button><button class="tab" data-view="friendsView">Arkadaşlar</button>
-        <a class="tab account-tab" href="hesap.html" id="accountLink">Giriş</a>
+        <button class="tab active" data-view="parkurView"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m2 11 10-9 10 9-3 1v10h-6v-7h-2v7H5V12z"/></svg><span>Parkur</span></button>
+        <button class="tab" data-view="gamesView"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h10c4 0 7 14 3 15-2 .5-4-4-5-4H9c-1 0-3 4.5-5 4C0 19 3 5 7 5z"/><path d="M7 8v6m-3-3h6" stroke="white" stroke-width="2"/><circle cx="16" cy="9" r="1.3" fill="white"/><circle cx="19" cy="12" r="1.3" fill="white"/></svg><span>Oyunlar</span></button>
+        <button class="tab" data-view="topicsView"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 3c4-1 7 0 10 2 3-2 6-3 10-2v17c-4-1-7 0-10 2-3-2-6-3-10-2z"/><path d="M12 5v17" stroke="white" stroke-width="1.5"/></svg><span>Sınıf ve Tema</span></button><button class="tab" data-view="friendsView"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="6" r="4"/><circle cx="19" cy="8" r="3"/><path d="M1 22v-4a8 8 0 0 1 16 0v4zm18 0v-4a10 10 0 0 0-2-6c5-1 7 2 7 6v4z"/></svg><span>Arkadaşlar</span></button>
+
         <button class="tab" data-view="adminView" id="adminTab" hidden>Kontrol Merkezi</button>
       </nav>
-
+      <div class="header-status"><div class="economy-strip" aria-label="Günlük enerji, XP ve altın"><div class="economy-pill energy"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m13 1-10 13h8l-1 9L22 9h-9l2-8z"/></svg><b id="energyValue">30/30</b><small>Enerji</small></div><div class="economy-pill experience"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 1 3.5 7 7.5 1-5.5 5.5 1.3 7.5-6.8-3.5L5.2 22l1.3-7.5L1 9l7.5-1z"/></svg><b id="xpValue">0</b><small>XP</small></div><div class="economy-pill coins"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="8" cy="6" rx="7" ry="4"/><path d="M1 7v5c0 5 14 5 14 0V7c-3 3-11 3-14 0zm0 7v4c0 5 14 5 14 0v-4c-3 3-11 3-14 0z"/><path d="M17 8c8 0 8 8 0 8zm0 10c3 0 5-1 6-2v4c-1 2-3 3-6 3z"/></svg><b id="goldValue">0</b><small>Altın</small></div><span class="economy-level" id="levelValue">Sv. 1</span></div><a class="account-tab" href="hesap.html" id="accountLink" aria-label="Hesabım" title="Hesabım">Hesabım</a></div>
     </header>
 
     <main>
       <section id="parkurView" class="view active">
-        <div class="economy-strip" aria-label="Günlük enerji, XP ve altın"><div class="economy-pill energy"><span aria-hidden="true">⚡</span><b id="energyValue">30/30</b><small>Enerji</small></div><div class="economy-pill experience"><span aria-hidden="true">✨</span><b id="xpValue">0</b><small>XP</small></div><div class="economy-pill coins"><span aria-hidden="true">🪙</span><b id="goldValue">0</b><small>Altın</small></div><span class="economy-level" id="levelValue">Sv. 1</span></div><div class="mobile-parkur-title"><div><span>5. Sınıf Türkçe</span><h1>1. Tema: Oyun Dünyası</h1></div><img src="assets/theme-objects.webp" alt="Oyun kumandası ve açık kitap" /></div>
+        <div class="mobile-parkur-title"><div><span>5. Sınıf Türkçe</span><h1>1. Tema: Oyun Dünyası</h1></div><img src="assets/theme-objects.webp" alt="Oyun kumandası ve açık kitap" /></div>
         <div id="mapCanvas" class="adventure-map" aria-label="Altı bölge ve 24 ayrı tıklanabilir durak"></div>
         <div class="adventure-footer"><span id="adventureProgress" aria-live="polite">0 / 24</span><button id="showAchievements" type="button">🎯 Tema hedefleri</button><button id="continueJourney" type="button" class="adventure-continue">▶ Başla</button></div>
         <p class="map-help">Duraklar sırayla açılır. İlerlemen hesabına güvenli biçimde kaydedilir.</p>
       </section>
 
       <section id="gamesView" class="view">
-        <div class="games-layout">
-          <div class="games-top card">
-            <div>
-              <h2>Oyunlar</h2>
-              <p>1. Tema: Oyun Dünyası için oyunlarla tekrar yap.</p>
+        <div class="modern-games-layout">
+          <aside class="games-sidebar">
+            <h1>Oyunlar</h1><p>Oyna, düşün, Türkçeni geliştir!</p>
+            <div class="games-context">
+              <button type="button" onclick="showView('topicsView')"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m1 8 11-6 11 6-11 6zM5 13l7 4 7-4v6c-4 4-10 4-14 0z"/></svg><span>5. Sınıf</span><span aria-hidden="true">⌄</span></button>
+              <button type="button" onclick="showView('topicsView')"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 3c4-1 7 0 10 2 3-2 6-3 10-2v17c-4-1-7 0-10 2-3-2-6-3-10-2z"/><path d="M12 5v17" stroke="white" stroke-width="1.5"/></svg><span>1. Tema: Oyun Dünyası</span><span aria-hidden="true">⌄</span></button>
             </div>
-            <div class="filters">
-              <div class="select-pill">5. Sınıf</div>
-              <div class="select-pill">1. Tema: Oyun Dünyası</div>
-            </div>
-          </div>
-          <div id="gameGrid" class="game-grid"></div>
+            <div class="games-mascot" role="img" aria-label="Kitap okuyan turkuaz papağan"></div>
+          </aside>
+          <div id="gameGrid" class="modern-game-grid"></div>
         </div>
       </section>
 
@@ -70,6 +68,6 @@
 
   <div id="modalRoot"></div>
   <script src="curriculum.js?v=illustrations-2"></script>
-  <script src="vendor/supabase-2.118.0.js"></script><script src="member-client.js?v=members-v1"></script><script src="app-gate.js?v=adventure-1"></script><script src="app.js?v=solutions-2"></script><script src="member-social.js?v=members-v1"></script><script src="member-admin.js?v=members-admin-v1"></script>
+  <script src="vendor/supabase-2.118.0.js"></script><script src="member-client.js?v=members-v1"></script><script src="app-gate.js?v=adventure-1"></script><script src="app.js?v=modern-games-3"></script><script src="member-social.js?v=members-v1"></script><script src="member-admin.js?v=members-admin-v1"></script>
 </body>
 </html>
