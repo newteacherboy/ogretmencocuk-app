@@ -79,7 +79,7 @@ begin
  if good then
  if a.question_mistakes=0 and k.answer_kind<>'ungraded_text' then a.correct_first:=a.correct_first+1;end if;
  else a.question_mistakes:=a.question_mistakes+1;a.wrong_attempts:=a.wrong_attempts+1;end if;
- advanced:=good or a.question_mistakes>=3;
+ advanced:=good or (a.mode='stop' and k.answer_kind<>'ungraded_text') or a.question_mistakes>=3;
  if advanced then a.next_question:=a.next_question+1;a.question_mistakes:=0;end if;
  select count(*),count(*) filter(where answer_kind<>'ungraded_text') into total,graded from turkce_private.turkce_question_keys where mode=a.mode and activity_id=a.activity_id;
  reward:=jsonb_build_object('xp',0,'gold',0,'repeat',false,'passed',false);
@@ -101,7 +101,7 @@ begin
  reward:=jsonb_build_object('xp',amount,'gold',coins,'repeat',written=0,'passed',true);
  end if;
  end if;
- result:=jsonb_build_object('correct',good,'advanced',advanced,'index',a.next_question,'done',a.finished_at is not null,'correct_first',a.correct_first,'graded_total',graded,'wrong',a.wrong_attempts,'reward',reward,'ungraded',k.answer_kind='ungraded_text');
+ result:=jsonb_build_object('correct',good,'advanced',advanced,'index',a.next_question,'done',a.finished_at is not null,'correct_first',a.correct_first,'graded_total',graded,'wrong',a.wrong_attempts,'reward',reward,'ungraded',k.answer_kind='ungraded_text','correct_answer',case when advanced and k.answer_kind<>'ungraded_text' then k.answer else null end,'answer_kind',k.answer_kind);
  update public.turkce_attempts set next_question=a.next_question,correct_first=a.correct_first,wrong_attempts=a.wrong_attempts,question_mistakes=a.question_mistakes,last_action_at=now(),finished_at=a.finished_at,last_result=result where id=a.id;
  elsif op='preferences' then
  update public.turkce_profiles set share_activity=coalesce((p->>'share_activity')::boolean,share_activity),show_online=coalesce((p->>'show_online')::boolean,show_online),join_leagues=coalesce((p->>'join_leagues')::boolean,join_leagues),updated_at=now() where id=actor;

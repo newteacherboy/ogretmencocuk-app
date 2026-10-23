@@ -140,8 +140,8 @@ function renderQuestion(){
   const q = stop.questions[state.currentQuestionIndex];
   const progressNodes = stop.questions.map((_,i)=>`<div class="pnode ${i<state.currentQuestionIndex?'done':''} ${i===state.currentQuestionIndex?'active':''}">${i+1}</div>`).join('');
   let leftHtml='';
-  if(q.type==='visual_mcq'){
-    leftHtml = `<div class="image-panel playground"><div class="rope"></div><div class="child one"></div><div class="child jump"></div><div class="child two"></div></div>`;
+  if(q.type==='visual_mcq'||q.type==='detail_mcq'){
+    leftHtml = `<figure class="image-panel question-illustration"><img src="${q.image}" alt="${q.imageAlt}" width="1050" height="700"><figcaption hidden>${q.imageAlt}</figcaption></figure>`;
   } else if(q.type==='hint_mcq'){
     leftHtml = `<div class="prompt-box"><ul>${q.hints.map(h=>`<li>${h}</li>`).join('')}</ul></div>`;
   } else if(q.type==='reading_mcq'){
@@ -176,7 +176,7 @@ function renderQuestion(){
             ${leftHtml}
             ${q.choices ? `<div class="options" id="optionsArea">${optionsHtml}</div>` : ''}
             <div class="q-actions">
-              <div class="feedback-box" id="feedbackBox">Her soru farklı bir beceriyi ölçer.</div>
+              <div class="feedback-box" id="feedbackBox" role="status" aria-live="polite">Her soru farklı bir beceriyi ölçer.</div>
               <button class="nav-btn nav-green" id="actionBtn">Kontrol Et</button>
             </div>
           </div>
@@ -189,6 +189,8 @@ function renderQuestion(){
     </div>
   `);
 
+  const illustration=document.querySelector('.question-illustration img');
+  if(illustration){const fallback=()=>{illustration.hidden=true;illustration.nextElementSibling.hidden=false;};illustration.addEventListener('error',fallback);if(illustration.complete&&!illustration.naturalWidth)fallback();}
   startQuizTimer();
   if(q.type==='text'){
     const ta=document.getElementById('textAnswer');
@@ -250,14 +252,14 @@ function showAnswerFeedback(correct,feedbackEl,correctText,wrongText){
   playAnswerSound(correct);
   if(feedbackEl){feedbackEl.textContent=(correct?"✓ ":"✕ ")+(correct?correctText:wrongText);feedbackEl.classList.toggle("feedback-correct",correct);feedbackEl.classList.toggle("feedback-wrong",!correct);}
 }
-function markOptionsAfterCheck(answer,correct){
+function markOptionsAfterCheck(answer,correct,reveal=false){
   document.querySelectorAll(".option").forEach((opt,i)=>{
     const selected=opt.classList.contains("selected");
     opt.classList.remove("correct","wrong");
-    if(correct && i===answer){opt.classList.add("correct");}
+    if((correct||reveal) && i===answer){opt.classList.add("correct");}
     else if(!correct && selected){opt.classList.add("wrong");}
     const prior=opt.querySelector(".answer-mark");if(prior)prior.remove();
-    if(correct&&i===answer){const mark=document.createElement("strong");mark.className="answer-mark";mark.textContent=" ✓";mark.setAttribute("aria-label","Doğru");opt.append(mark);}
+    if((correct||reveal)&&i===answer){const mark=document.createElement("strong");mark.className="answer-mark";mark.textContent=" ✓";mark.setAttribute("aria-label","Doğru");opt.append(mark);}
     if(!correct&&selected){const mark=document.createElement("strong");mark.className="answer-mark";mark.textContent=" ✕";mark.setAttribute("aria-label","Yanlış");opt.append(mark);}
   });
 }
@@ -266,16 +268,22 @@ async function checkQuestion(){
  const btn=document.getElementById('actionBtn');if(!btn||btn.disabled||btn.dataset.validated==='true')return;
  const q=state.currentStop.questions[state.currentQuestionIndex],fb=document.getElementById('feedbackBox');
  let answer;if(q.type==='text')answer=document.getElementById('textAnswer').value.trim();else if(q.type==='ordering')answer=currentOrderState.map(x=>x.original);else{const selected=document.querySelector('.option.selected');if(!selected){fb.textContent='Önce bir seçenek işaretle.';return;}answer=Number(selected.dataset.index);}
- btn.disabled=true;
+ btn.disabled=true;document.querySelectorAll('#optionsArea button,#orderList button,#textAnswer').forEach(el=>el.disabled=true);
  try{const r=await window.turkceMember.request('answer',{attempt_id:state.serverAttempt.attempt_id,index:state.currentQuestionIndex,answer});state.serverResult=r;
- if(q.choices)markOptionsAfterCheck(q.answer,r.correct);
- showAnswerFeedback(r.correct,fb,r.ungraded?'Yazma görevin kaydedildi. Bu soru otomatik puanlanmaz.':q.feedback||'Doğru!',r.advanced?'Üç deneme tamamlandı. Sonraki soruya geçebilirsin.':'Yeniden dene.');
- if(r.advanced){btn.dataset.validated='true';btn.textContent=r.done?'Sonuç Ekranına Geç →':'Sonraki Soru →';btn.onclick=nextQuestion;}
- }catch(e){fb.textContent=e.message;}finally{btn.disabled=false;}
+ if(q.choices)markOptionsAfterCheck(r.correct_answer,r.correct,r.advanced);
+ let solution='';
+ if(r.advanced&&!r.correct&&!r.ungraded){
+   if(q.choices&&Number.isInteger(r.correct_answer))solution=String.fromCharCode(65+r.correct_answer)+' — '+q.choices[r.correct_answer];
+   else if(q.items&&Array.isArray(r.correct_answer))solution=r.correct_answer.map((i,n)=>(n+1)+'. '+q.items[i]).join(' → ');
+ }
+ const explanation=q.type==='ordering'?'Kurallar bu sırayla uygulanır.':(q.feedback||'').replace(/^(Doğru|Aferin|Harika)[.!]?\s*/,'');
+ showAnswerFeedback(r.correct,fb,r.ungraded?'Yazma görevin kaydedildi. Bu soru otomatik puanlanmaz.':q.feedback||'Doğru!',r.advanced?(solution?'Doğru cevap: '+solution+'. '+explanation:'Bu soruyu tamamladın. Sonraki soruya geçebilirsin.'):'Cümleni 8–220 karakter arasında yaz.');
+ if(r.advanced){document.querySelectorAll('#optionsArea button,#orderList button,#textAnswer').forEach(el=>el.disabled=true);btn.dataset.validated='true';btn.textContent=r.done?'Sonuç Ekranına Geç →':'Sonraki Soru →';btn.onclick=nextQuestion;}
+ }catch(e){fb.textContent=e.message;}finally{btn.disabled=false;if(btn.dataset.validated!=='true')document.querySelectorAll('#optionsArea button,#orderList button,#textAnswer').forEach(el=>el.disabled=false);}
 }
 
 function nextQuestion(){
-  state.currentQuestionIndex++;
+  state.currentQuestionIndex=state.serverResult.index;
   if(state.currentQuestionIndex >= state.currentStop.questions.length){
     finishStop();
   } else {
