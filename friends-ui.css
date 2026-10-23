@@ -216,3 +216,7 @@ html[data-dm-theme="night"] #tab-meduakis .fr-feed-key-1{color:#d7b9ff;backgroun
 html[data-dm-theme="night"] #tab-meduakis .fr-feed-key-2{color:#adffdf;background:#174f4b}
 html[data-dm-theme="night"] #tab-meduakis .fr-feed-key-3{color:#ffe39c;background:#594423}
 html[data-dm-theme="night"] #tab-meduakis .fr-feed-key-4{color:#ffb7d1;background:#62314a}
+
+#tab-meduakis .fr-earned,#tab-meduakis .fr-badge-slot{overflow:hidden;flex:none;min-width:0}
+#tab-meduakis .fr-badge-img{width:80%;height:80%;object-fit:contain;border-radius:6px}
+.bayrak .ucgen{overflow:hidden}.rozet-ikon-img{width:1.4em;height:1.4em;object-fit:contain;border-radius:4px;vertical-align:middle}

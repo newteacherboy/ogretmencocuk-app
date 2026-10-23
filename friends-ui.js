@@ -41,6 +41,11 @@
     if (account === who()) return;
     account = who(); followed = []; invites = []; loaded = false; busy = false; lastLoad = 0; epoch++;
   }
+  const badgeIcon = v => {
+    const raw = String(v ?? '').trim();
+    if (/^(https?:)?\/\//i.test(raw) || /^[\w.\/-]+\.(png|jpe?g|webp|gif|svg)(\?.*)?$/i.test(raw)) return `<img class="fr-badge-img" src="${esc(raw)}" alt="" loading="lazy" decoding="async" onerror="this.replaceWith(document.createTextNode('🏅'))">`;
+    return raw && [...raw].length <= 8 ? esc(raw) : icon('medal');
+  };
   function avatar(id, size) {
     let svg = typeof window.karakterSvg === 'function' ? window.karakterSvg(id, size) : '';
     if (!svg) svg = `<span>${typeof window.ogrenciMaskotSec === 'function' ? window.ogrenciMaskotSec(id) : '🦜'}</span>`;
@@ -66,7 +71,7 @@
     const selections = typeof maVitrinSecim !== 'undefined' && Array.isArray(maVitrinSecim) ? maVitrinSecim : [];
     const chosen = [...new Set(selections)].filter(i=>Number.isInteger(i)&&i>=0&&i<allBadges.length).map(i=>allBadges[i]).filter(Boolean).slice(0,3);
     const earned = chosen.length ? chosen : allBadges.filter(Boolean).slice(-3).reverse();
-    const badges = Array.from({length:3},(_,i)=>earned[i]?`<span class="fr-earned" title="${esc(earned[i][1])}">${earned[i][0]||icon('medal')}</span>`:'<span class="fr-badge-slot" aria-label="Henüz seçilmemiş rozet">+</span>').join('');
+    const badges = Array.from({length:3},(_,i)=>earned[i]?`<span class="fr-earned" title="${esc(earned[i][1])}">${badgeIcon(earned[i][0])}</span>`:'<span class="fr-badge-slot" aria-label="Henüz seçilmemiş rozet">+</span>').join('');
     return `<section class="fr-summary fr-showcase"><div class="fr-section-head"><h3>${icon('people')} Vitrinim</h3><span class="fr-level">Sv. ${level()}</span></div><div class="fr-showcase-body">${avatar(who(),86)}${art('papi-friends','fr-showcase-papi')}<div class="fr-showcase-info"><span class="fr-streak">🔥 ${Math.max(0,Number(o.seri)||0)} gün</span><div class="fr-badges">${badges}</div></div></div><button class="fr-open" data-friend-action="vitrin" data-friends-gate="vitrin">${permitted('vitrin')?'Vitrinimi aç':'🔒 Vitrinim · 15. seviye'} ${icon('chevron')}</button></section>`;
   }
   function leagueSummary() {

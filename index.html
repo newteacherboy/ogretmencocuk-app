@@ -14368,6 +14368,11 @@ function maLigHtml() {
       <div class="ml-liste">${satirlar || '<div class="ma-bos">Bu ligde henüz kimse yok.</div>'}</div>
       <div class="ml-kural">Yerel Lig 5. seviyede açılır. Süper Lig: 10. seviye + bu hafta 750 yarışma XP’si. Şampiyonlar Ligi: 15. seviye + bu hafta 1800 yarışma XP’si. Yarışma XP’sine joker ve günlük çarpanlar eklenmez. Her hafta katılım yeniden değerlendirilir; öğrenci seviyen kalıcıdır.</div></div>`;
 }
+function rozetIkonHtml(v) {
+    let ham = String(v ?? '').trim();
+    if (/^(https?:)?\/\//i.test(ham) || /^[\w.\/-]+\.(png|jpe?g|webp|gif|svg)(\?.*)?$/i.test(ham)) return `<img class="rozet-ikon-img" src="${guvenliMetin(ham)}" alt="" loading="lazy" decoding="async" onerror="this.replaceWith(document.createTextNode('🏅'))">`;
+    return ham && [...ham].length <= 8 ? guvenliMetin(ham) : '🏅';
+}
 function maVitrinHtml(id, benimMi) {
     let o = maBul(id), t = maTakip.has(id);
     if (!o) return '<div class="ma-bos">Bulunamadı.</div>';
@@ -14378,7 +14383,7 @@ function maVitrinHtml(id, benimMi) {
     if(!rozetler.length)rozetler=rozetKaynagi.slice(-3).reverse();
     while (rozetler.length < 3) rozetler.push(null);
     let bayraklar = rozetler.map((r, i) => r
-        ? `<button class="bayrak" style="--c:${MA_SERIT[i % 5]};--d:${i * .4}s" onclick="maToast('${guvenliMetin(r[1])}')"><div class="ucgen">${r[0] || '🏅'}</div><small>${guvenliMetin(r[1])}</small></button>`
+        ? `<button class="bayrak" style="--c:${MA_SERIT[i % 5]};--d:${i * .4}s" onclick="maToast('${guvenliMetin(r[1])}')"><div class="ucgen">${rozetIkonHtml(r[0])}</div><small>${guvenliMetin(r[1])}</small></button>`
         : `<button class="bayrak bos" style="--d:${i * .4}s" onclick="maToast('Yeni rozetler kazandıkça burası dolacak')"><div class="ucgen">?</div><small>Sıradaki</small></button>`).join('');
     let rakip = benimMi ? null : maBen();
     let mx = Math.max(o.hafta || 0, rakip ? rakip.hafta : 0, 60);
@@ -26556,8 +26561,8 @@ body.dc-ada #tab-derscalis .km-baslangic .i::after{font-size:34px}
 <script defer src="route-missions.js?v=20261022-rozet-1"></script>
 <script defer src="papi-habit.js?v=20261019-2"></script>
 
-<link rel="stylesheet" href="friends-ui.css?v=20261017-social-highlights-v2">
-<script defer src="friends-ui.js?v=20261017-social-highlights-v2"></script>
+<link rel="stylesheet" href="friends-ui.css?v=20261023-badge-icon-fix">
+<script defer src="friends-ui.js?v=20261023-badge-icon-fix"></script>
 <link rel="stylesheet" href="league-ui.css?v=20261019-1">
 <script defer src="league-ui.js?v=20261019-1"></script>
 <link rel="stylesheet" href="study-ui.css?v=20261019-learn-play-1">
