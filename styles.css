@@ -51,3 +51,26 @@ button{font:inherit}
 
 /* Keep the interactive map usable on narrow screens without overlapping stops */
 @media(max-width:1050px){.map{overflow-x:auto}.map-canvas{width:950px;min-width:950px}.map-header{width:950px}.map{overscroll-behavior-x:contain}}
+
+/* Approved parkour design 2 — full-resolution artwork with individually operable hotspots. */
+body:has(#parkurView.active){background:#d8f0ff}
+body:has(#parkurView.active) .topbar{display:none}
+#app:has(#parkurView.active){max-width:1500px;padding:0}
+.map-scroll{width:100%;overflow-x:auto;overscroll-behavior-inline:contain;background:#b9e8ff}
+.approved-map{position:relative;width:100%;min-width:720px;aspect-ratio:1448/1086;margin:auto;overflow:hidden;isolation:isolate}
+.approved-map-art{display:block;width:100%;height:100%;object-fit:fill;user-select:none;-webkit-user-drag:none}
+.map-controls{position:absolute;inset:0}
+.map-hotspot{position:absolute;transform:translate(-50%,-50%);width:3.35%;aspect-ratio:1;border-radius:100%;border:3px solid transparent;background:transparent;cursor:pointer;color:transparent;z-index:4}
+.map-hotspot:hover,.map-hotspot:focus-visible{border-color:#fff;box-shadow:0 0 0 4px #ffbd36,0 0 20px #fff;outline:none}
+.map-hotspot.completed:after{content:'✓';position:absolute;right:-9px;bottom:-9px;display:grid;place-items:center;width:22px;height:22px;border-radius:50%;background:#14a83e;color:white;border:2px solid #fff;font-weight:900;font-size:14px}
+.map-hotspot.locked{cursor:help}
+.map-ui-hotspot{position:absolute;border:0;background:transparent;cursor:pointer;border-radius:12px;z-index:3}
+.map-ui-hotspot:hover,.map-ui-hotspot:focus-visible{outline:3px solid #ffb52b;outline-offset:0;background:#fff3}
+.fifth-region-label{position:absolute;left:51%;top:27%;z-index:3;border:2px solid #fff7;background:linear-gradient(125deg,#f9d987,#bd8338);color:#4c2809;font-weight:900;font-size:clamp(9px,1.4vw,17px);padding:5px 10px;border-radius:10px;box-shadow:0 4px 12px #2319;transform:rotate(-7deg)}
+.map-help{padding:14px;text-align:center;font-weight:600;color:#334c7e;background:#f3f9ff;margin:0}
+.map-toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);z-index:150;background:#203963;color:#fff;border-radius:15px;padding:16px 24px;box-shadow:0 10px 30px #2346}
+@media(max-width:760px){.approved-map{min-width:850px}.map-scroll{border-radius:0}.map-help{font-size:13px}}
+
+.map-hotspot.synthetic{background:linear-gradient(180deg,#75e26d,#329d39);border:3px solid #fff;color:#fff;font-size:clamp(11px,1.4vw,20px);font-weight:900;box-shadow:0 3px 10px #183c6580}
+.map-hotspot.synthetic.locked{background:linear-gradient(180deg,#a9b4bd,#75818e)}
+.progress-dynamic{position:absolute;z-index:4;left:83.2%;top:3.9%;width:5%;height:3%;display:grid;place-items:center;background:#f9fbff;color:#21346b;font-weight:900;font-size:clamp(12px,1.4vw,19px)}

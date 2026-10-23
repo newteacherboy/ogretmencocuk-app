@@ -25,37 +25,13 @@
 
     <main>
       <section id="parkurView" class="view active">
-        <div class="parkur-shell">
-          <aside class="hero-panel card">
-            <h1>5. Sınıf Türkçe<br/>1. Tema: Oyun Dünyası</h1>
-            <p>
-              Türkçenin eğlenceli dünyasında 24 duraklı bir maceraya hazır mısın?
-              Her durakta bir beceri çalış, görevleri tamamla ve tema finalinde kendi oyununu tasarla.
-            </p>
-            <button id="startJourney" class="cta">Maceraya Başla →</button>
-            <div class="mini-stats">
-              <div><strong id="completedCount">0</strong><span>Tamamlanan durak</span></div>
-              <div><strong>24</strong><span>Toplam durak</span></div>
-            </div>
-          </aside>
-
-          <section class="map card">
-            <div class="sky-decor decor-cloud a"></div>
-            <div class="sky-decor decor-cloud b"></div>
-            <div class="map-header"> 
-              <div class="map-badge">Tema Hedeflerin</div>
-              <ul class="theme-goals">
-                <li>Okuduğunu anlama</li>
-                <li>Kelime bilgisi</li>
-                <li>Dinleme ve konuşma</li>
-                <li>Yazma becerileri</li>
-                <li>Dil bilgisi ve yazım</li>
-                <li>Kendi oyununu tasarla</li>
-              </ul>
-            </div>
-            <div id="mapCanvas" class="map-canvas"></div>
-          </section>
+        <div class="map-scroll" aria-label="5. sınıf Oyun Dünyası etkileşimli macera haritası">
+          <div id="mapCanvas" class="approved-map">
+            <img class="approved-map-art" src="assets/parkur-tasarim-2.webp" width="1448" height="1086" alt="Altı bölgelik Oyun Dünyası macera haritası; durakların üstüne dokunarak etkinliklere girilebilir." draggable="false">
+            <div id="mapControls" class="map-controls"></div>
+          </div>
         </div>
+        <p class="map-help">Bir durağa dokunarak etkinliği aç. Gri olmayan duraklar sırayla açılır; tamamladıkların yeniden oynanabilir. İlerleme bu cihazda saklanır.</p>
       </section>
 
       <section id="gamesView" class="view">

@@ -13,7 +13,7 @@ const modalRoot = document.getElementById('modalRoot');
 const completedCount = document.getElementById('completedCount');
 
 function saveProgress(){ localStorage.setItem(state.progressKey, JSON.stringify(state.completed)); updateStats(); renderMap(); }
-function updateStats(){ completedCount.textContent = state.completed.length; }
+function updateStats(){ if(completedCount) completedCount.textContent = state.completed.length; }
 
 function showView(id){
   views.forEach(v => v.classList.toggle('active', v.id===id));
@@ -22,12 +22,7 @@ function showView(id){
 }
 
 tabs.forEach(tab => tab.addEventListener('click', ()=>showView(tab.dataset.view)));
-document.getElementById('startJourney').addEventListener('click', ()=>{
-  const nextId = getNextUnlockedStopId();
-  openStopIntro(nextId);
-});
 
-document.getElementById('startJourney').addEventListener('keydown', e=>{ if(e.key==='Enter') document.getElementById('startJourney').click(); });
 
 function getNextUnlockedStopId(){
   for(let i=1;i<=24;i++) if(!state.completed.includes(i)) return i;
@@ -36,43 +31,65 @@ function getNextUnlockedStopId(){
 
 function renderMap(){
   const map = document.getElementById('mapCanvas');
-  map.innerHTML = `
-    <svg class="path-svg" viewBox="0 0 1000 840" preserveAspectRatio="none">
-      <path d="M160 748 C 230 745, 305 745, 360 736 S 400 646, 345 560 S 270 504, 150 545 S 215 592, 365 555 S 560 540, 810 556 S 734 463, 625 517 S 525 445, 500 338 S 350 326, 288 344 S 468 304, 775 265 S 760 173, 690 89 S 795 69, 836 81" fill="none" stroke="#e8d29e" stroke-width="26" stroke-linecap="round" opacity="0.95"/>
-      <path d="M160 748 C 230 745, 305 745, 360 736 S 400 646, 345 560 S 270 504, 150 545 S 215 592, 365 555 S 560 540, 810 556 S 734 463, 625 517 S 525 445, 500 338 S 350 326, 288 344 S 468 304, 775 265 S 760 173, 690 89 S 795 69, 836 81" fill="none" stroke="#fdf1c7" stroke-width="12" stroke-linecap="round" opacity="1"/>
-    </svg>`;
-
-  zones.forEach(z => {
-    const island = document.createElement('div');
-    island.className='zone-island';
-    island.style.left=z.island.x+'px'; island.style.top=z.island.y+'px'; island.style.width=z.island.w+'px'; island.style.height=z.island.h+'px';
-    map.appendChild(island);
-    const sign=document.createElement('div');
-    sign.className='zone-label'; sign.style.left=z.sign.x+'px'; sign.style.top=z.sign.y+'px';
-    sign.innerHTML=`<small>${z.id}. Bölge</small><span>${z.title}</span>`;
-    map.appendChild(sign);
-  });
-
-  stationPositions.forEach((pos, idx)=>{
-    const id = idx+1;
-    const stop = stops.find(s=>s.id===id);
-    const zone = zones.find(z=>z.id===stop.zone);
+  const controls = document.getElementById('mapControls');
+  if(!map || !controls) return;
+  controls.replaceChildren();
+  // Coordinates correspond exactly to the approved 1448 × 1086 artwork.
+  const spots = [
+    [458,884],[518,896],[582,892],[642,881],
+    [511,654],[571,667],[634,665],[691,638],
+    [890,597],[947,614],[1001,610],[1058,608],
+    [510,363],[572,380],[633,380],[693,363],
+    [760,329],[818,315],[877,308],[936,293],
+    [945,276],[995,271],[1052,262],[1104,240]
+  ];
+  // The approved illustration omits region five and its stops. A discrete interactive
+  // bridge row makes 17–20 accessible without modifying the approved illustration.
+  const explicitFifth = document.createElement('div');
+  explicitFifth.className = 'fifth-region-label';
+  explicitFifth.textContent = '5. Bölge · Cümle Atölyesi';
+  controls.appendChild(explicitFifth);
+  spots.forEach(([x,y],index)=>{
+    const id=index+1;
+    const stop=stops.find(s=>s.id===id);
+    const unlocked=id===1 || state.completed.includes(id) || state.completed.includes(id-1);
     const btn=document.createElement('button');
-    btn.className=`station ${zone.color}`;
-    const unlocked = id===1 || state.completed.includes(id) || state.completed.includes(id-1);
-    if(!unlocked) btn.classList.add('locked');
-    if(state.completed.includes(id)) btn.classList.add('done');
-    btn.style.left=(pos[0]-31)+'px'; btn.style.top=(pos[1]-31)+'px';
-    btn.textContent=id;
-    btn.title=`${id}. Durak - ${stop.title}`;
-    btn.addEventListener('click', ()=>{ if(unlocked) openStopIntro(id); });
-    map.appendChild(btn);
+    btn.type='button';
+    btn.className='map-hotspot '+(id>=17&&id<=20?'synthetic ':'')+(unlocked?'unlocked':'locked')+(state.completed.includes(id)?' completed':'');
+    if(id>=17&&id<=20) btn.textContent=String(id);
+    btn.style.left=`${x/1448*100}%`;
+    btn.style.top=`${y/1086*100}%`;
+    btn.title=`${id}. Durak — ${stop.title}${unlocked?'':' (Önceki durak tamamlanmalı)'}`;
+    btn.setAttribute('aria-label',btn.title);
+    btn.addEventListener('click',()=>{
+      if(unlocked) openStopIntro(id);
+      else showMapMessage(`${id}. durak için önce ${id-1}. durağı tamamla.`);
+    });
+    controls.appendChild(btn);
   });
-
-  const mascot=document.createElement('div');
-  mascot.className='mascot';
-  mascot.innerHTML='<div class="hair"></div><div class="head"></div><div class="strap"></div><div class="strap r"></div><div class="body"></div><div class="legs"><span></span><span></span></div><div class="shoe" style="left:50px"></div><div class="shoe" style="right:50px"></div>';
-  map.appendChild(mascot);
+  const addHotspot=(text,x,y,w,h,callback)=>{
+    const btn=document.createElement('button');btn.type='button';btn.className='map-ui-hotspot';
+    btn.setAttribute('aria-label',text);btn.title=text;
+    btn.style.cssText=`left:${x/1448*100}%;top:${y/1086*100}%;width:${w/1448*100}%;height:${h/1086*100}%;`;
+    btn.addEventListener('click',callback);controls.appendChild(btn);
+  };
+  addHotspot('Parkur',454,27,165,65,()=>showView('parkurView'));
+  addHotspot('Dersler / Sınıf ve Tema',643,30,155,60,()=>showView('topicsView'));
+  addHotspot('Rozetler ve ilerleme',807,28,160,60,()=>showProgress());
+  addHotspot('Profilim ve ilerleme',971,27,147,60,()=>showProgress());
+  const progressLabel=document.createElement('div'); progressLabel.className='progress-dynamic'; progressLabel.textContent=state.completed.length+' / 24'; controls.appendChild(progressLabel);
+  addHotspot('İlerleme',1151,25,140,65,()=>showProgress());
+  addHotspot('Ayarlar',1320,25,69,65,()=>showProgress());
+  addHotspot('İlk durağa başla',430,840,260,115,()=>openStopIntro(getNextUnlockedStopId()));
+}
+function showMapMessage(message){
+  const old=document.querySelector('.map-toast');if(old) old.remove();
+  const p=document.createElement('div');p.className='map-toast';p.textContent=message;
+  document.body.appendChild(p);
+  setTimeout(()=>p.remove(),2600);
+}
+function showProgress(){
+  openModal(`<div class="modal-card"><div class="modal-inner"><div class="stop-header"><h2>İlerlemem</h2><button class="back-btn" onclick="closeModal()">×</button></div><p>5. Sınıf · Oyun Dünyası</p><div class="detail-grid"><div class="detail"><strong>${state.completed.length} / 24</strong><span>Tamamlanan durak</span></div><div class="detail"><strong>${24-state.completed.length}</strong><span>Kalan durak</span></div><div class="detail"><strong>Üyelik yok</strong><span>İlerleme yalnızca bu cihazda tutulur</span></div></div><button class="large-start" onclick="closeModal();openStopIntro(getNextUnlockedStopId())">Kaldığım yerden devam et →</button></div></div>`);
 }
 
 function openModal(content){
