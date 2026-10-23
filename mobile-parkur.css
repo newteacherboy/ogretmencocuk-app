@@ -134,3 +134,11 @@ html,body{overflow-x:hidden}body:has(#parkurView.active){overflow:hidden}
  .quiz-screen .feedback-box{min-height:22px;padding:3px 5px}
  .quiz-screen .nav-btn{min-height:37px;padding:5px}
 }
+
+/* Clear answer feedback, including accessible symbols (not color alone). */
+.quiz-screen .option.correct,.option.correct{background:#daf7e3!important;border-color:#15984b!important;color:#13562f!important;box-shadow:inset 0 0 0 1px #15984b}
+.quiz-screen .option.wrong,.option.wrong{background:#ffdee0!important;border-color:#d72c40!important;color:#852332!important;box-shadow:inset 0 0 0 1px #d72c40}
+.answer-mark{margin-left:auto;font-size:20px;font-weight:900}
+.option.correct .answer-mark{color:#138a40}.option.wrong .answer-mark{color:#cc2639}
+.feedback-correct{background:#ddf6e5!important;color:#13673a!important;border:1px solid #33a95c}
+.feedback-wrong{background:#ffe4e6!important;color:#9c2432!important;border:1px solid #e3606c}

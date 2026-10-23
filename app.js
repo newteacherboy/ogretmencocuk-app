@@ -209,6 +209,42 @@ function moveOrder(index,dir){
   redrawOrder();
 }
 
+
+// Answer sounds: synthesized only on a student's click; no external files.
+let answerAudioContext;
+function playAnswerSound(correct){
+  try {
+    const Ctx=window.AudioContext||window.webkitAudioContext;
+    if(!Ctx)return;
+    answerAudioContext=answerAudioContext||new Ctx();
+    if(answerAudioContext.state==="suspended")answerAudioContext.resume();
+    const ctx=answerAudioContext,now=ctx.currentTime;
+    const tones=correct?[[660,0,.105],[880,.115,.16]]:[[240,0,.16],[185,.17,.2]];
+    tones.forEach(([freq,offset,duration])=>{
+      const osc=ctx.createOscillator(),gain=ctx.createGain(),start=now+offset;
+      osc.type=correct?"sine":"triangle";osc.frequency.setValueAtTime(freq,start);
+      gain.gain.setValueAtTime(.0001,start);gain.gain.exponentialRampToValueAtTime(.11,start+.014);
+      gain.gain.exponentialRampToValueAtTime(.0001,start+duration);
+      osc.connect(gain);gain.connect(ctx.destination);osc.start(start);osc.stop(start+duration+.01);
+    });
+  }catch(e){/* Sound is optional; never block interaction. */}
+}
+function showAnswerFeedback(correct,feedbackEl,correctText,wrongText){
+  playAnswerSound(correct);
+  if(feedbackEl){feedbackEl.textContent=(correct?"✓ ":"✕ ")+(correct?correctText:wrongText);feedbackEl.classList.toggle("feedback-correct",correct);feedbackEl.classList.toggle("feedback-wrong",!correct);}
+}
+function markOptionsAfterCheck(answer,correct){
+  document.querySelectorAll(".option").forEach((opt,i)=>{
+    const selected=opt.classList.contains("selected");
+    opt.classList.remove("correct","wrong");
+    if(correct && i===answer){opt.classList.add("correct");}
+    else if(!correct && selected){opt.classList.add("wrong");}
+    const prior=opt.querySelector(".answer-mark");if(prior)prior.remove();
+    if(correct&&i===answer){const mark=document.createElement("strong");mark.className="answer-mark";mark.textContent=" ✓";mark.setAttribute("aria-label","Doğru");opt.append(mark);}
+    if(!correct&&selected){const mark=document.createElement("strong");mark.className="answer-mark";mark.textContent=" ✕";mark.setAttribute("aria-label","Yanlış");opt.append(mark);}
+  });
+}
+
 function checkQuestion(){
   const stop = state.currentStop;
   const q = stop.questions[state.currentQuestionIndex];
@@ -226,13 +262,10 @@ function checkQuestion(){
     if(!selected){ feedbackBox.textContent='Önce bir seçenek işaretlemelisin.'; return; }
     const idx=Number(selected.dataset.index);
     correct = idx === q.answer;
-    document.querySelectorAll('.option').forEach((opt,i)=>{
-      if(i===q.answer) opt.classList.add('correct');
-      else if(opt.classList.contains('selected')) opt.classList.add('wrong');
-    });
+    markOptionsAfterCheck(q.answer,correct);
   }
   if(correct) state.answers.push({question: q.title || q.prompt, correct:true});
-  feedbackBox.textContent = correct ? (q.feedback || 'Doğru!') : 'Bir daha düşün. İstersen tekrar deneyebilirsin.';
+  showAnswerFeedback(correct,feedbackBox,q.feedback || 'Doğru!','Bir daha düşün. İstersen tekrar deneyebilirsin.');
   if(!correct){ return; }
   const actionBtn=document.getElementById('actionBtn');
   actionBtn.textContent = state.currentQuestionIndex === stop.questions.length-1 ? 'Sonuç Ekranına Geç →' : 'Sonraki Soru →';
@@ -333,12 +366,12 @@ function checkGameQuestion(){
   } else {
     const selected=document.querySelector('.option.selected'); if(!selected){ fb.textContent='Önce bir cevap seç.'; return; }
     const idx=Number(selected.dataset.index); correct = idx===q.answer;
-    document.querySelectorAll('.option').forEach((opt,i)=>{ if(i===q.answer) opt.classList.add('correct'); else if(opt.classList.contains('selected')) opt.classList.add('wrong'); });
+    markOptionsAfterCheck(q.answer,correct);
   }
-  if(!correct){ fb.textContent='Tekrar düşün ve yeniden dene.'; return; }
+  if(!correct){ showAnswerFeedback(false,fb,'','Tekrar düşün ve yeniden dene.'); return; }
   state.game.answers.push(true);
   const btn=document.getElementById('gameBtn');
-  fb.textContent='Doğru cevap!';
+  showAnswerFeedback(true,fb,'Doğru cevap!','');
   btn.textContent = index===game.questions.length-1 ? 'Sonuç Ekranı →' : 'Sonraki Soru →';
   btn.className='nav-btn nav-orange';
   btn.onclick=()=>{
