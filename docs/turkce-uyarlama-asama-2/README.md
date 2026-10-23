@@ -1,6 +1,6 @@
 # Aşama 2 · Tek Türkçe parkuru
 
-23 Ekim 2026. Bu dal, 8. sınıf içerik dalının üzerine kuruludur; #5 ve öncülleriyle birlikte değerlendirilmelidir. Canlı veritabanına migration uygulanmadı, Edge Function veya site yayımlanmadı. Birleştirme proje sahibindedir.
+23 Ekim 2026. Bu değişiklik 8. sınıf içerik dalının üzerine hazırlanmıştır. Güncel yayın durumu ve canlı doğrulama kayıtları #6 PR açıklamasında tutulur. Sunucu yayın kaydı bu klasördeki `sunucu-yayin-sonucu.json` dosyasındadır.
 
 ## Kullanıcı akışı
 
@@ -48,7 +48,7 @@ Tarayıcı kontrolü, Playwright kurulu ortamda `node tools/turkce-tarayici-kont
 
 ## Yayına hazırlık
 
-Proje sahibi birleştirdikten sonra sıralama: yeni migration → `diji-api` Edge Function → statik dosyalar ve servis çalışanı. Kaynak paketlerin sürümleri birlikte yayımlanmalıdır. Yeni fonksiyon ve tablolar gelmeden yalnızca arayüz yayımlanmamalıdır. Geri dönüşte önceki ön yüz/fonksiyon sürümü yüklenebilir; eklenen tabloları veya eski bakiyeleri silmek gerekmez.
+Yayın sırası: yeni migration → `diji-api` Edge Function → statik dosyalar ve servis çalışanı. Kaynak paketlerin sürümleri birlikte yayımlanmalıdır. Yeni fonksiyon ve tablolar gelmeden yalnızca arayüz yayımlanmamalıdır. Geri dönüşte önceki ön yüz/fonksiyon sürümü yüklenebilir; eklenen tabloları veya eski bakiyeleri silmek gerekmez.
 
 ![360 px gündüz](parkur-360-day.png)
 ![360 px gece](parkur-360-night.png)
