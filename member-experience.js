@@ -24,33 +24,9 @@ function sheet(title,content,id='dmMemberDialog'){
  el.onkeydown=e=>{if(e.key==='Escape'){e.preventDefault();e.stopPropagation();dismiss();}if(e.key==='Tab'){const list=[...el.querySelectorAll('button,input,textarea,a')].filter(x=>!x.disabled&&!x.hidden),i=list.indexOf(document.activeElement);e.preventDefault();list[(i+(e.shiftKey?-1:1)+list.length)%list.length]?.focus();}};
  document.body.append(el);window.dmViewHistory?.track(el,{parent,close:()=>el.querySelector('.dm-member-close')?.click()});el.querySelector('.dm-member-close').focus();return {el,body:el.querySelector('.dm-member-body'),close};
 }
-const chosen=()=>['school','independent'].includes(Y()?.dmLearningPurpose);
-function chooseRoute(change=false){
- if(!ready()||$('dmRouteChoice'))return;
- const owner=who(),current=chosen()?(window.dmLearningRoute?.purpose?.()||Y().dmLearningPurpose):null;
- const routeName=p=>p==='school'?'Macera Haritası':'Öğrenme Yolu',needsTest=window.dmProgression?.status?.()?.startPath?.learningRoute==='needs-test';
- const routeCard=(p,title,subtitle,description,chips,asset)=>'<button type="button" class="dm-route-card dm-route-card-'+p+(current===p?' is-current':'')+'" data-route="'+p+'" aria-pressed="'+(current===p)+'"><span class="dm-route-card-art"><img src="route-assets/'+asset+'" alt=""></span><span class="dm-route-card-content"><span class="dm-route-card-eyebrow">'+subtitle+'</span><b>'+title+'</b><span class="dm-route-card-description">'+description+'</span><span class="dm-route-card-chips">'+chips.map(x=>'<span>'+x+'</span>').join('')+'</span><span class="dm-route-card-action">'+(current===p?'✓ Şu an bu parkurdasın':p==='independent'&&needsTest?'🔒 Önce 24 soruluk seviye testini çöz →':'Bu parkura geç →')+'</span></span></button>';
- const content='<div class="dm-route-intro"><img src="route-assets/papi-profile.png" alt="Papi"><div><span class="dm-route-kicker">PAPİ İLE KENDİ YOLUNU SEÇ</span><p>Okul İngilizcesi için Macera Haritası’nı, kendi hedeflerin için Öğrenme Yolu’nu seç.</p></div></div>'+(current?'<div class="dm-route-current" role="status"><span>Şu anki parkurun</span><strong>'+routeName(current)+'</strong><b>✓ Aktif</b></div>':'')+'<div class="dm-route-choices">'+routeCard('school','Macera Haritası','1–8. SINIF ÖĞRENCİLERİ İÇİN','Okuldaki sınıf ve ünite sırasına göre ilerle. Kelimeleri adım adım öğrenerek derslerini pekiştir.',['Sınıf ve ünite sırası','Okul dersine uygun'],'papi-school.webp')+routeCard('independent','Öğrenme Yolu','KENDİM İÇİN İNGİLİZCE ÖĞRENMEK İSTİYORUM','Günlük İngilizceyi okul sınıfından bağımsız, temalarla ve kendi hızında öğren.',['46 tema · 412 durak · A1–B2','Görsel, dinleme ve konuşma'],'papi-english.webp')+'</div><p class="dm-route-preserve">✓ Her parkurun ilerlemesi ayrı korunur. Geçiş yaptığında seçtiğin parkur açılır.</p><p class="dm-member-status" role="status"></p>';
- const view=sheet(change?'Parkurunu değiştir':'Parkurunu seç',content,'dmRouteChoice');
- view.el.addEventListener('dm:sheet-close',()=>{dismissedRoute=true;if(ready()&&![...document.querySelectorAll('.dc-fullscreen-overlay.active')].some(x=>x.getClientRects().length))window.dunyaAc?.();});const close=view.close;view.el.querySelector('.dm-member-close').onclick=()=>{dismissedRoute=true;close();};
- view.el.querySelectorAll('[data-route]').forEach(b=>b.onclick=async()=>{if(b.dataset.route===current){close();return;}if(b.dataset.route==='independent'&&(needsTest||!window.dmProgression?.status?.())){dismissedRoute=true;close();if(await window.dmLearningRoute.set('independent',{reopen:false})){if(!current)document.dispatchEvent(new CustomEvent('dm:first-route-chosen'));await window.dunyaAc?.();}return;}view.el.querySelectorAll('[data-route]').forEach(x=>x.disabled=true);try{if(owner!==who())return close();const ok=await window.dmLearningRoute.set(b.dataset.route,{reopen:false});if(!ok)throw Error('Seçimin kaydedilemedi. Tekrar dene.');if(owner!==who())return close();dismissedRoute=true;close();if(!current)document.dispatchEvent(new CustomEvent('dm:first-route-chosen'));await window.dunyaAc?.();}catch(e){view.body.querySelector('.dm-member-status').textContent=e.message;view.el.querySelectorAll('[data-route]').forEach(x=>x.disabled=false);}});
-}
-/* Accounts without a saved route (older or teacher-created class accounts): a 1–8 class student is
-   placed on Macera Haritası automatically and saved, so the chooser never reappears at each login.
-   Others pick a route only when they open Parkur themselves. */
-let autoRouteBusy=false;
-async function autoRoute(){
- if(autoRouteBusy||chosen()||!ready())return;
- const sp=window.dmProgression?.status?.()?.startPath,p=window.dmMemberBadgeStatus?.learnerProfile;
- const classStudent=sp?.learningRoute==='needs-test'||(p?.purpose==='school'&&['primary','middle'].includes(p?.educationStage));
- if(!classStudent)return;
- const owner=who();autoRouteBusy=true;
- try{if(await window.dmLearningRoute?.set('school',{reopen:false})&&owner===who()){$('dmRouteChoice')?.remove();document.dispatchEvent(new CustomEvent('dm:first-route-chosen'));}}
- catch(e){console.warn('[Parkur otomatik seçimi]',e.message);}finally{autoRouteBusy=false;}
-}
-document.addEventListener('dm:progression-status',()=>autoRoute());
-document.addEventListener('dm:member-status',()=>autoRoute());
-document.addEventListener('click',e=>{const b=e.target.closest('[data-ekran="tab-dunya"],[data-nav="parkur"],.rt-start');if(b&&ready()&&!chosen()) {e.preventDefault();e.stopImmediatePropagation();chooseRoute();}},true);
+const chosen=()=>true;
+function chooseRoute(){return window.dmTurkce?.open('route');}
+function autoRoute(){}
 function banner(){
  if(!status||status.emailVerified||!ready()){$('dmEmailVerifyBanner')?.remove();if(status?.emailVerified){$('dmEmailVerification')?.querySelector('.dm-member-close')?.click();window.dmEmailGuide?.close();}return;}
  let el=$('dmEmailVerifyBanner');if(!el){
@@ -78,7 +54,7 @@ async function check(force=false,quiet=false){
   if(!chosen())autoRoute(); // never force the route sheet at login; class students get Macera Haritası silently
   if(window.dmPapiNotices?.blocked()||document.querySelector('#dmRouteChoice,#dmPlacementExam,#dmStartPlacement,#dmStartingChoice,#dmEmailVerification,#dmPlacementInvite'))return;
   // Email verification is triggered by the Games tab; repeats only on safe screens after 10 minutes.
-  if(!status.hasPlacement&&Date.now()>=examAt&&window.dmAutoNotices?.can()){const d=await api('memberReminderClaim',{kind:'placement'});if(owner!==who())return;examAt=Date.now()+600000+Math.random()*600000;if(d.show&&window.dmAutoNotices?.take()){const v=sheet('İngilizce seviyeni keşfet','<div class="dm-exam-invite-art"><img src="papi-welcome-v2.png" alt="Papi"><span>SEVİYENİ KEŞFET</span></div><p>Okuma, dinleme ve dil kullanımı sorularıyla sana uygun başlangıcı belirleyelim. Bu sınav enerji harcamaz.</p><button type="button" class="dm-member-primary" data-exam>Seviye sınavını aç</button><button type="button" data-later>Sonra</button>','dmPlacementInvite');v.el.querySelector('[data-exam]').onclick=()=>{v.close();placement();};v.el.querySelector('[data-later]').onclick=v.close;}}
+
  }catch(e){console.warn('[Üye araçları]',e.message);}finally{busy=false;if(refreshPending){refreshPending=false;check(true,true);}}
 }
 let pendingOwner='',pending=new Map(),flushTimer=null,flushing=false;
@@ -143,19 +119,7 @@ function showPlacementResult(v,result,listenAvailable=true){
  window.dmSharing?.attachAchievementActions(v.body,{kind:'placement',id:'cefr-'+badge,name:badge+' · İngilizce Seviyem',level:badge,svg:art,emoji:'🌟'});
  v.el.querySelector('[data-result-route]').onclick=()=>{v.close();if(chosen())window.dunyaAc?.();else chooseRoute(true);};v.el.querySelector('[data-result-games]').onclick=()=>{v.close();window.aktivitelerTamEkranAc?.();};v.el.querySelector('[data-result-study]').onclick=()=>{v.close();window.dersCalisTamEkranAc?.();};
 }
-function placement(detailed=false){
- if(!detailed&&window.dmStartPlacement)return window.dmStartPlacement.open();
- if(!ready())return;const owner=who(),bank=window.DMPlacementExam.bank,answers=[],v=sheet('İngilizce Seviye Sınavı','<p>40 özgün soru: dil kullanımı, okuma ve dinleme. Yaklaşık 20–25 dakika. Enerji harcanmaz.</p><p>Sonuç yaklaşık CEFR ön değerlendirmesidir. Yazma ve konuşma örneklerini öğretmenin ayrıca değerlendirebilir.</p><button type="button" class="dm-member-primary" data-start>Sınava başla</button>','dmPlacementExam');let index=0,listenAvailable=!!window.speechSynthesis;
- function question(){if(!v.el.isConnected)return;if(index>=bank.length)return samples();const q=bank[index],options=q.options.map((text,i)=>({text,i})).sort(()=>Math.random()-.5);v.body.innerHTML='<small>Soru '+(index+1)+' / '+bank.length+' · '+({language:'Dil kullanımı',reading:'Okuma',listening:'Dinleme'}[q.skill])+'</small><progress value="'+index+'" max="'+bank.length+'"></progress>'+(q.skill==='reading'?'<blockquote>'+esc(q.text)+'</blockquote>':q.skill==='listening'?'<button type="button" data-listen>🔊 Kaydı dinle</button><p class="dm-listening-note">Sesi dinleyip soruyu yanıtla.</p>':'')+'<h3>'+esc(q.prompt)+'</h3><div class="dm-exam-options">'+options.map(o=>'<button type="button" data-option="'+o.i+'" '+(q.skill==='listening'&&listenAvailable?'disabled':'')+'>'+esc(o.text)+'</button>').join('')+'</div>';
-  if(q.skill==='listening'){const b=v.el.querySelector('[data-listen]');if(!listenAvailable){b.disabled=true;v.body.querySelector('.dm-listening-note').textContent='Cihaz ses üretimini desteklemiyor; bu soru okuma olarak değerlendirilecek: '+q.text;}else b.onclick=()=>{const u=new SpeechSynthesisUtterance(q.text);u.lang='en-GB';u.rate=.95;const voice=speechSynthesis.getVoices().find(x=>x.lang.startsWith('en'));if(voice)u.voice=voice;u.onend=()=>v.el.querySelectorAll('[data-option]').forEach(x=>x.disabled=false);u.onerror=()=>{listenAvailable=false;v.body.querySelector('.dm-listening-note').textContent='Ses oynatılamadı; dinleme sonucu kesin değildir: '+q.text;v.el.querySelectorAll('[data-option]').forEach(x=>x.disabled=false);};speechSynthesis.cancel();speechSynthesis.speak(u);};}
-  v.el.querySelectorAll('[data-option]').forEach(b=>b.onclick=()=>{if(answers[index]!==undefined)return;answers[index]=Number(b.dataset.option);const correct=Number(b.dataset.option)===0;playPlacementFeedback(correct);v.el.querySelectorAll('[data-option]').forEach(x=>{x.disabled=true;if(Number(x.dataset.option)===0){x.classList.add('dm-answer-correct');x.textContent='✓ '+x.textContent;}else if(x===b){x.classList.add('dm-answer-wrong');x.textContent='✕ '+x.textContent;}});const note=document.createElement('p');note.setAttribute('role','status');note.textContent=correct?'✅ Doğru cevap!':'🔴 Yanlış cevap. Doğrusu: '+q.options[0];const next=document.createElement('button');next.type='button';next.className='dm-member-primary';next.textContent=index===bank.length-1?'Soruları tamamla →':'Sonraki soru →';next.onclick=()=>{index++;question();};v.body.append(note,next);});
- }
- function samples(){v.body.innerHTML='<h3>Yazma ve konuşma örneğin</h3><p>İstersen öğretmenin için kısa örnekler bırak. Bu örnekler otomatik puanlanmaz.</p><label>Write about a place you enjoy visiting. Explain why you like it and describe a recent visit.<textarea data-writing maxlength="3000" rows="4" placeholder="Write in English…"></textarea></label><label>Talk about a change that made your daily life better. What changed, and what was the result?<textarea data-speaking maxlength="3000" rows="3" placeholder="Konuşmanı İngilizce yazıya geçir veya buraya yaz…"></textarea></label><button type="button" data-record>🎤 Konuşma örneğini kaydet</button><button type="button" class="dm-member-primary" data-save>Sonucumu kaydet</button><p role="status"></p>';
- const record=v.el.querySelector('[data-record]'),SR=window.SpeechRecognition||window.webkitSpeechRecognition;record.disabled=!SR;if(SR)record.onclick=()=>{const r=new SR();r.lang='en-US';r.onresult=e=>{if(v.el.isConnected)v.el.querySelector('[data-speaking]').value=e.results[0][0].transcript;};r.onerror=()=>{v.body.querySelector('[role=status]').textContent='Mikrofon kullanılamadı; örneğini yazarak ekleyebilirsin.';};r.start();};
- v.el.querySelector('[data-save]').onclick=async e=>{e.target.disabled=true;try{const d=await api('placementSave',{version:window.DMPlacementExam.version,answers,listeningAvailable:listenAvailable,writing:v.el.querySelector('[data-writing]').value,speaking:v.el.querySelector('[data-speaking]').value});if(owner!==who())return v.close();if(status)status.hasPlacement=true;Y().seviye={sonuc:d.result.level,tarih:new Date().toISOString().slice(0,10),dogru:d.result.correct};window.yoKaydet?.();showPlacementResult(v,d.result,listenAvailable);}catch(err){v.body.querySelector('[role=status]').textContent=err.message;e.target.disabled=false;}};
- }
- v.el.querySelector('[data-start]').onclick=question;
-}
+function placement(){return window.dmTurkce?.open('route');}
 window.dmMemberUI={sheet};window.dmMemberExperience={chooseRoute,check,emailPrompt};window.dmWrongWords={add,flush,review};
 window.yoZkAc=review;window.dmDetailedPlacement=()=>placement(true);window.seviyeTestAc=placement;window.seviyeDavetGoster=()=>{};
 window.aiModalAc=()=>window.dmTeacherChatOpen?.();

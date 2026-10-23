@@ -1,3 +1,4 @@
+import {turkceAPI} from './turkce-api.ts';
 import {routeGraduationsAPI} from './route-graduations.mjs';
 import {completeLessonAssignments} from './assignment-completion.mjs';
 import graduationCatalog from './graduation-catalog.json' with {type:'json'};
@@ -1386,6 +1387,7 @@ async function handle(req: Request, proxy: any = null) {
   if(op==='iletisimDurumu' && !a)return json({ok:false,hata:'oturum',mesaj:'Öğrenci oturumu gerekli.'},401);
   if(op==='iletisimDurumu' && a.role!=='student')return json({ok:true,uygulanmaz:true,eksik:false,donuk:false,uyari:false});
   const contactDeny=isDemo(a)?null:await contacts.guard(op,a);if(contactDeny)return contactDeny;
+  const turkceResult=await turkceAPI({db:supabase,json,isDemo,inScope:kapsamda}).handle(op,body,a,req.method);if(turkceResult)return turkceResult;
   const myWorldResult=await myWorld.handle(op,body,q,a);if(myWorldResult)return myWorldResult;
   const managementResult=await studentManagement.handle(op,body,q,a,req.method);if(managementResult)return managementResult;
   const verifiedResponse=await verifiedGames.handle(op,body,a,req.method);if(verifiedResponse)return verifiedResponse;

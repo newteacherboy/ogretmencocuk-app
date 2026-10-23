@@ -32,14 +32,10 @@ const TOURS=[
   const school=Y()?.dmLearningPurpose==='school',klass=window.dmProgression?.status?.()?.startPath?.learningRoute==='needs-test';
   return [
    {center:true,before:()=>openTab('tab-dunya','.rt-v3-map'),title:'Parkur’u yakından tanıyalım',text:school?'Macera Haritası, okuldaki sınıf ve ünite sırasıyla ilerler. Bölümlerine tek tek bakalım.':'Öğrenme Yolu, seviyene göre temalar ve derslerle ilerler. Bölümlerine tek tek bakalım.',noDots:true,next:'Başlayalım'},
-   {target:'.rt-v3-level',title:school?'Sınıfın ve ünite':'Seviyen ve bölüm',text:'Nerede olduğunu ve kaç durak bitirdiğini burada görürsün. Dokunursan tüm durakların listesi açılır.'},
-   {target:'.rt-v3-scroll',title:'Durak haritası',text:'Kaydırarak durakları gez. Bitirdiğin duraklar işaretlenir, sıradaki durak öne çıkar, kilitli duraklar sırası gelince açılır.'},
-   {target:'.rt-continue .rt-start',title:'Devam et',text:'Kaldığın duraktan başlar. Her durakta önce yeni kelimeleri dinleyip öğrenir, sonra soruları çözersin.',tip:'İlk soru ücretsiz, sonraki her soru 1 enerji.'},
-   {target:'[data-rt="plan"]',title:'Planım',text:'Bugün çalışman önerilen dersleri gösterir. Ne yapacağını bilmiyorsan buradan başla.'},
-   {target:'[data-rt="missions"]',title:'Görevler',text:'Günlük ve haftalık görevlerin burada. Tamamladıkça ödül kazanırsın.'},
-   {target:'.rt-map-chest',title:'Sandık',text:'Seviye atlayıp parkurda ilerledikçe sandıklar açılır. Sandık hazır olunca üzerinde AÇ yazar.',tip:lockTip(5,'İlk sandık')},
-   {target:'.rt-v3-switch',title:'Parkur değiştir',text:school?'Buradan Öğrenme Yolu’na geçebilirsin. Öğrenme Yolu sınıf yerine İngilizce seviyene (A1, A2…) göre ilerler. İki yoldaki ilerlemen de korunur.':'Buradan Macera Haritası’na geçebilirsin. Macera Haritası okuldaki sınıf ve ünite sırasını izler. İki yoldaki ilerlemen de korunur.',tip:school&&klass?'Öğrenme Yolu’na geçmeden önce seviye testini çözmen gerekir.':''},
-   {center:true,img:'papi-mektup',title:'Seviye testi',text:'Profil › Seviye Testi’nden İngilizce seviyeni ölçebilirsin. Okuma, dinleme ve dil kullanımı soruları var; yaklaşık 20–25 dakika sürer ve enerji harcamaz. Sonuca göre sana uygun başlangıç önerilir.',noDots:true,next:'Anladım',secondary:'Kapat'}
+   {target:'#trGrade',title:'Sınıfın',text:'5–8. sınıflardan seçtiğin sınıfın ilk temasından başlarsın. Alt sınıflar tekrar, üst sınıflar ileri çalışma olarak görünür.'},
+   {target:'.tr-next',title:'Tek Türkçe parkuru',text:'Okuma, söz varlığı, konu anlatımı ve dinleme aynı parkurda. Devam et düğmesi sıradaki durağı açar.'},
+   {target:'.tr-tabs',title:'Serbest çalışma',text:'Ders çalış, söz varlığı, okuma, dinleme ve yazmaya buradan ulaşabilirsin. Yazma görevlerini öğretmenin değerlendirir.'}
+
   ];
  }},
  {id:'arkadaslar',tab:'tab-meduakis',title:'Arkadaşlar',ask:'Bugün sana Arkadaşlar sayfasını göstereyim mi?',steps:()=>[
@@ -89,10 +85,9 @@ const TOURS=[
    {target:p('progress'),title:'İlerlemem',text:'Seviyeni, XP’ni ve çalışma grafiklerini gösterir; bir sonraki seviyede neyin açılacağını da görürsün.'},
    {target:p('badges'),title:'Başarılarım',text:'Kazandığın rozetler ve başarımlar. Yanındaki Karnelerim’de tamamladığın sınıf ve seviyelerin karneleri var.'},
    {target:p('daily'),title:'Ödevlerim',text:'Günün görevleri, haftalık hedefin ve öğretmeninin verdiği ödevler burada.'},
-   {target:p('exam'),title:'Seviye Testi',text:'İngilizce seviyeni ölçer; enerji harcamaz. Sonuca göre sana uygun başlangıç önerilir.'},
    {target:p('repeat'),title:'Kelime Tekrarı',text:'Yanlış yaptığın kelimeleri enerji harcamadan tekrar edersin. Kelimeler farklı günlerde yeniden karşına çıkar.'},
    {target:p('coach'),title:'Öğretmene Mesaj Gönder',text:'Öğretmenine soru sorabilir ya da bir sorunu bildirebilirsin.'},
-   {target:p('route'),title:'Parkur Değiştir',text:'Macera Haritası ile Öğrenme Yolu arasında geçiş yaparsın; iki yoldaki ilerlemen de korunur.'},
+   {target:p('route'),title:'Türkçe Parkurum',text:'Sınıfına ait tek Türkçe parkurundan devam et. Okuma, konu, söz varlığı ve dinleme bir arada.'},
    {target:p('guardian'),title:'Veli Kontrolü ve Güvenlik',text:'Velinin izin ve bildirim ayarları ile güvenlik ve bildirim tercihlerin bu düğmelerde.'},
    {target:p('settings'),title:'Ayarlar ve Yardım',text:'Hesap, şifre ve ses ayarların Ayarlar’da. Takıldığın bir şey olursa Yardım & Destek’e bak.'},
    {target:p('switchAccount'),title:'Hesap Değiştir ve Çıkış',text:'Aynı cihazda başka bir hesaba geçebilir ya da çıkış yapabilirsin.'},

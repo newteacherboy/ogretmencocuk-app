@@ -13,13 +13,11 @@ function sender(slot){const updates=[],calls=[];const db={rpc:async()=>({data:sl
 test('daily quota defers without sending or exhausting retries',async()=>{const s=sender(false);assert.equal((await s.run()).ok,false);assert.equal(s.calls.length,0);assert(s.updates[0].p.send_after);assert.equal(s.updates[0].p.attempts,undefined)});
 test('successful delayed welcome grants 24 hours from send time',async()=>{const s=sender(true);assert.equal((await s.run()).ok,true);assert.equal(s.calls.length,1);assert.equal(s.updates[0].t,'dm_email_verifications');assert(Date.parse(s.updates[0].p.expires_at)>Date.now()+86390000);assert(s.updates[1].p.sent_at)});
 
-test('independent adult learner registers without fabricated classroom data',async()=>{
+test('legacy independent signup must choose a real Turkish class',async()=>{
  const f=fixture();
  const r=await f.call({...valid,ogrenimTuru:'independent',sinif:undefined,sube:undefined,okul:''});
- assert.equal(r.data.status,'success');
- assert.equal(f.writes[0].class_no,null);
- assert.equal(f.writes[0].branch,null);
- assert.equal(f.writes[0].school,null);
+ assert.equal(r.data.status,'error');
+ assert.equal(f.writes.length,0);
 });
 test('school accounts still require grade and section and independent accounts reject teacher linking',async()=>{
  const school=fixture(),bad=await school.call({...valid,sinif:undefined,sube:undefined});
@@ -27,7 +25,7 @@ test('school accounts still require grade and section and independent accounts r
  const independent=fixture(),linked=await independent.call({...valid,ogrenimTuru:'independent',ogretmenKodu:'INVALID'});
  assert.equal(linked.data.status,'error');assert.equal(independent.writes.length,0);
 });
-test('Diji Medu Türkçe: kendi kendine öğrenen sınıf vermeden kaydolur; okul öğrencisi yalnızca ortaokul 5–8. sınıfla kaydolur',async()=>{{const f=fixture(),r=await f.call({...valid,telefon:'',sinif:null,sube:'',okul:'',learnerProfile:{version:1,purpose:'school',educationStage:'',ageBand:'teen',goal:'daily',startChoice:'test',knownLevel:'A1'}});assert.notEqual(r.data.status,'success');assert.equal(f.writes.length,0);}{const f=fixture(),r=await f.call({...valid,telefon:'',sinif:null,sube:'',okul:'',learnerProfile:{version:1,purpose:'independent',educationStage:'',ageBand:'adult',goal:'daily',startChoice:'test',knownLevel:'A1'}});assert.equal(r.data.status,'success',JSON.stringify(r));assert.equal(f.writes[0].class_no,null);}for(const grade of [5,8]){const f=fixture(),r=await f.call({...valid,sinif:grade,learnerProfile:{version:1,purpose:'school',educationStage:'middle',ageBand:'teen',goal:'school',startChoice:'new',knownLevel:'A1'}});assert.equal(r.data.status,'success',JSON.stringify(r));assert.equal(f.writes[0].class_no,grade);}for(const [stage,grade] of [['middle',4],['high',10],['university',null],['primary',3]]){const f=fixture(),r=await f.call({...valid,sinif:grade,learnerProfile:{version:1,purpose:'school',educationStage:stage,ageBand:'teen'}});assert.notEqual(r.data.status,'success',stage+grade);assert.equal(f.writes.length,0);}});
+test('Diji Medu Türkçe: sınıfsız öğrenci reddedilir; 5–8. sınıfla kayıt açılır',async()=>{{const f=fixture(),r=await f.call({...valid,telefon:'',sinif:null,sube:'',okul:'',learnerProfile:{version:1,purpose:'school',educationStage:'',ageBand:'teen',goal:'daily',startChoice:'test',knownLevel:'A1'}});assert.notEqual(r.data.status,'success');assert.equal(f.writes.length,0);}{const f=fixture(),r=await f.call({...valid,telefon:'',sinif:null,sube:'',okul:'',learnerProfile:{version:1,purpose:'independent',educationStage:'',ageBand:'adult',goal:'daily',startChoice:'test',knownLevel:'A1'}});assert.equal(r.data.status,'error');assert.equal(f.writes.length,0);}for(const grade of [5,8]){const f=fixture(),r=await f.call({...valid,sinif:grade,learnerProfile:{version:1,purpose:'school',educationStage:'middle',ageBand:'teen',goal:'school',startChoice:'new',knownLevel:'A1'}});assert.equal(r.data.status,'success',JSON.stringify(r));assert.equal(f.writes[0].class_no,grade);}for(const [stage,grade] of [['middle',4],['high',10],['university',null],['primary',3]]){const f=fixture(),r=await f.call({...valid,sinif:grade,learnerProfile:{version:1,purpose:'school',educationStage:stage,ageBand:'teen'}});assert.notEqual(r.data.status,'success',stage+grade);assert.equal(f.writes.length,0);}});
 
 test('progress e-mail consent is optional: recorded only when the unticked box is checked',async()=>{
  const f=fixture(),r=await f.call({...valid,ilerlemeMailOnay:true});assert.equal(r.data.status,'success');

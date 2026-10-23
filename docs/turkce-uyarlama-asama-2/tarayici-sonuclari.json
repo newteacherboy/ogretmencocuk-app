@@ -1,0 +1,43 @@
+[
+  {
+    "width": 360,
+    "height": 740,
+    "theme": "day",
+    "overflow": false,
+    "pageErrors": [],
+    "routeVersion": "39d9552189abb961",
+    "networkRetry": true
+  },
+  {
+    "width": 360,
+    "height": 740,
+    "theme": "night",
+    "overflow": false,
+    "pageErrors": [],
+    "routeVersion": "39d9552189abb961",
+    "networkRetry": false
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "theme": "day",
+    "overflow": false,
+    "pageErrors": [],
+    "routeVersion": "39d9552189abb961",
+    "networkRetry": false
+  },
+  {
+    "fullApplication": true,
+    "registration": {
+      "gradeOptions": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "noPlacement": true,
+      "noDualRoute": true
+    },
+    "pageErrors": []
+  }
+]

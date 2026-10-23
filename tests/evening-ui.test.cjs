@@ -20,9 +20,6 @@ test('online duo and Mola Vakti tabs preserve selection and keyboard movement',a
  tabs[0].click();assert.equal(tabs[0].getAttribute('aria-selected'),'true');tabs[1].click();tabs[2].click();assert.equal(tabs[2].getAttribute('aria-selected'),'true');
  tabs[1].click();tabs[1].dispatchEvent(new w.KeyboardEvent('keydown',{key:'ArrowRight',bubbles:true}));assert.equal(tabs[2].getAttribute('aria-selected'),'true');assert.equal(w.document.querySelector('#meteorActivity').hidden,false);w.close();
 });
-test('saved placement opens animated level, motivational text and a truthful share card',async(t)=>{
- const w=fixture('<div id="panel-alani" style="display:block"></div>');w.eval("var aktifOgrenciAdi='Ada',yo={dmLearningPurpose:'school'},apiURL='/api';");w.yoHazirMi=()=>true;w.yoKaydet=()=>{};let share;
- w.dmSharing={attachAchievementActions:(_card,item)=>{share=item;}};w.DMPlacementExam={version:'test',bank:[]};w.fetch=async()=>({ok:true,json:async()=>({ok:true,result:{level:'B2',correct:38,total:40,bySkill:{reading:{correct:10,total:10}}}})});
- w.eval(code('member-experience.js'));w.seviyeTestAc();w.document.querySelector('[data-start]').click();w.document.querySelector('[data-save]').click();await flush();
- assert.equal(w.document.querySelector('.dm-placement-level').textContent,'B2');assert.match(w.document.querySelector('.dm-placement-result').textContent,/Tebrikler/);assert(w.document.querySelector('.dm-placement-papi'));assert.equal(share.kind,'placement');assert.match(share.svg,/B2/);assert.match(w.document.body.textContent,/resmî seviye belgesi değildir/);w.close();
+test('old placement entry opens the Turkish route without creating or sharing a CEFR result',async()=>{
+ const w=fixture('<div id="panel-alani" style="display:block"></div>');let opened=0;w.dmTurkce={open:()=>opened++};w.eval(code('member-experience.js'));w.seviyeTestAc();assert.equal(opened,1);assert.equal(w.document.querySelector('#dmPlacementExam'),null);w.close();
 });

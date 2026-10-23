@@ -1,0 +1,24 @@
+{
+  "unauthenticated": 401,
+  "demo_login": "success",
+  "turkceStatus": {
+    "ok": true,
+    "preview": true,
+    "grade": 5,
+    "done": [],
+    "version": "39d9552189abb961"
+  },
+  "lgsPreviewCorrect": true,
+  "retiredPlacement": 410,
+  "placementInvitation": false,
+  "studentProgressWritten": false,
+  "project": "isgnsmkboehygxxysria",
+  "edge_function": "diji-api",
+  "edge_version": 5,
+  "backend_source_commit": "0f74960f780dbbf760019a2aaed25a0a2a0a12f7",
+  "release_tests_passed": 135,
+  "release_run": "https://github.com/newteacherboy/ogretmencocuk-app/actions/runs/39912985705",
+  "rls_enabled_on_new_tables": true,
+  "browser_roles_rpc_access": false,
+  "verified_at": "2026-10-23T06:43:18Z"
+}

@@ -12947,62 +12947,9 @@ const YO_SOHBET = [
             devamFn: yoModalKapat, tekrarFn: () => { yoModalKapat(); cumleAc(); } });
         }
 
-        /* ========== 8) SEVİYE TESPİT SINAVI ========== */
-        let svt = null;
-        function seviyeTestAc() {
-          if (!yoHazirMi()) return;
-          let onceki = yo.seviye ? `<div class="yo-satir ben" style="justify-content:center">Son sonucun:&nbsp;<b>${yo.seviye.sonuc} (${YO_SEVIYE_AD[yo.seviye.sonuc]})</b>&nbsp;· ${yo.seviye.tarih.split('-').reverse().join('.')}</div>` : '';
-          yoModalAc('📋 Seviye tespit', `${onceki}
-            <div class="yo-soru" style="text-align:left"><small>Nasıl çalışır?</small>
-              <div style="font-size:13px; font-weight:700; line-height:1.6">20 soru, kolaydan zora gider. Yaklaşık 10 dakika sürer ve enerji harcamaz. Sonunda A1, A2, B1 ya da B2 seviyeni öğrenir, Ders Çalış'ta sana uygun seviyeye geçersin.</div></div>
-            <button class="yo-btn" onclick="seviyeBasla()">${yo.seviye ? 'Tekrar çöz' : 'Başla'}</button>`);
-        }
-        function seviyeBasla() { svt = { i:0, puan:{ A1:0, A2:0, B1:0, B2:0 }, d:0, bas:Date.now() }; seviyeSoru(); }
-        function seviyeSoru() {
-          if (svt.i >= YO_SEVIYE.length) return seviyeBitir();
-          let q = YO_SEVIYE[svt.i], s = yoKaristir(q.o);
-          svt.dogruIdx = s.indexOf(q.o[0]);
-          yoGovde(`<div class="yo-ust-bilgi"><span>Soru ${svt.i + 1}/${YO_SEVIYE.length}</span><span>${q.s}</span></div>
-            <div class="yo-ilerleme"><div style="width:${Math.round(svt.i / YO_SEVIYE.length * 100)}%"></div></div>
-            <div class="yo-soru"><small>Boşluğa gelecek doğru seçeneği seç</small><b style="font-size:19px">${yoGuvenliMetin(q.q)}</b></div>
-            <div class="yo-siklar">${s.map((x, i) => `<button class="yo-sik" onclick="seviyeCevap(${i})">${yoGuvenliMetin(x)}</button>`).join('')}</div>`);
-        }
-        function seviyeCevap(i) {
-          let butonlar = document.querySelectorAll('#yoGovde .yo-sik');
-          if (!butonlar.length || butonlar[0].disabled) return;
-          butonlar.forEach(b => b.disabled = true);
-          butonlar[i].classList.add(i === svt.dogruIdx ? 'dogru' : 'yanlis');
-          if(i!==svt.dogruIdx){butonlar[svt.dogruIdx].classList.add('dogru');butonlar[svt.dogruIdx].style.cssText+=';background:#dcfce7!important;border:2px solid #16a34a!important;color:#166534!important;box-shadow:0 0 0 2px #86efac';}
-          if (i === svt.dogruIdx) { window.DijiMeduPapiFeedback?.correct({anchor:butonlar[i],duration:650}); svt.puan[YO_SEVIYE[svt.i].s]++; svt.d++; }
-          setTimeout(() => { svt.i++; seviyeSoru(); }, 1150);
-        }
-        function seviyeBitir() {
-          let sonuc = 'A1';
-          for (let lv of ['A1','A2','B1','B2']) { if (svt.puan[lv] >= 3) sonuc = lv; else break; }
-          yo.seviye = { sonuc, tarih:yoBugun(), dogru:svt.d };
-          yoKaydet(); yoArayuzTazele();
-          yoSonuc({ oyunAdi:'📋 Seviye tespit', baslik:`Seviyen: ${sonuc}`, dogru:svt.d, yanlis:YO_SEVIYE.length - svt.d, puan:svt.d * 10, sureSaniye:Math.round((Date.now() - svt.bas) / 1000), siralamaYok:true,
-            devamFn: () => {
-              yoModalKapat();
-              if (typeof dersCalisTamEkranAc === 'function') { dersCalisTamEkranAc(); setTimeout(() => { if (typeof dcSeviyeSec === 'function') dcSeviyeSec(sonuc, YO_SEVIYE_AD[sonuc]); }, 350); }
-            } });
-        }
-        function seviyeDavetGoster() {
-          if(window.dmPapiNotices?.defer('placement-invite',seviyeDavetGoster))return;
-          if (!yo || yo.seviye || !yoIsim || yoIsim.toLowerCase() === 'teacher') return;
-          let anahtar = 'ing_yo_svtDavet_' + yoIsim;
-          if (localStorage.getItem(anahtar)) return;
-          localStorage.setItem(anahtar, '1');
-          let d = document.createElement('div'); d.className = 'yo-davet';
-          d.innerHTML = `<b>📋 Seviyeni 10 dakikada öğren!</b><p>Kısa bir test çöz, sana uygun seviyeden başla.</p>
-            <button class="yo-btn" id="yoDavetEvet">Teste başla</button><button class="yo-btn ikincil" id="yoDavetHayir">Sonra</button>`;
-          document.body.appendChild(d);
-          setTimeout(() => d.classList.add('gor'), 30);
-          let kapat = () => { d.classList.remove('gor'); setTimeout(() => d.remove(), 400); };
-          d.querySelector('#yoDavetEvet').onclick = () => { kapat(); seviyeTestAc(); };
-          d.querySelector('#yoDavetHayir').onclick = kapat;
-          (window.dmPapiNotices?.later||((el,fn,ms)=>setTimeout(fn,ms)))(d,kapat,15000);
-        }
+        // Placement is retired; saved historical results are left intact.
+        function seviyeTestAc(){return window.dmTurkce?.open('route');}
+        function seviyeDavetGoster(){}
 
         /* ========== 9) SOHBET MODU — SEVİYELİ HARİTA ========== */
 let sh = null, yoSR = null;
@@ -13358,7 +13305,7 @@ function sohbetMikDur() {
             so.insertAdjacentHTML('beforeend', `<div class="sana-ozel-odevler-baslik" style="color:#553c9a; border-bottom-color:#e7dcff;">🚀 Gelişim araçlarım</div>
               <div class="az-grid2x2" id="yoSanaOzelGrid">
                 <button class="az-gcard" style="background:linear-gradient(160deg,#fb7185,#be123c);" onclick="yoZkAc()"><span class="yo-rozet-kose" id="yoZkRozet" style="display:none"></span><div class="az-gcard-icon">🔁</div><div class="az-gcard-title">Zor Kelimelerim</div></button>
-                <button class="az-gcard" style="background:linear-gradient(160deg,#818cf8,#4338ca);" onclick="seviyeTestAc()"><span class="yo-rozet-kose" id="yoSeviyeRozet">YENİ</span><div class="az-gcard-icon">📋</div><div class="az-gcard-title">Seviye Tespit</div></button>
+                <button class="az-gcard" style="background:linear-gradient(160deg,#818cf8,#4338ca);" onclick="seviyeTestAc()"><span class="yo-rozet-kose" id="yoSeviyeRozet">YENİ</span><div class="az-gcard-icon">📋</div><div class="az-gcard-title">Türkçe Parkurum</div></button>
                 <button class="az-gcard" style="background:linear-gradient(160deg,#fbbf24,#d97706);" onclick="yoLigAc()"><div class="az-gcard-icon">🏆</div><div class="az-gcard-title">Haftalık Lig</div></button>
                 <button class="az-gcard" style="background:linear-gradient(160deg,#34d399,#0f766e);" onclick="yoMagazaAc()"><div class="az-gcard-icon">🛍️</div><div class="az-gcard-title">Papağan Mağazası</div></button>
               </div>`);
@@ -26514,7 +26461,7 @@ body.dc-ada #tab-derscalis .km-baslangic .i::after{font-size:34px}
 <link rel="stylesheet" href="parkur-map-theme-v1.css?v=20261010-levelbadge-fix">
 <script defer src="parkur-map-theme-v1.js?v=3"></script>
 <link rel="stylesheet" href="papi-feedback.css?v=1"><script defer src="papi-feedback.js?v=3"></script><script defer src="papi-haptics.js?v=1"></script><script defer src="papi-wallet.js?v=20261022-odul-1"></script>
-<link rel="stylesheet" href="story-path.css?v=3"><script defer src="story-curriculum.js?v=2"></script><link rel="stylesheet" href="thematic-learning.css?v=20261017-sunny-academy-1"><link rel="stylesheet" href="learning-question-v1.css?v=20261022-1"><script defer src="learning-core.js?v=20261017-learning-hud-letters-1"></script><script defer src="thematic-learning.js?v=20261022-yildiz-1"></script><script defer src="story-path.js?v=20261019-step-back-1"></script>
+<link rel="stylesheet" href="story-path.css?v=3"><link rel="stylesheet" href="thematic-learning.css?v=20261017-sunny-academy-1"><link rel="stylesheet" href="learning-question-v1.css?v=20261022-1">
 <link rel="stylesheet" href="medupro.css?v=20261011-hud">
 <script defer src="medupro.js?v=20261018-safety-2"></script>
 <link rel="stylesheet" href="konu-oyunlari.css?v=20261021-konu-a2-1">
@@ -26526,7 +26473,7 @@ body.dc-ada #tab-derscalis .km-baslangic .i::after{font-size:34px}
 <script defer src="mola-core.js?v=20261021-chapters-1"></script>
 <script defer src="mola-vakti.js?v=20261022-hiz-1"></script>
 <script defer src="navigation-history.js?v=20261019-step-back-1"></script>
-<script defer src="bottom-nav.js?v=20261020-member-flows-1"></script>
+<script defer src="bottom-nav.js?v=20261023-turkce-1"></script>
 <script defer src="profile-badges.js?v=20261022-rozet-1"></script>
 <link rel="stylesheet" href="weekly-ui.css?v=2">
 <script defer src="feature-catalog.js?v=20261013-catalog"></script>
@@ -26541,7 +26488,7 @@ body.dc-ada #tab-derscalis .km-baslangic .i::after{font-size:34px}
 <script defer src="game-experience.js?v=20261022-hiz-1"></script>
 <script defer src="game-access.js?v=20261020-1"></script>
 <script defer src="onboarding-ui.js?v=20261015-members-only-1"></script>
-<script defer src="first-discovery.js?v=20261020-start-path-2"></script>
+<script defer src="first-discovery.js?v=20261023-turkce-1"></script>
 <script defer src="rights-ui.js?v=1"></script>
 <style>/* Distinct Diji Medu Türkçe clue colors: do not rely on color alone. */ .bz-wordle .h{border-radius:15px 5px!important}.bz-wordle .h.g{background:#257b8a!important}.bz-wordle .h.s{background:#a36cb2!important}.bz-wordle .h.x{background:#607d83!important}
 /* Adventure questions: preserve spaces/punctuation and foreground keyboard fallback. */
@@ -26590,7 +26537,7 @@ body.dc-ada #tab-derscalis .km-baslangic .i::after{font-size:34px}
 @media(min-width:750px){#bzPerde:has(> .bz-oyun.dm-question-panel)>#bzAlan{width:min(90%,700px)!important;max-width:700px!important}}
 @media(max-height:680px){#bzPerde:has(> .bz-oyun.dm-question-panel) #bzAlan .bz-kart2{height:clamp(44px,9vh,65px)!important}#bzPerde:has(> .bz-oyun.dm-question-panel) #bzAlan .bz-ipucu{margin:2px 0 5px!important}#bzPerde:has(> .bz-oyun.dm-question-panel)>#bzJokerler .bz-jk{padding:2px!important}}
 </style>
-<link rel="stylesheet" href="account-settings.css?v=1"><script defer src="account-settings.js?v=20261019-step-back-1"></script><script defer src="kisisel-bilgiler.js?v=20261020-start-path-2"></script><script defer src="student-management.js?v=20261021-contacts-2"></script><script defer src="contact-policy.js?v=2"></script><script defer src="sifre-islem.js?v=1"></script><script defer src="ekonomi.js?v=20261019-offline-1"></script>
+<link rel="stylesheet" href="account-settings.css?v=1"><script defer src="account-settings.js?v=20261019-step-back-1"></script><script defer src="kisisel-bilgiler.js?v=20261023-turkce-1"></script><script defer src="student-management.js?v=20261021-contacts-2"></script><script defer src="contact-policy.js?v=2"></script><script defer src="sifre-islem.js?v=1"></script><script defer src="ekonomi.js?v=20261019-offline-1"></script>
 <link rel="stylesheet" href="goal-announcements.css?v=1"><script defer src="goal-announcements.js?v=3"></script>
 <link rel="stylesheet" href="progress-ui.css?v=1">
 <link rel="stylesheet" href="progression-ui.css?v=20261018-chest-1"><script defer src="progression-ui.js?v=20261020-start-test-1"></script>
@@ -26608,7 +26555,7 @@ body.dc-ada #tab-derscalis .km-baslangic .i::after{font-size:34px}
 <link rel="stylesheet" href="oyna-v2.css?v=20261016-layout-1">
 <script defer src="route-missions.js?v=20261022-rozet-1"></script>
 <script defer src="papi-habit.js?v=20261019-2"></script>
-<script defer src="oyna-v2.js?v=20261022-yildiz-1"></script>
+
 <link rel="stylesheet" href="friends-ui.css?v=20261017-social-highlights-v2">
 <script defer src="friends-ui.js?v=20261017-social-highlights-v2"></script>
 <link rel="stylesheet" href="league-ui.css?v=20261019-1">
@@ -26622,15 +26569,15 @@ body.dc-ada #tab-derscalis .km-baslangic .i::after{font-size:34px}
 <link rel="stylesheet" href="selected-play.css?v=20261011-simple-resume"><script defer src="selected-play.js?v=20261019-step-back-1"></script>
 <link rel="stylesheet" href="day-night-theme.css?v=20261012-1">
 <link rel="stylesheet" href="member-experience.css?v=20261019-chat-compact-1">
-<script src="placement-bank.js?v=20261013-1"></script>
-<script src="member-experience.js?v=20261022-route-auto-1"></script><link rel="stylesheet" href="papi-tanitim.css?v=20261022-2"><script defer src="papi-tanitim.js?v=20261022-3"></script><script defer src="papi-sayfa-turlari.js?v=20261022-1"></script><link rel="stylesheet" href="odul-animasyon.css?v=20261022-1"><script defer src="odul-animasyon.js?v=20261022-1"></script>
+
+<script src="member-experience.js?v=20261023-turkce-1"></script><link rel="stylesheet" href="papi-tanitim.css?v=20261022-2"><script defer src="papi-tanitim.js?v=20261022-3"></script><script defer src="papi-sayfa-turlari.js?v=20261023-turkce-1"></script><link rel="stylesheet" href="odul-animasyon.css?v=20261022-1"><script defer src="odul-animasyon.js?v=20261022-1"></script>
 <link rel="stylesheet" href="start-placement.css?v=20261020-start-test-2">
-<script src="start-placement-bank.js?v=20261018-1"></script>
-<script src="start-placement.js?v=20261020-start-test-2"></script>
+
+
 <script defer src="email-guide.js?v=20261018-compact-2"></script>
 <link rel="stylesheet" href="teacher-oral.css?v=20261016-flow-2">
 <script defer src="teacher-oral.js?v=20261016-flow-2"></script>
-<script src="teacher-workspace.js?v=20261018-children-2"></script>
+<script src="teacher-workspace.js?v=20261023-turkce-1"></script>
 <link rel="stylesheet" href="member-polish.css?v=20261015-live-clock-1">
 <script src="active-time.js?v=chest-silent-20261016-flow-2"></script>
 <script src="member-polish.js?v=20261018-letter-sounds-1"></script>
@@ -26667,5 +26614,7 @@ body.dc-ada #tab-derscalis .km-baslangic .i::after{font-size:34px}
 <!-- Eight selected mini-games: fullscreen responsive layout and separate back/X controls. -->
 <link rel="stylesheet" href="eight-game-fullscreen.css?v=20261020-fit-v1">
 <script defer src="eight-game-fullscreen.js?v=20261020-fit-v1"></script>
+<link rel="stylesheet" href="turkce-parkur.css?v=20261023-1">
+<script defer src="turkce-parkur.js?v=20261023-1"></script>
 </body>      
         </html>
