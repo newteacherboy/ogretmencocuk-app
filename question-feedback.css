@@ -34,3 +34,14 @@ body:has(.modal-backdrop.quiz-screen){overflow:hidden}
  .quiz-screen .q-card-left h3{font-size:28px}
  .quiz-screen .question-title{font-size:21px}
 }
+
+.quiz-screen .q-actions{flex-wrap:wrap}
+.question-navigation{display:flex;gap:8px;flex:1;min-width:0}
+.question-navigation .nav-btn{flex:1;min-width:0;font-size:clamp(13px,1.5vw,20px);padding:12px}
+.question-navigation .nav-btn:disabled{opacity:.45;cursor:default}
+@media(max-width:700px){
+ .quiz-screen .q-actions{align-items:stretch}
+ .quiz-screen .question-navigation{flex:none;width:100%;gap:6px}
+ .quiz-screen .question-navigation .nav-btn{font-size:13px;padding:8px 5px;min-height:42px}
+ .quiz-screen .text-meta{gap:6px;line-height:1.3}
+}
