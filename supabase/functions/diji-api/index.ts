@@ -1,3 +1,6 @@
+import {turkceMemberAdmin} from './turkce-member-admin.mjs';
+import {turkceMemberAuth} from './turkce-member-auth.mjs';
+import {turkceMember} from './turkce-member.mjs';
 import {turkceAPI} from './turkce-api.ts';
 import {routeGraduationsAPI} from './route-graduations.mjs';
 import {completeLessonAssignments} from './assignment-completion.mjs';
@@ -3018,6 +3021,9 @@ async function handle(req: Request, proxy: any = null) {
 
 Deno.serve(async (req) => {
   try {
+    if(new URL(req.url).searchParams.get("op")==="turkce_member_admin") return await turkceMemberAdmin(req,supabase);
+    if(new URL(req.url).searchParams.get("op")==="turkce_member_auth") return await turkceMemberAuth(req,supabase,createClient(Deno.env.get("SUPABASE_URL")!,Deno.env.get("SUPABASE_ANON_KEY")!,{auth:{persistSession:false,autoRefreshToken:false}}));
+    if(new URL(req.url).searchParams.get("op")==="turkce_member") return await turkceMember(req,supabase);
     const spare = req.method === "POST" ? req.clone() : null;
     const res = await handle(req);
     const a = authSeen.get(req);

@@ -1,6 +1,6 @@
 const state = {
   progressKey:'ogretmencocuk_tr_5_1_progress',
-  completed: (()=>{try{const v=JSON.parse(localStorage.getItem('ogretmencocuk_tr_5_1_progress') || '[]');return Array.isArray(v)?v.filter(n=>Number.isInteger(n)&&n>=1&&n<=24):[]}catch{return []}})(),
+  completed: [],
   currentStop:null,
   currentQuestionIndex:0,
   answers:[],
@@ -8,7 +8,7 @@ const state = {
 };
 
 const views = document.querySelectorAll('.view');
-const tabs = document.querySelectorAll('.tab');
+const tabs = document.querySelectorAll('button.tab');
 const modalRoot = document.getElementById('modalRoot');
 const completedCount = document.getElementById('completedCount');
 
@@ -20,7 +20,7 @@ function refreshEconomy(){
  if(e){const m=Math.floor(x.nextEnergySeconds/60),s=x.nextEnergySeconds%60;e.title=x.energy>=30?"Enerjin dolu":"Sonraki enerji: "+String(m).padStart(2,"0")+":"+String(s).padStart(2,"0");}
 }
 window.addEventListener("practice-rewards-changed",refreshEconomy);
-function saveProgress(){ localStorage.setItem(state.progressKey, JSON.stringify(state.completed)); updateStats(); renderMap(); }
+function saveProgress(){ updateStats(); renderMap(); }
 function updateStats(){ if(completedCount) completedCount.textContent = state.completed.length; }
 
 function showView(id){
@@ -75,7 +75,7 @@ function showMapMessage(message){
   setTimeout(()=>p.remove(),2600);
 }
 function showProgress(){
-  openModal(`<div class="modal-card"><div class="modal-inner"><div class="stop-header"><h2>İlerlemem</h2><button class="back-btn" onclick="closeModal()">×</button></div><p>5. Sınıf · Oyun Dünyası</p><div class="detail-grid"><div class="detail"><strong>${state.completed.length} / 24</strong><span>Tamamlanan durak</span></div><div class="detail"><strong>${24-state.completed.length}</strong><span>Kalan durak</span></div><div class="detail"><strong>Üyelik yok</strong><span>İlerleme yalnızca bu cihazda tutulur</span></div></div><button class="large-start" onclick="closeModal();openStopIntro(getNextUnlockedStopId())">Kaldığım yerden devam et →</button></div></div>`);
+  openModal(`<div class="modal-card"><div class="modal-inner"><div class="stop-header"><h2>İlerlemem</h2><button class="back-btn" onclick="closeModal()">×</button></div><p>5. Sınıf · Oyun Dünyası</p><div class="detail-grid"><div class="detail"><strong>${state.completed.length} / 24</strong><span>Tamamlanan durak</span></div><div class="detail"><strong>${24-state.completed.length}</strong><span>Kalan durak</span></div><div class="detail"><strong>Güvenli hesap</strong><span>İlerlemen sunucuda tutulur</span></div></div><button class="large-start" onclick="closeModal();openStopIntro(getNextUnlockedStopId())">Kaldığım yerden devam et →</button></div></div>`);
 }
 
 let quizTimerId=null;
@@ -123,19 +123,18 @@ function openStopIntro(stopId){
   `);
 }
 
-function startStop(stopId){
+async function startStop(stopId){
+  try{await window.turkceMember.ready;state.serverAttempt=await window.turkceMember.request("start",{mode:"stop",activity_id:String(stopId)});}catch(e){showMapMessage(e.message);return;}
   state.currentStop = stops.find(s=>s.id===stopId);
-  state.currentQuestionIndex = 0;
+  state.currentQuestionIndex = state.serverAttempt.index;
   state.answers = [];
-  state.questionMistakes = 0;
-  state.totalMistakes = 0;
+  state.questionMistakes = state.serverAttempt.mistakes;
+  state.totalMistakes = state.serverAttempt.wrong;
   state.startedAt = Date.now();
   renderQuestion();
 }
 
 function renderQuestion(){
-  if(!window.practiceEconomy?.spend()){openModal(`<div class="modal-card"><div class="modal-inner"><h2>⚡ Enerjin bitti</h2><p>Günlük 30 enerjini kullandın. Enerjin Türkiye saatine göre ertesi gün yenilenir.</p><button class="large-start" onclick="closeModal()">Parkura dön</button></div></div>`);return;}
-  state.questionMistakes = 0;
   refreshEconomy();
   const stop = state.currentStop;
   const q = stop.questions[state.currentQuestionIndex];
@@ -263,34 +262,16 @@ function markOptionsAfterCheck(answer,correct){
   });
 }
 
-function checkQuestion(){
-  const stop = state.currentStop;
-  const q = stop.questions[state.currentQuestionIndex];
-  if(document.getElementById("actionBtn")?.dataset.validated==="true")return;
-  let correct = false;
-  const feedbackBox = document.getElementById('feedbackBox');
-  if(q.type==='text'){
-    const value=(document.getElementById('textAnswer').value || '').trim();
-    if(value.length < 8){ feedbackBox.textContent='Lütfen en az bir anlamlı cümle yaz.'; return; }
-    correct = true;
-  } else if(q.type==='ordering'){
-    const order = currentOrderState.map(x=>x.original);
-    correct = JSON.stringify(order) === JSON.stringify(q.answerOrder);
-  } else {
-    const selected = document.querySelector('.option.selected');
-    if(!selected){ feedbackBox.textContent='Önce bir seçenek işaretlemelisin.'; return; }
-    const idx=Number(selected.dataset.index);
-    correct = idx === q.answer;
-    markOptionsAfterCheck(q.answer,correct);
-  }
-  if(correct) state.answers.push({question: q.title || q.prompt, correct:state.questionMistakes===0});
-  showAnswerFeedback(correct,feedbackBox,q.feedback || 'Doğru!','Bir daha düşün. İstersen tekrar deneyebilirsin.');
-  if(!correct){state.questionMistakes++;state.totalMistakes++;return;}
-  const actionBtn=document.getElementById('actionBtn');
-  actionBtn.dataset.validated="true";
-  actionBtn.textContent = state.currentQuestionIndex === stop.questions.length-1 ? 'Sonuç Ekranına Geç →' : 'Sonraki Soru →';
-  actionBtn.className='nav-btn nav-orange';
-  actionBtn.onclick = ()=>nextQuestion();
+async function checkQuestion(){
+ const btn=document.getElementById('actionBtn');if(!btn||btn.disabled||btn.dataset.validated==='true')return;
+ const q=state.currentStop.questions[state.currentQuestionIndex],fb=document.getElementById('feedbackBox');
+ let answer;if(q.type==='text')answer=document.getElementById('textAnswer').value.trim();else if(q.type==='ordering')answer=currentOrderState.map(x=>x.original);else{const selected=document.querySelector('.option.selected');if(!selected){fb.textContent='Önce bir seçenek işaretle.';return;}answer=Number(selected.dataset.index);}
+ btn.disabled=true;
+ try{const r=await window.turkceMember.request('answer',{attempt_id:state.serverAttempt.attempt_id,index:state.currentQuestionIndex,answer});state.serverResult=r;
+ if(q.choices)markOptionsAfterCheck(q.answer,r.correct);
+ showAnswerFeedback(r.correct,fb,r.ungraded?'Yazma görevin kaydedildi. Bu soru otomatik puanlanmaz.':q.feedback||'Doğru!',r.advanced?'Üç deneme tamamlandı. Sonraki soruya geçebilirsin.':'Yeniden dene.');
+ if(r.advanced){btn.dataset.validated='true';btn.textContent=r.done?'Sonuç Ekranına Geç →':'Sonraki Soru →';btn.onclick=nextQuestion;}
+ }catch(e){fb.textContent=e.message;}finally{btn.disabled=false;}
 }
 
 function nextQuestion(){
@@ -304,18 +285,9 @@ function nextQuestion(){
 
 function finishStop(){
   stopQuizTimer();
-  const total = state.answers.length;
-  const correct = state.answers.filter(a=>a.correct).length;
-  const wrong = total - correct;
-  const score = total ? Math.round((correct/total)*100) : 0;
-  const elapsedMs=Date.now()-(state.startedAt||Date.now());
-  const reward=window.practiceEconomy.award(state.currentStop.id,correct,state.totalMistakes||0,elapsedMs,total);
-  refreshEconomy();
-  if(!state.completed.includes(state.currentStop.id)){
-    state.completed.push(state.currentStop.id);
-    state.completed.sort((a,b)=>a-b);
-    saveProgress();
-  }
+  const total=state.currentStop.questions.length,r=state.serverResult;
+  const correct=r.correct_first,wrong=r.wrong,score=Math.round(correct/(r.graded_total||total)*100),reward=r.reward;
+  refreshEconomy();state.completed=r.completed;saveProgress();
   openModal(`
     <div class="modal-card">
       <div class="modal-inner result-wrap">
@@ -327,8 +299,8 @@ function finishStop(){
         <div class="result-banner">
           <div>
             <div class="stars">⭐ ⭐ ⭐</div>
-            <div class="big-title">Harika!</div>
-            <div class="mascot-speech">${total} sorunun ${correct} tanesini ilk denemede doğru cevapladın.</div><div class="reward-summary">✨ +${reward.xp} XP &nbsp; 🪙 +${reward.gold} Altın ${reward.repeat?"(Tekrar ödülü yok)":""}</div>
+            <div class="big-title">${reward.passed?"Harika!":"Biraz daha çalışalım"}</div>
+            <div class="mascot-speech">${correct} soruyu ilk denemede doğru cevapladın. Yazma görevleri otomatik puanlanmaz. ${reward.passed?"":"Geçmek için puanlanan sorularda en az %60 başarı gerekli."}</div><div class="reward-summary">✨ +${reward.xp} XP &nbsp; 🪙 +${reward.gold} Altın ${reward.repeat?"(Tekrar ödülü yok)":""}</div>
           </div>
           <div>
             <div class="result-stats">
@@ -339,7 +311,7 @@ function finishStop(){
             </div>
             <div class="result-actions">
               <button class="nav-btn nav-blue" onclick="restartStop(${state.currentStop.id})">Tekrar Oyna</button>
-              <button class="nav-btn nav-orange" onclick="goNextStop(${state.currentStop.id})">Sonraki Durağa Geç →</button>
+              <button class="nav-btn nav-orange" onclick="${reward.passed?`goNextStop(${state.currentStop.id})`:`restartStop(${state.currentStop.id})`}">${reward.passed?"Sonraki Durağa Geç →":"Tekrar Çalış →"}</button>
             </div>
           </div>
         </div>
@@ -356,12 +328,12 @@ function goNextStop(id){
   setTimeout(()=>openStopIntro(next), 80);
 }
 
-function openGame(gameId){
+async function openGame(gameId){
   const game = games.find(g=>g.id===gameId);
   if(!game)return;
-  if(!window.practiceEconomy?.spendGame()){openModal(`<div class="modal-card"><div class="modal-inner"><h2>⚡ Enerjin yetersiz</h2><p>Oyun başlatmak için 3 enerji gerekiyor. Enerji her gün yenilenir.</p><button class="large-start" onclick="closeModal()">Oyunlara dön</button></div></div>`);return;}
+  try{await window.turkceMember.ready;const run=await window.turkceMember.request('start',{mode:'game',activity_id:gameId});
+  state.game={game,index:run.index,serverAttempt:run,startedAt:Date.now()};}catch(e){showMapMessage(e.message);return;}
   refreshEconomy();
-  state.game = { game, index:0, answers:[],mistakes:0,questionMistakes:0, startedAt:Date.now(),completed:false };
   renderGameQuestion();
 }
 function renderGameQuestion(){
@@ -387,38 +359,23 @@ function renderGameQuestion(){
   document.querySelectorAll('.option').forEach(btn=>btn.addEventListener('click', ()=>{ document.querySelectorAll('.option').forEach(b=>b.classList.remove('selected')); btn.classList.add('selected'); }));
   document.getElementById('gameBtn').addEventListener('click', ()=>checkGameQuestion());
 }
-function checkGameQuestion(){
-  if(document.getElementById("gameBtn")?.dataset.validated==="true")return;
-  const {game, index} = state.game; const q = game.questions[index]; let correct = false;
-  const fb=document.getElementById('feedbackBox');
-  if(q.ordering){
-    const order=currentOrderState.map(x=>x.original); correct = JSON.stringify(order)===JSON.stringify(q.answerOrder);
-  } else {
-    const selected=document.querySelector('.option.selected'); if(!selected){ fb.textContent='Önce bir cevap seç.'; return; }
-    const idx=Number(selected.dataset.index); correct = idx===q.answer;
-    markOptionsAfterCheck(q.answer,correct);
-  }
-  if(!correct){state.game.mistakes++;state.game.questionMistakes++;showAnswerFeedback(false,fb,'','Tekrar düşün ve yeniden dene.'); return; }
-  state.game.answers.push(state.game.questionMistakes===0);
-  const btn=document.getElementById('gameBtn');
-  btn.dataset.validated="true";
-  showAnswerFeedback(true,fb,'Doğru cevap!','');
-  btn.textContent = index===game.questions.length-1 ? 'Sonuç Ekranı →' : 'Sonraki Soru →';
-  btn.className='nav-btn nav-orange';
-  btn.onclick=()=>{
-    state.game.index++;
-    if(state.game.index >= game.questions.length) finishGame(); else renderGameQuestion();
-  }
+async function checkGameQuestion(){
+ const btn=document.getElementById('gameBtn');if(!btn||btn.disabled||btn.dataset.validated==='true')return;
+ const {game,index}=state.game,q=game.questions[index],fb=document.getElementById('feedbackBox');let answer;
+ if(q.ordering)answer=currentOrderState.map(x=>x.original);else{const selected=document.querySelector('.option.selected');if(!selected){fb.textContent='Önce bir cevap seç.';return;}answer=Number(selected.dataset.index);}
+ btn.disabled=true;try{const r=await window.turkceMember.request('answer',{attempt_id:state.game.serverAttempt.attempt_id,index,answer});state.game.serverResult=r;
+ if(q.choices)markOptionsAfterCheck(q.answer,r.correct);showAnswerFeedback(r.correct,fb,'Doğru cevap!',r.advanced?'Üç deneme tamamlandı. Sonraki soruya geç.':'Yeniden dene.');
+ if(r.advanced){btn.dataset.validated='true';btn.textContent=r.done?'Sonuç Ekranı →':'Sonraki Soru →';btn.onclick=()=>{state.game.index=r.index;if(r.done)finishGame();else renderGameQuestion();};}
+ }catch(e){fb.textContent=e.message;}finally{btn.disabled=false;}
 }
+
 function finishGame(){
   stopQuizTimer();
   const total = state.game.game.questions.length;
-  const correct = state.game.answers.filter(Boolean).length;
-  const score = Math.max(0,Math.round((correct/total)*100));
-  const reward=window.practiceEconomy.awardGame(state.game.game.id,correct,state.game.mistakes||0,Date.now()-(state.game.startedAt||Date.now()),total);
+  const r=state.game.serverResult,correct=r.correct_first,score=Math.round(correct/(r.graded_total||total)*100),reward=r.reward;
   refreshEconomy();
   openModal(`
-    <div class="modal-card"><div class="modal-inner result-wrap"><div class="result-banner"><div><div class="stars">🎮 ⭐ 🎮</div><div class="big-title">Oyun Bitti!</div><div class="mascot-speech">${state.game.game.title} oyununu tamamladın.</div><div class="reward-summary">✨ +${reward.xp} XP &nbsp; 🪙 +${reward.gold} Altın ${reward.repeat?"(Bugünkü tekrar için ödül yok)":""}</div><div class="league-preview-note">🏆 Öğrenci sıralaması, güvenli üyelik ve sunucu puanlaması açıldığında burada görünecek.</div></div><div><div class="result-stats"><div class="result-box"><strong>${score}/100</strong><span>Puanın</span></div><div class="result-box"><strong>${correct}</strong><span>Doğru</span></div><div class="result-box"><strong>${total-correct}</strong><span>Yanlış</span></div><div class="result-box"><strong>${total}</strong><span>Soru</span></div></div><div class="result-actions"><button class="nav-btn nav-blue" onclick="openGame('${state.game.game.id}')">Tekrar Oyna</button><button class="nav-btn nav-orange" onclick="closeModal()">Oyunlara Dön</button></div></div></div></div></div>
+    <div class="modal-card"><div class="modal-inner result-wrap"><div class="result-banner"><div><div class="stars">🎮 ⭐ 🎮</div><div class="big-title">Oyun Bitti!</div><div class="mascot-speech">${state.game.game.title} oyununu tamamladın.</div><div class="reward-summary">✨ +${reward.xp} XP &nbsp; 🪙 +${reward.gold} Altın ${reward.repeat?"(Bugünkü tekrar için ödül yok)":""}</div><div class="league-preview-note">🏆 Arkadaşlar sekmesinden liglere katılabilirsin. ${reward.passed?"":"Ödül için en az %60 başarı gerekli."}</div></div><div><div class="result-stats"><div class="result-box"><strong>${score}/100</strong><span>Puanın</span></div><div class="result-box"><strong>${correct}</strong><span>Doğru</span></div><div class="result-box"><strong>${total-correct}</strong><span>Yanlış</span></div><div class="result-box"><strong>${total}</strong><span>Soru</span></div></div><div class="result-actions"><button class="nav-btn nav-blue" onclick="openGame('${state.game.game.id}')">Tekrar Oyna</button><button class="nav-btn nav-orange" onclick="closeModal()">Oyunlara Dön</button></div></div></div></div></div>
   `)
 }
 
@@ -445,3 +402,6 @@ document.addEventListener("visibilitychange",()=>{if(!document.hidden)refreshEco
 setInterval(()=>{if(!document.hidden)refreshEconomy()},30000);
 renderMap();
 renderGames();
+function applyMemberState(data){state.completed=data?.completed||[];refreshEconomy();renderMap();const link=document.getElementById('accountLink');if(link)link.textContent=data?.profile?'Hesabım':'Giriş';}
+window.addEventListener('member-state',event=>applyMemberState(event.detail));
+window.turkceMember.ready.then(()=>{applyMemberState(window.turkceMember.data);if(window.turkceMember.error)showMapMessage(window.turkceMember.error);});
