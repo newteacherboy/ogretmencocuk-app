@@ -35,7 +35,7 @@ if(new Set(catalog.grades.flatMap(g=>g.themes.flatMap(t=>t.activities.map(a=>a.i
 catalog.version=createHash('sha256').update(JSON.stringify(catalog.grades)).digest('hex').slice(0,16);
 const publicBank=structuredClone(catalog);
 for(const g of publicBank.grades)for(const t of g.themes)for(const a of t.activities){delete a.rewardId;a.questions=a.questions.map(({dogru,aciklama,...q})=>q);}
-output.push([registryPath,JSON.stringify(ids,null,2)+'\n'],['content/turkce/parkur.json',JSON.stringify({version:catalog.version,grades:publicBank.grades.map(g=>({grade:g.grade,program:g.program,file:`parkur-${g.grade}.json`}))})+'\n']);
+output.push([registryPath,JSON.stringify(ids,null,2)+'\n'],['content/turkce/parkur.json',JSON.stringify({version:catalog.version,grades:publicBank.grades.map(g=>({grade:g.grade,program:g.program,file:`parkur-${g.grade}.json`,gamesAvailable:g.themes.some(t=>{const seen=new Set(),meanings=new Set();return t.words.filter(w=>{const k=w.kelime.normalize('NFC').toLocaleLowerCase('tr-TR'),m=w.anlam.normalize('NFC').toLocaleLowerCase('tr-TR');if(seen.has(k)||meanings.has(m))return false;seen.add(k);meanings.add(m);return true;}).length>=4;})}))})+'\n']);
 for(const g of catalog.grades)output.push([`supabase/functions/diji-api/turkce-bank-${g.grade}.json`,JSON.stringify(g)+'\n']);
 for(const g of publicBank.grades)output.push([`content/turkce/parkur-${g.grade}.json`,JSON.stringify({version:catalog.version,...g})+'\n']);
 output.push(['supabase/functions/diji-api/turkce-bank.json',JSON.stringify({version:catalog.version})+'\n']);

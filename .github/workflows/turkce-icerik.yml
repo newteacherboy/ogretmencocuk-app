@@ -1,10 +1,10 @@
 name: Türkçe içerik doğrulama
 on:
   pull_request:
-    paths: ['content/turkce/**', 'tools/icerik-dogrula.mjs', 'tools/turkce-paketle.mjs', 'turkce-parkur.*', 'supabase/functions/diji-api/turkce-*', 'supabase/migrations/*turkce*', 'tools/package*.json', 'tests/turkce-*.test.mjs', '.github/workflows/turkce-icerik.yml']
+    paths: ['content/turkce/**', 'tools/icerik-dogrula.mjs', 'tools/turkce-paketle.mjs', 'turkce-parkur.*', 'turkce-oyunlar.js', 'turkce-ikonlar.svg', 'tools/turkce-*-tarayici.cjs', 'tools/turkce-tarayici-kontrol.cjs', 'supabase/functions/diji-api/turkce-*', 'supabase/migrations/*turkce*', 'tools/package*.json', 'tests/turkce-*.test.mjs', '.github/workflows/turkce-icerik.yml']
   push:
     branches: [main]
-    paths: ['content/turkce/**', 'tools/icerik-dogrula.mjs', 'tools/turkce-paketle.mjs', 'turkce-parkur.*', 'supabase/functions/diji-api/turkce-*', 'supabase/migrations/*turkce*', 'tools/package*.json', 'tests/turkce-*.test.mjs', '.github/workflows/turkce-icerik.yml']
+    paths: ['content/turkce/**', 'tools/icerik-dogrula.mjs', 'tools/turkce-paketle.mjs', 'turkce-parkur.*', 'turkce-oyunlar.js', 'turkce-ikonlar.svg', 'tools/turkce-*-tarayici.cjs', 'tools/turkce-tarayici-kontrol.cjs', 'supabase/functions/diji-api/turkce-*', 'supabase/migrations/*turkce*', 'tools/package*.json', 'tests/turkce-*.test.mjs', '.github/workflows/turkce-icerik.yml']
 permissions:
   contents: read
 jobs:
@@ -22,3 +22,24 @@ jobs:
       - run: node tools/icerik-dogrula.mjs
       - run: node tools/turkce-paketle.mjs --check
       - run: node --test tests/turkce-*.test.mjs
+
+  arayuz:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --check turkce-parkur.js && node --check turkce-oyunlar.js
+      - run: npm install --no-save --package-lock=false playwright@1.58.2
+      - run: npx playwright install --with-deps chromium
+      - run: node tools/turkce-oyun-tarayici.cjs
+      - run: node tools/turkce-tarayici-kontrol.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: turkce-harita-oyun-tarayici
+          path: |
+            docs/turkce-harita-oyunlar/
+            docs/turkce-uyarlama-asama-2/

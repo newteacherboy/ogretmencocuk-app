@@ -1921,6 +1921,13 @@
       "bytes": 12184,
       "status": "original-derived",
       "source": "Original approved Diji-Medu 20 October 2026 concept 3; UI artifacts removed, fixed illustrated scenery, live scrolling route elements."
+    },
+    {
+      "path": "turkce-ikonlar.svg",
+      "sha256": "a1a111ea543ceafcc735c05720258df03f6eab0333a324b4d483ea8d4ec4f862",
+      "bytes": 2753,
+      "status": "original-vector",
+      "source": "Original SVG paths created in code for the Turkish route and practice games, 2026-10-23."
     }
   ]
 }
