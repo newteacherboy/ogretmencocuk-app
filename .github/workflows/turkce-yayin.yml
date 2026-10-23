@@ -1,0 +1,62 @@
+name: Türkçe kontrollü yayın
+on:
+  push:
+    branches: [codex/turkce-asama-2-tek-parkur]
+    paths: ['.turkce-yayin/baslat.json']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: turkce-kontrollu-yayin
+  cancel-in-progress: false
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PROJECT_REF: isgnsmkboehygxxysria
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Release mode
+        id: mode
+        run: |
+          python - <<'PY'
+          import json,os
+          mode=json.load(open('.turkce-yayin/baslat.json'))['mode']
+          assert mode in ('inspect','publish')
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f:f.write('publish='+str(mode=='publish').lower()+'\n')
+          PY
+      - run: npm ci --prefix tools --ignore-scripts
+      - name: Reviewed release tests
+        run: |
+          node tools/icerik-dogrula.mjs
+          node tools/turkce-paketle.mjs --check
+          node --test tests/turkce-*.test.mjs tests/member-tools.test.cjs tests/api-security-guards.test.cjs tests/daily-mission-claim.test.cjs tests/onboarding-registration.test.cjs tests/google-signup.test.cjs tests/server-reward-ledger.test.cjs
+      - name: Inspect target schema and deployed function
+        env:
+          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+        run: python tools/turkce-yayin.py inspect
+      - name: Apply only the reviewed Turkish migration
+        if: steps.mode.outputs.publish == 'true'
+        env:
+          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+        run: python tools/turkce-yayin.py migrate
+      - uses: supabase/setup-cli@v1
+        if: steps.mode.outputs.publish == 'true'
+        with:
+          version: latest
+      - name: Deploy only diji-api
+        if: steps.mode.outputs.publish == 'true'
+        env:
+          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+        run: |
+          supabase functions deploy --help > /dev/null
+          supabase functions deploy diji-api --project-ref "$PROJECT_REF" --no-verify-jwt --use-api
+      - name: Inspect deployed version
+        if: steps.mode.outputs.publish == 'true'
+        env:
+          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+        run: python tools/turkce-yayin.py inspect
