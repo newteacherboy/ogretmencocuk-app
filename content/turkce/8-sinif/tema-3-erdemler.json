@@ -1,0 +1,1213 @@
+{
+  "belgeTuru": "tema",
+  "semaSurumu": "1.0",
+  "sinif": 8,
+  "program": "2019",
+  "tema": 3,
+  "temaAdi": "Erdemler",
+  "durum": "incelemeye_hazir",
+  "kaynak": "https://mufredat.meb.gov.tr/Dosyalar/20195716392253-02-T%C3%BCrk%C3%A7e%20%C3%96%C4%9Fretim%20Program%C4%B1%202019.pdf",
+  "kaynak_dogrulanmadi": false,
+  "ogrenmeCiktilari": [
+    "T.8.1.1",
+    "T.8.1.10",
+    "T.8.1.11",
+    "T.8.1.12",
+    "T.8.1.13",
+    "T.8.1.14",
+    "T.8.1.2",
+    "T.8.1.3",
+    "T.8.1.4",
+    "T.8.1.5",
+    "T.8.1.6",
+    "T.8.1.7",
+    "T.8.1.8",
+    "T.8.1.9",
+    "T.8.2.1",
+    "T.8.2.2",
+    "T.8.2.3",
+    "T.8.2.4",
+    "T.8.2.5",
+    "T.8.2.6",
+    "T.8.2.7",
+    "T.8.3.1",
+    "T.8.3.10",
+    "T.8.3.11",
+    "T.8.3.12",
+    "T.8.3.13",
+    "T.8.3.14",
+    "T.8.3.15",
+    "T.8.3.16",
+    "T.8.3.17",
+    "T.8.3.18",
+    "T.8.3.19",
+    "T.8.3.2",
+    "T.8.3.20",
+    "T.8.3.21",
+    "T.8.3.22",
+    "T.8.3.23",
+    "T.8.3.24",
+    "T.8.3.25",
+    "T.8.3.26",
+    "T.8.3.27",
+    "T.8.3.28",
+    "T.8.3.29",
+    "T.8.3.3",
+    "T.8.3.30",
+    "T.8.3.31",
+    "T.8.3.32",
+    "T.8.3.33",
+    "T.8.3.34",
+    "T.8.3.35",
+    "T.8.3.4",
+    "T.8.3.5",
+    "T.8.3.6",
+    "T.8.3.7",
+    "T.8.3.8",
+    "T.8.3.9",
+    "T.8.4.1",
+    "T.8.4.10",
+    "T.8.4.11",
+    "T.8.4.12",
+    "T.8.4.13",
+    "T.8.4.14",
+    "T.8.4.15",
+    "T.8.4.16",
+    "T.8.4.17",
+    "T.8.4.18",
+    "T.8.4.19",
+    "T.8.4.2",
+    "T.8.4.20",
+    "T.8.4.3",
+    "T.8.4.4",
+    "T.8.4.5",
+    "T.8.4.6",
+    "T.8.4.7",
+    "T.8.4.8",
+    "T.8.4.9"
+  ],
+  "sozVarligi": {
+    "aciklama": "Özgün proje tanım ve örneklerinden tema uyumlu spiral tekrar seçimi. Sınıflar arasında aynı kelime yeniden yer alabilir; her sınıf için bütünüyle yeni kelime iddiası değildir.",
+    "kelimeler": [
+      {
+        "kelime": "iletişim",
+        "anlam": "Duygu ve düşüncelerin karşılıklı aktarılması",
+        "ornek": "İletişim için ortak bir zaman belirledik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "anlaşmazlık",
+        "anlam": "Bir konuda farklı düşünüp uyuşamama durumu",
+        "ornek": "Anlaşmazlığı konuşarak çözmeye çalıştık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "uzlaşmak",
+        "anlam": "Farklı istekleri ortak bir çözümde buluşturmak",
+        "ornek": "İki grup çalışma saatinde uzlaştı.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "dinleyici",
+        "anlam": "Bir konuşmayı veya sesi dinleyen kişi",
+        "ornek": "Dinleyici soru sormak için sırasını bekledi.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "konuşmacı",
+        "anlam": "Bir topluluğa konuşan kişi",
+        "ornek": "Konuşmacı son cümlesini yeniden açıkladı.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "sıra",
+        "anlam": "Bir işte veya dizilişte izlenecek yer",
+        "ornek": "Söz sırası gelince önerimi sundum.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "üslup",
+        "anlam": "Bir anlatımın kendine özgü söyleyiş biçimi",
+        "ornek": "İletinin üslubu daha nazik hâle getirildi.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "açıklık",
+        "anlam": "Bir anlatımın kolay anlaşılır olma özelliği",
+        "ornek": "Duyurunun açıklığını kontrol ettik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "nezaket",
+        "anlam": "Başkalarını gözeten incelikli davranış",
+        "ornek": "Nezaket görüş ayrılığında da sürmelidir.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "eleştiri",
+        "anlam": "Bir işin güçlü ve geliştirilebilir yanlarını gerekçeleriyle inceleme",
+        "ornek": "Eleştiri kişiliğe değil çalışmaya yönelikti.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "öneri",
+        "anlam": "Bir işin nasıl yapılabileceğine ilişkin düşünce",
+        "ornek": "Öneri çözüm için yeni bir yol açtı.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "onay",
+        "anlam": "Bir görüşü veya işi uygun bulma",
+        "ornek": "Ses kaydı için herkesin onayı alındı.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "rıza",
+        "anlam": "Bir davranışı özgür iradeyle kabul etme",
+        "ornek": "Fotoğraf paylaşımı için rıza istendi.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "mahremiyet",
+        "anlam": "Kişisel alanın ve özel bilgilerin korunması",
+        "ornek": "Duyuruda mahremiyet gözetildi.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "sınır",
+        "anlam": "Bir davranışın veya alanın aşılmaması gereken çizgisi",
+        "ornek": "Paylaşım sınırımızı baştan belirledik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "yanlış anlama",
+        "anlam": "Bir sözü amaçlanandan farklı yorumlama",
+        "ornek": "Kısa ileti yanlış anlamaya yol açmıştı.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "geri bildirim",
+        "anlam": "Bir çalışmanın etkisi veya niteliği hakkında verilen bilgi",
+        "ornek": "Geri bildirim metni geliştirmemize yardım etti.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "arabulucu",
+        "anlam": "Anlaşmazlıkta tarafların konuşmasını kolaylaştıran kişi",
+        "ornek": "Arabulucu iki tarafa da söz verdi.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "niyet",
+        "anlam": "Bir davranışla ulaşılmak istenen amaç",
+        "ornek": "Niyetini varsaymak yerine kendisine sordum.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "beklenti",
+        "anlam": "Gerçekleşmesi umulan durum",
+        "ornek": "Görevden beklentimizi birlikte yazdık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "saygı",
+        "anlam": "Başkalarının hak ve değerini gözetme tutumu",
+        "ornek": "Saygı duymak aynı fikirde olmayı gerektirmez.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "iş birliği",
+        "anlam": "Ortak amaç için birlikte çalışma",
+        "ornek": "İş birliği görevleri paylaşınca kolaylaştı.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "koşul",
+        "anlam": "Bir şeyin gerçekleşmesinin bağlı olduğu durum",
+        "ornek": "Etkinliğe katılım koşulu açıkça yazıldı.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "amaç",
+        "anlam": "Bir eylemle ulaşılmak istenen sonuç",
+        "ornek": "Toplantının amacı çözüm bulmaktı.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "gerekçe",
+        "anlam": "Bir düşünce veya kararın dayandığı neden",
+        "ornek": "Kararımın gerekçesini açıkladım.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "davet",
+        "anlam": "Birini bir yere veya etkinliğe çağırma",
+        "ornek": "Davet tarih ve yer bilgisi içeriyordu.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "duyuru",
+        "anlam": "Bir bilgiyi topluluğa bildiren yazı veya söz",
+        "ornek": "Duyurudaki eksik saati tamamladık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "mesaj",
+        "anlam": "Bir kişiye iletilen söz veya yazı",
+        "ornek": "Mesajı göndermeden önce yeniden okudum.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "sessizlik",
+        "anlam": "Sesin veya konuşmanın bulunmadığı durum",
+        "ornek": "Sessizlik bazen düşünmek için zaman kazandırır.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "gönüllülük",
+        "anlam": "Bir işi kendi isteğiyle üstlenme durumu",
+        "ornek": "Görev paylaşımında gönüllülük esas alındı.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      }
+    ],
+    "esAnlamlilar": [],
+    "zitAnlamlilar": [],
+    "esSesliler": [],
+    "deyimler": [],
+    "atasozleri": []
+  },
+  "okumaParcalari": [
+    {
+      "id": "8-3-okuma-1",
+      "baslik": "Defterin Sahibi",
+      "tur": "oykuleyici",
+      "metin": "Yağmur başladığında Kerem otobüs durağının yanındaki kapalı alana koştu. Bankın üstünde mavi bir defter duruyordu. Önce birinin kısa süreliğine bıraktığını düşündü. Otobüs geldi, bekleyenler dağıldı, fakat defter orada kaldı. Kerem kapağına baktı; bir isim vardı. İçindeki sayfaları açıp okumak kolaydı. Belki sahibini bulmasına yardım edecek bir bilgi çıkardı. Yine de defterin bir başkasının özel yazıları olabileceğini düşündü ve okumadan çantasının ayrı bölümüne koydu.\nOkula vardığında defteri nöbetçi öğretmene teslim etti. Arkadaşı Baran niçin sayfaları incelemediğini sordu. Ona göre sahibini bulmak iyi bir amaçtı; o hâlde her ayrıntıya bakabilirdi. Kerem bunun sınırını bilmiyordu. Öğretmen, kayıp eşyanın sahibini bulmaya yardım ederken gereksiz özel bilgileri yaymamaları gerektiğini söyledi. Defteri uygun teslim noktasına götürdüler. İsim, okulun kendi süreci içinde kontrol edilecek; sınıf grubuna sayfa fotoğrafları gönderilmeyecekti.\nÖğleden sonra bir öğrenci defterini aradığını söyledi. Kapağın rengini ve iç kapağa yapıştırdığı küçük etiketi tarif etti. Öğretmen gerekli kontrolü yaptıktan sonra defteri kendisine verdi. Öğrenci çok sevindi, fakat bütün sınıfın önünde teşekkür konuşması yapmak istemedi. Kerem bunu sorun etmedi. Baran ise bu davranışı tuhaf buldu. Böyle bir iyiliğin herkesçe bilinmesi gerektiğini düşünüyordu. Kerem, defteri geri vermenin karşılığında bir gösteri beklemediğini söyledi.\nO akşam Baran kendi düşüncesini yeniden değerlendirdi. Yardımı yapan kişiyi takdir etmek başka, yardımı alan kişiyi görünür olmaya zorlamak başkaydı. Ertesi gün Kerem'e bunu açıkladı. İkisi sınıf panosu için kayıp eşya duyurusu taslağı hazırladı. Duyuruda bulunan nesnenin genel özellikleri ve başvuru noktası yer alacaktı. Sahibin özel notları paylaşılmayacaktı. Eşyayı tanımaya yetecek kadar bilgi vermekle bütün bilgiyi açığa çıkarmanın aynı şey olmadığını yazdılar.\nBir hafta sonra aynı teslim noktasına küçük bir anahtarlık bırakıldı. Bu kez Kerem okulda değildi. Baran eşyayı öğretmene ulaştırdı ve duyuru için yalnız gerekli bilgileri verdi. Kendi adının yazılmasını istemedi. Bu karar Kerem'i taklit etme yarışından doğmamıştı. İlk olayda konuşulan ilkenin yeni durumda da işe yaradığını görmüştü. Yardımın amacı, kaybolanı sahibine ulaştırmaktı. Gösterişli bir sonuç elde etmek bu amacın önüne geçmemeliydi.\nMavi defter sahibinin çantasında kaldı. Kerem içindeki yazıları hiç öğrenmedi. Başlangıçta bilinmeyen bu sayfalar ona eksik kalmış bir bilmece gibi gelmedi. Bilmemesinin gerektiği şeyler de olabileceğini düşünüyordu. Baran ise iyilik hakkında kurduğu cümleyi değiştirmişti. “İyi bir amaç her yolu haklı kılar.” demek yerine, “Yardım ederken nasıl davrandığımız da önemlidir.” diyordu. İki arkadaş için olayın değeri yalnız bir defterin bulunmasında değildi. Başkasının alanını gözeterek sorumluluk almanın ne demek olduğunu kendi davranışlarıyla tartışmışlardı. Bu tartışmanın tek olayla bitmediğini, başka durumlarda yeniden düşünmeleri gerekeceğini de biliyorlardı.\nSınıf duyurusunu son hâline getirmeden önce iki farklı taslağı okudu. Bir taslakta defterin içeriği hakkında gereksiz ayrıntılar vardı. Diğerinde yalnız eşyanın genel türü, bulunduğu yerin uygun açıklaması ve başvuru noktası bulunuyordu. Öğretmen, sahibini doğrulamak için gereken ayrıntıların herkese ilan edilmesinin zorunlu olmadığını anlattı. Öğrenciler ilk taslaktaki fazlalıkları çıkardı. Baran bunu merakı azaltan bir yasak gibi değil, amaca uygun bilgi seçimi olarak gördü. Bir metnin daha çok bilgi içermesi her durumda daha yararlı olduğu anlamına gelmiyordu. Kayıp eşyanın geri verilmesi için gerekli olanla kişisel alanı açığa çıkaran bilgi ayrılmalıydı.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; internet veya ders kitabından alınmamıştır.",
+      "sorular": [
+        {
+          "id": "8-3-okuma-1-1",
+          "tip": "secim",
+          "soru": "“Defterin Sahibi” metnine göre: Kerem ilk anda hangi sınırı gözetir?",
+          "secenekler": [
+            "Bulduğunu gizlice sahiplenmeyi",
+            "Özel sayfaları gereksiz yere okumamayı",
+            "Defteri hiç teslim etmemeyi"
+          ],
+          "dogru": "Özel sayfaları gereksiz yere okumamayı",
+          "aciklama": "Kerem kapağı görür fakat kişisel yazıları incelememeyi seçer.",
+          "cikti": "T.8.3.13"
+        },
+        {
+          "id": "8-3-okuma-1-2",
+          "tip": "secim",
+          "soru": "“Defterin Sahibi” metnine göre: Baran'ın ilk düşüncesi nedir?",
+          "secenekler": [
+            "İyi amacın her ayrıntıya bakmayı haklı kılabileceği",
+            "Sahibin hiç aranmaması gerektiği",
+            "Öğretmene danışmanın zorunlu olarak yanlış olduğu"
+          ],
+          "dogru": "İyi amacın her ayrıntıya bakmayı haklı kılabileceği",
+          "aciklama": "Baran amaca odaklanarak yöntemin sınırını ilk anda gözetmez.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-3-okuma-1-3",
+          "tip": "secim",
+          "soru": "“Defterin Sahibi” metnine göre: Defter sahibinin tanınması nasıl sağlanır?",
+          "secenekler": [
+            "Bütün sayfaların herkese açılmasıyla",
+            "Rastgele birine verilmesiyle",
+            "Öğretmenin uygun kontrolüyle"
+          ],
+          "dogru": "Öğretmenin uygun kontrolüyle",
+          "aciklama": "Öğrenci özellikleri tarif eder ve öğretmen teslim kontrolünü yapar.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-3-okuma-1-4",
+          "tip": "secim",
+          "soru": "“Defterin Sahibi” metnine göre: Baran'ın tutumu hangi yeni olayda görünür?",
+          "secenekler": [
+            "Sınıftan bütünüyle ayrılmasında",
+            "Anahtarlığı yalnız gerekli bilgiyle teslim etmesinde",
+            "Defterin kapağını değiştirmesinde"
+          ],
+          "dogru": "Anahtarlığı yalnız gerekli bilgiyle teslim etmesinde",
+          "aciklama": "Yeni kayıp eşyada ilk olayın ilkesini kendi davranışına taşır.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-3-okuma-1-5",
+          "tip": "secim",
+          "soru": "“Defterin Sahibi” metnine göre: Yardım alanın görünür olmaya zorlanmaması neyi gözetir?",
+          "secenekler": [
+            "Kişinin tercih ve özel alanını",
+            "Yardımı bütünüyle gizli bir yarış yapmayı",
+            "Takdirin her koşulda yasaklanmasını"
+          ],
+          "dogru": "Kişinin tercih ve özel alanını",
+          "aciklama": "Takdir ile teşekkür gösterisine zorlama birbirinden ayrılır.",
+          "cikti": "T.8.3.13"
+        },
+        {
+          "id": "8-3-okuma-1-6",
+          "tip": "secim",
+          "soru": "“Defterin Sahibi” metnine göre: Duyurunun hangi niteliği vurgulanır?",
+          "secenekler": [
+            "Mümkün olan bütün ayrıntıyı yayması",
+            "Bulunan eşyanın değerini artırması",
+            "Gerekli ve sınırlı bilgi sunması"
+          ],
+          "dogru": "Gerekli ve sınırlı bilgi sunması",
+          "aciklama": "Tanımaya yetecek bilgiyle özel içeriği açığa çıkarmak farklıdır.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-3-okuma-1-7",
+          "tip": "secim",
+          "soru": "“Defterin Sahibi” metnine göre: Kerem'in sayfaları bilmemesi neden eksik sayılmaz?",
+          "secenekler": [
+            "Öğrencinin adı bilinmediği için",
+            "Her özel bilgiyi öğrenmek gerekli olmadığı için",
+            "Defterde hiç yazı bulunmadığı için"
+          ],
+          "dogru": "Her özel bilgiyi öğrenmek gerekli olmadığı için",
+          "aciklama": "Son bölüm mahremiyet sınırının bilgi merakından önce gelebileceğini anlatır.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-3-okuma-1-8",
+          "tip": "secim",
+          "soru": "“Defterin Sahibi” metnine göre: Ana düşünce hangisidir?",
+          "secenekler": [
+            "İyi amaç, kullanılan yöntemin sorumluluğunu ortadan kaldırmaz",
+            "Her yardım mutlaka herkese duyurulmalıdır",
+            "Bir şeyi bulmak ona sahip olma hakkı verir"
+          ],
+          "dogru": "İyi amaç, kullanılan yöntemin sorumluluğunu ortadan kaldırmaz",
+          "aciklama": "Olay yardımın amacını ve saygılı yöntemini birlikte değerlendirir.",
+          "cikti": "T.8.3.17"
+        }
+      ]
+    },
+    {
+      "id": "8-3-okuma-2",
+      "baslik": "Özürden Sonraki Adım",
+      "tur": "bilgilendirici",
+      "metin": "Bir yanlışın ardından özür dilemek önemli bir başlangıç olabilir. Fakat özür, yalnız belirli bir cümleyi söylemekten oluşmaz. Ne olduğunu anlamak, davranışın etkisini görmek ve mümkünse düzeltici bir adım düşünmek de sürecin parçalarıdır. Bir kişinin sözünü kesmek, ortak görevi aksatmak veya izinsiz bir paylaşım yapmak farklı sonuçlar doğurabilir. Bu nedenle her olay için aynı kalıp cümlenin yeterli olacağını varsaymak yerine, somut duruma bakmak gerekir.\nİlk adım olayı açıkça anlatmaktır. “Bir şeyler oldu.” sözü sorumluluğu belirsiz bırakabilir. Buna karşılık “Konuşmanı bitirmeden araya girdim.” cümlesi belirli bir davranışı tanımlar. Davranışı açıklamak, kişinin bütün kimliğini tek bir yanlışla etiketlemek değildir. “Ben her zaman kötüyüm.” gibi genel bir yargı da sorunu çözmeye yardım etmeyebilir. Değiştirilebilir davranışın görünür olması daha yararlı bir başlangıçtır.\nİkinci adım, etkileri dinlemektir. Yanlışı yapan kişinin niyetiyle karşı tarafın yaşadığı sonuç aynı olmayabilir. Şaka amacıyla söylenen bir söz yine de kırıcı bulunabilir. Bunu anlamak için yalnız kendi amacını tekrarlamak yerine, karşı tarafın ne yaşadığını dinlemek gerekir. Dinlemek her değerlendirmeye otomatik olarak katılmak anlamına gelmez. Ancak konuşmanın yalnız savunmaya dönüşmesini azaltır. Kişinin duygusunu onun adına belirlemek yerine kendisine söz hakkı verilir.\nÜçüncü adım, düzeltmenin ne olabileceğini düşünmektir. Ortak bir çalışmada eksik kalan görevi tamamlamak, yanlış bilgiyi düzeltmek veya izinsiz paylaşılan içeriği uygun süreçle kaldırmak farklı örneklerdir. Önerilen adım, olayın ihtiyacına uygun olmalıdır. Gösterişli bir hediye, bilgi yanlışını kendiliğinden düzeltmez. Ayrıca yardım veya düzeltme adı altında karşı taraf yeni bir paylaşım yapmaya ya da hemen bağışlamaya zorlanmaz. Sonucun her zaman aynı gün alınacağı garanti değildir.\nDördüncü adım, tekrarını azaltacak bir düzen kurmaktır. Sürekli söz kesilen bir toplantıda kısa bir söz sırası yöntemi denenebilir. Görevler unutuluyorsa açık bir takvim hazırlanabilir. Böyle bir düzen, bireysel sorumluluğun yerine geçmez; onu uygulamayı kolaylaştırabilir. Bir kere özür dilendi diye aynı davranışın artık önemsiz olduğu düşünülmez. Değişimin zaman içinde tutarlı davranışlarla görülmesi gerekir.\nBu açıklamalar, herkesin bütün anlaşmazlıkları tek başına çözmesi gerektiği anlamına gelmez. Okulda öğretmen veya uygun bir yetişkinin desteği gereken durumlar olabilir. Buradaki amaç hukuki veya psikolojik bir hüküm vermek değil, gündelik sınıf ilişkilerindeki sorumluluğu düşünmektir. Öğrenci bir olayı kurgusal örnek üzerinden inceleyerek hangi sözün davranışı açıkça tanımladığını, hangi önerinin soruna yöneldiğini tartışabilir. Böylece erdemler yalnız ezberlenen iyi özellikler listesi olmaktan çıkar. Dinleme, dürüstlük ve sorumluluk somut bir davranışta anlam kazanır. Özür de bitiş çizgisi değil, daha dikkatli bir ilişki kurma yolundaki adımlardan biri olarak görülebilir. Sonraki davranış, söylenen sözün nasıl bir karşılık bulduğunu gösterir.\nKurgusal olaylar üzerinden hazırlanacak kısa bir sınıf çalışmasında iki özür metni karşılaştırılabilir. Birincisi yalnız genel bir pişmanlık sözü, ikincisi belirli davranış ve uygun düzeltme adımı içerir. Öğrenciler hangisinin neden daha açık olduğunu tartışır. Bu karşılaştırma gerçek bir öğrencinin yaşadığı olayın herkesin önüne getirilmesini gerektirmez. Kurgu, düşünme için güvenli bir mesafe sağlayabilir. Fakat örnekler gerçek kişileri tanınabilir biçimde etiketlemek amacıyla kullanılmaz. Çalışma sonunda tek bir kusursuz cümle ezberletilmez. Amaç, durumun ihtiyacına göre sorumluluğu açıklayabilmektir. Aynı ilke yeni bir olayda farklı bir davranış gerektirebilir ve yeniden düşünülmelidir.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; internet veya ders kitabından alınmamıştır.",
+      "sorular": [
+        {
+          "id": "8-3-okuma-2-1",
+          "tip": "secim",
+          "soru": "“Özürden Sonraki Adım” metnine göre: Somut davranış bildiren cümle hangisidir?",
+          "secenekler": [
+            "Konuşmanı bitirmeden araya girdim.",
+            "Ben hep kötüyüm.",
+            "Bir şeyler oldu işte."
+          ],
+          "dogru": "Konuşmanı bitirmeden araya girdim.",
+          "aciklama": "İlk seçenek belirli ve değiştirilebilir bir davranışı açıklar.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-3-okuma-2-2",
+          "tip": "secim",
+          "soru": "“Özürden Sonraki Adım” metnine göre: Niyetle sonuç arasındaki ayrım neyi gösterir?",
+          "secenekler": [
+            "Niyetin hiçbir zaman konuşulamayacağını",
+            "Her sonucun kesin aynı olduğunu",
+            "İyi niyetin kırıcı etkiyi otomatik kaldırmadığını"
+          ],
+          "dogru": "İyi niyetin kırıcı etkiyi otomatik kaldırmadığını",
+          "aciklama": "Şaka örneği amaçla yaşanan etkinin farklı olabileceğini anlatır.",
+          "cikti": "T.8.3.25"
+        },
+        {
+          "id": "8-3-okuma-2-3",
+          "tip": "secim",
+          "soru": "“Özürden Sonraki Adım” metnine göre: Düzeltme adımı nasıl seçilmelidir?",
+          "secenekler": [
+            "En pahalı olmasına göre",
+            "Somut sorunun ihtiyacına göre",
+            "Yalnız gösterişine göre"
+          ],
+          "dogru": "Somut sorunun ihtiyacına göre",
+          "aciklama": "Yanlış bilgiyi düzeltmekle hediye almak aynı işlevi görmez.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-3-okuma-2-4",
+          "tip": "secim",
+          "soru": "“Özürden Sonraki Adım” metnine göre: Özür sonrasında hangi beklenti zorlanmamalıdır?",
+          "secenekler": [
+            "Karşı tarafın hemen bağışlaması",
+            "Yanlışın açıkça anlatılması",
+            "Tekrarı azaltacak önlem düşünülmesi"
+          ],
+          "dogru": "Karşı tarafın hemen bağışlaması",
+          "aciklama": "Metin düzeltme adına kişiye yeni zorunluluk yüklenmemesini söyler.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-3-okuma-2-5",
+          "tip": "secim",
+          "soru": "“Özürden Sonraki Adım” metnine göre: Söz sırası örneğinin işlevi nedir?",
+          "secenekler": [
+            "Özrü tamamen gereksiz kılmak",
+            "Bütün anlaşmazlıkları bitirmek",
+            "Davranışı destekleyen somut düzenlemeyi göstermek"
+          ],
+          "dogru": "Davranışı destekleyen somut düzenlemeyi göstermek",
+          "aciklama": "Düzen, sorumluluğun yerine geçmez; uygulanmasını kolaylaştırır.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-3-okuma-2-6",
+          "tip": "secim",
+          "soru": "“Özürden Sonraki Adım” metnine göre: Yazının yapısı nasıl ilerler?",
+          "secenekler": [
+            "Bir gezi rotasının durakları",
+            "Başlangıç açıklaması, adımlar, kapsam ve sonuç",
+            "Yalnız bir kişinin yaşam öyküsü"
+          ],
+          "dogru": "Başlangıç açıklaması, adımlar, kapsam ve sonuç",
+          "aciklama": "Metin özür sürecini aşamalar ve sınırlarıyla açıklar.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-3-okuma-2-7",
+          "tip": "secim",
+          "soru": "“Özürden Sonraki Adım” metnine göre: Metindeki örnekler hangi yönteme hizmet eder?",
+          "secenekler": [
+            "Soyut sorumluluk düşüncesini somutlaştırmaya",
+            "Yalnız rakamsal sonuç vermeye",
+            "Tarihî olayları belgelendirmeye"
+          ],
+          "dogru": "Soyut sorumluluk düşüncesini somutlaştırmaya",
+          "aciklama": "Konuşmayı kesme, görev ve paylaşım örnekleri kavramı görünür kılar.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-3-okuma-2-8",
+          "tip": "secim",
+          "soru": "“Özürden Sonraki Adım” metnine göre: Ana düşünce hangisidir?",
+          "secenekler": [
+            "Tek bir cümle her sorunu kesin bitirir",
+            "Düzeltme yalnız pahalı bir hediye almaktır",
+            "Özür, somut sorumluluk ve uygun düzeltici davranışlarla desteklenmelidir"
+          ],
+          "dogru": "Özür, somut sorumluluk ve uygun düzeltici davranışlarla desteklenmelidir",
+          "aciklama": "Bölümler sözden sonraki dinleme, düzeltme ve tutarlılık üzerinde birleşir.",
+          "cikti": "T.8.3.17"
+        }
+      ]
+    }
+  ],
+  "konular": [
+    {
+      "kod": "8-3-oznesine-gore-cati",
+      "ad": "Etken ve edilgen fiil",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.8.4.20",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Ece kapıyı açtı cümlesi işi yapan kişiyi öne çıkarır. Kapı açıldı dendiğinde ise yapılan iş ve etkilenen kapı belirginleşir; yapan kişi söylenmeyebilir. Kapı açıktı cümlesinde bir işin yapılması değil, durum anlatılır. Bu örnekleri karşılaştırarak anlatım seçiminin anlamı nasıl değiştirdiğini incele. Terim tanımlarını ezberlemek yerine hangi unsurun görünür olduğunu açıkla.</p><ul><li>Ece kapıyı açtı.</li><li>Kapı açıldı.</li><li>Kapı açıktı: isim yüklemli.</li></ul>",
+      "ornekler": [
+        "Ece kapıyı açtı.",
+        "Kapı açıldı.",
+        "Kapı açıktı: isim yüklemli."
+      ],
+      "testler": [
+        {
+          "id": "8-3-oznesine-gore-cati-1",
+          "tip": "secim",
+          "soru": "“Ece defteri buldu.” cümlesinin yüklemi özne ilişkisi bakımından nasıl değerlendirilir?",
+          "secenekler": [
+            "Bir durum nitelenir; fiil çatısı aranmaz.",
+            "İşi yapan özne öne çıkar.",
+            "Yapılan iş ve etkilenen unsur öne çıkar."
+          ],
+          "dogru": "İşi yapan özne öne çıkar.",
+          "aciklama": "Bulma işi öznenin yaptığı eylem olarak anlatılır.",
+          "cikti": "T.8.4.20"
+        },
+        {
+          "id": "8-3-oznesine-gore-cati-2",
+          "tip": "secim",
+          "soru": "“Defter bulundu.” cümlesinin yüklemi özne ilişkisi bakımından nasıl değerlendirilir?",
+          "secenekler": [
+            "Yapılan iş ve etkilenen unsur öne çıkar.",
+            "İşi yapan özne öne çıkar.",
+            "Bir durum nitelenir; fiil çatısı aranmaz."
+          ],
+          "dogru": "Yapılan iş ve etkilenen unsur öne çıkar.",
+          "aciklama": "Bulunan nesne öne çıkar; işi yapan belirtilmez.",
+          "cikti": "T.8.4.20"
+        },
+        {
+          "id": "8-3-oznesine-gore-cati-3",
+          "tip": "secim",
+          "soru": "“Öğrenci duyuruyu yazdı.” cümlesinin yüklemi özne ilişkisi bakımından nasıl değerlendirilir?",
+          "secenekler": [
+            "Yapılan iş ve etkilenen unsur öne çıkar.",
+            "Bir durum nitelenir; fiil çatısı aranmaz.",
+            "İşi yapan özne öne çıkar."
+          ],
+          "dogru": "İşi yapan özne öne çıkar.",
+          "aciklama": "Yazma işini yapan özne açıktır.",
+          "cikti": "T.8.4.20"
+        },
+        {
+          "id": "8-3-oznesine-gore-cati-4",
+          "tip": "secim",
+          "soru": "“Duyuru yazıldı.” cümlesinin yüklemi özne ilişkisi bakımından nasıl değerlendirilir?",
+          "secenekler": [
+            "Bir durum nitelenir; fiil çatısı aranmaz.",
+            "Yapılan iş ve etkilenen unsur öne çıkar.",
+            "İşi yapan özne öne çıkar."
+          ],
+          "dogru": "Yapılan iş ve etkilenen unsur öne çıkar.",
+          "aciklama": "İşin yapılışı öne çıkar, yapan açıklanmaz.",
+          "cikti": "T.8.4.20"
+        },
+        {
+          "id": "8-3-oznesine-gore-cati-5",
+          "tip": "secim",
+          "soru": "“Kutular görevliler tarafından taşındı.” cümlesinin yüklemi özne ilişkisi bakımından nasıl değerlendirilir?",
+          "secenekler": [
+            "Yapılan iş ve etkilenen unsur öne çıkar.",
+            "İşi yapan özne öne çıkar.",
+            "Bir durum nitelenir; fiil çatısı aranmaz."
+          ],
+          "dogru": "Yapılan iş ve etkilenen unsur öne çıkar.",
+          "aciklama": "Yapan tarafından ile verilse de taşındı edilgen yapıdır.",
+          "cikti": "T.8.4.20"
+        },
+        {
+          "id": "8-3-oznesine-gore-cati-6",
+          "tip": "secim",
+          "soru": "“Görevliler kutuları taşıdı.” cümlesinin yüklemi özne ilişkisi bakımından nasıl değerlendirilir?",
+          "secenekler": [
+            "Yapılan iş ve etkilenen unsur öne çıkar.",
+            "Bir durum nitelenir; fiil çatısı aranmaz.",
+            "İşi yapan özne öne çıkar."
+          ],
+          "dogru": "İşi yapan özne öne çıkar.",
+          "aciklama": "Özne taşıma işini yapan unsurdur.",
+          "cikti": "T.8.4.20"
+        },
+        {
+          "id": "8-3-oznesine-gore-cati-7",
+          "tip": "secim",
+          "soru": "“Pano hazırdı.” cümlesinin yüklemi özne ilişkisi bakımından nasıl değerlendirilir?",
+          "secenekler": [
+            "Edilgen fiil",
+            "Bir durum nitelenir; fiil çatısı aranmaz.",
+            "Etken fiil"
+          ],
+          "dogru": "Bir durum nitelenir; fiil çatısı aranmaz.",
+          "aciklama": "Hazırdı ad soylu yüklemdir; fiil çatısı uygulanmaz.",
+          "cikti": "T.8.4.20"
+        },
+        {
+          "id": "8-3-oznesine-gore-cati-8",
+          "tip": "secim",
+          "soru": "“Metin öğrencilerce okundu.” cümlesinin yüklemi özne ilişkisi bakımından nasıl değerlendirilir?",
+          "secenekler": [
+            "Yapılan iş ve etkilenen unsur öne çıkar.",
+            "İşi yapan özne öne çıkar.",
+            "Bir durum nitelenir; fiil çatısı aranmaz."
+          ],
+          "dogru": "Yapılan iş ve etkilenen unsur öne çıkar.",
+          "aciklama": "Okundu edilgen biçimindedir; yapanın söylenmesi bunu değiştirmez.",
+          "cikti": "T.8.4.20"
+        },
+        {
+          "id": "8-3-oznesine-gore-cati-9",
+          "tip": "secim",
+          "soru": "“İpek metni okudu.” cümlesinin yüklemi özne ilişkisi bakımından nasıl değerlendirilir?",
+          "secenekler": [
+            "Yapılan iş ve etkilenen unsur öne çıkar.",
+            "Bir durum nitelenir; fiil çatısı aranmaz.",
+            "İşi yapan özne öne çıkar."
+          ],
+          "dogru": "İşi yapan özne öne çıkar.",
+          "aciklama": "Okuma işi İpek öznesiyle etken anlatılır.",
+          "cikti": "T.8.4.20"
+        },
+        {
+          "id": "8-3-oznesine-gore-cati-10",
+          "tip": "secim",
+          "soru": "“Defter yeniydi.” cümlesinin yüklemi özne ilişkisi bakımından nasıl değerlendirilir?",
+          "secenekler": [
+            "Edilgen fiil",
+            "Bir durum nitelenir; fiil çatısı aranmaz.",
+            "Etken fiil"
+          ],
+          "dogru": "Bir durum nitelenir; fiil çatısı aranmaz.",
+          "aciklama": "Yeniydi bir fiil yargısı değildir.",
+          "cikti": "T.8.4.20"
+        }
+      ]
+    },
+    {
+      "kod": "8-3-nesnesine-gore-cati",
+      "ad": "Geçişli ve geçişsiz fiil",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.8.4.20",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Kitabı okudu cümlesinde okunan nesne açıktır. Bir süre okudu dendiğinde nesne söylenmese de okunan şey eklenebilir. Bahçeye gitti cümlesinde ise bir nesne değil, yönelinen yer belirtilir. Örnekleri karşılaştırarak fiilin çevresinde hangi ilişkilerin kurulabildiğini incele. Sırf nesne yazılı değil diye bütün fiilleri aynı gruba koyma; anlamı koruyan başka kullanım mümkün mü diye düşün.</p><ul><li>Kitabı okudu: geçişli.</li><li>Bir süre okudu: nesne söylenmese de geçişli.</li><li>Bahçeye gitti: geçişsiz.</li></ul>",
+      "ornekler": [
+        "Kitabı okudu: geçişli.",
+        "Bir süre okudu: nesne söylenmese de geçişli.",
+        "Bahçeye gitti: geçişsiz."
+      ],
+      "testler": [
+        {
+          "id": "8-3-nesnesine-gore-cati-1",
+          "tip": "secim",
+          "soru": "“Öyküyü okudu.” cümlesinin fiili nesne ilişkisi bakımından nasıl açıklanır?",
+          "secenekler": [
+            "Yüklem bir durum niteler; fiil ilişkisi aranmaz.",
+            "Fiil, etkilenen bir nesneyle kullanılabilir.",
+            "Fiil bu anlamda doğrudan nesne almaz."
+          ],
+          "dogru": "Fiil, etkilenen bir nesneyle kullanılabilir.",
+          "aciklama": "Okumak nesne alabilen fiildir; öyküyü nesnesi açıktır.",
+          "cikti": "T.8.4.20"
+        },
+        {
+          "id": "8-3-nesnesine-gore-cati-2",
+          "tip": "secim",
+          "soru": "“Bahçeye gitti.” cümlesinin fiili nesne ilişkisi bakımından nasıl açıklanır?",
+          "secenekler": [
+            "Fiil bu anlamda doğrudan nesne almaz.",
+            "Fiil, etkilenen bir nesneyle kullanılabilir.",
+            "Yüklem bir durum niteler; fiil ilişkisi aranmaz."
+          ],
+          "dogru": "Fiil bu anlamda doğrudan nesne almaz.",
+          "aciklama": "Gitmek nesne değil yönelme tamlayıcısı almıştır.",
+          "cikti": "T.8.4.20"
+        },
+        {
+          "id": "8-3-nesnesine-gore-cati-3",
+          "tip": "secim",
+          "soru": "“Kapıyı kapattı.” cümlesinin fiili nesne ilişkisi bakımından nasıl açıklanır?",
+          "secenekler": [
+            "Fiil bu anlamda doğrudan nesne almaz.",
+            "Yüklem bir durum niteler; fiil ilişkisi aranmaz.",
+            "Fiil, etkilenen bir nesneyle kullanılabilir."
+          ],
+          "dogru": "Fiil, etkilenen bir nesneyle kullanılabilir.",
+          "aciklama": "Kapattı fiili kapıyı nesnesini alır.",
+          "cikti": "T.8.4.20"
+        },
+        {
+          "id": "8-3-nesnesine-gore-cati-4",
+          "tip": "secim",
+          "soru": "“Çocuk uyudu.” cümlesinin fiili nesne ilişkisi bakımından nasıl açıklanır?",
+          "secenekler": [
+            "Yüklem bir durum niteler; fiil ilişkisi aranmaz.",
+            "Fiil bu anlamda doğrudan nesne almaz.",
+            "Fiil, etkilenen bir nesneyle kullanılabilir."
+          ],
+          "dogru": "Fiil bu anlamda doğrudan nesne almaz.",
+          "aciklama": "Uyumak fiili doğrudan nesne almaz.",
+          "cikti": "T.8.4.20"
+        },
+        {
+          "id": "8-3-nesnesine-gore-cati-5",
+          "tip": "secim",
+          "soru": "“Bir süre yazdı.” cümlesinin fiili nesne ilişkisi bakımından nasıl açıklanır?",
+          "secenekler": [
+            "Fiil nesne alabilir; bu cümlede söylenmemiştir.",
+            "Nesne yazılmadığı için fiil hiçbir bağlamda nesne alamaz.",
+            "Yüklem bir durum niteler; fiil ilişkisi aranmaz."
+          ],
+          "dogru": "Fiil nesne alabilir; bu cümlede söylenmemiştir.",
+          "aciklama": "Yazmak uygun bağlamda metni gibi nesne alabilir.",
+          "cikti": "T.8.4.20"
+        },
+        {
+          "id": "8-3-nesnesine-gore-cati-6",
+          "tip": "secim",
+          "soru": "“Derse yetişti.” cümlesinin fiili nesne ilişkisi bakımından nasıl açıklanır?",
+          "secenekler": [
+            "Fiil, etkilenen bir nesneyle kullanılabilir.",
+            "Yüklem bir durum niteler; fiil ilişkisi aranmaz.",
+            "Fiil bu anlamda doğrudan nesne almaz."
+          ],
+          "dogru": "Fiil bu anlamda doğrudan nesne almaz.",
+          "aciklama": "Yetişmek bu anlamda nesne almaz; derse yer tamlayıcısıdır.",
+          "cikti": "T.8.4.20"
+        },
+        {
+          "id": "8-3-nesnesine-gore-cati-7",
+          "tip": "secim",
+          "soru": "“Soruyu çözdü.” cümlesinin fiili nesne ilişkisi bakımından nasıl açıklanır?",
+          "secenekler": [
+            "Yüklem bir durum niteler; fiil ilişkisi aranmaz.",
+            "Fiil, etkilenen bir nesneyle kullanılabilir.",
+            "Fiil bu anlamda doğrudan nesne almaz."
+          ],
+          "dogru": "Fiil, etkilenen bir nesneyle kullanılabilir.",
+          "aciklama": "Çözmek fiili soruyu nesnesiyle kullanılmıştır.",
+          "cikti": "T.8.4.20"
+        },
+        {
+          "id": "8-3-nesnesine-gore-cati-8",
+          "tip": "secim",
+          "soru": "“Yolcu bekledi.” cümlesinin fiili nesne ilişkisi bakımından nasıl açıklanır?",
+          "secenekler": [
+            "Fiil uygun bağlamda doğrudan nesneyle kullanılabilir.",
+            "Fiil hiçbir bağlamda doğrudan nesneyle kullanılamaz.",
+            "Yüklem bir durum niteler; fiil ilişkisi aranmaz."
+          ],
+          "dogru": "Fiil uygun bağlamda doğrudan nesneyle kullanılabilir.",
+          "aciklama": "Beklemek otobüsü bekledi örneğinde nesne alır; söylenmemesi yeterli değildir.",
+          "cikti": "T.8.4.20"
+        },
+        {
+          "id": "8-3-nesnesine-gore-cati-9",
+          "tip": "secim",
+          "soru": "“Yağmur yağdı.” cümlesinin fiili nesne ilişkisi bakımından nasıl açıklanır?",
+          "secenekler": [
+            "Fiil, etkilenen bir nesneyle kullanılabilir.",
+            "Yüklem bir durum niteler; fiil ilişkisi aranmaz.",
+            "Fiil bu anlamda doğrudan nesne almaz."
+          ],
+          "dogru": "Fiil bu anlamda doğrudan nesne almaz.",
+          "aciklama": "Yağmak bu kullanımda nesne almaz.",
+          "cikti": "T.8.4.20"
+        },
+        {
+          "id": "8-3-nesnesine-gore-cati-10",
+          "tip": "secim",
+          "soru": "“Çantayı taşıdı.” cümlesinin fiili nesne ilişkisi bakımından nasıl açıklanır?",
+          "secenekler": [
+            "Yüklem bir durum niteler; fiil ilişkisi aranmaz.",
+            "Fiil, etkilenen bir nesneyle kullanılabilir.",
+            "Fiil bu anlamda doğrudan nesne almaz."
+          ],
+          "dogru": "Fiil, etkilenen bir nesneyle kullanılabilir.",
+          "aciklama": "Taşımak doğrudan etkilenen çantayı nesnesini alır.",
+          "cikti": "T.8.4.20"
+        }
+      ]
+    }
+  ],
+  "dinleme": [
+    {
+      "id": "8-3-dinleme",
+      "baslik": "Kayıp Eşyanın Duyurusu",
+      "metin": "Bir öğrenci bulduğu defteri okumadan öğretmene teslim etti. İlk duyuru taslağı, defterin özel içeriğinden ayrıntılar taşıyordu. Öğretmen bunların sahibini bulmak için gerekli olmadığını söyledi. Yeni taslakta yalnız genel özellikler ve başvuru noktası kaldı. Sahibin kimliğini doğrulamak için gereken kontroller uygun teslim sürecinde yapılacaktı. Yardımın amacıyla kullanılan yöntemi birlikte düşündüler. Sonuçta daha çok bilgi paylaşmanın her zaman daha iyi yardım etmek anlamına gelmediğini fark ettiler.",
+      "tts": {
+        "dil": "tr-TR",
+        "sesYoksa": "metin"
+      },
+      "sorular": [
+        {
+          "id": "8-3-dinleme-1",
+          "tip": "secim",
+          "soru": "“Kayıp Eşyanın Duyurusu” dinleme metnine göre: Defter ilk olarak kime teslim edildi?",
+          "secenekler": [
+            "Bütün sınıf grubuna",
+            "Öğretmene",
+            "Rastgele bir yolcuya"
+          ],
+          "dogru": "Öğretmene",
+          "aciklama": "Dinlenen olayın sırası ve açıklamaları “Öğretmene” cevabını destekler. Diğer seçeneklerdeki ayrıntılar metinde verilen bilgiyle uyuşmaz.",
+          "cikti": "T.8.1.4"
+        },
+        {
+          "id": "8-3-dinleme-2",
+          "tip": "secim",
+          "soru": "“Kayıp Eşyanın Duyurusu” dinleme metnine göre: İlk taslağın sorunu neydi?",
+          "secenekler": [
+            "Gereksiz özel ayrıntılar içermesi",
+            "Hiç sözcük bulunmaması",
+            "Yalnız başvuru noktası vermesi"
+          ],
+          "dogru": "Gereksiz özel ayrıntılar içermesi",
+          "aciklama": "Dinlenen olayın sırası ve açıklamaları “Gereksiz özel ayrıntılar içermesi” cevabını destekler. Diğer seçeneklerdeki ayrıntılar metinde verilen bilgiyle uyuşmaz.",
+          "cikti": "T.8.1.4"
+        },
+        {
+          "id": "8-3-dinleme-3",
+          "tip": "secim",
+          "soru": "“Kayıp Eşyanın Duyurusu” dinleme metnine göre: Yeni taslakta ne korundu?",
+          "secenekler": [
+            "Bütün özel sayfalar",
+            "Öğrencilerin kişisel adresleri",
+            "Genel özellikler ve başvuru noktası"
+          ],
+          "dogru": "Genel özellikler ve başvuru noktası",
+          "aciklama": "Dinlenen olayın sırası ve açıklamaları “Genel özellikler ve başvuru noktası” cevabını destekler. Diğer seçeneklerdeki ayrıntılar metinde verilen bilgiyle uyuşmaz.",
+          "cikti": "T.8.1.4"
+        },
+        {
+          "id": "8-3-dinleme-4",
+          "tip": "secim",
+          "soru": "“Kayıp Eşyanın Duyurusu” dinleme metnine göre: Temel düşünce hangisidir?",
+          "secenekler": [
+            "Bulunan eşyayı saklamak gerekir",
+            "Yardımın yöntemi de amaca uygun ve saygılı olmalıdır",
+            "İyi amaç bütün paylaşımı haklı kılar"
+          ],
+          "dogru": "Yardımın yöntemi de amaca uygun ve saygılı olmalıdır",
+          "aciklama": "Dinlenen olayın sırası ve açıklamaları “Yardımın yöntemi de amaca uygun ve saygılı olmalıdır” cevabını destekler. Diğer seçeneklerdeki ayrıntılar metinde verilen bilgiyle uyuşmaz.",
+          "cikti": "T.8.1.4"
+        }
+      ]
+    }
+  ],
+  "yazmaGorevleri": [
+    {
+      "id": "8-3-yazma",
+      "baslik": "Saygılı Bir Yardım Öyküsü",
+      "yonerge": "180–280 kelimede kayıp eşyanın uygun okul süreciyle sahibine ulaştırıldığı özgün öykü yaz. Özel içerikleri yayma. Etken ve edilgen yapıları anlamlarına uygun kullan.",
+      "minKelime": 180,
+      "maxKelime": 280,
+      "ciktilar": [
+        "T.8.4.3",
+        "T.8.4.16",
+        "T.8.4.20"
+      ],
+      "ogretmenDegerlendirmeli": true,
+      "rubrik": [
+        {
+          "olcut": "Amaç ve kapsam",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Gerekçe ve anlam bütünlüğü",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Dil yapıları ve söz varlığı",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Yazım, noktalama ve düzenleme",
+          "enDusuk": 0,
+          "enYuksek": 4
+        }
+      ]
+    }
+  ],
+  "lgsSorulari": [
+    {
+      "id": "8-3-lgs-1",
+      "tip": "secim",
+      "soru": "Dayanışma Günü için hazırlanan dört çalışma aşağıda verilmiştir.\nyardım duyurusu A: 23 dakika; kaynak notu var; ses gereksinimi yok.\nyardım duyurusu B: 26 dakika; kaynak notu var; ses gereksinimi yok.\nyardım duyurusu C: 21 dakika; kaynak notu yok; ses gereksinimi yok.\nyardım duyurusu D: 22 dakika; kaynak notu var; ses gereksinimi var.\nSeçilecek çalışmada kaynak notu bulunmalı, ses gerekmemeli ve süre 23 dakikayı aşmamalıdır. Üç koşulu birlikte sağlayan hangisidir?",
+      "secenekler": [
+        "yardım duyurusu B",
+        "yardım duyurusu C",
+        "yardım duyurusu D",
+        "yardım duyurusu A"
+      ],
+      "dogru": "yardım duyurusu A",
+      "aciklama": "yardım duyurusu A üç koşulu sağlar. B süreyi aşar, C kaynak notu içermez, D ses gerektirir.",
+      "cikti": "T.8.3.32"
+    },
+    {
+      "id": "8-3-lgs-2",
+      "tip": "secim",
+      "soru": "Dayanışma Günü programında dört işlem farklı sıralarda yapılacaktır: ihtiyaç belirleme, görüş alma, taslak hazırlama, duyuru. İhtiyaç belirleme, görüş alma işleminden önce yapılır. Taslak hazırlama, görüş alma işleminin hemen ardından gelir. Duyuru son işlemdir. Her işlem bir kez yapılacağına göre uygun sıra hangisidir?",
+      "secenekler": [
+        "ihtiyaç belirleme → taslak hazırlama → görüş alma → duyuru",
+        "ihtiyaç belirleme → görüş alma → duyuru → taslak hazırlama",
+        "ihtiyaç belirleme → görüş alma → taslak hazırlama → duyuru",
+        "görüş alma → ihtiyaç belirleme → taslak hazırlama → duyuru"
+      ],
+      "dogru": "ihtiyaç belirleme → görüş alma → taslak hazırlama → duyuru",
+      "aciklama": "duyuru sonda olmalıdır. görüş alma ile taslak hazırlama yan yana ve bu sırada bulunur; ihtiyaç belirleme da onlardan önce gelir.",
+      "cikti": "T.8.3.35"
+    },
+    {
+      "id": "8-3-lgs-3",
+      "tip": "secim",
+      "soru": "Dayanışma Günü sonrasında gönüllü 13 katılımcının tamamı yardım duyurusu çalışmasının anlaşılır olduğunu söyledi. Katılmayanlar ve cevap vermeyenler hakkında veri toplanmadı. Bu bilgiye dayanan, kapsamı aşmayan sonuç hangisidir?",
+      "secenekler": [
+        "Bu yöntem her koşulda en başarılı yöntemdir.",
+        "Yanıt veren 13 kişi çalışmayı anlaşılır bulmuştur.",
+        "Okuldaki herkes çalışmayı anlaşılır bulmuştur.",
+        "Yanıt vermeyenlerin tamamı çalışmayı anlaşılmaz bulmuştur."
+      ],
+      "dogru": "Yanıt veren 13 kişi çalışmayı anlaşılır bulmuştur.",
+      "aciklama": "Veri yalnız yanıt veren gönüllü grubu kapsar; diğer kişiler veya bütün yöntemler hakkında kesin sonuç vermez.",
+      "cikti": "T.8.3.21"
+    },
+    {
+      "id": "8-3-lgs-4",
+      "tip": "secim",
+      "soru": "Dayanışma Günü için iki görüş var. I: “Yardım duyurusu kısa olmalı; okuyucu temel bilgiyi hızla bulabilmeli.” II: “Yardım duyurusu gerektiğinde ayrıntı içermeli; okuyucunun önemli koşulları anlaması sağlanmalı.” Bu iki görüş hangi ilkede buluşur?",
+      "secenekler": [
+        "İçerik, okuyucunun ihtiyacını karşılayacak biçimde düzenlenmelidir.",
+        "Her metin olabilecek en kısa biçime indirilmelidir.",
+        "Ayrıntılar bütün koşullarda kaldırılmalıdır.",
+        "Okuyucunun ön bilgisi hiçbir zaman dikkate alınmamalıdır."
+      ],
+      "dogru": "İçerik, okuyucunun ihtiyacını karşılayacak biçimde düzenlenmelidir.",
+      "aciklama": "İlk görüş hıza, ikincisi koşullara dikkat çeker; ortak nokta okuyucunun bilgiyi uygun biçimde almasıdır.",
+      "cikti": "T.8.3.23"
+    },
+    {
+      "id": "8-3-lgs-5",
+      "tip": "secim",
+      "soru": "Aşağıdaki cümleler anlamlı bir paragraf oluşturacaktır.\nI. Dayanışma Günü grubu ilk taslağını hazırladı.\nII. Son değerlendirmede bu iki düzeltmenin etkisini birlikte inceledi.\nIII. Bu taslağı okuyanlar iki belirsiz nokta belirledi.\nIV. Grup, belirlenen noktaları açıklayan iki düzeltme yaptı.\nGönderimler ve işlem sırası gözetildiğinde doğru diziliş hangisidir?",
+      "secenekler": [
+        "III – I – IV – II",
+        "I – II – III – IV",
+        "IV – III – I – II",
+        "I – III – IV – II"
+      ],
+      "dogru": "I – III – IV – II",
+      "aciklama": "Bu taslak, ilk taslağa; belirlenen noktalar, okuyucu tespitine; bu iki düzeltme, yapılan değişikliklere gönderir.",
+      "cikti": "T.8.3.35"
+    },
+    {
+      "id": "8-3-lgs-6",
+      "tip": "secim",
+      "soru": "Dayanışma Günü için hazırlanan yardım duyurusu ilk denemede uzun bulundu. Grup bazı tekrarları çıkardı. ——— önemli bir koşulun da silindiğini görünce onu yeniden ekledi. Daha kısa bir metin elde etmek, her durumda daha doğru bir metin elde etmek değildi. Boşluğa, önceki adımın beklenen yararına karşı ortaya çıkan sınırlılığı belirtmek için hangisi getirilmelidir?",
+      "secenekler": [
+        "Örneğin",
+        "Başka bir deyişle",
+        "Ancak",
+        "Bu nedenle"
+      ],
+      "dogru": "Ancak",
+      "aciklama": "Kısaltma olumlu bir adım gibi görünürken koşul kaybı ters bir durum getirir; ancak bu karşıtlığı bağlar.",
+      "cikti": "T.8.3.10"
+    },
+    {
+      "id": "8-3-lgs-7",
+      "tip": "secim",
+      "soru": "Bir grup öğrenci yardım duyurusunu hazırlarken herkesin özel durumunu açıklamak istedi. Sonra amaca ulaşmak için bütün kişisel ayrıntıların gerekli olmadığını gördü. Duyuruyu sınırlı bilgiyle yeniden yazdı. Yardımın nasıl yapıldığının da amacı kadar önemli olduğunu bu süreçte tartıştı.\nBu parçada asıl vurgulanan düşünce hangisidir?",
+      "secenekler": [
+        "Bütün durumlar tek bir ölçütle eksiksiz açıklanabilir.",
+        "Bir değerlendirme, amaca uygun somut dayanaklarla gözden geçirilmelidir.",
+        "İlk izlenim her zaman yeterli ve kesindir.",
+        "Yeni bilgi ilk kararı hiçbir koşulda değiştirmemelidir."
+      ],
+      "dogru": "Bir değerlendirme, amaca uygun somut dayanaklarla gözden geçirilmelidir.",
+      "aciklama": "Parçada ilk yargı, yeni inceleme ve somut dayanaklarla düzeltilir; kapsamı geniş kesinlikler savunulmaz.",
+      "cikti": "T.8.3.17"
+    },
+    {
+      "id": "8-3-lgs-8",
+      "tip": "secim",
+      "soru": "Dayanışma Günü yönergesi şöyledir: Kaynak bilgisi eksik yardım duyurusu doğrudan geri bildirim aşamasına alınır; tamamlanmadan sunuma geçmez. Kaynak bilgisi tamam olanlar önce içerik kontrolünden geçer, uygun bulunursa sunulur. Kaynak bilgisi eksik bir çalışma için ilk uygun işlem hangisidir?",
+      "secenekler": [
+        "Eksik bilgi için geri bildirim vermek",
+        "İçerik kontrolünü atlayıp sunmak",
+        "Eksikliği görünmez biçimde silmek",
+        "Kaynak eksik olsa da doğrudan uygun saymak"
+      ],
+      "dogru": "Eksik bilgi için geri bildirim vermek",
+      "aciklama": "Yönergenin ilk koşulu eksik kaynak durumunu açıkça geri bildirime bağlar.",
+      "cikti": "T.8.3.35"
+    },
+    {
+      "id": "8-3-lgs-9",
+      "tip": "secim",
+      "soru": "Dayanışma Günü çalışmasında yalnız iki küçük grubun yardım duyurusu örnekleri incelendi. Bir grupta açıklama notu varken diğerinde yoktu. Açıklama notu olan örnekte katılımcılar daha az soru sordu. Bu sınırlı bulgu için kapsamı en doğru başlık hangisidir?",
+      "secenekler": [
+        "Açıklama Notları Bütün Soruları Sonsuza Dek Bitirdi",
+        "Bütün Öğrenciler Aynı Yöntemi Tercih Ediyor",
+        "Not Olmayan Her Çalışma Başarısızdır",
+        "İki Gruptaki Örneklerde Açıklama Notuyla Soru Sayısı Birlikte İncelendi"
+      ],
+      "dogru": "İki Gruptaki Örneklerde Açıklama Notuyla Soru Sayısı Birlikte İncelendi",
+      "aciklama": "Başlık iki grup ve gözlenen ilişki sınırını korur; evrensel veya nedensel kesinlik üretmez.",
+      "cikti": "T.8.3.19"
+    },
+    {
+      "id": "8-3-lgs-10",
+      "tip": "secim",
+      "soru": "Bir paragrafın konusu Dayanışma Günü kayıtlarının nasıl tutulduğudur. I: Tarih ve yöntem her kayda eklendi. II: Gözlenmeyen alanlar boş bırakılıp açıklandı. III: Etkinliğin afişi bence yılın en güzel afişiydi. IV: Yöntem değiştiğinde kayda not düşüldü. Konu bütünlüğünü bozan cümle hangisidir?",
+      "secenekler": [
+        "I",
+        "II",
+        "IV",
+        "III"
+      ],
+      "dogru": "III",
+      "aciklama": "Diğer cümleler kayıt yöntemini anlatır; III etkinlikle ilgili olsa da afişin kişisel beğeni değerine geçer.",
+      "cikti": "T.8.3.18"
+    },
+    {
+      "id": "8-3-lgs-11",
+      "tip": "secim",
+      "soru": "Dayanışma Günü değerlendirmesinde dört cümle yazılmıştır. Hangisi kişisel beğeni yerine kontrol edilebilir bir bilgi bildirir?",
+      "secenekler": [
+        "Etkinliğin havası bütün diğerlerinden güzeldi.",
+        "Seçilen örnekler herkes için kusursuzdu.",
+        "Dosyada 6 adet yardım duyurusu örneği bulunuyor.",
+        "Bu çalışma tartışmasız en etkileyici üründür."
+      ],
+      "dogru": "Dosyada 6 adet yardım duyurusu örneği bulunuyor.",
+      "aciklama": "Örnek sayısı sayılarak kontrol edilebilir; diğer sözler beğeni veya kapsamı belirsiz değer yargısı içerir.",
+      "cikti": "T.8.3.21"
+    },
+    {
+      "id": "8-3-lgs-12",
+      "tip": "secim",
+      "soru": "Dayanışma Günü sunumuna kabul edilmek için hem içerik onayı hem paylaşım izni gereklidir. Bir yardım duyurusu örneğinin içerik onayı aldığı biliniyor; paylaşım izni hakkında bilgi yoktur. Kesin olarak söylenebilecek yargı hangisidir?",
+      "secenekler": [
+        "İçerik onayı almadığı kanıtlanmıştır.",
+        "Sunuma kabul edildiği henüz kesinleştirilemez.",
+        "Kesinlikle sunuma kabul edilmiştir.",
+        "Kesinlikle paylaşım izni reddedilmiştir."
+      ],
+      "dogru": "Sunuma kabul edildiği henüz kesinleştirilemez.",
+      "aciklama": "İki gerekli koşuldan yalnız biri bilinmektedir. İzin bilgisi yokluğu ne kabulü ne de reddi kanıtlar.",
+      "cikti": "T.8.3.25"
+    },
+    {
+      "id": "8-3-lgs-13",
+      "tip": "secim",
+      "soru": "Dayanışma Günü kayıt tablosu: toplam çalışma / eksik alan sayısı\nI: 15 / 3\nII: 19 / 1\nIII: 17 / 0\nIV: 21 / 2\nEn az 17 çalışma içeren ve eksik alanı olmayan dosya hangisidir?",
+      "secenekler": [
+        "III",
+        "I",
+        "II",
+        "IV"
+      ],
+      "dogru": "III",
+      "aciklama": "III alt miktar sınırını sağlar ve eksik alanı sıfırdır. II ve IV miktarı sağlasa da eksikleri vardır; I alt sınırın altındadır.",
+      "cikti": "T.8.3.32"
+    },
+    {
+      "id": "8-3-lgs-14",
+      "tip": "secim",
+      "soru": "Dayanışma Günü duyurusunda “Yalnız onaylı yardım duyurusu örnekleri listede gösterilir.” yazıyor. Bu kurala göre hangi yorum doğrudur?",
+      "secenekler": [
+        "Onaylı olan her örnek mutlaka gösterilmiştir.",
+        "Listede görünen her örnek onaysızdır.",
+        "Onaysız örnekler mutlaka listede yer alır.",
+        "Listede gösterilmeyen bir örnek yine de onaylı olabilir."
+      ],
+      "dogru": "Listede gösterilmeyen bir örnek yine de onaylı olabilir.",
+      "aciklama": "Kural gösterilenlerin onaylı olmasını ister; onaylananların tamamının gösterileceğini söylemez.",
+      "cikti": "T.8.3.25"
+    },
+    {
+      "id": "8-3-lgs-15",
+      "tip": "secim",
+      "soru": "Dayanışma Günü için araştırma yapan öğrenci aynı yardım duyurusu bilgisini üç ayrı sayfada bulur. İkinci ve üçüncü sayfanın birinci sayfayı aynen aktardığını görür. Bu üç sayfanın aynı bilgiyi vermesi nasıl değerlendirilmelidir?",
+      "secenekler": [
+        "Kaynağı incelemeye artık gerek yoktur.",
+        "Üç sayfa mutlaka üç ayrı deney raporudur.",
+        "Birbirinden bağımsız üç doğrulama sayılmaz.",
+        "Bilgi üç kez yazıldığı için kesin kanıtlanmıştır."
+      ],
+      "dogru": "Birbirinden bağımsız üç doğrulama sayılmaz.",
+      "aciklama": "Kopyalanan bilgi ayrı bağımsız dayanak oluşturmaz; ilk kaynağın ve ek kanıtların niteliği incelenmelidir.",
+      "cikti": "T.8.3.31"
+    },
+    {
+      "id": "8-3-lgs-16",
+      "tip": "secim",
+      "soru": "Dayanışma Günü kuralı: “Yardım duyurusu dosyası, kaynak bilgisi tamamlanmışsa ve öğretmen uygun bulmuşsa cuma günü paylaşılacaktır.” Bu cümlenin anlamını koruyan özet hangisidir?",
+      "secenekler": [
+        "Kaynak tamamlanınca gün gözetmeden otomatik paylaşılacak.",
+        "Paylaşım cuma günü, iki koşul da sağlanırsa yapılacak.",
+        "Dosya cuma günü her durumda paylaşılacak.",
+        "Öğretmen uygun bulursa kaynak bilgisine gerek kalmayacak."
+      ],
+      "dogru": "Paylaşım cuma günü, iki koşul da sağlanırsa yapılacak.",
+      "aciklama": "Doğru özet zaman bilgisini ve iki koşulun birlikte gerekli oluşunu korur.",
+      "cikti": "T.8.3.13"
+    },
+    {
+      "id": "8-3-lgs-17",
+      "tip": "secim",
+      "soru": "Dayanışma Günü raporunda “Bazı yardım duyurusu örnekleri henüz incelenmedi.” deniyor. Bu cümleden hangi sonuç çıkarılabilir?",
+      "secenekler": [
+        "En az bir örneğin incelemesi tamamlanmamıştır.",
+        "Bütün örnekler kesinlikle incelenmiştir.",
+        "Hiçbir örnek gelecekte incelenmeyecektir.",
+        "İncelenen bütün örnekler başarısızdır."
+      ],
+      "dogru": "En az bir örneğin incelemesi tamamlanmamıştır.",
+      "aciklama": "Bazı sözü en az bir durumu bildirir; henüz ise gelecekte inceleme ihtimalini kapatmaz.",
+      "cikti": "T.8.3.25"
+    },
+    {
+      "id": "8-3-lgs-18",
+      "tip": "secim",
+      "soru": "Dayanışma Günü dosyasında dört grubun tamamladığı yardım duyurusu sayıları A:9, B:15, C:12, D:6 olarak verilmiştir. En yüksekten en düşüğe doğru sıralamayı gösteren grafik etiketleri hangisidir?",
+      "secenekler": [
+        "B – A – C – D",
+        "D – A – C – B",
+        "C – B – A – D",
+        "B – C – A – D"
+      ],
+      "dogru": "B – C – A – D",
+      "aciklama": "B en yüksek, ardından C ve A, son olarak D gelir. Sıralama tabloda verilen büyüklüklerden okunur.",
+      "cikti": "T.8.3.32"
+    },
+    {
+      "id": "8-3-lgs-19",
+      "tip": "secim",
+      "soru": "Dayanışma Günü üzerine bir yazıda “Yardım duyurusu, hazırlayanla okuyan arasında bir köprü kurdu; daha önce görünmeyen düşünceler konuşulabilir oldu.” deniyor. Köprü kurmak sözü burada anlatıma ne katar?",
+      "secenekler": [
+        "Bir yolun uzunluğunu sayıyla gösterir.",
+        "İki kişinin her konuda aynı düşündüğünü kesinleştirir.",
+        "İletişim ve bağlantı sağlandığını mecazla anlatır.",
+        "Gerçek bir inşaatın tamamlandığını kanıtlar."
+      ],
+      "dogru": "İletişim ve bağlantı sağlandığını mecazla anlatır.",
+      "aciklama": "Köprü somut geçiş yapısından hareketle düşünceler arasında iletişim kurulmasını anlatır; tam uzlaşma iddiası içermez.",
+      "cikti": "T.8.3.5"
+    },
+    {
+      "id": "8-3-lgs-20",
+      "tip": "secim",
+      "soru": "Dayanışma Günü için basılı duyuru “Salı, saat 14.00, okul salonu; ön kayıt gerekli.” diyor. Sesli duyuru ise “Salı okul salonunda buluşuyoruz; ön kayıt yaptırmayı unutmayın.” biçimindedir. İki duyuru karşılaştırıldığında sesli duyuruda hangi bilginin eksik olduğu görülür?",
+      "secenekler": [
+        "Yer",
+        "Ön kayıt koşulu",
+        "Başlama saati",
+        "Gün"
+      ],
+      "dogru": "Başlama saati",
+      "aciklama": "Gün, yer ve kayıt iki duyuruda da vardır; 14.00 bilgisi yalnız basılı duyuruda bulunur.",
+      "cikti": "T.8.3.23"
+    }
+  ]
+}

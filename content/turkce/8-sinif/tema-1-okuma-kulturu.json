@@ -1,0 +1,1363 @@
+{
+  "belgeTuru": "tema",
+  "semaSurumu": "1.0",
+  "sinif": 8,
+  "program": "2019",
+  "tema": 1,
+  "temaAdi": "Okuma Kültürü",
+  "durum": "incelemeye_hazir",
+  "kaynak": "https://mufredat.meb.gov.tr/Dosyalar/20195716392253-02-T%C3%BCrk%C3%A7e%20%C3%96%C4%9Fretim%20Program%C4%B1%202019.pdf",
+  "kaynak_dogrulanmadi": false,
+  "ogrenmeCiktilari": [
+    "T.8.1.1",
+    "T.8.1.10",
+    "T.8.1.11",
+    "T.8.1.12",
+    "T.8.1.13",
+    "T.8.1.14",
+    "T.8.1.2",
+    "T.8.1.3",
+    "T.8.1.4",
+    "T.8.1.5",
+    "T.8.1.6",
+    "T.8.1.7",
+    "T.8.1.8",
+    "T.8.1.9",
+    "T.8.2.1",
+    "T.8.2.2",
+    "T.8.2.3",
+    "T.8.2.4",
+    "T.8.2.5",
+    "T.8.2.6",
+    "T.8.2.7",
+    "T.8.3.1",
+    "T.8.3.10",
+    "T.8.3.11",
+    "T.8.3.12",
+    "T.8.3.13",
+    "T.8.3.14",
+    "T.8.3.15",
+    "T.8.3.16",
+    "T.8.3.17",
+    "T.8.3.18",
+    "T.8.3.19",
+    "T.8.3.2",
+    "T.8.3.20",
+    "T.8.3.21",
+    "T.8.3.22",
+    "T.8.3.23",
+    "T.8.3.24",
+    "T.8.3.25",
+    "T.8.3.26",
+    "T.8.3.27",
+    "T.8.3.28",
+    "T.8.3.29",
+    "T.8.3.3",
+    "T.8.3.30",
+    "T.8.3.31",
+    "T.8.3.32",
+    "T.8.3.33",
+    "T.8.3.34",
+    "T.8.3.35",
+    "T.8.3.4",
+    "T.8.3.5",
+    "T.8.3.6",
+    "T.8.3.7",
+    "T.8.3.8",
+    "T.8.3.9",
+    "T.8.4.1",
+    "T.8.4.10",
+    "T.8.4.11",
+    "T.8.4.12",
+    "T.8.4.13",
+    "T.8.4.14",
+    "T.8.4.15",
+    "T.8.4.16",
+    "T.8.4.17",
+    "T.8.4.18",
+    "T.8.4.19",
+    "T.8.4.2",
+    "T.8.4.20",
+    "T.8.4.3",
+    "T.8.4.4",
+    "T.8.4.5",
+    "T.8.4.6",
+    "T.8.4.7",
+    "T.8.4.8",
+    "T.8.4.9"
+  ],
+  "sozVarligi": {
+    "aciklama": "Özgün proje tanım ve örneklerinden tema uyumlu spiral tekrar seçimi. Sınıflar arasında aynı kelime yeniden yer alabilir; her sınıf için bütünüyle yeni kelime iddiası değildir.",
+    "kelimeler": [
+      {
+        "kelime": "söz varlığı",
+        "anlam": "Bir dilde kullanılan kelime ve kalıp sözlerin bütünü",
+        "ornek": "Söz varlığımız yeni okumalarla gelişir.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "ağız",
+        "anlam": "Bir dilin yörelere göre değişen söyleyiş biçimi",
+        "ornek": "Dedemin ağzında bazı sesler farklı duyulur.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "deyim",
+        "anlam": "Genellikle gerçek anlamından farklı bir anlam taşıyan kalıplaşmış söz",
+        "ornek": "Metindeki deyim anlatımı güçlendirdi.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "atasözü",
+        "anlam": "Deneyimlerden doğan genel bir öğüdü bildiren kalıplaşmış söz",
+        "ornek": "Bu atasözü sabırlı olmayı öğütlüyor.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "çağrışım",
+        "anlam": "Bir düşüncenin başka bir düşünceyi hatırlatması",
+        "ornek": "Yağmur kelimesinin bende bir sonbahar çağrışımı var.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "bağlam",
+        "anlam": "Bir sözün anlamını belirleyen çevresindeki anlatım",
+        "ornek": "Kelimenin anlamını bağlamdan çıkardım.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "nüans",
+        "anlam": "Birbirine yakın şeyler arasındaki ince ayrım",
+        "ornek": "İki ifadenin arasında küçük bir nüans var.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "akıcılık",
+        "anlam": "Söyleyişin veya anlatımın kesintisiz ilerlemesi",
+        "ornek": "Sesli okurken akıcılık üzerinde çalıştık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "vurgu",
+        "anlam": "Söyleyişte bir sesi veya kelimeyi belirginleştirme",
+        "ornek": "Vurgu değişince sorunun anlamı değişti.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "tonlama",
+        "anlam": "Konuşurken sesin anlamla uyumlu biçimde yükselip alçalması",
+        "ornek": "Tonlama dinleyicinin ilgisini canlı tuttu.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "derleme",
+        "anlam": "Dağınık kaynaklardan bilgi veya ürün toplama işi",
+        "ornek": "Bilmecelerden oluşan bir derleme yaptık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "kuşak",
+        "anlam": "Yakın yıllarda doğup benzer dönemleri yaşayan insanlar topluluğu",
+        "ornek": "Her kuşak dilimize yeni ifadeler katıyor.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "sözlü",
+        "anlam": "Konuşmayla aktarılan",
+        "ornek": "Sözlü anlatıları izin alarak kaydettik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "yazılı",
+        "anlam": "Yazıyla oluşturulan veya aktarılan",
+        "ornek": "Yazılı kaynağın tarihini not ettim.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "özgün",
+        "anlam": "Kendine özgü nitelik taşıyan",
+        "ornek": "Bilmecem için özgün bir benzetme buldum.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "kavram",
+        "anlam": "Bir varlığı veya düşünceyi zihinde temsil eden genel tasarım",
+        "ornek": "Dayanışma kavramını örneklerle açıkladık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "karşılık",
+        "anlam": "Bir sözün başka bir sözle anlatılan eş değeri",
+        "ornek": "Yabancı terimin Türkçe karşılığını araştırdım.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "tanım",
+        "anlam": "Bir kavramın temel özelliklerini açıklayan anlatım",
+        "ornek": "Tanımın altına bir örnek ekledim.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "kaynakça",
+        "anlam": "Bir çalışmada yararlanılan kaynakların listesi",
+        "ornek": "Dosyanın sonunda kaynakça bulunuyor.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "aktarılmak",
+        "anlam": "Birinden veya bir yerden başkasına iletilmek",
+        "ornek": "Ninni yıllardır aile içinde aktarılmış.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "kalıp söz",
+        "anlam": "Belirli durumlarda alışılmış biçimiyle kullanılan ifade",
+        "ornek": "Geçmiş olsun bir kalıp sözdür.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "mani",
+        "anlam": "Genellikle dört dizeden oluşan halk şiiri türü",
+        "ornek": "Şenlikte yeni yazdığımız maniyi okuduk.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "ninni",
+        "anlam": "Küçük çocukları uyutmak için ezgiyle söylenen söz",
+        "ornek": "Ninninin yumuşak ritmini dinledim.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "tekerleme",
+        "anlam": "Ses benzerlikleriyle kurulan ritimli söz dizisi",
+        "ornek": "Tekerlemeyi yavaş söyleyerek başladık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "bilmece",
+        "anlam": "Bir varlığı özellikleriyle dolaylı anlatan sözlü soru",
+        "ornek": "Bilmecenin cevabını ipuçlarından buldum.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "söyleyiş",
+        "anlam": "Bir sözün söylenme biçimi",
+        "ornek": "Söyleyiş farklı olsa da anlam aynıydı.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "etkileşim",
+        "anlam": "Birbirini karşılıklı olarak etkileme",
+        "ornek": "Diller arasında etkileşim olabilir.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "birikim",
+        "anlam": "Zaman içinde toplanan bilgi ve deneyim",
+        "ornek": "Okuma birikimim yazılarıma yansıdı.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "özen",
+        "anlam": "Bir işi dikkatle ve titizlikle yapma",
+        "ornek": "Kelimeleri seçerken özen gösterdim.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "incelik",
+        "anlam": "Anlatımda veya davranışta gözetilen hassas ayrıntı",
+        "ornek": "Bir teşekkürün inceliğini fark ettik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      }
+    ],
+    "esAnlamlilar": [
+      [
+        "kelime",
+        "sözcük"
+      ]
+    ],
+    "zitAnlamlilar": [],
+    "esSesliler": [],
+    "deyimler": [],
+    "atasozleri": []
+  },
+  "okumaParcalari": [
+    {
+      "id": "8-1-okuma-1",
+      "baslik": "Sayfanın Kenarında",
+      "tur": "oykuleyici",
+      "metin": "Akşam kütüphanesi kapanmak üzereyken Eylül, ödünç aldığı kitabın arasında küçük bir kâğıt buldu. Üzerinde bir soru yazıyordu: “Bu kişinin kararını hangi ayrıntı değiştirdi?” Kâğıt kitabın sayfasına yapıştırılmamıştı; herhangi bir isim veya iletişim bilgisi de taşımıyordu. Eylül önce bunun bir ödev notu olduğunu düşündü. Sonra kütüphane görevlisine gösterdi. Görevli, okuma grubunun kitaplara zarar vermeden kullandığı çıkarılabilir soru kartlarından biri olduğunu açıkladı.\nEylül kitabı daha önce hızla bitirmişti. Sonunu hatırlıyor, fakat sorudaki kararın hangi bölümde değiştiğini bilmiyordu. Kitabı yeniden açtı. Kahramanın komşusuyla konuştuğu kısa sahneyi önce gereksiz bulup geçmişti. Şimdi o konuşmanın sonraki davranışla ilişkisini gördü. Önemli bulmadığı bir ayrıntı olayların yönünü değiştiriyordu. Kenardaki küçük soru, aynı metni ikinci kez okurken başka bir yol izlemesini sağlamıştı.\nErtesi hafta okuma grubuna katıldığında herkesin aynı sahneyi farklı biçimde yorumladığını gördü. Ozan kahramanın korktuğu için karar değiştirdiğini düşünüyordu. Eylül ise daha çok sorumluluk duygusunun etkili olduğunu savundu. İkisi de kendi düşüncesini destekleyen cümleler gösterdi. Metin, kahramanın bütün duygularını doğrudan açıklamıyordu. Bazı yargıları çıkarım olarak kurmaları, kesin bilgi gibi sunmamaları gerekiyordu. Bu ayrım tartışmayı durdurmadı; daha dikkatli sürdürmelerini sağladı.\nGrup yeni soru kartları hazırlamaya karar verdi. Kartlarda cevaplar bulunmayacaktı. Amaç başka bir okurun ne düşüneceğini önceden belirlemek değil, metne dönmesini sağlayacak sorular sormaktı. Eylül'ün ilk sorusu çok geneldi: “Kitap güzel mi?” Ozan hangi ayrıntı üzerine konuşulacağını anlamadığını söyledi. Eylül soruyu değiştirdi: “İlk sahne çıkarılsaydı son karar aynı ölçüde anlaşılır olur muydu?” Bu kez grup olay örgüsü üzerine somut bir karşılaştırma yapabildi.\nKartlar kütüphanede kullanıma açılmadan önce görevliyle birlikte kontrol edildi. Kitabın hiçbir sayfasına yazı yazılmayacak, kartlar ayrı bir kutuda tutulacaktı. Bir öğrencinin yorumu diğer okurlar için zorunlu cevap sayılmayacaktı. Metne dayanmayan iddialar için de “Bunu hangi bölüm destekliyor?” sorusu sorulabilecekti. Eylül bu düzenin yalnız kitapları korumadığını düşündü. Okurların farklı düşünme hakkını da gözetiyordu. Bir sorunun iyi olması, herkesi aynı cevaba götürmesi demek değildi.\nAy sonunda Eylül ilk bulduğu kartın bir benzerini yazdı. Bu kez sorunun yanına metne dönerken izlediği yolu anlatan kısa bir not ekledi. Notu kitabın içine bırakmak yerine kutuya koydu. Yeni bir okur kartı seçtiğinde onunla tanışmayacaktı; yine de aralarında bir konuşma başlayabilirdi. Kütüphanenin sessizliği böylece boşluk gibi gelmiyordu. Raflarda yalnız kitaplar değil, henüz sorulmamış sorular da duruyordu. Eylül çıkarken kitabın sonunu yeniden düşündü. Son değişmemişti ama okuma deneyimi değişmişti. Aynı cümleler, dikkatini yönelttiği ayrıntılarla yeni bir ilişki kurmuştu. Bunun kitabı keyfine göre değiştirmekten farklı olduğunu biliyordu: Yorumunu yine metindeki izlerle sınaması gerekiyordu.\nEylül sonraki buluşmada kartların hangi kitaplarla eşleştiğini gösteren küçük bir liste hazırladı. Listede soruyu yazanın adı yerine ilgili bölüm ve soru türü bulunuyordu. Böylece yeni katılan biri tartışmanın kişilerini tanımadan da metne dönebilecekti. Bir kartı anlamayan öğrencinin sorunu da not edildi. Sorunun uzun olması onu kendiliğinden derin yapmıyordu. Bazı kartlarda iki ayrı soru aynı cümleye sıkışmıştı. Grup bunları ayırdı ve denedi. Sonuçları konuşurken her kartı başarılı ilan etmediler. Eylül kendi sorusunun da değiştirilmesini kabul etti. Bir soruyu geliştirmek, onun yazarı olmaktan vazgeçmek değildi; okurla daha açık bir ilişki kurmaya çalışmaktı.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; internet veya ders kitabından alınmamıştır.",
+      "sorular": [
+        {
+          "id": "8-1-okuma-1-1",
+          "tip": "secim",
+          "soru": "“Sayfanın Kenarında” metnine göre: Eylül kartı neden görevliye gösterir?",
+          "secenekler": [
+            "Ne olduğunu ve kullanımını anlamak için",
+            "Kâğıdı kendi eseri diye sunmak için",
+            "Kitabın sayfalarını çıkarmak için"
+          ],
+          "dogru": "Ne olduğunu ve kullanımını anlamak için",
+          "aciklama": "Kartın okuma grubuna ait olduğu görevlinin açıklamasıyla anlaşılır.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-1-okuma-1-2",
+          "tip": "secim",
+          "soru": "“Sayfanın Kenarında” metnine göre: İkinci okumada ne fark eder?",
+          "secenekler": [
+            "Kitabın sonunun fiziksel olarak değiştiğini",
+            "Bütün olayların aynı gün geçtiğini",
+            "Kısa konuşmanın sonraki kararla ilişkisini"
+          ],
+          "dogru": "Kısa konuşmanın sonraki kararla ilişkisini",
+          "aciklama": "İlk okumada önemsiz bulduğu sahnenin olay örgüsündeki işlevini görür.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-1-okuma-1-3",
+          "tip": "secim",
+          "soru": "“Sayfanın Kenarında” metnine göre: Ozan ile Eylül hangi konuda ayrılır?",
+          "secenekler": [
+            "Kartın hangi renkte olduğu hakkında",
+            "Kararın arkasındaki duygu hakkında",
+            "Kitabın kime ait olduğu hakkında"
+          ],
+          "dogru": "Kararın arkasındaki duygu hakkında",
+          "aciklama": "Biri korkuyu, diğeri sorumluluğu öne çıkaran yorum yapar.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-1-okuma-1-4",
+          "tip": "secim",
+          "soru": "“Sayfanın Kenarında” metnine göre: Yorumları sınamanın yolu nedir?",
+          "secenekler": [
+            "Metindeki dayanakları göstermek",
+            "En yüksek sesle konuşmak",
+            "Yalnız beğeni sayısını almak"
+          ],
+          "dogru": "Metindeki dayanakları göstermek",
+          "aciklama": "İki öğrenci görüşlerini destekleyen cümlelere dönmektedir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-1-okuma-1-5",
+          "tip": "secim",
+          "soru": "“Sayfanın Kenarında” metnine göre: İkinci soru ilkine göre neden daha işlevseldir?",
+          "secenekler": [
+            "Her okura cevabı hazır verir",
+            "Kitabın bütün bilgisini ezberletir",
+            "Belirli bir sahnenin işlevini inceletir"
+          ],
+          "dogru": "Belirli bir sahnenin işlevini inceletir",
+          "aciklama": "Sahnenin çıkarılması düşüncesi olay örgüsündeki bağlantıyı araştırır.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-1-okuma-1-6",
+          "tip": "secim",
+          "soru": "“Sayfanın Kenarında” metnine göre: Raflarda soruların durması ifadesi nasıl yorumlanır?",
+          "secenekler": [
+            "Görevlilerin bütün soruları kaybetmesi",
+            "Kitapların yeni düşünme imkânları taşıması",
+            "Gerçek kâğıtların her rafa yığılması"
+          ],
+          "dogru": "Kitapların yeni düşünme imkânları taşıması",
+          "aciklama": "Son bölümde somut raflar üzerinden okuma imkânlarına mecazlı biçimde değinilir.",
+          "cikti": "T.8.3.25"
+        },
+        {
+          "id": "8-1-okuma-1-7",
+          "tip": "secim",
+          "soru": "“Sayfanın Kenarında” metnine göre: Kartların ayrı kutuda tutulmasının iki işlevi nedir?",
+          "secenekler": [
+            "Kitabı korumak ve yorumları zorunlu cevap yapmamak",
+            "Sayfa sayısını artırmak ve sonu değiştirmek",
+            "Kitapları kapatmak ve okumayı azaltmak"
+          ],
+          "dogru": "Kitabı korumak ve yorumları zorunlu cevap yapmamak",
+          "aciklama": "Düzen, fiziksel korumayla farklı okumalara alan açmayı birlikte gözetir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-1-okuma-1-8",
+          "tip": "secim",
+          "soru": "“Sayfanın Kenarında” metnine göre: Öykünün ana düşüncesi hangisidir?",
+          "secenekler": [
+            "İkinci okuma her zaman ilkini geçersiz kılar",
+            "Her kitabın tek bir okuma yöntemi vardır",
+            "Metne dayanan sorular yeniden okumayı ve farklı yorumları geliştirebilir"
+          ],
+          "dogru": "Metne dayanan sorular yeniden okumayı ve farklı yorumları geliştirebilir",
+          "aciklama": "Eylül aynı metinde yeni bağlantılar görür ve yorumunu dayanakla sınar.",
+          "cikti": "T.8.3.17"
+        }
+      ]
+    },
+    {
+      "id": "8-1-okuma-2",
+      "baslik": "Bir Özeti Okurken",
+      "tur": "bilgilendirici",
+      "metin": "Bir kitabın veya yazının özeti, içeriğin bütün ayrıntılarını taşımaz. Özetleyen kişi ana düşünceyi ve temel ilişkileri seçer, bazı örnekleri dışarıda bırakır. Bu nedenle özet, metnin yerine her durumda geçebilen eksiksiz bir kopya değildir. Okura bir başlangıç sağlayabilir; fakat ayrıntılı bir yorum veya değerlendirme yapılacaksa asıl metne dönmek gerekebilir. Özeti yararlı kılan şey yalnız kısa olması değil, seçtiği bilgilerin doğru ve dengeli olmasıdır.\nBir özeti incelerken ilk soru, metnin ne hakkında olduğunun korunup korunmadığıdır. Ardından olaylar veya düşünceler arasındaki ilişkinin bozulup bozulmadığına bakılabilir. Bir öyküde önce verilen karar ile sonra ortaya çıkan sonuç ters sıraya konursa okur yanlış bir neden ilişkisi kurabilir. Bilgilendirici yazıda ise yalnız bir örneği bütün metnin savı gibi göstermek kapsamı daraltabilir. Seçim yapmakla anlamı değiştirmek arasındaki sınır burada önem kazanır.\nİkinci soru, özetle yorumun ayrılıp ayrılmadığıdır. “Yazar üç farklı uygulamayı karşılaştırıyor.” cümlesi içerik bilgisi sunar. “Yazarın ikinci önerisi daha ikna edici.” cümlesi ise bir değerlendirmedir. İkisi aynı yazıda bulunabilir; fakat değerlendirme özette yazarın kesin sözüymüş gibi gösterilmemelidir. Okur, kimin ne söylediğini ayırt edebilmelidir. Özellikle kısa tanıtımlarda bu ayrım kolayca gözden kaçabilir.\nÜçüncü soru, kaynağın nasıl sunulduğudur. Bir özetin kim tarafından ve hangi amaçla hazırlandığı önemlidir. Kitabı tanıtmayı amaçlayan reklam metni, bir öğrencinin çalışma notu ve eleştirel inceleme farklı seçimler yapabilir. Bu fark, hepsinin değersiz veya yanlış olduğu anlamına gelmez. Okurun hangi tür metinle karşılaştığını bilmesi, beklentisini uygun kurmasını sağlar. Kaynağı belirsiz bir özet ise kontrol edilmesi gereken daha fazla soru doğurur.\nDijital araçlarla oluşturulan özetler de aynı dikkatle incelenebilir. Akıcı bir dil, bilginin mutlaka doğru aktarıldığını göstermez. Metinde bulunmayan bir ayrıntı eklenmiş, bir kişinin sözü başka kişiye bağlanmış veya karşıt düşünceler tek görüş gibi birleştirilmiş olabilir. Böyle bir aracı kullanırken sonucu sorgulamadan yaymak yerine asıl kaynakla karşılaştırmak gerekir. Kişisel verilerin veya paylaşım izni olmayan içeriklerin sisteme verilmesi de öğrenme çalışması için zorunlu değildir.\nBir öğrenci özetini geliştirmek için küçük bir kontrol çizelgesi hazırlayabilir. Konu korunmuş mu, temel ilişkiler açık mı, kendi yorumları ayırt ediliyor mu, önemli bir koşul çıkarılmış mı? Her soruya metinden örnekle cevap vermek, yalnız “Doğru görünüyor.” demekten daha güçlü bir denetim sağlar. Başka bir okurun geri bildirimi de eksik bağlantıları fark etmeye yardım edebilir. Ancak son karar yine asıl metinle ilişkilendirilmelidir. Böylece özet yazma, yalnız kelime sayısını azaltma işi olmaktan çıkar. Bilgiyi seçme, kapsamını koruma ve doğru aktarma becerisine dönüşür. Bu beceri okuma kültürünün farklı alanlarında, bir kitap kulübü konuşmasından bir araştırma notuna kadar kullanılabilir. Okur kısa metni tüketmekle kalmaz; gerektiğinde arkasındaki uzun metne dönme sorumluluğunu da tanır.\nÖzet kontrolünde kısa bir karşılaştırma daha yapılabilir. Öğrenci kendi özetini bir arkadaşına okutur; arkadaşı asıl metni görmeden hangi konuyu anladığını söyler. Ardından ikisi de kaynağa döner. Arkadaşın anlattığıyla kaynak arasında fark varsa bunun özetten mi, yorumdan mı doğduğu incelenir. Bu yöntem tek başına kesin doğruluk testi sayılmaz. Yine de görünmeyen bir bağlantı sorununu açığa çıkarabilir. Kontrol sırasında okurun tahminleri de ayrıca belirtilir. Kaynakta olmayan bir çıkarım, yazarın sözü diye eklenmez. Böylece kısa metnin hangi bilgiyi taşıdığı daha dikkatli görülür ve yeni sürüm için somut bir düzeltme seçilebilir.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; internet veya ders kitabından alınmamıştır.",
+      "sorular": [
+        {
+          "id": "8-1-okuma-2-1",
+          "tip": "secim",
+          "soru": "“Bir Özeti Okurken” metnine göre: Özetin yararlılığı hangi iki niteliğe bağlıdır?",
+          "secenekler": [
+            "Yalnız en kısa olmasına",
+            "Kaynağının gizli olmasına",
+            "Doğru ve dengeli bilgi seçimine"
+          ],
+          "dogru": "Doğru ve dengeli bilgi seçimine",
+          "aciklama": "İlk paragraf kısalığın tek başına yeterli olmadığını belirtir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-1-okuma-2-2",
+          "tip": "secim",
+          "soru": "“Bir Özeti Okurken” metnine göre: Olay sırasının ters verilmesi neye yol açabilir?",
+          "secenekler": [
+            "Metnin türünün kesin değişmesine",
+            "Yanlış neden ilişkisine",
+            "Her zaman daha iyi anlamaya"
+          ],
+          "dogru": "Yanlış neden ilişkisine",
+          "aciklama": "Karar ve sonuç sırası bozulduğunda ilişki yanlış yorumlanabilir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-1-okuma-2-3",
+          "tip": "secim",
+          "soru": "“Bir Özeti Okurken” metnine göre: Hangi söz bir değerlendirmedir?",
+          "secenekler": [
+            "İkinci öneri daha ikna edici.",
+            "Yazıda üç örnek var.",
+            "Yazar iki uygulamayı karşılaştırıyor."
+          ],
+          "dogru": "İkinci öneri daha ikna edici.",
+          "aciklama": "İkna edicilik yorumdur; diğerleri içerik hakkında kontrol edilebilir bildirimlerdir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-1-okuma-2-4",
+          "tip": "secim",
+          "soru": "“Bir Özeti Okurken” metnine göre: Kaynak türünü bilmek ne sağlar?",
+          "secenekler": [
+            "Her cümleyi sorgulamadan kabul etmeyi",
+            "Asıl metne hiçbir zaman dönmemeyi",
+            "Metnin amacına uygun beklenti kurmayı"
+          ],
+          "dogru": "Metnin amacına uygun beklenti kurmayı",
+          "aciklama": "Reklam, çalışma notu ve inceleme farklı amaçlarla seçim yapar.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-1-okuma-2-5",
+          "tip": "secim",
+          "soru": "“Bir Özeti Okurken” metnine göre: Akıcı dijital özet neden kontrol edilmelidir?",
+          "secenekler": [
+            "Kısa metinlerin kaynağı olamaz",
+            "Akıcılık doğruluğu garanti etmez",
+            "Akıcı her metin yanlıştır"
+          ],
+          "dogru": "Akıcılık doğruluğu garanti etmez",
+          "aciklama": "Metin bulunmayan ayrıntıların eklenebileceğini örnekler.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-1-okuma-2-6",
+          "tip": "secim",
+          "soru": "“Bir Özeti Okurken” metnine göre: Kontrol çizelgesinde hangi soru yer alabilir?",
+          "secenekler": [
+            "Önemli bir koşul çıkarılmış mı?",
+            "En gösterişli rengi kullandım mı?",
+            "Bütün kitap adlarını ezberledim mi?"
+          ],
+          "dogru": "Önemli bir koşul çıkarılmış mı?",
+          "aciklama": "Koşulun çıkarılması metnin kapsamını veya anlamını değiştirebilir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-1-okuma-2-7",
+          "tip": "secim",
+          "soru": "“Bir Özeti Okurken” metnine göre: Yazar hangi yönteme başvurur?",
+          "secenekler": [
+            "Bir araştırmanın oranlarını vermeye",
+            "Tarihî bir kişiyi konuşturmaya",
+            "Özet türleri ve hata örnekleriyle açıklamaya"
+          ],
+          "dogru": "Özet türleri ve hata örnekleriyle açıklamaya",
+          "aciklama": "Somut örnekler, özetle ilgili genel ölçütleri anlaşılır kılar.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-1-okuma-2-8",
+          "tip": "secim",
+          "soru": "“Bir Özeti Okurken” metnine göre: Ana düşünce hangisidir?",
+          "secenekler": [
+            "Dijital üretim kaynak kontrolünü gereksiz kılar",
+            "Özet, seçilen bilgilerin kapsamını ve ilişkilerini koruyarak denetlenmelidir",
+            "Özet her metnin eksiksiz karşılığıdır"
+          ],
+          "dogru": "Özet, seçilen bilgilerin kapsamını ve ilişkilerini koruyarak denetlenmelidir",
+          "aciklama": "Bütün paragraflar doğru seçim ve asıl metinle karşılaştırma üzerinde birleşir.",
+          "cikti": "T.8.3.17"
+        }
+      ]
+    }
+  ],
+  "konular": [
+    {
+      "kod": "8-1-isim-fiil",
+      "ad": "İsim-fiilin cümledeki işlevi",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.8.3.9",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Fiilimsiler fiilden türeyip çekimli yüklem olmadan cümlede başka görevler üstlenebilir. İsim-fiiller bir işin adını bildirir. Okumayı severim cümlesindeki okumayı sözü, sevilen işi adlandırır; tek başına zaman ve kişiyle çekimlenmiş yüklem değildir. Ek görünüşü tek ölçüt değildir. Kalıcı ad olmuş kelimelerle iş adı bildiren kullanımları bağlam içinde ayırmak gerekir.</p><ul><li>Okumak düşünmeyi geliştirir.</li><li>Yazmayı seviyorum.</li><li>Onun gelişi sevindirdi.</li></ul>",
+      "ornekler": [
+        "Okumak düşünmeyi geliştirir.",
+        "Yazmayı seviyorum.",
+        "Onun gelişi sevindirdi."
+      ],
+      "testler": [
+        {
+          "id": "8-1-isim-fiil-1",
+          "tip": "secim",
+          "soru": "“Kitap okumak hoşuma gider. / okumak” örneğinde belirtilen sözün görevi nedir?",
+          "secenekler": [
+            "İşin adını bildiren isim-fiil",
+            "Kişiyle çekimli yüklem",
+            "Bir adın niteliğini bildiren sıfat-fiil"
+          ],
+          "dogru": "İşin adını bildiren isim-fiil",
+          "aciklama": "Okumak bir eylemi adlandırır ve cümlede ad gibi kullanılır.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-1-isim-fiil-2",
+          "tip": "secim",
+          "soru": "“Not almayı unuttum. / almayı” örneğinde belirtilen sözün görevi nedir?",
+          "secenekler": [
+            "Çekimli fiil",
+            "Yer-yön zarfı",
+            "İsim-fiil"
+          ],
+          "dogru": "İsim-fiil",
+          "aciklama": "Alma iş adıdır; belirtme ekiyle nesne görevine girer.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-1-isim-fiil-3",
+          "tip": "secim",
+          "soru": "“Onun gelişi herkesi sevindirdi. / gelişi” örneğinde belirtilen sözün görevi nedir?",
+          "secenekler": [
+            "Bağlaç",
+            "İsim-fiil",
+            "Zaman çekimli yüklem"
+          ],
+          "dogru": "İsim-fiil",
+          "aciklama": "Geliş eylemin adıdır, iyelik eki almıştır.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-1-isim-fiil-4",
+          "tip": "secim",
+          "soru": "“Yüzmek güzel bir uğraştır. / yüzmek” örneğinde belirtilen sözün görevi nedir?",
+          "secenekler": [
+            "İsim-fiil",
+            "Sıfat-fiil",
+            "Çekimli gelecek zaman"
+          ],
+          "dogru": "İsim-fiil",
+          "aciklama": "Yüzmek işi adlandırır; yargının çekimli yüklemi değildir.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-1-isim-fiil-5",
+          "tip": "secim",
+          "soru": "“Bir kez denemek istiyorum. / denemek” örneğinde belirtilen sözün görevi nedir?",
+          "secenekler": [
+            "Soru zamiri",
+            "Geçmiş zaman çekimi",
+            "İsim-fiil"
+          ],
+          "dogru": "İsim-fiil",
+          "aciklama": "Denemek istenen işin adıdır.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-1-isim-fiil-6",
+          "tip": "secim",
+          "soru": "“Dikkatli okuyuşunu beğendim. / okuyuşunu” örneğinde belirtilen sözün görevi nedir?",
+          "secenekler": [
+            "Bağlaç",
+            "İsim-fiil",
+            "Gelecek zaman"
+          ],
+          "dogru": "İsim-fiil",
+          "aciklama": "Okuyuş biçimi işi adlaştırır ve ekler alır.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-1-isim-fiil-7",
+          "tip": "secim",
+          "soru": "“Soruyu sormaya hazırlandı. / sormaya” örneğinde belirtilen sözün görevi nedir?",
+          "secenekler": [
+            "İsim-fiil",
+            "Şimdiki zaman yüklemi",
+            "Sıfat-fiil"
+          ],
+          "dogru": "İsim-fiil",
+          "aciklama": "Sorma iş adı yönelme ekiyle kullanılmıştır.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-1-isim-fiil-8",
+          "tip": "secim",
+          "soru": "“Sessizce beklemek gerekiyordu. / beklemek” örneğinde belirtilen sözün görevi nedir?",
+          "secenekler": [
+            "Çekimli geçmiş zaman",
+            "Bir yer adı",
+            "İsim-fiil"
+          ],
+          "dogru": "İsim-fiil",
+          "aciklama": "Beklemek yapılacak işi adlandırır.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-1-isim-fiil-9",
+          "tip": "secim",
+          "soru": "“Topluluk önünde konuşmayı öğrendik. / konuşmayı” örneğinde belirtilen sözün görevi nedir?",
+          "secenekler": [
+            "Zarf-fiil",
+            "İsim-fiil",
+            "Emir çekimi"
+          ],
+          "dogru": "İsim-fiil",
+          "aciklama": "Konuşma burada yapılması öğrenilen eylemin adıdır; belirtme eki almıştır.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-1-isim-fiil-10",
+          "tip": "secim",
+          "soru": "“Bölümü yeniden yazmak istedim. / yazmak” örneğinde belirtilen sözün görevi nedir?",
+          "secenekler": [
+            "İsim-fiil",
+            "Kişi çekimli yüklem",
+            "Soru eki"
+          ],
+          "dogru": "İsim-fiil",
+          "aciklama": "Yazmak istenen eylemi adlandırır; çekimli yüklem istedim sözüdür.",
+          "cikti": "T.8.3.9"
+        }
+      ]
+    },
+    {
+      "kod": "8-1-sifat-fiil",
+      "ad": "Sıfat-fiil ve nitelediği ad",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.8.3.9",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Sıfat-fiil, fiilden türeyerek bir adı niteleyebilir. Okunan kitap sözünde kitabın hangi kitap olduğu eylemle ilişkili bir niteleme üzerinden anlatılır. Aynı ek biçimi çekimli fiilde de görülebilir; cümledeki göreve bakılır. Gelecek sözcüğü gelecek hafta sözünde zaman bildirirken, gelecek kişi ifadesinde bir adı niteleyebilir. Burada açık örneklerle fiilimsi ve çekimli yüklemi karşılaştırıyoruz.</p><ul><li>Okunan kitap masada.</li><li>Gelecek konuklar belli.</li><li>Yazdığım not kayboldu.</li></ul>",
+      "ornekler": [
+        "Okunan kitap masada.",
+        "Gelecek konuklar belli.",
+        "Yazdığım not kayboldu."
+      ],
+      "testler": [
+        {
+          "id": "8-1-sifat-fiil-1",
+          "tip": "secim",
+          "soru": "“Okunan kitap rafta. / okunan” örneğinde belirtilen sözün görevi hangisidir?",
+          "secenekler": [
+            "Bir bağlaç",
+            "Kitabı niteleyen sıfat-fiil",
+            "Cümlenin çekimli yüklemi"
+          ],
+          "dogru": "Kitabı niteleyen sıfat-fiil",
+          "aciklama": "Okunan sözü kitap adını eylemle ilişkili nitelemektedir.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-1-sifat-fiil-2",
+          "tip": "secim",
+          "soru": "“Yazdığım notu buldum. / yazdığım” örneğinde belirtilen sözün görevi hangisidir?",
+          "secenekler": [
+            "Notu niteleyen sıfat-fiil",
+            "Soru eki",
+            "Çekimli ana yüklem"
+          ],
+          "dogru": "Notu niteleyen sıfat-fiil",
+          "aciklama": "Yazdığım sözü hangi not olduğunu açıklar.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-1-sifat-fiil-3",
+          "tip": "secim",
+          "soru": "“Gelecek konukları karşıladık. / gelecek” örneğinde belirtilen sözün görevi hangisidir?",
+          "secenekler": [
+            "Tek başına ana yüklem",
+            "Bir bulunma eki",
+            "Konukları niteleyen sıfat-fiil"
+          ],
+          "dogru": "Konukları niteleyen sıfat-fiil",
+          "aciklama": "Gelecek sözü konuklar adını niteler; yüklem karşıladık sözüdür.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-1-sifat-fiil-4",
+          "tip": "secim",
+          "soru": "“Gülen çocuk bize baktı. / gülen” örneğinde belirtilen sözün görevi hangisidir?",
+          "secenekler": [
+            "Ünlem",
+            "Çocuğu niteleyen sıfat-fiil",
+            "Zaman çekimli yüklem"
+          ],
+          "dogru": "Çocuğu niteleyen sıfat-fiil",
+          "aciklama": "Gülen çocuğun eylemle ilişkili niteliğini bildirir.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-1-sifat-fiil-5",
+          "tip": "secim",
+          "soru": "“Seçilmiş metinleri okuduk. / seçilmiş” örneğinde belirtilen sözün görevi hangisidir?",
+          "secenekler": [
+            "Metinleri niteleyen sıfat-fiil",
+            "Emir çekimi",
+            "İlgi bağlacı"
+          ],
+          "dogru": "Metinleri niteleyen sıfat-fiil",
+          "aciklama": "Seçilmiş sözü metinlerin hangi durumda olduğunu niteler.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-1-sifat-fiil-6",
+          "tip": "secim",
+          "soru": "“Anlatacak sözüm var. / anlatacak” örneğinde belirtilen sözün görevi hangisidir?",
+          "secenekler": [
+            "Cümlenin tek çekimli fiili",
+            "Soru zarfı",
+            "Sözü niteleyen sıfat-fiil"
+          ],
+          "dogru": "Sözü niteleyen sıfat-fiil",
+          "aciklama": "Anlatacak sözü söz adını niteler; çekimli bir kişi yargısı kurmaz.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-1-sifat-fiil-7",
+          "tip": "secim",
+          "soru": "“Bildiğimiz yöntemi denedik. / bildiğimiz” örneğinde belirtilen sözün görevi hangisidir?",
+          "secenekler": [
+            "Bir çoğul zamiri",
+            "Yöntemi niteleyen sıfat-fiil",
+            "Bir kipli ana yüklem"
+          ],
+          "dogru": "Yöntemi niteleyen sıfat-fiil",
+          "aciklama": "Bildiğimiz hangi yöntem sorusuna adla birlikte karşılık verir.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-1-sifat-fiil-8",
+          "tip": "secim",
+          "soru": "“Kırılmış kalemi ayırdı. / kırılmış” örneğinde belirtilen sözün görevi hangisidir?",
+          "secenekler": [
+            "Kalemi niteleyen sıfat-fiil",
+            "Kesin ana yüklem",
+            "Bağlaç"
+          ],
+          "dogru": "Kalemi niteleyen sıfat-fiil",
+          "aciklama": "Kırılmış sözü kalem adını niteleyen fiilimsidir.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-1-sifat-fiil-9",
+          "tip": "secim",
+          "soru": "“Büyüyen merak bizi yönlendirdi. / büyüyen” örneğinde belirtilen sözün görevi hangisidir?",
+          "secenekler": [
+            "Bir zaman çekimi",
+            "Bir isim-fiil",
+            "Merakı niteleyen sıfat-fiil"
+          ],
+          "dogru": "Merakı niteleyen sıfat-fiil",
+          "aciklama": "Büyüyen sözü merak adının eylemle ilişkili niteliğini gösterir.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-1-sifat-fiil-10",
+          "tip": "secim",
+          "soru": "“Söylenecek cümleyi seçti. / söylenecek” örneğinde belirtilen sözün görevi hangisidir?",
+          "secenekler": [
+            "Yer tamlayıcısı",
+            "Cümleyi niteleyen sıfat-fiil",
+            "Emir fiili"
+          ],
+          "dogru": "Cümleyi niteleyen sıfat-fiil",
+          "aciklama": "Söylenecek sözü hangi cümle olduğunu belirtir.",
+          "cikti": "T.8.3.9"
+        }
+      ]
+    },
+    {
+      "kod": "8-1-zarf-fiil",
+      "ad": "Zarf-fiilin zaman ve durum katkısı",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.8.3.9",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Zarf-fiiller ana eyleme zaman, durum veya bağlantı bakımından katkı sağlar. Gülerek anlattı sözünde anlatmanın nasıl yapıldığı, gelince başladı sözünde zaman ilişkisi görülür. Zarf-fiil kendi başına kişi ve zaman çekimli ana yüklem değildir. Aynı cümlede birden fazla eylem anlamı bulunması her parçanın ayrı çekimli cümle olduğu anlamına gelmez.</p><ul><li>Gülerek anlattı.</li><li>Eve gelince okudu.</li><li>Not alıp dinledi.</li></ul>",
+      "ornekler": [
+        "Gülerek anlattı.",
+        "Eve gelince okudu.",
+        "Not alıp dinledi."
+      ],
+      "testler": [
+        {
+          "id": "8-1-zarf-fiil-1",
+          "tip": "secim",
+          "soru": "“Gülerek konuştu. / gülerek” örneğinde zarf-fiilin katkısı nedir?",
+          "secenekler": [
+            "Bir adı niteleyen sıfat olur",
+            "Ana yüklemin kişi ekidir",
+            "Konuşmanın durumunu belirtir"
+          ],
+          "dogru": "Konuşmanın durumunu belirtir",
+          "aciklama": "Gülerek ana eylemin nasıl yapıldığını gösteren zarf-fiildir.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-1-zarf-fiil-2",
+          "tip": "secim",
+          "soru": "“Gelince haber verdi. / gelince” örneğinde zarf-fiilin katkısı nedir?",
+          "secenekler": [
+            "Özel ad olur",
+            "Eylemler arasında zaman ilişkisi kurar",
+            "Bir işin adını belirtir"
+          ],
+          "dogru": "Eylemler arasında zaman ilişkisi kurar",
+          "aciklama": "Gelince haber verme eyleminin zamanını ilişkilendirir.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-1-zarf-fiil-3",
+          "tip": "secim",
+          "soru": "“Not alıp dinledi. / alıp” örneğinde zarf-fiilin katkısı nedir?",
+          "secenekler": [
+            "Eylemleri bağlar",
+            "Çoğul eki olur",
+            "İsim-fiil görevinde bulunur"
+          ],
+          "dogru": "Eylemleri bağlar",
+          "aciklama": "Alıp zarf-fiili eylemler arasında bağ kurar.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-1-zarf-fiil-4",
+          "tip": "secim",
+          "soru": "“Düşünmeden konuşmadı. / düşünmeden” örneğinde zarf-fiilin katkısı nedir?",
+          "secenekler": [
+            "Bir nesneyi niteler",
+            "Kişi çekimidir",
+            "Ana eylemin durumunu veya ön koşulunu belirtir"
+          ],
+          "dogru": "Ana eylemin durumunu veya ön koşulunu belirtir",
+          "aciklama": "Düşünmeden sözünde zarf-fiil ana eylemle ilişki kurar.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-1-zarf-fiil-5",
+          "tip": "secim",
+          "soru": "“Koşarken düştü. / koşarken” örneğinde zarf-fiilin katkısı nedir?",
+          "secenekler": [
+            "Sadece çoğulluk bildirir",
+            "Düşme anındaki süren eylemi belirtir",
+            "Bir varlık adını niteler"
+          ],
+          "dogru": "Düşme anındaki süren eylemi belirtir",
+          "aciklama": "Koşarken zaman ilişkisi kuran zarf-fiildir.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-1-zarf-fiil-6",
+          "tip": "secim",
+          "soru": "“Dinledikçe anladı. / dinledikçe” örneğinde zarf-fiilin katkısı nedir?",
+          "secenekler": [
+            "İlerleyen süreçle ilişki kurar",
+            "Bir işin adını yapar",
+            "Emir kipini bildirir"
+          ],
+          "dogru": "İlerleyen süreçle ilişki kurar",
+          "aciklama": "Dinledikçe anlama eyleminin süreç içindeki artışını bağlar.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-1-zarf-fiil-7",
+          "tip": "secim",
+          "soru": "“Okuyarak öğrendi. / okuyarak” örneğinde zarf-fiilin katkısı nedir?",
+          "secenekler": [
+            "Ana yargının kişi ekidir",
+            "Bir özel addır",
+            "Öğrenmenin nasıl gerçekleştiğini belirtir"
+          ],
+          "dogru": "Öğrenmenin nasıl gerçekleştiğini belirtir",
+          "aciklama": "Okuyarak yöntem veya durum katkısı yapan zarf-fiildir.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-1-zarf-fiil-8",
+          "tip": "secim",
+          "soru": "“Bitirince dosyaladı. / bitirince” örneğinde zarf-fiilin katkısı nedir?",
+          "secenekler": [
+            "Bir isim çekimidir",
+            "Öncelik ve zaman ilişkisi kurar",
+            "Dosya adını niteler"
+          ],
+          "dogru": "Öncelik ve zaman ilişkisi kurar",
+          "aciklama": "Bitirme sonrasındaki dosyalamayı zaman bakımından bağlar.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-1-zarf-fiil-9",
+          "tip": "secim",
+          "soru": "“Soru sorup bekledi. / sorup” örneğinde zarf-fiilin katkısı nedir?",
+          "secenekler": [
+            "İki eylemi ilişkilendirir",
+            "Bir kelimeyi çoğul yapar",
+            "Adlaşmış sıfat olur"
+          ],
+          "dogru": "İki eylemi ilişkilendirir",
+          "aciklama": "Sorup zarf-fiili ana eylemle bağlantı kurar.",
+          "cikti": "T.8.3.9"
+        },
+        {
+          "id": "8-1-zarf-fiil-10",
+          "tip": "secim",
+          "soru": "“Bakmadan geçme. / bakmadan” örneğinde zarf-fiilin katkısı nedir?",
+          "secenekler": [
+            "Bir kişiyi adlandırır",
+            "Kesin gelecek çekimi olur",
+            "Geçme eylemiyle durum ilişkisi kurar"
+          ],
+          "dogru": "Geçme eylemiyle durum ilişkisi kurar",
+          "aciklama": "Bakmadan zarf-fiili ana eylemin nasıl yapılmaması gerektiğini belirtir.",
+          "cikti": "T.8.3.9"
+        }
+      ]
+    }
+  ],
+  "dinleme": [
+    {
+      "id": "8-1-dinleme",
+      "baslik": "Kart Kutusu",
+      "metin": "Okuma grubu kitaplara yazı yazmak yerine ayrı soru kartları hazırladı. Kartlar bir kutuda tutulacaktı. Her kartta belirli bir sahneye döndüren bir soru bulunacak, hazır cevap bulunmayacaktı. İlk denemede bazı soruların iki ayrı işi aynı cümleye sıkıştırdığı görüldü. Grup bunları ayırıp yeniden denedi. Bir sorunun uzun olmasının onu mutlaka daha derin yapmadığını fark ettiler. Kütüphane görevlisi kitapların korunmasını ve kartların kullanımını kontrol etti. Öğrenciler farklı yorumları metindeki dayanaklarıyla konuşmaya karar verdi.",
+      "tts": {
+        "dil": "tr-TR",
+        "sesYoksa": "metin"
+      },
+      "sorular": [
+        {
+          "id": "8-1-dinleme-1",
+          "tip": "secim",
+          "soru": "“Kart Kutusu” dinleme metnine göre: Kartlar nerede tutulacaktır?",
+          "secenekler": [
+            "Ayrı kutuda",
+            "Kitaplara yapıştırılarak",
+            "Sayfalar kesilerek"
+          ],
+          "dogru": "Ayrı kutuda",
+          "aciklama": "Dinlenen olayın sırası ve açıklamaları “Ayrı kutuda” cevabını destekler. Diğer seçeneklerdeki ayrıntılar metinde verilen bilgiyle uyuşmaz.",
+          "cikti": "T.8.1.4"
+        },
+        {
+          "id": "8-1-dinleme-2",
+          "tip": "secim",
+          "soru": "“Kart Kutusu” dinleme metnine göre: Kartlarda ne bulunmayacaktır?",
+          "secenekler": [
+            "Metne döndüren soru",
+            "Belirli sahne bağlantısı",
+            "Hazır cevap"
+          ],
+          "dogru": "Hazır cevap",
+          "aciklama": "Dinlenen olayın sırası ve açıklamaları “Hazır cevap” cevabını destekler. Diğer seçeneklerdeki ayrıntılar metinde verilen bilgiyle uyuşmaz.",
+          "cikti": "T.8.1.4"
+        },
+        {
+          "id": "8-1-dinleme-3",
+          "tip": "secim",
+          "soru": "“Kart Kutusu” dinleme metnine göre: İlk sorun nasıl düzeltilmiştir?",
+          "secenekler": [
+            "Kaynaklar silinmiştir",
+            "İki ayrı soru birbirinden ayrılmıştır",
+            "Bütün kartlar gizlenmiştir"
+          ],
+          "dogru": "İki ayrı soru birbirinden ayrılmıştır",
+          "aciklama": "Dinlenen olayın sırası ve açıklamaları “İki ayrı soru birbirinden ayrılmıştır” cevabını destekler. Diğer seçeneklerdeki ayrıntılar metinde verilen bilgiyle uyuşmaz.",
+          "cikti": "T.8.1.4"
+        },
+        {
+          "id": "8-1-dinleme-4",
+          "tip": "secim",
+          "soru": "“Kart Kutusu” dinleme metnine göre: Özeti en iyi koruyan ifade hangisidir?",
+          "secenekler": [
+            "Grup metne dönmeyi sağlayan soruları deneyerek geliştirir",
+            "Okurların yorum yapması yasaklanır",
+            "Kitapların bütün sayfalarına cevap yazılır"
+          ],
+          "dogru": "Grup metne dönmeyi sağlayan soruları deneyerek geliştirir",
+          "aciklama": "Dinlenen olayın sırası ve açıklamaları “Grup metne dönmeyi sağlayan soruları deneyerek geliştirir” cevabını destekler. Diğer seçeneklerdeki ayrıntılar metinde verilen bilgiyle uyuşmaz.",
+          "cikti": "T.8.1.3"
+        }
+      ]
+    }
+  ],
+  "yazmaGorevleri": [
+    {
+      "id": "8-1-yazma",
+      "baslik": "Soru Kartının Gerekçesi",
+      "yonerge": "180–280 kelimede kurgusal bir kitap kulübü için iki soru ve soruların gerekçesini yaz. Metne dayanan yorumla kendi beğenini ayır. Bir isim-fiil, bir sıfat-fiil ve bir zarf-fiili yerinde kullan.",
+      "minKelime": 180,
+      "maxKelime": 280,
+      "ciktilar": [
+        "T.8.4.2",
+        "T.8.4.13",
+        "T.8.4.16"
+      ],
+      "ogretmenDegerlendirmeli": true,
+      "rubrik": [
+        {
+          "olcut": "Amaç ve kapsam",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Gerekçe ve anlam bütünlüğü",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Dil yapıları ve söz varlığı",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Yazım, noktalama ve düzenleme",
+          "enDusuk": 0,
+          "enYuksek": 4
+        }
+      ]
+    }
+  ],
+  "lgsSorulari": [
+    {
+      "id": "8-1-lgs-1",
+      "tip": "secim",
+      "soru": "Okur Buluşması için hazırlanan dört çalışma aşağıda verilmiştir.\nkitap tanıtımı A: 21 dakika; kaynak notu var; ses gereksinimi yok.\nkitap tanıtımı B: 24 dakika; kaynak notu var; ses gereksinimi yok.\nkitap tanıtımı C: 19 dakika; kaynak notu yok; ses gereksinimi yok.\nkitap tanıtımı D: 20 dakika; kaynak notu var; ses gereksinimi var.\nSeçilecek çalışmada kaynak notu bulunmalı, ses gerekmemeli ve süre 21 dakikayı aşmamalıdır. Üç koşulu birlikte sağlayan hangisidir?",
+      "secenekler": [
+        "kitap tanıtımı D",
+        "kitap tanıtımı A",
+        "kitap tanıtımı B",
+        "kitap tanıtımı C"
+      ],
+      "dogru": "kitap tanıtımı A",
+      "aciklama": "kitap tanıtımı A üç koşulu sağlar. B süreyi aşar, C kaynak notu içermez, D ses gerektirir.",
+      "cikti": "T.8.3.32"
+    },
+    {
+      "id": "8-1-lgs-2",
+      "tip": "secim",
+      "soru": "Okur Buluşması programında dört işlem farklı sıralarda yapılacaktır: okuma, tartışma, yazma, sunum. Okuma, tartışma işleminden önce yapılır. Yazma, tartışma işleminin hemen ardından gelir. Sunum son işlemdir. Her işlem bir kez yapılacağına göre uygun sıra hangisidir?",
+      "secenekler": [
+        "okuma → tartışma → yazma → sunum",
+        "tartışma → okuma → yazma → sunum",
+        "okuma → yazma → tartışma → sunum",
+        "okuma → tartışma → sunum → yazma"
+      ],
+      "dogru": "okuma → tartışma → yazma → sunum",
+      "aciklama": "sunum sonda olmalıdır. tartışma ile yazma yan yana ve bu sırada bulunur; okuma da onlardan önce gelir.",
+      "cikti": "T.8.3.35"
+    },
+    {
+      "id": "8-1-lgs-3",
+      "tip": "secim",
+      "soru": "Okur Buluşması sonrasında gönüllü 11 katılımcının tamamı kitap tanıtımı çalışmasının anlaşılır olduğunu söyledi. Katılmayanlar ve cevap vermeyenler hakkında veri toplanmadı. Bu bilgiye dayanan, kapsamı aşmayan sonuç hangisidir?",
+      "secenekler": [
+        "Okuldaki herkes çalışmayı anlaşılır bulmuştur.",
+        "Yanıt vermeyenlerin tamamı çalışmayı anlaşılmaz bulmuştur.",
+        "Bu yöntem her koşulda en başarılı yöntemdir.",
+        "Yanıt veren 11 kişi çalışmayı anlaşılır bulmuştur."
+      ],
+      "dogru": "Yanıt veren 11 kişi çalışmayı anlaşılır bulmuştur.",
+      "aciklama": "Veri yalnız yanıt veren gönüllü grubu kapsar; diğer kişiler veya bütün yöntemler hakkında kesin sonuç vermez.",
+      "cikti": "T.8.3.21"
+    },
+    {
+      "id": "8-1-lgs-4",
+      "tip": "secim",
+      "soru": "Okur Buluşması için iki görüş var. I: “Kitap tanıtımı kısa olmalı; okuyucu temel bilgiyi hızla bulabilmeli.” II: “Kitap tanıtımı gerektiğinde ayrıntı içermeli; okuyucunun önemli koşulları anlaması sağlanmalı.” Bu iki görüş hangi ilkede buluşur?",
+      "secenekler": [
+        "Ayrıntılar bütün koşullarda kaldırılmalıdır.",
+        "Okuyucunun ön bilgisi hiçbir zaman dikkate alınmamalıdır.",
+        "İçerik, okuyucunun ihtiyacını karşılayacak biçimde düzenlenmelidir.",
+        "Her metin olabilecek en kısa biçime indirilmelidir."
+      ],
+      "dogru": "İçerik, okuyucunun ihtiyacını karşılayacak biçimde düzenlenmelidir.",
+      "aciklama": "İlk görüş hıza, ikincisi koşullara dikkat çeker; ortak nokta okuyucunun bilgiyi uygun biçimde almasıdır.",
+      "cikti": "T.8.3.23"
+    },
+    {
+      "id": "8-1-lgs-5",
+      "tip": "secim",
+      "soru": "Aşağıdaki cümleler anlamlı bir paragraf oluşturacaktır.\nI. Okur Buluşması grubu ilk taslağını hazırladı.\nII. Son değerlendirmede bu iki düzeltmenin etkisini birlikte inceledi.\nIII. Bu taslağı okuyanlar iki belirsiz nokta belirledi.\nIV. Grup, belirlenen noktaları açıklayan iki düzeltme yaptı.\nGönderimler ve işlem sırası gözetildiğinde doğru diziliş hangisidir?",
+      "secenekler": [
+        "IV – III – I – II",
+        "I – III – IV – II",
+        "III – I – IV – II",
+        "I – II – III – IV"
+      ],
+      "dogru": "I – III – IV – II",
+      "aciklama": "Bu taslak, ilk taslağa; belirlenen noktalar, okuyucu tespitine; bu iki düzeltme, yapılan değişikliklere gönderir.",
+      "cikti": "T.8.3.35"
+    },
+    {
+      "id": "8-1-lgs-6",
+      "tip": "secim",
+      "soru": "Okur Buluşması için hazırlanan kitap tanıtımı ilk denemede uzun bulundu. Grup bazı tekrarları çıkardı. ——— önemli bir koşulun da silindiğini görünce onu yeniden ekledi. Daha kısa bir metin elde etmek, her durumda daha doğru bir metin elde etmek değildi. Boşluğa, önceki adımın beklenen yararına karşı ortaya çıkan sınırlılığı belirtmek için hangisi getirilmelidir?",
+      "secenekler": [
+        "Ancak",
+        "Bu nedenle",
+        "Örneğin",
+        "Başka bir deyişle"
+      ],
+      "dogru": "Ancak",
+      "aciklama": "Kısaltma olumlu bir adım gibi görünürken koşul kaybı ters bir durum getirir; ancak bu karşıtlığı bağlar.",
+      "cikti": "T.8.3.10"
+    },
+    {
+      "id": "8-1-lgs-7",
+      "tip": "secim",
+      "soru": "Kitap seçimini yalnız kapakla yapmak istemeyen bir grup, tanıtım kartlarına kısa gerekçeler ekledi. Kartları deneyen okurlar hangi bilgiye göre seçim yaptıklarını açıklayabildi. Grup bu sonucu bütün kitaplar için kesin başarı saymadı; yalnız denediği kartların seçim sürecini kolaylaştırdığını belirtti.\nBu parçada asıl vurgulanan düşünce hangisidir?",
+      "secenekler": [
+        "İlk izlenim her zaman yeterli ve kesindir.",
+        "Yeni bilgi ilk kararı hiçbir koşulda değiştirmemelidir.",
+        "Bütün durumlar tek bir ölçütle eksiksiz açıklanabilir.",
+        "Bir değerlendirme, amaca uygun somut dayanaklarla gözden geçirilmelidir."
+      ],
+      "dogru": "Bir değerlendirme, amaca uygun somut dayanaklarla gözden geçirilmelidir.",
+      "aciklama": "Parçada ilk yargı, yeni inceleme ve somut dayanaklarla düzeltilir; kapsamı geniş kesinlikler savunulmaz.",
+      "cikti": "T.8.3.17"
+    },
+    {
+      "id": "8-1-lgs-8",
+      "tip": "secim",
+      "soru": "Okur Buluşması yönergesi şöyledir: Kaynak bilgisi eksik kitap tanıtımı doğrudan geri bildirim aşamasına alınır; tamamlanmadan sunuma geçmez. Kaynak bilgisi tamam olanlar önce içerik kontrolünden geçer, uygun bulunursa sunulur. Kaynak bilgisi eksik bir çalışma için ilk uygun işlem hangisidir?",
+      "secenekler": [
+        "Eksikliği görünmez biçimde silmek",
+        "Kaynak eksik olsa da doğrudan uygun saymak",
+        "Eksik bilgi için geri bildirim vermek",
+        "İçerik kontrolünü atlayıp sunmak"
+      ],
+      "dogru": "Eksik bilgi için geri bildirim vermek",
+      "aciklama": "Yönergenin ilk koşulu eksik kaynak durumunu açıkça geri bildirime bağlar.",
+      "cikti": "T.8.3.35"
+    },
+    {
+      "id": "8-1-lgs-9",
+      "tip": "secim",
+      "soru": "Okur Buluşması çalışmasında yalnız iki küçük grubun kitap tanıtımı örnekleri incelendi. Bir grupta açıklama notu varken diğerinde yoktu. Açıklama notu olan örnekte katılımcılar daha az soru sordu. Bu sınırlı bulgu için kapsamı en doğru başlık hangisidir?",
+      "secenekler": [
+        "Not Olmayan Her Çalışma Başarısızdır",
+        "İki Gruptaki Örneklerde Açıklama Notuyla Soru Sayısı Birlikte İncelendi",
+        "Açıklama Notları Bütün Soruları Sonsuza Dek Bitirdi",
+        "Bütün Öğrenciler Aynı Yöntemi Tercih Ediyor"
+      ],
+      "dogru": "İki Gruptaki Örneklerde Açıklama Notuyla Soru Sayısı Birlikte İncelendi",
+      "aciklama": "Başlık iki grup ve gözlenen ilişki sınırını korur; evrensel veya nedensel kesinlik üretmez.",
+      "cikti": "T.8.3.19"
+    },
+    {
+      "id": "8-1-lgs-10",
+      "tip": "secim",
+      "soru": "Bir paragrafın konusu Okur Buluşması kayıtlarının nasıl tutulduğudur. I: Tarih ve yöntem her kayda eklendi. II: Gözlenmeyen alanlar boş bırakılıp açıklandı. III: Etkinliğin afişi bence yılın en güzel afişiydi. IV: Yöntem değiştiğinde kayda not düşüldü. Konu bütünlüğünü bozan cümle hangisidir?",
+      "secenekler": [
+        "IV",
+        "III",
+        "I",
+        "II"
+      ],
+      "dogru": "III",
+      "aciklama": "Diğer cümleler kayıt yöntemini anlatır; III etkinlikle ilgili olsa da afişin kişisel beğeni değerine geçer.",
+      "cikti": "T.8.3.18"
+    },
+    {
+      "id": "8-1-lgs-11",
+      "tip": "secim",
+      "soru": "Okur Buluşması değerlendirmesinde dört cümle yazılmıştır. Hangisi kişisel beğeni yerine kontrol edilebilir bir bilgi bildirir?",
+      "secenekler": [
+        "Dosyada 4 adet kitap tanıtımı örneği bulunuyor.",
+        "Bu çalışma tartışmasız en etkileyici üründür.",
+        "Etkinliğin havası bütün diğerlerinden güzeldi.",
+        "Seçilen örnekler herkes için kusursuzdu."
+      ],
+      "dogru": "Dosyada 4 adet kitap tanıtımı örneği bulunuyor.",
+      "aciklama": "Örnek sayısı sayılarak kontrol edilebilir; diğer sözler beğeni veya kapsamı belirsiz değer yargısı içerir.",
+      "cikti": "T.8.3.21"
+    },
+    {
+      "id": "8-1-lgs-12",
+      "tip": "secim",
+      "soru": "Okur Buluşması sunumuna kabul edilmek için hem içerik onayı hem paylaşım izni gereklidir. Bir kitap tanıtımı örneğinin içerik onayı aldığı biliniyor; paylaşım izni hakkında bilgi yoktur. Kesin olarak söylenebilecek yargı hangisidir?",
+      "secenekler": [
+        "Kesinlikle sunuma kabul edilmiştir.",
+        "Kesinlikle paylaşım izni reddedilmiştir.",
+        "İçerik onayı almadığı kanıtlanmıştır.",
+        "Sunuma kabul edildiği henüz kesinleştirilemez."
+      ],
+      "dogru": "Sunuma kabul edildiği henüz kesinleştirilemez.",
+      "aciklama": "İki gerekli koşuldan yalnız biri bilinmektedir. İzin bilgisi yokluğu ne kabulü ne de reddi kanıtlar.",
+      "cikti": "T.8.3.25"
+    },
+    {
+      "id": "8-1-lgs-13",
+      "tip": "secim",
+      "soru": "Okur Buluşması kayıt tablosu: toplam çalışma / eksik alan sayısı\nI: 13 / 3\nII: 17 / 1\nIII: 15 / 0\nIV: 19 / 2\nEn az 15 çalışma içeren ve eksik alanı olmayan dosya hangisidir?",
+      "secenekler": [
+        "II",
+        "IV",
+        "III",
+        "I"
+      ],
+      "dogru": "III",
+      "aciklama": "III alt miktar sınırını sağlar ve eksik alanı sıfırdır. II ve IV miktarı sağlasa da eksikleri vardır; I alt sınırın altındadır.",
+      "cikti": "T.8.3.32"
+    },
+    {
+      "id": "8-1-lgs-14",
+      "tip": "secim",
+      "soru": "Okur Buluşması duyurusunda “Yalnız onaylı kitap tanıtımı örnekleri listede gösterilir.” yazıyor. Bu kurala göre hangi yorum doğrudur?",
+      "secenekler": [
+        "Onaysız örnekler mutlaka listede yer alır.",
+        "Listede gösterilmeyen bir örnek yine de onaylı olabilir.",
+        "Onaylı olan her örnek mutlaka gösterilmiştir.",
+        "Listede görünen her örnek onaysızdır."
+      ],
+      "dogru": "Listede gösterilmeyen bir örnek yine de onaylı olabilir.",
+      "aciklama": "Kural gösterilenlerin onaylı olmasını ister; onaylananların tamamının gösterileceğini söylemez.",
+      "cikti": "T.8.3.25"
+    },
+    {
+      "id": "8-1-lgs-15",
+      "tip": "secim",
+      "soru": "Okur Buluşması için araştırma yapan öğrenci aynı kitap tanıtımı bilgisini üç ayrı sayfada bulur. İkinci ve üçüncü sayfanın birinci sayfayı aynen aktardığını görür. Bu üç sayfanın aynı bilgiyi vermesi nasıl değerlendirilmelidir?",
+      "secenekler": [
+        "Birbirinden bağımsız üç doğrulama sayılmaz.",
+        "Bilgi üç kez yazıldığı için kesin kanıtlanmıştır.",
+        "Kaynağı incelemeye artık gerek yoktur.",
+        "Üç sayfa mutlaka üç ayrı deney raporudur."
+      ],
+      "dogru": "Birbirinden bağımsız üç doğrulama sayılmaz.",
+      "aciklama": "Kopyalanan bilgi ayrı bağımsız dayanak oluşturmaz; ilk kaynağın ve ek kanıtların niteliği incelenmelidir.",
+      "cikti": "T.8.3.31"
+    },
+    {
+      "id": "8-1-lgs-16",
+      "tip": "secim",
+      "soru": "Okur Buluşması kuralı: “Kitap tanıtımı dosyası, kaynak bilgisi tamamlanmışsa ve öğretmen uygun bulmuşsa cuma günü paylaşılacaktır.” Bu cümlenin anlamını koruyan özet hangisidir?",
+      "secenekler": [
+        "Dosya cuma günü her durumda paylaşılacak.",
+        "Öğretmen uygun bulursa kaynak bilgisine gerek kalmayacak.",
+        "Kaynak tamamlanınca gün gözetmeden otomatik paylaşılacak.",
+        "Paylaşım cuma günü, iki koşul da sağlanırsa yapılacak."
+      ],
+      "dogru": "Paylaşım cuma günü, iki koşul da sağlanırsa yapılacak.",
+      "aciklama": "Doğru özet zaman bilgisini ve iki koşulun birlikte gerekli oluşunu korur.",
+      "cikti": "T.8.3.13"
+    },
+    {
+      "id": "8-1-lgs-17",
+      "tip": "secim",
+      "soru": "Okur Buluşması raporunda “Bazı kitap tanıtımı örnekleri henüz incelenmedi.” deniyor. Bu cümleden hangi sonuç çıkarılabilir?",
+      "secenekler": [
+        "Hiçbir örnek gelecekte incelenmeyecektir.",
+        "İncelenen bütün örnekler başarısızdır.",
+        "En az bir örneğin incelemesi tamamlanmamıştır.",
+        "Bütün örnekler kesinlikle incelenmiştir."
+      ],
+      "dogru": "En az bir örneğin incelemesi tamamlanmamıştır.",
+      "aciklama": "Bazı sözü en az bir durumu bildirir; henüz ise gelecekte inceleme ihtimalini kapatmaz.",
+      "cikti": "T.8.3.25"
+    },
+    {
+      "id": "8-1-lgs-18",
+      "tip": "secim",
+      "soru": "Okur Buluşması dosyasında dört grubun tamamladığı kitap tanıtımı sayıları A:7, B:13, C:10, D:4 olarak verilmiştir. En yüksekten en düşüğe doğru sıralamayı gösteren grafik etiketleri hangisidir?",
+      "secenekler": [
+        "C – B – A – D",
+        "B – C – A – D",
+        "B – A – C – D",
+        "D – A – C – B"
+      ],
+      "dogru": "B – C – A – D",
+      "aciklama": "B en yüksek, ardından C ve A, son olarak D gelir. Sıralama tabloda verilen büyüklüklerden okunur.",
+      "cikti": "T.8.3.32"
+    },
+    {
+      "id": "8-1-lgs-19",
+      "tip": "secim",
+      "soru": "Okur Buluşması üzerine bir yazıda “Kitap tanıtımı, hazırlayanla okuyan arasında bir köprü kurdu; daha önce görünmeyen düşünceler konuşulabilir oldu.” deniyor. Köprü kurmak sözü burada anlatıma ne katar?",
+      "secenekler": [
+        "İletişim ve bağlantı sağlandığını mecazla anlatır.",
+        "Gerçek bir inşaatın tamamlandığını kanıtlar.",
+        "Bir yolun uzunluğunu sayıyla gösterir.",
+        "İki kişinin her konuda aynı düşündüğünü kesinleştirir."
+      ],
+      "dogru": "İletişim ve bağlantı sağlandığını mecazla anlatır.",
+      "aciklama": "Köprü somut geçiş yapısından hareketle düşünceler arasında iletişim kurulmasını anlatır; tam uzlaşma iddiası içermez.",
+      "cikti": "T.8.3.5"
+    },
+    {
+      "id": "8-1-lgs-20",
+      "tip": "secim",
+      "soru": "Okur Buluşması için basılı duyuru “Salı, saat 14.00, okul salonu; ön kayıt gerekli.” diyor. Sesli duyuru ise “Salı okul salonunda buluşuyoruz; ön kayıt yaptırmayı unutmayın.” biçimindedir. İki duyuru karşılaştırıldığında sesli duyuruda hangi bilginin eksik olduğu görülür?",
+      "secenekler": [
+        "Başlama saati",
+        "Gün",
+        "Yer",
+        "Ön kayıt koşulu"
+      ],
+      "dogru": "Başlama saati",
+      "aciklama": "Gün, yer ve kayıt iki duyuruda da vardır; 14.00 bilgisi yalnız basılı duyuruda bulunur.",
+      "cikti": "T.8.3.23"
+    }
+  ]
+}

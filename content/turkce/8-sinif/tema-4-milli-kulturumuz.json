@@ -1,0 +1,1218 @@
+{
+  "belgeTuru": "tema",
+  "semaSurumu": "1.0",
+  "sinif": 8,
+  "program": "2019",
+  "tema": 4,
+  "temaAdi": "Millî Kültürümüz",
+  "durum": "incelemeye_hazir",
+  "kaynak": "https://mufredat.meb.gov.tr/Dosyalar/20195716392253-02-T%C3%BCrk%C3%A7e%20%C3%96%C4%9Fretim%20Program%C4%B1%202019.pdf",
+  "kaynak_dogrulanmadi": false,
+  "ogrenmeCiktilari": [
+    "T.8.1.1",
+    "T.8.1.10",
+    "T.8.1.11",
+    "T.8.1.12",
+    "T.8.1.13",
+    "T.8.1.14",
+    "T.8.1.2",
+    "T.8.1.3",
+    "T.8.1.4",
+    "T.8.1.5",
+    "T.8.1.6",
+    "T.8.1.7",
+    "T.8.1.8",
+    "T.8.1.9",
+    "T.8.2.1",
+    "T.8.2.2",
+    "T.8.2.3",
+    "T.8.2.4",
+    "T.8.2.5",
+    "T.8.2.6",
+    "T.8.2.7",
+    "T.8.3.1",
+    "T.8.3.10",
+    "T.8.3.11",
+    "T.8.3.12",
+    "T.8.3.13",
+    "T.8.3.14",
+    "T.8.3.15",
+    "T.8.3.16",
+    "T.8.3.17",
+    "T.8.3.18",
+    "T.8.3.19",
+    "T.8.3.2",
+    "T.8.3.20",
+    "T.8.3.21",
+    "T.8.3.22",
+    "T.8.3.23",
+    "T.8.3.24",
+    "T.8.3.25",
+    "T.8.3.26",
+    "T.8.3.27",
+    "T.8.3.28",
+    "T.8.3.29",
+    "T.8.3.3",
+    "T.8.3.30",
+    "T.8.3.31",
+    "T.8.3.32",
+    "T.8.3.33",
+    "T.8.3.34",
+    "T.8.3.35",
+    "T.8.3.4",
+    "T.8.3.5",
+    "T.8.3.6",
+    "T.8.3.7",
+    "T.8.3.8",
+    "T.8.3.9",
+    "T.8.4.1",
+    "T.8.4.10",
+    "T.8.4.11",
+    "T.8.4.12",
+    "T.8.4.13",
+    "T.8.4.14",
+    "T.8.4.15",
+    "T.8.4.16",
+    "T.8.4.17",
+    "T.8.4.18",
+    "T.8.4.19",
+    "T.8.4.2",
+    "T.8.4.20",
+    "T.8.4.3",
+    "T.8.4.4",
+    "T.8.4.5",
+    "T.8.4.6",
+    "T.8.4.7",
+    "T.8.4.8",
+    "T.8.4.9"
+  ],
+  "sozVarligi": {
+    "aciklama": "Özgün proje tanım ve örneklerinden tema uyumlu spiral tekrar seçimi. Sınıflar arasında aynı kelime yeniden yer alabilir; her sınıf için bütünüyle yeni kelime iddiası değildir.",
+    "kelimeler": [
+      {
+        "kelime": "gelenek",
+        "anlam": "Bir toplulukta kuşaklar boyunca sürdürülen uygulama",
+        "ornek": "Bayram ziyaretleri ailemizde bir gelenektir.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "görenek",
+        "anlam": "Bir çevrede görülerek öğrenilen davranış alışkanlığı",
+        "ornek": "Misafiri karşılama göreneklerini konuştuk.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "kültür",
+        "anlam": "Bir topluluğun ürettiği ve paylaştığı yaşayış ve anlamlar bütünü",
+        "ornek": "Yöremizin kültürünü anlatan bir sergi açtık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "miras",
+        "anlam": "Geçmişten sonraki kuşaklara kalan değer veya varlık",
+        "ornek": "Masallar kültürel mirasımızın bir parçasıdır.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "kuşak",
+        "anlam": "Yakın dönemlerde doğmuş insanların oluşturduğu topluluk",
+        "ornek": "Oyunu üç kuşak birlikte oynadı.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "konuk",
+        "anlam": "Bir yere ziyarete gelen kişi",
+        "ornek": "Konuk için sofraya bir tabak daha koyduk.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "ikram",
+        "anlam": "Birine yiyecek veya içecek sunma",
+        "ornek": "İkram edilen çorbaya teşekkür ettim.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "sofra",
+        "anlam": "Yemek için hazırlanan masa veya düzen",
+        "ornek": "Sofrayı birlikte hazırladık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "bayram",
+        "anlam": "Bir toplumun özel bir anlamla kutladığı gün",
+        "ornek": "Bayram sabahı komşularla selamlaştık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "imece",
+        "anlam": "Bir işi gönüllü olarak birlikte yapma yöntemi",
+        "ornek": "Bahçe temizliğini imeceyle tamamladık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "zanaat",
+        "anlam": "El becerisi ve ustalık gerektiren üretim işi",
+        "ornek": "Çömlek yapımı bir zanaattır.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "usta",
+        "anlam": "Bir işi deneyim ve beceriyle iyi yapan kişi",
+        "ornek": "Usta, çırağa sabırla yol gösterdi.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "çırak",
+        "anlam": "Bir işi ustasının yanında öğrenen kişi",
+        "ornek": "Çırak ilk desenini dikkatle çizdi.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "desen",
+        "anlam": "Bir yüzeyi süsleyen çizgi ve biçim düzeni",
+        "ornek": "Kilimin deseninde küçük üçgenler vardı.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "motif",
+        "anlam": "Bir süslemede tekrarlanan belirgin biçim",
+        "ornek": "Kuş motifi işlemeye hareket katmıştı.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "dokuma",
+        "anlam": "İpliklerin birbirinden geçirilmesiyle yapılan üretim",
+        "ornek": "Dokuma tezgâhının çalışmasını izledik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "kilim",
+        "anlam": "Havı olmayan düz dokuma yaygı",
+        "ornek": "Renkli kilim sergide asılıydı.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "çömlek",
+        "anlam": "Kilden biçimlendirilip pişirilen kap",
+        "ornek": "Çömlek kurumadan taşınmadı.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "masal",
+        "anlam": "Olağanüstü olayların anlatılabildiği kurmaca anlatı",
+        "ornek": "Ninem her masalı farklı bir sesle anlatırdı.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "mani",
+        "anlam": "Çoğunlukla dört dizeden oluşan halk şiiri türü",
+        "ornek": "Çocuklar kendi manilerini yazdı.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "ninni",
+        "anlam": "Çocuğu uyutmak için ezgiyle söylenen sözler",
+        "ornek": "Ninniyi yumuşak bir sesle söyledi.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "türkü",
+        "anlam": "Halkın duygu ve yaşantılarını taşıyan ezgili sözler",
+        "ornek": "Türkünün hangi yöreye ait olduğunu araştırdık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "hatıra",
+        "anlam": "Geçmiş bir yaşantıyı anımsatan iz veya nesne",
+        "ornek": "Eski fincan ailemizden bir hatıraydı.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "ziyaret",
+        "anlam": "Birini görmek için onun bulunduğu yere gitme",
+        "ornek": "Ziyaret için uygun zamanı birlikte belirledik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "saygı",
+        "anlam": "Birinin değerini ve sınırlarını gözeten tutum",
+        "ornek": "Farklı geleneklere saygı gösterdik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "misafirperverlik",
+        "anlam": "Konuğu güler yüzle ve özenle ağırlama",
+        "ornek": "Misafirperverlik karşılıklı nezaketle güzelleşir.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "aktarmak",
+        "anlam": "Bir bilgiyi veya yaşantıyı başka birine iletmek",
+        "ornek": "Dedem oyun kurallarını bize aktardı.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "korumak",
+        "anlam": "Bir şeyi zarar görmekten veya kaybolmaktan sakınmak",
+        "ornek": "Eski belgeleri korumak için kutu hazırladık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "yaşatmak",
+        "anlam": "Bir değerin sürmesine katkıda bulunmak",
+        "ornek": "Unutulan oyunu oynayarak yaşatmak istedik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "yöre",
+        "anlam": "Belirli özellikleriyle tanınan çevre veya bölge",
+        "ornek": "Yöremizin yemeklerini bir deftere yazdık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      }
+    ],
+    "esAnlamlilar": [
+      [
+        "konuk",
+        "misafir"
+      ]
+    ],
+    "zitAnlamlilar": [],
+    "esSesliler": [],
+    "deyimler": [],
+    "atasozleri": []
+  },
+  "okumaParcalari": [
+    {
+      "id": "8-4-okuma-1",
+      "baslik": "Tarifin Kenarındaki Çizgi",
+      "tur": "oykuleyici",
+      "metin": "Bahar şenliğinde sınıf, ailelerden gelen izinli tarif anlatılarını bir araya getirecekti. Amaç bir yemek yarışması yapmak değil, aynı adla anılan yiyeceklerin farklı evlerde nasıl anlatıldığını görmekti. Öğrenciler tarifleri uygulamayacak, metinlerdeki ölçü ve anlatım biçimlerini karşılaştıracaktı. Defne'nin getirdiği sayfada bazı miktarlar açıkça yazılmıştı. Arda'nın sayfasında ise “Aldığı kadar.” gibi deneyime dayanan ifadeler vardı. İlk bakışta ikinci tarif eksik görünüyordu.\nDefne bütün belirsiz ölçüleri rakamlarla tamamlamak istedi. Fakat rakamı kimin ve nasıl belirleyeceği sorusuna cevap veremedi. Arda, metni anlatan kişinin malzemeyi elindeki kıvama göre ayarladığını söyledi. Bu bilgi, sınıfın aynı sonucu kendi başına elde edebileceği anlamına gelmiyordu. Yazılı tarif, onu anlatan kişinin bütün deneyimini taşımıyordu. Eksik görünen şey bazen yazıya geçirilmemiş bir uygulama bilgisi olabilirdi.\nÖğretmen iki metni değiştirmeden önce yanlarına açıklama notları eklemelerini önerdi. Belirsiz sözleri kesin sayıya dönüştürmeyecekler, ne anlama geldiğini anlatan kişinin izniyle soracaklardı. Cevap alınamayan yerler boş bırakılacaktı. Kendi ekledikleri cümleleri de asıl tariften ayıracaklardı. Böylece okur hangi sözün kaynaktan, hangisinin öğrencilerin incelemesinden geldiğini görebilecekti. Bir metni anlaşılır kılmakla onu sessizce yeniden yazmak aynı şey değildi.\nİnceleme genişledikçe yiyecek adlarının ve anlatım sırasının da değişebildiğini gördüler. Bazı metinlerde önce malzemeler listeleniyor, bazılarında anlatı küçük bir anıyla başlıyordu. Defne bu farklılıkları doğru ve yanlış diye iki kutuya ayırmaktan vazgeçti. Hangi metnin hangi amaçla okunduğu önemliydi. Bir hatıra yazısı olarak ilgi çekici olan bölüm, uygulama yönergesi için gerekli sırayı geciktirebilirdi. İki işlev de kendi bağlamında değerlendirilebilirdi.\nŞenlik için hazırladıkları panoda tarif metinleri kadar karşılaştırma notları da yer aldı. Özel aile bilgileri paylaşılmadı; metinlerini yayımlamak istemeyenlerin katkısı panoya konmadı. Başlıktaki “Tek Bir Doğru Tarif” sözü değiştirildi. Yeni başlık “Aynı Ad, Farklı Anlatılar” oldu. Bu başlık, bütün farklılıkların önemsiz olduğunu söylemiyordu. Ölçü, sıra ve kaynak farklarını daha dikkatli incelemeye çağırıyordu. Öğrenciler gerçek bir yemek hazırlama rehberi yayımladıkları iddiasında değildi.\nPanonun önünde duran bir ziyaretçi kendi evinde aynı adın başka bir yiyecek için kullanıldığını anlattı. Arda bu yeni bilgiyi hemen bütün listeye kural yapmadı. İzin verirse bir sonraki araştırmada ayrı bir örnek olarak kaydedebileceklerini söyledi. Defne de ilk gün eklemek istediği rastgele rakamları düşündü. Boşluğu sayıyla doldurmak kolaydı; doğru bilgiyle doldurmak ise soru ve kaynak gerektiriyordu. Geleneği korumak, onu hiç değişmeyen tek bir cümleye sıkıştırmak değildi. Kimin nasıl anlattığını gözeterek dinlemek ve kendi katkılarını açıkça göstermek de bu çalışmanın parçasıydı. Sınıf şenlikten sonra tariflerin yanındaki ince çizgiyi korudu: Bir tarafta kaynak anlatısı, diğer tarafta onların soruları ve açıklamaları vardı.\nDefne panonun altına anlatım türleri için küçük bir anahtar da koydu. Bir simge hatıra bölümünü, başka bir simge işlem sırasını gösteriyordu. Simgelerin anlamı yazıyla da açıklanmıştı. Böylece renkleri ayıramayan veya önce simgeye bakmayan bir okuyucu da bölümleri izleyebilecekti. Arda bu düzenin ilk tarifleri değiştirmediğini, onlara ulaşmayı kolaylaştırdığını söyledi. İki öğrenci yeni bir örnek geldiğinde aynı anahtarın yeterli olup olmayacağını da deneyecekti. Bir yöntemin ilk birkaç metinde işe yaraması, bütün kültürel anlatıları aynı kutulara sığdırabilecekleri anlamına gelmiyordu. Anahtarın kendisi de gerektiğinde geliştirilebilir bir taslaktı ve bunu küçük notla belirttiler.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; internet veya ders kitabından alınmamıştır.",
+      "sorular": [
+        {
+          "id": "8-4-okuma-1-1",
+          "tip": "secim",
+          "soru": "“Tarifin Kenarındaki Çizgi” metnine göre: Çalışmanın amacı nedir?",
+          "secenekler": [
+            "Tarif anlatılarının farklılıklarını incelemek",
+            "Yemek yarışmasında kazanan seçmek",
+            "Öğrencilere tıbbi beslenme planı vermek"
+          ],
+          "dogru": "Tarif anlatılarının farklılıklarını incelemek",
+          "aciklama": "Girişte etkinliğin metin karşılaştırması olduğu belirtilir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-4-okuma-1-2",
+          "tip": "secim",
+          "soru": "“Tarifin Kenarındaki Çizgi” metnine göre: Belirsiz ölçülere rastgele rakam eklenmemesinin nedeni nedir?",
+          "secenekler": [
+            "Sayıların hiçbir tarifte kullanılamaması",
+            "Bütün metinlerin aynı olması",
+            "Rakamın kaynağının bilinmemesi"
+          ],
+          "dogru": "Rakamın kaynağının bilinmemesi",
+          "aciklama": "Kaynağı olmayan sayılar doğruluk görünümü vererek bilgiyi değiştirebilir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-4-okuma-1-3",
+          "tip": "secim",
+          "soru": "“Tarifin Kenarındaki Çizgi” metnine göre: Açıklama notlarının ayrılması ne sağlar?",
+          "secenekler": [
+            "Bütün soruların ortadan kalkmasını",
+            "Kaynak sözleriyle öğrenci yorumunun ayırt edilmesini",
+            "Tariflerin sahibinin gizlice değiştirilmesini"
+          ],
+          "dogru": "Kaynak sözleriyle öğrenci yorumunun ayırt edilmesini",
+          "aciklama": "Yan notlar kimin ne eklediğini görünür tutar.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-4-okuma-1-4",
+          "tip": "secim",
+          "soru": "“Tarifin Kenarındaki Çizgi” metnine göre: Anıyla başlayan metin hangi açıdan farklı olabilir?",
+          "secenekler": [
+            "Hatıra anlatısı işlevi bakımından",
+            "Her zaman yanlış bilgi vermesi bakımından",
+            "Hiç sıralama içermemesi bakımından"
+          ],
+          "dogru": "Hatıra anlatısı işlevi bakımından",
+          "aciklama": "Metinler amaçlarına göre farklı düzenlenebilir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-4-okuma-1-5",
+          "tip": "secim",
+          "soru": "“Tarifin Kenarındaki Çizgi” metnine göre: Yeni başlık neyi öne çıkarır?",
+          "secenekler": [
+            "Bütün farkların yok sayılmasını",
+            "Tek bir metnin herkese zorunlu olmasını",
+            "Aynı adın farklı anlatımlarla kullanılmasını"
+          ],
+          "dogru": "Aynı adın farklı anlatımlarla kullanılmasını",
+          "aciklama": "Başlık çeşitliliği inceleme konusu yapar.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-4-okuma-1-6",
+          "tip": "secim",
+          "soru": "“Tarifin Kenarındaki Çizgi” metnine göre: Ziyaretçinin anlattığı bilgi nasıl ele alınır?",
+          "secenekler": [
+            "Kaynağı belirtilmeden çoğaltılarak",
+            "Ayrı ve izinli bir örnek olarak",
+            "Bütün örnekleri değiştiren kesin kural olarak"
+          ],
+          "dogru": "Ayrı ve izinli bir örnek olarak",
+          "aciklama": "Arda tek örneği bütün listeye genellemez.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-4-okuma-1-7",
+          "tip": "secim",
+          "soru": "“Tarifin Kenarındaki Çizgi” metnine göre: Kenardaki çizgi neyi simgeler?",
+          "secenekler": [
+            "Kaynak anlatısıyla inceleme katkısı arasındaki sınırı",
+            "Yiyeceğin fiyat sınırını",
+            "Şenliğin bittiği saati"
+          ],
+          "dogru": "Kaynak anlatısıyla inceleme katkısı arasındaki sınırı",
+          "aciklama": "Son bölüm çizgiyi bilgi ile öğrenci açıklamasını ayıran düzen olarak kullanır.",
+          "cikti": "T.8.3.25"
+        },
+        {
+          "id": "8-4-okuma-1-8",
+          "tip": "secim",
+          "soru": "“Tarifin Kenarındaki Çizgi” metnine göre: Metnin ana düşüncesi hangisidir?",
+          "secenekler": [
+            "Her gelenek tek ve değişmez tarif taşır",
+            "Belirsiz bilgi tahminle kesinleştirilmelidir",
+            "Kültürel anlatılar kaynak ve bağlamları gözetilerek incelenmelidir"
+          ],
+          "dogru": "Kültürel anlatılar kaynak ve bağlamları gözetilerek incelenmelidir",
+          "aciklama": "Olaylar farklı anlatıları dikkatli dinleme ve kaynak sınırını koruma üzerine kuruludur.",
+          "cikti": "T.8.3.17"
+        }
+      ]
+    },
+    {
+      "id": "8-4-okuma-2",
+      "baslik": "Bir Geleneğin Bugünkü Ürünü",
+      "tur": "bilgilendirici",
+      "metin": "Geleneksel bir biçimden yararlanarak yeni bir ürün tasarlamak, geçmişteki örneği hiç düşünmeden kopyalamakla aynı şey değildir. Bir motif, anlatı veya kullanım biçimi yeni koşullarda farklı bir işleve kavuşabilir. Ancak bu değişim sırasında başlangıçtaki kaynağın ve yapılan yeni katkının belirtilmesi önemlidir. Böylece hem önceki üretim görünür kalır hem de yeni tasarımın neyi değiştirdiği anlaşılır. Gelenek, yalnız vitrinde duran değişmez bir nesne olarak ele alınmaz.\nBir okul atölyesini düşünelim. Öğrenciler izinli bir görseldeki geometrik düzeni inceleyip kâğıt ayraçlar tasarlıyor. İlk örneğin ait olduğu eser ve görsel kaynağı not ediliyor. Sonra çizgilerin nasıl tekrarlandığına, boşlukların nasıl kurulduğuna bakılıyor. Öğrenciler kendi ürünlerinde boyutu veya dizilişi değiştirebilir. Fakat başlangıç düzenini bütünüyle kendi buluşları gibi sunmaları doğru olmaz. İlham almakla kaynak göstermeden sahiplenmek arasında ayrım vardır.\nTasarımın amacı da seçimleri etkiler. Duvara asılacak büyük bir çalışma ile elde tutulacak küçük bir ayraç aynı uzaklıktan görülmez. Küçük yüzeyde fazla ayrıntı seçilmeyebilir. Bu nedenle bazı çizgiler sadeleştirilebilir. Sadeleştirme, kaynağın değersiz olduğu anlamına gelmez; yeni kullanım için yapılan bir uyarlamadır. Ne çıkarıldığı ve neden çıkarıldığı açıklanırsa izleyici kararın dayanağını görebilir. Her değişiklik yalnız daha güzel olduğu iddiasıyla savunulmak zorunda değildir.\nBir ürünü değerlendirirken estetik yorumlarla gözlenebilir özellikler ayrılabilir. Tekrar sayısı, boyut ve kullanılan malzeme kayıtlarla gösterilebilir. Dengeli, canlı veya sakin görünme gibi yorumlar ise gerekçe ister. İki izleyici aynı üründe farklı etkiler görebilir. Bu farklılık tek başına birinin yanlış olduğunu kanıtlamaz. Hangi ayrıntının hangi etkiyi oluşturduğu konuşulduğunda karşılaştırma daha anlamlı olur. Beğeni, açıklanmayan tek kelimelik bir sonuca indirgenmez.\nÜrünün tanıtım yazısı bu süreci kısaca aktarabilir. Kullanılan kaynak, öğrencinin değiştirdiği özellik ve hedeflenen kullanım belirtilir. Görselin yalnız bir bölümü gösteriliyorsa bu da açıklanır. Bir ayrıntı fotoğrafını bütün esermiş gibi sunmak, izleyicinin boyut ve düzen hakkında yanlış izlenim edinmesine yol açabilir. Paylaşım için kullanılan görsellerin izin ve hak koşulları ayrıca gözetilir; kaynak belirtmek tek başına her kullanım izninin var olduğu anlamına gelmez.\nÇalışmanın sonunda öğrenciler son ürünlerle ilk taslakları karşılaştırabilir. Hangi değişikliğin işe yaradığı, hangisinin amacı zorlaştırdığı örneklerle açıklanır. Böyle bir değerlendirme, geleneksel kültür üzerine konuşmayı yalnız övgü cümleleri sıralamaktan çıkarır. Dikkatli bakma, kaynağa saygı, yeni ihtiyacı anlama ve üretimi gerekçelendirme birlikte öğrenilir. Yeni ürün geçmişteki eserin yerini almaz; onunla bilinçli bir ilişki kurar. Bu ilişkinin nasıl kurulduğunu açıklayabilmek, tasarımın kendisi kadar değerli bir öğrenme sonucu olabilir. Öğrenci yalnız bir biçimi tekrar etmekle kalmaz, kendi kararının sorumluluğunu da üstlenir.\nBu çalışmada yalnız son ürünü sergilemek yerine bir değişiklik örneği göstermek de yararlı olabilir. Öğrenci ilk taslaktaki sık çizgileri, küçük yüzeyde neden azalttığını açıklayabilir. İzleyici böylece rastgele bir tercih değil, kullanım amacıyla ilişkili bir karar görür. Başka bir öğrenci aynı soruna farklı çözüm önerebilir. İki çözüm tek bir güzellik sıralamasına dönüştürülmeden karşılaştırılabilir. Hangi koşulda hangisinin daha okunaklı veya dayanıklı olacağı sorulur. Denenmeyen özellikler denenmiş gibi sunulmaz. Kayıt, tasarımın hem güçlü yanını hem sınırını taşır. Kaynakla kurulan bilinçli ilişki bu açıklamalar içinde daha görünür olur ve yeni üretimlere başlangıç sağlar.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; internet veya ders kitabından alınmamıştır.",
+      "sorular": [
+        {
+          "id": "8-4-okuma-2-1",
+          "tip": "secim",
+          "soru": "“Bir Geleneğin Bugünkü Ürünü” metnine göre: Başlangıç kaynağını belirtmek ne sağlar?",
+          "secenekler": [
+            "Her türlü kullanım izninin otomatik oluşmasını",
+            "Yeni tasarımın geçersiz sayılmasını",
+            "Önceki üretimle yeni katkının ayrılmasını"
+          ],
+          "dogru": "Önceki üretimle yeni katkının ayrılmasını",
+          "aciklama": "Kaynak ve değişiklikler gösterilince katkı sınırları anlaşılır.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-4-okuma-2-2",
+          "tip": "secim",
+          "soru": "“Bir Geleneğin Bugünkü Ürünü” metnine göre: Atölye örneğinin işlevi nedir?",
+          "secenekler": [
+            "Bir sanatçının sözünü tanık göstermek",
+            "Genel düşünceyi somut bir uygulamayla açıklamak",
+            "Gerçek satış verisi sunmak"
+          ],
+          "dogru": "Genel düşünceyi somut bir uygulamayla açıklamak",
+          "aciklama": "Ayraç tasarımı ilham ve kaynak ayrımını örneklendirir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-4-okuma-2-3",
+          "tip": "secim",
+          "soru": "“Bir Geleneğin Bugünkü Ürünü” metnine göre: Boyut değişikliği hangi ihtiyacı doğurabilir?",
+          "secenekler": [
+            "Ayrıntıları sadeleştirmeyi",
+            "Her kaynağı kaldırmayı",
+            "Bütün renkleri zorunlu değiştirmeyi"
+          ],
+          "dogru": "Ayrıntıları sadeleştirmeyi",
+          "aciklama": "Küçük yüzeyde fazla ayrıntı görünmeyebilir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-4-okuma-2-4",
+          "tip": "secim",
+          "soru": "“Bir Geleneğin Bugünkü Ürünü” metnine göre: Hangi özellik kayıtla doğrudan gösterilebilir?",
+          "secenekler": [
+            "Kesin olarak en güzel oluşu",
+            "Herkeste aynı etkiyi bırakışı",
+            "Tekrar sayısı"
+          ],
+          "dogru": "Tekrar sayısı",
+          "aciklama": "Tekrar sayılabilir; güzellik ve etki değerlendirme içerir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-4-okuma-2-5",
+          "tip": "secim",
+          "soru": "“Bir Geleneğin Bugünkü Ürünü” metnine göre: Yorum ayrılıkları nasıl ele alınır?",
+          "secenekler": [
+            "En yüksek sesli görüş seçilerek",
+            "Dayanılan ayrıntılar karşılaştırılarak",
+            "Bütün yorumlar yasaklanarak"
+          ],
+          "dogru": "Dayanılan ayrıntılar karşılaştırılarak",
+          "aciklama": "Metin gerekçeleri konuşmayı önerir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-4-okuma-2-6",
+          "tip": "secim",
+          "soru": "“Bir Geleneğin Bugünkü Ürünü” metnine göre: Bir ayrıntı fotoğrafı için hangi bilgi gerekir?",
+          "secenekler": [
+            "Bütün eseri göstermediği",
+            "Mutlaka en eski bölüm olduğu",
+            "Her izleyicinin aynı düşündüğü"
+          ],
+          "dogru": "Bütün eseri göstermediği",
+          "aciklama": "Kapsam açıklaması yanlış boyut ve düzen izlenimini önler.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-4-okuma-2-7",
+          "tip": "secim",
+          "soru": "“Bir Geleneğin Bugünkü Ürünü” metnine göre: Kaynak göstermek hangi konuda tek başına yeterli değildir?",
+          "secenekler": [
+            "Önceki eseri tanıtma",
+            "Kaynağın adını görünür kılma",
+            "Kullanım izni"
+          ],
+          "dogru": "Kullanım izni",
+          "aciklama": "Yazar kaynak belirtmekle hak iznini birbirinden ayırır.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-4-okuma-2-8",
+          "tip": "secim",
+          "soru": "“Bir Geleneğin Bugünkü Ürünü” metnine göre: Ana düşünce hangisidir?",
+          "secenekler": [
+            "Her uyarlama düşünmeden kopyalamadır",
+            "Gelenekten yararlanan üretim kaynak, amaç ve yeni katkı bilinerek yapılmalıdır",
+            "Yeni ürün geçmiş eseri mutlaka değersizleştirir"
+          ],
+          "dogru": "Gelenekten yararlanan üretim kaynak, amaç ve yeni katkı bilinerek yapılmalıdır",
+          "aciklama": "Yazı geçmiş örnekle bilinçli ve açıklanabilir ilişki kurulmasını savunur.",
+          "cikti": "T.8.3.17"
+        }
+      ]
+    }
+  ],
+  "konular": [
+    {
+      "kod": "8-4-yuklem-turu",
+      "ad": "Yüklemin türü ve yeri",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.8.4.19",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Öğrenciler çalıştı cümlesinde eylem sonda verilir. Çalıştı öğrenciler biçiminde aynı eylem başa alınır. Hava serindi cümlesi ise bir durumu anlatır. Bu farklı örneklerde neyin yargı olarak verildiğini ve nerede bulunduğunu incele. Terim tanımlarını ezberlemek yerine cümlenin söylediği anlamı ve söz dizimini karşılaştır. Yüklemi başa taşımak her zaman yanlış cümle kurmak değildir.</p><ul><li>Çocuk geldi: fiil ve kurallı.</li><li>Geldi çocuk: fiil ve devrik.</li><li>Hava serindi: isim ve kurallı.</li></ul>",
+      "ornekler": [
+        "Çocuk geldi: fiil ve kurallı.",
+        "Geldi çocuk: fiil ve devrik.",
+        "Hava serindi: isim ve kurallı."
+      ],
+      "testler": [
+        {
+          "id": "8-4-yuklem-turu-1",
+          "tip": "secim",
+          "soru": "“Öğrenciler tarifi karşılaştırdı.” cümlesi yüklem türü ve yeri bakımından hangisidir?",
+          "secenekler": [
+            "Eylem bildirir; yüklem sondadır.",
+            "Bir özellik veya durum bildirir; yüklem sondadır.",
+            "Eylem bildirir; yüklem sonda değildir."
+          ],
+          "dogru": "Eylem bildirir; yüklem sondadır.",
+          "aciklama": "Karşılaştırdı fiil yüklemi sonda bulunur.",
+          "cikti": "T.8.4.19"
+        },
+        {
+          "id": "8-4-yuklem-turu-2",
+          "tip": "secim",
+          "soru": "“Karşılaştırdı öğrenciler iki tarifi.” cümlesi yüklem türü ve yeri bakımından hangisidir?",
+          "secenekler": [
+            "Bir özellik veya durum bildirir; yüklem sondadır.",
+            "Eylem bildirir; yüklem sondadır.",
+            "Eylem bildirir; yüklem sonda değildir."
+          ],
+          "dogru": "Eylem bildirir; yüklem sonda değildir.",
+          "aciklama": "Fiil yüklemi sonda olmadığı için devrik yapı vardır.",
+          "cikti": "T.8.4.19"
+        },
+        {
+          "id": "8-4-yuklem-turu-3",
+          "tip": "secim",
+          "soru": "“Bu anlatı oldukça eskiydi.” cümlesi yüklem türü ve yeri bakımından hangisidir?",
+          "secenekler": [
+            "Bir özellik veya durum bildirir; yüklem sonda değildir.",
+            "Bir özellik veya durum bildirir; yüklem sondadır.",
+            "Eylem bildirir; yüklem sondadır."
+          ],
+          "dogru": "Bir özellik veya durum bildirir; yüklem sondadır.",
+          "aciklama": "Eskiydi ad soylu yüklemidir ve sonda yer alır.",
+          "cikti": "T.8.4.19"
+        },
+        {
+          "id": "8-4-yuklem-turu-4",
+          "tip": "secim",
+          "soru": "“Oldukça eskiydi bu anlatı.” cümlesi yüklem türü ve yeri bakımından hangisidir?",
+          "secenekler": [
+            "Bir özellik veya durum bildirir; yüklem sonda değildir.",
+            "Eylem bildirir; yüklem sondadır.",
+            "Bir özellik veya durum bildirir; yüklem sondadır."
+          ],
+          "dogru": "Bir özellik veya durum bildirir; yüklem sonda değildir.",
+          "aciklama": "Ad soylu yüklem cümlenin sonunda değildir.",
+          "cikti": "T.8.4.19"
+        },
+        {
+          "id": "8-4-yuklem-turu-5",
+          "tip": "secim",
+          "soru": "“Kaynak notunu sona ekledik.” cümlesi yüklem türü ve yeri bakımından hangisidir?",
+          "secenekler": [
+            "Bir özellik veya durum bildirir; yüklem sonda değildir.",
+            "Eylem bildirir; yüklem sonda değildir.",
+            "Eylem bildirir; yüklem sondadır."
+          ],
+          "dogru": "Eylem bildirir; yüklem sondadır.",
+          "aciklama": "Ekledik fiil yüklemi sondadır.",
+          "cikti": "T.8.4.19"
+        },
+        {
+          "id": "8-4-yuklem-turu-6",
+          "tip": "secim",
+          "soru": "“Ekledik sona kaynak notunu.” cümlesi yüklem türü ve yeri bakımından hangisidir?",
+          "secenekler": [
+            "Eylem bildirir; yüklem sondadır.",
+            "Eylem bildirir; yüklem sonda değildir.",
+            "Bir özellik veya durum bildirir; yüklem sondadır."
+          ],
+          "dogru": "Eylem bildirir; yüklem sonda değildir.",
+          "aciklama": "Yüklem baştadır; bu yüzden fiil cümlesi devriktir.",
+          "cikti": "T.8.4.19"
+        },
+        {
+          "id": "8-4-yuklem-turu-7",
+          "tip": "secim",
+          "soru": "“Desen çok düzenliydi.” cümlesi yüklem türü ve yeri bakımından hangisidir?",
+          "secenekler": [
+            "Bir özellik veya durum bildirir; yüklem sondadır.",
+            "Eylem bildirir; yüklem sondadır.",
+            "Eylem bildirir; yüklem sonda değildir."
+          ],
+          "dogru": "Bir özellik veya durum bildirir; yüklem sondadır.",
+          "aciklama": "Düzenliydi ad soyludur ve sonda bulunur.",
+          "cikti": "T.8.4.19"
+        },
+        {
+          "id": "8-4-yuklem-turu-8",
+          "tip": "secim",
+          "soru": "“Çok düzenliydi desen.” cümlesi yüklem türü ve yeri bakımından hangisidir?",
+          "secenekler": [
+            "Eylem bildirir; yüklem sondadır.",
+            "Bir özellik veya durum bildirir; yüklem sondadır.",
+            "Bir özellik veya durum bildirir; yüklem sonda değildir."
+          ],
+          "dogru": "Bir özellik veya durum bildirir; yüklem sonda değildir.",
+          "aciklama": "Ad yüklemi sonda olmadığı için devriklik vardır.",
+          "cikti": "T.8.4.19"
+        },
+        {
+          "id": "8-4-yuklem-turu-9",
+          "tip": "secim",
+          "soru": "“Atölye kapısını açtı.” cümlesi yüklem türü ve yeri bakımından hangisidir?",
+          "secenekler": [
+            "Bir özellik veya durum bildirir; yüklem sonda değildir.",
+            "Eylem bildirir; yüklem sondadır.",
+            "Bir özellik veya durum bildirir; yüklem sondadır."
+          ],
+          "dogru": "Eylem bildirir; yüklem sondadır.",
+          "aciklama": "Açtı temel yargıyı taşıyan fiildir ve sonda bulunur.",
+          "cikti": "T.8.4.19"
+        },
+        {
+          "id": "8-4-yuklem-turu-10",
+          "tip": "secim",
+          "soru": "“Açıktı atölyenin kapısı.” cümlesi yüklem türü ve yeri bakımından hangisidir?",
+          "secenekler": [
+            "Bir özellik veya durum bildirir; yüklem sonda değildir.",
+            "Eylem bildirir; yüklem sonda değildir.",
+            "Bir özellik veya durum bildirir; yüklem sondadır."
+          ],
+          "dogru": "Bir özellik veya durum bildirir; yüklem sonda değildir.",
+          "aciklama": "Açıktı bir durum bildirir, kapısı sözünden önce gelir.",
+          "cikti": "T.8.4.19"
+        }
+      ]
+    },
+    {
+      "kod": "8-4-cumle-yapisi",
+      "ad": "Cümle yapısını anlamla incelemek",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.8.4.19",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Cümle yapısını incelerken çekimli yüklem sayısı, fiilimsi ve bağlama biçimi birlikte düşünülür. Tek çekimli yüklemi olan cümle fiilimsi de içerebilir. İki ayrı yüklemin bulunmasıyla bir yüklemin yanında fiilimsi bulunması aynı yapı değildir. Terimleri ezberlemeden önce yargıların nasıl kurulduğunu ve birbirine nasıl bağlandığını belirle.</p><ul><li>Okudu: tek yüklem.</li><li>Okuyarak öğrendi: fiilimsi içerir.</li><li>Okudu ve not aldı: bağlaçla iki yüklem.</li></ul>",
+      "ornekler": [
+        "Okudu: tek yüklem.",
+        "Okuyarak öğrendi: fiilimsi içerir.",
+        "Okudu ve not aldı: bağlaçla iki yüklem."
+      ],
+      "testler": [
+        {
+          "id": "8-4-cumle-yapisi-1",
+          "tip": "secim",
+          "soru": "“Defne yazıyı okudu.” cümlesinin yapısı nasıl açıklanır?",
+          "secenekler": [
+            "Yüklem yok",
+            "Tek yüklemli, fiilimsi yok",
+            "İki çekimli yüklem var"
+          ],
+          "dogru": "Tek yüklemli, fiilimsi yok",
+          "aciklama": "Okudu tek çekimli yüklemdir; başka fiilimsi bulunmaz.",
+          "cikti": "T.8.4.19"
+        },
+        {
+          "id": "8-4-cumle-yapisi-2",
+          "tip": "secim",
+          "soru": "“Defne okuyarak öğrendi.” cümlesinin yapısı nasıl açıklanır?",
+          "secenekler": [
+            "Tek çekimli yüklem ve zarf-fiil",
+            "İki çekimli yüklem",
+            "İsim yüklemi ve hiç eylem yok"
+          ],
+          "dogru": "Tek çekimli yüklem ve zarf-fiil",
+          "aciklama": "Öğrendi çekimli, okuyarak fiilimsi görevindedir.",
+          "cikti": "T.8.4.19"
+        },
+        {
+          "id": "8-4-cumle-yapisi-3",
+          "tip": "secim",
+          "soru": "“Tarifi okudu ve not aldı.” cümlesinin yapısı nasıl açıklanır?",
+          "secenekler": [
+            "Tek yüklem ve yalnız isim-fiil",
+            "Yüklemsiz söz grubu",
+            "Bağlaçla bağlanan iki çekimli yüklem"
+          ],
+          "dogru": "Bağlaçla bağlanan iki çekimli yüklem",
+          "aciklama": "Okudu ve aldı iki ayrı çekimli yüklemdir.",
+          "cikti": "T.8.4.19"
+        },
+        {
+          "id": "8-4-cumle-yapisi-4",
+          "tip": "secim",
+          "soru": "“Yazılan not kayboldu.” cümlesinin yapısı nasıl açıklanır?",
+          "secenekler": [
+            "Hiç fiilimsi yok",
+            "Tek çekimli yüklem ve sıfat-fiil",
+            "İki çekimli yüklem"
+          ],
+          "dogru": "Tek çekimli yüklem ve sıfat-fiil",
+          "aciklama": "Kayboldu yüklem, yazılan notu niteleyen sıfat-fiildir.",
+          "cikti": "T.8.4.19"
+        },
+        {
+          "id": "8-4-cumle-yapisi-5",
+          "tip": "secim",
+          "soru": "“Okumak ufkunu genişletti.” cümlesinin yapısı nasıl açıklanır?",
+          "secenekler": [
+            "Tek çekimli yüklem ve isim-fiil",
+            "İki zaman çekimli yüklem",
+            "Yalnız adlardan oluşan yüklemsiz söz"
+          ],
+          "dogru": "Tek çekimli yüklem ve isim-fiil",
+          "aciklama": "Genişletti yüklemdir, okumak iş adını bildirir.",
+          "cikti": "T.8.4.19"
+        },
+        {
+          "id": "8-4-cumle-yapisi-6",
+          "tip": "secim",
+          "soru": "“Kapı açıldı, konuklar girdi.” cümlesinin yapısı nasıl açıklanır?",
+          "secenekler": [
+            "Tek yüklemli cümle",
+            "Sadece fiilimsi grubu",
+            "Virgülle sıralanmış iki çekimli yüklem"
+          ],
+          "dogru": "Virgülle sıralanmış iki çekimli yüklem",
+          "aciklama": "Açıldı ve girdi ayrı yargılar kurar.",
+          "cikti": "T.8.4.19"
+        },
+        {
+          "id": "8-4-cumle-yapisi-7",
+          "tip": "secim",
+          "soru": "“Geldi fakat uzun kalmadı.” cümlesinin yapısı nasıl açıklanır?",
+          "secenekler": [
+            "Yüklemsiz iki ad",
+            "Bağlaçla bağlanan iki yüklem",
+            "Bir sıfat-fiil grubu"
+          ],
+          "dogru": "Bağlaçla bağlanan iki yüklem",
+          "aciklama": "Geldi ve kalmadı fakat bağlacıyla ilişkilendirilir.",
+          "cikti": "T.8.4.19"
+        },
+        {
+          "id": "8-4-cumle-yapisi-8",
+          "tip": "secim",
+          "soru": "“Anlattığı öyküyü dinledik.” cümlesinin yapısı nasıl açıklanır?",
+          "secenekler": [
+            "Tek yüklem ve sıfat-fiil",
+            "İki çekimli ana yüklem",
+            "Sadece isim yüklemi"
+          ],
+          "dogru": "Tek yüklem ve sıfat-fiil",
+          "aciklama": "Dinledik çekimli yüklem, anlattığı adı niteleyen fiilimsidir.",
+          "cikti": "T.8.4.19"
+        },
+        {
+          "id": "8-4-cumle-yapisi-9",
+          "tip": "secim",
+          "soru": "“Soruyu düşünmeden yanıtladı.” cümlesinin yapısı nasıl açıklanır?",
+          "secenekler": [
+            "İki çekimli yüklem",
+            "Fiilimsi içermeyen isim cümlesi",
+            "Tek yüklem ve zarf-fiil"
+          ],
+          "dogru": "Tek yüklem ve zarf-fiil",
+          "aciklama": "Yanıtladı yüklem, düşünmeden ana eylemi tamamlayan fiilimsidir.",
+          "cikti": "T.8.4.19"
+        },
+        {
+          "id": "8-4-cumle-yapisi-10",
+          "tip": "secim",
+          "soru": "“Arda geldi; Defne açıklamayı sürdürdü.” cümlesinin yapısı nasıl açıklanır?",
+          "secenekler": [
+            "Bir tek ad tamlaması",
+            "İki çekimli yüklemli sıralı yapı",
+            "Tek yüklem ve yalnız isim-fiil"
+          ],
+          "dogru": "İki çekimli yüklemli sıralı yapı",
+          "aciklama": "Geldi ve sürdürdü iki farklı çekimli yargıdır.",
+          "cikti": "T.8.4.19"
+        }
+      ]
+    }
+  ],
+  "dinleme": [
+    {
+      "id": "8-4-dinleme",
+      "baslik": "Ayraç Taslağı",
+      "metin": "Öğrenciler izinli bir desen görselinden yararlanarak ayraç tasarladı. Kaynağı kaydettiler ve kendi değişikliklerini açıkladılar. Küçük yüzeyde bazı çizgiler seçilmediğinden tekrar sayısını azalttılar. Bunun kaynağın değersizliğini değil yeni kullanımın ihtiyacını gösterdiğini belirttiler. Son ürünü ilk taslakla karşılaştırdılar. İzleyicilerin yorumlarını dinlerken tekrar sayısı gibi ölçülebilir özellikleri güzellik yargılarından ayırdılar. Tasarımın hangi koşulda işe yaradığını, hangi özelliklerinin henüz denenmediğini de tanıtım kartına eklediler.",
+      "tts": {
+        "dil": "tr-TR",
+        "sesYoksa": "metin"
+      },
+      "sorular": [
+        {
+          "id": "8-4-dinleme-1",
+          "tip": "secim",
+          "soru": "“Ayraç Taslağı” dinleme metnine göre: Çalışmanın başlangıç kaynağı nedir?",
+          "secenekler": [
+            "İzinli desen görseli",
+            "Kaynağı bilinmeyen özel dosya",
+            "Gerçek tarihî belge olduğu söylenen yeni model"
+          ],
+          "dogru": "İzinli desen görseli",
+          "aciklama": "Dinlenen olayın sırası ve açıklamaları “İzinli desen görseli” cevabını destekler. Diğer seçeneklerdeki ayrıntılar metinde verilen bilgiyle uyuşmaz.",
+          "cikti": "T.8.1.4"
+        },
+        {
+          "id": "8-4-dinleme-2",
+          "tip": "secim",
+          "soru": "“Ayraç Taslağı” dinleme metnine göre: Çizgiler neden azaltıldı?",
+          "secenekler": [
+            "Kaynak bütünüyle önemsiz olduğu için",
+            "Bütün izleyiciler aynı şeyi istediği için",
+            "Küçük yüzeyde seçilemediği için"
+          ],
+          "dogru": "Küçük yüzeyde seçilemediği için",
+          "aciklama": "Dinlenen olayın sırası ve açıklamaları “Küçük yüzeyde seçilemediği için” cevabını destekler. Diğer seçeneklerdeki ayrıntılar metinde verilen bilgiyle uyuşmaz.",
+          "cikti": "T.8.1.4"
+        },
+        {
+          "id": "8-4-dinleme-3",
+          "tip": "secim",
+          "soru": "“Ayraç Taslağı” dinleme metnine göre: Ölçülebilir özellik hangisidir?",
+          "secenekler": [
+            "Herkeste aynı etkiyi bırakışı",
+            "Tekrar sayısı",
+            "En güzel oluşu"
+          ],
+          "dogru": "Tekrar sayısı",
+          "aciklama": "Dinlenen olayın sırası ve açıklamaları “Tekrar sayısı” cevabını destekler. Diğer seçeneklerdeki ayrıntılar metinde verilen bilgiyle uyuşmaz.",
+          "cikti": "T.8.1.4"
+        },
+        {
+          "id": "8-4-dinleme-4",
+          "tip": "secim",
+          "soru": "“Ayraç Taslağı” dinleme metnine göre: Karşılaştırma hangi iki ürünü kapsar?",
+          "secenekler": [
+            "İlk taslak ve son ürün",
+            "İki farklı okul binası",
+            "İki yarışma kupası"
+          ],
+          "dogru": "İlk taslak ve son ürün",
+          "aciklama": "Dinlenen olayın sırası ve açıklamaları “İlk taslak ve son ürün” cevabını destekler. Diğer seçeneklerdeki ayrıntılar metinde verilen bilgiyle uyuşmaz.",
+          "cikti": "T.8.1.4"
+        }
+      ]
+    }
+  ],
+  "yazmaGorevleri": [
+    {
+      "id": "8-4-yazma",
+      "baslik": "Kaynak ve Yeni Katkı",
+      "yonerge": "180–280 kelimede kurgusal bir kültür ürünü tasarımını açıkla. Kaynağı, değişikliği ve kullanım amacını ayır. İsim ve fiil yüklemli iki farklı cümle kullan; yaptığın değişiklikleri gerekçelendir.",
+      "minKelime": 180,
+      "maxKelime": 280,
+      "ciktilar": [
+        "T.8.4.2",
+        "T.8.4.13",
+        "T.8.4.19"
+      ],
+      "ogretmenDegerlendirmeli": true,
+      "rubrik": [
+        {
+          "olcut": "Amaç ve kapsam",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Gerekçe ve anlam bütünlüğü",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Dil yapıları ve söz varlığı",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Yazım, noktalama ve düzenleme",
+          "enDusuk": 0,
+          "enYuksek": 4
+        }
+      ]
+    }
+  ],
+  "lgsSorulari": [
+    {
+      "id": "8-4-lgs-1",
+      "tip": "secim",
+      "soru": "Kültür Atölyesi için hazırlanan dört çalışma aşağıda verilmiştir.\ndesen tanıtımı A: 24 dakika; kaynak notu var; ses gereksinimi yok.\ndesen tanıtımı B: 27 dakika; kaynak notu var; ses gereksinimi yok.\ndesen tanıtımı C: 22 dakika; kaynak notu yok; ses gereksinimi yok.\ndesen tanıtımı D: 23 dakika; kaynak notu var; ses gereksinimi var.\nSeçilecek çalışmada kaynak notu bulunmalı, ses gerekmemeli ve süre 24 dakikayı aşmamalıdır. Üç koşulu birlikte sağlayan hangisidir?",
+      "secenekler": [
+        "desen tanıtımı C",
+        "desen tanıtımı D",
+        "desen tanıtımı A",
+        "desen tanıtımı B"
+      ],
+      "dogru": "desen tanıtımı A",
+      "aciklama": "desen tanıtımı A üç koşulu sağlar. B süreyi aşar, C kaynak notu içermez, D ses gerektirir.",
+      "cikti": "T.8.3.32"
+    },
+    {
+      "id": "8-4-lgs-2",
+      "tip": "secim",
+      "soru": "Kültür Atölyesi programında dört işlem farklı sıralarda yapılacaktır: kaynak inceleme, tasarım, deneme, sergileme. Kaynak inceleme, tasarım işleminden önce yapılır. Deneme, tasarım işleminin hemen ardından gelir. Sergileme son işlemdir. Her işlem bir kez yapılacağına göre uygun sıra hangisidir?",
+      "secenekler": [
+        "kaynak inceleme → tasarım → sergileme → deneme",
+        "kaynak inceleme → tasarım → deneme → sergileme",
+        "tasarım → kaynak inceleme → deneme → sergileme",
+        "kaynak inceleme → deneme → tasarım → sergileme"
+      ],
+      "dogru": "kaynak inceleme → tasarım → deneme → sergileme",
+      "aciklama": "sergileme sonda olmalıdır. tasarım ile deneme yan yana ve bu sırada bulunur; kaynak inceleme da onlardan önce gelir.",
+      "cikti": "T.8.3.35"
+    },
+    {
+      "id": "8-4-lgs-3",
+      "tip": "secim",
+      "soru": "Kültür Atölyesi sonrasında gönüllü 14 katılımcının tamamı desen tanıtımı çalışmasının anlaşılır olduğunu söyledi. Katılmayanlar ve cevap vermeyenler hakkında veri toplanmadı. Bu bilgiye dayanan, kapsamı aşmayan sonuç hangisidir?",
+      "secenekler": [
+        "Yanıt veren 14 kişi çalışmayı anlaşılır bulmuştur.",
+        "Okuldaki herkes çalışmayı anlaşılır bulmuştur.",
+        "Yanıt vermeyenlerin tamamı çalışmayı anlaşılmaz bulmuştur.",
+        "Bu yöntem her koşulda en başarılı yöntemdir."
+      ],
+      "dogru": "Yanıt veren 14 kişi çalışmayı anlaşılır bulmuştur.",
+      "aciklama": "Veri yalnız yanıt veren gönüllü grubu kapsar; diğer kişiler veya bütün yöntemler hakkında kesin sonuç vermez.",
+      "cikti": "T.8.3.21"
+    },
+    {
+      "id": "8-4-lgs-4",
+      "tip": "secim",
+      "soru": "Kültür Atölyesi için iki görüş var. I: “Desen tanıtımı kısa olmalı; okuyucu temel bilgiyi hızla bulabilmeli.” II: “Desen tanıtımı gerektiğinde ayrıntı içermeli; okuyucunun önemli koşulları anlaması sağlanmalı.” Bu iki görüş hangi ilkede buluşur?",
+      "secenekler": [
+        "Her metin olabilecek en kısa biçime indirilmelidir.",
+        "Ayrıntılar bütün koşullarda kaldırılmalıdır.",
+        "Okuyucunun ön bilgisi hiçbir zaman dikkate alınmamalıdır.",
+        "İçerik, okuyucunun ihtiyacını karşılayacak biçimde düzenlenmelidir."
+      ],
+      "dogru": "İçerik, okuyucunun ihtiyacını karşılayacak biçimde düzenlenmelidir.",
+      "aciklama": "İlk görüş hıza, ikincisi koşullara dikkat çeker; ortak nokta okuyucunun bilgiyi uygun biçimde almasıdır.",
+      "cikti": "T.8.3.23"
+    },
+    {
+      "id": "8-4-lgs-5",
+      "tip": "secim",
+      "soru": "Aşağıdaki cümleler anlamlı bir paragraf oluşturacaktır.\nI. Kültür Atölyesi grubu ilk taslağını hazırladı.\nII. Son değerlendirmede bu iki düzeltmenin etkisini birlikte inceledi.\nIII. Bu taslağı okuyanlar iki belirsiz nokta belirledi.\nIV. Grup, belirlenen noktaları açıklayan iki düzeltme yaptı.\nGönderimler ve işlem sırası gözetildiğinde doğru diziliş hangisidir?",
+      "secenekler": [
+        "I – II – III – IV",
+        "IV – III – I – II",
+        "I – III – IV – II",
+        "III – I – IV – II"
+      ],
+      "dogru": "I – III – IV – II",
+      "aciklama": "Bu taslak, ilk taslağa; belirlenen noktalar, okuyucu tespitine; bu iki düzeltme, yapılan değişikliklere gönderir.",
+      "cikti": "T.8.3.35"
+    },
+    {
+      "id": "8-4-lgs-6",
+      "tip": "secim",
+      "soru": "Kültür Atölyesi için hazırlanan desen tanıtımı ilk denemede uzun bulundu. Grup bazı tekrarları çıkardı. ——— önemli bir koşulun da silindiğini görünce onu yeniden ekledi. Daha kısa bir metin elde etmek, her durumda daha doğru bir metin elde etmek değildi. Boşluğa, önceki adımın beklenen yararına karşı ortaya çıkan sınırlılığı belirtmek için hangisi getirilmelidir?",
+      "secenekler": [
+        "Başka bir deyişle",
+        "Ancak",
+        "Bu nedenle",
+        "Örneğin"
+      ],
+      "dogru": "Ancak",
+      "aciklama": "Kısaltma olumlu bir adım gibi görünürken koşul kaybı ters bir durum getirir; ancak bu karşıtlığı bağlar.",
+      "cikti": "T.8.3.10"
+    },
+    {
+      "id": "8-4-lgs-7",
+      "tip": "secim",
+      "soru": "Kültür atölyesinde bir geleneksel düzenden yararlanan öğrenciler kendi değişikliklerini açıkça belirtti. İlk örneği bütünüyle kendi buluşları gibi sunmadı. Ürünlerin kullanım amaçlarını da açıklayarak bir biçimin farklı koşullarda neden uyarlanabileceğini gösterdi. Kaynakla yeni katkıyı birlikte görünür kıldı.\nBu parçada asıl vurgulanan düşünce hangisidir?",
+      "secenekler": [
+        "Bir değerlendirme, amaca uygun somut dayanaklarla gözden geçirilmelidir.",
+        "İlk izlenim her zaman yeterli ve kesindir.",
+        "Yeni bilgi ilk kararı hiçbir koşulda değiştirmemelidir.",
+        "Bütün durumlar tek bir ölçütle eksiksiz açıklanabilir."
+      ],
+      "dogru": "Bir değerlendirme, amaca uygun somut dayanaklarla gözden geçirilmelidir.",
+      "aciklama": "Parçada ilk yargı, yeni inceleme ve somut dayanaklarla düzeltilir; kapsamı geniş kesinlikler savunulmaz.",
+      "cikti": "T.8.3.17"
+    },
+    {
+      "id": "8-4-lgs-8",
+      "tip": "secim",
+      "soru": "Kültür Atölyesi yönergesi şöyledir: Kaynak bilgisi eksik desen tanıtımı doğrudan geri bildirim aşamasına alınır; tamamlanmadan sunuma geçmez. Kaynak bilgisi tamam olanlar önce içerik kontrolünden geçer, uygun bulunursa sunulur. Kaynak bilgisi eksik bir çalışma için ilk uygun işlem hangisidir?",
+      "secenekler": [
+        "İçerik kontrolünü atlayıp sunmak",
+        "Eksikliği görünmez biçimde silmek",
+        "Kaynak eksik olsa da doğrudan uygun saymak",
+        "Eksik bilgi için geri bildirim vermek"
+      ],
+      "dogru": "Eksik bilgi için geri bildirim vermek",
+      "aciklama": "Yönergenin ilk koşulu eksik kaynak durumunu açıkça geri bildirime bağlar.",
+      "cikti": "T.8.3.35"
+    },
+    {
+      "id": "8-4-lgs-9",
+      "tip": "secim",
+      "soru": "Kültür Atölyesi çalışmasında yalnız iki küçük grubun desen tanıtımı örnekleri incelendi. Bir grupta açıklama notu varken diğerinde yoktu. Açıklama notu olan örnekte katılımcılar daha az soru sordu. Bu sınırlı bulgu için kapsamı en doğru başlık hangisidir?",
+      "secenekler": [
+        "Bütün Öğrenciler Aynı Yöntemi Tercih Ediyor",
+        "Not Olmayan Her Çalışma Başarısızdır",
+        "İki Gruptaki Örneklerde Açıklama Notuyla Soru Sayısı Birlikte İncelendi",
+        "Açıklama Notları Bütün Soruları Sonsuza Dek Bitirdi"
+      ],
+      "dogru": "İki Gruptaki Örneklerde Açıklama Notuyla Soru Sayısı Birlikte İncelendi",
+      "aciklama": "Başlık iki grup ve gözlenen ilişki sınırını korur; evrensel veya nedensel kesinlik üretmez.",
+      "cikti": "T.8.3.19"
+    },
+    {
+      "id": "8-4-lgs-10",
+      "tip": "secim",
+      "soru": "Bir paragrafın konusu Kültür Atölyesi kayıtlarının nasıl tutulduğudur. I: Tarih ve yöntem her kayda eklendi. II: Gözlenmeyen alanlar boş bırakılıp açıklandı. III: Etkinliğin afişi bence yılın en güzel afişiydi. IV: Yöntem değiştiğinde kayda not düşüldü. Konu bütünlüğünü bozan cümle hangisidir?",
+      "secenekler": [
+        "II",
+        "IV",
+        "III",
+        "I"
+      ],
+      "dogru": "III",
+      "aciklama": "Diğer cümleler kayıt yöntemini anlatır; III etkinlikle ilgili olsa da afişin kişisel beğeni değerine geçer.",
+      "cikti": "T.8.3.18"
+    },
+    {
+      "id": "8-4-lgs-11",
+      "tip": "secim",
+      "soru": "Kültür Atölyesi değerlendirmesinde dört cümle yazılmıştır. Hangisi kişisel beğeni yerine kontrol edilebilir bir bilgi bildirir?",
+      "secenekler": [
+        "Seçilen örnekler herkes için kusursuzdu.",
+        "Dosyada 7 adet desen tanıtımı örneği bulunuyor.",
+        "Bu çalışma tartışmasız en etkileyici üründür.",
+        "Etkinliğin havası bütün diğerlerinden güzeldi."
+      ],
+      "dogru": "Dosyada 7 adet desen tanıtımı örneği bulunuyor.",
+      "aciklama": "Örnek sayısı sayılarak kontrol edilebilir; diğer sözler beğeni veya kapsamı belirsiz değer yargısı içerir.",
+      "cikti": "T.8.3.21"
+    },
+    {
+      "id": "8-4-lgs-12",
+      "tip": "secim",
+      "soru": "Kültür Atölyesi sunumuna kabul edilmek için hem içerik onayı hem paylaşım izni gereklidir. Bir desen tanıtımı örneğinin içerik onayı aldığı biliniyor; paylaşım izni hakkında bilgi yoktur. Kesin olarak söylenebilecek yargı hangisidir?",
+      "secenekler": [
+        "Sunuma kabul edildiği henüz kesinleştirilemez.",
+        "Kesinlikle sunuma kabul edilmiştir.",
+        "Kesinlikle paylaşım izni reddedilmiştir.",
+        "İçerik onayı almadığı kanıtlanmıştır."
+      ],
+      "dogru": "Sunuma kabul edildiği henüz kesinleştirilemez.",
+      "aciklama": "İki gerekli koşuldan yalnız biri bilinmektedir. İzin bilgisi yokluğu ne kabulü ne de reddi kanıtlar.",
+      "cikti": "T.8.3.25"
+    },
+    {
+      "id": "8-4-lgs-13",
+      "tip": "secim",
+      "soru": "Kültür Atölyesi kayıt tablosu: toplam çalışma / eksik alan sayısı\nI: 16 / 3\nII: 20 / 1\nIII: 18 / 0\nIV: 22 / 2\nEn az 18 çalışma içeren ve eksik alanı olmayan dosya hangisidir?",
+      "secenekler": [
+        "I",
+        "II",
+        "IV",
+        "III"
+      ],
+      "dogru": "III",
+      "aciklama": "III alt miktar sınırını sağlar ve eksik alanı sıfırdır. II ve IV miktarı sağlasa da eksikleri vardır; I alt sınırın altındadır.",
+      "cikti": "T.8.3.32"
+    },
+    {
+      "id": "8-4-lgs-14",
+      "tip": "secim",
+      "soru": "Kültür Atölyesi duyurusunda “Yalnız onaylı desen tanıtımı örnekleri listede gösterilir.” yazıyor. Bu kurala göre hangi yorum doğrudur?",
+      "secenekler": [
+        "Listede görünen her örnek onaysızdır.",
+        "Onaysız örnekler mutlaka listede yer alır.",
+        "Listede gösterilmeyen bir örnek yine de onaylı olabilir.",
+        "Onaylı olan her örnek mutlaka gösterilmiştir."
+      ],
+      "dogru": "Listede gösterilmeyen bir örnek yine de onaylı olabilir.",
+      "aciklama": "Kural gösterilenlerin onaylı olmasını ister; onaylananların tamamının gösterileceğini söylemez.",
+      "cikti": "T.8.3.25"
+    },
+    {
+      "id": "8-4-lgs-15",
+      "tip": "secim",
+      "soru": "Kültür Atölyesi için araştırma yapan öğrenci aynı desen tanıtımı bilgisini üç ayrı sayfada bulur. İkinci ve üçüncü sayfanın birinci sayfayı aynen aktardığını görür. Bu üç sayfanın aynı bilgiyi vermesi nasıl değerlendirilmelidir?",
+      "secenekler": [
+        "Üç sayfa mutlaka üç ayrı deney raporudur.",
+        "Birbirinden bağımsız üç doğrulama sayılmaz.",
+        "Bilgi üç kez yazıldığı için kesin kanıtlanmıştır.",
+        "Kaynağı incelemeye artık gerek yoktur."
+      ],
+      "dogru": "Birbirinden bağımsız üç doğrulama sayılmaz.",
+      "aciklama": "Kopyalanan bilgi ayrı bağımsız dayanak oluşturmaz; ilk kaynağın ve ek kanıtların niteliği incelenmelidir.",
+      "cikti": "T.8.3.31"
+    },
+    {
+      "id": "8-4-lgs-16",
+      "tip": "secim",
+      "soru": "Kültür Atölyesi kuralı: “Desen tanıtımı dosyası, kaynak bilgisi tamamlanmışsa ve öğretmen uygun bulmuşsa cuma günü paylaşılacaktır.” Bu cümlenin anlamını koruyan özet hangisidir?",
+      "secenekler": [
+        "Paylaşım cuma günü, iki koşul da sağlanırsa yapılacak.",
+        "Dosya cuma günü her durumda paylaşılacak.",
+        "Öğretmen uygun bulursa kaynak bilgisine gerek kalmayacak.",
+        "Kaynak tamamlanınca gün gözetmeden otomatik paylaşılacak."
+      ],
+      "dogru": "Paylaşım cuma günü, iki koşul da sağlanırsa yapılacak.",
+      "aciklama": "Doğru özet zaman bilgisini ve iki koşulun birlikte gerekli oluşunu korur.",
+      "cikti": "T.8.3.13"
+    },
+    {
+      "id": "8-4-lgs-17",
+      "tip": "secim",
+      "soru": "Kültür Atölyesi raporunda “Bazı desen tanıtımı örnekleri henüz incelenmedi.” deniyor. Bu cümleden hangi sonuç çıkarılabilir?",
+      "secenekler": [
+        "Bütün örnekler kesinlikle incelenmiştir.",
+        "Hiçbir örnek gelecekte incelenmeyecektir.",
+        "İncelenen bütün örnekler başarısızdır.",
+        "En az bir örneğin incelemesi tamamlanmamıştır."
+      ],
+      "dogru": "En az bir örneğin incelemesi tamamlanmamıştır.",
+      "aciklama": "Bazı sözü en az bir durumu bildirir; henüz ise gelecekte inceleme ihtimalini kapatmaz.",
+      "cikti": "T.8.3.25"
+    },
+    {
+      "id": "8-4-lgs-18",
+      "tip": "secim",
+      "soru": "Kültür Atölyesi dosyasında dört grubun tamamladığı desen tanıtımı sayıları A:10, B:16, C:13, D:7 olarak verilmiştir. En yüksekten en düşüğe doğru sıralamayı gösteren grafik etiketleri hangisidir?",
+      "secenekler": [
+        "D – A – C – B",
+        "C – B – A – D",
+        "B – C – A – D",
+        "B – A – C – D"
+      ],
+      "dogru": "B – C – A – D",
+      "aciklama": "B en yüksek, ardından C ve A, son olarak D gelir. Sıralama tabloda verilen büyüklüklerden okunur.",
+      "cikti": "T.8.3.32"
+    },
+    {
+      "id": "8-4-lgs-19",
+      "tip": "secim",
+      "soru": "Kültür Atölyesi üzerine bir yazıda “Desen tanıtımı, hazırlayanla okuyan arasında bir köprü kurdu; daha önce görünmeyen düşünceler konuşulabilir oldu.” deniyor. Köprü kurmak sözü burada anlatıma ne katar?",
+      "secenekler": [
+        "İki kişinin her konuda aynı düşündüğünü kesinleştirir.",
+        "İletişim ve bağlantı sağlandığını mecazla anlatır.",
+        "Gerçek bir inşaatın tamamlandığını kanıtlar.",
+        "Bir yolun uzunluğunu sayıyla gösterir."
+      ],
+      "dogru": "İletişim ve bağlantı sağlandığını mecazla anlatır.",
+      "aciklama": "Köprü somut geçiş yapısından hareketle düşünceler arasında iletişim kurulmasını anlatır; tam uzlaşma iddiası içermez.",
+      "cikti": "T.8.3.5"
+    },
+    {
+      "id": "8-4-lgs-20",
+      "tip": "secim",
+      "soru": "Kültür Atölyesi için basılı duyuru “Salı, saat 14.00, okul salonu; ön kayıt gerekli.” diyor. Sesli duyuru ise “Salı okul salonunda buluşuyoruz; ön kayıt yaptırmayı unutmayın.” biçimindedir. İki duyuru karşılaştırıldığında sesli duyuruda hangi bilginin eksik olduğu görülür?",
+      "secenekler": [
+        "Ön kayıt koşulu",
+        "Başlama saati",
+        "Gün",
+        "Yer"
+      ],
+      "dogru": "Başlama saati",
+      "aciklama": "Gün, yer ve kayıt iki duyuruda da vardır; 14.00 bilgisi yalnız basılı duyuruda bulunur.",
+      "cikti": "T.8.3.23"
+    }
+  ]
+}

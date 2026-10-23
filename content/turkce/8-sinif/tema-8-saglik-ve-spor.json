@@ -1,0 +1,1074 @@
+{
+  "belgeTuru": "tema",
+  "semaSurumu": "1.0",
+  "sinif": 8,
+  "program": "2019",
+  "tema": 8,
+  "temaAdi": "Sağlık ve Spor",
+  "durum": "incelemeye_hazir",
+  "kaynak": "https://mufredat.meb.gov.tr/Dosyalar/20195716392253-02-T%C3%BCrk%C3%A7e%20%C3%96%C4%9Fretim%20Program%C4%B1%202019.pdf",
+  "kaynak_dogrulanmadi": false,
+  "ogrenmeCiktilari": [
+    "T.8.1.1",
+    "T.8.1.10",
+    "T.8.1.11",
+    "T.8.1.12",
+    "T.8.1.13",
+    "T.8.1.14",
+    "T.8.1.2",
+    "T.8.1.3",
+    "T.8.1.4",
+    "T.8.1.5",
+    "T.8.1.6",
+    "T.8.1.7",
+    "T.8.1.8",
+    "T.8.1.9",
+    "T.8.2.1",
+    "T.8.2.2",
+    "T.8.2.3",
+    "T.8.2.4",
+    "T.8.2.5",
+    "T.8.2.6",
+    "T.8.2.7",
+    "T.8.3.1",
+    "T.8.3.10",
+    "T.8.3.11",
+    "T.8.3.12",
+    "T.8.3.13",
+    "T.8.3.14",
+    "T.8.3.15",
+    "T.8.3.16",
+    "T.8.3.17",
+    "T.8.3.18",
+    "T.8.3.19",
+    "T.8.3.2",
+    "T.8.3.20",
+    "T.8.3.21",
+    "T.8.3.22",
+    "T.8.3.23",
+    "T.8.3.24",
+    "T.8.3.25",
+    "T.8.3.26",
+    "T.8.3.27",
+    "T.8.3.28",
+    "T.8.3.29",
+    "T.8.3.3",
+    "T.8.3.30",
+    "T.8.3.31",
+    "T.8.3.32",
+    "T.8.3.33",
+    "T.8.3.34",
+    "T.8.3.35",
+    "T.8.3.4",
+    "T.8.3.5",
+    "T.8.3.6",
+    "T.8.3.7",
+    "T.8.3.8",
+    "T.8.3.9",
+    "T.8.4.1",
+    "T.8.4.10",
+    "T.8.4.11",
+    "T.8.4.12",
+    "T.8.4.13",
+    "T.8.4.14",
+    "T.8.4.15",
+    "T.8.4.16",
+    "T.8.4.17",
+    "T.8.4.18",
+    "T.8.4.19",
+    "T.8.4.2",
+    "T.8.4.20",
+    "T.8.4.3",
+    "T.8.4.4",
+    "T.8.4.5",
+    "T.8.4.6",
+    "T.8.4.7",
+    "T.8.4.8",
+    "T.8.4.9"
+  ],
+  "sozVarligi": {
+    "aciklama": "Özgün proje tanım ve örneklerinden tema uyumlu spiral tekrar seçimi. Sınıflar arasında aynı kelime yeniden yer alabilir; her sınıf için bütünüyle yeni kelime iddiası değildir.",
+    "kelimeler": [
+      {
+        "kelime": "alışkanlık",
+        "anlam": "Tekrarlarla düzenli hâle gelen davranış",
+        "ornek": "Kitap okuma alışkanlığımı sürdürdüm.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "denge",
+        "anlam": "Farklı ihtiyaçların uygun bir düzen içinde karşılanması",
+        "ornek": "Çalışma ve dinlenme arasında denge kurdum.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "dinlenme",
+        "anlam": "Yorgunluğu azaltmak için etkinliğe ara verme",
+        "ornek": "Dinlenme sırasında sessizce oturdum.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "hareket",
+        "anlam": "Bedenin veya bir parçanın yer değiştirmesi",
+        "ornek": "Oyunumuz farklı hareketler içeriyordu.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "esneklik",
+        "anlam": "Bir durumun koşullarına göre değişebilme özelliği",
+        "ornek": "Yağmur yağınca planımıza esneklik kazandırdık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "hijyen",
+        "anlam": "Sağlığı korumaya yönelik temizlik uygulamaları",
+        "ornek": "El yıkama hijyen için önemlidir.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "temizlik",
+        "anlam": "Kirden ve zararlı birikintilerden arınmış olma durumu",
+        "ornek": "Sınıfın temizliği için görevleri paylaştık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "öğün",
+        "anlam": "Günün belirli bölümünde yenilen yemek",
+        "ornek": "Öğünlerle ilgili bir bilgilendirme metni okuduk.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "besin",
+        "anlam": "Vücudun ihtiyaçlarını karşılamaya katkı sağlayan yiyecek",
+        "ornek": "Metin farklı besinleri karşılaştırıyordu.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "çeşitlilik",
+        "anlam": "Bir ortamda farklı türlerin bulunması",
+        "ornek": "Tablodaki sebzeler çeşitlilik gösteriyordu.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "güvenilir",
+        "anlam": "Bilgisine veya davranışına dayanılabilen",
+        "ornek": "Güvenilir bir kaynağın kimden geldiğini araştırdık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "uzman",
+        "anlam": "Bir alanda eğitim ve deneyim sahibi kişi",
+        "ornek": "Sağlık sorularımızı bir uzmana yönelttik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "bilgilendirme",
+        "anlam": "Bir konuda anlaşılır bilgi sunma",
+        "ornek": "Panodaki bilgilendirme yazısını okudum.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "etiket",
+        "anlam": "Bir ürün veya nesne hakkında kısa bilgi taşıyan işaret",
+        "ornek": "Etiketteki tarihi dikkatle inceledik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "ölçüt",
+        "anlam": "Bir değerlendirmede kullanılan temel veya kural",
+        "ornek": "Kaynağı seçerken ölçüt belirledik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "gözlem",
+        "anlam": "Bir durumu dikkatle inceleyerek bilgi edinme",
+        "ornek": "Bahçedeki gözlemlerimizi kaydettik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "kayıt",
+        "anlam": "Bir bilgiyi sonradan kullanılmak üzere saklama",
+        "ornek": "Gözlem kaydı defterde duruyordu.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "veri",
+        "anlam": "Bir incelemede kullanılan gözlem veya ölçüm bilgisi",
+        "ornek": "Toplanan veri küçük bir tabloya işlendi.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "çizelge",
+        "anlam": "Bilgileri satır ve sütunlarla gösteren düzen",
+        "ornek": "Etkinlik çizelgesine görevimi yazdım.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "karşılaştırma",
+        "anlam": "Benzerlik ve farklılıkları birlikte inceleme",
+        "ornek": "İki metin arasında karşılaştırma yaptık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "dinç",
+        "anlam": "Kendini canlı ve güçlü hisseden",
+        "ornek": "Dinlenince kendimi daha dinç hissettim.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "yorgunluk",
+        "anlam": "Çaba sonrasında hissedilen güç azalması",
+        "ornek": "Yorgunluğumu fark edince ara verdim.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "güvenlik",
+        "anlam": "Zarar görmeyi önlemeye yönelik koşullar ve önlemler",
+        "ornek": "Oyunda güvenlik için alanı kontrol ettik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "önlem",
+        "anlam": "Olası bir sorunu azaltmak için önceden yapılan iş",
+        "ornek": "Kaygan zemine karşı önlem aldık.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "erişilebilirlik",
+        "anlam": "Bir alanı veya bilgiyi farklı kişilerin kullanabilmesi",
+        "ornek": "Etkinlikte erişilebilirliği gözeten seçenekler sunduk.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "katılım",
+        "anlam": "Bir işe veya etkinliğe dâhil olma",
+        "ornek": "Farklı görevler katılımı kolaylaştırdı.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "uyku",
+        "anlam": "Bedenin doğal olarak dinlendiği düzenli durum",
+        "ornek": "Uyku hakkında güvenilir bir metin seçtik.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "plan",
+        "anlam": "Bir işin nasıl yürütüleceğini gösteren düzen",
+        "ornek": "Günlük planıma dinlenme arası ekledim.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "fark etmek",
+        "anlam": "Bir durumun varlığını veya değişimini anlamak",
+        "ornek": "Sınıfın havasının değiştiğini fark ettim.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      },
+      {
+        "kelime": "süreklilik",
+        "anlam": "Bir davranışın aralıklarla da olsa devam etmesi",
+        "ornek": "Çalışmada süreklilik küçük adımlarla sağlanır.",
+        "tip": "kelime",
+        "cikti": "T.8.3.5"
+      }
+    ],
+    "esAnlamlilar": [],
+    "zitAnlamlilar": [],
+    "esSesliler": [],
+    "deyimler": [],
+    "atasozleri": [
+      {
+        "ifade": "Bir elin nesi var, iki elin sesi var.",
+        "anlam": "İş birliğiyle daha etkili sonuç alınabilir.",
+        "ornek": "Takım görev paylaşımını bu atasözüyle ilişkilendirdi."
+      }
+    ]
+  },
+  "okumaParcalari": [
+    {
+      "id": "8-8-okuma-1",
+      "baslik": "Skor Tahtasının Dışında",
+      "tur": "oykuleyici",
+      "metin": "Okulun sınıflar arası oyun gününde sekizinci sınıf takımı son karşılaşmayı kaybetti. Skor tahtasındaki rakamlar değiştiğinde kaptan Elif bütün çalışmanın boşa gittiğini düşündü. Haftalardır görev paylaşmış, kuralları incelemiş, öğretmenlerinin yönlendirmesiyle prova yapmışlardı. Yine de sonuç istedikleri gibi değildi. Takım arkadaşlarından Kerem ise yenilgiden sonra bile konuşmak istediği başka bir şey olduğunu söyledi. İlk kez oyuna düzenli katılabildiğini fark etmişti.\nÖnceki oyunlarda Kerem çoğu zaman kenarda kalıyordu. Takım yalnız en deneyimli öğrencileri oynatmayı seçmişti. Bu kez oyun günü için farklı bir plan yapılmış, katılmak isteyenlerin görevleri önceden konuşulmuştu. Okulun güvenlik ve oyun kuralları korunarak daha dengeli bir sıra kurulmuştu. Kerem'in katkısı en çok sayı atan kişi olmak değildi. Bazı anlarda oyunun akışını izleyip arkadaşlarına açık bilgi vermişti. Elif bunu skorun içinde ayrı bir satır olarak görmüyordu.\nÖğretmen karşılaşmadan sonra kısa bir değerlendirme önerdi. Kimseye özel sağlık bilgisi sorulmayacak, kişisel sınırlarını açıklaması için baskı yapılmayacaktı. Takım çalışma biçimine bakacaktı: Kurallar anlaşılmış mıydı, görevler adil paylaşılmış mıydı, hata sonrası iletişim nasıldı? Elif başta bu soruların yenilgiyi yumuşatmak için sorulduğunu düşündü. Fakat arkadaşlarının somut örneklerini dinleyince yalnız teselli konuşması yapmadıklarını anladı.\nBir pozisyonda iki oyuncu aynı göreve yönelmiş ve alan boş kalmıştı. Başka bir anda yapılan kısa bir uyarı karışıklığı önlemişti. Bunlar kazanılsaydı da incelenmesi gereken ayrıntılardı. Takım bir sonraki etkinlik için görev işaretlerini daha açık belirlemeye karar verdi. Her yanlışta kişiyi suçlamak yerine hangi bilginin eksik olduğunu soracaklardı. Bu karar, sonucu önemsememek değildi. Sonuca katkı veren değiştirilebilir davranışları görmeye çalışmaktı.\nElif eve götüreceği notta skorun yanına üç başlık ekledi: Katılım, iletişim ve kurala uyum. Bu başlıklarda da her şeyi başarılı saymadı. İyi giden bir örnekle geliştirilecek bir durumu birlikte yazdı. Kerem notu okuyunca bir daha kaybetmeyeceklerini söylemedi. Ama bir sonraki oyunda hangi konuda çalışabileceklerini artık daha iyi biliyordu. Belirsiz bir başarısızlık duygusu yerine somut bir hedef oluşmuştu. İkisi için de bu, yenilgiyi silmeden ondan öğrenmenin yoluydu.\nErtesi hafta başka sınıfın maçını izlerken Elif skor kadar oyuncuların birbirine nasıl seslendiğine de dikkat etti. Her takımın koşulları farklıydı; kendi yöntemlerini doğrudan herkes için en iyi çözüm ilan etmedi. Yine de yalnız rakamlara bakınca kaçırdığı ayrıntıları artık görebiliyordu. Sporun onun için taşıdığı anlam genişlemişti. Yarışma ve sonuç hâlâ vardı, fakat güvenli katılım, saygı ve ortak çaba da bu anlamın içindeydi. Son skor tahtası söküldüğünde takımın öğrendikleri kaybolmadı. Bir kâğıda yazılmış küçük notlar, sonraki oyunda nasıl davranmak istediklerini hatırlatmaya devam etti.\nElif değerlendirme notunu yeniden okurken bütün başlıkları bir puanda toplamak isteyip istemediğini düşündü. Tek sayı karşılaştırmayı kolaylaştırabilirdi, fakat farklı sorunları da örtebilirdi. Kerem iletişimdeki gelişmenin katılım sorununu otomatik çözmediğini söyledi. Bu nedenle başlıkları ayrı tutmaya karar verdiler. Bir sonraki oyunda yalnız seçtikleri değişikliğin etkisini izleyebileceklerdi. Öğretmen bu küçük planı uygun kurallar çerçevesinde kontrol etti. Her katılımcının görevini ve durmak istediğinde kime söyleyeceğini bilmesi de gözden geçirildi. Takım için hazırlık artık yalnız taktik konuşmak değildi. Ortak oyunun koşullarını açıklığa kavuşturmak da hazırlığın parçasıydı.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; internet veya ders kitabından alınmamıştır.",
+      "sorular": [
+        {
+          "id": "8-8-okuma-1-1",
+          "tip": "secim",
+          "soru": "“Skor Tahtasının Dışında” metnine göre: Elif ilk anda sonucu nasıl yorumlar?",
+          "secenekler": [
+            "Katılımı tek ölçüt alır",
+            "Skorun hiç önemi olmadığını söyler",
+            "Kaybı bütün emeğin boşa gitmesi sayar"
+          ],
+          "dogru": "Kaybı bütün emeğin boşa gitmesi sayar",
+          "aciklama": "İlk paragrafta yenilgi bütün çalışmayı değersiz hissettirir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-8-okuma-1-2",
+          "tip": "secim",
+          "soru": "“Skor Tahtasının Dışında” metnine göre: Kerem'in öne çıkardığı kazanım nedir?",
+          "secenekler": [
+            "Bütün kuralları değiştirmesi",
+            "Oyuna düzenli katılabilmesi",
+            "En çok sayıyı atması"
+          ],
+          "dogru": "Oyuna düzenli katılabilmesi",
+          "aciklama": "Kerem kendi deneyiminde katılım düzeninin değiştiğini görür.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-8-okuma-1-3",
+          "tip": "secim",
+          "soru": "“Skor Tahtasının Dışında” metnine göre: Değerlendirme hangi bilgileri istemez?",
+          "secenekler": [
+            "Özel sağlık bilgilerini",
+            "Çalışma biçimine ilişkin örnekleri",
+            "Kurala uyum gözlemlerini"
+          ],
+          "dogru": "Özel sağlık bilgilerini",
+          "aciklama": "Öğretmen kişisel sağlık alanını çalışma değerlendirmesinden ayırır.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-8-okuma-1-4",
+          "tip": "secim",
+          "soru": "“Skor Tahtasının Dışında” metnine göre: Hataların incelenmesi hangi durumda da gerekli olurdu?",
+          "secenekler": [
+            "Yalnız hakem gelmeseydi",
+            "Hiç oyun oynanmasaydı",
+            "Takım kazansaydı da"
+          ],
+          "dogru": "Takım kazansaydı da",
+          "aciklama": "Metin süreç sorunlarının yalnız yenilgiye bağlı olmadığını belirtir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-8-okuma-1-5",
+          "tip": "secim",
+          "soru": "“Skor Tahtasının Dışında” metnine göre: Yeni karar neyi hedefler?",
+          "secenekler": [
+            "Bir kişiyi sürekli dışarıda bırakmayı",
+            "Görev ve iletişim belirsizliğini azaltmayı",
+            "Bütün sonuçları önemsiz saymayı"
+          ],
+          "dogru": "Görev ve iletişim belirsizliğini azaltmayı",
+          "aciklama": "Görev işaretleri ve eksik bilgiye odaklanmak değiştirilebilir sürece yönelir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-8-okuma-1-6",
+          "tip": "secim",
+          "soru": "“Skor Tahtasının Dışında” metnine göre: Elif'in notu nasıl bir değerlendirmedir?",
+          "secenekler": [
+            "Güçlü ve geliştirilecek yönleri birlikte gösterir",
+            "Her şeyi kusursuz sayar",
+            "Yalnız skoru tekrar eder"
+          ],
+          "dogru": "Güçlü ve geliştirilecek yönleri birlikte gösterir",
+          "aciklama": "Üç süreç başlığında somut olumlu ve eksik örnekler vardır.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-8-okuma-1-7",
+          "tip": "secim",
+          "soru": "“Skor Tahtasının Dışında” metnine göre: Kendi yöntemlerini herkese tek çözüm ilan etmemeleri neyi gözetir?",
+          "secenekler": [
+            "Hiçbir deneyimin aktarılamayacağını",
+            "Yalnız tek bir takımın öğrenebileceğini",
+            "Takımların koşullarının farklılığını"
+          ],
+          "dogru": "Takımların koşullarının farklılığını",
+          "aciklama": "Yöntem başka bağlamda yeniden değerlendirilmelidir.",
+          "cikti": "T.8.3.13"
+        },
+        {
+          "id": "8-8-okuma-1-8",
+          "tip": "secim",
+          "soru": "“Skor Tahtasının Dışında” metnine göre: Ana düşünce hangisidir?",
+          "secenekler": [
+            "Kazanıldığında iletişim sorunu kalmaz",
+            "Sporda sonuçla birlikte güvenli katılım ve süreç de değerlendirilmelidir",
+            "Kaybetmek bütün emeği geçersiz kılar"
+          ],
+          "dogru": "Sporda sonuçla birlikte güvenli katılım ve süreç de değerlendirilmelidir",
+          "aciklama": "Öykü skoru silmeden daha kapsamlı başarı ölçütleri kurar.",
+          "cikti": "T.8.3.17"
+        }
+      ]
+    },
+    {
+      "id": "8-8-okuma-2",
+      "baslik": "Bir Etkinliği Değerlendirme Kartı",
+      "tur": "bilgilendirici",
+      "metin": "Bir okul spor etkinliğinin sonucu çoğu zaman skorla görünür olur. Oysa etkinliğin nasıl yürütüldüğü de ayrı sorular gerektirir. Katılım imkânı, kuralların açıklığı, güvenlik ve oyuncular arasındaki iletişim yalnız son rakamdan okunamaz. Bu nedenle bir değerlendirme kartı, sonucu sürece ilişkin gözlemlerle birlikte ele alabilir. Amaç herkes için tek bir performans standardı koymak değil, okulun uygun kuralları içinde çalışmayı nasıl geliştirebileceğini düşünmektir.\nKartın ilk bölümünde etkinliğin amacı açıkça yazılır. Yarışma, tanışma veya belirli bir oyun kuralını öğrenme farklı hedeflerdir. Aynı etkinlik birden fazla hedef taşıyabilir; fakat değerlendirmede hangi hedefin incelendiği bilinmelidir. Yalnız kazanma sayısına bakarak bütün amaçların gerçekleştiği söylenemez. Bir grup maçı kazanmış olsa bile kuralları anlamakta veya görevleri paylaşmakta zorlanmış olabilir. Tersine, kaybeden bir grup bazı süreç becerilerinde gelişme gösterebilir.\nİkinci bölümde gözlenebilir ölçütler bulunur. “Takım iyi miydi?” gibi geniş bir soru yerine, verilen işaretlerin anlaşılıp anlaşılmadığı veya sıra beklemenin nasıl yürüdüğü sorulabilir. Bir ölçüt seçildiğinde bunun hangi davranışla görüleceği de açıklanır. Böylece değerlendirme yalnız kişisel beğeniye dayanmaz. Yine de her ayrıntının bir sayıya çevrilmesi zorunlu değildir. Kısa bir olay örneği, bazı durumları toplam puandan daha iyi açıklayabilir.\nÜçüncü bölümde katılımcıların geri bildirimi yer alabilir. Ancak kimse sağlık durumunu, özel güçlüğünü veya kişisel deneyimini paylaşmaya zorlanmaz. İsteyen, yalnız etkinliğin düzeni hakkında konuşabilir. Uygun okul görevlileriyle görüşülmesi gereken bir ihtiyaç varsa bu, herkesin önündeki değerlendirmeden ayrı ele alınır. Katılımı düşünmek, kişileri etiketlemek veya karşılaştırma baskısı kurmak demek değildir. Güvenli ve saygılı süreç, çalışmanın temel koşuludur.\nDördüncü bölümde bir sonraki deneme için sınırlı bir öneri seçilir. Aynı anda bütün kuralları değiştirmek, neyin işe yaradığını görmeyi zorlaştırabilir. Örneğin görev dağılımındaki karışıklık için kısa bir açıklama provası yapılabilir. Sonraki etkinlikte aynı ölçüt yeniden incelenir. Böylece önerinin etkisi yalnız ilk heyecana göre değerlendirilmez. Bir değişiklik her koşulda aynı sonucu vermeyebilir; bağlamı ve sınırları not edilir.\nKartın dili de önemlidir. “Bu oyuncu hep dikkatsiz.” gibi bir etiket yerine, belirli bir anda hangi bilginin kaçırıldığı anlatılabilir. Sorumluluk ortadan kaldırılmaz; fakat kişinin bütün kimliği tek bir hataya indirgenmez. İyi giden davranış da aynı açıklıkla belirtilir. Bu yaklaşım, değerlendirmeyi yalnız hata listesi olmaktan çıkarır. Katılımcılar hangi özelliği koruyacaklarını ve hangisini geliştireceklerini görebilir. Sonuç kaydıyla süreç gözlemi birlikte saklandığında öğrenme daha izlenebilir hâle gelir. Etkinlik bittiğinde skor değişmese de sonraki kararlar değişebilir. Değerlendirme kartının değeri, uzun veya gösterişli olmasında değil, amaca uygun somut bir sonraki adımı mümkün kılmasındadır. Böylece spor günü yalnız kazanılan veya kaybedilen bir an değil, üzerinde düşünülerek geliştirilen ortak bir deneyim olur.\nDeğerlendirme kartının sonuna paylaşım kapsamı için kısa bir alan eklenebilir. Takımın genel kararlarıyla kişilerin kendi notları aynı biçimde yayımlanmak zorunda değildir. Ortak öğrenmeyi göstermek için özel bir yaşantıyı açık etmek gerekmez. Öğrenciler hangi bilgiyi öğretmenle, hangisini takım arkadaşlarıyla konuşacaklarını uygun süreçler içinde belirleyebilir. Kartın amacı insanları tek bir sıraya dizmek olmadığı için gereksiz kişisel ayrıntılar çıkarılır. Bir sonraki adım açık kalırsa kısa bir kayıt yeterli olabilir. Böylece belge tutma yükü etkinliğin kendisinin önüne geçmez. Kullanışlılık, açıklık ve saygılı paylaşım birlikte düşünülür; kart da kullanım deneyimine göre yeniden düzenlenebilir.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; internet veya ders kitabından alınmamıştır.",
+      "sorular": [
+        {
+          "id": "8-8-okuma-2-1",
+          "tip": "secim",
+          "soru": "“Bir Etkinliği Değerlendirme Kartı” metnine göre: Skor hangi bilgiyi tek başına vermez?",
+          "secenekler": [
+            "Kazanma sayısını",
+            "Etkinliğin süreçte nasıl yürüdüğünü",
+            "Maçın son rakamını"
+          ],
+          "dogru": "Etkinliğin süreçte nasıl yürüdüğünü",
+          "aciklama": "Katılım ve iletişim gibi ölçütler ayrıca gözlenmelidir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-8-okuma-2-2",
+          "tip": "secim",
+          "soru": "“Bir Etkinliği Değerlendirme Kartı” metnine göre: Amaç yazılması ne sağlar?",
+          "secenekler": [
+            "Hangi hedefe göre değerlendirme yapıldığını",
+            "Bütün hedeflerin kesin gerçekleştiğini",
+            "Kuralların gereksizleştiğini"
+          ],
+          "dogru": "Hangi hedefe göre değerlendirme yapıldığını",
+          "aciklama": "Aynı sonuç farklı hedefler bakımından farklı yorumlanabilir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-8-okuma-2-3",
+          "tip": "secim",
+          "soru": "“Bir Etkinliği Değerlendirme Kartı” metnine göre: Gözlenebilir ölçüte örnek hangisidir?",
+          "secenekler": [
+            "Takımın her bakımdan mükemmelliği",
+            "Oyuncunun değişmez kişiliği",
+            "İşaretlerin anlaşılıp anlaşılmaması"
+          ],
+          "dogru": "İşaretlerin anlaşılıp anlaşılmaması",
+          "aciklama": "Ölçüt somut davranışla ilişkilendirilmiştir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-8-okuma-2-4",
+          "tip": "secim",
+          "soru": "“Bir Etkinliği Değerlendirme Kartı” metnine göre: Her ayrıntı sayıya çevrilmeli midir?",
+          "secenekler": [
+            "Hayır, hiçbir kayıt tutulmamalıdır",
+            "Hayır, olay örneği de açıklayıcı olabilir",
+            "Evet, başka hiçbir bilgi kullanılmaz"
+          ],
+          "dogru": "Hayır, olay örneği de açıklayıcı olabilir",
+          "aciklama": "Metin nitel örneğin bazı durumları daha iyi anlatabileceğini belirtir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-8-okuma-2-5",
+          "tip": "secim",
+          "soru": "“Bir Etkinliği Değerlendirme Kartı” metnine göre: Geri bildirimde hangi sınır korunur?",
+          "secenekler": [
+            "Özel bilgi paylaşmaya zorlamamak",
+            "Bütün sağlık ayrıntılarını istemek",
+            "İhtiyaçları herkesin önünde sıralamak"
+          ],
+          "dogru": "Özel bilgi paylaşmaya zorlamamak",
+          "aciklama": "Katılımcı yalnız düzen hakkında da görüş sunabilir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-8-okuma-2-6",
+          "tip": "secim",
+          "soru": "“Bir Etkinliği Değerlendirme Kartı” metnine göre: Bir seferde sınırlı değişiklik seçmenin yararı nedir?",
+          "secenekler": [
+            "Sonucu önceden kesinleştirmek",
+            "Bütün kuralları kaldırmak",
+            "Etkisini daha açık izleyebilmek"
+          ],
+          "dogru": "Etkisini daha açık izleyebilmek",
+          "aciklama": "Çok sayıda eş zamanlı değişiklik hangi etkenin işe yaradığını belirsizleştirebilir.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-8-okuma-2-7",
+          "tip": "secim",
+          "soru": "“Bir Etkinliği Değerlendirme Kartı” metnine göre: Etiket yerine olay anlatmak ne sağlar?",
+          "secenekler": [
+            "Bütün hataları gizlemek",
+            "Kişiyi tek hataya indirgemeden sorumluluğu incelemek",
+            "Her sorumluluğu ortadan kaldırmak"
+          ],
+          "dogru": "Kişiyi tek hataya indirgemeden sorumluluğu incelemek",
+          "aciklama": "Somut davranış geliştirilebilir; genel kişilik etiketi bunu zorlaştırır.",
+          "cikti": "T.8.3.14"
+        },
+        {
+          "id": "8-8-okuma-2-8",
+          "tip": "secim",
+          "soru": "“Bir Etkinliği Değerlendirme Kartı” metnine göre: Ana düşünce hangisidir?",
+          "secenekler": [
+            "Etkinlik değerlendirmesi amaç, somut ölçüt ve uygulanabilir sonraki adımı birleştirmelidir",
+            "Skor bütün amaçların tek kanıtıdır",
+            "En uzun kart en iyi değerlendirmedir"
+          ],
+          "dogru": "Etkinlik değerlendirmesi amaç, somut ölçüt ve uygulanabilir sonraki adımı birleştirmelidir",
+          "aciklama": "Yazı amaca uygun süreç incelemesiyle gelişim kararı kurar.",
+          "cikti": "T.8.3.17"
+        }
+      ]
+    }
+  ],
+  "konular": [
+    {
+      "kod": "8-8-cumle-turleri-tekrar",
+      "ad": "Olumlu, olumsuz ve soru anlamı",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.8.4.19",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Cümlenin biçimi ile genel anlamı her zaman aynı yöne işaret etmeyebilir. Olumsuz eki olan bir yapı iki olumsuzlukla olumlu anlam kurabilir; retorik soru da yalnız bilgi istemeyebilir. Önce cümlede hangi yargının kurulduğunu ve bağlamda nasıl anlaşıldığını belirle. Soru işareti bulunan her cümleyi yalnız gerçek bilgi sorusu sayma.</p><ul><li>Takım kazandı.</li><li>Takım kazanmadı.</li><li>Bunu kim istemez? bağlama göre herkes ister.</li></ul>",
+      "ornekler": [
+        "Takım kazandı.",
+        "Takım kazanmadı.",
+        "Bunu kim istemez? bağlama göre herkes ister."
+      ],
+      "testler": [
+        {
+          "id": "8-8-cumle-turleri-tekrar-1",
+          "tip": "secim",
+          "soru": "“Takım kazandı.” cümlesi verilen bağlamda nasıl değerlendirilir?",
+          "secenekler": [
+            "Olumsuz bildirme",
+            "Soru",
+            "Olumlu bildirme"
+          ],
+          "dogru": "Olumlu bildirme",
+          "aciklama": "Kazanma eyleminin gerçekleştiği bildirilir.",
+          "cikti": "T.8.4.19"
+        },
+        {
+          "id": "8-8-cumle-turleri-tekrar-2",
+          "tip": "secim",
+          "soru": "“Takım kazanmadı.” cümlesi verilen bağlamda nasıl değerlendirilir?",
+          "secenekler": [
+            "Gerçek soru",
+            "Olumsuz bildirme",
+            "Olumlu bildirme"
+          ],
+          "dogru": "Olumsuz bildirme",
+          "aciklama": "Olumsuzluk eki eylemin gerçekleşmediğini bildirir.",
+          "cikti": "T.8.4.19"
+        },
+        {
+          "id": "8-8-cumle-turleri-tekrar-3",
+          "tip": "secim",
+          "soru": "“Takım kazandı mı?” cümlesi verilen bağlamda nasıl değerlendirilir?",
+          "secenekler": [
+            "Gerçek soru",
+            "Kesin olumlu bildirme",
+            "Kesin olumsuz bildirme"
+          ],
+          "dogru": "Gerçek soru",
+          "aciklama": "Eylemin gerçekleşip gerçekleşmediği sorulur.",
+          "cikti": "T.8.4.19"
+        },
+        {
+          "id": "8-8-cumle-turleri-tekrar-4",
+          "tip": "secim",
+          "soru": "“Katkısı yok değil.” cümlesi verilen bağlamda nasıl değerlendirilir?",
+          "secenekler": [
+            "Katkıyı kesin reddetme",
+            "Gerçek kişi sorusu",
+            "Olumlu anlam taşıyan çift olumsuzluk"
+          ],
+          "dogru": "Olumlu anlam taşıyan çift olumsuzluk",
+          "aciklama": "Yok değil ifadesi bir katkının bulunduğunu bildirir.",
+          "cikti": "T.8.4.19"
+        },
+        {
+          "id": "8-8-cumle-turleri-tekrar-5",
+          "tip": "secim",
+          "soru": "“Saygı görmek kim istemez!” cümlesi verilen bağlamda nasıl değerlendirilir?",
+          "secenekler": [
+            "Yalnız bir kişiyi belirleyen gerçek soru",
+            "Herkes ister anlamında retorik soru",
+            "Hiç kimse istemez anlamı"
+          ],
+          "dogru": "Herkes ister anlamında retorik soru",
+          "aciklama": "Bağlamda cevap beklemek yerine olumlu genelleme vurgulanır.",
+          "cikti": "T.8.4.19"
+        },
+        {
+          "id": "8-8-cumle-turleri-tekrar-6",
+          "tip": "secim",
+          "soru": "“Bu öneri kötü değil.” cümlesi verilen bağlamda nasıl değerlendirilir?",
+          "secenekler": [
+            "Olumsuz biçimle olumluya yakın değerlendirme",
+            "Önerinin kesin kötü olduğu",
+            "Yalnız zaman sorusu"
+          ],
+          "dogru": "Olumsuz biçimle olumluya yakın değerlendirme",
+          "aciklama": "Kötü olma yargısı reddedilir; genel değerlendirme olumsuz değildir.",
+          "cikti": "T.8.4.19"
+        },
+        {
+          "id": "8-8-cumle-turleri-tekrar-7",
+          "tip": "secim",
+          "soru": "“Hiçbir görev unutulmadı.” cümlesi verilen bağlamda nasıl değerlendirilir?",
+          "secenekler": [
+            "Unutmanın gerçekleştiği olumlu bildirme",
+            "Gerçek soru",
+            "Olumsuz bildirme"
+          ],
+          "dogru": "Olumsuz bildirme",
+          "aciklama": "Unutma eyleminin gerçekleşmediği bildirilir.",
+          "cikti": "T.8.4.19"
+        },
+        {
+          "id": "8-8-cumle-turleri-tekrar-8",
+          "tip": "secim",
+          "soru": "“Görev dağılımı açık mı?” cümlesi verilen bağlamda nasıl değerlendirilir?",
+          "secenekler": [
+            "Kesin olumsuz bildirme",
+            "Soru",
+            "Kesin olumlu bildirme"
+          ],
+          "dogru": "Soru",
+          "aciklama": "Mı eki açık olma durumunu sorgular.",
+          "cikti": "T.8.4.19"
+        },
+        {
+          "id": "8-8-cumle-turleri-tekrar-9",
+          "tip": "secim",
+          "soru": "“Gelmez olur mu hiç!” cümlesi verilen bağlamda nasıl değerlendirilir?",
+          "secenekler": [
+            "Bağlamda geleceğini vurgulayan retorik soru",
+            "Gelmeyeceğini kesin bildirme",
+            "Yalnız tarih öğrenme sorusu"
+          ],
+          "dogru": "Bağlamda geleceğini vurgulayan retorik soru",
+          "aciklama": "Bu kalıp olumsuz görünüş üzerinden güçlü olumlu beklenti kurar.",
+          "cikti": "T.8.4.19"
+        },
+        {
+          "id": "8-8-cumle-turleri-tekrar-10",
+          "tip": "secim",
+          "soru": "“İletişim her zaman kolay değildir.” cümlesi verilen bağlamda nasıl değerlendirilir?",
+          "secenekler": [
+            "Her zaman kolay olduğunu bildirme",
+            "Gerçek soru",
+            "Olumsuz bildirme"
+          ],
+          "dogru": "Olumsuz bildirme",
+          "aciklama": "Değildir sözü her zaman kolay olma yargısını reddeder.",
+          "cikti": "T.8.4.19"
+        }
+      ]
+    }
+  ],
+  "dinleme": [
+    {
+      "id": "8-8-dinleme",
+      "baslik": "Skor ve Süreç",
+      "metin": "Takım maçı kaybettiğinde her şeyin başarısız olduğunu düşündü. Son değerlendirmede katılım, iletişim ve kurala uyum başlıkları ayrı incelendi. Bazı görevlerin karıştığı, bazı kısa uyarıların ise işe yaradığı görüldü. Takım sonraki etkinlik için yalnız görev işaretlerini değiştirmeyi seçti. Böylece değişikliğin etkisini daha açık izleyebilecekti. Skor kaydı silinmedi, fakat bütün deneyimin tek ölçütü sayılmadı. Kişisel sağlık bilgisi istenmedi; değerlendirme ortak çalışma biçimine yöneldi.",
+      "tts": {
+        "dil": "tr-TR",
+        "sesYoksa": "metin"
+      },
+      "sorular": [
+        {
+          "id": "8-8-dinleme-1",
+          "tip": "secim",
+          "soru": "“Skor ve Süreç” dinleme metnine göre: Hangi üç süreç başlığı incelendi?",
+          "secenekler": [
+            "Fiyat, satış, indirim",
+            "Renk, boy, marka",
+            "Katılım, iletişim, kurala uyum"
+          ],
+          "dogru": "Katılım, iletişim, kurala uyum",
+          "aciklama": "Dinlenen olayın sırası ve açıklamaları “Katılım, iletişim, kurala uyum” cevabını destekler. Diğer seçeneklerdeki ayrıntılar metinde verilen bilgiyle uyuşmaz.",
+          "cikti": "T.8.1.4"
+        },
+        {
+          "id": "8-8-dinleme-2",
+          "tip": "secim",
+          "soru": "“Skor ve Süreç” dinleme metnine göre: Sonraki değişiklik neydi?",
+          "secenekler": [
+            "Oyuncuların kişisel bilgileri",
+            "Görev işaretleri",
+            "Bütün okul kuralları"
+          ],
+          "dogru": "Görev işaretleri",
+          "aciklama": "Dinlenen olayın sırası ve açıklamaları “Görev işaretleri” cevabını destekler. Diğer seçeneklerdeki ayrıntılar metinde verilen bilgiyle uyuşmaz.",
+          "cikti": "T.8.1.4"
+        },
+        {
+          "id": "8-8-dinleme-3",
+          "tip": "secim",
+          "soru": "“Skor ve Süreç” dinleme metnine göre: Skora nasıl yaklaşıldı?",
+          "secenekler": [
+            "Korundu ama tek ölçüt sayılmadı",
+            "Tamamen gizlendi",
+            "Her hedefin tek kanıtı sayıldı"
+          ],
+          "dogru": "Korundu ama tek ölçüt sayılmadı",
+          "aciklama": "Dinlenen olayın sırası ve açıklamaları “Korundu ama tek ölçüt sayılmadı” cevabını destekler. Diğer seçeneklerdeki ayrıntılar metinde verilen bilgiyle uyuşmaz.",
+          "cikti": "T.8.1.4"
+        },
+        {
+          "id": "8-8-dinleme-4",
+          "tip": "secim",
+          "soru": "“Skor ve Süreç” dinleme metnine göre: Ana düşünce hangisidir?",
+          "secenekler": [
+            "Kaybedilen her emek boştur",
+            "Kazanıldığında hiçbir sorun incelenmez",
+            "Sonuçla süreç birlikte değerlendirilmelidir"
+          ],
+          "dogru": "Sonuçla süreç birlikte değerlendirilmelidir",
+          "aciklama": "Dinlenen olayın sırası ve açıklamaları “Sonuçla süreç birlikte değerlendirilmelidir” cevabını destekler. Diğer seçeneklerdeki ayrıntılar metinde verilen bilgiyle uyuşmaz.",
+          "cikti": "T.8.1.4"
+        }
+      ]
+    }
+  ],
+  "yazmaGorevleri": [
+    {
+      "id": "8-8-yazma",
+      "baslik": "Etkinlik Değerlendirme",
+      "yonerge": "180–280 kelimede kurgusal okul etkinliğini sonuç ve süreç yönünden değerlendir. İki somut ölçüt, bir güçlü yön ve bir sonraki adım belirt. Özel sağlık bilgisi isteme. Cümle türlerini amacına uygun kullan.",
+      "minKelime": 180,
+      "maxKelime": 280,
+      "ciktilar": [
+        "T.8.4.2",
+        "T.8.4.16",
+        "T.8.4.19"
+      ],
+      "ogretmenDegerlendirmeli": true,
+      "rubrik": [
+        {
+          "olcut": "Amaç ve kapsam",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Gerekçe ve anlam bütünlüğü",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Dil yapıları ve söz varlığı",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Yazım, noktalama ve düzenleme",
+          "enDusuk": 0,
+          "enYuksek": 4
+        }
+      ]
+    }
+  ],
+  "lgsSorulari": [
+    {
+      "id": "8-8-lgs-1",
+      "tip": "secim",
+      "soru": "Ortak Oyun Günü için hazırlanan dört çalışma aşağıda verilmiştir.\netkinlik raporu A: 28 dakika; kaynak notu var; ses gereksinimi yok.\netkinlik raporu B: 31 dakika; kaynak notu var; ses gereksinimi yok.\netkinlik raporu C: 26 dakika; kaynak notu yok; ses gereksinimi yok.\netkinlik raporu D: 27 dakika; kaynak notu var; ses gereksinimi var.\nSeçilecek çalışmada kaynak notu bulunmalı, ses gerekmemeli ve süre 28 dakikayı aşmamalıdır. Üç koşulu birlikte sağlayan hangisidir?",
+      "secenekler": [
+        "etkinlik raporu C",
+        "etkinlik raporu D",
+        "etkinlik raporu A",
+        "etkinlik raporu B"
+      ],
+      "dogru": "etkinlik raporu A",
+      "aciklama": "etkinlik raporu A üç koşulu sağlar. B süreyi aşar, C kaynak notu içermez, D ses gerektirir.",
+      "cikti": "T.8.3.32"
+    },
+    {
+      "id": "8-8-lgs-2",
+      "tip": "secim",
+      "soru": "Ortak Oyun Günü programında dört işlem farklı sıralarda yapılacaktır: amaç belirleme, görev paylaşımı, oyun, değerlendirme. Amaç belirleme, görev paylaşımı işleminden önce yapılır. Oyun, görev paylaşımı işleminin hemen ardından gelir. Değerlendirme son işlemdir. Her işlem bir kez yapılacağına göre uygun sıra hangisidir?",
+      "secenekler": [
+        "amaç belirleme → görev paylaşımı → değerlendirme → oyun",
+        "amaç belirleme → görev paylaşımı → oyun → değerlendirme",
+        "görev paylaşımı → amaç belirleme → oyun → değerlendirme",
+        "amaç belirleme → oyun → görev paylaşımı → değerlendirme"
+      ],
+      "dogru": "amaç belirleme → görev paylaşımı → oyun → değerlendirme",
+      "aciklama": "değerlendirme sonda olmalıdır. görev paylaşımı ile oyun yan yana ve bu sırada bulunur; amaç belirleme da onlardan önce gelir.",
+      "cikti": "T.8.3.35"
+    },
+    {
+      "id": "8-8-lgs-3",
+      "tip": "secim",
+      "soru": "Ortak Oyun Günü sonrasında gönüllü 18 katılımcının tamamı etkinlik raporu çalışmasının anlaşılır olduğunu söyledi. Katılmayanlar ve cevap vermeyenler hakkında veri toplanmadı. Bu bilgiye dayanan, kapsamı aşmayan sonuç hangisidir?",
+      "secenekler": [
+        "Yanıt veren 18 kişi çalışmayı anlaşılır bulmuştur.",
+        "Okuldaki herkes çalışmayı anlaşılır bulmuştur.",
+        "Yanıt vermeyenlerin tamamı çalışmayı anlaşılmaz bulmuştur.",
+        "Bu yöntem her koşulda en başarılı yöntemdir."
+      ],
+      "dogru": "Yanıt veren 18 kişi çalışmayı anlaşılır bulmuştur.",
+      "aciklama": "Veri yalnız yanıt veren gönüllü grubu kapsar; diğer kişiler veya bütün yöntemler hakkında kesin sonuç vermez.",
+      "cikti": "T.8.3.21"
+    },
+    {
+      "id": "8-8-lgs-4",
+      "tip": "secim",
+      "soru": "Ortak Oyun Günü için iki görüş var. I: “Etkinlik raporu kısa olmalı; okuyucu temel bilgiyi hızla bulabilmeli.” II: “Etkinlik raporu gerektiğinde ayrıntı içermeli; okuyucunun önemli koşulları anlaması sağlanmalı.” Bu iki görüş hangi ilkede buluşur?",
+      "secenekler": [
+        "Her metin olabilecek en kısa biçime indirilmelidir.",
+        "Ayrıntılar bütün koşullarda kaldırılmalıdır.",
+        "Okuyucunun ön bilgisi hiçbir zaman dikkate alınmamalıdır.",
+        "İçerik, okuyucunun ihtiyacını karşılayacak biçimde düzenlenmelidir."
+      ],
+      "dogru": "İçerik, okuyucunun ihtiyacını karşılayacak biçimde düzenlenmelidir.",
+      "aciklama": "İlk görüş hıza, ikincisi koşullara dikkat çeker; ortak nokta okuyucunun bilgiyi uygun biçimde almasıdır.",
+      "cikti": "T.8.3.23"
+    },
+    {
+      "id": "8-8-lgs-5",
+      "tip": "secim",
+      "soru": "Aşağıdaki cümleler anlamlı bir paragraf oluşturacaktır.\nI. Ortak Oyun Günü grubu ilk taslağını hazırladı.\nII. Son değerlendirmede bu iki düzeltmenin etkisini birlikte inceledi.\nIII. Bu taslağı okuyanlar iki belirsiz nokta belirledi.\nIV. Grup, belirlenen noktaları açıklayan iki düzeltme yaptı.\nGönderimler ve işlem sırası gözetildiğinde doğru diziliş hangisidir?",
+      "secenekler": [
+        "I – II – III – IV",
+        "IV – III – I – II",
+        "I – III – IV – II",
+        "III – I – IV – II"
+      ],
+      "dogru": "I – III – IV – II",
+      "aciklama": "Bu taslak, ilk taslağa; belirlenen noktalar, okuyucu tespitine; bu iki düzeltme, yapılan değişikliklere gönderir.",
+      "cikti": "T.8.3.35"
+    },
+    {
+      "id": "8-8-lgs-6",
+      "tip": "secim",
+      "soru": "Ortak Oyun Günü için hazırlanan etkinlik raporu ilk denemede uzun bulundu. Grup bazı tekrarları çıkardı. ——— önemli bir koşulun da silindiğini görünce onu yeniden ekledi. Daha kısa bir metin elde etmek, her durumda daha doğru bir metin elde etmek değildi. Boşluğa, önceki adımın beklenen yararına karşı ortaya çıkan sınırlılığı belirtmek için hangisi getirilmelidir?",
+      "secenekler": [
+        "Başka bir deyişle",
+        "Ancak",
+        "Bu nedenle",
+        "Örneğin"
+      ],
+      "dogru": "Ancak",
+      "aciklama": "Kısaltma olumlu bir adım gibi görünürken koşul kaybı ters bir durum getirir; ancak bu karşıtlığı bağlar.",
+      "cikti": "T.8.3.10"
+    },
+    {
+      "id": "8-8-lgs-7",
+      "tip": "secim",
+      "soru": "Takım karşılaşmayı kaybettikten sonra bütün emeğin boşa gittiğini düşündü. Değerlendirmede katılım, iletişim ve kurala uyum için somut örnekler toplandı. Skor silinmedi; fakat tek ölçüt olmaktan çıkarıldı. Sonraki çalışma için belirsiz bir başarısızlık yargısı yerine değiştirilebilir bir davranış seçildi.\nBu parçada asıl vurgulanan düşünce hangisidir?",
+      "secenekler": [
+        "Bir değerlendirme, amaca uygun somut dayanaklarla gözden geçirilmelidir.",
+        "İlk izlenim her zaman yeterli ve kesindir.",
+        "Yeni bilgi ilk kararı hiçbir koşulda değiştirmemelidir.",
+        "Bütün durumlar tek bir ölçütle eksiksiz açıklanabilir."
+      ],
+      "dogru": "Bir değerlendirme, amaca uygun somut dayanaklarla gözden geçirilmelidir.",
+      "aciklama": "Parçada ilk yargı, yeni inceleme ve somut dayanaklarla düzeltilir; kapsamı geniş kesinlikler savunulmaz.",
+      "cikti": "T.8.3.17"
+    },
+    {
+      "id": "8-8-lgs-8",
+      "tip": "secim",
+      "soru": "Ortak Oyun Günü yönergesi şöyledir: Kaynak bilgisi eksik etkinlik raporu doğrudan geri bildirim aşamasına alınır; tamamlanmadan sunuma geçmez. Kaynak bilgisi tamam olanlar önce içerik kontrolünden geçer, uygun bulunursa sunulur. Kaynak bilgisi eksik bir çalışma için ilk uygun işlem hangisidir?",
+      "secenekler": [
+        "İçerik kontrolünü atlayıp sunmak",
+        "Eksikliği görünmez biçimde silmek",
+        "Kaynak eksik olsa da doğrudan uygun saymak",
+        "Eksik bilgi için geri bildirim vermek"
+      ],
+      "dogru": "Eksik bilgi için geri bildirim vermek",
+      "aciklama": "Yönergenin ilk koşulu eksik kaynak durumunu açıkça geri bildirime bağlar.",
+      "cikti": "T.8.3.35"
+    },
+    {
+      "id": "8-8-lgs-9",
+      "tip": "secim",
+      "soru": "Ortak Oyun Günü çalışmasında yalnız iki küçük grubun etkinlik raporu örnekleri incelendi. Bir grupta açıklama notu varken diğerinde yoktu. Açıklama notu olan örnekte katılımcılar daha az soru sordu. Bu sınırlı bulgu için kapsamı en doğru başlık hangisidir?",
+      "secenekler": [
+        "Bütün Öğrenciler Aynı Yöntemi Tercih Ediyor",
+        "Not Olmayan Her Çalışma Başarısızdır",
+        "İki Gruptaki Örneklerde Açıklama Notuyla Soru Sayısı Birlikte İncelendi",
+        "Açıklama Notları Bütün Soruları Sonsuza Dek Bitirdi"
+      ],
+      "dogru": "İki Gruptaki Örneklerde Açıklama Notuyla Soru Sayısı Birlikte İncelendi",
+      "aciklama": "Başlık iki grup ve gözlenen ilişki sınırını korur; evrensel veya nedensel kesinlik üretmez.",
+      "cikti": "T.8.3.19"
+    },
+    {
+      "id": "8-8-lgs-10",
+      "tip": "secim",
+      "soru": "Bir paragrafın konusu Ortak Oyun Günü kayıtlarının nasıl tutulduğudur. I: Tarih ve yöntem her kayda eklendi. II: Gözlenmeyen alanlar boş bırakılıp açıklandı. III: Etkinliğin afişi bence yılın en güzel afişiydi. IV: Yöntem değiştiğinde kayda not düşüldü. Konu bütünlüğünü bozan cümle hangisidir?",
+      "secenekler": [
+        "II",
+        "IV",
+        "III",
+        "I"
+      ],
+      "dogru": "III",
+      "aciklama": "Diğer cümleler kayıt yöntemini anlatır; III etkinlikle ilgili olsa da afişin kişisel beğeni değerine geçer.",
+      "cikti": "T.8.3.18"
+    },
+    {
+      "id": "8-8-lgs-11",
+      "tip": "secim",
+      "soru": "Ortak Oyun Günü değerlendirmesinde dört cümle yazılmıştır. Hangisi kişisel beğeni yerine kontrol edilebilir bir bilgi bildirir?",
+      "secenekler": [
+        "Seçilen örnekler herkes için kusursuzdu.",
+        "Dosyada 11 adet etkinlik raporu örneği bulunuyor.",
+        "Bu çalışma tartışmasız en etkileyici üründür.",
+        "Etkinliğin havası bütün diğerlerinden güzeldi."
+      ],
+      "dogru": "Dosyada 11 adet etkinlik raporu örneği bulunuyor.",
+      "aciklama": "Örnek sayısı sayılarak kontrol edilebilir; diğer sözler beğeni veya kapsamı belirsiz değer yargısı içerir.",
+      "cikti": "T.8.3.21"
+    },
+    {
+      "id": "8-8-lgs-12",
+      "tip": "secim",
+      "soru": "Ortak Oyun Günü sunumuna kabul edilmek için hem içerik onayı hem paylaşım izni gereklidir. Bir etkinlik raporu örneğinin içerik onayı aldığı biliniyor; paylaşım izni hakkında bilgi yoktur. Kesin olarak söylenebilecek yargı hangisidir?",
+      "secenekler": [
+        "Sunuma kabul edildiği henüz kesinleştirilemez.",
+        "Kesinlikle sunuma kabul edilmiştir.",
+        "Kesinlikle paylaşım izni reddedilmiştir.",
+        "İçerik onayı almadığı kanıtlanmıştır."
+      ],
+      "dogru": "Sunuma kabul edildiği henüz kesinleştirilemez.",
+      "aciklama": "İki gerekli koşuldan yalnız biri bilinmektedir. İzin bilgisi yokluğu ne kabulü ne de reddi kanıtlar.",
+      "cikti": "T.8.3.25"
+    },
+    {
+      "id": "8-8-lgs-13",
+      "tip": "secim",
+      "soru": "Ortak Oyun Günü kayıt tablosu: toplam çalışma / eksik alan sayısı\nI: 20 / 3\nII: 24 / 1\nIII: 22 / 0\nIV: 26 / 2\nEn az 22 çalışma içeren ve eksik alanı olmayan dosya hangisidir?",
+      "secenekler": [
+        "I",
+        "II",
+        "IV",
+        "III"
+      ],
+      "dogru": "III",
+      "aciklama": "III alt miktar sınırını sağlar ve eksik alanı sıfırdır. II ve IV miktarı sağlasa da eksikleri vardır; I alt sınırın altındadır.",
+      "cikti": "T.8.3.32"
+    },
+    {
+      "id": "8-8-lgs-14",
+      "tip": "secim",
+      "soru": "Ortak Oyun Günü duyurusunda “Yalnız onaylı etkinlik raporu örnekleri listede gösterilir.” yazıyor. Bu kurala göre hangi yorum doğrudur?",
+      "secenekler": [
+        "Listede görünen her örnek onaysızdır.",
+        "Onaysız örnekler mutlaka listede yer alır.",
+        "Listede gösterilmeyen bir örnek yine de onaylı olabilir.",
+        "Onaylı olan her örnek mutlaka gösterilmiştir."
+      ],
+      "dogru": "Listede gösterilmeyen bir örnek yine de onaylı olabilir.",
+      "aciklama": "Kural gösterilenlerin onaylı olmasını ister; onaylananların tamamının gösterileceğini söylemez.",
+      "cikti": "T.8.3.25"
+    },
+    {
+      "id": "8-8-lgs-15",
+      "tip": "secim",
+      "soru": "Ortak Oyun Günü için araştırma yapan öğrenci aynı etkinlik raporu bilgisini üç ayrı sayfada bulur. İkinci ve üçüncü sayfanın birinci sayfayı aynen aktardığını görür. Bu üç sayfanın aynı bilgiyi vermesi nasıl değerlendirilmelidir?",
+      "secenekler": [
+        "Üç sayfa mutlaka üç ayrı deney raporudur.",
+        "Birbirinden bağımsız üç doğrulama sayılmaz.",
+        "Bilgi üç kez yazıldığı için kesin kanıtlanmıştır.",
+        "Kaynağı incelemeye artık gerek yoktur."
+      ],
+      "dogru": "Birbirinden bağımsız üç doğrulama sayılmaz.",
+      "aciklama": "Kopyalanan bilgi ayrı bağımsız dayanak oluşturmaz; ilk kaynağın ve ek kanıtların niteliği incelenmelidir.",
+      "cikti": "T.8.3.31"
+    },
+    {
+      "id": "8-8-lgs-16",
+      "tip": "secim",
+      "soru": "Ortak Oyun Günü kuralı: “Etkinlik raporu dosyası, kaynak bilgisi tamamlanmışsa ve öğretmen uygun bulmuşsa cuma günü paylaşılacaktır.” Bu cümlenin anlamını koruyan özet hangisidir?",
+      "secenekler": [
+        "Paylaşım cuma günü, iki koşul da sağlanırsa yapılacak.",
+        "Dosya cuma günü her durumda paylaşılacak.",
+        "Öğretmen uygun bulursa kaynak bilgisine gerek kalmayacak.",
+        "Kaynak tamamlanınca gün gözetmeden otomatik paylaşılacak."
+      ],
+      "dogru": "Paylaşım cuma günü, iki koşul da sağlanırsa yapılacak.",
+      "aciklama": "Doğru özet zaman bilgisini ve iki koşulun birlikte gerekli oluşunu korur.",
+      "cikti": "T.8.3.13"
+    },
+    {
+      "id": "8-8-lgs-17",
+      "tip": "secim",
+      "soru": "Ortak Oyun Günü raporunda “Bazı etkinlik raporu örnekleri henüz incelenmedi.” deniyor. Bu cümleden hangi sonuç çıkarılabilir?",
+      "secenekler": [
+        "Bütün örnekler kesinlikle incelenmiştir.",
+        "Hiçbir örnek gelecekte incelenmeyecektir.",
+        "İncelenen bütün örnekler başarısızdır.",
+        "En az bir örneğin incelemesi tamamlanmamıştır."
+      ],
+      "dogru": "En az bir örneğin incelemesi tamamlanmamıştır.",
+      "aciklama": "Bazı sözü en az bir durumu bildirir; henüz ise gelecekte inceleme ihtimalini kapatmaz.",
+      "cikti": "T.8.3.25"
+    },
+    {
+      "id": "8-8-lgs-18",
+      "tip": "secim",
+      "soru": "Ortak Oyun Günü dosyasında dört grubun tamamladığı etkinlik raporu sayıları A:14, B:20, C:17, D:11 olarak verilmiştir. En yüksekten en düşüğe doğru sıralamayı gösteren grafik etiketleri hangisidir?",
+      "secenekler": [
+        "D – A – C – B",
+        "C – B – A – D",
+        "B – C – A – D",
+        "B – A – C – D"
+      ],
+      "dogru": "B – C – A – D",
+      "aciklama": "B en yüksek, ardından C ve A, son olarak D gelir. Sıralama tabloda verilen büyüklüklerden okunur.",
+      "cikti": "T.8.3.32"
+    },
+    {
+      "id": "8-8-lgs-19",
+      "tip": "secim",
+      "soru": "Ortak Oyun Günü üzerine bir yazıda “Etkinlik raporu, hazırlayanla okuyan arasında bir köprü kurdu; daha önce görünmeyen düşünceler konuşulabilir oldu.” deniyor. Köprü kurmak sözü burada anlatıma ne katar?",
+      "secenekler": [
+        "İki kişinin her konuda aynı düşündüğünü kesinleştirir.",
+        "İletişim ve bağlantı sağlandığını mecazla anlatır.",
+        "Gerçek bir inşaatın tamamlandığını kanıtlar.",
+        "Bir yolun uzunluğunu sayıyla gösterir."
+      ],
+      "dogru": "İletişim ve bağlantı sağlandığını mecazla anlatır.",
+      "aciklama": "Köprü somut geçiş yapısından hareketle düşünceler arasında iletişim kurulmasını anlatır; tam uzlaşma iddiası içermez.",
+      "cikti": "T.8.3.5"
+    },
+    {
+      "id": "8-8-lgs-20",
+      "tip": "secim",
+      "soru": "Ortak Oyun Günü için basılı duyuru “Salı, saat 14.00, okul salonu; ön kayıt gerekli.” diyor. Sesli duyuru ise “Salı okul salonunda buluşuyoruz; ön kayıt yaptırmayı unutmayın.” biçimindedir. İki duyuru karşılaştırıldığında sesli duyuruda hangi bilginin eksik olduğu görülür?",
+      "secenekler": [
+        "Ön kayıt koşulu",
+        "Başlama saati",
+        "Gün",
+        "Yer"
+      ],
+      "dogru": "Başlama saati",
+      "aciklama": "Gün, yer ve kayıt iki duyuruda da vardır; 14.00 bilgisi yalnız basılı duyuruda bulunur.",
+      "cikti": "T.8.3.23"
+    }
+  ]
+}

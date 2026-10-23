@@ -1,0 +1,156 @@
+{
+  "sinif": 8,
+  "temalar": [
+    {
+      "tema": 1,
+      "ad": "Okuma Kültürü",
+      "kelime": 30,
+      "okumaKelimeSayilari": [
+        479,
+        491
+      ],
+      "konu": 3,
+      "soru": 70,
+      "lgs": 20,
+      "mantikKontrolleri": {
+        "ucKosulluTablo": true,
+        "tumSiralamalarTekCozum": true,
+        "ikiOlcutluTablo": true,
+        "grafikEtiketSirasi": true
+      }
+    },
+    {
+      "tema": 2,
+      "ad": "Millî Mücadele ve Atatürk",
+      "kelime": 30,
+      "okumaKelimeSayilari": [
+        451,
+        473
+      ],
+      "konu": 2,
+      "soru": 60,
+      "lgs": 20,
+      "mantikKontrolleri": {
+        "ucKosulluTablo": true,
+        "tumSiralamalarTekCozum": true,
+        "ikiOlcutluTablo": true,
+        "grafikEtiketSirasi": true
+      }
+    },
+    {
+      "tema": 3,
+      "ad": "Erdemler",
+      "kelime": 30,
+      "okumaKelimeSayilari": [
+        478,
+        472
+      ],
+      "konu": 2,
+      "soru": 60,
+      "lgs": 20,
+      "mantikKontrolleri": {
+        "ucKosulluTablo": true,
+        "tumSiralamalarTekCozum": true,
+        "ikiOlcutluTablo": true,
+        "grafikEtiketSirasi": true
+      }
+    },
+    {
+      "tema": 4,
+      "ad": "Millî Kültürümüz",
+      "kelime": 30,
+      "okumaKelimeSayilari": [
+        474,
+        467
+      ],
+      "konu": 2,
+      "soru": 60,
+      "lgs": 20,
+      "mantikKontrolleri": {
+        "ucKosulluTablo": true,
+        "tumSiralamalarTekCozum": true,
+        "ikiOlcutluTablo": true,
+        "grafikEtiketSirasi": true
+      }
+    },
+    {
+      "tema": 5,
+      "ad": "Bilim ve Teknoloji",
+      "kelime": 30,
+      "okumaKelimeSayilari": [
+        468,
+        480
+      ],
+      "konu": 2,
+      "soru": 60,
+      "lgs": 20,
+      "mantikKontrolleri": {
+        "ucKosulluTablo": true,
+        "tumSiralamalarTekCozum": true,
+        "ikiOlcutluTablo": true,
+        "grafikEtiketSirasi": true
+      }
+    },
+    {
+      "tema": 6,
+      "ad": "Duygular",
+      "kelime": 30,
+      "okumaKelimeSayilari": [
+        467,
+        472
+      ],
+      "konu": 1,
+      "soru": 50,
+      "lgs": 20,
+      "mantikKontrolleri": {
+        "ucKosulluTablo": true,
+        "tumSiralamalarTekCozum": true,
+        "ikiOlcutluTablo": true,
+        "grafikEtiketSirasi": true
+      }
+    },
+    {
+      "tema": 7,
+      "ad": "Doğa ve Evren",
+      "kelime": 30,
+      "okumaKelimeSayilari": [
+        469,
+        473
+      ],
+      "konu": 1,
+      "soru": 50,
+      "lgs": 20,
+      "mantikKontrolleri": {
+        "ucKosulluTablo": true,
+        "tumSiralamalarTekCozum": true,
+        "ikiOlcutluTablo": true,
+        "grafikEtiketSirasi": true
+      }
+    },
+    {
+      "tema": 8,
+      "ad": "Sağlık ve Spor",
+      "kelime": 30,
+      "okumaKelimeSayilari": [
+        465,
+        482
+      ],
+      "konu": 1,
+      "soru": 50,
+      "lgs": 20,
+      "mantikKontrolleri": {
+        "ucKosulluTablo": true,
+        "tumSiralamalarTekCozum": true,
+        "ikiOlcutluTablo": true,
+        "grafikEtiketSirasi": true
+      }
+    }
+  ],
+  "lgsDogruSecenekDagilimi": {
+    "2": 40,
+    "1": 40,
+    "4": 40,
+    "3": 40
+  },
+  "aciklama": "Her temadaki dört tablo/sıralama sorusu, üretilmiş JSON metninden bağımsız okunup yeniden çözüldü: 32 kontrol. Diğer soru türleri için bu rapor tek başına pedagojik inceleme yerine geçmez."
+}
