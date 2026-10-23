@@ -4,14 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Öğretmen Çocuk | 5. Sınıf Türkçe</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=mobile-first-20261023" /><link rel="stylesheet" href="mobile-parkur.css?v=mobile-first-20261023" />
 </head>
 <body>
   <div id="app">
     <header class="topbar">
       <div class="brand">
-        <div class="brand-mark">Ö</div>
-        <div class="brand-text"><span>Öğretmen</span><strong>Çocuk</strong></div>
+        <img class="papi-brand" src="assets/papi-logo.webp" alt="Papi papağan maskotu" />
+        <div class="brand-text"><span>Diji-Medu</span><strong> Türkçe</strong></div>
       </div>
       <nav class="tabs">
         <button class="tab active" data-view="parkurView">Parkur</button>
@@ -25,13 +25,10 @@
 
     <main>
       <section id="parkurView" class="view active">
-        <div class="adventure-head">
-          <div><span class="adventure-eyebrow">5. Sınıf • 1. Tema</span><h1>Oyun Dünyası <span aria-hidden="true">✨</span></h1><p>Altı bölgede Türkçenin farklı becerilerini keşfet.</p></div>
-          <button id="continueJourney" class="adventure-continue">Macera Başlasın <span aria-hidden="true">→</span></button>
-        </div>
-        <div id="mapCanvas" class="adventure-map" aria-label="Altı bölge ve 24 gerçek tıklanabilir durak"></div>
-        <div class="adventure-footer"><span id="adventureProgress" aria-live="polite"></span><button id="showAchievements" type="button">İlerlemem</button></div>
-        <p class="map-help">İlerleme bu cihazda saklanır. Sıradaki renkli durağa dokunarak etkinliğe başlayabilirsin.</p>
+        <div class="mobile-parkur-title"><div><span>5. Sınıf Türkçe</span><h1>1. Tema: Oyun Dünyası</h1></div><img src="assets/theme-objects.webp" alt="Oyun kumandası ve açık kitap" /></div>
+        <div id="mapCanvas" class="adventure-map" aria-label="Altı bölge ve 24 ayrı tıklanabilir durak"></div>
+        <div class="adventure-footer"><span id="adventureProgress" aria-live="polite">0 / 24</span><button id="showAchievements" type="button">🎯 Tema hedefleri</button><button id="continueJourney" type="button" class="adventure-continue">▶ Başla</button></div>
+        <p class="map-help">Duraklar sırayla açılır. İlerlemen bu cihazda saklanır.</p>
       </section>
 
       <section id="gamesView" class="view">

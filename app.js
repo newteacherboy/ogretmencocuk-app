@@ -31,41 +31,33 @@ function getNextUnlockedStopId(){
 
 function renderMap(){
   const map=document.getElementById('mapCanvas');
-  if(!map) return;
+  if(!map)return;
   map.replaceChildren();
-  const regionScenes=[
-    {symbol:'🚪',landscape:'🏡 🌳',skill:'Görsel okuma ve tahmin',tone:'blue'},
-    {symbol:'🌳',landscape:'🍄 🌲',skill:'Sözcükleri keşfet',tone:'green'},
-    {symbol:'📖',landscape:'🏝️ 📚',skill:'Okuduğunu anla',tone:'orange'},
-    {symbol:'🎭',landscape:'🏰 🎵',skill:'Dinle ve kendini ifade et',tone:'pink'},
-    {symbol:'✏️',landscape:'📝 🏡',skill:'Cümle, yazım ve noktalama',tone:'teal'},
-    {symbol:'🏆',landscape:'🎡 🎪',skill:'Kendi oyununu tasarla',tone:'purple'}
-  ];
   zones.forEach((zone,zIndex)=>{
-    const scene=regionScenes[zIndex];
     const region=document.createElement('section');
-    region.className=`adventure-region tone-${scene.tone}`;
+    region.className=`mobile-region zone-${zIndex+1}`;
     region.setAttribute('aria-label',`${zone.id}. Bölge: ${zone.title}`);
-    region.innerHTML=`<div class="region-landscape" aria-hidden="true"><span class="landscape-item">${scene.landscape}</span><span class="landscape-symbol">${scene.symbol}</span></div><div class="region-content"><div class="region-heading"><span class="region-count">${zone.id}. Bölge</span><h2>${zone.title}</h2><p>${scene.skill}</p></div><div class="region-stations"></div></div>`;
-    const nodeList=region.querySelector('.region-stations');
+    const text=document.createElement('div');text.className='mobile-region-label';
+    const number=document.createElement('span');number.className='region-index';number.textContent=`${zone.id}. Bölge`;
+    const title=document.createElement('h2');title.textContent=zone.id===1?'Okuma Yolculuğu':zone.title;
+    text.append(number,title);
+    const art=document.createElement('img');art.className='region-art';art.src=`assets/region-${zone.id}.webp`;art.alt='';art.loading='eager';
+    const nodes=document.createElement('div');nodes.className='mobile-region-nodes';
     for(let i=1;i<=4;i++){
-      const id=zIndex*4+i;
-      const stop=stops.find(s=>s.id===id);
-      const unlocked=id===1 || state.completed.includes(id) || state.completed.includes(id-1);
-      const complete=state.completed.includes(id);
-      const button=document.createElement('button');
-      button.type='button';
-      button.className=`adventure-station ${complete?'is-complete':unlocked?'is-current':'is-locked'}`;
-      button.disabled=!unlocked;
-      button.setAttribute('aria-label',`${id}. durak: ${stop.title}. ${complete?'Tamamlandı':unlocked?'Başlamaya hazır':'Kilitli'}`);
-      button.innerHTML=`<span class="station-number">${id}</span><span class="station-status" aria-hidden="true">${complete?'✓':unlocked?'▶':'🔒'}</span>`;
+      const id=zIndex*4+i;const stop=stops.find(s=>s.id===id);
+      const done=state.completed.includes(id);
+      const unlocked=id===1||done||state.completed.includes(id-1);
+      const button=document.createElement('button');button.type='button';
+      button.className=`mobile-node ${done?'complete':unlocked?'available':'locked'}`;
+      button.textContent=String(id);button.disabled=!unlocked;
+      button.setAttribute('aria-label',`${id}. durak, ${stop.title}, ${done?'tamamlandı':unlocked?'açık':'kilitli'}`);
       if(unlocked)button.addEventListener('click',()=>openStopIntro(id));
-      nodeList.appendChild(button);
+      nodes.appendChild(button);
     }
-    map.appendChild(region);
+    region.append(art,text,nodes);map.appendChild(region);
   });
   const counter=document.getElementById('adventureProgress');
-  if(counter)counter.textContent=`${state.completed.length} / 24 durak tamamlandı`;
+  if(counter)counter.textContent=`${state.completed.length} / 24 durak`;
 }
 
 function showMapMessage(message){

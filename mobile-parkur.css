@@ -1,0 +1,60 @@
+/* Approved clean strip layout - independent buttons, no image hotspots */
+:root{--appInk:#163671;--appOrange:#ff8c2b}
+#app{max-width:1050px}
+body:has(#parkurView.active){background:#f3faff}
+body:has(#parkurView.active) .topbar{display:flex;position:relative;top:auto;min-height:64px;border-radius:20px}
+.papi-brand{width:52px;height:45px;object-fit:contain;object-position:50% 50%}
+.brand-text{font-size:clamp(18px,2.6vw,27px);white-space:nowrap}
+.brand-text span{font-weight:850}
+.brand-text strong{color:#157cdb}
+#parkurView{display:none}
+#parkurView.active{display:flex;flex-direction:column;gap:10px}
+.mobile-parkur-title{flex:0 0 auto;min-height:88px;display:flex;align-items:center;justify-content:space-between;gap:10px;background:linear-gradient(115deg,#fffaf2,#fffefa);border-radius:22px;border:1px solid #f6e5d0;padding:10px 16px;box-shadow:0 5px 16px #526b8e16}
+.mobile-parkur-title span{font-size:clamp(20px,3.2vw,32px);font-weight:900;color:var(--appInk)}
+.mobile-parkur-title h1{margin:3px 0 0;color:#ed6a2c;font-size:clamp(16px,2.6vw,25px);line-height:1.1}
+.mobile-parkur-title img{width:180px;max-height:77px;object-fit:contain}
+#parkurView .adventure-map{flex:1;min-height:0;display:grid;grid-template-columns:1fr;grid-template-rows:repeat(6,minmax(0,1fr));gap:8px;overflow:hidden}
+.mobile-region{--tone:#ff8b63;--bg:#fff0e7;position:relative;min-height:0;display:flex;align-items:center;gap:16px;overflow:hidden;border:1px solid #fff;border-radius:18px;padding:6px 15px;background:var(--bg);isolation:isolate}
+.mobile-region.zone-2{--tone:#44bb92;--bg:#e9faf1}.mobile-region.zone-3{--tone:#f6b931;--bg:#fff6d9}.mobile-region.zone-4{--tone:#439bff;--bg:#e8f5ff}.mobile-region.zone-5{--tone:#b16ce8;--bg:#f6eaff}.mobile-region.zone-6{--tone:#fa6a88;--bg:#ffeaf0}
+.mobile-region-label{position:relative;z-index:1;flex:0 0 33%;display:flex;align-items:center;gap:11px;min-width:0}
+.region-index{flex:none;display:grid;place-items:center;padding:6px;border-radius:14px;background:var(--tone);color:white;font-size:14px;font-weight:900;min-width:60px;min-height:42px;text-align:center}
+.mobile-region-label h2{color:var(--appInk);font-size:clamp(15px,2.3vw,23px);line-height:1.12;margin:0;overflow-wrap:anywhere}
+.region-art{position:absolute;inset:auto 0 0 auto;height:100%;width:33%;object-fit:contain;object-position:right bottom;pointer-events:none;opacity:.96;z-index:0}
+.mobile-region-nodes{display:flex;gap:clamp(4px,.9vw,12px);position:relative;z-index:2;flex:1;align-items:center;justify-content:flex-start;margin-right:15%}
+.mobile-node{width:clamp(34px,4.5vw,52px);height:clamp(34px,4.5vw,52px);min-width:34px;min-height:34px;border:3px solid white;border-radius:50%;display:grid;place-items:center;background:#e7edf4;color:#46546d;font-weight:900;font-size:clamp(14px,2.3vw,20px);box-shadow:0 3px 0 #aabbd0,0 3px 9px #26446b21;position:relative;flex-shrink:0}
+.mobile-node:not(:last-child):after{content:'';position:absolute;left:calc(100% + 3px);top:50%;height:3px;width:clamp(4px,.9vw,12px);background:#b4bbc8;pointer-events:none}
+.mobile-node.available{background:#287eff;color:white;cursor:pointer;box-shadow:0 3px 0 #1356a1,0 0 0 2px #b2d6ff}
+.mobile-node.complete{background:#31b876;color:white;cursor:pointer}.mobile-node.locked{cursor:not-allowed;opacity:.82}
+.mobile-node:focus-visible{outline:3px solid #153de4;outline-offset:3px}
+#parkurView .adventure-footer{flex:0 0 auto;margin:0;padding:9px 13px;background:white;min-height:50px;border:1px solid #e1edfa;box-shadow:0 2px 10px #24447114}
+#parkurView .adventure-footer button{min-height:36px}
+#parkurView .adventure-continue{min-height:36px;padding:7px 15px;box-shadow:none;background:linear-gradient(180deg,#ffae40,#fb7724)}
+#parkurView .map-help{display:none}
+/* On phones, the whole parkour (header, six regions, footer) fits viewport. */
+@media(max-width:700px){
+html,body{overflow-x:hidden}body:has(#parkurView.active){overflow:hidden}
+#app:has(#parkurView.active){height:100dvh;min-height:0;display:flex;flex-direction:column;padding:5px 7px;max-width:none}
+#app:has(#parkurView.active) .topbar{flex:0 0 auto;min-height:49px;padding:4px 7px;gap:4px;border-radius:13px;flex-wrap:nowrap}
+#app:has(#parkurView.active) main{min-height:0;flex:1;display:flex;flex-direction:column}
+#parkurView.active{height:100%;min-height:0;gap:5px}
+.papi-brand{width:29px;height:31px}.brand{gap:3px}.brand-text{font-size:14px;line-height:1.02;white-space:normal;max-width:98px}
+.tabs{order:0!important;width:auto!important;gap:2px;flex:1;justify-content:flex-end}
+.tab{font-size:10px!important;padding:7px 5px!important;border-radius:9px!important;min-height:30px}
+.topbar-right{display:none}
+.mobile-parkur-title{min-height:58px;padding:5px 10px;border-radius:12px}.mobile-parkur-title span{font-size:17px}.mobile-parkur-title h1{font-size:14px}.mobile-parkur-title img{width:104px;max-height:53px}
+#parkurView .adventure-map{gap:4px}
+.mobile-region{border-radius:12px;padding:4px 7px;gap:5px}
+.mobile-region-label{flex:0 0 33%;display:block}.region-index{display:none}.mobile-region-label h2{font-size:clamp(11px,3.2vw,15px);line-height:1.09}
+.mobile-region-label h2:before{content:attr(data-zone);display:block}
+.mobile-region-nodes{margin-right:0;justify-content:flex-start;gap:3px}
+.mobile-node{width:clamp(29px,8vw,38px);height:clamp(29px,8vw,38px);min-width:29px;min-height:29px;border-width:2px;font-size:clamp(12px,3.4vw,16px)}
+.mobile-node:not(:last-child):after{width:3px;left:calc(100% + 1px)}
+.region-art{width:30%;opacity:.63}
+#parkurView .adventure-footer{min-height:43px;padding:5px 7px;gap:5px;font-size:11px;border-radius:12px}
+#parkurView .adventure-footer button{min-height:32px;font-size:11px;padding:5px 8px;border-radius:9px}
+#parkurView .adventure-continue{font-size:11px;padding:5px 8px}
+}
+@media(max-width:375px){.brand-text{font-size:12px;max-width:80px}.mobile-region-label{flex-basis:32%}.region-art{width:28%}.mobile-node{width:28px;height:28px;min-width:28px;min-height:28px}.tab{font-size:9px!important}}
+@media(max-height:590px) and (max-width:700px){.mobile-parkur-title{min-height:42px}.mobile-parkur-title img{max-height:34px}.mobile-parkur-title span{font-size:15px}#app:has(#parkurView.active) .topbar{min-height:43px}.mobile-node{width:28px;height:28px;min-height:28px;min-width:28px}}
+@media(min-width:701px){#app:has(#parkurView.active){max-width:1050px}#parkurView .adventure-map{min-height:670px}.mobile-region{min-height:95px}}
+@media(prefers-reduced-motion:reduce){.mobile-node{transition:none}}
