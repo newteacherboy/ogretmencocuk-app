@@ -3,8 +3,8 @@
 "use strict";
 const KEY="ogretmencocuk_practice_economy_v1",TIMEZONE="Europe/Istanbul";
 const today=()=>new Intl.DateTimeFormat("en-CA",{timeZone:TIMEZONE,year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date());
-const initial=()=>({day:today(),used:0,xp:0,gold:0,awarded:[]});
-function load(){try{const s=JSON.parse(localStorage.getItem(KEY)||"null");if(!s||typeof s!=="object")return initial();return {day:String(s.day||today()),used:Math.max(0,Math.min(30,Number(s.used)||0)),xp:Math.max(0,Number(s.xp)||0),gold:Math.max(0,Number(s.gold)||0),awarded:Array.isArray(s.awarded)?s.awarded.filter(x=>typeof x==="number"):[]}}catch{return initial()}}
+const initial=()=>({day:today(),used:0,xp:0,gold:0,awarded:[],games:[]});
+function load(){try{const s=JSON.parse(localStorage.getItem(KEY)||"null");if(!s||typeof s!=="object")return initial();return {day:String(s.day||today()),used:Math.max(0,Math.min(30,Number(s.used)||0)),xp:Math.max(0,Number(s.xp)||0),gold:Math.max(0,Number(s.gold)||0),awarded:Array.isArray(s.awarded)?s.awarded.filter(x=>typeof x==="number"):[],games:Array.isArray(s.games)?s.games:[]}}catch{return initial()}}
 let data=load();
 function persist(){try{localStorage.setItem(KEY,JSON.stringify(data))}catch{}window.dispatchEvent(new CustomEvent("practice-rewards-changed"))}
 function snapshot(){if(data.day!==today()){data.day=today();data.used=0;persist()}return {energy:30-data.used,xp:data.xp,gold:data.gold,level:level(data.xp)}}
@@ -18,6 +18,20 @@ function nextLevelCost(currentLevel){
 }
 function level(xp){let n=1,remaining=Math.max(0,xp);while(n<40){const requirement=nextLevelCost(n);if(remaining<requirement)break;remaining-=requirement;n++}return n}
 function spend(){if(snapshot().energy<1)return false;data.used++;persist();return true}
+function awardGame(gameId,correct,wrong,elapsed,total){
+ // Max one reward per game each day; prevents infinite XP from replaying the same game.
+ snapshot();
+ const key=data.day+":"+String(gameId);
+ if(data.games.includes(key))return {xp:0,gold:0,repeat:true};
+ const accuracy=total?Math.max(0,Math.min(1,correct/total)):0;
+ const speed=Math.max(.4,Math.min(1,1-Math.max(0,elapsed-75000)/480000));
+ const penalty=Math.max(.4,1-Math.max(0,wrong)*.08);
+ const factor=accuracy*speed*penalty;
+ const xp=Math.min(70,Math.round(70*factor)),gold=Math.min(30,Math.round(30*factor));
+ data.xp+=xp;data.gold+=gold;data.games.push(key);persist();
+ return {xp,gold,repeat:false};
+}
+function spendGame(){if(snapshot().energy<3)return false;data.used+=3;persist();return true}
 function award(stop,correct,wrong,elapsed,total){
  if(data.awarded.includes(stop))return {xp:0,gold:0,repeat:true};
  const accuracy=total?Math.max(0,Math.min(1,correct/total)):0;
@@ -27,5 +41,5 @@ function award(stop,correct,wrong,elapsed,total){
  const xp=Math.min(140,Math.round(140*ratio)),gold=Math.min(80,Math.round(80*ratio));
  data.xp+=xp;data.gold+=gold;data.awarded.push(stop);persist();return {xp,gold,repeat:false};
 }
-window.practiceEconomy={snapshot,spend,award,level,nextLevelCost};
+window.practiceEconomy={snapshot,spend,spendGame,award,awardGame,level,nextLevelCost};
 })();

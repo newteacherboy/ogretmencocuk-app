@@ -59,3 +59,5 @@
  .quiz-screen .quiz-top .timer .timer-pill:last-child{display:none!important}
  .quiz-screen .quiz-top .timer .timer-pill:first-child{display:block!important}
 }
+
+.friend-panels{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:16px 0 22px}.friend-panel{background:#f9fbff;border:1px solid #dce8f7;border-radius:18px;padding:17px}.friend-panel h3{margin:0 0 8px;color:#24498e}.friend-empty{border:1px dashed #b7cbe1;background:#eef5ff;border-radius:12px;padding:15px;color:#60738c;font-size:14px}.league-preview-note{background:#edf4ff;color:#31558f;border-radius:12px;padding:10px;margin-top:10px;font-size:13px;font-weight:650}.game-card .play{min-height:44px}@media(max-width:700px){.friend-panels{grid-template-columns:1fr}.league-page h3{margin-bottom:10px}}

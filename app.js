@@ -352,7 +352,10 @@ function goNextStop(id){
 
 function openGame(gameId){
   const game = games.find(g=>g.id===gameId);
-  state.game = { game, index:0, answers:[] };
+  if(!game)return;
+  if(!window.practiceEconomy?.spendGame()){openModal(`<div class="modal-card"><div class="modal-inner"><h2>⚡ Enerjin yetersiz</h2><p>Oyun başlatmak için 3 enerji gerekiyor. Enerji her gün yenilenir.</p><button class="large-start" onclick="closeModal()">Oyunlara dön</button></div></div>`);return;}
+  refreshEconomy();
+  state.game = { game, index:0, answers:[],mistakes:0, startedAt:Date.now(),completed:false };
   renderGameQuestion();
 }
 function renderGameQuestion(){
@@ -368,11 +371,12 @@ function renderGameQuestion(){
   }
   openModal(`
     <div class="modal-card"><div class="modal-inner quiz-layout">
-      <div class="quiz-top"><div class="crumbs"><button class="back-btn" onclick="showView('gamesView');closeModal()">←</button><span class="crumb-pill">${game.title}</span></div><div class="progress-nodes">${nodes}</div><div class="timer-pill">${index+1}/${game.questions.length}</div></div>
+      <div class="quiz-top"><div class="crumbs"><button class="back-btn" onclick="showView('gamesView');closeModal()">←</button><span class="crumb-pill">${game.title}</span></div><div class="progress-nodes">${nodes}</div><div class="timer"><div class="timer-pill">⏱ <span id="elapsedClock">00:00</span></div><div class="timer-pill">${index+1}/${game.questions.length}</div></div></div>
       <div class="quiz-card"><div class="q-card-left"><h3>${game.title}</h3><div class="question-title">${q.prompt || 'Doğru sıralamayı yap.'}</div>${body}<div class="q-actions"><div class="feedback-box" id="feedbackBox">Hazırsan cevapla.</div><button class="nav-btn nav-green" id="gameBtn">Kontrol Et</button></div></div><aside class="q-side"><div class="mascot-mini"><h4>Oyun açıklaması</h4><div class="mascot-speech">${game.description}</div></div></aside></div>
     </div></div>
   `);
   if(q.ordering) redrawOrder();
+  startQuizTimer();
   document.querySelectorAll('.option').forEach(btn=>btn.addEventListener('click', ()=>{ document.querySelectorAll('.option').forEach(b=>b.classList.remove('selected')); btn.classList.add('selected'); }));
   document.getElementById('gameBtn').addEventListener('click', ()=>checkGameQuestion());
 }
@@ -386,7 +390,7 @@ function checkGameQuestion(){
     const idx=Number(selected.dataset.index); correct = idx===q.answer;
     markOptionsAfterCheck(q.answer,correct);
   }
-  if(!correct){ showAnswerFeedback(false,fb,'','Tekrar düşün ve yeniden dene.'); return; }
+  if(!correct){state.game.mistakes++;showAnswerFeedback(false,fb,'','Tekrar düşün ve yeniden dene.'); return; }
   state.game.answers.push(true);
   const btn=document.getElementById('gameBtn');
   showAnswerFeedback(true,fb,'Doğru cevap!','');
@@ -398,11 +402,14 @@ function checkGameQuestion(){
   }
 }
 function finishGame(){
+  stopQuizTimer();
   const total = state.game.game.questions.length;
   const correct = state.game.answers.length;
-  const score = Math.round((correct/total)*100);
+  const score = Math.max(0,Math.round((correct/total)*100));
+  const reward=window.practiceEconomy.awardGame(state.game.game.id,correct,state.game.mistakes||0,Date.now()-(state.game.startedAt||Date.now()),total);
+  refreshEconomy();
   openModal(`
-    <div class="modal-card"><div class="modal-inner result-wrap"><div class="result-banner"><div><div class="stars">🎮 ⭐ 🎮</div><div class="big-title">Oyun Bitti!</div><div class="mascot-speech">${state.game.game.title} oyununu tamamladın.</div></div><div><div class="result-stats"><div class="result-box"><strong>${score}/100</strong><span>Puanın</span></div><div class="result-box"><strong>${correct}</strong><span>Doğru</span></div><div class="result-box"><strong>${total-correct}</strong><span>Yanlış</span></div><div class="result-box"><strong>${total}</strong><span>Soru</span></div></div><div class="result-actions"><button class="nav-btn nav-blue" onclick="openGame('${state.game.game.id}')">Tekrar Oyna</button><button class="nav-btn nav-orange" onclick="closeModal()">Oyunlara Dön</button></div></div></div></div></div>
+    <div class="modal-card"><div class="modal-inner result-wrap"><div class="result-banner"><div><div class="stars">🎮 ⭐ 🎮</div><div class="big-title">Oyun Bitti!</div><div class="mascot-speech">${state.game.game.title} oyununu tamamladın.</div><div class="reward-summary">✨ +${reward.xp} XP &nbsp; 🪙 +${reward.gold} Altın ${reward.repeat?"(Bugünkü tekrar için ödül yok)":""}</div><div class="league-preview-note">🏆 Öğrenci sıralaması, güvenli üyelik ve sunucu puanlaması açıldığında burada görünecek.</div></div><div><div class="result-stats"><div class="result-box"><strong>${score}/100</strong><span>Puanın</span></div><div class="result-box"><strong>${correct}</strong><span>Doğru</span></div><div class="result-box"><strong>${total-correct}</strong><span>Yanlış</span></div><div class="result-box"><strong>${total}</strong><span>Soru</span></div></div><div class="result-actions"><button class="nav-btn nav-blue" onclick="openGame('${state.game.game.id}')">Tekrar Oyna</button><button class="nav-btn nav-orange" onclick="closeModal()">Oyunlara Dön</button></div></div></div></div></div>
   `)
 }
 
