@@ -1,0 +1,61 @@
+
+/* Compact reward indicators keep map usable on narrow phones. */
+.economy-strip{display:flex;align-items:center;justify-content:center;gap:clamp(4px,1.2vw,12px);min-width:0;padding:2px 4px}
+.economy-pill{display:flex;align-items:center;justify-content:center;gap:5px;background:#fff;border:1px solid #dfe8f6;border-radius:13px;padding:6px 11px;color:#203d77;min-width:0;box-shadow:0 2px 6px #16448410}
+.economy-pill b{font-size:clamp(12px,2.5vw,16px);font-variant-numeric:tabular-nums;white-space:nowrap}.economy-pill span{font-size:17px}.economy-pill small{font-size:11px;color:#637799}.economy-level{border-radius:12px;background:#e7efff;padding:7px 11px;color:#2253a2;font-weight:800;white-space:nowrap}
+.economy-pill.energy{background:#fff6e8}.economy-pill.experience{background:#f1edff}.economy-pill.coins{background:#fff9df}
+.reward-summary{margin-top:10px;color:#79510e;background:#fff0be;border-radius:13px;padding:10px;font-weight:850}
+.league-page{max-width:1000px;margin:18px auto;padding:24px;border-radius:22px;background:white}.league-page h2{color:#253c7e}.league-page p{color:#536787}
+.league-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.league-grid article{background:#f2f6ff;border:1px solid #dce5f5;border-radius:18px;padding:17px}.league-grid h3{color:#28478a;margin:0}.league-note{padding-top:10px}
+@media(max-width:700px){
+ #app:has(#parkurView.active) .topbar .tab{font-size:9px!important;padding:6px 3px!important;min-height:32px}
+ #app:has(#parkurView.active) .topbar .brand-text{max-width:76px;font-size:11px}
+ #parkurView.active{gap:4px!important}
+ .economy-strip{flex:0 0 auto;min-height:29px;padding:0;gap:3px}
+ .economy-pill{border-radius:8px;padding:3px 5px;gap:3px;box-shadow:none}
+ .economy-pill b{font-size:11px}.economy-pill span{font-size:12px}.economy-pill small{display:none}
+ .economy-level{font-size:10px;padding:5px 6px;border-radius:8px}
+ .league-page{margin:8px;padding:13px}.league-grid{grid-template-columns:1fr}
+}
+@media(max-height:650px) and (max-width:700px){.economy-strip{min-height:24px}.economy-pill{padding:2px 5px}#parkurView .mobile-parkur-title{min-height:45px}}
+
+/* Restyled mission entrance, preserving accessible real controls. */
+.stop-intro-card{max-width:840px!important;background:#fffdf9!important;border:2px solid #e6eefd!important}
+.stop-intro-card .modal-inner{padding:clamp(16px,3vw,30px)!important}
+.stop-intro-card .stop-header{gap:8px}
+.stop-intro-card .stop-header .crumbs{min-width:0;flex-wrap:wrap}
+.stop-intro-card .stop-overview{display:grid;grid-template-columns:minmax(0,1fr) minmax(170px,.48fr);align-items:center;gap:clamp(12px,3vw,26px);padding:20px 0 0}
+.stop-intro-card .stop-overview h2{font-size:clamp(18px,2.5vw,24px);margin:0 0 5px;color:#5070bd}
+.stop-intro-card .stop-overview h3{font-size:clamp(25px,3.5vw,36px);line-height:1.12;color:#223983}
+.stop-intro-card .stop-overview p{font-size:clamp(15px,2vw,19px);margin:5px 0 15px;color:#536b8c}
+.stop-intro-card .detail-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.stop-intro-card .detail{border-radius:14px;padding:11px 9px;background:#f4f8ff}
+.stop-intro-card .detail strong{font-size:13px;color:#2a4f9b}
+.stop-intro-card .detail span{font-size:12px;line-height:1.35;overflow-wrap:anywhere}
+.stop-intro-card .large-start{width:100%;font-size:18px;margin:9px 0 0;padding:13px;border-radius:16px}
+.stop-reward-hint{font-size:13px;color:#46628e;margin-top:14px;background:#f3f7ff;border-radius:11px;padding:9px 11px}
+.stop-illustration{min-height:220px;border-radius:22px;background:linear-gradient(145deg,#dbf5f6,#eae8ff 65%,#fff2d4);display:grid;place-items:center;position:relative;overflow:hidden}
+.stop-art-symbol{font-size:clamp(80px,10vw,140px);filter:drop-shadow(0 12px 14px #285b8544)}
+.stop-art-number{position:absolute;top:12px;left:13px;font-size:20px;font-weight:900;color:#2a56a3;background:white;padding:7px 14px;border-radius:14px}
+.stop-art-sparkle{position:absolute;top:12%;right:15%;color:#f6a316;font-size:42px}
+.quiz-screen .timer{display:flex!important;gap:4px}
+.quiz-screen .timer-pill{display:block!important;font-size:11px;padding:5px 7px;white-space:nowrap}
+@media(max-width:700px){
+ .stop-intro-card{max-height:calc(100dvh - 14px)!important;overflow:auto}
+ .stop-intro-card .modal-inner{padding:9px!important}
+ .stop-intro-card .stop-header .crumbs>.crumb-pill:not(:last-child),.stop-intro-card .stop-header .crumbs>span:not(.crumb-pill){display:none}
+ .stop-intro-card .stop-overview{grid-template-columns:1fr;gap:9px;padding:10px 0 0}
+ .stop-intro-card .stop-overview h3{font-size:25px}
+ .stop-intro-card .stop-overview p{font-size:14px;margin:4px 0}
+ .stop-intro-card .detail-grid{gap:5px}
+ .stop-intro-card .detail{padding:7px 6px}
+ .stop-intro-card .detail strong{font-size:11px}
+ .stop-intro-card .detail span{font-size:11px}
+ .stop-intro-card .stop-illustration{display:none}
+ .stop-intro-card .large-start{padding:12px;font-size:17px}
+ .stop-reward-hint{margin-top:8px;font-size:11px}
+ .quiz-screen .quiz-top{flex-wrap:nowrap}
+ .quiz-screen .quiz-top .timer{display:flex!important;flex:none}
+ .quiz-screen .quiz-top .timer .timer-pill:last-child{display:none!important}
+ .quiz-screen .quiz-top .timer .timer-pill:first-child{display:block!important}
+}
