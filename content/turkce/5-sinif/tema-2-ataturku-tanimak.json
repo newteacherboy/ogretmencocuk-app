@@ -1,0 +1,1519 @@
+{
+  "belgeTuru": "tema",
+  "semaSurumu": "1.0",
+  "sinif": 5,
+  "program": "TYMM",
+  "tema": 2,
+  "temaAdi": "Atatürk'ü Tanımak",
+  "durum": "incelemeye_hazir",
+  "kaynak": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/61",
+  "kaynak_dogrulanmadi": false,
+  "ogrenmeCiktilari": [
+    "DYS.DO.5.3",
+    "DYS.DO.5.4",
+    "DYS.KY.5.2",
+    "DYS.KY.5.3",
+    "T.D.5.1",
+    "T.D.5.11",
+    "T.D.5.14",
+    "T.D.5.17",
+    "T.D.5.2",
+    "T.D.5.4",
+    "T.D.5.5",
+    "T.K.5.1",
+    "T.K.5.17",
+    "T.K.5.19",
+    "T.K.5.2",
+    "T.K.5.3",
+    "T.K.5.9",
+    "T.O.5.1",
+    "T.O.5.17",
+    "T.O.5.19",
+    "T.O.5.2",
+    "T.O.5.20",
+    "T.O.5.22",
+    "T.O.5.3",
+    "T.O.5.5",
+    "T.O.5.6",
+    "T.Y.5.13",
+    "T.Y.5.15",
+    "T.Y.5.16",
+    "T.Y.5.17",
+    "T.Y.5.2",
+    "T.Y.5.3"
+  ],
+  "sozVarligi": {
+    "aciklama": "Tanım ve örnekler özgündür. Kelimeler aynı tema içinde bir kez yer alır.",
+    "kelimeler": [
+      {
+        "kelime": "cumhuriyet",
+        "anlam": "Yönetimde milletin söz sahibi olduğu yönetim biçimi",
+        "ornek": "Cumhuriyet Bayramı için sınıf panomuzu hazırladık.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "bağımsızlık",
+        "anlam": "Bir topluluğun kendi kararlarını özgürce verebilmesi",
+        "ornek": "Bağımsızlık konulu sunumda birlikte çalıştık.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "egemenlik",
+        "anlam": "Bir ülkenin yönetiminde karar verme yetkisi",
+        "ornek": "Millî egemenlik sözünü sözlüğümüzde araştırdık.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "yurttaş",
+        "anlam": "Bir ülkeye vatandaşlık bağıyla bağlı kişi",
+        "ornek": "Her yurttaşın hakları ve sorumlulukları vardır.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "meclis",
+        "anlam": "Görüşmek ve karar almak için toplanan temsilciler kurulu",
+        "ornek": "Öğrenciler meclisin görevini araştırdı.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "dayanışma",
+        "anlam": "Bir güçlüğü aşmak için birbirine destek olma",
+        "ornek": "Kitap toplarken sınıfta dayanışma vardı.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "azim",
+        "anlam": "Bir işi başarmak için güçlükler karşısında çalışmayı sürdürme",
+        "ornek": "Ece azimle çalışarak sunumunu tamamladı.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "kararlılık",
+        "anlam": "Verilen bir kararı uygulamakta tutarlı davranma",
+        "ornek": "Araştırmamızı kararlılıkla sürdürdük.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "araştırma",
+        "anlam": "Bir soruya güvenilir bilgiler arayarak cevap bulma çalışması",
+        "ornek": "Araştırma yaparken iki kaynağı karşılaştırdım.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "kaynak",
+        "anlam": "Bilginin alındığı kişi, belge veya eser",
+        "ornek": "Yazımın sonuna kullandığım kaynağı ekledim.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "belge",
+        "anlam": "Bir bilgiyi veya olayı kayıt altına alan yazı ya da nesne",
+        "ornek": "Müzedeki belge özel bir kutuda korunuyordu.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "arşiv",
+        "anlam": "Belgelerin düzenli biçimde saklandığı yer veya bütün",
+        "ornek": "Okulun arşivinde eski fotoğraflar bulundu.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "anı",
+        "anlam": "Kişinin geçmişte yaşadığı bir olayın zihnindeki izi",
+        "ornek": "Dedemin okul anısını dikkatle dinledim.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "tanıklık",
+        "anlam": "Bir olayı görmüş veya yaşamış olma durumu",
+        "ornek": "Metindeki tanıklık ile yorumu ayırdık.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "yenilik",
+        "anlam": "Daha önce bulunmayan bir düşünce veya uygulama",
+        "ornek": "Sınıf kitaplığındaki yenilik hepimizi sevindirdi.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "çağdaş",
+        "anlam": "Yaşanan dönemin bilgi ve imkânlarına uygun",
+        "ornek": "Çağdaş eğitim araçlarını inceleyen bir yazı okuduk.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "bilim",
+        "anlam": "Sorulara gözlem ve araştırmayla açıklama arayan bilgi alanı",
+        "ornek": "Bilim köşesinde deney notlarımız vardı.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "gözlem",
+        "anlam": "Bir durumu dikkatle inceleyerek bilgi toplama",
+        "ornek": "Gözlem sonuçlarını defterime yazdım.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "sorumluluk",
+        "anlam": "Üstlenilen işi ve sonuçlarını sahiplenme",
+        "ornek": "Kitapları koruma sorumluluğunu paylaştık.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "girişim",
+        "anlam": "Bir düşünceyi gerçekleştirmek için atılan ilk adım",
+        "ornek": "Okuma günü düzenlemek güzel bir girişimdi.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "özgürlük",
+        "anlam": "Başkalarının haklarını gözeterek seçim yapabilme",
+        "ornek": "Düşüncelerimizi saygıyla söyleme özgürlüğümüz var.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "eşitlik",
+        "anlam": "Aynı durumdaki kişilere aynı hakların tanınması",
+        "ornek": "Görev dağılımında eşitliğe dikkat ettik.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "emek",
+        "anlam": "Bir işi yapmak için harcanan çaba",
+        "ornek": "Panonun hazırlanmasında herkesin emeği vardı.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "taslak",
+        "anlam": "Bir çalışmanın son biçimini almamış ilk düzeni",
+        "ornek": "Konuşmamın taslağını öğretmenime gösterdim.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "sunum",
+        "anlam": "Bilgileri dinleyicilere düzenli biçimde anlatma",
+        "ornek": "Sunum için kısa notlar hazırladım.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "sergi",
+        "anlam": "Eserlerin veya belgelerin görülmek üzere düzenlenmesi",
+        "ornek": "Okulda araştırma sergisi açıldı.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "müze",
+        "anlam": "Geçmişe veya bilime ait eserlerin korunduğu ve tanıtıldığı yer",
+        "ornek": "Müze gezisinde not tuttuk.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "ilham",
+        "anlam": "Yeni bir düşünceyi doğuran etkilenme",
+        "ornek": "Arkadaşımın sorusu bana ilham verdi.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "gelecek",
+        "anlam": "Henüz yaşanmamış zaman",
+        "ornek": "Gelecek için kurduğumuz hayalleri yazdık.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "birlik",
+        "anlam": "Ortak bir amaç çevresinde bir araya gelme",
+        "ornek": "Birlik içinde çalışınca hazırlıklar kolaylaştı.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      }
+    ],
+    "esAnlamlilar": [
+      [
+        "anı",
+        "hatıra"
+      ],
+      [
+        "emek",
+        "çaba"
+      ]
+    ],
+    "zitAnlamlilar": [
+      [
+        "gelecek",
+        "geçmiş"
+      ]
+    ],
+    "esSesliler": [],
+    "deyimler": [],
+    "atasozleri": []
+  },
+  "okumaParcalari": [
+    {
+      "id": "5-2-okuma-1",
+      "baslik": "Sergideki Boş Kart",
+      "tur": "oykuleyici",
+      "metin": "Okulun koridorunda Atatürk'ü tanımaya yönelik bir sergi hazırlanıyordu. Her grup bir pano üstlenmişti. Deniz'in grubu, eğitimle ilgili çalışmaları anlatacaktı. Ellerindeki kitapları masaya dizdiler; fakat ilk taslakları, birbirini izleyen uzun cümlelerden oluştu. Deniz, ziyaretçilerin bu kadar küçük yazıyı okumadan geçeceğini düşündü. Arkadaşı Ekin ise daha fazla resim eklerlerse sorunun çözüleceğini söyledi. İkisi de önce öğretmenlerine danışmayı kabul etti.\n\nÖğretmenleri onlara doğrudan bir pano düzeni vermedi. Bunun yerine, sergiyi gezen bir beşinci sınıf öğrencisinin hangi soruya cevap bulmasını istediklerini sordu. Bu soru grubu durdurup düşünmeye yöneltti. Çocuklar eğitim konusunu tek bir sayfaya sığdırmaya çalıştıkları için asıl meraklarını kaybettiklerini fark etti. Sonunda panonun başlığına bir soru yazdılar: Öğrenmek bir toplumun geleceğini nasıl etkiler? Açıklamaları bu soru çevresinde kısalttılar.\n\nKaynak olarak seçtikleri metinleri yeniden okudular. Tarih ve adların doğru yazıldığını kontrol ettiler. Bir arkadaşları, Atatürk'e ait olduğunu düşündüğü etkileyici bir söz getirdi. Ancak sözün nerede söylendiğini bulamıyordu. Grup bu sözü büyük harflerle panoya yazmak yerine ayrı bir dosyada bekletmeye karar verdi. Kaynağını doğrulayamadıkları bir cümleyi kullanmak, sergilerinin güvenilirliğini azaltabilirdi. Deniz boş kalan yere ne koyacaklarını düşünürken Ekin küçük bir kart önerdi.\n\nKartın üzerinde ziyaretçilere yöneltilen bir soru bulunacaktı. Öğrenciler bu karta, öğrendikleri bir bilginin kendilerinde uyandırdığı yeni bir soruyu yazabilecekti. Sergi açıldığında kart kısa sürede doldu. Bir öğrenci köy okulları hakkında, diğeri kütüphaneler hakkında araştırma yapmak istediğini belirtti. Deniz, boş bırakmaktan korktukları alanın serginin en çok konuşulan bölümü olduğunu gördü. Günün sonunda grup, ziyaretçilerin sorularını başlıklara ayırdı ve yeni araştırma listesine ekledi. Panonun başarısını yalnızca güzel görünmesine bağlamadılar. Doğru kaynağı seçmeleri, anlaşılır yazmaları ve başkalarının sorularına yer açmaları da çalışmalarının önemli parçalarıydı.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; ders kitabından alınmamıştır.",
+      "sorular": [
+        {
+          "id": "5-2-okuma-1-1",
+          "tip": "secim",
+          "soru": "“Sergideki Boş Kart” metnine göre: Sergi nerede hazırlanıyordu?",
+          "secenekler": [
+            "Bir tren istasyonunda",
+            "Bir spor salonunun bahçesinde",
+            "Okul koridorunda"
+          ],
+          "dogru": "Okul koridorunda",
+          "aciklama": "Olayın yeri ilk cümlede okulun koridoru olarak belirtilir.",
+          "cikti": "T.O.5.6"
+        },
+        {
+          "id": "5-2-okuma-1-2",
+          "tip": "secim",
+          "soru": "“Sergideki Boş Kart” metnine göre: Deniz'in grubu hangi alanı anlatacaktı?",
+          "secenekler": [
+            "Hava olaylarının oluşumunu",
+            "Eğitimle ilgili çalışmaları",
+            "Yalnızca spor yarışmalarını"
+          ],
+          "dogru": "Eğitimle ilgili çalışmaları",
+          "aciklama": "Grubun görevi, eğitime ilişkin bir pano hazırlamaktır.",
+          "cikti": "T.O.5.6"
+        },
+        {
+          "id": "5-2-okuma-1-3",
+          "tip": "secim",
+          "soru": "“Sergideki Boş Kart” metnine göre: İlk taslağın ziyaretçiler açısından sorunu neydi?",
+          "secenekler": [
+            "Yazılar uzun ve küçüktü",
+            "Bütün kartlar boştu",
+            "Panonun başlığı çok kısaydı"
+          ],
+          "dogru": "Yazılar uzun ve küçüktü",
+          "aciklama": "Deniz, uzun ve küçük yazıların okunmayacağını düşünür.",
+          "cikti": "T.O.5.6"
+        },
+        {
+          "id": "5-2-okuma-1-4",
+          "tip": "secim",
+          "soru": "“Sergideki Boş Kart” metnine göre: Öğretmenin sorusu çocuklara ne yaptırdı?",
+          "secenekler": [
+            "Panoyu tamamen kaldırttı",
+            "Bütün kaynakları yırttırdı",
+            "Çalışmanın temel sorusunu belirletti"
+          ],
+          "dogru": "Çalışmanın temel sorusunu belirletti",
+          "aciklama": "Grup, neyi anlatmak istediğini belirleyince açıklamaları düzenler.",
+          "cikti": "T.O.5.6"
+        },
+        {
+          "id": "5-2-okuma-1-5",
+          "tip": "secim",
+          "soru": "“Sergideki Boş Kart” metnine göre: Doğrulanamayan söz için hangi karar alındı?",
+          "secenekler": [
+            "Ziyaretçilere doğru diye dağıtıldı",
+            "Kaynağı bulunana kadar kullanılmadı",
+            "Atatürk'ün sözü olarak hemen yazıldı"
+          ],
+          "dogru": "Kaynağı bulunana kadar kullanılmadı",
+          "aciklama": "Sözün kaynağı bulunamadığından güvenilirlik gözetilerek bekletilir.",
+          "cikti": "T.O.5.6"
+        },
+        {
+          "id": "5-2-okuma-1-6",
+          "tip": "secim",
+          "soru": "“Sergideki Boş Kart” metnine göre: “Taslak” kelimesi metinde neyi karşılar?",
+          "secenekler": [
+            "Panonun ilk çalışma biçimini",
+            "Sergiyi gezen son kişiyi",
+            "Tamamlanmış bir tarih belgesini"
+          ],
+          "dogru": "Panonun ilk çalışma biçimini",
+          "aciklama": "Çocuklar ilk yazılarını daha sonra kısaltıp yeniden düzenler.",
+          "cikti": "T.O.5.5"
+        },
+        {
+          "id": "5-2-okuma-1-7",
+          "tip": "secim",
+          "soru": "“Sergideki Boş Kart” metnine göre: Boş kart ziyaretçilerden ne istiyordu?",
+          "secenekler": [
+            "Yalnızca adlarını büyük yazmalarını",
+            "Panodaki resimlerin fiyatını bulmalarını",
+            "Yeni bir araştırma sorusu yazmalarını"
+          ],
+          "dogru": "Yeni bir araştırma sorusu yazmalarını",
+          "aciklama": "Kart, öğrenilenlerden doğan yeni soruları toplamaya yarar.",
+          "cikti": "T.O.5.6"
+        },
+        {
+          "id": "5-2-okuma-1-8",
+          "tip": "secim",
+          "soru": "“Sergideki Boş Kart” metnine göre: Grup günün sonunda ziyaretçi sorularını nasıl kullandı?",
+          "secenekler": [
+            "Yalnızca uzunluklarına göre puanladı",
+            "Başlıklara ayırıp araştırma listesine ekledi",
+            "Hiç okumadan kapattı"
+          ],
+          "dogru": "Başlıklara ayırıp araştırma listesine ekledi",
+          "aciklama": "Son paragraf soruların yeni araştırmalar için değerlendirildiğini açıklar.",
+          "cikti": "T.O.5.6"
+        }
+      ]
+    },
+    {
+      "id": "5-2-okuma-2",
+      "baslik": "Bir Sorunun Peşinde",
+      "tur": "bilgilendirici",
+      "metin": "Atatürk'ü tanımak için hazırlanan bir öğrenci çalışması yalnızca tarihleri sıralamakla sınırlı kalmak zorunda değildir. Bir olayın hangi koşullarda gerçekleştiğini, insanları nasıl etkilediğini ve hangi soruları doğurduğunu araştırmak da önemlidir. Bunun için önce açık bir araştırma sorusu seçilir. Çok geniş bir soru, kısa bir çalışmada cevaplanamayabilir. Öğrenci, sorusunu daraltarak hangi bilgiyi arayacağını belirleyebilir. Örneğin bir okulun geçmişini incelemek, bütün eğitim tarihini tek sayfada anlatmaya çalışmaktan daha yönetilebilir bir başlangıçtır.\n\nBir grup öğrenci, Atatürk dönemindeki eğitim çalışmalarını araştırırken önce okul kütüphanesine başvurdu. Bir bilgi kartında karşılaştıkları ifadeyi başka bir kaynaktan kontrol ettiler. Her benzer cümleyi ayrı bir kanıt saymadılar; bazı yazıların aynı kaynaktan alınmış olabileceğini düşündüler. Metinlerin kim tarafından, ne zaman ve hangi amaçla hazırlandığını not ettiler. Böylece yalnızca bilgi toplamayı değil, bilginin kaynağını değerlendirmeyi de denediler.\n\nNot alma sırasında üç sütunlu bir çizelge kullandılar. İlk sütuna buldukları bilgiyi kendi cümleleriyle yazdılar. İkinci sütuna kaynağın adını, üçüncü sütuna ise henüz cevaplayamadıkları soruyu eklediler. Kendi yorumlarını tarihsel bir kişinin sözü gibi sunmamaya özen gösterdiler. Doğrudan aktarım gerektiğinde sözün sınırını tırnakla belirttiler. Ancak doğrulayamadıkları bir alıntıyı hiç kullanmadılar. Bir düşüncenin etkileyici görünmesi, onun doğruluğunu tek başına göstermiyordu.\n\nAraştırmanın son aşamasında bir konuşma hazırladılar. Girişte sorularını açıkladılar, gelişmede buldukları bilgileri ilişkilendirdiler, sonuçta ise hangi konuyu daha çok merak ettiklerini söylediler. Sunumu dinleyen arkadaşlarından anlaşılmayan bir noktayı belirtmelerini istediler. Gelen sorular üzerine bazı açıklamaları yeniden yazdılar. Çalışmaları böylece hazır bir metni ezberlemekten farklılaştı. Bilgiyi seçme, düzenleme ve dürüstçe aktarma sorumluluğunu paylaştılar. Araştırmanın tamamlanması, artık soru sormayacakları anlamına gelmiyordu; yalnızca yeni sorulara daha bilinçli ve dikkatli yaklaşabileceklerini gösteriyordu.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; ders kitabından alınmamıştır.",
+      "sorular": [
+        {
+          "id": "5-2-okuma-2-1",
+          "tip": "secim",
+          "soru": "“Bir Sorunun Peşinde” metnine göre: Metne göre araştırmaya başlamanın uygun yolu nedir?",
+          "secenekler": [
+            "Kaynağı olmayan en uzun yazıyı seçmek",
+            "Açık ve sınırlandırılmış bir soru seçmek",
+            "Bütün bilgileri tek sayfaya sıkıştırmak"
+          ],
+          "dogru": "Açık ve sınırlandırılmış bir soru seçmek",
+          "aciklama": "İlk bölüm, soruyu daraltmanın araştırmayı yönetilebilir kıldığını açıklar.",
+          "cikti": "T.O.5.6"
+        },
+        {
+          "id": "5-2-okuma-2-2",
+          "tip": "secim",
+          "soru": "“Bir Sorunun Peşinde” metnine göre: Öğrenciler ilk olarak nereden yararlandı?",
+          "secenekler": [
+            "Okul kütüphanesinden",
+            "Yalnızca bir reklam panosundan",
+            "Bir yarışma puan çizelgesinden"
+          ],
+          "dogru": "Okul kütüphanesinden",
+          "aciklama": "İkinci paragraf okul kütüphanesine başvurduklarını belirtir.",
+          "cikti": "T.O.5.6"
+        },
+        {
+          "id": "5-2-okuma-2-3",
+          "tip": "secim",
+          "soru": "“Bir Sorunun Peşinde” metnine göre: Birbirine benzeyen iki yazı neden her zaman iki ayrı kanıt sayılmadı?",
+          "secenekler": [
+            "Bütün kısa yazılar yanlış olduğu için",
+            "Yalnızca resimli kitaplar doğru olduğu için",
+            "Aynı kaynaktan alınmış olabilecekleri için"
+          ],
+          "dogru": "Aynı kaynaktan alınmış olabilecekleri için",
+          "aciklama": "Metin, bağımsız görünse de ortak kaynağa dayanan yazılara dikkat çeker.",
+          "cikti": "T.O.5.6"
+        },
+        {
+          "id": "5-2-okuma-2-4",
+          "tip": "secim",
+          "soru": "“Bir Sorunun Peşinde” metnine göre: Çizelgenin ikinci sütununda hangi bilgi vardı?",
+          "secenekler": [
+            "Konuşmanın süresi",
+            "Kaynağın adı",
+            "Öğrencinin ev adresi"
+          ],
+          "dogru": "Kaynağın adı",
+          "aciklama": "Üç sütun; bilgi, kaynak ve açık sorular için ayrılmıştır.",
+          "cikti": "T.O.5.6"
+        },
+        {
+          "id": "5-2-okuma-2-5",
+          "tip": "secim",
+          "soru": "“Bir Sorunun Peşinde” metnine göre: Öğrenciler doğrulayamadıkları alıntıya nasıl yaklaştı?",
+          "secenekler": [
+            "Çalışmada kullanmadı",
+            "Kendi sözleriymiş gibi sundu",
+            "Tırnak işaretini kaldırıp kullandı"
+          ],
+          "dogru": "Çalışmada kullanmadı",
+          "aciklama": "Kaynağı doğrulanmayan sözün kullanılmadığı doğrudan belirtilir.",
+          "cikti": "T.O.5.6"
+        },
+        {
+          "id": "5-2-okuma-2-6",
+          "tip": "secim",
+          "soru": "“Bir Sorunun Peşinde” metnine göre: Metindeki “kanıt” ne anlamdadır?",
+          "secenekler": [
+            "Sunumun süsleme biçimi",
+            "Araştırmadan önce verilen ödül",
+            "Bir bilgiyi desteklemeye yarayan dayanak"
+          ],
+          "dogru": "Bir bilgiyi desteklemeye yarayan dayanak",
+          "aciklama": "Kaynakları karşılaştırma bağlamı, kanıtın destekleyici bilgi olduğunu gösterir.",
+          "cikti": "T.O.5.5"
+        },
+        {
+          "id": "5-2-okuma-2-7",
+          "tip": "secim",
+          "soru": "“Bir Sorunun Peşinde” metnine göre: Konuşmanın girişinde ne açıklandı?",
+          "secenekler": [
+            "Bütün kaynakların sayfa sayısı",
+            "Araştırma sorusu",
+            "Yalnızca sonuçtaki teşekkür"
+          ],
+          "dogru": "Araştırma sorusu",
+          "aciklama": "Son bölüm, girişin soruyu tanıttığını söyler.",
+          "cikti": "T.O.5.6"
+        },
+        {
+          "id": "5-2-okuma-2-8",
+          "tip": "secim",
+          "soru": "“Bir Sorunun Peşinde” metnine göre: Dinleyicilerin sorularından sonra ne yapıldı?",
+          "secenekler": [
+            "Bazı açıklamalar yeniden yazıldı",
+            "Araştırma soruları yasaklandı",
+            "Çizelgedeki kaynaklar silindi"
+          ],
+          "dogru": "Bazı açıklamalar yeniden yazıldı",
+          "aciklama": "Geri bildirim, anlaşılmayan açıklamaları geliştirmek için kullanılır.",
+          "cikti": "T.O.5.6"
+        }
+      ]
+    }
+  ],
+  "konular": [
+    {
+      "kod": "5-2-buyuk-harf",
+      "ad": "Büyük harflerin yazımı (1. bölüm)",
+      "kategori": "yazim-noktalama",
+      "cikti": "T.Y.5.16",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Kişi adları ve soyadları büyük harfle başlar. Kişi adına bağlı saygı sözleri de büyük yazılır. Hayvanlara verilen özel adlar ve ülke adları aynı kurala uyar. Burada normal cümle yazımını öğreniyoruz; afişlerdeki tümü büyük harfli tasarımlar ayrı bir tercih olabilir. Özel adın içindeki harfleri rastgele küçültmek veya ayrı yazılması gereken adları birleştirmek doğru değildir.</p><ul><li>Ayşe</li><li>Ali Bey</li><li>Türkiye</li></ul>",
+      "ornekler": [
+        "Ayşe",
+        "Ali Bey",
+        "Türkiye"
+      ],
+      "testler": [
+        {
+          "id": "5-2-buyuk-harf-1",
+          "tip": "secim",
+          "soru": "Normal cümle yazımında özel ad kuralına göre aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "ayşe'nin defteri",
+            "Ayşe’nindefteri",
+            "Ayşe'nin defteri"
+          ],
+          "dogru": "Ayşe'nin defteri",
+          "aciklama": "Kişi, saygı sözü, hayvan özel adı veya ülke adı büyük harfle başlar; ayrı sözcükler birleştirilmez.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-2-buyuk-harf-2",
+          "tip": "secim",
+          "soru": "Normal cümle yazımında özel ad kuralına göre aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "mustafa Kemal Atatürk",
+            "Mustafa Kemal Atatürk",
+            "Mustafa kemal Atatürk"
+          ],
+          "dogru": "Mustafa Kemal Atatürk",
+          "aciklama": "Kişi, saygı sözü, hayvan özel adı veya ülke adı büyük harfle başlar; ayrı sözcükler birleştirilmez.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-2-buyuk-harf-3",
+          "tip": "secim",
+          "soru": "Normal cümle yazımında özel ad kuralına göre aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "Deniz Hanım",
+            "Deniz hanım",
+            "deniz Hanım"
+          ],
+          "dogru": "Deniz Hanım",
+          "aciklama": "Kişi, saygı sözü, hayvan özel adı veya ülke adı büyük harfle başlar; ayrı sözcükler birleştirilmez.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-2-buyuk-harf-4",
+          "tip": "secim",
+          "soru": "Normal cümle yazımında özel ad kuralına göre aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "Ali bey",
+            "ali Bey",
+            "Ali Bey"
+          ],
+          "dogru": "Ali Bey",
+          "aciklama": "Kişi, saygı sözü, hayvan özel adı veya ülke adı büyük harfle başlar; ayrı sözcükler birleştirilmez.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-2-buyuk-harf-5",
+          "tip": "secim",
+          "soru": "Normal cümle yazımında özel ad kuralına göre aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "Minnoşbahçede",
+            "Minnoş bahçede",
+            "minnoş bahçede"
+          ],
+          "dogru": "Minnoş bahçede",
+          "aciklama": "Kişi, saygı sözü, hayvan özel adı veya ülke adı büyük harfle başlar; ayrı sözcükler birleştirilmez.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-2-buyuk-harf-6",
+          "tip": "secim",
+          "soru": "Normal cümle yazımında özel ad kuralına göre aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "Karabaş uyuyor",
+            "karabaş uyuyor",
+            "Karabaşuyuyor"
+          ],
+          "dogru": "Karabaş uyuyor",
+          "aciklama": "Kişi, saygı sözü, hayvan özel adı veya ülke adı büyük harfle başlar; ayrı sözcükler birleştirilmez.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-2-buyuk-harf-7",
+          "tip": "secim",
+          "soru": "Normal cümle yazımında özel ad kuralına göre aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "türkiye haritası",
+            "Türkiyeharitası",
+            "Türkiye haritası"
+          ],
+          "dogru": "Türkiye haritası",
+          "aciklama": "Kişi, saygı sözü, hayvan özel adı veya ülke adı büyük harfle başlar; ayrı sözcükler birleştirilmez.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-2-buyuk-harf-8",
+          "tip": "secim",
+          "soru": "Normal cümle yazımında özel ad kuralına göre aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "Japonyagezisi",
+            "Japonya gezisi",
+            "japonya gezisi"
+          ],
+          "dogru": "Japonya gezisi",
+          "aciklama": "Kişi, saygı sözü, hayvan özel adı veya ülke adı büyük harfle başlar; ayrı sözcükler birleştirilmez.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-2-buyuk-harf-9",
+          "tip": "secim",
+          "soru": "Normal cümle yazımında özel ad kuralına göre aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "Zeynep'in sorusu",
+            "zeynep'in sorusu",
+            "Zeynep’insorusu"
+          ],
+          "dogru": "Zeynep'in sorusu",
+          "aciklama": "Kişi, saygı sözü, hayvan özel adı veya ülke adı büyük harfle başlar; ayrı sözcükler birleştirilmez.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-2-buyuk-harf-10",
+          "tip": "secim",
+          "soru": "Normal cümle yazımında özel ad kuralına göre aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "Ece öğretmen",
+            "ece Öğretmen",
+            "Ece Öğretmen"
+          ],
+          "dogru": "Ece Öğretmen",
+          "aciklama": "Kişi, saygı sözü, hayvan özel adı veya ülke adı büyük harfle başlar; ayrı sözcükler birleştirilmez.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        }
+      ]
+    },
+    {
+      "kod": "5-2-virgul",
+      "ad": "Virgülün kullanımı",
+      "kategori": "yazim-noktalama",
+      "cikti": "T.Y.5.16",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Virgül eş görevli kelimeleri ve kelime gruplarını ayırabilir. Hitap sözlerinden ve anlatımı güçlendirmek için tekrarlanan kelimelerden sonra da kullanılabilir. Sayıların ondalık bölümünü ayırırken virgülden yararlanılır. Virgül her kısa duraklamada gelişigüzel konmaz. Örneğin bir cümlenin öznesi ile yüklemi arasına sırf nefes aldığımız için işaret eklemek doğru bir yöntem değildir.</p><ul><li>kitap, kalem ve silgi</li><li>Öğretmenim, bir sorum var.</li><li>2,5</li></ul>",
+      "ornekler": [
+        "kitap, kalem ve silgi",
+        "Öğretmenim, bir sorum var.",
+        "2,5"
+      ],
+      "testler": [
+        {
+          "id": "5-2-virgul-1",
+          "tip": "secim",
+          "soru": "Virgülün gerekli olduğu yerler gösterilecekse aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "Çantamda kitap kalem ve silgi var.",
+            "Çantamda kitap; kalem ve silgi var.",
+            "Çantamda kitap, kalem ve silgi var."
+          ],
+          "dogru": "Çantamda kitap, kalem ve silgi var.",
+          "aciklama": "Virgül bu örnekte sıralama, hitap, tekrar veya ondalık ayırma görevindedir; noktalı virgül aynı görevin yerine gelişigüzel kullanılmaz.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-2-virgul-2",
+          "tip": "secim",
+          "soru": "Virgülün gerekli olduğu yerler gösterilecekse aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "Panoya resim: belge ve harita astık.",
+            "Panoya resim, belge ve harita astık.",
+            "Panoya resim belge ve harita astık."
+          ],
+          "dogru": "Panoya resim, belge ve harita astık.",
+          "aciklama": "Virgül bu örnekte sıralama, hitap, tekrar veya ondalık ayırma görevindedir; noktalı virgül aynı görevin yerine gelişigüzel kullanılmaz.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-2-virgul-3",
+          "tip": "secim",
+          "soru": "Virgülün gerekli olduğu yerler gösterilecekse aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "Deniz, sorunu yeniden okur musun?",
+            "Deniz sorunu yeniden okur musun?",
+            "Deniz; sorunu yeniden okur musun?"
+          ],
+          "dogru": "Deniz, sorunu yeniden okur musun?",
+          "aciklama": "Virgül bu örnekte sıralama, hitap, tekrar veya ondalık ayırma görevindedir; noktalı virgül aynı görevin yerine gelişigüzel kullanılmaz.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-2-virgul-4",
+          "tip": "secim",
+          "soru": "Virgülün gerekli olduğu yerler gösterilecekse aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "Sevgili arkadaşlar sergimize hoş geldiniz.",
+            "Sevgili arkadaşlar; sergimize hoş geldiniz.",
+            "Sevgili arkadaşlar, sergimize hoş geldiniz."
+          ],
+          "dogru": "Sevgili arkadaşlar, sergimize hoş geldiniz.",
+          "aciklama": "Virgül bu örnekte sıralama, hitap, tekrar veya ondalık ayırma görevindedir; noktalı virgül aynı görevin yerine gelişigüzel kullanılmaz.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-2-virgul-5",
+          "tip": "secim",
+          "soru": "Virgülün gerekli olduğu yerler gösterilecekse aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "Öğretmenim; bir sorum var.",
+            "Öğretmenim, bir sorum var.",
+            "Öğretmenim bir sorum var."
+          ],
+          "dogru": "Öğretmenim, bir sorum var.",
+          "aciklama": "Virgül bu örnekte sıralama, hitap, tekrar veya ondalık ayırma görevindedir; noktalı virgül aynı görevin yerine gelişigüzel kullanılmaz.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-2-virgul-6",
+          "tip": "secim",
+          "soru": "Virgülün gerekli olduğu yerler gösterilecekse aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "Bekle, bekle, ben de geliyorum.",
+            "Bekle bekle ben de geliyorum.",
+            "Bekle; bekle; ben de geliyorum."
+          ],
+          "dogru": "Bekle, bekle, ben de geliyorum.",
+          "aciklama": "Virgül bu örnekte sıralama, hitap, tekrar veya ondalık ayırma görevindedir; noktalı virgül aynı görevin yerine gelişigüzel kullanılmaz.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-2-virgul-7",
+          "tip": "secim",
+          "soru": "Virgülün gerekli olduğu yerler gösterilecekse aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "Masanın üzerinde defter cetvel ve kâğıt duruyor.",
+            "Masanın üzerinde defter: cetvel ve kâğıt duruyor.",
+            "Masanın üzerinde defter, cetvel ve kâğıt duruyor."
+          ],
+          "dogru": "Masanın üzerinde defter, cetvel ve kâğıt duruyor.",
+          "aciklama": "Virgül bu örnekte sıralama, hitap, tekrar veya ondalık ayırma görevindedir; noktalı virgül aynı görevin yerine gelişigüzel kullanılmaz.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-2-virgul-8",
+          "tip": "secim",
+          "soru": "Virgülün gerekli olduğu yerler gösterilecekse aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "Resimde mavi; sarı ve beyaz kullanıldı.",
+            "Resimde mavi, sarı ve beyaz kullanıldı.",
+            "Resimde mavi sarı ve beyaz kullanıldı."
+          ],
+          "dogru": "Resimde mavi, sarı ve beyaz kullanıldı.",
+          "aciklama": "Virgül bu örnekte sıralama, hitap, tekrar veya ondalık ayırma görevindedir; noktalı virgül aynı görevin yerine gelişigüzel kullanılmaz.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-2-virgul-9",
+          "tip": "secim",
+          "soru": "Virgülün gerekli olduğu yerler gösterilecekse aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "Ondalık gösterim: 2,5",
+            "Ondalık gösterim: 2;5",
+            "Ondalık gösterim: 2:5"
+          ],
+          "dogru": "Ondalık gösterim: 2,5",
+          "aciklama": "Virgül bu örnekte sıralama, hitap, tekrar veya ondalık ayırma görevindedir; noktalı virgül aynı görevin yerine gelişigüzel kullanılmaz.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-2-virgul-10",
+          "tip": "secim",
+          "soru": "Virgülün gerekli olduğu yerler gösterilecekse aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "Notlarda yer zaman ve kişi bilgileri var.",
+            "Notlarda yer; zaman ve kişi bilgileri var.",
+            "Notlarda yer, zaman ve kişi bilgileri var."
+          ],
+          "dogru": "Notlarda yer, zaman ve kişi bilgileri var.",
+          "aciklama": "Virgül bu örnekte sıralama, hitap, tekrar veya ondalık ayırma görevindedir; noktalı virgül aynı görevin yerine gelişigüzel kullanılmaz.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        }
+      ]
+    },
+    {
+      "kod": "5-2-soru-isareti",
+      "ad": "Soru işaretinin kullanımı",
+      "kategori": "yazim-noktalama",
+      "cikti": "T.Y.5.16",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Doğrudan soru bildiren cümlelerin sonuna soru işareti konur. Kim, nerede, ne zaman ve nasıl gibi sözler veya mı soru eki soru kurabilir. Soru anlamı bağlamdan da anlaşılabilir. Ancak bir soru kelimesinin geçtiği her cümle doğrudan soru değildir: Ne zaman geleceğini biliyorum cümlesi bilgi verir. Cümledeki asıl amacı düşünmek, işareti doğru seçmeye yardım eder.</p><ul><li>Sergi ne zaman açılacak?</li><li>Hazır mısın?</li><li>Adınız?</li></ul>",
+      "ornekler": [
+        "Sergi ne zaman açılacak?",
+        "Hazır mısın?",
+        "Adınız?"
+      ],
+      "testler": [
+        {
+          "id": "5-2-soru-isareti-1",
+          "tip": "secim",
+          "soru": "Aşağıdaki sözlerden hangisi doğrudan soru bildirir ve sonuna soru işareti gerektirir? (1. durum)",
+          "secenekler": [
+            "Sergi ne zaman açılacak",
+            "Sergi bugün açılacak",
+            "Sergi çok ilgi gördü"
+          ],
+          "dogru": "Sergi ne zaman açılacak",
+          "aciklama": "Doğru seçenek karşı taraftan bilgi istemektedir; diğerleri bilgi verir veya öneride bulunur.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-2-soru-isareti-2",
+          "tip": "secim",
+          "soru": "Aşağıdaki sözlerden hangisi doğrudan soru bildirir ve sonuna soru işareti gerektirir? (2. durum)",
+          "secenekler": [
+            "Defteri Deniz getirdi",
+            "Defter masada duruyor",
+            "Defteri kim getirdi"
+          ],
+          "dogru": "Defteri kim getirdi",
+          "aciklama": "Doğru seçenek karşı taraftan bilgi istemektedir; diğerleri bilgi verir veya öneride bulunur.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-2-soru-isareti-3",
+          "tip": "secim",
+          "soru": "Aşağıdaki sözlerden hangisi doğrudan soru bildirir ve sonuna soru işareti gerektirir? (3. durum)",
+          "secenekler": [
+            "Bu belgeyi dikkatle inceledik",
+            "Bu belgeyi nerede buldunuz",
+            "Bu belgeyi arşivde bulduk"
+          ],
+          "dogru": "Bu belgeyi nerede buldunuz",
+          "aciklama": "Doğru seçenek karşı taraftan bilgi istemektedir; diğerleri bilgi verir veya öneride bulunur.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-2-soru-isareti-4",
+          "tip": "secim",
+          "soru": "Aşağıdaki sözlerden hangisi doğrudan soru bildirir ve sonuna soru işareti gerektirir? (4. durum)",
+          "secenekler": [
+            "Panoyu nasıl hazırladınız",
+            "Panoyu birlikte hazırladık",
+            "Panoyu koridora astık"
+          ],
+          "dogru": "Panoyu nasıl hazırladınız",
+          "aciklama": "Doğru seçenek karşı taraftan bilgi istemektedir; diğerleri bilgi verir veya öneride bulunur.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-2-soru-isareti-5",
+          "tip": "secim",
+          "soru": "Aşağıdaki sözlerden hangisi doğrudan soru bildirir ve sonuna soru işareti gerektirir? (5. durum)",
+          "secenekler": [
+            "Toplantı birazdan başlayacak",
+            "Toplantı için hazırlık yaptık",
+            "Toplantı saat kaçta başlayacak"
+          ],
+          "dogru": "Toplantı saat kaçta başlayacak",
+          "aciklama": "Doğru seçenek karşı taraftan bilgi istemektedir; diğerleri bilgi verir veya öneride bulunur.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-2-soru-isareti-6",
+          "tip": "secim",
+          "soru": "Aşağıdaki sözlerden hangisi doğrudan soru bildirir ve sonuna soru işareti gerektirir? (6. durum)",
+          "secenekler": [
+            "Mektup dün okundu",
+            "Mektup kime yazılmış",
+            "Mektup arkadaşına yazılmış"
+          ],
+          "dogru": "Mektup kime yazılmış",
+          "aciklama": "Doğru seçenek karşı taraftan bilgi istemektedir; diğerleri bilgi verir veya öneride bulunur.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-2-soru-isareti-7",
+          "tip": "secim",
+          "soru": "Aşağıdaki sözlerden hangisi doğrudan soru bildirir ve sonuna soru işareti gerektirir? (7. durum)",
+          "secenekler": [
+            "Kaynağı kontrol ettin mi",
+            "Kaynağı kontrol ettim",
+            "Kaynağı deftere yazdım"
+          ],
+          "dogru": "Kaynağı kontrol ettin mi",
+          "aciklama": "Doğru seçenek karşı taraftan bilgi istemektedir; diğerleri bilgi verir veya öneride bulunur.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-2-soru-isareti-8",
+          "tip": "secim",
+          "soru": "Aşağıdaki sözlerden hangisi doğrudan soru bildirir ve sonuna soru işareti gerektirir? (8. durum)",
+          "secenekler": [
+            "Bu kitap benim",
+            "Bu kitap yeni basılmış",
+            "Bu kitap senin mi"
+          ],
+          "dogru": "Bu kitap senin mi",
+          "aciklama": "Doğru seçenek karşı taraftan bilgi istemektedir; diğerleri bilgi verir veya öneride bulunur.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-2-soru-isareti-9",
+          "tip": "secim",
+          "soru": "Aşağıdaki sözlerden hangisi doğrudan soru bildirir ve sonuna soru işareti gerektirir? (9. durum)",
+          "secenekler": [
+            "Öğrenciler hazırlandı",
+            "Kaç öğrenci sunum yapacak",
+            "Üç öğrenci sunum yapacak"
+          ],
+          "dogru": "Kaç öğrenci sunum yapacak",
+          "aciklama": "Doğru seçenek karşı taraftan bilgi istemektedir; diğerleri bilgi verir veya öneride bulunur.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-2-soru-isareti-10",
+          "tip": "secim",
+          "soru": "Aşağıdaki sözlerden hangisi doğrudan soru bildirir ve sonuna soru işareti gerektirir? (10. durum)",
+          "secenekler": [
+            "Hangi soruyla başlayalım",
+            "İlk soruyla başlayalım",
+            "İlk soru panoda duruyor"
+          ],
+          "dogru": "Hangi soruyla başlayalım",
+          "aciklama": "Doğru seçenek karşı taraftan bilgi istemektedir; diğerleri bilgi verir veya öneride bulunur.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        }
+      ]
+    },
+    {
+      "kod": "5-2-ismi-niteleyen",
+      "ad": "İsmi niteleyen ve belirten sözcükler",
+      "kategori": "dil-bilgisi",
+      "cikti": "DYS.DO.5.3",
+      "ekCiktilar": [
+        "DYS.KY.5.2"
+      ],
+      "anlatimHTML": "<p>Bazı kelimeler bir ismin nasıl olduğunu belirtir: eski fotoğraf sözündeki eski böyledir. Bazıları ise hangi varlıktan, kaç varlıktan veya ne kadarından söz edildiğini gösterir. İki pano, bu kitap ve birkaç konuk örneklerinde bu işlev vardır. Bu kelimeleri tanırken yanındaki ismi buluruz. Aynı kelime başka cümlede farklı görev alabileceğinden yalnızca ezberlenmiş bir listeye dayanmayız.</p><ul><li>eski fotoğraf</li><li>iki pano</li><li>bu kitap</li></ul>",
+      "ornekler": [
+        "eski fotoğraf",
+        "iki pano",
+        "bu kitap"
+      ],
+      "testler": [
+        {
+          "id": "5-2-ismi-niteleyen-1",
+          "tip": "secim",
+          "soru": "“Kırmızı çanta sandalyenin yanında duruyor.” cümlesinde “Kırmızı” hangi ismi niteler veya belirtir?",
+          "secenekler": [
+            "yan",
+            "çanta",
+            "sandalye"
+          ],
+          "dogru": "çanta",
+          "aciklama": "“Kırmızı”, bu cümlede “çanta” ismi hakkında özellik veya belirleme bilgisi verir.",
+          "cikti": "DYS.DO.5.3"
+        },
+        {
+          "id": "5-2-ismi-niteleyen-2",
+          "tip": "secim",
+          "soru": "“Üç öğrenci kapının önünde bekliyor.” cümlesinde “Üç” hangi ismi niteler veya belirtir?",
+          "secenekler": [
+            "öğrenci",
+            "kapı",
+            "ön"
+          ],
+          "dogru": "öğrenci",
+          "aciklama": "“Üç”, bu cümlede “öğrenci” ismi hakkında özellik veya belirleme bilgisi verir.",
+          "cikti": "DYS.DO.5.3"
+        },
+        {
+          "id": "5-2-ismi-niteleyen-3",
+          "tip": "secim",
+          "soru": "“Bu kitap masanın üstündeydi.” cümlesinde “Bu” hangi ismi niteler veya belirtir?",
+          "secenekler": [
+            "masa",
+            "üst",
+            "kitap"
+          ],
+          "dogru": "kitap",
+          "aciklama": "“Bu”, bu cümlede “kitap” ismi hakkında özellik veya belirleme bilgisi verir.",
+          "cikti": "DYS.DO.5.3"
+        },
+        {
+          "id": "5-2-ismi-niteleyen-4",
+          "tip": "secim",
+          "soru": "“Birkaç konuk sergiyi gezdi.” cümlesinde “Birkaç” hangi ismi niteler veya belirtir?",
+          "secenekler": [
+            "gezi",
+            "konuk",
+            "sergi"
+          ],
+          "dogru": "konuk",
+          "aciklama": "“Birkaç”, bu cümlede “konuk” ismi hakkında özellik veya belirleme bilgisi verir.",
+          "cikti": "DYS.DO.5.3"
+        },
+        {
+          "id": "5-2-ismi-niteleyen-5",
+          "tip": "secim",
+          "soru": "“Eski fotoğraf defterin içindeydi.” cümlesinde “Eski” hangi ismi niteler veya belirtir?",
+          "secenekler": [
+            "fotoğraf",
+            "defter",
+            "iç"
+          ],
+          "dogru": "fotoğraf",
+          "aciklama": "“Eski”, bu cümlede “fotoğraf” ismi hakkında özellik veya belirleme bilgisi verir.",
+          "cikti": "DYS.DO.5.3"
+        },
+        {
+          "id": "5-2-ismi-niteleyen-6",
+          "tip": "secim",
+          "soru": "“Uzun mektup çekmeceye kondu.” cümlesinde “Uzun” hangi ismi niteler veya belirtir?",
+          "secenekler": [
+            "çekmece",
+            "konu",
+            "mektup"
+          ],
+          "dogru": "mektup",
+          "aciklama": "“Uzun”, bu cümlede “mektup” ismi hakkında özellik veya belirleme bilgisi verir.",
+          "cikti": "DYS.DO.5.3"
+        },
+        {
+          "id": "5-2-ismi-niteleyen-7",
+          "tip": "secim",
+          "soru": "“İki pano koridora asıldı.” cümlesinde “İki” hangi ismi niteler veya belirtir?",
+          "secenekler": [
+            "askı",
+            "pano",
+            "koridor"
+          ],
+          "dogru": "pano",
+          "aciklama": "“İki”, bu cümlede “pano” ismi hakkında özellik veya belirleme bilgisi verir.",
+          "cikti": "DYS.DO.5.3"
+        },
+        {
+          "id": "5-2-ismi-niteleyen-8",
+          "tip": "secim",
+          "soru": "“Küçük çocuk bahçede oynuyor.” cümlesinde “Küçük” hangi ismi niteler veya belirtir?",
+          "secenekler": [
+            "çocuk",
+            "bahçe",
+            "oyun"
+          ],
+          "dogru": "çocuk",
+          "aciklama": "“Küçük”, bu cümlede “çocuk” ismi hakkında özellik veya belirleme bilgisi verir.",
+          "cikti": "DYS.DO.5.3"
+        },
+        {
+          "id": "5-2-ismi-niteleyen-9",
+          "tip": "secim",
+          "soru": "“Her takım sorusunu hazırladı.” cümlesinde “Her” hangi ismi niteler veya belirtir?",
+          "secenekler": [
+            "soru",
+            "hazırlık",
+            "takım"
+          ],
+          "dogru": "takım",
+          "aciklama": "“Her”, bu cümlede “takım” ismi hakkında özellik veya belirleme bilgisi verir.",
+          "cikti": "DYS.DO.5.3"
+        },
+        {
+          "id": "5-2-ismi-niteleyen-10",
+          "tip": "secim",
+          "soru": "“Parlak yıldız gökyüzünde göründü.” cümlesinde “Parlak” hangi ismi niteler veya belirtir?",
+          "secenekler": [
+            "görünüm",
+            "yıldız",
+            "gökyüzü"
+          ],
+          "dogru": "yıldız",
+          "aciklama": "“Parlak”, bu cümlede “yıldız” ismi hakkında özellik veya belirleme bilgisi verir.",
+          "cikti": "DYS.DO.5.3"
+        }
+      ]
+    },
+    {
+      "kod": "5-2-sifat-fiil",
+      "ad": "İsmi niteleyen fiilimsi yapıları",
+      "kategori": "dil-bilgisi",
+      "cikti": "DYS.DO.5.4",
+      "ekCiktilar": [
+        "DYS.KY.5.3"
+      ],
+      "anlatimHTML": "<p>Bir iş veya hareketi anlatan bazı yapılar bir ismi betimleyebilir. Gülen çocuk sözünde gülen, çocuğun yaptığı hareketi onun özelliği gibi anlatır. Bu kullanım, çocuk güldü cümlesindeki tamamlanmış eylem bildiriminden farklıdır. Bu aşamada uzun ek listelerini ezberlemek yerine, dil yapısının hangi ismi betimlediğini ve anlamı nasıl zenginleştirdiğini inceleriz. Her niteleme sözü eylem kökenli değildir.</p><ul><li>gülen çocuk</li><li>akan su</li><li>okunacak kitap</li></ul>",
+      "ornekler": [
+        "gülen çocuk",
+        "akan su",
+        "okunacak kitap"
+      ],
+      "testler": [
+        {
+          "id": "5-2-sifat-fiil-1",
+          "tip": "secim",
+          "soru": "“Bahçede gülen çocuk vardı.” cümlesinde eylemden türeyerek bir ismi betimleyen sözcük hangisidir?",
+          "secenekler": [
+            "gülen",
+            "çocuk",
+            "bahçe"
+          ],
+          "dogru": "gülen",
+          "aciklama": "“gülen” bir hareket veya iş bilgisini “çocuk” ismine özellik olarak ekler.",
+          "cikti": "DYS.DO.5.4"
+        },
+        {
+          "id": "5-2-sifat-fiil-2",
+          "tip": "secim",
+          "soru": "“Derede akan su berraktı.” cümlesinde eylemden türeyerek bir ismi betimleyen sözcük hangisidir?",
+          "secenekler": [
+            "su",
+            "dere",
+            "akan"
+          ],
+          "dogru": "akan",
+          "aciklama": "“akan” bir hareket veya iş bilgisini “su” ismine özellik olarak ekler.",
+          "cikti": "DYS.DO.5.4"
+        },
+        {
+          "id": "5-2-sifat-fiil-3",
+          "tip": "secim",
+          "soru": "“Okunacak kitap raftaydı.” cümlesinde eylemden türeyerek bir ismi betimleyen sözcük hangisidir?",
+          "secenekler": [
+            "raf",
+            "Okunacak",
+            "kitap"
+          ],
+          "dogru": "Okunacak",
+          "aciklama": "“Okunacak” bir hareket veya iş bilgisini “kitap” ismine özellik olarak ekler.",
+          "cikti": "DYS.DO.5.4"
+        },
+        {
+          "id": "5-2-sifat-fiil-4",
+          "tip": "secim",
+          "soru": "“Yazılmış mektup çekmecedeydi.” cümlesinde eylemden türeyerek bir ismi betimleyen sözcük hangisidir?",
+          "secenekler": [
+            "Yazılmış",
+            "mektup",
+            "çekmece"
+          ],
+          "dogru": "Yazılmış",
+          "aciklama": "“Yazılmış” bir hareket veya iş bilgisini “mektup” ismine özellik olarak ekler.",
+          "cikti": "DYS.DO.5.4"
+        },
+        {
+          "id": "5-2-sifat-fiil-5",
+          "tip": "secim",
+          "soru": "“Açılan kapı bahçeye bakıyordu.” cümlesinde eylemden türeyerek bir ismi betimleyen sözcük hangisidir?",
+          "secenekler": [
+            "kapı",
+            "bahçe",
+            "Açılan"
+          ],
+          "dogru": "Açılan",
+          "aciklama": "“Açılan” bir hareket veya iş bilgisini “kapı” ismine özellik olarak ekler.",
+          "cikti": "DYS.DO.5.4"
+        },
+        {
+          "id": "5-2-sifat-fiil-6",
+          "tip": "secim",
+          "soru": "“Büyüyen ağaç bahçeyi gölgeliyordu.” cümlesinde eylemden türeyerek bir ismi betimleyen sözcük hangisidir?",
+          "secenekler": [
+            "bahçe",
+            "Büyüyen",
+            "ağaç"
+          ],
+          "dogru": "Büyüyen",
+          "aciklama": "“Büyüyen” bir hareket veya iş bilgisini “ağaç” ismine özellik olarak ekler.",
+          "cikti": "DYS.DO.5.4"
+        },
+        {
+          "id": "5-2-sifat-fiil-7",
+          "tip": "secim",
+          "soru": "“Bekleyen konuk salondaydı.” cümlesinde eylemden türeyerek bir ismi betimleyen sözcük hangisidir?",
+          "secenekler": [
+            "Bekleyen",
+            "konuk",
+            "salon"
+          ],
+          "dogru": "Bekleyen",
+          "aciklama": "“Bekleyen” bir hareket veya iş bilgisini “konuk” ismine özellik olarak ekler.",
+          "cikti": "DYS.DO.5.4"
+        },
+        {
+          "id": "5-2-sifat-fiil-8",
+          "tip": "secim",
+          "soru": "“Sönen ışık koridoru kararttı.” cümlesinde eylemden türeyerek bir ismi betimleyen sözcük hangisidir?",
+          "secenekler": [
+            "ışık",
+            "koridor",
+            "Sönen"
+          ],
+          "dogru": "Sönen",
+          "aciklama": "“Sönen” bir hareket veya iş bilgisini “ışık” ismine özellik olarak ekler.",
+          "cikti": "DYS.DO.5.4"
+        },
+        {
+          "id": "5-2-sifat-fiil-9",
+          "tip": "secim",
+          "soru": "“Düşen yaprak masadaydı.” cümlesinde eylemden türeyerek bir ismi betimleyen sözcük hangisidir?",
+          "secenekler": [
+            "masa",
+            "Düşen",
+            "yaprak"
+          ],
+          "dogru": "Düşen",
+          "aciklama": "“Düşen” bir hareket veya iş bilgisini “yaprak” ismine özellik olarak ekler.",
+          "cikti": "DYS.DO.5.4"
+        },
+        {
+          "id": "5-2-sifat-fiil-10",
+          "tip": "secim",
+          "soru": "“Çözülen bulmaca defterdeydi.” cümlesinde eylemden türeyerek bir ismi betimleyen sözcük hangisidir?",
+          "secenekler": [
+            "Çözülen",
+            "bulmaca",
+            "defter"
+          ],
+          "dogru": "Çözülen",
+          "aciklama": "“Çözülen” bir hareket veya iş bilgisini “bulmaca” ismine özellik olarak ekler.",
+          "cikti": "DYS.DO.5.4"
+        }
+      ]
+    },
+    {
+      "kod": "5-2-ekleme",
+      "ad": "Ekleme bildiren bağlantı ifadeleri (ayrıca, hatta, üstelik…)",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.Y.5.15",
+      "ekCiktilar": [
+        "T.K.5.19"
+      ],
+      "anlatimHTML": "<p>Ekleme ifadeleri önceki bilgiye yeni bir bilgi katar. Ayrıca, üstelik, hatta, ve, ek olarak gibi sözler bu ilişkiyi kurabilir. Hem ... hem ... yapısı da iki durumu birlikte sunar. Ekleme ile karşıtlık veya sonuç ilişkisi aynı değildir. Bağlantı ifadesini seçerken iki cümlenin birbiriyle nasıl ilişkilendiğini düşünürüz. Aynı sözü gereksiz yere tekrar etmek anlatımı güçlendirmez.</p><ul><li>Kitap okudum, ayrıca not aldım.</li><li>Hem dinledim hem yazdım.</li><li>Belgeleri ve fotoğrafları gördük.</li></ul>",
+      "ornekler": [
+        "Kitap okudum, ayrıca not aldım.",
+        "Hem dinledim hem yazdım.",
+        "Belgeleri ve fotoğrafları gördük."
+      ],
+      "testler": [
+        {
+          "id": "5-2-ekleme-1",
+          "tip": "secim",
+          "soru": "“Kitapları düzenledik, ayrıca rafları sildik.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "özetleme",
+            "ekleme",
+            "karşıtlık"
+          ],
+          "dogru": "ekleme",
+          "aciklama": "Cümledeki ifade ekleme anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "T.Y.5.15"
+        },
+        {
+          "id": "5-2-ekleme-2",
+          "tip": "secim",
+          "soru": "“Panoyu hazırladık, üstelik bir soru kutusu ekledik.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "ekleme",
+            "karşıtlık",
+            "özetleme"
+          ],
+          "dogru": "ekleme",
+          "aciklama": "Cümledeki ifade ekleme anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "T.Y.5.15"
+        },
+        {
+          "id": "5-2-ekleme-3",
+          "tip": "secim",
+          "soru": "“Araştırdık, hatta küçük bir sergi açtık.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "karşıtlık",
+            "özetleme",
+            "ekleme"
+          ],
+          "dogru": "ekleme",
+          "aciklama": "Cümledeki ifade ekleme anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "T.Y.5.15"
+        },
+        {
+          "id": "5-2-ekleme-4",
+          "tip": "secim",
+          "soru": "“Hem metni okuduk hem kaynakları not ettik.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "özetleme",
+            "ekleme",
+            "karşıtlık"
+          ],
+          "dogru": "ekleme",
+          "aciklama": "Cümledeki ifade ekleme anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "T.Y.5.15"
+        },
+        {
+          "id": "5-2-ekleme-5",
+          "tip": "secim",
+          "soru": "“Fotoğrafları ve belgeleri birlikte inceledik.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "ekleme",
+            "karşıtlık",
+            "özetleme"
+          ],
+          "dogru": "ekleme",
+          "aciklama": "Cümledeki ifade ekleme anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "T.Y.5.15"
+        },
+        {
+          "id": "5-2-ekleme-6",
+          "tip": "secim",
+          "soru": "“Müzeyi gezdik, bunun dışında kütüphaneye de uğradık.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "karşıtlık",
+            "özetleme",
+            "ekleme"
+          ],
+          "dogru": "ekleme",
+          "aciklama": "Cümledeki ifade ekleme anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "T.Y.5.15"
+        },
+        {
+          "id": "5-2-ekleme-7",
+          "tip": "secim",
+          "soru": "“Kaynağın adını yazdım, bir de tarihini ekledim.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "özetleme",
+            "ekleme",
+            "karşıtlık"
+          ],
+          "dogru": "ekleme",
+          "aciklama": "Cümledeki ifade ekleme anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "T.Y.5.15"
+        },
+        {
+          "id": "5-2-ekleme-8",
+          "tip": "secim",
+          "soru": "“Sunumu tamamladık, ek olarak kısa bir özet hazırladık.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "ekleme",
+            "karşıtlık",
+            "özetleme"
+          ],
+          "dogru": "ekleme",
+          "aciklama": "Cümledeki ifade ekleme anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "T.Y.5.15"
+        },
+        {
+          "id": "5-2-ekleme-9",
+          "tip": "secim",
+          "soru": "“Notları okuduk, bundan başka yeni sorular belirledik.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "karşıtlık",
+            "özetleme",
+            "ekleme"
+          ],
+          "dogru": "ekleme",
+          "aciklama": "Cümledeki ifade ekleme anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "T.Y.5.15"
+        },
+        {
+          "id": "5-2-ekleme-10",
+          "tip": "secim",
+          "soru": "“Hem arkadaşımı dinledim hem onun sorusunu yazdım.” cümlesindeki belirgin anlam ilişkisi hangisidir?",
+          "secenekler": [
+            "özetleme",
+            "ekleme",
+            "karşıtlık"
+          ],
+          "dogru": "ekleme",
+          "aciklama": "Cümledeki ifade ekleme anlamını kurar; sözün kesinlik düzeyi ve amacı buna göre değerlendirilir.",
+          "cikti": "T.Y.5.15"
+        }
+      ]
+    }
+  ],
+  "dinleme": [
+    {
+      "id": "5-2-dinleme",
+      "baslik": "Kaynağı Bulunan Kart",
+      "metin": "Sergi hazırlayan öğrenciler önce kaynaklarını masaya dizdi. Ece kısa notlar aldı, Bora bir çizelge hazırladı. Bir kartın üzerinde yazan sözün kaynağı yoktu. Çocuklar sözü hemen panoya asmadı. Öğretmenlerinden güvenilir bir kaynak seçme konusunda yardım istedi. Kaynağı bulunan bilgiler kendi cümleleriyle yeniden yazıldı. Son aşamada bir arkadaşları ziyaretçi rolüne girdi. Anlaşılmayan yerleri sorunca grup açıklamalarını kısalttı. Sergi böylece yalnızca süslü değil, anlaşılır ve kontrol edilebilir bir çalışma oldu.",
+      "tts": {
+        "dil": "tr-TR",
+        "sesYoksa": "metin"
+      },
+      "sorular": [
+        {
+          "id": "5-2-dinleme-1",
+          "tip": "secim",
+          "soru": "“Kaynağı Bulunan Kart” dinleme metnine göre: Çocuklar kaynağı olmayan karta nasıl davrandı?",
+          "secenekler": [
+            "Doğru kabul edip çoğalttı",
+            "Kaynak adını uydurdu",
+            "Panoya hemen asmadı"
+          ],
+          "dogru": "Panoya hemen asmadı",
+          "aciklama": "Kartın güvenilirliğini kontrol etmeden paylaşmadılar.",
+          "cikti": "T.D.5.5"
+        },
+        {
+          "id": "5-2-dinleme-2",
+          "tip": "secim",
+          "soru": "“Kaynağı Bulunan Kart” dinleme metnine göre: Bora hangi aracı hazırladı?",
+          "secenekler": [
+            "Uçurtma",
+            "Çizelge",
+            "Düdük"
+          ],
+          "dogru": "Çizelge",
+          "aciklama": "Görevler anlatılırken Bora’nın çizelge hazırladığı söylenir.",
+          "cikti": "T.D.5.5"
+        },
+        {
+          "id": "5-2-dinleme-3",
+          "tip": "secim",
+          "soru": "“Kaynağı Bulunan Kart” dinleme metnine göre: Ziyaretçi rolündeki arkadaş ne yaptı?",
+          "secenekler": [
+            "Anlaşılmayan yerleri sordu",
+            "Sergiyi hiç okumadı",
+            "Kaynakları gizledi"
+          ],
+          "dogru": "Anlaşılmayan yerleri sordu",
+          "aciklama": "Sorular açıklamaların geliştirilmesine yardım etti.",
+          "cikti": "T.D.5.5"
+        },
+        {
+          "id": "5-2-dinleme-4",
+          "tip": "secim",
+          "soru": "“Kaynağı Bulunan Kart” dinleme metnine göre: Çalışmanın sonunda hangi özellikler öne çıktı?",
+          "secenekler": [
+            "Yalnızca kâğıt sayısı",
+            "Yazıların özellikle küçük olması",
+            "Anlaşılırlık ve kontrol edilebilirlik"
+          ],
+          "dogru": "Anlaşılırlık ve kontrol edilebilirlik",
+          "aciklama": "Son cümle süslemenin yanında bilgi niteliğini vurgular.",
+          "cikti": "T.D.5.5"
+        }
+      ]
+    }
+  ],
+  "yazmaGorevleri": [
+    {
+      "id": "5-2-yazma",
+      "baslik": "Kaynaklı Sergi Açıklaması",
+      "yonerge": "Atatürk’ü tanımaya yönelik bir sınıf sergisi için eğitim konulu bir açıklama yaz. Öğretmeninle seçtiğin güvenilir bir kaynakta bulduğun bilgiyi kendi cümlelerinle anlat. Kaynağın adını ve bağlantısını metnin sonunda belirt. Doğrulayamadığın bir sözü Atatürk’e aitmiş gibi kullanma. Yazını giriş, gelişme ve sonuç biçiminde düzenle; ayrıca veya ve gibi ekleme ifadelerini uygun yerde kullan.",
+      "minKelime": 100,
+      "maxKelime": 180,
+      "ciktilar": [
+        "T.Y.5.2",
+        "T.Y.5.3",
+        "T.Y.5.15",
+        "T.Y.5.16"
+      ],
+      "ogretmenDegerlendirmeli": true,
+      "rubrik": [
+        {
+          "olcut": "Amaca ve konuya uygunluk",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Anlam bütünlüğü ve düzen",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Örnek ve söz varlığı kullanımı",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Yazım, noktalama ve gözden geçirme",
+          "enDusuk": 0,
+          "enYuksek": 4
+        }
+      ]
+    }
+  ],
+  "lgsSorulari": []
+}

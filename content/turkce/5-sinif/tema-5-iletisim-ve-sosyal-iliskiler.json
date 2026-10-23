@@ -1,0 +1,1355 @@
+{
+  "belgeTuru": "tema",
+  "semaSurumu": "1.0",
+  "sinif": 5,
+  "program": "TYMM",
+  "tema": 5,
+  "temaAdi": "İletişim ve Sosyal İlişkiler",
+  "durum": "incelemeye_hazir",
+  "kaynak": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/78",
+  "kaynak_dogrulanmadi": false,
+  "ogrenmeCiktilari": [
+    "DYS.KY.5.9",
+    "T.D.5.16",
+    "T.D.5.17",
+    "T.D.5.19",
+    "T.D.5.2",
+    "T.D.5.20",
+    "T.D.5.4",
+    "T.D.5.7",
+    "T.D.5.8",
+    "T.K.5.10",
+    "T.K.5.13",
+    "T.K.5.18",
+    "T.K.5.19",
+    "T.K.5.21",
+    "T.K.5.4",
+    "T.O.5.1",
+    "T.O.5.12",
+    "T.O.5.20",
+    "T.O.5.3",
+    "T.O.5.5",
+    "T.O.5.8",
+    "T.O.5.9",
+    "T.Y.5.13",
+    "T.Y.5.14",
+    "T.Y.5.16",
+    "T.Y.5.2",
+    "T.Y.5.3",
+    "T.Y.5.9"
+  ],
+  "sozVarligi": {
+    "aciklama": "Tanım ve örnekler özgündür. Kelimeler aynı tema içinde bir kez yer alır.",
+    "kelimeler": [
+      {
+        "kelime": "iletişim",
+        "anlam": "İnsanların birbirine anlam aktarması",
+        "ornek": "İletişim kurarken yüzüne baktım.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "ileti",
+        "anlam": "Birine aktarılmak istenen söz veya anlam",
+        "ornek": "İletimi kısa ve açık yazdım.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "muhatap",
+        "anlam": "Bir sözün yöneltildiği kişi",
+        "ornek": "Muhatabımın sorusunu dikkatle dinledim.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "hitap",
+        "anlam": "Birine seslenirken kullanılan söz veya biçim",
+        "ornek": "Mektubun hitap bölümünü yazdım.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "nezaket",
+        "anlam": "Başkalarını gözeten ince ve saygılı davranış",
+        "ornek": "Nezaket içeren bir rica kullandım.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "rica",
+        "anlam": "Bir isteği nazikçe dile getirme",
+        "ornek": "Arkadaşıma küçük bir ricam oldu.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "öneri",
+        "anlam": "Bir durum için sunulan düşünce veya yol",
+        "ornek": "Önerimi gerekçesiyle açıkladım.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "gerekçe",
+        "anlam": "Bir düşüncenin veya davranışın nedeni",
+        "ornek": "İsteğimin gerekçesini anlattım.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "uzlaşma",
+        "anlam": "Farklı görüşler arasında ortak bir yol bulma",
+        "ornek": "Grup uzlaşma sağlamak için yeniden konuştu.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "anlaşmazlık",
+        "anlam": "Bir konuda aynı düşüncede olmama",
+        "ornek": "Anlaşmazlığı kişilere saldırmadan ele aldık.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "söz hakkı",
+        "anlam": "Konuşmaya katılabilme hakkı veya sırası",
+        "ornek": "Herkese eşit söz hakkı tanındı.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "geri bildirim",
+        "anlam": "Bir çalışma hakkında gelişmeye yardımcı bilgi",
+        "ornek": "Yazıma verilen geri bildirimi not ettim.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "mahremiyet",
+        "anlam": "Kişiye ait özel alan ve bilgilerin korunması",
+        "ornek": "Fotoğraf paylaşırken mahremiyete dikkat ettik.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "izin",
+        "anlam": "Bir davranışı yapmaya verilen onay",
+        "ornek": "Fotoğrafı kullanmadan önce izin istedim.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "sınır",
+        "anlam": "Bir kişinin rahatlık veya hak alanını belirleyen çizgi",
+        "ornek": "Arkadaşımın sınırına saygı duydum.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "yanlış anlama",
+        "anlam": "Bir iletiden amaçlanandan farklı anlam çıkarma",
+        "ornek": "Eksik bilgi yanlış anlamaya yol açtı.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "açıklık",
+        "anlam": "Bir anlatımın kolay anlaşılır olması",
+        "ornek": "Duyurumuzun açıklığını kontrol ettik.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "özet",
+        "anlam": "Bir anlatının temel bilgilerini kısaca veren metin",
+        "ornek": "Toplantının özetini panoya astık.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "diyalog",
+        "anlam": "İki veya daha fazla kişinin karşılıklı konuşması",
+        "ornek": "Diyalogda herkes birbirini dinledi.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "vurgu",
+        "anlam": "Bir sesin veya düşüncenin belirginleştirilmesi",
+        "ornek": "Konuşmamda önemli kelimeye vurgu yaptım.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "ton",
+        "anlam": "Sesin duygu ve tutumu yansıtan niteliği",
+        "ornek": "Yumuşak bir tonla cevap verdim.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "jest",
+        "anlam": "El veya kol hareketiyle anlatıma katkı",
+        "ornek": "Jestleri sözleriyle uyumluydu.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "mimik",
+        "anlam": "Yüz hareketiyle duygu veya düşünceyi gösterme",
+        "ornek": "Mimiğini görünce şaşırdığını anladım.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "selamlaşma",
+        "anlam": "Karşılaşınca karşılıklı iyi dilek veya selam iletme",
+        "ornek": "Selamlaşma konuşmamızı başlattı.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "teşekkür",
+        "anlam": "Bir iyiliğe karşı duyulan memnuniyeti dile getirme",
+        "ornek": "Yardımı için teşekkür ettim.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "özür",
+        "anlam": "Bir hatadan duyulan üzüntüyü dile getirme",
+        "ornek": "Defterini izinsiz aldığım için özür diledim.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "dinleyici",
+        "anlam": "Bir konuşmaya kulak veren kişi",
+        "ornek": "Dinleyicilerin sorularını cevapladım.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "konuşmacı",
+        "anlam": "Bir düşünceyi sözlü olarak anlatan kişi",
+        "ornek": "Konuşmacı sesini herkesin duyacağı kadar yükseltti.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "sıra",
+        "anlam": "Bir işin yapılma düzenindeki yer",
+        "ornek": "Söz sıram gelince önerimi söyledim.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      },
+      {
+        "kelime": "dayatma",
+        "anlam": "Bir düşünceyi başkasına zorla kabul ettirmeye çalışma",
+        "ornek": "Öneri sunmak dayatma yapmak değildir.",
+        "tip": "kelime",
+        "cikti": "T.O.5.20"
+      }
+    ],
+    "esAnlamlilar": [],
+    "zitAnlamlilar": [
+      [
+        "açık",
+        "kapalı"
+      ]
+    ],
+    "esSesliler": [],
+    "deyimler": [
+      {
+        "ifade": "kulak vermek",
+        "anlam": "Dikkatle dinlemek.",
+        "ornek": "Arkadaşımın önerisine kulak verdim."
+      }
+    ],
+    "atasozleri": []
+  },
+  "okumaParcalari": [
+    {
+      "id": "5-5-okuma-1",
+      "baslik": "Panodaki Yanlış Saat",
+      "tur": "oykuleyici",
+      "metin": "Sınıf kitap kulübü cuma günü küçük bir buluşma yapacaktı. Duru, hazırladığı duyuruyu panoya astı. Metinde buluşmanın yeri ve seçilen kitap yazıyordu; fakat saat bölümünü aceleyle eski bir nottan kopyalamıştı. Birkaç arkadaşı duyuruyu okuyup defterine geçirdi. Aynı gün öğretmenleri, saat değişikliğinin henüz bütün öğrencilere ulaşmadığını söyledi. Duru önce kendi notunun doğru olduğundan emindi. Sonra hazırlık sırasında hangi kaynağa baktığını tam hatırlayamadığını fark etti.\n\nErtesi sabah Mert, buluşmanın başka bir saatte olacağını duyduğunu söyledi. İki arkadaş bir süre birbirlerinin sözünü kesti. İkisi de diğerinin yanlış hatırladığını düşünüyordu. Sınıftan Elif, tartışmayı kimin haklı olduğu üzerinden sürdürmek yerine öğretmenin son duyurusunu kontrol etmeyi önerdi. Tahtada yazılı olan notla öğretmenden gelen güncel bilgiyi karşılaştırdılar. Panodaki saatin eski kaldığı anlaşıldı. Duru'nun yüzü kızardı; arkadaşlarının hazırlığını aksattığını düşündü.\n\nElif ona yalnızca hata yaptığını söylemekle yetinmedi. Duyuruyu nasıl düzeltebileceklerini sordu. Duru eski notu kaldırıp yenisini yazdı. Yeni metinde gün, saat ve yer ayrı satırlarda görünüyordu. Üstüne de değişiklik yapıldığını belirten kısa bir açıklama ekledi. Arkadaşlarından, duyuruyu okuduklarında ne anladıklarını kendi cümleleriyle söylemelerini istedi. Böylece yalnızca yazının güzel görünüp görünmediğini değil, aynı bilginin herkese ulaşıp ulaşmadığını da kontrol ettiler.\n\nBuluşma günü kimse eski saate göre beklemek zorunda kalmadı. Duru konuşmanın başında karışıklık için özür diledi ve düzeltmeye yardım edenlere teşekkür etti. Mert de önce dinleseydi tartışmanın daha kısa sürebileceğini söyledi. Kulüp, sonraki duyurular için basit bir kontrol listesi hazırladı. Bilgi güncel mi, gerekli ayrıntılar var mı, okuyan kişi aynı şeyi anlıyor mu soruları listeye eklendi. Duru panonun yanından geçerken bu kez yalnızca kendi yazısına bakmadı. Bir iletinin tamamlanması için karşı tarafta nasıl anlaşıldığını öğrenmenin de gerekli olduğunu düşünüyordu.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; ders kitabından alınmamıştır.",
+      "sorular": [
+        {
+          "id": "5-5-okuma-1-1",
+          "tip": "secim",
+          "soru": "“Panodaki Yanlış Saat” metnine göre: Duru'nun ilk duyurusundaki temel sorun nedir?",
+          "secenekler": [
+            "Kitabın kapağının çizilmesi",
+            "Buluşma yerinin okul dışında olması",
+            "Saat bilgisinin eski bir nottan alınması"
+          ],
+          "dogru": "Saat bilgisinin eski bir nottan alınması",
+          "aciklama": "Eski kaynak, güncel olmayan bilginin yayılmasına yol açar.",
+          "cikti": "T.O.5.8"
+        },
+        {
+          "id": "5-5-okuma-1-2",
+          "tip": "secim",
+          "soru": "“Panodaki Yanlış Saat” metnine göre: Elif'in önerisi tartışmayı nasıl değiştirir?",
+          "secenekler": [
+            "Eski notun doğru kabul edilmesini zorunlu kılar",
+            "Kişileri suçlamaktan bilgiyi doğrulamaya yöneltir",
+            "Herkesin yalnızca daha yüksek sesle konuşmasını sağlar"
+          ],
+          "dogru": "Kişileri suçlamaktan bilgiyi doğrulamaya yöneltir",
+          "aciklama": "Elif haklılık yarışına değil güncel kaynağı kontrol etmeye odaklanır.",
+          "cikti": "T.O.5.12"
+        },
+        {
+          "id": "5-5-okuma-1-3",
+          "tip": "secim",
+          "soru": "“Panodaki Yanlış Saat” metnine göre: Duru'nun yüzünün kızarmasından ne anlaşılabilir?",
+          "secenekler": [
+            "Hatasından dolayı utanmış veya mahcup hissetmiş olabilir",
+            "Duyuruyu hiç önemsememektedir",
+            "Mert'in adını unutmuştur"
+          ],
+          "dogru": "Hatasından dolayı utanmış veya mahcup hissetmiş olabilir",
+          "aciklama": "Sonraki kaygısı ve düzeltme davranışı mahcubiyet yorumunu destekler; kesin iç düşünce uydurulmaz.",
+          "cikti": "T.O.5.8"
+        },
+        {
+          "id": "5-5-okuma-1-4",
+          "tip": "secim",
+          "soru": "“Panodaki Yanlış Saat” metnine göre: Yeni duyurudaki ayrı satırlar hangi amaca hizmet eder?",
+          "secenekler": [
+            "Saat bilgisinin saklanmasına",
+            "Metnin yalnızca yazarı tarafından anlaşılmasına",
+            "Gün, saat ve yerin kolay ayırt edilmesine"
+          ],
+          "dogru": "Gün, saat ve yerin kolay ayırt edilmesine",
+          "aciklama": "Düzenleme gerekli bilgileri belirginleştirerek iletiyi anlaşılır kılar.",
+          "cikti": "T.O.5.12"
+        },
+        {
+          "id": "5-5-okuma-1-5",
+          "tip": "secim",
+          "soru": "“Panodaki Yanlış Saat” metnine göre: Arkadaşların duyuruyu kendi cümleleriyle anlatması neyi kontrol eder?",
+          "secenekler": [
+            "Kitabın kime ait olduğunu",
+            "Bilginin aynı anlamda anlaşılıp anlaşılmadığını",
+            "Herkesin aynı el yazısını kullanıp kullanmadığını"
+          ],
+          "dogru": "Bilginin aynı anlamda anlaşılıp anlaşılmadığını",
+          "aciklama": "Geri anlatım, iletinin karşı tarafta oluşturduğu anlamı gösterir.",
+          "cikti": "T.O.5.8"
+        },
+        {
+          "id": "5-5-okuma-1-6",
+          "tip": "secim",
+          "soru": "“Panodaki Yanlış Saat” metnine göre: “Güncel” sözcüğü hangi anlamda kullanılmıştır?",
+          "secenekler": [
+            "Son duruma uygun olan",
+            "Çok eski olduğu için değişmeyen",
+            "Yalnızca renkli kalemle yazılan"
+          ],
+          "dogru": "Son duruma uygun olan",
+          "aciklama": "Güncel duyuru, değişmiş buluşma saatini içeren duyurudur.",
+          "cikti": "T.O.5.5"
+        },
+        {
+          "id": "5-5-okuma-1-7",
+          "tip": "secim",
+          "soru": "“Panodaki Yanlış Saat” metnine göre: Metindeki davranışları değerlendiren en uygun yorum hangisidir?",
+          "secenekler": [
+            "Özür dilemek yerine yanlış bilgi gizlenmiştir",
+            "Bütün sorumluluk duyuruyu okuyanlara yüklenmiştir",
+            "Hata kabul edilip düzeltme ve kontrol yolu geliştirilmiştir"
+          ],
+          "dogru": "Hata kabul edilip düzeltme ve kontrol yolu geliştirilmiştir",
+          "aciklama": "Özür, düzeltme ve yeni kontrol listesi birlikte sorumluluk alındığını gösterir.",
+          "cikti": "T.O.5.12"
+        },
+        {
+          "id": "5-5-okuma-1-8",
+          "tip": "secim",
+          "soru": "“Panodaki Yanlış Saat” metnine göre: Son kontrol listesi hangi yeni sorunu azaltabilir?",
+          "secenekler": [
+            "Hiç kimsenin soru sormamasını",
+            "Eski veya eksik bilginin yeniden paylaşılmasını",
+            "Bütün görüş ayrılıklarının sonsuza dek bitmesini"
+          ],
+          "dogru": "Eski veya eksik bilginin yeniden paylaşılmasını",
+          "aciklama": "Liste, belirli bir iletişim hatasını önlemeye yöneliktir; her sorunu çözeceği söylenmez.",
+          "cikti": "T.O.5.9"
+        }
+      ]
+    },
+    {
+      "id": "5-5-okuma-2",
+      "baslik": "Bir İletiyi Yeniden Okumak",
+      "tur": "bilgilendirici",
+      "metin": "Bir iletiyi yazmak kadar, karşı tarafın onu nasıl anlayacağını düşünmek de önemlidir. Aynı kelimeler farklı ortamlarda farklı etkiler oluşturabilir. Bir arkadaşımıza hemen gel dediğimizde isteğimizin nedenini söylememiş oluruz. O kişi acil bir durum olduğunu düşünebilir veya kendisine emir verildiğini hissedebilir. Oysa grup çalışmasının başlayacağını açıklayıp uygun bir dille çağırmak, isteği daha anlaşılır kılar. Burada amaç her cümleyi uzatmak değil, gerekli bilgiyi ve uygun tonu birlikte seçmektir.\n\nBir sınıf, bu durumu incelemek için aynı iş hakkında yazılmış iki kurmaca ileti hazırladı. İlkinde yalnızca kitabı getir yazıyordu. İkincisinde ise yarınki okuma çalışması için sınıf kitaplığından alınan kitabın getirilmesi rica ediliyordu. İki metin aynı uzunlukta değildi. İkinci metin, hangi kitabın ne zaman ve niçin gerektiğini daha açık gösteriyordu. Öğrenciler kısalığın her zaman açıklık anlamına gelmediğini bu karşılaştırmada fark etti.\n\nArdından iletilerde varsayım olup olmadığını araştırdılar. Herkes duyuruyu görmüştür düşüncesi, kimi öğrencilerin bilgiye ulaşmamış olabileceğini gözden kaçırıyordu. Bu yüzden önemli bir değişiklik yapıldığında birden fazla uygun yolla haber vermeyi tartıştılar. Ancak haber vermek adına kişisel telefon numaralarını veya özel konuşmaları panoda paylaşmayı doğru bulmadılar. İletişimi kolaylaştırmak, başkasının özel alanını ortadan kaldırmak anlamına gelmiyordu. Gerektiğinde öğretmenden güvenli bir iletişim yolu konusunda yardım istediler.\n\nSon çalışmada herkes kısa bir duyuruyu yeniden yazdı. Önce iletinin amacını, sonra gerekli bilgileri belirledi. Yazıyı bitiren öğrenci, metni başka bir arkadaşına okuyup hangi noktaların açık olmadığını sordu. Gelen geri bildirim bir kusur listesi olarak görülmedi. Söylenmek istenenle anlaşılan arasındaki farkı görmeye yarayan bir fırsat sayıldı. Öğrenciler bir iletinin tek seferde kusursuz olmak zorunda olmadığını öğrendi. Dinlemek, soru sormak ve gerektiğinde yeniden yazmak da iletişim sürecinin bir parçasıydı. Aynı düşünceyi farklı cümlelerle anlatmak, anlamı koruyarak yapılması gereken dikkatli bir çalışmaydı.",
+      "kaynak": "Diji Medu Türkçe için özgün yazılmıştır; ders kitabından alınmamıştır.",
+      "sorular": [
+        {
+          "id": "5-5-okuma-2-1",
+          "tip": "secim",
+          "soru": "“Bir İletiyi Yeniden Okumak” metnine göre: İlk paragraftaki iki çağrı biçimi hangi yönden karşılaştırılır?",
+          "secenekler": [
+            "İçerdikleri kişisel adresler bakımından",
+            "Gerekçe ve ton bakımından",
+            "Yalnızca harflerin yüksekliği bakımından"
+          ],
+          "dogru": "Gerekçe ve ton bakımından",
+          "aciklama": "Aynı isteğin açıklama ve nezaketle nasıl farklı anlaşılabileceği ele alınır.",
+          "cikti": "T.O.5.12"
+        },
+        {
+          "id": "5-5-okuma-2-2",
+          "tip": "secim",
+          "soru": "“Bir İletiyi Yeniden Okumak” metnine göre: İkinci kitap iletisinin daha açık olmasının nedeni nedir?",
+          "secenekler": [
+            "Hangi kitap, ne zaman ve niçin sorularını cevaplaması",
+            "Daha uzun olan her iletinin doğru olması",
+            "Hiçbir istekte bulunmaması"
+          ],
+          "dogru": "Hangi kitap, ne zaman ve niçin sorularını cevaplaması",
+          "aciklama": "Açıklık yalnızca uzunlukla değil gerekli bilgilerin verilmesiyle ilişkilidir.",
+          "cikti": "T.O.5.8"
+        },
+        {
+          "id": "5-5-okuma-2-3",
+          "tip": "secim",
+          "soru": "“Bir İletiyi Yeniden Okumak” metnine göre: “Herkes duyuruyu görmüştür” düşüncesinde hangi sorun olabilir?",
+          "secenekler": [
+            "Duyurunun yalnızca kâğıda yazılması",
+            "Her okuyucunun aynı yaşta olması",
+            "Bilgiye ulaşmamış kişileri hesaba katmaması"
+          ],
+          "dogru": "Bilgiye ulaşmamış kişileri hesaba katmaması",
+          "aciklama": "Metin, bilgiye erişimin bütün öğrenciler için aynı olmayabileceğini hatırlatır.",
+          "cikti": "T.O.5.9"
+        },
+        {
+          "id": "5-5-okuma-2-4",
+          "tip": "secim",
+          "soru": "“Bir İletiyi Yeniden Okumak” metnine göre: Öğrenciler kişisel numaraları panoya yazmayı neden uygun bulmaz?",
+          "secenekler": [
+            "Duyurularda rakam kullanılamadığı için",
+            "İletişimde özel alanı korumak gerektiği için",
+            "Hiç kimseye haber vermek istemedikleri için"
+          ],
+          "dogru": "İletişimde özel alanı korumak gerektiği için",
+          "aciklama": "Mahremiyet gözetilerek güvenli iletişim yolu aranır.",
+          "cikti": "T.O.5.12"
+        },
+        {
+          "id": "5-5-okuma-2-5",
+          "tip": "secim",
+          "soru": "“Bir İletiyi Yeniden Okumak” metnine göre: Geri bildirim bu metinde neye yardımcı olur?",
+          "secenekler": [
+            "Amaçlanan anlam ile anlaşılan anlam arasındaki farkı görmeye",
+            "Yazarı herkesin önünde etiketlemeye",
+            "İletinin amacını tamamen unutmaya"
+          ],
+          "dogru": "Amaçlanan anlam ile anlaşılan anlam arasındaki farkı görmeye",
+          "aciklama": "Son bölüm geri bildirimi anlamı geliştirme fırsatı olarak açıklar.",
+          "cikti": "T.O.5.8"
+        },
+        {
+          "id": "5-5-okuma-2-6",
+          "tip": "secim",
+          "soru": "“Bir İletiyi Yeniden Okumak” metnine göre: “Varsayım” kelimesinin bağlamdaki anlamı nedir?",
+          "secenekler": [
+            "Kesinliği her kaynakla kanıtlanmış bilgi",
+            "Bir metnin sonundaki imza",
+            "Doğruluğu ayrıca kontrol edilmeden kabul edilen düşünce"
+          ],
+          "dogru": "Doğruluğu ayrıca kontrol edilmeden kabul edilen düşünce",
+          "aciklama": "Herkesin duyuruyu gördüğünü kontrol etmeden kabul etmek bir varsayımdır.",
+          "cikti": "T.O.5.5"
+        },
+        {
+          "id": "5-5-okuma-2-7",
+          "tip": "secim",
+          "soru": "“Bir İletiyi Yeniden Okumak” metnine göre: Metnin bütününe uygun yorum hangisidir?",
+          "secenekler": [
+            "Anlaşılmayan sözlerden yalnızca dinleyici sorumludur",
+            "İletişim, yazma kadar dinleme ve yeniden düzenlemeyi de içerir",
+            "Bir ileti ilk yazıldığında asla değiştirilemez"
+          ],
+          "dogru": "İletişim, yazma kadar dinleme ve yeniden düzenlemeyi de içerir",
+          "aciklama": "Metin iki taraflı anlam kontrolünü ve yeniden yazmayı birlikte önemser.",
+          "cikti": "T.O.5.12"
+        },
+        {
+          "id": "5-5-okuma-2-8",
+          "tip": "secim",
+          "soru": "“Bir İletiyi Yeniden Okumak” metnine göre: Duyuruyu yeniden yazarken korunması gereken nedir?",
+          "secenekler": [
+            "Temel anlam ve amaç",
+            "Bütün kelimelerin aynı sırada bulunması",
+            "İlk yazıdaki eksik bilgilerin aynen kalması"
+          ],
+          "dogru": "Temel anlam ve amaç",
+          "aciklama": "Farklı cümle kurmak, asıl isteği değiştirmek değil daha açık anlatmaktır.",
+          "cikti": "T.O.5.8"
+        }
+      ]
+    }
+  ],
+  "konular": [
+    {
+      "kod": "5-5-zaman-baglac",
+      "ad": "Zaman bildiren bağlantı ifadeleri (önce, sonra, bu sırada…)",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.K.5.19",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Zaman bağlantıları olayların hangi sırayla gerçekleştiğini veya aynı anda olup olmadığını gösterir. Önce ve ilk olarak önceliği, ardından ve son olarak sonralığı anlatabilir. Aynı anda ve bu sırada ise eş zamanlılığı gösterebilir. Birden çok olay içeren bir anlatıda bu ifadeler dinleyenin süreci izlemesini kolaylaştırır. Bağlantıyı değiştirirken olayların gerçek sırasını değiştirmemeye dikkat ederiz.</p><ul><li>Önce okuduk, sonra yazdık.</li><li>Bu sırada arkadaşım dinledi.</li><li>Son olarak kontrol ettik.</li></ul>",
+      "ornekler": [
+        "Önce okuduk, sonra yazdık.",
+        "Bu sırada arkadaşım dinledi.",
+        "Son olarak kontrol ettik."
+      ],
+      "testler": [
+        {
+          "id": "5-5-zaman-baglac-1",
+          "tip": "secim",
+          "soru": "“Önce duyuruyu okuduk, sonra sorularımızı yazdık.” cümlesinde “Önce” hangi zaman ilişkisini kurar?",
+          "secenekler": [
+            "eş zamanlılık",
+            "öncelik",
+            "sonralık"
+          ],
+          "dogru": "öncelik",
+          "aciklama": "“Önce” burada öncelik bildirerek olayları zaman bakımından ilişkilendirir.",
+          "cikti": "T.K.5.19"
+        },
+        {
+          "id": "5-5-zaman-baglac-2",
+          "tip": "secim",
+          "soru": "“Sunum bitti, ardından sorular başladı.” cümlesinde “ardından” hangi zaman ilişkisini kurar?",
+          "secenekler": [
+            "sonralık",
+            "öncelik",
+            "eş zamanlılık"
+          ],
+          "dogru": "sonralık",
+          "aciklama": "“ardından” burada sonralık bildirerek olayları zaman bakımından ilişkilendirir.",
+          "cikti": "T.K.5.19"
+        },
+        {
+          "id": "5-5-zaman-baglac-3",
+          "tip": "secim",
+          "soru": "“Ben yazarken bu sırada arkadaşım okudu.” cümlesinde “bu sırada” hangi zaman ilişkisini kurar?",
+          "secenekler": [
+            "öncelik",
+            "sonralık",
+            "eş zamanlılık"
+          ],
+          "dogru": "eş zamanlılık",
+          "aciklama": "“bu sırada” burada eş zamanlılık bildirerek olayları zaman bakımından ilişkilendirir.",
+          "cikti": "T.K.5.19"
+        },
+        {
+          "id": "5-5-zaman-baglac-4",
+          "tip": "secim",
+          "soru": "“İlk olarak buluşmanın yerini belirledik.” cümlesinde “İlk olarak” hangi zaman ilişkisini kurar?",
+          "secenekler": [
+            "eş zamanlılık",
+            "öncelik",
+            "sonralık"
+          ],
+          "dogru": "öncelik",
+          "aciklama": "“İlk olarak” burada öncelik bildirerek olayları zaman bakımından ilişkilendirir.",
+          "cikti": "T.K.5.19"
+        },
+        {
+          "id": "5-5-zaman-baglac-5",
+          "tip": "secim",
+          "soru": "“Öncelikle metnin amacını düşündük.” cümlesinde “Öncelikle” hangi zaman ilişkisini kurar?",
+          "secenekler": [
+            "öncelik",
+            "sonralık",
+            "eş zamanlılık"
+          ],
+          "dogru": "öncelik",
+          "aciklama": "“Öncelikle” burada öncelik bildirerek olayları zaman bakımından ilişkilendirir.",
+          "cikti": "T.K.5.19"
+        },
+        {
+          "id": "5-5-zaman-baglac-6",
+          "tip": "secim",
+          "soru": "“Notları aldık, daha sonra özeti hazırladık.” cümlesinde “daha sonra” hangi zaman ilişkisini kurar?",
+          "secenekler": [
+            "öncelik",
+            "eş zamanlılık",
+            "sonralık"
+          ],
+          "dogru": "sonralık",
+          "aciklama": "“daha sonra” burada sonralık bildirerek olayları zaman bakımından ilişkilendirir.",
+          "cikti": "T.K.5.19"
+        },
+        {
+          "id": "5-5-zaman-baglac-7",
+          "tip": "secim",
+          "soru": "“Son olarak bütün duyuruyu kontrol ettik.” cümlesinde “Son olarak” hangi zaman ilişkisini kurar?",
+          "secenekler": [
+            "eş zamanlılık",
+            "sonralık",
+            "öncelik"
+          ],
+          "dogru": "sonralık",
+          "aciklama": "“Son olarak” burada sonralık bildirerek olayları zaman bakımından ilişkilendirir.",
+          "cikti": "T.K.5.19"
+        },
+        {
+          "id": "5-5-zaman-baglac-8",
+          "tip": "secim",
+          "soru": "“Aynı anda iki grup farklı afişleri inceledi.” cümlesinde “Aynı anda” hangi zaman ilişkisini kurar?",
+          "secenekler": [
+            "eş zamanlılık",
+            "öncelik",
+            "sonralık"
+          ],
+          "dogru": "eş zamanlılık",
+          "aciklama": "“Aynı anda” burada eş zamanlılık bildirerek olayları zaman bakımından ilişkilendirir.",
+          "cikti": "T.K.5.19"
+        },
+        {
+          "id": "5-5-zaman-baglac-9",
+          "tip": "secim",
+          "soru": "“Bir yandan dinledim, bir yandan not tuttum.” cümlesinde “Bir yandan ... bir yandan” hangi zaman ilişkisini kurar?",
+          "secenekler": [
+            "öncelik",
+            "sonralık",
+            "eş zamanlılık"
+          ],
+          "dogru": "eş zamanlılık",
+          "aciklama": "“Bir yandan ... bir yandan” burada eş zamanlılık bildirerek olayları zaman bakımından ilişkilendirir.",
+          "cikti": "T.K.5.19"
+        },
+        {
+          "id": "5-5-zaman-baglac-10",
+          "tip": "secim",
+          "soru": "“Önce soruyu anladık, en sonunda cevap verdik.” cümlesinde “en sonunda” hangi zaman ilişkisini kurar?",
+          "secenekler": [
+            "eş zamanlılık",
+            "sonralık",
+            "öncelik"
+          ],
+          "dogru": "sonralık",
+          "aciklama": "“en sonunda” burada sonralık bildirerek olayları zaman bakımından ilişkilendirir.",
+          "cikti": "T.K.5.19"
+        }
+      ]
+    },
+    {
+      "kod": "5-5-buyuk-harf",
+      "ad": "Büyük harflerin yazımı (3. bölüm)",
+      "kategori": "yazim-noktalama",
+      "cikti": "T.Y.5.16",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Kurum ve kuruluş adlarının kelimeleri büyük harfle başlar. Eser adlarında da temel kelimeler büyük yazılır; başlık içindeki ve gibi bağlaçlar, başlığın tamamı büyük yazılmıyorsa küçük kalabilir. Büyük harfli kısaltmalarda harflerin tamamı büyüktür. Bu ders, normal başlık ve cümle yazımını ele alır. Tasarım amacıyla bütün başlığın büyük yazıldığı bir afişle normal yazımı karıştırmayız.</p><ul><li>Türk Dil Kurumu</li><li>Dil ve Tarih</li><li>TDK</li></ul>",
+      "ornekler": [
+        "Türk Dil Kurumu",
+        "Dil ve Tarih",
+        "TDK"
+      ],
+      "testler": [
+        {
+          "id": "5-5-buyuk-harf-1",
+          "tip": "secim",
+          "soru": "Normal başlık ve kısaltma yazımında aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "Türk dil Kurumu",
+            "türk Dil Kurumu",
+            "Türk Dil Kurumu"
+          ],
+          "dogru": "Türk Dil Kurumu",
+          "aciklama": "Kurum adında kelimeler büyük başlar; normal eser başlığındaki ve küçük, büyük harfli kısaltmanın harfleri büyük yazılır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-5-buyuk-harf-2",
+          "tip": "secim",
+          "soru": "Normal başlık ve kısaltma yazımında aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "Türkiye Büyük millet Meclisi",
+            "Türkiye Büyük Millet Meclisi",
+            "Türkiye büyük Millet Meclisi"
+          ],
+          "dogru": "Türkiye Büyük Millet Meclisi",
+          "aciklama": "Kurum adında kelimeler büyük başlar; normal eser başlığındaki ve küçük, büyük harfli kısaltmanın harfleri büyük yazılır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-5-buyuk-harf-3",
+          "tip": "secim",
+          "soru": "Normal başlık ve kısaltma yazımında aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "Millî Eğitim Bakanlığı",
+            "Millî eğitim Bakanlığı",
+            "millî Eğitim Bakanlığı"
+          ],
+          "dogru": "Millî Eğitim Bakanlığı",
+          "aciklama": "Kurum adında kelimeler büyük başlar; normal eser başlığındaki ve küçük, büyük harfli kısaltmanın harfleri büyük yazılır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-5-buyuk-harf-4",
+          "tip": "secim",
+          "soru": "Normal başlık ve kısaltma yazımında aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "Ankara üniversitesi",
+            "ankara Üniversitesi",
+            "Ankara Üniversitesi"
+          ],
+          "dogru": "Ankara Üniversitesi",
+          "aciklama": "Kurum adında kelimeler büyük başlar; normal eser başlığındaki ve küçük, büyük harfli kısaltmanın harfleri büyük yazılır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-5-buyuk-harf-5",
+          "tip": "secim",
+          "soru": "Normal başlık ve kısaltma yazımında aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "istiklâl Marşı",
+            "İstiklâl Marşı",
+            "İstiklâl marşı"
+          ],
+          "dogru": "İstiklâl Marşı",
+          "aciklama": "Kurum adında kelimeler büyük başlar; normal eser başlığındaki ve küçük, büyük harfli kısaltmanın harfleri büyük yazılır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-5-buyuk-harf-6",
+          "tip": "secim",
+          "soru": "Normal başlık ve kısaltma yazımında aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "Dil ve Tarih",
+            "Dil Ve Tarih",
+            "dil ve Tarih"
+          ],
+          "dogru": "Dil ve Tarih",
+          "aciklama": "Kurum adında kelimeler büyük başlar; normal eser başlığındaki ve küçük, büyük harfli kısaltmanın harfleri büyük yazılır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-5-buyuk-harf-7",
+          "tip": "secim",
+          "soru": "Normal başlık ve kısaltma yazımında aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "Kültür Ve İletişim",
+            "kültür ve İletişim",
+            "Kültür ve İletişim"
+          ],
+          "dogru": "Kültür ve İletişim",
+          "aciklama": "Kurum adında kelimeler büyük başlar; normal eser başlığındaki ve küçük, büyük harfli kısaltmanın harfleri büyük yazılır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-5-buyuk-harf-8",
+          "tip": "secim",
+          "soru": "Normal başlık ve kısaltma yazımında aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "tdk",
+            "TDK",
+            "Tdk"
+          ],
+          "dogru": "TDK",
+          "aciklama": "Kurum adında kelimeler büyük başlar; normal eser başlığındaki ve küçük, büyük harfli kısaltmanın harfleri büyük yazılır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-5-buyuk-harf-9",
+          "tip": "secim",
+          "soru": "Normal başlık ve kısaltma yazımında aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "TBMM",
+            "Tbmm",
+            "tbmm"
+          ],
+          "dogru": "TBMM",
+          "aciklama": "Kurum adında kelimeler büyük başlar; normal eser başlığındaki ve küçük, büyük harfli kısaltmanın harfleri büyük yazılır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-5-buyuk-harf-10",
+          "tip": "secim",
+          "soru": "Normal başlık ve kısaltma yazımında aşağıdaki seçeneklerden hangisi doğru yazılmıştır?",
+          "secenekler": [
+            "Meb",
+            "meb",
+            "MEB"
+          ],
+          "dogru": "MEB",
+          "aciklama": "Kurum adında kelimeler büyük başlar; normal eser başlığındaki ve küçük, büyük harfli kısaltmanın harfleri büyük yazılır.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        }
+      ]
+    },
+    {
+      "kod": "5-5-tirnak",
+      "ad": "Tırnak işaretinin kullanımı",
+      "kategori": "yazim-noktalama",
+      "cikti": "T.Y.5.16",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Başkasının sözünü olduğu gibi aktarırken tırnak işaretinden yararlanabiliriz. Tırnaklar aktarımın nerede başlayıp bittiğini gösterir. Sözü değiştirip kendi cümlemizle anlatıyorsak doğrudan alıntı yapmış gibi göstermeyiz. Özel olarak vurgulanan bir söz de tırnak içine alınabilir. Buradaki konuşmalar alıştırma için yazılmış kurmaca örneklerdir; tarihsel kişilere ait alıntı olarak sunulmaz.</p><ul><li>Ece, “Bir sorum var.” dedi.</li><li>Panoda “dinleme” sözü vurgulandı.</li><li>Duru, “Teşekkür ederim.” dedi.</li></ul>",
+      "ornekler": [
+        "Ece, “Bir sorum var.” dedi.",
+        "Panoda “dinleme” sözü vurgulandı.",
+        "Duru, “Teşekkür ederim.” dedi."
+      ],
+      "testler": [
+        {
+          "id": "5-5-tirnak-1",
+          "tip": "secim",
+          "soru": "Kurmaca bir konuşmada Ece’nin söylediği söz “Önce birbirimizi dinleyelim.” biçimindedir. Doğrudan aktarımın sınırları hangi seçenekte doğru gösterilmiştir?",
+          "secenekler": [
+            "Ece, “Önce birbirimizi dinleyelim.” dedi.",
+            "Ece, “Önce birbirimizi dinleyelim. dedi.",
+            "Ece, Önce birbirimizi dinleyelim.” dedi."
+          ],
+          "dogru": "Ece, “Önce birbirimizi dinleyelim.” dedi.",
+          "aciklama": "Doğrudan aktarılan sözün hem başlangıcı hem sonu tırnakla belirtilmelidir.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-5-tirnak-2",
+          "tip": "secim",
+          "soru": "Kurmaca bir konuşmada Ece’nin söylediği söz “Duyuruyu yeniden yazalım.” biçimindedir. Doğrudan aktarımın sınırları hangi seçenekte doğru gösterilmiştir?",
+          "secenekler": [
+            "Ece, “Duyuruyu yeniden yazalım. dedi.",
+            "Ece, Duyuruyu yeniden yazalım.” dedi.",
+            "Ece, “Duyuruyu yeniden yazalım.” dedi."
+          ],
+          "dogru": "Ece, “Duyuruyu yeniden yazalım.” dedi.",
+          "aciklama": "Doğrudan aktarılan sözün hem başlangıcı hem sonu tırnakla belirtilmelidir.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-5-tirnak-3",
+          "tip": "secim",
+          "soru": "Kurmaca bir konuşmada Ece’nin söylediği söz “Bir sorum daha var.” biçimindedir. Doğrudan aktarımın sınırları hangi seçenekte doğru gösterilmiştir?",
+          "secenekler": [
+            "Ece, Bir sorum daha var.” dedi.",
+            "Ece, “Bir sorum daha var.” dedi.",
+            "Ece, “Bir sorum daha var. dedi."
+          ],
+          "dogru": "Ece, “Bir sorum daha var.” dedi.",
+          "aciklama": "Doğrudan aktarılan sözün hem başlangıcı hem sonu tırnakla belirtilmelidir.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-5-tirnak-4",
+          "tip": "secim",
+          "soru": "Kurmaca bir konuşmada Ece’nin söylediği söz “Buluşma saatini kontrol ettim.” biçimindedir. Doğrudan aktarımın sınırları hangi seçenekte doğru gösterilmiştir?",
+          "secenekler": [
+            "Ece, “Buluşma saatini kontrol ettim.” dedi.",
+            "Ece, “Buluşma saatini kontrol ettim. dedi.",
+            "Ece, Buluşma saatini kontrol ettim.” dedi."
+          ],
+          "dogru": "Ece, “Buluşma saatini kontrol ettim.” dedi.",
+          "aciklama": "Doğrudan aktarılan sözün hem başlangıcı hem sonu tırnakla belirtilmelidir.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-5-tirnak-5",
+          "tip": "secim",
+          "soru": "Kurmaca bir konuşmada Ece’nin söylediği söz “Yardımın için teşekkür ederim.” biçimindedir. Doğrudan aktarımın sınırları hangi seçenekte doğru gösterilmiştir?",
+          "secenekler": [
+            "Ece, “Yardımın için teşekkür ederim. dedi.",
+            "Ece, Yardımın için teşekkür ederim.” dedi.",
+            "Ece, “Yardımın için teşekkür ederim.” dedi."
+          ],
+          "dogru": "Ece, “Yardımın için teşekkür ederim.” dedi.",
+          "aciklama": "Doğrudan aktarılan sözün hem başlangıcı hem sonu tırnakla belirtilmelidir.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-5-tirnak-6",
+          "tip": "secim",
+          "soru": "Kurmaca bir konuşmada Ece’nin söylediği söz “Herkese söz hakkı verelim.” biçimindedir. Doğrudan aktarımın sınırları hangi seçenekte doğru gösterilmiştir?",
+          "secenekler": [
+            "Ece, Herkese söz hakkı verelim.” dedi.",
+            "Ece, “Herkese söz hakkı verelim.” dedi.",
+            "Ece, “Herkese söz hakkı verelim. dedi."
+          ],
+          "dogru": "Ece, “Herkese söz hakkı verelim.” dedi.",
+          "aciklama": "Doğrudan aktarılan sözün hem başlangıcı hem sonu tırnakla belirtilmelidir.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-5-tirnak-7",
+          "tip": "secim",
+          "soru": "Kurmaca bir konuşmada Ece’nin söylediği söz “Yanlış anlaşılmayı düzelttik.” biçimindedir. Doğrudan aktarımın sınırları hangi seçenekte doğru gösterilmiştir?",
+          "secenekler": [
+            "Ece, “Yanlış anlaşılmayı düzelttik.” dedi.",
+            "Ece, “Yanlış anlaşılmayı düzelttik. dedi.",
+            "Ece, Yanlış anlaşılmayı düzelttik.” dedi."
+          ],
+          "dogru": "Ece, “Yanlış anlaşılmayı düzelttik.” dedi.",
+          "aciklama": "Doğrudan aktarılan sözün hem başlangıcı hem sonu tırnakla belirtilmelidir.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-5-tirnak-8",
+          "tip": "secim",
+          "soru": "Kurmaca bir konuşmada Ece’nin söylediği söz “Notları kendi cümlelerinle anlat.” biçimindedir. Doğrudan aktarımın sınırları hangi seçenekte doğru gösterilmiştir?",
+          "secenekler": [
+            "Ece, “Notları kendi cümlelerinle anlat. dedi.",
+            "Ece, Notları kendi cümlelerinle anlat.” dedi.",
+            "Ece, “Notları kendi cümlelerinle anlat.” dedi."
+          ],
+          "dogru": "Ece, “Notları kendi cümlelerinle anlat.” dedi.",
+          "aciklama": "Doğrudan aktarılan sözün hem başlangıcı hem sonu tırnakla belirtilmelidir.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-5-tirnak-9",
+          "tip": "secim",
+          "soru": "Kurmaca bir konuşmada Ece’nin söylediği söz “Panodaki bilgi güncellendi.” biçimindedir. Doğrudan aktarımın sınırları hangi seçenekte doğru gösterilmiştir?",
+          "secenekler": [
+            "Ece, Panodaki bilgi güncellendi.” dedi.",
+            "Ece, “Panodaki bilgi güncellendi.” dedi.",
+            "Ece, “Panodaki bilgi güncellendi. dedi."
+          ],
+          "dogru": "Ece, “Panodaki bilgi güncellendi.” dedi.",
+          "aciklama": "Doğrudan aktarılan sözün hem başlangıcı hem sonu tırnakla belirtilmelidir.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        },
+        {
+          "id": "5-5-tirnak-10",
+          "tip": "secim",
+          "soru": "Kurmaca bir konuşmada Ece’nin söylediği söz “Sıranı beklediğin için teşekkürler.” biçimindedir. Doğrudan aktarımın sınırları hangi seçenekte doğru gösterilmiştir?",
+          "secenekler": [
+            "Ece, “Sıranı beklediğin için teşekkürler.” dedi.",
+            "Ece, “Sıranı beklediğin için teşekkürler. dedi.",
+            "Ece, Sıranı beklediğin için teşekkürler.” dedi."
+          ],
+          "dogru": "Ece, “Sıranı beklediğin için teşekkürler.” dedi.",
+          "aciklama": "Doğrudan aktarılan sözün hem başlangıcı hem sonu tırnakla belirtilmelidir.",
+          "cikti": "T.Y.5.16",
+          "yazimDuyarli": true
+        }
+      ]
+    },
+    {
+      "kod": "5-5-anlam-butunlugu",
+      "ad": "Anlamca çelişen sözcükler (anlam bütünlüğü)",
+      "kategori": "dil-bilgisi",
+      "cikti": "T.Y.5.13",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Bir cümledeki sözler anlam bakımından birbiriyle uyumlu olmalıdır. Aynı yargıyı hem kesin hem belirsiz olarak sunmak çelişki oluşturabilir. Kesinlikle belki gelecek örneğinde hangi kesinlik düzeyinin anlatılmak istendiği açık değildir. Düzeltirken amaçlanan anlamı seçer, uygun olmayan sözü çıkarırız. Ancak farklı yargılar veya bir kişinin karışık duyguları, yalnızca farklı oldukları için çelişki sayılmaz.</p><ul><li>Kesinlikle gelecek.</li><li>Belki gelecek.</li><li>Yaklaşık on dakika sürdü.</li></ul>",
+      "ornekler": [
+        "Kesinlikle gelecek.",
+        "Belki gelecek.",
+        "Yaklaşık on dakika sürdü."
+      ],
+      "testler": [
+        {
+          "id": "5-5-anlam-butunlugu-1",
+          "tip": "secim",
+          "soru": "“kesinlikle belki gelecek” sözündeki çelişen kesinlik veya miktar ifadeleri giderildiğinde hangi seçenek tutarlı olur?",
+          "secenekler": [
+            "Belki kesinlikle gelecek.",
+            "Kesinlikle gelecek.",
+            "Kesinlikle belki gelecek."
+          ],
+          "dogru": "Kesinlikle gelecek.",
+          "aciklama": "Kesinlik, belirsizlik veya miktar bakımından çatışan sözlerden biri çıkarılınca yargı tutarlı hâle gelir.",
+          "cikti": "T.Y.5.13"
+        },
+        {
+          "id": "5-5-anlam-butunlugu-2",
+          "tip": "secim",
+          "soru": "“tam olarak yaklaşık on dakika” sözündeki çelişen kesinlik veya miktar ifadeleri giderildiğinde hangi seçenek tutarlı olur?",
+          "secenekler": [
+            "Yaklaşık on dakika.",
+            "Tam olarak yaklaşık on dakika.",
+            "Yaklaşık tam olarak on dakika."
+          ],
+          "dogru": "Yaklaşık on dakika.",
+          "aciklama": "Kesinlik, belirsizlik veya miktar bakımından çatışan sözlerden biri çıkarılınca yargı tutarlı hâle gelir.",
+          "cikti": "T.Y.5.13"
+        },
+        {
+          "id": "5-5-anlam-butunlugu-3",
+          "tip": "secim",
+          "soru": "“eminim galiba duydu” sözündeki çelişen kesinlik veya miktar ifadeleri giderildiğinde hangi seçenek tutarlı olur?",
+          "secenekler": [
+            "Eminim galiba duydu.",
+            "Galiba eminim duydu.",
+            "Eminim duydu."
+          ],
+          "dogru": "Eminim duydu.",
+          "aciklama": "Kesinlik, belirsizlik veya miktar bakımından çatışan sözlerden biri çıkarılınca yargı tutarlı hâle gelir.",
+          "cikti": "T.Y.5.13"
+        },
+        {
+          "id": "5-5-anlam-butunlugu-4",
+          "tip": "secim",
+          "soru": "“mutlaka belki katılır” sözündeki çelişen kesinlik veya miktar ifadeleri giderildiğinde hangi seçenek tutarlı olur?",
+          "secenekler": [
+            "Belki mutlaka katılır.",
+            "Belki katılır.",
+            "Mutlaka belki katılır."
+          ],
+          "dogru": "Belki katılır.",
+          "aciklama": "Kesinlik, belirsizlik veya miktar bakımından çatışan sözlerden biri çıkarılınca yargı tutarlı hâle gelir.",
+          "cikti": "T.Y.5.13"
+        },
+        {
+          "id": "5-5-anlam-butunlugu-5",
+          "tip": "secim",
+          "soru": "“tamamen kısmen bitti” sözündeki çelişen kesinlik veya miktar ifadeleri giderildiğinde hangi seçenek tutarlı olur?",
+          "secenekler": [
+            "Kısmen bitti.",
+            "Tamamen kısmen bitti.",
+            "Kısmen tamamen bitti."
+          ],
+          "dogru": "Kısmen bitti.",
+          "aciklama": "Kesinlik, belirsizlik veya miktar bakımından çatışan sözlerden biri çıkarılınca yargı tutarlı hâle gelir.",
+          "cikti": "T.Y.5.13"
+        },
+        {
+          "id": "5-5-anlam-butunlugu-6",
+          "tip": "secim",
+          "soru": "“kesin olarak herhâlde açılır” sözündeki çelişen kesinlik veya miktar ifadeleri giderildiğinde hangi seçenek tutarlı olur?",
+          "secenekler": [
+            "Kesin olarak herhâlde açılır.",
+            "Herhâlde kesin olarak açılır.",
+            "Herhâlde açılır."
+          ],
+          "dogru": "Herhâlde açılır.",
+          "aciklama": "Kesinlik, belirsizlik veya miktar bakımından çatışan sözlerden biri çıkarılınca yargı tutarlı hâle gelir.",
+          "cikti": "T.Y.5.13"
+        },
+        {
+          "id": "5-5-anlam-butunlugu-7",
+          "tip": "secim",
+          "soru": "“tümüyle biraz değişti” sözündeki çelişen kesinlik veya miktar ifadeleri giderildiğinde hangi seçenek tutarlı olur?",
+          "secenekler": [
+            "Biraz tümüyle değişti.",
+            "Biraz değişti.",
+            "Tümüyle biraz değişti."
+          ],
+          "dogru": "Biraz değişti.",
+          "aciklama": "Kesinlik, belirsizlik veya miktar bakımından çatışan sözlerden biri çıkarılınca yargı tutarlı hâle gelir.",
+          "cikti": "T.Y.5.13"
+        },
+        {
+          "id": "5-5-anlam-butunlugu-8",
+          "tip": "secim",
+          "soru": "“tam tamına aşağı yukarı beş sayfa” sözündeki çelişen kesinlik veya miktar ifadeleri giderildiğinde hangi seçenek tutarlı olur?",
+          "secenekler": [
+            "Aşağı yukarı beş sayfa.",
+            "Tam tamına aşağı yukarı beş sayfa.",
+            "Aşağı yukarı tam tamına beş sayfa."
+          ],
+          "dogru": "Aşağı yukarı beş sayfa.",
+          "aciklama": "Kesinlik, belirsizlik veya miktar bakımından çatışan sözlerden biri çıkarılınca yargı tutarlı hâle gelir.",
+          "cikti": "T.Y.5.13"
+        },
+        {
+          "id": "5-5-anlam-butunlugu-9",
+          "tip": "secim",
+          "soru": "“kuşkusuz sanırım biliyor” sözündeki çelişen kesinlik veya miktar ifadeleri giderildiğinde hangi seçenek tutarlı olur?",
+          "secenekler": [
+            "Kuşkusuz sanırım biliyor.",
+            "Sanırım kuşkusuz biliyor.",
+            "Sanırım biliyor."
+          ],
+          "dogru": "Sanırım biliyor.",
+          "aciklama": "Kesinlik, belirsizlik veya miktar bakımından çatışan sözlerden biri çıkarılınca yargı tutarlı hâle gelir.",
+          "cikti": "T.Y.5.13"
+        },
+        {
+          "id": "5-5-anlam-butunlugu-10",
+          "tip": "secim",
+          "soru": "“kesinlikle muhtemelen bekler” sözündeki çelişen kesinlik veya miktar ifadeleri giderildiğinde hangi seçenek tutarlı olur?",
+          "secenekler": [
+            "Muhtemelen kesinlikle bekler.",
+            "Muhtemelen bekler.",
+            "Kesinlikle muhtemelen bekler."
+          ],
+          "dogru": "Muhtemelen bekler.",
+          "aciklama": "Kesinlik, belirsizlik veya miktar bakımından çatışan sözlerden biri çıkarılınca yargı tutarlı hâle gelir.",
+          "cikti": "T.Y.5.13"
+        }
+      ]
+    },
+    {
+      "kod": "5-5-yeniden-kurma",
+      "ad": "Cümleyi kendi ifadeleriyle yeniden kurma",
+      "kategori": "dil-bilgisi",
+      "cikti": "DYS.KY.5.9",
+      "ekCiktilar": [],
+      "anlatimHTML": "<p>Bir cümleyi kendi ifadelerimizle yeniden kurarken temel anlamı koruruz. Kişiler, olayın sırası, amaç veya neden değişirse aynı düşünce anlatılmış olmaz. Yalnızca birkaç kelimenin eş anlamlısını bulmak her zaman yeterli değildir. Önce cümlenin ne söylediğini belirler, sonra farklı bir yapı seçeriz. Son adımda iki cümleyi karşılaştırıp eklenen veya kaybolan bilgi olup olmadığını kontrol ederiz.</p><ul><li>Önce okudum, sonra yazdım. → Yazmadan önce okudum.</li><li>Yardım istedi. → Destek talep etti.</li><li>Sözünü tamamladı. → Konuşmasını bitirdi.</li></ul>",
+      "ornekler": [
+        "Önce okudum, sonra yazdım. → Yazmadan önce okudum.",
+        "Yardım istedi. → Destek talep etti.",
+        "Sözünü tamamladı. → Konuşmasını bitirdi."
+      ],
+      "testler": [
+        {
+          "id": "5-5-yeniden-kurma-1",
+          "tip": "secim",
+          "soru": "“Duru duyuruyu arkadaşları daha iyi anlasın diye yeniden yazdı.” cümlesi anlamı korunarak hangi biçimde yeniden kurulabilir?",
+          "secenekler": [
+            "Duru, duyuruyu hiç kimse okumasın diye sakladı.",
+            "Duru, arkadaşları anladığı için duyuruyu sildi.",
+            "Duru, duyuruyu daha anlaşılır kılmak için tekrar yazdı."
+          ],
+          "dogru": "Duru, duyuruyu daha anlaşılır kılmak için tekrar yazdı.",
+          "aciklama": "Doğru seçenekte kişiler, olay sırası ve amaç/neden korunur; diğer seçenekler temel bilgiyi değiştirir.",
+          "cikti": "DYS.KY.5.9"
+        },
+        {
+          "id": "5-5-yeniden-kurma-2",
+          "tip": "secim",
+          "soru": "“Toplantıdan önce herkes sorusunu hazırladı.” cümlesi anlamı korunarak hangi biçimde yeniden kurulabilir?",
+          "secenekler": [
+            "Toplantıda hiç soru hazırlanmadı.",
+            "Herkes, toplantı başlamadan sorusunu belirledi.",
+            "Herkes sorusunu toplantı bittikten sonra hazırladı."
+          ],
+          "dogru": "Herkes, toplantı başlamadan sorusunu belirledi.",
+          "aciklama": "Doğru seçenekte kişiler, olay sırası ve amaç/neden korunur; diğer seçenekler temel bilgiyi değiştirir.",
+          "cikti": "DYS.KY.5.9"
+        },
+        {
+          "id": "5-5-yeniden-kurma-3",
+          "tip": "secim",
+          "soru": "“Elif arkadaşının sözünü bitirmesini bekledi.” cümlesi anlamı korunarak hangi biçimde yeniden kurulabilir?",
+          "secenekler": [
+            "Elif, arkadaşı konuşmasını tamamlayınca söz aldı.",
+            "Elif, arkadaşı bitirmeden sözünü kesti.",
+            "Elif, arkadaşının hiç konuşmamasını istedi."
+          ],
+          "dogru": "Elif, arkadaşı konuşmasını tamamlayınca söz aldı.",
+          "aciklama": "Doğru seçenekte kişiler, olay sırası ve amaç/neden korunur; diğer seçenekler temel bilgiyi değiştirir.",
+          "cikti": "DYS.KY.5.9"
+        },
+        {
+          "id": "5-5-yeniden-kurma-4",
+          "tip": "secim",
+          "soru": "“Saat değiştiği için duyuru güncellendi.” cümlesi anlamı korunarak hangi biçimde yeniden kurulabilir?",
+          "secenekler": [
+            "Saat aynı kaldığı için duyuru kaldırıldı.",
+            "Duyurunun değişmesi saati geri aldı.",
+            "Duyuru, değişen saate göre yeniden düzenlendi."
+          ],
+          "dogru": "Duyuru, değişen saate göre yeniden düzenlendi.",
+          "aciklama": "Doğru seçenekte kişiler, olay sırası ve amaç/neden korunur; diğer seçenekler temel bilgiyi değiştirir.",
+          "cikti": "DYS.KY.5.9"
+        },
+        {
+          "id": "5-5-yeniden-kurma-5",
+          "tip": "secim",
+          "soru": "“Mert fikrini bir örnekle açıkladı.” cümlesi anlamı korunarak hangi biçimde yeniden kurulabilir?",
+          "secenekler": [
+            "Mert, hiçbir örnek vermeden konuştu.",
+            "Mert, düşüncesini anlatırken örnek kullandı.",
+            "Mert, fikrini söylemekten vazgeçti."
+          ],
+          "dogru": "Mert, düşüncesini anlatırken örnek kullandı.",
+          "aciklama": "Doğru seçenekte kişiler, olay sırası ve amaç/neden korunur; diğer seçenekler temel bilgiyi değiştirir.",
+          "cikti": "DYS.KY.5.9"
+        },
+        {
+          "id": "5-5-yeniden-kurma-6",
+          "tip": "secim",
+          "soru": "“Herkesin katılabileceği bir zaman seçildi.” cümlesi anlamı korunarak hangi biçimde yeniden kurulabilir?",
+          "secenekler": [
+            "Buluşma için herkesin uygun olduğu zaman belirlendi.",
+            "Yalnızca bir kişinin katılacağı zaman seçildi.",
+            "Hiç kimsenin uygun olmadığı zaman belirlendi."
+          ],
+          "dogru": "Buluşma için herkesin uygun olduğu zaman belirlendi.",
+          "aciklama": "Doğru seçenekte kişiler, olay sırası ve amaç/neden korunur; diğer seçenekler temel bilgiyi değiştirir.",
+          "cikti": "DYS.KY.5.9"
+        },
+        {
+          "id": "5-5-yeniden-kurma-7",
+          "tip": "secim",
+          "soru": "“Öğrenciler metni okuduktan sonra özetledi.” cümlesi anlamı korunarak hangi biçimde yeniden kurulabilir?",
+          "secenekler": [
+            "Öğrenciler metni okumadan özetledi.",
+            "Öğrenciler özeti okuduktan sonra metni yazdı.",
+            "Öğrenciler önce metni okudu, ardından özetini çıkardı."
+          ],
+          "dogru": "Öğrenciler önce metni okudu, ardından özetini çıkardı.",
+          "aciklama": "Doğru seçenekte kişiler, olay sırası ve amaç/neden korunur; diğer seçenekler temel bilgiyi değiştirir.",
+          "cikti": "DYS.KY.5.9"
+        },
+        {
+          "id": "5-5-yeniden-kurma-8",
+          "tip": "secim",
+          "soru": "“Yanlış bilgi yayılmasın diye eski not kaldırıldı.” cümlesi anlamı korunarak hangi biçimde yeniden kurulabilir?",
+          "secenekler": [
+            "Eski not doğru olduğu için hemen dağıtıldı.",
+            "Eski not, yanlış bilginin yayılmasını önlemek için alındı.",
+            "Eski not, yanlış bilgi yayılsın diye çoğaltıldı."
+          ],
+          "dogru": "Eski not, yanlış bilginin yayılmasını önlemek için alındı.",
+          "aciklama": "Doğru seçenekte kişiler, olay sırası ve amaç/neden korunur; diğer seçenekler temel bilgiyi değiştirir.",
+          "cikti": "DYS.KY.5.9"
+        },
+        {
+          "id": "5-5-yeniden-kurma-9",
+          "tip": "secim",
+          "soru": "“Arkadaşım yardım istediğinde onu dinledim.” cümlesi anlamı korunarak hangi biçimde yeniden kurulabilir?",
+          "secenekler": [
+            "Yardım talep eden arkadaşıma kulak verdim.",
+            "Arkadaşım yardım isteyince onu susturdum.",
+            "Yardım istemeyen arkadaşımdan uzaklaştım."
+          ],
+          "dogru": "Yardım talep eden arkadaşıma kulak verdim.",
+          "aciklama": "Doğru seçenekte kişiler, olay sırası ve amaç/neden korunur; diğer seçenekler temel bilgiyi değiştirir.",
+          "cikti": "DYS.KY.5.9"
+        },
+        {
+          "id": "5-5-yeniden-kurma-10",
+          "tip": "secim",
+          "soru": "“Grup kararı birlikte değerlendirerek verdi.” cümlesi anlamı korunarak hangi biçimde yeniden kurulabilir?",
+          "secenekler": [
+            "Kararı gruptan habersiz biri tek başına verdi.",
+            "Grup hiçbir değerlendirme yapmadan dağıldı.",
+            "Grup, karara ortak bir değerlendirmeyle ulaştı."
+          ],
+          "dogru": "Grup, karara ortak bir değerlendirmeyle ulaştı.",
+          "aciklama": "Doğru seçenekte kişiler, olay sırası ve amaç/neden korunur; diğer seçenekler temel bilgiyi değiştirir.",
+          "cikti": "DYS.KY.5.9"
+        }
+      ]
+    }
+  ],
+  "dinleme": [
+    {
+      "id": "5-5-dinleme",
+      "baslik": "Duyuruyu Duymayan Arkadaş",
+      "metin": "Grup buluşmasının saati değişmişti. Ekin yeni saati panoya yazdı, fakat bütün arkadaşlarının bunu gördüğünü kontrol etmedi. Ertesi gün Aras eski saatte geldi. Ekin önce onun dikkatsiz olduğunu düşündü. Konuştuklarında Aras’ın önceki gün okulda bulunmadığını öğrendi. Birlikte yeni bir yol belirlediler. Değişiklikler öğretmenin uygun gördüğü kanaldan da duyurulacaktı. Ekin, herkesin aynı bilgiye ulaştığını varsaymanın iletişimde sorun çıkarabildiğini anladı.",
+      "tts": {
+        "dil": "tr-TR",
+        "sesYoksa": "metin"
+      },
+      "sorular": [
+        {
+          "id": "5-5-dinleme-1",
+          "tip": "secim",
+          "soru": "“Duyuruyu Duymayan Arkadaş” dinleme metnine göre: Yanlış anlaşılmanın temel nedeni neydi?",
+          "secenekler": [
+            "Aras’ın saati bilerek değiştirmesi",
+            "Panoda hiçbir zaman yazı olmaması",
+            "Herkesin değişikliği gördüğünün varsayılması"
+          ],
+          "dogru": "Herkesin değişikliği gördüğünün varsayılması",
+          "aciklama": "Duyurunun ulaşması kontrol edilmediği için bilgi eksik kalır.",
+          "cikti": "T.D.5.5",
+          "onKosul": true
+        },
+        {
+          "id": "5-5-dinleme-2",
+          "tip": "secim",
+          "soru": "“Duyuruyu Duymayan Arkadaş” dinleme metnine göre: Ekin’in ilk düşüncesi nasıl değişti?",
+          "secenekler": [
+            "Duyuruların gereksiz olduğuna inandı",
+            "Aras’ın durumu öğrenilince onu suçlamaktan vazgeçti",
+            "Aras’ın hiç okula gelmediğine karar verdi"
+          ],
+          "dogru": "Aras’ın durumu öğrenilince onu suçlamaktan vazgeçti",
+          "aciklama": "Yeni bilgi, Ekin’in kişi hakkındaki ilk yargısını değiştirdi.",
+          "cikti": "T.D.5.5",
+          "onKosul": true
+        },
+        {
+          "id": "5-5-dinleme-3",
+          "tip": "secim",
+          "soru": "“Duyuruyu Duymayan Arkadaş” dinleme metnine göre: Yeni iletişim yolu belirlenirken kimin yönlendirmesi dikkate alındı?",
+          "secenekler": [
+            "Öğretmenin",
+            "Kimliği belirsiz bir hesabın",
+            "Yalnızca reklam verenin"
+          ],
+          "dogru": "Öğretmenin",
+          "aciklama": "Güvenli ve uygun kanal için öğretmen yönlendirmesi esas alındı.",
+          "cikti": "T.D.5.6",
+          "onKosul": true
+        },
+        {
+          "id": "5-5-dinleme-4",
+          "tip": "secim",
+          "soru": "“Duyuruyu Duymayan Arkadaş” dinleme metnine göre: Bu olaydan hangi sonuç çıkarılabilir?",
+          "secenekler": [
+            "Yanlış anlamayı konuşmak her zaman yasaktır",
+            "Bir kez duyuru yapmak bütün sorunları kesin çözer",
+            "Bir iletiyi yazmak, herkese ulaştığı anlamına gelmez"
+          ],
+          "dogru": "Bir iletiyi yazmak, herkese ulaştığı anlamına gelmez",
+          "aciklama": "İletinin hedef kişiye ulaşıp anlaşılması ayrıca kontrol edilmelidir.",
+          "cikti": "T.D.5.6",
+          "onKosul": true
+        }
+      ]
+    }
+  ],
+  "yazmaGorevleri": [
+    {
+      "id": "5-5-yazma",
+      "baslik": "Anlaşılır Bir Duyuru Yaz",
+      "yonerge": "Kurmaca bir kitap kulübü buluşması için duyuru hazırla. Gün, saat, yer ve gerekli hazırlıkları açıkla. Sonra saatin değiştiğini düşünerek duyurunu yeniden yaz. Ne değiştiğini belirten nazik bir cümle ekle. Arkadaşından duyuruyu kendi cümleleriyle anlatmasını iste; amaçlanan anlam ile anlaşılanı karşılaştır. Kişisel telefon veya adres kullanma.",
+      "minKelime": 100,
+      "maxKelime": 180,
+      "ciktilar": [
+        "T.Y.5.2",
+        "T.Y.5.3",
+        "T.Y.5.13",
+        "T.Y.5.16"
+      ],
+      "ogretmenDegerlendirmeli": true,
+      "rubrik": [
+        {
+          "olcut": "Amaca ve konuya uygunluk",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Anlam bütünlüğü ve düzen",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Örnek ve söz varlığı kullanımı",
+          "enDusuk": 0,
+          "enYuksek": 4
+        },
+        {
+          "olcut": "Yazım, noktalama ve gözden geçirme",
+          "enDusuk": 0,
+          "enYuksek": 4
+        }
+      ]
+    }
+  ],
+  "lgsSorulari": []
+}

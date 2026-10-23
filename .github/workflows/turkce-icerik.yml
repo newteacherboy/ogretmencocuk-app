@@ -1,0 +1,23 @@
+name: Türkçe içerik doğrulama
+on:
+  pull_request:
+    paths: ['content/turkce/**', 'tools/icerik-dogrula.mjs', 'tools/package*.json', 'tests/turkce-content.test.mjs', '.github/workflows/turkce-icerik.yml']
+  push:
+    branches: [main]
+    paths: ['content/turkce/**', 'tools/icerik-dogrula.mjs', 'tools/package*.json', 'tests/turkce-content.test.mjs', '.github/workflows/turkce-icerik.yml']
+permissions:
+  contents: read
+jobs:
+  dogrula:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: tools/package-lock.json
+      - run: npm ci --prefix tools --ignore-scripts
+      - run: node tools/icerik-dogrula.mjs
+      - run: node --test tests/turkce-content.test.mjs
