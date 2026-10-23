@@ -1,0 +1,13 @@
+-- Applied exclusively to Supabase project isgnsmkboehygxxysria on 2026-10-24.
+-- Records the audited changes from turkce-reward-infrastructure.proposed.sql.
+-- This file documents an already applied migration; DO NOT reapply automatically.
+-- Untrusted clients have no write privileges. Rewards are NOT enabled until
+-- the authoritative question catalog and atomic server validation exist.
+-- Difference from original proposal: answer keys live in turkce_private,
+-- and the game reward caps are enforced by database CHECK constraints.
+-- Migration identifier: turkce_reward_scaffold_private_answers_v1
+-- Tables:
+-- turkce_private.turkce_question_keys
+-- public.turkce_attempts
+-- public.turkce_reward_ledger
+-- See original proposed SQL for full structure, but do not execute it verbatim.
