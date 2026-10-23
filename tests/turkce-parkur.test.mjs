@@ -20,3 +20,8 @@ test('Turkish diacritics and spelling-sensitive distractors survive grading; arb
 });
 test('writing validates reviewed word limits and never invents automatic teacher scores',()=>{const t=BANK.grades[0].themes[0].writing[0];assert.throws(()=>validateWriting(t,'kısa yazı'));assert.equal(validateWriting(t,Array(t.minKelime).fill('sözcük').join(' ')).split(' ').length,t.minKelime);assert.throws(()=>validateWriting(t,Array(t.maxKelime+1).fill('sözcük').join(' ')));});
 test('route predecessor follows the bank rather than browser grade, stage or CEFR claims',()=>{for(const g of BANK.grades){const all=g.themes.flatMap(t=>t.activities);assert.equal(findActivity(BANK,all[0].id).previous,null);for(let i=1;i<all.length;i++)assert.equal(findActivity(BANK,all[i].id).previous,all[i-1].id);}assert.equal(findActivity(BANK,'A1-1'),null);});
+
+test('game classes and themes are backed by nonempty reviewed Turkish pools',async()=>{
+ const manifest=await read('content/turkce/parkur.json');assert.deepEqual(manifest.grades.filter(g=>g.gamesAvailable).map(g=>g.grade),[5,6,7,8]);
+ for(const g of manifest.grades){const data=await read('content/turkce/'+g.file);for(const t of data.themes){const seen=new Set(),meanings=new Set();const usable=t.words.filter(w=>{const k=w.kelime.normalize('NFC').toLocaleLowerCase('tr-TR'),m=w.anlam.normalize('NFC').toLocaleLowerCase('tr-TR');if(seen.has(k)||meanings.has(m))return false;seen.add(k);meanings.add(m);return true;});assert(usable.length>=6,`${g.grade}/${t.number} needs a complete game round`);assert(usable.every(w=>w.kelime.trim()&&w.anlam.trim()&&w.ornek.trim()));}}
+});

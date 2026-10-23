@@ -68,5 +68,5 @@ function act(b){const s=state;if(!s)return;const a=b.dataset.gameAction,w=s.deck
  if(a==='reveal')return mark(false,s.game==='cumle'?w.ornek:w.kelime);
  if(a==='choice'){if(s.game==='meteor'&&!s.started){s.started=true;clock();}const choice=s.options[Number(b.dataset.choice)];if(choice)return mark(norm(choice.kelime)===norm(w.kelime),w.anlam);}
 }
-window.dmTurkceGames={catalog,open,close,active:()=>!!state};
+window.dmTurkceGames={catalog,open,close,available:words=>uniqueWords(words).length>=4,active:()=>!!state};
 })();

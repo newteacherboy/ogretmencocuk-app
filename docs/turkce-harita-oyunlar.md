@@ -12,7 +12,7 @@ Bu sürümde oyunlar **serbest alıştırmadır**: enerji tüketmez, XP veya alt
 
 ## Doğrulama
 
-- Türkçe içerik ve kayıt regresyonları: 96/96 test geçti.
+- Türkçe içerik ve kayıt regresyonları: 97/97 test geçti.
 - İsteğe bağlı oyun yükleme ve çalışma zamanı temizliği: 7/7 test geçti.
 - `tools/turkce-oyun-tarayici.cjs`: dokuz oyunun tamamını gerçek sınıf/tema içeriğiyle bitirdi; alıştırma sırasında hiçbir ödül/ilerleme isteği yapılmadığını doğruladı. Duraklat/devam et, süresiz mod, Escape, menüden çıkış, hesap değiştirme ve temizleme kontrolleri geçti.
 - 360×740 gündüz/gece, 768×1024 ve 1440×900: taşma veya tarayıcı JavaScript hatası yok.
@@ -20,3 +20,7 @@ Bu sürümde oyunlar **serbest alıştırmadır**: enerji tüketmez, XP veya alt
 - `tools/turkce-tarayici-kontrol.cjs`: parkur cevabı/ağ hatası/yeniden deneme, kayıt, sınıf seçimi, LGS, yazma, öğretmen kapsamı ve hesap değiştirme regresyonları geçti.
 
 Ayrıntılı sonuçlar: `turkce-harita-oyunlar/sonuclar.json`. Tarayıcı kontrolleri Türkçe içerik GitHub Actions işine eklendi.
+
+CI notu: Tarayıcı işi, Playwright 1.58.2 ile uyumlu Ubuntu 24.04'e sabitlendi; ubuntu-latest'in Ubuntu 26.04'e geçmesi eski tarayıcı işlerinin kurulumunu bozuyordu. Yeni SVG için köken ve SHA-256 kaydı eklendi. Medya denetiminde önceden var olan alt klasör tarama/kayıt hataları ve eski İngilizce yol beklentileri bu değişikliğin dışında kaldı. İlgili Türkçe ve tarayıcı testleri ayrı değerlendirilir.
+
+Oyun sınıf listesi artık içerik paketindeki gamesAvailable bilgisine göre süzülür; tema seçimi de yeterli, farklı Türkçe sözcük/anlam çifti bulunan havuzlarla sınırlıdır. 5–8. sınıflardaki tüm temaların altı soruluk oyun turuna yetecek dolu sözcük/anlam/örnek havuzu testle doğrulanır. Boş 1–4. sınıflar veya eski İngilizce üniteler oyun seçicisine girmez.
