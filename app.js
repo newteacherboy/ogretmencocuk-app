@@ -355,11 +355,12 @@ function openGame(gameId){
   if(!game)return;
   if(!window.practiceEconomy?.spendGame()){openModal(`<div class="modal-card"><div class="modal-inner"><h2>⚡ Enerjin yetersiz</h2><p>Oyun başlatmak için 3 enerji gerekiyor. Enerji her gün yenilenir.</p><button class="large-start" onclick="closeModal()">Oyunlara dön</button></div></div>`);return;}
   refreshEconomy();
-  state.game = { game, index:0, answers:[],mistakes:0, startedAt:Date.now(),completed:false };
+  state.game = { game, index:0, answers:[],mistakes:0,questionMistakes:0, startedAt:Date.now(),completed:false };
   renderGameQuestion();
 }
 function renderGameQuestion(){
   const {game, index} = state.game;
+  state.game.questionMistakes=0;
   const q = game.questions[index];
   const nodes = game.questions.map((_,i)=>`<div class="pnode ${i<index?'done':''} ${i===index?'active':''}">${i+1}</div>`).join('');
   let body='';
@@ -381,6 +382,7 @@ function renderGameQuestion(){
   document.getElementById('gameBtn').addEventListener('click', ()=>checkGameQuestion());
 }
 function checkGameQuestion(){
+  if(document.getElementById("gameBtn")?.dataset.validated==="true")return;
   const {game, index} = state.game; const q = game.questions[index]; let correct = false;
   const fb=document.getElementById('feedbackBox');
   if(q.ordering){
@@ -390,9 +392,10 @@ function checkGameQuestion(){
     const idx=Number(selected.dataset.index); correct = idx===q.answer;
     markOptionsAfterCheck(q.answer,correct);
   }
-  if(!correct){state.game.mistakes++;showAnswerFeedback(false,fb,'','Tekrar düşün ve yeniden dene.'); return; }
-  state.game.answers.push(true);
+  if(!correct){state.game.mistakes++;state.game.questionMistakes++;showAnswerFeedback(false,fb,'','Tekrar düşün ve yeniden dene.'); return; }
+  state.game.answers.push(state.game.questionMistakes===0);
   const btn=document.getElementById('gameBtn');
+  btn.dataset.validated="true";
   showAnswerFeedback(true,fb,'Doğru cevap!','');
   btn.textContent = index===game.questions.length-1 ? 'Sonuç Ekranı →' : 'Sonraki Soru →';
   btn.className='nav-btn nav-orange';
@@ -404,7 +407,7 @@ function checkGameQuestion(){
 function finishGame(){
   stopQuizTimer();
   const total = state.game.game.questions.length;
-  const correct = state.game.answers.length;
+  const correct = state.game.answers.filter(Boolean).length;
   const score = Math.max(0,Math.round((correct/total)*100));
   const reward=window.practiceEconomy.awardGame(state.game.game.id,correct,state.game.mistakes||0,Date.now()-(state.game.startedAt||Date.now()),total);
   refreshEconomy();
