@@ -1,0 +1,44 @@
+[
+  {
+    "path": "assets/characters/girl-1.webp",
+    "sha256": "26a558a4910661d85fa5e341cd2b87bc716b2a316d9a2fc5a4b503e7ab02bf53",
+    "bytes": 94306,
+    "status": "ai-generated",
+    "source": "Built-in imagegen, approved nameless shop character reference, 2026-10-28"
+  },
+  {
+    "path": "assets/characters/girl-2.webp",
+    "sha256": "fded1b0b39b90138891a0fdd0a342920f34a9eb798a3bea94622e6d09a46d785",
+    "bytes": 88544,
+    "status": "ai-generated",
+    "source": "Built-in imagegen, approved nameless shop character reference, 2026-10-28"
+  },
+  {
+    "path": "assets/characters/girl-3.webp",
+    "sha256": "0bb8eac9c891dca7f41023bab298260119fd1a75df8444498a562030960ea6fa",
+    "bytes": 97660,
+    "status": "ai-generated",
+    "source": "Built-in imagegen, approved nameless shop character reference, 2026-10-28"
+  },
+  {
+    "path": "assets/characters/boy-1.webp",
+    "sha256": "c354c9510d3e2509b3b52957f97bc5da421033a90e9609261ca61935aba3e7fe",
+    "bytes": 79942,
+    "status": "ai-generated",
+    "source": "Built-in imagegen, approved nameless shop character reference, 2026-10-28"
+  },
+  {
+    "path": "assets/characters/boy-2.webp",
+    "sha256": "d9f92a175612e9b9c6926d11c1f0fbe82371e03f535d5f9768dda50bd4fad329",
+    "bytes": 85744,
+    "status": "ai-generated",
+    "source": "Built-in imagegen, approved nameless shop character reference, 2026-10-28"
+  },
+  {
+    "path": "assets/characters/boy-3.webp",
+    "sha256": "dcff3969296cbaf267e0c6bb16aa268c8fc43b8eabd9e4b4d549a8d56188c982",
+    "bytes": 74562,
+    "status": "ai-generated",
+    "source": "Built-in imagegen, approved nameless shop character reference, 2026-10-28"
+  }
+]
