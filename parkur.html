@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="styles.css?v=energy-refill-v1" /><link rel="stylesheet" href="mobile-parkur.css?v=energy-refill-v1" /><link rel="stylesheet" href="reward-ui.css?v=energy-refill-v1" />
   <link rel="stylesheet" href="member-admin.css?v=members-admin-v1">
 <style>html[data-app-pending] #app{visibility:hidden}#app-loading{position:fixed;inset:0;display:grid;place-items:center;background:#e8f5ff;color:#173c82;font:700 20px system-ui;z-index:1000}</style>  <link rel="stylesheet" href="question-feedback.css?v=solutions-2">
-<link rel="stylesheet" href="games-modern.css?v=social-open-1"><link rel="stylesheet" href="classroom-games.css?v=classroom-1"></head>
+<link rel="stylesheet" href="games-modern.css?v=social-open-1"><link rel="stylesheet" href="classroom-games.css?v=classroom-1"><link rel="stylesheet" href="member-leagues.css?v=arena-1"></head>
 <body>
 <p id="app-loading" role="status">Parkurun hazırlanıyor…</p>
   <div id="app">
@@ -19,7 +19,7 @@
       <nav class="tabs">
         <button class="tab active" data-view="parkurView"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m2 11 10-9 10 9-3 1v10h-6v-7h-2v7H5V12z"/></svg><span>Parkur</span></button>
         <button class="tab" data-view="gamesView"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h10c4 0 7 14 3 15-2 .5-4-4-5-4H9c-1 0-3 4.5-5 4C0 19 3 5 7 5z"/><path d="M7 8v6m-3-3h6" stroke="white" stroke-width="2"/><circle cx="16" cy="9" r="1.3" fill="white"/><circle cx="19" cy="12" r="1.3" fill="white"/></svg><span>Oyunlar</span></button>
-<button class="tab" data-view="friendsView"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="6" r="4"/><circle cx="19" cy="8" r="3"/><path d="M1 22v-4a8 8 0 0 1 16 0v4zm18 0v-4a10 10 0 0 0-2-6c5-1 7 2 7 6v4z"/></svg><span>Arkadaşlar</span></button>
+<button class="tab" data-view="leaguesView"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2h12v4h4v3c0 4-3 6-6 6l-2 2v3h5v2H5v-2h5v-3l-2-2C5 15 2 13 2 9V6h4zm0 6H4v1c0 2 1 3 3 4zm12 0-1 5c2-1 3-2 3-4V8z"/></svg><span>Ligler</span></button><button class="tab" data-view="friendsView"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="6" r="4"/><circle cx="19" cy="8" r="3"/><path d="M1 22v-4a8 8 0 0 1 16 0v4zm18 0v-4a10 10 0 0 0-2-6c5-1 7 2 7 6v4z"/></svg><span>Arkadaşlar</span></button>
 
         <button class="tab" data-view="adminView" id="adminTab" hidden>Kontrol Merkezi</button>
       </nav>
@@ -48,13 +48,14 @@
         </div>
       </section>
 
-      <section id="friendsView" class="view"><div class="league-page"><h2>Arkadaşlar ve Ligler</h2><p id="socialStatus" role="status"></p><div id="memberSocial"></div></div></section>
+      <section id="leaguesView" class="view"><div id="memberLeagues" class="ml-page"></div></section>
+      <section id="friendsView" class="view"><div class="league-page"><h2>Arkadaşlarım</h2><p id="socialStatus" role="status"></p><div id="memberSocial"></div></div></section>
       <section id="adminView" class="view"><div id="adminRoot"></div></section>
     </main>
   </div>
 
   <div id="modalRoot"></div>
   <script src="curriculum.js?v=illustrations-2"></script>
-  <script src="vendor/supabase-2.118.0.js"></script><script src="member-client.js?v=members-v1"></script><script src="app-gate.js?v=adventure-1"></script><script src="app.js?v=modern-games-3"></script><script src="member-social.js?v=social-open-1"></script><script src="member-admin.js?v=members-admin-v1"></script>
+<script src="vendor/supabase-2.118.0.js"></script><script src="member-client.js?v=members-v1"></script><script src="app-gate.js?v=adventure-1"></script><script src="app.js?v=modern-games-3"></script><script src="member-leagues.js?v=arena-1"></script><script src="member-social.js?v=social-open-1"></script><script src="member-admin.js?v=members-admin-v1"></script>
 <script src="classroom-games.js?v=classroom-1"></script></body>
 </html>

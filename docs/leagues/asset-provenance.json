@@ -1,0 +1,14 @@
+[
+  {
+    "path": "assets/leagues/emerald-trail.webp",
+    "sha256": "b064beef56edc7fe0bc31ad5660e0d6229a1b086d44bfc3cba2d1b4c21a783c1",
+    "status": "ai-generated",
+    "source": "Built-in imagegen, approved first league reference, WebP export, 2026-10-28"
+  },
+  {
+    "path": "assets/leagues/shields.webp",
+    "sha256": "f6fb65123bcc06d3038ba2f6cd4cff343e06629f058cb8ffff7a0f6686666159",
+    "status": "ai-generated",
+    "source": "Built-in imagegen, approved first league reference, WebP export, 2026-10-28"
+  }
+]
