@@ -1,0 +1,26 @@
+name: Türkçe Ligler Görsel Kontrol
+on:
+  push:
+    branches: [codex/turkce-ligler-arena]
+  pull_request:
+    paths: ['member-leagues.*', 'tools/leagues-browser.cjs', 'assets/leagues/**']
+permissions:
+  contents: read
+jobs:
+  arena:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-save --package-lock=false --ignore-scripts playwright@1.58.2
+      - run: node tools/leagues-browser.cjs
+        env:
+          BROWSER_EXECUTABLE: /usr/bin/google-chrome
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: turkce-ligler-ekranlari
+          path: /tmp/league-*.png
