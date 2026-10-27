@@ -50,3 +50,4 @@ jobs:
             /tmp/turkce-welcome-ui/
             /tmp/turkce-question-ui/
             /tmp/turkce-games-ui/
+            /tmp/league-*.png

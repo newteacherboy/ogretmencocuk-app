@@ -1,0 +1,14 @@
+[
+  {
+    "path": "assets/leagues/shields.png",
+    "sha256": "c4a76743a4c06ffb3351b4e0b57b4910fe353be3661e7a43e2e67793df7ad7ad",
+    "status": "ai-generated",
+    "source": "Built-in imagegen, approved first league UI reference, 2026-10-28"
+  },
+  {
+    "path": "assets/leagues/emerald-trail.png",
+    "sha256": "e3c2d1910b306e81156b93a34150cec0e0bc19b4221db0366efd5195cb443584",
+    "status": "ai-generated",
+    "source": "Built-in imagegen, approved first league UI reference, 2026-10-28"
+  }
+]
