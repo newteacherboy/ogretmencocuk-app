@@ -1,0 +1,10 @@
+const cors={'Access-Control-Allow-Origin':'https://ogretmencocuk.com','Access-Control-Allow-Headers':'authorization, apikey, content-type, x-client-info','Access-Control-Allow-Methods':'POST, OPTIONS','Content-Type':'application/json','Cache-Control':'no-store'};
+const rates=new Map();
+export async function handleShop(req,db){
+const send=(data,status=200)=>new Response(JSON.stringify(data),{status,headers:cors});
+if(req.method==='OPTIONS')return send({ok:true});if(req.method!=='POST')return send({ok:false,message:'POST gerekli.'},405);
+const token=(req.headers.get('authorization')||'').replace(/^Bearer /i,'');if(!token)return send({ok:false,message:'Önce giriş yap.'},401);
+const auth=await db.auth.getUser(token);if(auth.error||!auth.data?.user)return send({ok:false,message:'Oturumun sona erdi. Yeniden giriş yap.'},401);
+const id=auth.data.user.id,now=Date.now();if(rates.size>10000)for(const[k,v]of rates)if(now-v.at>60000)rates.delete(k);const rate=rates.get(id);if(rate&&now-rate.at<60000){if(++rate.n>60)return send({ok:false,message:'Biraz bekleyip tekrar dene.'},429)}else rates.set(id,{at:now,n:1});
+try{const reader=req.body?.getReader(),chunks=[];let size=0;if(reader)while(true){const x=await reader.read();if(x.done)break;size+=x.value.length;if(size>8192){await reader.cancel();return send({ok:false,message:'İstek çok büyük.'},413)}chunks.push(x.value)}const bytes=new Uint8Array(size);let off=0;for(const c of chunks){bytes.set(c,off);off+=c.length}const body=JSON.parse(new TextDecoder().decode(bytes));if(!['state','buy','equip','avatars'].includes(body.action)||!body.payload||typeof body.payload!=='object'||Array.isArray(body.payload))return send({ok:false,message:'Geçersiz işlem.'},400);const result=await db.rpc('turkce_shop_request',{actor:id,op:body.action,p:body.payload});if(result.error)return send({ok:false,message:result.error.code==='P0001'?result.error.message:'İşlem tamamlanamadı. Yeniden dene.'},400);return send(result.data);}catch{return send({ok:false,message:'İstek tamamlanamadı. Yeniden dene.'},400)}
+}

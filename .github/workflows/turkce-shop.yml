@@ -1,0 +1,29 @@
+name: Türkçe Karakter Mağazası
+on:
+  push:
+    branches: [main, codex/turkce-karakter-magazasi]
+    paths: ['member-shop.*','character-client.js','assets/characters/**','supabase/functions/turkce-shop/**','supabase/member-release/character-shop.sql','tests/turkce-shop*','tools/shop-browser.cjs','.github/workflows/turkce-shop.yml','parkur.html','hesap.html','member-leagues.js','member-social.js']
+  pull_request:
+    paths: ['member-shop.*','character-client.js','assets/characters/**','supabase/functions/turkce-shop/**','supabase/member-release/character-shop.sql','tests/turkce-shop*','tools/shop-browser.cjs','.github/workflows/turkce-shop.yml']
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci --prefix tools --ignore-scripts
+      - run: node --test tests/turkce-shop.test.cjs tests/turkce-members-api.test.mjs tests/classroom-authorization.test.cjs
+      - run: npm install --no-save --package-lock=false --ignore-scripts playwright@1.58.2
+      - run: node tools/shop-browser.cjs
+        env:
+          BROWSER_EXECUTABLE: /usr/bin/google-chrome
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: turkce-karakter-magazasi
+          path: /tmp/shop-*.png
