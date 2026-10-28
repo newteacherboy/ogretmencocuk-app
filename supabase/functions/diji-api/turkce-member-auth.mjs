@@ -1,10 +1,18 @@
-export async function createTurkceStudent(db,body){
- const password=String(body.password||'');
- const full_name=String(body.full_name||'').trim().replace(/\s+/g,' '),school=String(body.school||'').trim().replace(/\s+/g,' '),grade=Number(body.grade);
- if(password.length<10||password.length>128||!/^[\p{L}\p{M} .’'-]{3,80}$/u.test(full_name)||!full_name.includes(' ')||school.length<3||school.length>120||!Number.isInteger(grade)||grade<5||grade>8)throw Error('Ad soyadını, okulunu, sınıfını ve en az 10 karakterli şifreni kontrol et.');
- const username='tr'+randomCode(10),recovery=randomCode(24);
- const result=await db.auth.admin.createUser({email:alias(username),password,email_confirm:true,user_metadata:{username,full_name,school,grade}});
- if(result.error||!result.data?.user)throw Error('Hesap oluşturulamadı. Yeniden dene.');
+export function normalizeUsername(value){return String(value||'').trim().toLocaleLowerCase('tr-TR').replace(/[çğıöşü]/g,c=>({'ç':'c','ğ':'g','ı':'i','ö':'o','ş':'s','ü':'u'}[c]));}
+export const validUsername=name=>/^[a-z0-9][a-z0-9_.]{2,19}$/.test(name);
+const reserved=new Set(['dijimedu','admin','administrator','teacher','ogretmen','yonetici','root','support']);
+export async function createTurkceStudent(db,body,source='student'){
+ const password=String(body.password||''),username=normalizeUsername(body.username);
+ const full_name=String(body.full_name||username).trim().replace(/\s+/g,' '),school=String(body.school||'Araştırma Grubu').trim().replace(/\s+/g,' '),grade=Number(body.grade||5);
+ if(!validUsername(username)||reserved.has(username))throw Error('Kullanıcı adı 3–20 karakter olmalı; harf, rakam, nokta ve alt çizgi kullanabilirsin. Başka bir kullanıcı adı seç.');
+ if(password.length<6||password.length>128)throw Error('Şifre 6–128 karakter olmalı. Sayısal şifre kullanabilirsin.');
+ if(full_name.length<3||full_name.length>80||school.length<3||school.length>120||!Number.isInteger(grade)||grade<5||grade>8)throw Error('Öğrenci bilgilerini kontrol et.');
+ const existing=await db.from('turkce_profiles').select('id').eq('username',username).maybeSingle();
+ if(existing.error)throw Error('Kayıt hizmeti geçici olarak kullanılamıyor.');
+ if(existing.data)throw Error('Bu kullanıcı adı kullanılıyor. Başka bir ad seç.');
+ const recovery=randomCode(24);
+ const result=await db.auth.admin.createUser({email:alias(username),password,email_confirm:true,user_metadata:{username,full_name,school,grade,registration_source:source}});
+ if(result.error||!result.data?.user)throw Error('Kullanıcı adı kullanılıyor olabilir. Başka bir adla yeniden dene.');
  const saved=await db.rpc('turkce_recovery_store',{actor:result.data.user.id,hash:await hash(recovery)});
  if(saved.error){await db.auth.admin.deleteUser(result.data.user.id);throw Error('Hesap oluşturulamadı. Yeniden dene.');}
  return {code:username,recovery,user_id:result.data.user.id};
@@ -23,23 +31,23 @@ export async function turkceMemberAuth(req,db,authClient){
  const budget=await db.rpc('turkce_auth_budget',{bucket_key:await hash(body.action+':'+ip),max_count:body.action==='register'?120:240});
  if(budget.error)return send({ok:false,message:'Giriş hizmeti geçici olarak kullanılamıyor.'},503);
  if(!budget.data)return send({ok:false,message:'Çok fazla deneme yaptın. Daha sonra yeniden dene.'},429);
- const password=String(body.password||'');const code=String(body.code||'').trim().toLowerCase();
- if(password.length<(body.action==='login'&&code==='dijimedu'?8:10)||password.length>128)return send({ok:false,message:'Şifren 10–128 karakter olmalı.'},400);
+ const password=String(body.password||'');const code=normalizeUsername(body.code);
+ if(password.length<6||password.length>128)return send({ok:false,message:'Şifren 6–128 karakter olmalı.'},400);
  if(body.action==='register'){
  let created;try{created=await createTurkceStudent(db,body)}catch(e){return send({ok:false,message:e.message},400)}
  const {code:username,recovery}=created;
  const login=await authClient.auth.signInWithPassword({email:alias(username),password});
- if(login.error)return send({ok:true,code:username,recovery,session:null,message:'Hesabın oluşturuldu. Öğrenci kodun ve şifrenle giriş yap.'});
+ if(login.error)return send({ok:true,code:username,recovery,session:null,message:'Hesabın oluşturuldu. Kullanıcı adın ve şifrenle giriş yap.'});
  return send({ok:true,code:username,recovery,session:login.data.session});
  }
- if(!/^tr[a-z0-9]{10}$/.test(code)&&!(body.action==='login'&&code==='dijimedu'))return send({ok:false,message:'Öğrenci kodunu ve şifreni kontrol et.'},400);
+ if(!validUsername(code))return send({ok:false,message:'Kullanıcı adını ve şifreni kontrol et.'},400);
  const accountBudget=await db.rpc('turkce_auth_budget',{bucket_key:await hash('account:'+code+':'+ip),max_count:30});
  if(accountBudget.error||!accountBudget.data)return send({ok:false,message:'Çok fazla deneme. Daha sonra yeniden dene.'},429);
  if(body.action==='recover'){
- const recovery=String(body.recovery||'').trim().toLowerCase();if(!/^[a-z0-9]{24}$/.test(recovery))return send({ok:false,message:'Öğrenci kodunu ve kurtarma kodunu kontrol et.'},400);
+ const recovery=String(body.recovery||'').trim().toLowerCase();if(!/^[a-z0-9]{24}$/.test(recovery))return send({ok:false,message:'Kullanıcı adını ve kurtarma kodunu kontrol et.'},400);
  const next=randomCode(24),oldHash=await hash(recovery),nextHash=await hash(next);
  const found=await db.rpc('turkce_recovery_consume',{code,hash:oldHash,next_hash:nextHash});
- if(found.error||!found.data)return send({ok:false,message:'Öğrenci kodunu ve kurtarma kodunu kontrol et.'},400);
+ if(found.error||!found.data)return send({ok:false,message:'Kullanıcı adını ve kurtarma kodunu kontrol et.'},400);
  const updated=await db.auth.admin.updateUserById(found.data,{password});
  if(updated.error){await db.rpc('turkce_recovery_consume',{code,hash:nextHash,next_hash:oldHash});return send({ok:false,message:'Şifre değiştirilemedi.'},400)}
  const fresh=await authClient.auth.signInWithPassword({email:alias(code),password});
@@ -47,6 +55,8 @@ export async function turkceMemberAuth(req,db,authClient){
  return send({ok:true,recovery:next});
  }
  const result=await authClient.auth.signInWithPassword({email:alias(code),password});
- if(result.error||!result.data.session)return send({ok:false,message:'Öğrenci kodunu veya şifreni kontrol et.'},401);
+ if(result.error||!result.data.session)return send({ok:false,message:'Kullanıcı adını veya şifreni kontrol et.'},401);
+ const profile=await db.from('turkce_profiles').select('disabled').eq('id',result.data.user.id).maybeSingle();
+ if(profile.error||!profile.data||profile.data.disabled){await db.auth.admin.signOut(result.data.session.access_token,'local');return send({ok:false,message:'Hesabın yetkili tarafından duraklatıldı.'},403);}
  return send({ok:true,session:result.data.session});
 }
