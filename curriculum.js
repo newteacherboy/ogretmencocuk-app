@@ -74,6 +74,17 @@ for(let i=2;i<=24;i++){
   })
 }
 
+// Replace free writing in the pilot with one correct model expression and three incorrect alternatives.
+const expressionTasks=[
+ {prompt:'Oyunda sıraya uyma kuralını doğru ifade eden cümle hangisidir?',choices:['Herkes aynı anda öne geçmelidir.','Sadece en hızlı oyuncu oynamalıdır.','Herkes kendi sırası geldiğinde oynamalıdır.','Sıra bekleyenler oyundan çıkarılmalıdır.'],answer:2,feedback:'Doğru. Sıraya uymak herkese eşit oynama hakkı verir.'},
+ {prompt:'Hata yapan arkadaşına destek olmak için hangi cümleyi söylemelisin?',choices:['Bir daha dene, istersen yardımcı olayım.','Sen hiçbir oyunu beceremezsin.','Artık bizimle oynama.','Hata yaptığın için seninle alay edeceğim.'],answer:0,feedback:'Doğru. Nazik ve destekleyici konuşmak arkadaşımızı cesaretlendirir.'},
+ {prompt:'Oyunun kurallarını öğrenmek için hangi cümle uygundur?',choices:['Kuralları hiç dinlemeyeceğim.','Sadece benim istediğim olacak.','Kurallar herkesten gizlenmelidir.','Başlamadan önce kuralları birlikte okuyalım.'],answer:3,feedback:'Doğru. Oyuna başlamadan önce kuralları öğrenmek gerekir.'},
+ {prompt:'Güvenli bir oyun ortamını anlatan cümle hangisidir?',choices:['Yolun ortasında top oynamalıyız.','Oyun alanındaki tehlikeli nesneleri kaldırmalıyız.','Arkadaşlarımızı merdivenlerden itmeliyiz.','Kırık oyuncaklarla oynamaya devam etmeliyiz.'],answer:1,feedback:'Doğru. Tehlikeli nesneleri kaldırmak güvenliği artırır.'},
+ {prompt:'Adil bir oyunu anlatan cümle hangisidir?',choices:['Kurallar bütün oyuncular için aynı olmalıdır.','Kazanan kişi her zaman kuralları değiştirmelidir.','Bir takım gizlice daha fazla oyuncu almalıdır.','Hakem yalnız arkadaşlarına puan vermelidir.'],answer:0,feedback:'Doğru. Adil oyunda aynı kurallar herkes için geçerlidir.'},
+ {prompt:'Oyundan sonra çevreye saygılı davranışı anlatan cümle hangisidir?',choices:['Oyuncakları bahçede bırakmalıyız.','Çöpleri oyun alanına atmalıyız.','Kullandığımız eşyaları yerine kaldırmalıyız.','Topları bitkilerin üzerine fırlatmalıyız.'],answer:2,feedback:'Doğru. Eşyaları yerine kaldırmak oyun alanını düzenli tutar.'}
+];
+for(const stop of stops){const q=stop.questions.find(q=>q.type==='text');if(!q)continue;const index=stop.questions.indexOf(q);const task=stop.id===1?{prompt:'Görsele uygun tahmini ve bu tahmini destekleyen ipucunu seç.',choices:['Çocuklar saklambaç oynuyor; çünkü hepsi saklanmış.','Çocuklar top oynuyor; çünkü ortada bir top var.','Çocuklar ip atlıyor; çünkü iki çocuk ipi tutarken diğeri üzerinden zıplıyor.','Çocuklar satranç oynuyor; çünkü bir oyun tahtası görüyoruz.'],answer:2,feedback:'Doğru. Görselde tutulan ip ve zıplayan çocuk, ip atlama tahminini destekler.'}:expressionTasks[(stop.id-2)%expressionTasks.length];stop.questions[index]={...q,...task,type:q.image?'visual_mcq':'mcq',title:'Uygun İfadeyi Seç',skill:'Anlamlı ifade seçme'};}
+
 const games = [
   {
     id:'kelime-dedektifi', title:'Kelime Dedektifi', description:'Anlamları çöz, doğru kelimeyi bul.',

@@ -1,10 +1,10 @@
 name: Türkçe üyelik ve kontrol merkezi
 on:
   pull_request:
-    paths: ['welcome.*', 'parkur.html', 'app-gate.js', 'assets/welcome/**', 'assets/questions/**', 'assets/games/**', 'games-modern.css', 'tools/games-browser.cjs', 'curriculum.js', 'question-feedback.css', 'tools/question-browser.cjs', 'tools/welcome-browser.cjs', 'app.js', 'index.html', 'hesap.html', 'member-*', 'turkce-auth.mjs', 'supabase/member-release/**', 'supabase/functions/diji-api/turkce-member*', 'tests/turkce-members*', '.github/workflows/turkce-members.yml']
+    paths: ['welcome.*', 'parkur.html', 'app-gate.js', 'assets/welcome/**', 'assets/questions/**', 'assets/games/**', 'games-modern.css', 'tools/games-browser.cjs', 'curriculum.js', 'question-feedback.css', 'tools/question-browser.cjs', 'tools/welcome-browser.cjs', 'app.js', 'index.html', 'hesap.html', 'member-*', 'topic-games.*', 'assets/topic-games/**', 'tools/build-topic-games.py', 'supabase/functions/turkce-features/**', 'turkce-auth.mjs', 'supabase/member-release/**', 'supabase/functions/diji-api/turkce-member*', 'tests/turkce-members*', '.github/workflows/turkce-members.yml']
   push:
     branches: [main]
-    paths: ['welcome.*', 'parkur.html', 'app-gate.js', 'assets/welcome/**', 'assets/questions/**', 'assets/games/**', 'games-modern.css', 'tools/games-browser.cjs', 'curriculum.js', 'question-feedback.css', 'tools/question-browser.cjs', 'tools/welcome-browser.cjs', 'app.js', 'index.html', 'hesap.html', 'member-*', 'turkce-auth.mjs', 'supabase/member-release/**', 'supabase/functions/diji-api/turkce-member*', 'tests/turkce-members*', '.github/workflows/turkce-members.yml']
+    paths: ['welcome.*', 'parkur.html', 'app-gate.js', 'assets/welcome/**', 'assets/questions/**', 'assets/games/**', 'games-modern.css', 'tools/games-browser.cjs', 'curriculum.js', 'question-feedback.css', 'tools/question-browser.cjs', 'tools/welcome-browser.cjs', 'app.js', 'index.html', 'hesap.html', 'member-*', 'topic-games.*', 'assets/topic-games/**', 'tools/build-topic-games.py', 'supabase/functions/turkce-features/**', 'turkce-auth.mjs', 'supabase/member-release/**', 'supabase/functions/diji-api/turkce-member*', 'tests/turkce-members*', '.github/workflows/turkce-members.yml']
 permissions:
   contents: read
 jobs:

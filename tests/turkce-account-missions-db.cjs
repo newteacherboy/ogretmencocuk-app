@@ -18,6 +18,11 @@ await db.exec(fs.readFileSync('supabase/member-release/account-missions-routes.s
 await db.exec(fs.readFileSync('supabase/member-release/class-route-catalog.sql','utf8'));
 async function feature(actor,op,p={}){p.request_id=`50000000-0000-4000-8000-${String(++seq).padStart(12,'0')}`;return(await db.query('select public.turkce_features_request($1,$2,$3) r',[actor,op,JSON.stringify(p)])).rows[0].r;}
 
+await db.exec(fs.readFileSync('supabase/member-release/topic-games.sql','utf8'));
+await db.exec(fs.readFileSync('supabase/member-release/topic-games-catalog.sql','utf8'));
+await db.exec(fs.readFileSync('supabase/member-release/badges.sql','utf8'));
+async function badges(who=uid,p={}){return (await db.query("select public.turkce_badges_request($1,'badges',$2) r",[who,JSON.stringify(p)])).rows[0].r;}
+async function topic(op,p={}){p.request_id=`70000000-0000-4000-8000-${String(++seq).padStart(12,'0')}`;return(await db.query('select public.turkce_topic_games_request($1,$2,$3) r',[uid,op,JSON.stringify(p)])).rows[0].r;}
 async function account(op,p={}){p.request_id=`60000000-0000-4000-8000-${String(++seq).padStart(12,'0')}`;return(await db.query('select public.turkce_account_request($1,$2,$3) r',[uid,op,JSON.stringify(p)])).rows[0].r;}
 assert((await account('profile')).preferences.onboarding_at,'existing users are not interrupted');
 const fresh='10000000-0000-4000-8000-000000000003';await db.query(`insert into auth.users(id,email_confirmed_at,raw_user_meta_data)values($1,now(),'{"username":"trnewstudent","grade":5,"full_name":"Yeni Öğrenci","school":"Deneme Okulu"}')`,[fresh]);
@@ -46,6 +51,31 @@ await db.query('update auth.users set email=$1 where id=$2',['immutable@students
 await account('username',{username:'newname05'});assert.equal((await db.query("select public.turkce_login_email('newname05') email")).rows[0].email,'immutable@students.ogretmencocuk.invalid');
 assert.equal((await account('report')).stops,1);
 for(const table of ['member_preferences','class_route_catalog','class_route_attempts','mission_claims'])assert.equal((await db.query(`select has_table_privilege('authenticated','turkce_private.${table}','select') ok`)).rows[0].ok,false);
+
+// Both new games use authenticated snapshots, server grading, resumable entry and bounded rewards.
+let collection=await badges();assert.equal(collection.badges.length,20);assert(collection.badges.find(b=>b.id==='first-wing').earned_at);assert(collection.badges.find(b=>b.id==='first-step').earned_at);assert.equal(collection.badges.find(b=>b.id==='game-spark').earned_at,null);
+const firstEarned=collection.badges.find(b=>b.id==='first-wing').earned_at;
+assert.equal((await badges(uid,{games:999,correct:999,earned:20})).earned,collection.earned,'caller cannot spoof badge stats');
+let game=await topic('topic_start',{lesson_id:'5-1-hece',kind:'hunt'});assert.equal(game.questions.length,8);assert(game.questions.every(q=>!('answer' in q)&&!('explanation' in q)));assert(game.questions.every(q=>q.choices.length===4));
+const energy=game.economy.energy;let again=await topic('topic_start',{lesson_id:'5-1-hece',kind:'hunt'});assert.equal(again.attempt_id,game.attempt_id);assert.equal(again.economy.energy,energy);
+const answers=(await db.query('select questions from turkce_private.topic_game_attempts where id=$1',[game.attempt_id])).rows[0].questions;
+await assert.rejects(()=>topic('topic_answer',{attempt_id:game.attempt_id,index:3,answer:answers[3].answer}),/Soru sırası/);
+for(let index=0;index<8;index++){await db.exec("update turkce_private.topic_game_attempts set last_action_at=now()-interval '1 second'");r=await topic('topic_answer',{attempt_id:game.attempt_id,index,answer:index===0?answers[index].choices.find(c=>c!==answers[index].answer):answers[index].answer});assert.equal(r.correct,index!==0);assert(r.explanation);}
+assert(r.done);assert.equal(r.correct_count,7);assert.equal(r.reward.xp,61);assert.equal(r.reward.gold,26);
+collection=await badges();assert(collection.badges.find(b=>b.id==='game-spark').earned_at);assert.equal(collection.badges.find(b=>b.id==='first-wing').earned_at,firstEarned);
+const nextGame=await topic('topic_start',{lesson_id:'5-1-hece',kind:'hunt'});assert.notEqual(nextGame.attempt_id,game.attempt_id);assert(nextGame.questions.some(q=>!game.questions.some(old=>old.id===q.id)),'replay includes unseen questions');
+for(let index=0;index<8;index++){await db.exec("update turkce_private.topic_game_attempts set last_action_at=now()-interval '1 second'");const key=(await db.query('select questions->$2::int as q from turkce_private.topic_game_attempts where id=$1',[nextGame.attempt_id,index])).rows[0].q;r=await topic('topic_answer',{attempt_id:nextGame.attempt_id,index,answer:key.answer});}
+assert.equal(r.reward.xp,0,'same game gives no duplicate daily reward');
+game=await topic('topic_start',{lesson_id:'5-1-hece',kind:'workshop'});assert(game.questions.every(q=>q.tiles.length===q.slots&&!q.answer));
+const buildKeys=(await db.query('select questions from turkce_private.topic_game_attempts where id=$1',[game.attempt_id])).rows[0].questions;
+await assert.rejects(()=>topic('topic_answer',{attempt_id:game.attempt_id,index:0,answer:['forged']}),/parça/i);
+for(let index=0;index<8;index++){await db.exec("update turkce_private.topic_game_attempts set last_action_at=now()-interval '1 second'");r=await topic('topic_answer',{attempt_id:game.attempt_id,index,answer:buildKeys[index].tiles.map(t=>t.id)});assert(r.correct);}
+assert.equal(r.reward.xp,70);assert.equal(r.reward.gold,30);assert.equal((await topic('topic_status')).games.length,2);assert.equal((await account('report')).game_runs,3);assert((await account('missions',{period:'daily'})).tasks[2].count>=23,'topic correct answers count toward daily mission');
+for(const t of ['member_badges','topic_game_attempts','topic_game_catalog'])assert.equal((await db.query(`select has_table_privilege('authenticated','turkce_private.${t}','select') ok`)).rows[0].ok,false);
+await assert.rejects(()=>badges('10000000-0000-4000-8000-000000009999'),/Aktif öğrenci/);
+assert.equal((await db.query('select count(*)::int n from turkce_private.topic_game_catalog')).rows[0].n,60);
+await db.exec('set role service_role');assert.equal((await badges()).badges.length,20);await db.exec('reset role');
+console.log('PASS 20 permanent server-derived badges; 60 topic games, hidden keys, ownership, grading, resume, replay freshness, daily reward limits and private access');
 await db.exec('set role service_role');
 assert.equal((await account('profile')).preferences.start_grade,6);
 assert.equal((await db.query("select public.turkce_login_email('newname05') email")).rows[0].email,'immutable@students.ogretmencocuk.invalid');

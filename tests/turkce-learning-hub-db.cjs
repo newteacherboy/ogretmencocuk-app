@@ -27,11 +27,11 @@ for(let iteration=0;iteration<2;iteration++){
  const keys=(await db.query('select questions from turkce_private.study_attempts where id=$1',[start.attempt_id])).rows[0].questions;
  for(let index=0;index<8;index++){
  await db.query("update turkce_private.study_attempts set last_action_at=now()-interval '1 second'");
- const r=await feature(uid,'study_answer',{attempt_id:start.attempt_id,index,answer:keys[index].answer,xp:999999});assert(r.correct);assert.equal(r.done,index===7);if(index===7)assert.equal(r.reward.xp,iteration===0?160:0);
+ const r=await feature(uid,'study_answer',{attempt_id:start.attempt_id,index,answer:keys[index].answer,xp:999999});assert(r.correct);assert.equal(r.done,index===7);if(index===7)assert.equal(r.reward.xp,iteration===0?200:0);
  }
  await assert.rejects(()=>feature(uid,'study_answer',{attempt_id:start.attempt_id,index:7,answer:keys[7].answer}),/Soru sırası/);
 }
-assert.equal((await call('state')).economy.xp,initialXp+160);
+assert.equal((await call('state')).economy.xp,initialXp+200);
 assert.equal((await feature(uid,'study_status')).lessons[0].score,100);
 const other='10000000-0000-4000-8000-000000000002';await db.query(`insert into auth.users(id,email_confirmed_at,raw_user_meta_data) values($1,now(),'{"username":"trbbbbbbbbbb","grade":5,"full_name":"İkinci Öğrenci","school":"Deneme Okulu"}')`,[other]);
 await db.query('update public.turkce_profiles set share_activity=true where id in ($1,$2)',[uid,other]);
@@ -47,5 +47,5 @@ await db.query('update public.turkce_profiles set share_activity=false where id=
 assert.equal((await feature(other,'social')).feed.length,0);await assert.rejects(()=>feature(other,'like',{activity_id:String(activity),liked:true}),/görünmüyor/);
 for(const table of ['study_catalog','study_attempts','activity_likes'])assert.equal((await db.query(`select has_table_privilege('authenticated','turkce_private.${table}','select') ok`)).rows[0].ok,false);
 assert.equal((await db.query("select has_function_privilege('authenticated','public.turkce_features_request(uuid,text,jsonb)','execute') ok")).rows[0].ok,false);
-console.log('PASS 30 lesson catalog, server grading/resume, one-time 160 XP, privacy and idempotent friend-only likes');
+console.log('PASS 30 lesson catalog, server grading/resume, one-time 200 XP, privacy and idempotent friend-only likes');
 await db.close();})().catch(e=>{console.error(e);process.exit(1)});

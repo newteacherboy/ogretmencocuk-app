@@ -5,8 +5,8 @@ alter table public.turkce_reward_ledger drop constraint if exists turkce_reward_
 alter table public.turkce_reward_ledger drop constraint if exists turkce_reward_ledger_check;
 alter table public.turkce_reward_ledger drop constraint if exists turkce_reward_ledger_check1;
 alter table public.turkce_reward_ledger add constraint turkce_reward_ledger_mode_check check(mode in ('stop','game','study'));
-alter table public.turkce_reward_ledger add constraint turkce_reward_ledger_check check(xp>=0 and ((mode='stop' and xp<=140) or (mode='game' and xp<=70) or (mode='study' and xp<=160)));
-alter table public.turkce_reward_ledger add constraint turkce_reward_ledger_check1 check(gold>=0 and ((mode='stop' and gold<=80) or (mode='game' and gold<=30) or (mode='study' and gold<=60)));
+alter table public.turkce_reward_ledger add constraint turkce_reward_ledger_check check(xp>=0 and ((mode='stop' and xp<=140) or (mode='game' and xp<=70) or (mode='study' and xp<=200)));
+alter table public.turkce_reward_ledger add constraint turkce_reward_ledger_check1 check(gold>=0 and ((mode='stop' and gold<=80) or (mode='game' and gold<=30) or (mode='study' and gold<=100)));
 create unique index if not exists turkce_study_reward_once on public.turkce_reward_ledger(user_id,activity_id) where mode='study';
 -- Service-only study and friendship reactions. Identity is verified by turkce-features.
 create table if not exists turkce_private.study_catalog(lesson_id text primary key,questions jsonb not null);
@@ -78,7 +78,7 @@ begin
  if a.next_question=jsonb_array_length(a.questions) then
  a.finished_at:=now();score:=round(a.correct::numeric/jsonb_array_length(a.questions)*100);
  if score>=60 and not exists(select 1 from public.turkce_reward_ledger where user_id=actor and mode='study' and activity_id=a.lesson_id) then
- awarded:=round(160*a.correct::numeric/jsonb_array_length(a.questions));coins:=round(60*a.correct::numeric/jsonb_array_length(a.questions));
+ awarded:=greatest(160,round(200*a.correct::numeric/jsonb_array_length(a.questions)));coins:=greatest(90,round(100*a.correct::numeric/jsonb_array_length(a.questions)));
  insert into public.turkce_reward_ledger(user_id,mode,activity_id,xp,gold) values(actor,'study',a.lesson_id,awarded,coins);
  update public.turkce_economy set xp=xp+awarded,gold=gold+coins,updated_at=now() where user_id=actor;
  insert into public.turkce_activity(user_id,kind,description,shared) select actor,'award','Bir konu testini başarıyla tamamladı.',share_activity from public.turkce_profiles where id=actor;

@@ -20,3 +20,8 @@ test('direct username RPC route is blocked and credential changes require the cu
  const other={auth:{signInWithPassword:async()=>({data:{user:{id:'different'}}})}};
  assert.equal((await features(request({action:'account_password',payload:{current_password:'test1234',new_password:'new12345'}}),db,other)).status,400);assert.equal(writes,0);
 });
+
+test('badges and topic games use the verified owner and their dedicated server RPCs',async()=>{
+ const calls=[],db={auth:{getUser:async()=>({data:{user:{id:'owner'}}})},rpc:async(name,args)=>{calls.push({name,args});return{data:{ok:true}}}};
+ for(const action of ['badges','topic_status','topic_start','topic_answer']){const r=await features(request({action,actor:'other',payload:{actor:'other',xp:999}}),db);assert.equal(r.status,200);assert.equal(calls.at(-1).args.actor,'owner');assert.equal(calls.at(-1).name,action==='badges'?'turkce_badges_request':'turkce_topic_games_request');}
+});
