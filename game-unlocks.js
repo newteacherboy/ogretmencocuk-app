@@ -1,0 +1,8 @@
+/* Progression derives from server XP; the server also checks paid game entry. */
+(()=>{'use strict';
+const levels={'kelime-dedektifi':3,'olay-treni':6,'noktalama-tamircisi':9};
+const current=()=>Number(window.turkceMember?.data?.economy?.level)||1;
+function apply(){const info=document.getElementById('levelValue');if(info){let remaining=Number(window.turkceMember?.data?.economy?.xp)||0,level=1;const cost=n=>n<10?150+n*90:n<20?900+(n-10)*180:n<30?2800+(n-20)*420:7000+2500*(n-29)*(n-29);while(level<40&&remaining>=cost(level)){remaining-=cost(level);level++;}info.title=level===40?'En yüksek seviye':`${level+1}. seviyeye ${cost(level)-remaining} XP kaldı`;info.setAttribute('aria-label',`Seviye ${current()}. ${info.title}`);}for(const [id,min]of Object.entries(levels)){const button=document.querySelector(`[onclick="openGame('${id}')"]`);if(!button)continue;const locked=current()<min,card=button.closest('article');card.classList.toggle('game-locked',locked);button.disabled=locked;button.setAttribute('aria-label',locked?`${min}. seviyede açılır`:card.querySelector('h2').textContent+' — Oyuna Başla');let badge=card.querySelector('.game-unlock-badge');if(!badge){badge=document.createElement('span');badge.className='game-unlock-badge';card.append(badge);}badge.textContent=locked?'🔒 '+min+'. seviyede açılır':'✓ Açık';badge.hidden=!locked;}}
+window.turkceUnlocks={canOpen:id=>current()>=(levels[id]||1),message:id=>`Bu oyun ${levels[id]||1}. seviyede açılır. Şu an ${current()}. seviyedesin.`,apply};
+window.addEventListener('member-state',apply);window.turkceMember.ready.then(apply);apply();
+})();

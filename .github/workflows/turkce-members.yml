@@ -17,7 +17,7 @@ jobs:
           node-version: '22'
       - run: npm ci --prefix tools --ignore-scripts
       - run: node --test tests/turkce-*.test.mjs tests/member-tools.test.cjs tests/api-security-guards.test.cjs tests/daily-mission-claim.test.cjs tests/onboarding-registration.test.cjs tests/server-reward-ledger.test.cjs
-      - run: node tests/turkce-members-db.cjs && node tests/turkce-simple-accounts-db.cjs && node tests/turkce-game-rounds-db.cjs
+      - run: node tests/turkce-members-db.cjs && node tests/turkce-simple-accounts-db.cjs && node tests/turkce-game-rounds-db.cjs && node tests/turkce-learning-hub-db.cjs
       - run: node tools/icerik-dogrula.mjs && node tools/turkce-paketle.mjs --check
 
   welcome-browser:

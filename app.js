@@ -57,7 +57,7 @@ function renderMap(){
       const unlocked=id===1||done||state.completed.includes(id-1);
       const button=document.createElement('button');button.type='button';
       button.className=`mobile-node ${done?'complete':unlocked?'available':'locked'}`;
-      button.textContent=String(id);button.disabled=!unlocked;
+      button.textContent=String(id);if(done){const tick=document.createElement('span');tick.className='stop-complete-check';tick.textContent='✓';tick.setAttribute('aria-hidden','true');button.append(tick);}button.disabled=!unlocked;
       button.setAttribute('aria-label',`${id}. durak, ${stop.title}, ${done?'tamamlandı':unlocked?'açık':'kilitli'}`);
       if(unlocked)button.addEventListener('click',()=>openStopIntro(id));
       nodes.appendChild(button);
@@ -383,8 +383,9 @@ function goNextStop(id){
 async function openGame(gameId){
   const definition = games.find(g=>g.id===gameId);
   if(!definition)return;
+  if(window.turkceUnlocks&&!window.turkceUnlocks.canOpen(gameId)){showMapMessage(window.turkceUnlocks.message(gameId));return;}
   let game={...definition,questions:definition.questions.slice(0,5)};
-  try{await window.turkceMember.ready;const run=await window.turkceMember.request('start',{mode:'game',activity_id:gameId,game_version:2});
+  try{await window.turkceMember.ready;const run=await window.turkceMember.request('start',{mode:'game',activity_id:gameId,game_version:3});
   if(Array.isArray(run.questions)&&run.questions.length)game={...definition,questions:run.questions};
   state.game={game,index:run.index,serverAttempt:run,startedAt:Date.now()};}catch(e){showMapMessage(e.message);return;}
   refreshEconomy();

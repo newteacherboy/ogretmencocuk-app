@@ -1,0 +1,431 @@
+{
+  "grade": 5,
+  "themes": [
+    {
+      "number": 1,
+      "title": "Oyun Dünyası",
+      "lessons": [
+        {
+          "id": "5-1-hece",
+          "title": "Hece yapısı ve satır sonunda kelimeyi bölme",
+          "summary": "Türkçede her hecede bir ünlü bulunur. Bir kelimenin hece sayısını ünlüleri sayarak bulabiliriz. İki ünlü arasındaki tek ünsüz sonraki heceye geçer. Yan yana gelen iki ünsüz genellikle ayrı hecelerde yer alır. Satır sonunda kelimeyi hece sınırından böler, tek harfi yalnız bırakmayız.",
+          "examples": [
+            "oyun → o-yun",
+            "arkadaş → ar-ka-daş",
+            "uçurtma → u-çurt-ma",
+            "“seksek” kelimesinin hecelere doğru ayrılışı hangisidir? → sek-sek",
+            "“tekerleme” kelimesinin hecelere doğru ayrılışı hangisidir? → te-ker-le-me"
+          ],
+          "questionCount": 8
+        },
+        {
+          "id": "5-1-nokta",
+          "title": "Nokta nerede kullanılır?",
+          "summary": "Nokta, tamamlanmış haber cümlelerinin sonuna konur. Duygu veya soru bildiren cümleler başka işaretlerle tamamlanabilir. Nokta bazı kısaltmaların sonunda da kullanılır. Sayılardan sonra geldiğinde sıra anlamı verebilir. Noktanın görevini anlamak için cümlenin ne anlattığını incelemeliyiz.",
+          "examples": [
+            "Oyun bitti.",
+            "2. takım",
+            "saat 09.30",
+            "Buluşma saatini doğru gösteren cümle hangisidir? → Saat 09.30'da bahçedeyiz.",
+            "Sıra sayısının rakamla doğru yazımı hangisidir? → 3. sıradaki oyuncu başladı."
+          ],
+          "questionCount": 8
+        },
+        {
+          "id": "5-1-kisa-cizgi",
+          "title": "Kısa çizgi: satır sonu ve heceleri gösterme",
+          "summary": "Kısa çizgi, sözcükleri hecelerine ayırırken kullanılır. Satıra sığmayan bir sözcüğü hece sınırından bölmemize de yardım eder. Birleşen iki satırda sözcüğün anlamı değişmez. Kısa çizgiyi konuşma çizgisiyle karıştırmamalıyız. Kelimeyi bölerken satırın başında veya sonunda tek harf bırakmayız.",
+          "examples": [
+            "ka-lem",
+            "bah-çe",
+            "pen-ce-re",
+            "Kısa çizgiyle heceleri gösterilen “oyuncak” kelimesinde doğru kullanım hangisidir? → o-yun-cak",
+            "Kısa çizgiyle heceleri gösterilen “çocuk” kelimesinde doğru kullanım hangisidir? → ço-cuk"
+          ],
+          "questionCount": 8
+        },
+        {
+          "id": "5-1-isim-fiil",
+          "title": "İsim mi, fiil mi?",
+          "summary": "İsimler varlıkları, kavramları ve duyguları karşılar. Fiiller yapılan bir işi, oluşu veya hareketi anlatır. Bir sözcüğün görevini anlamak için kullanıldığı cümleye bakarız. Fiiller uygun bir kişi ve zamanla çekimlenebilir. Aynı sözcük farklı cümlelerde farklı görevler üstlenebilir.",
+          "examples": [
+            "oyun → isim",
+            "oynadı → fiil",
+            "sevinç → isim",
+            "“Çocuk topu bahçeye bıraktı.” cümlesinde “topu” hangi türdedir? → isim",
+            "“Oyuncu sırayı bekledi.” cümlesinde “bekledi” hangi türdedir? → fiil"
+          ],
+          "questionCount": 8
+        },
+        {
+          "id": "5-1-tahmin",
+          "title": "Tahmin bildiren ifadeler",
+          "summary": "Tahmin, ipuçlarından yararlanarak bir sonuca ulaşmaya çalışmaktır. Sanırım, galiba ve belki gibi sözcükler kesin olmayan bir yargı bildirebilir. Tahminlerimizi metindeki veya görseldeki bir ipucuna dayandırmalıyız. Yeni bilgi geldiğinde tahminimizi değiştirebiliriz. Tahmin ile kesin bilgiyi birbirinden ayırmalıyız.",
+          "examples": [
+            "Galiba yağmur yağacak.",
+            "Kutu boş olabilir.",
+            "Belki arkadaşımız gelir.",
+            "“Galiba yarın yeni bir oyun oynayacağız.” cümlesindeki belirgin anlam ilişkisi hangisidir? → tahmin",
+            "“Bu izler bir oyuncuya ait olabilir.” cümlesindeki belirgin anlam ilişkisi hangisidir? → tahmin"
+          ],
+          "questionCount": 8
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Atatürk'ü Tanımak",
+      "lessons": [
+        {
+          "id": "5-2-buyuk-harf",
+          "title": "Büyük harflerin yazımı (1. bölüm)",
+          "summary": "Cümlelerin ilk sözcüğü büyük harfle başlar. Kişi ve yer adları gibi özel adların ilk harfi de büyüktür. Dil ve millet adlarını büyük harfle yazarız. Bir sözcüğün özel ad olup olmadığını cümledeki kullanımından anlarız. Yazdıktan sonra büyük harflerin yerini yeniden kontrol ederiz.",
+          "examples": [
+            "Ayşe",
+            "Ali Bey",
+            "Türkiye",
+            "Normal cümle yazımında özel ad kuralına göre aşağıdaki seçeneklerden hangisi doğru yazılmıştır? → Ayşe'nin defteri",
+            "Normal cümle yazımında özel ad kuralına göre aşağıdaki seçeneklerden hangisi doğru yazılmıştır? → Mustafa Kemal Atatürk"
+          ],
+          "questionCount": 8
+        },
+        {
+          "id": "5-2-virgul",
+          "title": "Virgülün kullanımı",
+          "summary": "Virgül, eş görevli sözcükleri birbirinden ayırır. Sıralanan kısa cümleler arasında da kullanılabilir. Seslenme sözlerinden sonra virgül koyabiliriz. Virgül, okurken anlamı doğru bölümlere ayırmamıza yardımcı olur. Bağlaçların her iki yanına gelişigüzel virgül koymamalıyız.",
+          "examples": [
+            "kitap, kalem ve silgi",
+            "Öğretmenim, bir sorum var.",
+            "2,5",
+            "Virgülün gerekli olduğu yerler gösterilecekse aşağıdaki seçeneklerden hangisi doğru yazılmıştır? → Çantamda kitap, kalem ve silgi var.",
+            "Virgülün gerekli olduğu yerler gösterilecekse aşağıdaki seçeneklerden hangisi doğru yazılmıştır? → Panoya resim, belge ve harita astık."
+          ],
+          "questionCount": 8
+        },
+        {
+          "id": "5-2-soru-isareti",
+          "title": "Soru işaretinin kullanımı",
+          "summary": "Soru işareti, soru anlamı taşıyan cümlelerin sonuna konur. Bir cümle soru sözcüğüyle veya soru ekiyle kurulabilir. Soru eki kendinden önceki sözcükten ayrı yazılır. Cümlenin gerçekten soru sorup sormadığını düşünmeliyiz. Cümlenin son işaretini anlamına göre seçmeliyiz.",
+          "examples": [
+            "Sergi ne zaman açılacak?",
+            "Hazır mısın?",
+            "Adınız?",
+            "Aşağıdaki sözlerden hangisi doğrudan soru bildirir ve sonuna soru işareti gerektirir? (2. durum) → Defteri kim getirdi",
+            "Aşağıdaki sözlerden hangisi doğrudan soru bildirir ve sonuna soru işareti gerektirir? (3. durum) → Bu belgeyi nerede buldunuz"
+          ],
+          "questionCount": 8
+        },
+        {
+          "id": "5-2-ismi-niteleyen",
+          "title": "İsmi niteleyen ve belirten sözcükler",
+          "summary": "İsimlerden önce gelen bazı sözcükler onların özelliklerini anlatır. Bu sözcükler renk, biçim, durum veya sayı bildirebilir. Bir isme nasıl sorusunu sorarak niteliğini bulabiliriz. Hangi ve kaç soruları da ismi belirten sözcükleri fark etmemize yardım eder. Özellik bildiren sözcük ile onun belirttiği ismi birlikte incelemeliyiz.",
+          "examples": [
+            "eski fotoğraf",
+            "iki pano",
+            "bu kitap",
+            "“Kırmızı çanta sandalyenin yanında duruyor.” cümlesinde “Kırmızı” hangi ismi niteler veya belirtir? → çanta",
+            "“Üç öğrenci kapının önünde bekliyor.” cümlesinde “Üç” hangi ismi niteler veya belirtir? → öğrenci"
+          ],
+          "questionCount": 8
+        },
+        {
+          "id": "5-2-sifat-fiil",
+          "title": "İsmi niteleyen fiilimsi yapıları",
+          "summary": "Bazı fiil kökenli sözcükler cümlede bir ismin özelliğini anlatır. Bu yapılar bir hareketle o hareketin ilgili olduğu varlık arasında bağ kurar. Okuyan çocuk ifadesinde okuyan sözcüğü çocuğu niteler. Bu tür yapılara bakarken hem sözcüğün kökünü hem de cümledeki görevini düşünürüz. Asıl amaç, bu yapıların cümleye kattığı anlamı fark etmektir.",
+          "examples": [
+            "gülen çocuk",
+            "akan su",
+            "okunacak kitap",
+            "“Okunacak kitap raftaydı.” cümlesinde eylemden türeyerek bir ismi betimleyen sözcük hangisidir? → Okunacak",
+            "“Yazılmış mektup çekmecedeydi.” cümlesinde eylemden türeyerek bir ismi betimleyen sözcük hangisidir? → Yazılmış"
+          ],
+          "questionCount": 8
+        },
+        {
+          "id": "5-2-ekleme",
+          "title": "Ekleme bildiren bağlantı ifadeleri (ayrıca, hatta, üstelik…)",
+          "summary": "Ekleme bildiren ifadeler önceki bilgiye yeni bir bilgi katar. Ayrıca, üstelik ve hatta bu amaçla kullanılabilir. Yeni bilginin önceki cümleyle ilişkili olması gerekir. Bu bağlantılar düşünceler arasında akıcı bir geçiş sağlar. Hangi bağlantıyı seçeceğimize cümlenin anlamına göre karar veririz.",
+          "examples": [
+            "Kitap okudum, ayrıca not aldım.",
+            "Hem dinledim hem yazdım.",
+            "Belgeleri ve fotoğrafları gördük.",
+            "“Kitapları düzenledik, ayrıca rafları sildik.” cümlesindeki belirgin anlam ilişkisi hangisidir? → ekleme",
+            "“Panoyu hazırladık, üstelik bir soru kutusu ekledik.” cümlesindeki belirgin anlam ilişkisi hangisidir? → ekleme"
+          ],
+          "questionCount": 8
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Duygularımı Tanıyorum",
+      "lessons": [
+        {
+          "id": "5-3-buyuk-harf",
+          "title": "Büyük harflerin yazımı (2. bölüm)",
+          "summary": "Cümlelerin ilk sözcüğü büyük harfle başlar. Kişi ve yer adları gibi özel adların ilk harfi de büyüktür. Dil ve millet adlarını büyük harfle yazarız. Bir sözcüğün özel ad olup olmadığını cümledeki kullanımından anlarız. Yazdıktan sonra büyük harflerin yerini yeniden kontrol ederiz.",
+          "examples": [
+            "Türkçe",
+            "Mars",
+            "Ağrı Dağı",
+            "Özel adların normal cümle yazımına göre aşağıdaki seçeneklerden hangisi doğru yazılmıştır? → Türkçe öğreniyoruz.",
+            "Özel adların normal cümle yazımına göre aşağıdaki seçeneklerden hangisi doğru yazılmıştır? → Almanca konuşuyor."
+          ],
+          "questionCount": 8
+        },
+        {
+          "id": "5-3-unlem",
+          "title": "Ünlem işaretinin kullanımı",
+          "summary": "Ünlem işareti, güçlü duyguların anlatıldığı cümlelerin sonunda kullanılır. Sevinç, korku, şaşırma ve üzüntü bu duygular arasında yer alır. Uyarı ve seslenmelerde de ünlem kullanılabilir. Cümleyi okurken ses tonumuz, anlatılan duyguyu yansıtır. Her cümlenin sonuna ünlem koymak yerine anlamı değerlendirmeliyiz.",
+          "examples": [
+            "Yaşasın, başardık!",
+            "Dikkat, zemin kaygan!",
+            "Hey, buraya bak!",
+            "“Yaşasın, gösterimiz çok güzel geçti!” sözünde ünlem işareti hangi işlevi öne çıkarır? → sevinç",
+            "“Eyvah, defterimi evde unuttum!” sözünde ünlem işareti hangi işlevi öne çıkarır? → telaş"
+          ],
+          "questionCount": 8
+        },
+        {
+          "id": "5-3-uzun-cizgi",
+          "title": "Konuşma çizgisi (uzun çizgi)",
+          "summary": "Konuşma çizgisi, metindeki karşılıklı konuşmaları göstermeye yarar. Konuşan kişinin sözünden önce satır başında kullanılır. Her yeni konuşmacının sözü ayrı bir satırda başlayabilir. Konuşma çizgisi kısa çizgiden daha uzundur. Bu işaret metni okurken kimin konuştuğunu izlememizi kolaylaştırır.",
+          "examples": [
+            "— Nasılsın?",
+            "— Biraz heyecanlıyım.",
+            "— Seni dinliyorum.",
+            "Konuşma satırı “Bugün biraz heyecanlıyım.” sözüyle başlayacak. Uzun çizginin doğru gösterimi hangisidir? → — Bugün biraz heyecanlıyım.",
+            "Konuşma satırı “Seni dinlemeye hazırım.” sözüyle başlayacak. Uzun çizginin doğru gösterimi hangisidir? → — Seni dinlemeye hazırım."
+          ],
+          "questionCount": 8
+        },
+        {
+          "id": "5-3-isimler",
+          "title": "İsimlerin özellikleri",
+          "summary": "İsimler varlıkların, kavramların ve duyguların adlarıdır. Tek bir varlığı karşılayan özel adlar büyük harfle başlar. Aynı türden varlıkları karşılayan sözcüklere tür adı denir. İsimler tek bir varlığı veya birden fazla varlığı anlatabilir. Bir ismin özelliğini belirlerken cümledeki anlamını incelemeliyiz.",
+          "examples": [
+            "Ayşe → özel ad",
+            "sevinç → soyut ad",
+            "çocuklar → çoğul ad",
+            "“sevinç” sözü duyularla algılanma bakımından hangi özelliği taşır? → soyut isim",
+            "“masa” sözü duyularla algılanma bakımından hangi özelliği taşır? → somut isim"
+          ],
+          "questionCount": 8
+        },
+        {
+          "id": "5-3-amac",
+          "title": "Amaç bildiren ifadeler",
+          "summary": "Amaç bildiren ifadeler bir işin hangi hedefle yapıldığını açıklar. Bir cümleye hangi amaçla sorusunu sorarak amacı bulabiliriz. İçin ve üzere gibi sözcükler amaç ilişkisi kurabilir. Amaç, henüz ulaşılmak istenen sonucu gösterir. Neden ile amacı ayırırken gerçekleşmiş sebebe mi yoksa hedefe mi bakıldığını düşünmeliyiz.",
+          "examples": [
+            "Dinlemek için oturdum.",
+            "Hazırlanmak amacıyla çalıştım.",
+            "Konuşmak üzere yaklaştım.",
+            "“Arkadaşımı dinlemek için yanına oturdum.” cümlesindeki belirgin anlam ilişkisi hangisidir? → amaç",
+            "“Sunuma hazırlanmak amacıyla not tuttum.” cümlesindeki belirgin anlam ilişkisi hangisidir? → amaç"
+          ],
+          "questionCount": 8
+        },
+        {
+          "id": "5-3-duygu",
+          "title": "Duygu bildiren ifadeler (dilek, pişmanlık, şaşırma…)",
+          "summary": "Cümleler yalnızca bilgi değil, duygu da taşır. Dilek, pişmanlık, şaşırma ve sevinç farklı duygu durumlarıdır. Keşke sözcüğü bağlama göre dilek veya pişmanlık bildirebilir. Bir cümlenin duygusunu anlamak için bütününü okumalıyız. Noktalama ve ses tonu da duyguyu anlamamıza yardımcı olur.",
+          "examples": [
+            "İyi ki geldin.",
+            "Keşke dün daha dikkatli olsaydım.",
+            "Acaba sorumu duydu mu?",
+            "“Keşke dün arkadaşımın sözünü kesmeseydim.” cümlesinde belirgin duygu veya tutum hangisidir? → pişmanlık",
+            "“İyi ki düşünceni benimle paylaştın.” cümlesinde belirgin duygu veya tutum hangisidir? → memnuniyet"
+          ],
+          "questionCount": 8
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Geleneklerimiz",
+      "lessons": [
+        {
+          "id": "5-4-sayilar",
+          "title": "Sayıların yazımı",
+          "summary": "Sayılar metnin amacına göre yazıyla veya rakamla gösterilebilir. Birden fazla sözcükten oluşan sayılar ayrı yazılır. Sıra bildiren sayılar ekle veya noktayla gösterilebilir. Tarih ve saatlerde sayıların kullanımına dikkat ederiz. Sayıları yazdıktan sonra eklerini ve işaretlerini kontrol ederiz.",
+          "examples": [
+            "iki yüz",
+            "yirmi üç",
+            "5. sıra",
+            "Sayı yazıyla gösterilecekse aşağıdaki seçeneklerden hangisi doğru yazılmıştır? → on beş",
+            "Sayı yazıyla gösterilecekse aşağıdaki seçeneklerden hangisi doğru yazılmıştır? → bin dokuz yüz"
+          ],
+          "questionCount": 8
+        },
+        {
+          "id": "5-4-uc-nokta",
+          "title": "Üç noktanın kullanımı",
+          "summary": "Üç nokta, tamamlanmamış ifadelerin sonunda kullanılabilir. Anlatımda söylenmeyen bir bölüm olduğunu düşündürür. Verilen örneklerin devam edebileceğini de gösterebilir. Üç nokta birbiri ardına gelen üç noktadan oluşur. Cümlenin tamamlanıp tamamlanmadığını düşünerek bu işareti kullanırız.",
+          "examples": [
+            "Sandıkta mektuplar, resimler...",
+            "Bir gün yine...",
+            "Bahçede türlü sesler...",
+            "“Sergide kilim, çömlek, fincan” sıralamasının bilerek tamamlanmadığı üç noktayla gösterilecek. Doğru işaretleme hangisidir? → Sergide kilim, çömlek, fincan...",
+            "“Masada çorba, ekmek, pilav” sıralamasının bilerek tamamlanmadığı üç noktayla gösterilecek. Doğru işaretleme hangisidir? → Masada çorba, ekmek, pilav..."
+          ],
+          "questionCount": 8
+        },
+        {
+          "id": "5-4-kesme",
+          "title": "Kesme işaretinin kullanımı",
+          "summary": "Kesme işareti, özel adlara gelen bazı ekleri ayırır. Kişi ve yer adlarının eklerine dikkat etmeliyiz. Kısaltmalara ve sayılara gelen bazı eklerde de kesme kullanılır. Her sözcüğün ekini kesmeyle ayırmak doğru değildir. İşaretin gerekip gerekmediğini sözcüğün türüne göre belirleriz.",
+          "examples": [
+            "Ankara’ya",
+            "Ali Bey’e",
+            "2026’nın",
+            "Özel ad veya sayıya getirilen ek için aşağıdaki seçeneklerden hangisi doğru yazılmıştır? → Ankara'ya",
+            "Özel ad veya sayıya getirilen ek için aşağıdaki seçeneklerden hangisi doğru yazılmıştır? → Zeynep'in"
+          ],
+          "questionCount": 8
+        },
+        {
+          "id": "5-4-karsilastirma",
+          "title": "Karşılaştırma, benzerlik ve farklılık bildiren ifadeler",
+          "summary": "Karşılaştırma yaparken iki varlık veya durum arasındaki ilişkiyi belirtiriz. Daha ve en gibi sözcükler özelliklerin derecesini gösterebilir. Gibi sözcüğü benzerlik kurmamıza yardımcı olur. Farklılık bildiren ifadeler ortak olmayan özellikleri vurgular. Karşılaştırmada hangi özelliğin ele alındığını bulmalıyız.",
+          "examples": [
+            "Bu kilim daha ince.",
+            "İki desen birbirine benziyor.",
+            "Bu metin öteki kadar uzun.",
+            "“Bu kilim ötekinden daha ince.” cümlesindeki belirgin anlam ilişkisi hangisidir? → karşılaştırma",
+            "“Yeni sofra eskisi kadar geniş.” cümlesindeki belirgin anlam ilişkisi hangisidir? → karşılaştırma"
+          ],
+          "questionCount": 8
+        },
+        {
+          "id": "5-4-ozet",
+          "title": "Özet bildiren ifadeler (kısacası, özetle…)",
+          "summary": "Özet bildiren ifadeler anlatılanların temel düşüncesini toparlar. Kısacası ve özetle bu amaçla kullanılabilir. Özet cümlesi önceki anlatımla anlamca uyumlu olmalıdır. Özetlerken gereksiz ayrıntıları çıkarırız. Ana düşünceyi kendi sözlerimizle kısa ve açık biçimde anlatırız.",
+          "examples": [
+            "Özetle, herkes hazırlığa katkıda bulundu.",
+            "Kısacası, iki örnek farklıydı.",
+            "Sonuç olarak ortak bir plan yapıldı.",
+            "“Görevler paylaşıldı, sofra hazırlandı, konuklar karşılandı.” anlatımını kısaca toparlayacak bir cümleye başlarken hangi ifade özetleme bildirir? → Özetle",
+            "“Notlar toplandı, benzerlikler belirlendi, pano tamamlandı.” anlatımını kısaca toparlayacak bir cümleye başlarken hangi ifade özetleme bildirir? → Özetle"
+          ],
+          "questionCount": 8
+        },
+        {
+          "id": "5-4-zamir",
+          "title": "İsmin yerini tutan sözcükler",
+          "summary": "Bazı sözcükler cümlede bir ismin yerini tutar. Ben, sen ve o kişi adlarının yerine kullanılabilir. Bu, şu ve onlar gibi sözcüklerin hangi varlığı gösterdiğini bağlamdan anlarız. İsmin yerini tutan sözcükler gereksiz tekrarları azaltır. Bu sözcükleri yorumlarken önceki ve sonraki cümleleri de okumalıyız.",
+          "examples": [
+            "Ece geldi. O konuştu.",
+            "Çocuklar geldi. Onlar dinledi.",
+            "Ayşe not aldı. O özet yazdı.",
+            "“Zeynep kilimi inceledi. Zeynep not aldı.” İkinci cümlede tekrarlanan kişi veya kişiler yerine hangisi kullanılabilir? → O",
+            "“Çocuklar sofrayı kurdu. Çocuklar konukları karşıladı.” İkinci cümlede tekrarlanan kişi veya kişiler yerine hangisi kullanılabilir? → Onlar"
+          ],
+          "questionCount": 8
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "İletişim ve Sosyal İlişkiler",
+      "lessons": [
+        {
+          "id": "5-5-zaman-baglac",
+          "title": "Zaman bildiren bağlantı ifadeleri (önce, sonra, bu sırada…)",
+          "summary": "Zaman bildiren bağlantılar olayların sırasını anlamamıza yardım eder. Önce ve sonra sözcükleri farklı zaman adımlarını gösterir. Bu sırada ifadesi aynı zamanda gerçekleşen bir olaya işaret edebilir. Olayları sıralarken bağlantı sözcükleriyle birlikte bütün anlamı da inceleriz. Böylece anlatımdaki zaman ilişkisini doğru kurarız.",
+          "examples": [
+            "Önce okuduk, sonra yazdık.",
+            "Bu sırada arkadaşım dinledi.",
+            "Son olarak kontrol ettik.",
+            "“Önce duyuruyu okuduk, sonra sorularımızı yazdık.” cümlesinde “Önce” hangi zaman ilişkisini kurar? → öncelik",
+            "“Sunum bitti, ardından sorular başladı.” cümlesinde “ardından” hangi zaman ilişkisini kurar? → sonralık"
+          ],
+          "questionCount": 8
+        },
+        {
+          "id": "5-5-buyuk-harf",
+          "title": "Büyük harflerin yazımı (3. bölüm)",
+          "summary": "Cümlelerin ilk sözcüğü büyük harfle başlar. Kişi ve yer adları gibi özel adların ilk harfi de büyüktür. Dil ve millet adlarını büyük harfle yazarız. Bir sözcüğün özel ad olup olmadığını cümledeki kullanımından anlarız. Yazdıktan sonra büyük harflerin yerini yeniden kontrol ederiz.",
+          "examples": [
+            "Türk Dil Kurumu",
+            "Dil ve Tarih",
+            "TDK",
+            "Normal başlık ve kısaltma yazımında aşağıdaki seçeneklerden hangisi doğru yazılmıştır? → Türkiye Büyük Millet Meclisi",
+            "Normal başlık ve kısaltma yazımında aşağıdaki seçeneklerden hangisi doğru yazılmıştır? → Millî Eğitim Bakanlığı"
+          ],
+          "questionCount": 8
+        },
+        {
+          "id": "5-5-tirnak",
+          "title": "Tırnak işaretinin kullanımı",
+          "summary": "Tırnak işareti, başkasından aktarılan sözleri göstermekte kullanılabilir. Özellikle vurgulanan bir sözün sınırlarını da belirtebilir. Açılan tırnağın kapanmasına dikkat etmeliyiz. Alıntı sözün kendi noktalaması anlamına uygun olmalıdır. Tırnak içindeki sözü çevresindeki cümleyle birlikte okuruz.",
+          "examples": [
+            "Ece, “Bir sorum var.” dedi.",
+            "Panoda “dinleme” sözü vurgulandı.",
+            "Duru, “Teşekkür ederim.” dedi.",
+            "Kurmaca bir konuşmada Ece’nin söylediği söz “Önce birbirimizi dinleyelim.” biçimindedir. Doğrudan aktarımın sınırları hangi seçenekte doğru gösterilmiştir? → Ece, “Önce birbirimizi dinleyelim.” dedi.",
+            "Kurmaca bir konuşmada Ece’nin söylediği söz “Duyuruyu yeniden yazalım.” biçimindedir. Doğrudan aktarımın sınırları hangi seçenekte doğru gösterilmiştir? → Ece, “Duyuruyu yeniden yazalım.” dedi."
+          ],
+          "questionCount": 8
+        },
+        {
+          "id": "5-5-anlam-butunlugu",
+          "title": "Anlamca çelişen sözcükler (anlam bütünlüğü)",
+          "summary": "Bir cümledeki sözcükler anlam bakımından birbiriyle uyumlu olmalıdır. Aynı durumu çelişkili biçimde anlatan sözcükler anlamı bozabilir. Kesinlik ile olasılık bildiren sözcükleri dikkatle seçmeliyiz. Cümlede fazladan veya yanlış kullanılan bir sözcük olup olmadığını kontrol ederiz. Düzeltme yaparken cümlenin temel düşüncesini koruruz.",
+          "examples": [
+            "Kesinlikle gelecek.",
+            "Belki gelecek.",
+            "Yaklaşık on dakika sürdü.",
+            "“tam olarak yaklaşık on dakika” sözündeki çelişen kesinlik veya miktar ifadeleri giderildiğinde hangi seçenek tutarlı olur? → Yaklaşık on dakika.",
+            "“eminim galiba duydu” sözündeki çelişen kesinlik veya miktar ifadeleri giderildiğinde hangi seçenek tutarlı olur? → Eminim duydu."
+          ],
+          "questionCount": 8
+        },
+        {
+          "id": "5-5-yeniden-kurma",
+          "title": "Cümleyi kendi ifadeleriyle yeniden kurma",
+          "summary": "Bir cümleyi kendi sözlerimizle yeniden anlatabiliriz. Yeniden kurarken cümlenin temel anlamını korumalıyız. Sözcüklerin yerini değiştirmek tek başına yeterli olmayabilir. Uygun eş anlamlı ifadelerden ve farklı cümle yapılarından yararlanabiliriz. Son olarak yeni cümle ile ilk cümleyi anlam yönünden karşılaştırırız.",
+          "examples": [
+            "Önce okudum, sonra yazdım. → Yazmadan önce okudum.",
+            "Yardım istedi. → Destek talep etti.",
+            "Sözünü tamamladı. → Konuşmasını bitirdi.",
+            "“Duru duyuruyu arkadaşları daha iyi anlasın diye yeniden yazdı.” cümlesi anlamı korunarak hangi biçimde yeniden kurulabilir? → Duru, duyuruyu daha anlaşılır kılmak için tekrar yazdı.",
+            "“Toplantıdan önce herkes sorusunu hazırladı.” cümlesi anlamı korunarak hangi biçimde yeniden kurulabilir? → Herkes, toplantı başlamadan sorusunu belirledi."
+          ],
+          "questionCount": 8
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Sağlıklı Yaşıyorum",
+      "lessons": [
+        {
+          "id": "5-6-ornek",
+          "title": "Örnek bildiren bağlantı ifadeleri (örneğin, mesela…)",
+          "summary": "Örnekler bir düşüncenin daha iyi anlaşılmasını sağlar. Örneğin ve mesela sözcükleri örneğe geçişi gösterebilir. Verilen örneğin açıklanan düşünceyle ilişkili olması gerekir. Birden fazla örnek arasında anlamca uyum kurmalıyız. Örneklerden yola çıkarak anlatılan genel düşünceyi bulabiliriz.",
+          "examples": [
+            "Farklı metinler vardır",
+            "örneğin bir afiş bilgi verebilir.",
+            "Mesela çizelge kullanabiliriz.",
+            "Söz gelimi bir kelime oyunu seçebiliriz.",
+            "“Farklı etkinlikler seçebiliriz; söz gelimi kelime oyunu oynayabiliriz.” cümlesindeki belirgin anlam ilişkisi hangisidir? → örneklendirme"
+          ],
+          "questionCount": 8
+        },
+        {
+          "id": "5-6-tekrar",
+          "title": "Yazım ve noktalama genel tekrar",
+          "summary": "Yazdığımız bir metni tamamladıktan sonra yeniden okumalıyız. Cümle başlangıçlarını ve özel adların büyük harflerini kontrol ederiz. Cümle sonlarındaki işaretleri anlama göre seçeriz. Eklerin, sayıların ve kısaltmaların yazımını da gözden geçiririz. Düzeltmelerimiz metnin daha açık ve anlaşılır olmasını sağlar.",
+          "examples": [
+            "Planı kontrol ettin mi?",
+            "Selin’in çizelgesi",
+            "yirmi beş dakika",
+            "Sınıf duyurusunda hangisi doğru yazılmıştır? → Bugün kitap okuduk.",
+            "Kişi adına gelen ekin doğru yazımı hangisidir? → Selin'in çizelgesi"
+          ],
+          "questionCount": 8
+        }
+      ]
+    }
+  ]
+}
