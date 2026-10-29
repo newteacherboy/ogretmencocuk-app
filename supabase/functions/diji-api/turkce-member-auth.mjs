@@ -50,11 +50,13 @@ export async function turkceMemberAuth(req,db,authClient){
  if(found.error||!found.data)return send({ok:false,message:'Kullanıcı adını ve kurtarma kodunu kontrol et.'},400);
  const updated=await db.auth.admin.updateUserById(found.data,{password});
  if(updated.error){await db.rpc('turkce_recovery_consume',{code,hash:nextHash,next_hash:oldHash});return send({ok:false,message:'Şifre değiştirilemedi.'},400)}
- const fresh=await authClient.auth.signInWithPassword({email:alias(code),password});
+ const resolved=await db.rpc('turkce_login_email',{code});if(!resolved.error&&resolved.data===null)return send({ok:false,message:'Kullanıcı adını ve şifreni kontrol et.'},401);const email=typeof resolved.data==='string'?resolved.data:alias(code);
+ const fresh=await authClient.auth.signInWithPassword({email,password});
  if(fresh.data?.session)await db.auth.admin.signOut(fresh.data.session.access_token,'global');
  return send({ok:true,recovery:next});
  }
- const result=await authClient.auth.signInWithPassword({email:alias(code),password});
+ const resolved=await db.rpc('turkce_login_email',{code});if(!resolved.error&&resolved.data===null)return send({ok:false,message:'Kullanıcı adını ve şifreni kontrol et.'},401);const email=typeof resolved.data==='string'?resolved.data:alias(code);
+ const result=await authClient.auth.signInWithPassword({email,password});
  if(result.error||!result.data.session)return send({ok:false,message:'Kullanıcı adını veya şifreni kontrol et.'},401);
  const profile=await db.from('turkce_profiles').select('disabled').eq('id',result.data.user.id).maybeSingle();
  if(profile.error||!profile.data||profile.data.disabled){await db.auth.admin.signOut(result.data.session.access_token,'local');return send({ok:false,message:'Hesabın yetkili tarafından duraklatıldı.'},403);}
