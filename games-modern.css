@@ -132,3 +132,9 @@ body{background:linear-gradient(140deg,#f0f5fc,#faf8ff);color:var(--modern-ink)}
 @media(min-width:701px){.games-sidebar .games-mascot{flex:none;height:260px;min-height:260px;width:100%;aspect-ratio:auto}.games-sidebar{position:sticky;top:14px}}
 .games-browser{width:100%}
 @media(max-width:700px){.modern-games-layout{align-items:stretch}.games-sidebar{width:100%}}
+
+/* Clear chronological instructions stay visible on phones and classroom screens. */
+.sg-train-help{display:grid;gap:5px;padding:10px 12px;margin-bottom:8px;border-radius:12px;background:#e6f6ef;border:1px solid #72b69b;color:#174d3d;font-size:15px;line-height:1.35}
+.sg-train-start,.sg-train-end{font-size:12px;font-weight:800;color:#226456;padding:5px 12px}
+.sg-train .order-num{font-size:16px}.sg-train .order-item:focus-within{outline:3px solid #226456;outline-offset:2px}
+@media(max-width:700px){.sg-train-help{font-size:12px;padding:7px 9px}.sg-train .order-item{min-height:58px;padding:6px}.sg-train .order-text{font-size:13px}.sg-train .order-list{gap:5px}.sg-train .order-actions button{width:34px;height:40px}.sg-train .order-num{width:25px;height:25px;font-size:13px}}

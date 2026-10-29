@@ -1,7 +1,7 @@
 /* Shared question selection; usable by the browser and Node verification. */
 (function(root){
   'use strict';
-  const QUESTION_MS=15000, QUESTION_COUNT=12;
+  const QUESTION_MS=15000, QUESTION_COUNT=8;
   function shuffle(items,random=Math.random){
     const result=[...items];
     for(let i=result.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[result[i],result[j]]=[result[j],result[i]];}
@@ -14,12 +14,13 @@
       keys.add(w.kelime);meanings.add(w.anlam);return true;
     });
   }
-  function chooseWord(words,used,opponentWord,random=Math.random){
+  function chooseWord(words,used,opponentWord,random=Math.random,previous=[]){
     // Reserve the word even while a wheel is spinning. Different speeds cannot
     // cause both players to receive the same live word later in the match.
     let options=words.filter(w=>w.kelime!==opponentWord&&!used.has(w.kelime));
     if(!options.length)options=words.filter(w=>w.kelime!==opponentWord);
     if(!options.length)throw Error('İki oyuncu için yeterli farklı içerik yok.');
+    const fresh=options.filter(w=>!previous.includes(w.kelime));if(fresh.length)options=fresh;
     return options[Math.floor(random()*options.length)];
   }
   function question(word,category,words,random=Math.random){
@@ -33,7 +34,11 @@
     if(wrong.length<3)throw Error('Dört farklı seçenek oluşturulamadı.');
     return {word:word.kelime,prompt,choices:shuffle([word[field],...shuffle(wrong,random).slice(0,3)],random),answer:word[field]};
   }
-  const api={QUESTION_MS,QUESTION_COUNT,shuffle,pool,chooseWord,question};
+  function selectRound(words,count,previous=[]){
+    const fresh=shuffle(words.filter(w=>!previous.includes(w.kelime)));
+    return [...fresh,...shuffle(words.filter(w=>previous.includes(w.kelime)))].slice(0,count);
+  }
+  const api={selectRound,QUESTION_MS,QUESTION_COUNT,shuffle,pool,chooseWord,question};
   if(typeof module!=='undefined'&&module.exports)module.exports=api;
   else root.dmClassroomCore=api;
 })(typeof window!=='undefined'?window:globalThis);
