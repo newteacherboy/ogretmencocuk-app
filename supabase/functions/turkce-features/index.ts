@@ -1,4 +1,4 @@
 import {createClient} from "npm:@supabase/supabase-js@2.118.0";
 import {features} from "./handler.mjs";
 const db=createClient(Deno.env.get('SUPABASE_URL')!,Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!,{auth:{persistSession:false,autoRefreshToken:false}});
-Deno.serve((req:Request)=>features(req,db));
+Deno.serve((req:Request)=>features(req,db,createClient(Deno.env.get('SUPABASE_URL')!,Deno.env.get('SUPABASE_ANON_KEY')!,{auth:{persistSession:false,autoRefreshToken:false}})));

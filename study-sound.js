@@ -1,0 +1,6 @@
+/* Short, locally synthesized feedback. No speech, downloads or audio network requests. */
+(()=>{'use strict';let context=null,muted=false;try{muted=localStorage.getItem('turkce-study-muted')==='true';}catch{}
+function prime(){try{const Audio=window.AudioContext||window.webkitAudioContext;if(!Audio||muted)return;context??=new Audio();const resumed=context.resume();resumed?.catch(()=>{});}catch{}}
+function play(correct){if(muted)return;prime();if(!context)return;try{const start=context.currentTime;const notes=correct?[[660,0,.1],[880,.09,.13],[1100,.19,.18]]:[[240,0,.14],[170,.13,.2]];for(const [frequency,offset,length]of notes){const oscillator=context.createOscillator(),gain=context.createGain();oscillator.type='sine';oscillator.frequency.value=frequency;oscillator.connect(gain);gain.connect(context.destination);gain.gain.setValueAtTime(.0001,start+offset);gain.gain.exponentialRampToValueAtTime(.08,start+offset+.012);gain.gain.exponentialRampToValueAtTime(.0001,start+offset+length);oscillator.start(start+offset);oscillator.stop(start+offset+length+.02);}}catch{}}
+window.turkceStudySound={prime,play,get muted(){return muted;},toggle(){muted=!muted;try{localStorage.setItem('turkce-study-muted',String(muted));}catch{}if(!muted){prime();play(true);}return muted;}};
+})();
