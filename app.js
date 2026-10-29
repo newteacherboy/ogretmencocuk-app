@@ -248,6 +248,7 @@ function redrawOrder(){
   root.innerHTML = currentOrderState.map((it,i)=>`<div class="order-item"><span class="order-num">${i+1}</span><span class="order-text">${it.text}</span><div class="order-actions"><button aria-label="${i+1}. vagonu yukarı taşı" ${i===0?'disabled':''} onclick="moveOrder(${i},-1)">↑</button><button aria-label="${i+1}. vagonu aşağı taşı" ${i===currentOrderState.length-1?'disabled':''} onclick="moveOrder(${i},1)">↓</button></div></div>`).join('');
 }
 function moveOrder(index,dir){
+  const control=document.getElementById('gameBtn');if(control&&(control.disabled||control.dataset.validated==='true'))return;
   const ni=index+dir; if(ni<0 || ni>=currentOrderState.length) return;
   [currentOrderState[index], currentOrderState[ni]] = [currentOrderState[ni], currentOrderState[index]];
   redrawOrder();
@@ -380,9 +381,11 @@ function goNextStop(id){
 }
 
 async function openGame(gameId){
-  const game = games.find(g=>g.id===gameId);
-  if(!game)return;
-  try{await window.turkceMember.ready;const run=await window.turkceMember.request('start',{mode:'game',activity_id:gameId});
+  const definition = games.find(g=>g.id===gameId);
+  if(!definition)return;
+  let game={...definition,questions:definition.questions.slice(0,5)};
+  try{await window.turkceMember.ready;const run=await window.turkceMember.request('start',{mode:'game',activity_id:gameId,game_version:2});
+  if(Array.isArray(run.questions)&&run.questions.length)game={...definition,questions:run.questions};
   state.game={game,index:run.index,serverAttempt:run,startedAt:Date.now()};}catch(e){showMapMessage(e.message);return;}
   refreshEconomy();
   renderGameQuestion();
@@ -395,8 +398,10 @@ function renderGameQuestion(){
   const nodes = game.questions.map((_,i)=>`<div class="pnode ${i<index?'done':''} ${i===index?'active':''}">${i+1}</div>`).join('');
   let body='';
   if(q.ordering){
-    currentOrderState=q.ordering.map((t,i)=>({text:t, original:i}));
-    body=`<div class="order-list" id="orderList"></div>`;
+    currentOrderState=window.dmClassroomCore.shuffle(q.ordering.map((text,original)=>({text,original})));
+    const expected=games.find(g=>g.id===game.id).questions[q.id??index]?.answerOrder;
+    if(currentOrderState.every((x,i)=>x.original===(expected?.[i]??i)))currentOrderState.push(currentOrderState.shift());
+    body=`<div class="sg-train-help"><b>🚂 İlk olay en üstte, son olay en altta.</b><span>↑ ile olayı öne, ↓ ile sonraya taşı. Bitirince sıralamayı kontrol et.</span></div><div class="sg-train-start">BAŞLANGIÇ · Önce ne oldu?</div><div class="order-list" id="orderList" aria-label="Olayları gerçekleşme sırasına diz"></div><div class="sg-train-end">BİTİŞ · En son ne oldu?</div>`;
   } else {
     body=`<div class="options" id="optionsArea">${q.choices.map((c,i)=>`<button class="option" data-index="${i}"><b>${String.fromCharCode(65+i)}</b><span>${c}</span></button>`).join('')}</div>`;
   }
@@ -404,7 +409,7 @@ function renderGameQuestion(){
     <div class="modal-card sg-modal sg-${gameKind}"><div class="modal-inner quiz-layout">
       <div class="quiz-top"><div class="crumbs"><button class="back-btn" onclick="showView('gamesView');closeModal()">←</button><span class="crumb-pill">${game.title}</span></div><div class="progress-nodes">${nodes}</div><div class="timer"><div class="timer-pill">⏱ <span id="elapsedClock">00:00</span></div><div class="timer-pill">${index+1}/${game.questions.length}</div></div></div>
       <div class="sg-adventure"><div class="sg-track" aria-label="Oyun ilerlemesi">${game.questions.map((_,i)=>`<span class="${i<index?'sg-completed':i===index?'sg-current':''}">${gameKind==='train'?'▰':gameKind==='tools'?['.',',','?','!','…'][i%5]:'◆'}</span>`).join('')}</div><strong>${gameKind==='train'?'Vagonları sırala, hikâyeyi yoluna koy!':gameKind==='tools'?'Doğru aracı seç, cümleyi onar!':'İpuçlarını birleştir, anlamı keşfet!'}</strong><span class="sg-combo" id="sgCombo">${state.game.combo||0} doğru seri</span></div>
-      <div class="quiz-card"><div class="q-card-left"><h3>${game.title}</h3><div class="question-title">${q.prompt || 'Vagonları yukarı ve aşağı taşıyarak olay sırasını kur.'}</div>${gameKind==='tools'?'<div class="sg-live-preview" aria-live="polite">Cümleyi tamamlayacak aracı seç.</div>':''}${body}<div class="q-actions"><div class="feedback-box" id="feedbackBox">Hazırsan cevapla.</div><button class="nav-btn nav-green" id="gameBtn">Kontrol Et</button></div></div><aside class="q-side"><div class="sg-scene sg-scene-${gameKind}" role="img" aria-label="${game.title} oyun sahnesi"></div><div class="mascot-mini"><h4>Papi’nin ipucu</h4><div class="mascot-speech">${gameKind==='train'?'Önce ne olmuş? Her vagonu doğru yerine taşı.':gameKind==='tools'?'Cümle soru mu soruyor, duygu mu anlatıyor? Seçmeden önce düşün.':'Sözcüğün cümledeki anlamını düşün, sonra doğru ipucunu seç.'}</div></div></aside></div>
+      <div class="quiz-card"><div class="q-card-left"><h3>${game.title}</h3><div class="question-title">${q.prompt || 'Bu olaylar hangi sırayla gerçekleşti?'}</div>${gameKind==='tools'?'<div class="sg-live-preview" aria-live="polite">Cümleyi tamamlayacak aracı seç.</div>':''}${body}<div class="q-actions"><div class="feedback-box" id="feedbackBox">Hazırsan cevapla.</div><button class="nav-btn nav-green" id="gameBtn">${q.ordering?"Sıralamayı Kontrol Et":"Kontrol Et"}</button></div></div><aside class="q-side"><div class="sg-scene sg-scene-${gameKind}" role="img" aria-label="${game.title} oyun sahnesi"></div><div class="mascot-mini"><h4>Papi’nin ipucu</h4><div class="mascot-speech">${gameKind==='train'?'Önce ne olmuş? Her vagonu doğru yerine taşı.':gameKind==='tools'?'Cümle soru mu soruyor, duygu mu anlatıyor? Seçmeden önce düşün.':'Sözcüğün cümledeki anlamını düşün, sonra doğru ipucunu seç.'}</div></div></aside></div>
     </div></div>
   `);
   if(q.ordering) redrawOrder();
@@ -417,8 +422,9 @@ async function checkGameQuestion(){
  const {game,index}=state.game,q=game.questions[index],fb=document.getElementById('feedbackBox');let answer;
  if(q.ordering)answer=currentOrderState.map(x=>x.original);else{const selected=document.querySelector('.option.selected');if(!selected){fb.textContent='Önce bir cevap seç.';return;}answer=Number(selected.dataset.index);}
  btn.disabled=true;try{const r=await window.turkceMember.request('answer',{attempt_id:state.game.serverAttempt.attempt_id,index,answer});state.game.serverResult=r;
- state.game.combo=r.correct?(state.game.combo||0)+1:0;const combo=document.getElementById('sgCombo');if(combo)combo.textContent=state.game.combo+' doğru seri';const scene=document.querySelector('.sg-modal');if(scene){scene.classList.remove('sg-success','sg-miss');void scene.offsetWidth;scene.classList.add(r.correct?'sg-success':'sg-miss');}if(q.choices)markOptionsAfterCheck(q.answer,r.correct,r.advanced);showAnswerFeedback(r.correct,fb,'Doğru cevap!',r.advanced?'Üç deneme tamamlandı. Sonraki soruya geç.':'Yeniden dene.');
- if(r.advanced){btn.dataset.validated='true';btn.textContent=r.done?'Sonuç Ekranı →':'Sonraki Soru →';btn.onclick=()=>{state.game.index=r.index;if(r.done)finishGame();else renderGameQuestion();};}
+ state.game.combo=r.correct?(state.game.combo||0)+1:0;const combo=document.getElementById('sgCombo');if(combo)combo.textContent=state.game.combo+' doğru seri';const scene=document.querySelector('.sg-modal');if(scene){scene.classList.remove('sg-success','sg-miss');void scene.offsetWidth;scene.classList.add(r.correct?'sg-success':'sg-miss');}if(q.choices)markOptionsAfterCheck(r.correct_answer??q.answer,r.correct,r.advanced);showAnswerFeedback(r.correct,fb,q.ordering?'Olayları doğru sıraya koydun!':'Doğru cevap!',q.ordering?'Sırayı yeniden düşün: İlk önce ne olmalı?':r.advanced?'Üç deneme tamamlandı. Sonraki soruya geç.':'Yeniden dene.');
+ if(q.ordering&&r.advanced&&!r.correct&&Array.isArray(r.correct_answer))fb.textContent='Doğru sıra: '+r.correct_answer.map(i=>q.ordering[i]).join(' → ');
+ if(r.advanced){document.querySelectorAll('#optionsArea button,#orderList button').forEach(el=>el.disabled=true);btn.dataset.validated='true';btn.textContent=r.done?'Sonuç Ekranı →':'Sonraki Soru →';btn.onclick=()=>{state.game.index=r.index;if(r.done)finishGame();else renderGameQuestion();};}
  }catch(e){fb.textContent=e.message;}finally{btn.disabled=false;}
 }
 

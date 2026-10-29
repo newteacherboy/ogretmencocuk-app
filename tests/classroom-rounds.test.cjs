@@ -28,6 +28,24 @@ test('example collisions fall back to a valid question',()=>{
  const q=core.question(repeated[0],2,repeated);
  assert.equal(new Set(q.choices).size,4);assert.equal(q.answer,repeated[0].anlam);
 });
-test('round limit is 15 seconds and each player gets 12 questions',()=>{
- assert.equal(core.QUESTION_MS,15000);assert.equal(core.QUESTION_COUNT,12);
+test('round limit is 15 seconds and each player gets 8 questions',()=>{
+ assert.equal(core.QUESTION_MS,15000);assert.equal(core.QUESTION_COUNT,8);
+});
+test('replaying selects eight new words before reusing the previous round',()=>{
+ let previous=[];
+ for(let round=0;round<20;round++){
+  const deck=core.selectRound(words,8,previous);
+  assert.equal(deck.length,8);assert.equal(new Set(deck.map(w=>w.kelime)).size,8);
+  assert(deck.every(w=>!previous.includes(w.kelime)));
+  previous=deck.map(w=>w.kelime);
+ }
+});
+test('each duelist avoids their last match while keeping concurrent questions different',()=>{
+ const previous=[words.slice(0,8).map(w=>w.kelime),words.slice(8,16).map(w=>w.kelime)];
+ const players=[{used:new Set()},{used:new Set()}];
+ for(let round=0;round<8;round++)for(const i of [0,1]){
+  const p=players[i];p.word=core.chooseWord(words,p.used,players[1-i].word?.kelime,Math.random,previous[i]);p.used.add(p.word.kelime);
+  assert(!previous[i].includes(p.word.kelime));assert.notEqual(p.word.kelime,players[1-i].word?.kelime);
+ }
+ assert.equal(players[0].used.size,8);assert.equal(players[1].used.size,8);
 });

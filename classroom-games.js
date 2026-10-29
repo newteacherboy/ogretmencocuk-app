@@ -3,21 +3,26 @@
 const titles={arena:'Bilgi Arenası',wheel:'Anlam Çarkı',bridge:'Anlam Köprüsü'},E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),mix=a=>[...a].sort(()=>Math.random()-.5);
 const core=window.dmClassroomCore;
 let run=null,clock=null,audio=null,serial=0;
+const histories=new Map();
+function history(key){try{return JSON.parse(sessionStorage.getItem('tr-round:'+key))||[];}catch{return histories.get(key)||[];}}
+function remember(key,words){histories.set(key,words);try{sessionStorage.setItem('tr-round:'+key,JSON.stringify(words));}catch{}}
 const later=(f,ms)=>{const s=run;const id=setTimeout(()=>{s?.jobs.delete(id);if(run===s)f();},ms);s.jobs.add(id);};
 function sound(ok){try{audio??=new AudioContext();void audio.resume();const o=audio.createOscillator(),g=audio.createGain();o.connect(g);g.connect(audio.destination);o.frequency.value=ok?660:190;g.gain.setValueAtTime(.06,audio.currentTime);g.gain.exponentialRampToValueAtTime(.001,audio.currentTime+.18);o.start();o.stop(audio.currentTime+.2);}catch{}}
 function close(){serial++;clearInterval(clock);clock=null;if(run){for(const j of run.jobs)clearTimeout(j);run.root.remove();run.focus?.focus();run=null;}document.body.classList.remove('classroom-playing');}
 async function open(kind){close();const token=serial,previousFocus=document.activeElement;const root=document.createElement('section');root.className='cg-overlay';root.setAttribute('role','dialog');root.setAttribute('aria-modal','true');root.setAttribute('aria-label',titles[kind]);root.innerHTML='<p>Oyun içeriği hazırlanıyor…</p>';document.body.append(root);document.body.classList.add('classroom-playing');run={root,kind,jobs:new Set(),focus:previousFocus};try{const response=await fetch('content/turkce/parkur-5.json?v=classroom-1');if(!response.ok)throw Error('İçerik yüklenemedi.');const bank=await response.json();if(serial!==token)return;run.themes=bank.themes;setup();}catch{if(serial===token){root.innerHTML='<div class="cg-setup"><h1>İçerik yüklenemedi</h1><button data-cg="exit">Oyunlara dön</button></div>';root.onclick=click;}}}
-function setup(){const s=run;clearInterval(clock);for(const j of s.jobs)clearTimeout(j);s.jobs.clear();s.root.classList.remove('cg-live');s.root.className='cg-overlay cg-scene-'+s.kind;s.root.innerHTML=`<div class="cg-setup"><h1>${titles[s.kind]}</h1><p>${s.kind==='bridge'?'Her tur 4 çift. Doğru eşler yeşil kalır.':'Aynı ekranda iki oyuncu, ayrı cevaplar ve ayrı süreler.'}</p><label>Tema<select id="cg-theme">${s.themes.map((t,i)=>`<option value="${i}">${t.number}. Tema · ${E(t.title)}</option>`).join('')}</select></label>${s.kind==='bridge'?'':`<label>1. oyuncu<input id="cg-name-0" maxlength="24" value="Ece"></label><label>2. oyuncu<input id="cg-name-1" maxlength="24" value="Ali"></label>`}<p>Bu oyunlarda maç puanı hesaplanır. XP, altın ve enerji değişmez.</p><button data-cg="start">▶ Oyuna Başla</button><button data-cg="exit">Oyunlara dön</button></div>`;s.root.onclick=click;s.root.onkeydown=keys;s.root.querySelector('button').focus();}
+function setup(){const s=run;clearInterval(clock);for(const j of s.jobs)clearTimeout(j);s.jobs.clear();s.root.classList.remove('cg-live');s.root.className='cg-overlay cg-scene-'+s.kind;s.root.innerHTML=`<div class="cg-setup"><h1>${titles[s.kind]}</h1><p>${s.kind==='bridge'?'4 çift × 2 tur · Toplam 8 eş. Doğru eşler yeşil kalır.':'İki oyuncu · Kişi başı 8 soru · Her soru 15 saniye.'}</p><label>Tema<select id="cg-theme">${s.themes.map((t,i)=>`<option value="${i}">${t.number}. Tema · ${E(t.title)}</option>`).join('')}</select></label>${s.kind==='bridge'?'':`<label>1. oyuncu<input id="cg-name-0" maxlength="24" value="Ece"></label><label>2. oyuncu<input id="cg-name-1" maxlength="24" value="Ali"></label>`}<p>Bu oyunlarda maç puanı hesaplanır. XP, altın ve enerji değişmez.</p><button data-cg="start">▶ Oyuna Başla</button><button data-cg="exit">Oyunlara dön</button></div>`;s.root.onclick=click;s.root.onkeydown=keys;s.root.querySelector('button').focus();}
 function reserveQuestion(playerIndex){
  const s=run,p=s.players[playerIndex],other=s.players[1-playerIndex];
- p.word=core.chooseWord(s.pool,p.used,other.word?.kelime);p.used.add(p.word.kelime);
+ p.word=core.chooseWord(s.pool,p.used,other.word?.kelime,Math.random,p.previous);p.used.add(p.word.kelime);remember(s.historyKey+':'+playerIndex,[...p.used]);
  p.question=core.question(p.word,1,s.pool);
 }
 function start(){
  const s=run;s.pool=core.pool(s.themes[Number(s.root.querySelector('#cg-theme').value)].words);
- s.words=core.shuffle(s.pool).slice(0,12);
+ s.historyKey=s.kind+':'+s.root.querySelector('#cg-theme').value;
+ s.words=core.selectRound(s.pool,8,history(s.historyKey));
+ if(s.kind==='bridge')remember(s.historyKey,s.words.map(w=>w.kelime));
  s.names=[0,1].map(i=>s.root.querySelector('#cg-name-'+i)?.value.trim()||'Oyuncu '+(i+1));
- s.started=Date.now();s.players=[0,1].map(()=>({index:0,score:0,right:0,wrong:0,used:new Set(),phase:s.kind==='wheel'?'spin':'answer',deadline:Date.now()+core.QUESTION_MS,rotation:0}));
+ s.started=Date.now();s.players=[0,1].map((i)=>({index:0,score:0,right:0,wrong:0,used:new Set(),previous:history(s.historyKey+':'+i),phase:s.kind==='wheel'?'spin':'answer',deadline:Date.now()+core.QUESTION_MS,rotation:0}));
  s.round=0;s.matches=new Set();s.selected=null;s.misses=0;s.root.classList.add('cg-live');
  if(s.words.length<4)return setup();
  if(s.kind==='bridge')pairRound();else{reserveQuestion(0);reserveQuestion(1);render();}
@@ -49,7 +54,7 @@ function cards(){
  const grid=document.querySelector('#gameGrid');if(!grid)return;
  for(const [id,title] of Object.entries(titles)){
   const target=document.querySelector(id==='bridge'?'#soloGames':'#duelGames')||grid;
-  target.insertAdjacentHTML('beforeend',`<article class="modern-game-card cg-card"><div class="game-illustration cg-cover cg-cover-${id}" role="img" aria-label="${title}"></div><div class="game-details"><h2>${title}</h2><p>${id==='bridge'?'4 çift × 3 tur · Anlamları buluştur.':'İki oyuncu · Farklı sorular · 15 saniye'}</p><div class="game-card-actions"><span>Serbest oyun</span><button class="modern-play" data-classroom="${id}">Oyuna Başla</button></div></div></article>`);
+  target.insertAdjacentHTML('beforeend',`<article class="modern-game-card cg-card"><div class="game-illustration cg-cover cg-cover-${id}" role="img" aria-label="${title}"></div><div class="game-details"><h2>${title}</h2><p>${id==='bridge'?'4 çift × 2 tur · 8 eşleştirme.':'İki oyuncu · 8 soru · 15 saniye'}</p><div class="game-card-actions"><span>Serbest oyun</span><button class="modern-play" data-classroom="${id}">Oyuna Başla</button></div></div></article>`);
  }
  grid.addEventListener('click',e=>{const b=e.target.closest('[data-classroom]');if(b)void open(b.dataset.classroom);});
 }
