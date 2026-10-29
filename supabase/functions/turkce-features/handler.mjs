@@ -1,6 +1,6 @@
 const headers={'Access-Control-Allow-Origin':'https://ogretmencocuk.com','Access-Control-Allow-Headers':'authorization, apikey, content-type, x-client-info','Access-Control-Allow-Methods':'POST, OPTIONS','Content-Type':'application/json','Cache-Control':'no-store'};
 const accountOps=new Set(['profile','profile_update','report','missions','mission_claim','route_status','route_start','route_answer','avatars','username']);
-const allowed=new Set(['social','like','study_start','study_answer','study_status',...accountOps,'account_username','account_password']),rates=new Map();
+const allowed=new Set(['topic_status','topic_start','topic_answer','badges','social','like','study_start','study_answer','study_status',...accountOps,'account_username','account_password']),rates=new Map();
 export async function features(req,db,authClient){
  const send=(data,status=200)=>new Response(JSON.stringify(data),{status,headers});
  if(req.method==='OPTIONS')return send({ok:true});if(req.method!=='POST')return send({ok:false,message:'POST gerekli.'},405);
@@ -25,7 +25,7 @@ export async function features(req,db,authClient){
   }
   operation='username';payload={request_id:payload.request_id,username:String(payload.username||'').trim().toLocaleLowerCase('tr-TR').replace(/[çğıöşü]/g,c=>({'ç':'c','ğ':'g','ı':'i','ö':'o','ş':'s','ü':'u'}[c]))};
  }
- const r=await db.rpc(accountOps.has(operation)?'turkce_account_request':'turkce_features_request',{actor:uid,op:operation,p:payload});
+ const r=await db.rpc(operation.startsWith('topic_')?'turkce_topic_games_request':operation==='badges'?'turkce_badges_request':accountOps.has(operation)?'turkce_account_request':'turkce_features_request',{actor:uid,op:operation,p:payload});
  if(r.error)return send({ok:false,message:r.error.code==='P0001'?r.error.message:'İşlem tamamlanamadı.'},400);
  return send({...r.data,is_admin:data.user.app_metadata?.turkce_role==='admin'});
 }

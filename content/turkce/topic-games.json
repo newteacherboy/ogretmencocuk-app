@@ -1,0 +1,185 @@
+{
+  "grade": 5,
+  "lessons": [
+    {
+      "id": "5-1-hece",
+      "title": "Hece yapısı ve satır sonunda kelimeyi bölme",
+      "theme": 1,
+      "themeTitle": "Oyun Dünyası"
+    },
+    {
+      "id": "5-1-nokta",
+      "title": "Nokta nerede kullanılır?",
+      "theme": 1,
+      "themeTitle": "Oyun Dünyası"
+    },
+    {
+      "id": "5-1-kisa-cizgi",
+      "title": "Kısa çizgi: satır sonu ve heceleri gösterme",
+      "theme": 1,
+      "themeTitle": "Oyun Dünyası"
+    },
+    {
+      "id": "5-1-isim-fiil",
+      "title": "İsim mi, fiil mi?",
+      "theme": 1,
+      "themeTitle": "Oyun Dünyası"
+    },
+    {
+      "id": "5-1-tahmin",
+      "title": "Tahmin bildiren ifadeler",
+      "theme": 1,
+      "themeTitle": "Oyun Dünyası"
+    },
+    {
+      "id": "5-2-buyuk-harf",
+      "title": "Büyük harflerin yazımı (1. bölüm)",
+      "theme": 2,
+      "themeTitle": "Atatürk'ü Tanımak"
+    },
+    {
+      "id": "5-2-virgul",
+      "title": "Virgülün kullanımı",
+      "theme": 2,
+      "themeTitle": "Atatürk'ü Tanımak"
+    },
+    {
+      "id": "5-2-soru-isareti",
+      "title": "Soru işaretinin kullanımı",
+      "theme": 2,
+      "themeTitle": "Atatürk'ü Tanımak"
+    },
+    {
+      "id": "5-2-ismi-niteleyen",
+      "title": "İsmi niteleyen ve belirten sözcükler",
+      "theme": 2,
+      "themeTitle": "Atatürk'ü Tanımak"
+    },
+    {
+      "id": "5-2-sifat-fiil",
+      "title": "İsmi niteleyen fiilimsi yapıları",
+      "theme": 2,
+      "themeTitle": "Atatürk'ü Tanımak"
+    },
+    {
+      "id": "5-2-ekleme",
+      "title": "Ekleme bildiren bağlantı ifadeleri (ayrıca, hatta, üstelik…)",
+      "theme": 2,
+      "themeTitle": "Atatürk'ü Tanımak"
+    },
+    {
+      "id": "5-3-buyuk-harf",
+      "title": "Büyük harflerin yazımı (2. bölüm)",
+      "theme": 3,
+      "themeTitle": "Duygularımı Tanıyorum"
+    },
+    {
+      "id": "5-3-unlem",
+      "title": "Ünlem işaretinin kullanımı",
+      "theme": 3,
+      "themeTitle": "Duygularımı Tanıyorum"
+    },
+    {
+      "id": "5-3-uzun-cizgi",
+      "title": "Konuşma çizgisi (uzun çizgi)",
+      "theme": 3,
+      "themeTitle": "Duygularımı Tanıyorum"
+    },
+    {
+      "id": "5-3-isimler",
+      "title": "İsimlerin özellikleri",
+      "theme": 3,
+      "themeTitle": "Duygularımı Tanıyorum"
+    },
+    {
+      "id": "5-3-amac",
+      "title": "Amaç bildiren ifadeler",
+      "theme": 3,
+      "themeTitle": "Duygularımı Tanıyorum"
+    },
+    {
+      "id": "5-3-duygu",
+      "title": "Duygu bildiren ifadeler (dilek, pişmanlık, şaşırma…)",
+      "theme": 3,
+      "themeTitle": "Duygularımı Tanıyorum"
+    },
+    {
+      "id": "5-4-sayilar",
+      "title": "Sayıların yazımı",
+      "theme": 4,
+      "themeTitle": "Geleneklerimiz"
+    },
+    {
+      "id": "5-4-uc-nokta",
+      "title": "Üç noktanın kullanımı",
+      "theme": 4,
+      "themeTitle": "Geleneklerimiz"
+    },
+    {
+      "id": "5-4-kesme",
+      "title": "Kesme işaretinin kullanımı",
+      "theme": 4,
+      "themeTitle": "Geleneklerimiz"
+    },
+    {
+      "id": "5-4-karsilastirma",
+      "title": "Karşılaştırma, benzerlik ve farklılık bildiren ifadeler",
+      "theme": 4,
+      "themeTitle": "Geleneklerimiz"
+    },
+    {
+      "id": "5-4-ozet",
+      "title": "Özet bildiren ifadeler (kısacası, özetle…)",
+      "theme": 4,
+      "themeTitle": "Geleneklerimiz"
+    },
+    {
+      "id": "5-4-zamir",
+      "title": "İsmin yerini tutan sözcükler",
+      "theme": 4,
+      "themeTitle": "Geleneklerimiz"
+    },
+    {
+      "id": "5-5-zaman-baglac",
+      "title": "Zaman bildiren bağlantı ifadeleri (önce, sonra, bu sırada…)",
+      "theme": 5,
+      "themeTitle": "İletişim ve Sosyal İlişkiler"
+    },
+    {
+      "id": "5-5-buyuk-harf",
+      "title": "Büyük harflerin yazımı (3. bölüm)",
+      "theme": 5,
+      "themeTitle": "İletişim ve Sosyal İlişkiler"
+    },
+    {
+      "id": "5-5-tirnak",
+      "title": "Tırnak işaretinin kullanımı",
+      "theme": 5,
+      "themeTitle": "İletişim ve Sosyal İlişkiler"
+    },
+    {
+      "id": "5-5-anlam-butunlugu",
+      "title": "Anlamca çelişen sözcükler (anlam bütünlüğü)",
+      "theme": 5,
+      "themeTitle": "İletişim ve Sosyal İlişkiler"
+    },
+    {
+      "id": "5-5-yeniden-kurma",
+      "title": "Cümleyi kendi ifadeleriyle yeniden kurma",
+      "theme": 5,
+      "themeTitle": "İletişim ve Sosyal İlişkiler"
+    },
+    {
+      "id": "5-6-ornek",
+      "title": "Örnek bildiren bağlantı ifadeleri (örneğin, mesela…)",
+      "theme": 6,
+      "themeTitle": "Sağlıklı Yaşıyorum"
+    },
+    {
+      "id": "5-6-tekrar",
+      "title": "Yazım ve noktalama genel tekrar",
+      "theme": 6,
+      "themeTitle": "Sağlıklı Yaşıyorum"
+    }
+  ]
+}

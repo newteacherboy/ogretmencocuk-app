@@ -78,13 +78,15 @@ function showProgress(){
   openModal(`<div class="modal-card"><div class="modal-inner"><div class="stop-header"><h2>İlerlemem</h2><button class="back-btn" onclick="closeModal()">×</button></div><p>5. Sınıf · Oyun Dünyası</p><div class="detail-grid"><div class="detail"><strong>${state.completed.length} / 24</strong><span>Tamamlanan durak</span></div><div class="detail"><strong>${24-state.completed.length}</strong><span>Kalan durak</span></div><div class="detail"><strong>Güvenli hesap</strong><span>İlerlemen sunucuda tutulur</span></div></div><button class="large-start" onclick="closeModal();openStopIntro(getNextUnlockedStopId())">Kaldığım yerden devam et →</button></div></div>`);
 }
 
-let quizTimerId=null;
+let quizTimerId=null,stopAdvanceTimer=null;
+function cancelStopAdvance(){clearTimeout(stopAdvanceTimer);stopAdvanceTimer=null;}
 function stopQuizTimer(){if(quizTimerId!==null){clearInterval(quizTimerId);quizTimerId=null}}
 function startQuizTimer(startedAt=state.startedAt||Date.now()){stopQuizTimer();const tick=()=>{const el=document.getElementById('elapsedClock');if(el){const secs=Math.max(0,Math.floor((Date.now()-startedAt)/1000));el.textContent=String(Math.floor(secs/60)).padStart(2,'0')+':'+String(secs%60).padStart(2,'0')}};tick();quizTimerId=setInterval(tick,1000)}
 function openModal(content){
+  cancelStopAdvance();
   modalRoot.innerHTML = `<div class="modal-backdrop${content.includes('quiz-layout') ? ' quiz-screen' : ''}">${content}</div>`;
 }
-function closeModal(){stopQuizTimer();modalRoot.innerHTML=''; }
+function closeModal(){cancelStopAdvance();stopQuizTimer();modalRoot.innerHTML=''; }
 
 function openStopIntro(stopId){
   const stop = stops.find(s=>s.id===stopId);
@@ -149,7 +151,7 @@ function renderQuestion(){
   } else if(q.type==='reading_mcq'){
     leftHtml = `<div class="reading-box">${q.text}</div>`;
   } else if(q.type==='ordering'){
-    leftHtml = `<div class="order-list" id="orderList">${q.items.map((it,i)=>orderItemTemplate(it,i)).join('')}</div>`;
+    leftHtml = `<div class="stop-order-help">↑ ↓ Kartları ilk olaydan son olaya sırala.</div><div class="order-live" id="orderLive" aria-live="polite">Kartın rengi ve harfi onu takip etmeni sağlar.</div><div class="order-list" id="orderList">${q.items.map((it,i)=>orderItemTemplate(it,i)).join('')}</div>`;
   } else if(q.type==='text'){
     leftHtml = `${q.image?`<figure class="image-panel question-illustration"><img src="${q.image}" alt="${q.imageAlt}" width="1050" height="700"><figcaption hidden>${q.imageAlt}</figcaption></figure>`:''}<div class="text-box"><textarea id="textAnswer" maxlength="220" placeholder="${q.placeholder || ''}"></textarea><div class="text-meta"><span>8–220 karakterlik bir cümle yaz. Birden fazla yanıt olabilir.</span><span id="charCount">0/220</span></div></div>`;
   } else {
@@ -243,15 +245,19 @@ function bindOrdering(){
   currentOrderState = q.items.map((text,idx)=>({text, original: idx}));
   redrawOrder();
 }
-function redrawOrder(){
+function redrawOrder(moved){
   const root=document.getElementById('orderList'); if(!root) return;
-  root.innerHTML = currentOrderState.map((it,i)=>`<div class="order-item"><span class="order-num">${i+1}</span><span class="order-text">${it.text}</span><div class="order-actions"><button aria-label="${i+1}. vagonu yukarı taşı" ${i===0?'disabled':''} onclick="moveOrder(${i},-1)">↑</button><button aria-label="${i+1}. vagonu aşağı taşı" ${i===currentOrderState.length-1?'disabled':''} onclick="moveOrder(${i},1)">↓</button></div></div>`).join('');
+  root.innerHTML = currentOrderState.map((it,i)=>`<div class="order-item ${it.original===moved?'order-moved':''}" data-order-original="${it.original}" style="--order-color:${['#3688c9','#b77c25','#8c69c5','#3b9b79'][it.original%4]}"><span class="order-num">${i+1}</span><span class="order-identity">${'ABCD'[it.original]}</span><span class="order-text">${it.text}</span><div class="order-actions"><button aria-label="${i+1}. vagonu yukarı taşı" ${i===0?'disabled':''} onclick="moveOrder(${i},-1)">↑</button><button aria-label="${i+1}. vagonu aşağı taşı" ${i===currentOrderState.length-1?'disabled':''} onclick="moveOrder(${i},1)">↓</button></div></div>`).join('');
 }
 function moveOrder(index,dir){
-  const control=document.getElementById('gameBtn');if(control&&(control.disabled||control.dataset.validated==='true'))return;
+  const control=document.getElementById('gameBtn')||document.getElementById('actionBtn');if(control&&(control.disabled||control.dataset.validated==='true'))return;
   const ni=index+dir; if(ni<0 || ni>=currentOrderState.length) return;
+  const positions=new Map([...document.querySelectorAll('#orderList [data-order-original]')].map(e=>[e.dataset.orderOriginal,e.getBoundingClientRect().top]));
+  const moved=currentOrderState[index].original;
   [currentOrderState[index], currentOrderState[ni]] = [currentOrderState[ni], currentOrderState[index]];
-  redrawOrder();
+  redrawOrder(moved);
+  if(!matchMedia('(prefers-reduced-motion: reduce)').matches)document.querySelectorAll('#orderList [data-order-original]').forEach(el=>{const y=positions.get(el.dataset.orderOriginal)-el.getBoundingClientRect().top;if(y)el.animate([{transform:`translateY(${y}px)`},{transform:'translateY(0)'}],{duration:280,easing:'ease-out'});});
+  const note=document.getElementById('orderLive');if(note)note.textContent=`${'ABCD'[moved]} kartı ${index+1}. sıradan ${ni+1}. sıraya taşındı.`;
 }
 
 
@@ -291,6 +297,7 @@ function markOptionsAfterCheck(answer,correct,reveal=false){
 }
 
 function showStopAnswer(q,r,playSound){
+ cancelStopAdvance();
  const btn=document.getElementById('actionBtn'),fb=document.getElementById('feedbackBox');
  if(q.choices)markOptionsAfterCheck(r.correct_answer,r.correct,r.advanced);
  let solution='';
@@ -308,11 +315,13 @@ function showStopAnswer(q,r,playSound){
  if(r.advanced){
    document.querySelectorAll('#optionsArea button,#orderList button,#textAnswer').forEach(el=>el.disabled=true);
    btn.dataset.validated='true';btn.textContent=state.currentQuestionIndex===state.currentStop.questions.length-1?'Sonuç Ekranına Geç →':'Sonraki Soru →';btn.onclick=nextQuestion;
+   if(r.correct===true&&playSound){document.querySelector('.quiz-card')?.classList.add('stop-answer-correct');document.querySelectorAll('#orderList .order-item').forEach(el=>el.classList.add('order-correct'));btn.dataset.autoAdvancing='true';btn.disabled=true;btn.textContent='✓ Doğru! İlerliyoruz…';const attempt=state.serverAttempt.attempt_id,index=state.currentQuestionIndex;stopAdvanceTimer=setTimeout(()=>{if(document.getElementById('actionBtn')===btn&&state.serverAttempt.attempt_id===attempt&&state.currentQuestionIndex===index)nextQuestion();},850);}
+   else btn.textContent=state.currentQuestionIndex===state.currentStop.questions.length-1?'Devam · Sonucu gör →':'Devam →';
  }
 }
 async function checkQuestion(){
  const btn=document.getElementById('actionBtn');if(!btn||btn.disabled||btn.dataset.validated==='true')return;
- const index=state.currentQuestionIndex,q=state.currentStop.questions[index],fb=document.getElementById('feedbackBox');
+ const index=state.currentQuestionIndex,q=state.currentStop.questions[index],fb=document.getElementById('feedbackBox'),attempt=state.serverAttempt.attempt_id;
  const answer=stopAnswerDraft();
  if(q.type==='text'&&(answer.trim().length<8||answer.trim().length>220)){showStopAnswer(q,{advanced:false,correct:false,ungraded:true},false);return;}
  if(q.choices&&answer===undefined){fb.textContent='Önce bir seçenek işaretle.';return;}
@@ -320,15 +329,18 @@ async function checkQuestion(){
  document.querySelectorAll('#optionsArea button,#orderList button,#textAnswer').forEach(el=>el.disabled=true);
  try{
    const r=await window.turkceMember.request('answer',{attempt_id:state.serverAttempt.attempt_id,index,answer:typeof answer==='string'?answer.trim():answer});
+   if(document.getElementById('actionBtn')!==btn||state.serverAttempt.attempt_id!==attempt)return;
    state.serverResult=r;state.stopSession.drafts[index]=answer;
    if(r.advanced){state.stopSession.results[index]={answer,result:r};state.stopSession.frontier=r.index;}
    showStopAnswer(q,r,true);
- }catch(e){fb.textContent=e.message;}finally{
-   btn.disabled=false;document.getElementById('previousQuestionBtn').disabled=index===0;
+ }catch(e){if(document.getElementById('actionBtn')===btn)fb.textContent=e.message;}finally{
+   if(document.getElementById('actionBtn')!==btn)return;
+   btn.disabled=btn.dataset.autoAdvancing==='true';document.getElementById('previousQuestionBtn').disabled=index===0;
    if(btn.dataset.validated!=='true')document.querySelectorAll('#optionsArea button,#orderList button,#textAnswer').forEach(el=>el.disabled=false);
  }
 }
 function nextQuestion(){
+ cancelStopAdvance();
  if(state.currentQuestionIndex>=state.stopSession.frontier)return;
  state.currentQuestionIndex++;
  if(state.currentQuestionIndex>=state.currentStop.questions.length)finishStop();else renderQuestion();
@@ -346,13 +358,13 @@ function finishStop(){
         <div class="result-header">
           <button class="back-btn" onclick="closeModal()">←</button>
           <div class="crumbs"><span class="crumb-pill">${state.currentStop.id}. Durak tamamlandı</span></div>
-          <div></div>
+          <button type="button" class="back-btn result-close" aria-label="Sonuç ekranını kapat" onclick="closeModal()">×</button>
         </div>
         <div class="result-banner">
           <div>
             <div class="stars">⭐ ⭐ ⭐</div>
             <div class="big-title">${reward.passed?"Harika!":"Biraz daha çalışalım"}</div>
-            <div class="mascot-speech">${correct} soruyu ilk denemede doğru cevapladın. Yazma görevleri otomatik puanlanmaz. ${reward.passed?"":"Geçmek için puanlanan sorularda en az %60 başarı gerekli."}</div><div class="reward-summary">✨ +${reward.xp} XP &nbsp; 🪙 +${reward.gold} Altın ${reward.repeat?"(Tekrar ödülü yok)":""}</div>
+            <div class="mascot-speech">${correct} soruyu ilk denemede doğru cevapladın. ${reward.passed?"":"Geçmek için puanlanan sorularda en az %60 başarı gerekli."}</div><div class="reward-summary">✨ +${reward.xp} XP &nbsp; 🪙 +${reward.gold} Altın ${reward.repeat?"(Tekrar ödülü yok)":""}</div>
           </div>
           <div>
             <div class="result-stats">
@@ -440,9 +452,10 @@ function finishGame(){
 }
 
 function setGameCategory(category){
-  const solo=category==='solo';
-  document.getElementById('soloGames').hidden=!solo;
-  document.getElementById('duelGames').hidden=solo;
+  document.getElementById('soloGames').hidden=category!=='solo';
+  document.getElementById('duelGames').hidden=category!=='duel';
+  document.getElementById('topicGames').hidden=category!=='topics';
+  if(category==='topics')window.turkceTopicGames?.open();else window.turkceTopicGames?.cancel();
   for(const button of document.querySelectorAll('[data-game-category]')){
     const selected=button.dataset.gameCategory===category;
     button.setAttribute('aria-selected',String(selected));
@@ -452,11 +465,12 @@ function setGameCategory(category){
 function renderGames(){
   const grid=document.getElementById('gameGrid');
   grid.classList.remove('modern-game-grid');grid.classList.add('games-browser');
-  grid.innerHTML=`<div class="game-category-tabs" role="tablist" aria-label="Oyun türü"><button type="button" role="tab" id="soloTab" data-game-category="solo" aria-selected="true" aria-controls="soloGames" onclick="setGameCategory('solo')">Tek Kişilik</button><button type="button" role="tab" id="duelTab" data-game-category="duel" aria-selected="false" aria-controls="duelGames" tabindex="-1" onclick="setGameCategory('duel')">İki Kişilik</button></div><div id="soloGames" class="modern-game-grid" role="tabpanel" aria-labelledby="soloTab">${games.map((g,i)=>`<article class="modern-game-card game-tone-${i}"><div class="game-illustration game-art-${i}" role="img" aria-label="${g.title} oyun çizimi"></div><div class="game-details"><h2>${g.title}</h2><p>${g.description}</p><div class="game-card-actions"><span class="game-energy"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m13 1-10 13h8l-1 9L22 9h-9l2-8z"/></svg>3 Enerji</span><button class="modern-play" onclick="openGame('${g.id}')" aria-label="${g.title} — Oyuna Başla"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 2v20l17-10z"/></svg><span>Oyuna Başla</span></button></div></div></article>`).join('')}</div><div id="duelGames" class="modern-game-grid" role="tabpanel" aria-labelledby="duelTab" hidden></div>`;
+  grid.innerHTML=`<div class="game-category-tabs" role="tablist" aria-label="Oyun türü"><button type="button" role="tab" id="soloTab" data-game-category="solo" aria-selected="true" aria-controls="soloGames" onclick="setGameCategory('solo')">Tek Kişilik</button><button type="button" role="tab" id="duelTab" data-game-category="duel" aria-selected="false" aria-controls="duelGames" tabindex="-1" onclick="setGameCategory('duel')">İki Kişilik</button><button type="button" role="tab" id="topicsTab" data-game-category="topics" aria-selected="false" aria-controls="topicGames" tabindex="-1" onclick="setGameCategory('topics')">Konu Oyunları</button></div><div id="soloGames" class="modern-game-grid" role="tabpanel" aria-labelledby="soloTab">${games.map((g,i)=>`<article class="modern-game-card game-tone-${i}"><div class="game-illustration game-art-${i}" role="img" aria-label="${g.title} oyun çizimi"></div><div class="game-details"><h2>${g.title}</h2><p>${g.description}</p><div class="game-card-actions"><span class="game-energy"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m13 1-10 13h8l-1 9L22 9h-9l2-8z"/></svg>3 Enerji</span><button class="modern-play" onclick="openGame('${g.id}')" aria-label="${g.title} — Oyuna Başla"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 2v20l17-10z"/></svg><span>Oyuna Başla</span></button></div></div></article>`).join('')}</div><div id="duelGames" class="modern-game-grid" role="tabpanel" aria-labelledby="duelTab" hidden></div><div id="topicGames" role="tabpanel" aria-labelledby="topicsTab" hidden></div>`;
   grid.querySelector('[role=tablist]').addEventListener('keydown',event=>{
     if(!['ArrowLeft','ArrowRight','Home','End'].includes(event.key))return;
     event.preventDefault();const current=document.querySelector('[data-game-category][aria-selected=true]').dataset.gameCategory;
-    const next=event.key==='Home'?'solo':event.key==='End'?'duel':current==='solo'?'duel':'solo';
+    const categories=['solo','duel','topics'],index=categories.indexOf(current);
+    const next=event.key==='Home'?'solo':event.key==='End'?'topics':categories[(index+(event.key==='ArrowRight'?1:2))%3];
     setGameCategory(next);document.querySelector(`[data-game-category="${next}"]`).focus();
   });
 }
